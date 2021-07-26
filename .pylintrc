@@ -1,0 +1,20 @@
+[MASTER]
+init-hook='import sys; sys.path.append(".")'
+disable=
+    C0114, # missing-module-docstring
+    C0115, # missing-class-docstring
+    C0116, #missing-function-docstring
+    multiple-statements,
+    no-else-return,
+    broad-except,
+    no-self-use,
+    logging-fstring-interpolation,
+    invalid-name,
+    no-else-raise,
+    raise-missing-from,
+    too-few-public-methods,
+    unsubscriptable-object,
+    wrong-import-order
+
+[FORMAT]
+max-line-length=240
