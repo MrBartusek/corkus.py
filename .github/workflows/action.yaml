@@ -65,7 +65,10 @@ jobs:
         id: python
         with:
           python-version: 3.x
-      
+
+      - name: 📦 Install dependencies
+        run:  python3 -m pip --disable-pip-version-check install -r requirements.txt
+
       - name: 📜 Generate Report
         run: |
           pip install coverage
