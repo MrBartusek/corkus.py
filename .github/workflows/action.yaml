@@ -45,37 +45,16 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: 📦 Install dependencies
-        run:  python3 -m pip --disable-pip-version-check install -r requirements.txt
+        run: python3 -m pip --disable-pip-version-check install -r requirements.txt
 
       - name: 🔍 Run tests
-        run: python3 -m unittest
-
-  coverage:
-    name: Coverage
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
-      - name: 📥 Checkout the repository
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: 🛠️ Set up Python 3
-        uses: actions/setup-python@v2
-        id: python
-        with:
-          python-version: 3.x
-
-      - name: 📦 Install dependencies
-        run:  python3 -m pip --disable-pip-version-check install -r requirements.txt
-
-      - name: 📜 Generate Report
         run: |
-          pip install coverage
-          coverage run -m unittest
+          python3 -m unittest discover
+          python -m coverage xml
 
       - name: 🌎Upload Coverage to Codecov
         uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./coverage.xml
           fail_ci_if_error: true
