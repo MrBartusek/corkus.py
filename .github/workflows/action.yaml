@@ -1,0 +1,76 @@
+name: Lint & Test
+
+on:
+  - pull_request
+  - push
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: 🛠️ Set up Python 3
+        uses: actions/setup-python@v2
+        id: python
+        with:
+          python-version: 3.x
+
+      - name: 📦 Install dependencies
+        run: |
+          python3 -m pip --disable-pip-version-check install -r requirements.txt
+          pip install pylint
+
+      - name: 🧹 Lint with Pylint
+        run: find . -name '*.py' -exec pylint {} \;
+
+  test:
+    name: Test with Python ${{ matrix.python-version }}
+    needs: lint
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.7, 3.8, 3.9]
+    steps:
+      - name: 📥 Checkout the repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: 🛠️ Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: 📦 Install dependencies
+        run:  python3 -m pip --disable-pip-version-check install -r requirements.txt
+
+      - name: 🔍 Run tests
+        run: python3 -m unittest
+
+  coverage:
+    name: Coverage
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout the repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: 🛠️ Set up Python 3
+        uses: actions/setup-python@v2
+        id: python
+        with:
+          python-version: 3.x
+      
+      - name: 📜 Generate Report
+        run: |
+          pip install coverage
+          coverage run -m unittest
+
+      - name: 🌎Upload Coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:

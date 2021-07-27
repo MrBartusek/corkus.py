@@ -20,3 +20,4 @@ class Network():
         response = await self.corkus.request.get(URL_V1 + "onlinePlayersSum")
         return OnlinePlayerSumResponse(response)
 
+        
