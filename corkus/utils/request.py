@@ -17,4 +17,9 @@ class CorkusRequest:
     async def get(self, url) -> dict:
         resp = await self.session.get(url)
         data = await resp.json()
+
+        # For V2 Endpoints
+        if data.get("data", None) is not None:
+            data = data.get("data")[0]
+
         return data

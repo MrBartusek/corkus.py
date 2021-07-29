@@ -8,9 +8,8 @@ class TestNetwork(unittest.IsolatedAsyncioTestCase):
         self.corkus = Corkus()
 
     async def test_player_sum(self):
-        response = await self.corkus.network.online_players_sum()
-        self.assertGreaterEqual(response.players_sum, 1)
-        self.assertEqual(int(response), response.players_sum)
+        response = await self.corkus.network.players_sum()
+        self.assertGreaterEqual(response, 1)
 
     async def asyncTearDown(self):
         await self.corkus.close()

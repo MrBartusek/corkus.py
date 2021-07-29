@@ -3,6 +3,7 @@ from corkus.utils.constants import TIMEOUT
 from corkus.utils.request import CorkusRequest
 
 from corkus.endpoints.network import NetworkEndpoint
+from corkus.endpoints.player import PlayerEndpoint
 
 class Corkus:
     """First-class interface for accessing Wynncraft API"""
@@ -12,6 +13,8 @@ class Corkus:
             timeout = TIMEOUT
         self.request = CorkusRequest(timeout)
         self.network = NetworkEndpoint(self)
+        self.player = PlayerEndpoint(self)
+
 
     async def close(self) -> Coroutine[Any, Any, None]:
         return await self.request.session.close()
