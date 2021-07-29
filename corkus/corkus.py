@@ -1,8 +1,8 @@
-from typing import Optional
+from typing import Optional, Coroutine, Any
 from corkus.utils.constants import TIMEOUT
 from corkus.utils.request import CorkusRequest
 
-from corkus.endpoints.network import Network
+from corkus.endpoints.network import NetworkEndpoint
 
 class Corkus:
     """First-class interface for accessing Wynncraft API"""
@@ -11,4 +11,7 @@ class Corkus:
         if timeout is None:
             timeout = TIMEOUT
         self.request = CorkusRequest(timeout)
-        self.network = Network(self)
+        self.network = NetworkEndpoint(self)
+
+    async def close(self) -> Coroutine[Any, Any, None]:
+        return await self.request.session.close()

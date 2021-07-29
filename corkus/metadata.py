@@ -1,5 +1,4 @@
-from aiohttp.client import ClientResponse
-from enum import IntEnum, Enum
+from enum import Enum, IntEnum
 
 class APIVersion(IntEnum):
     V1 = 1
@@ -9,16 +8,13 @@ class EndpointKind(Enum):
     TERITORY_LIST = "territoryList"
     ONLINE_PLAYERS_SUM = "onlinePlayersSum"
 
-
-class CorkusResponse:
+class CorkusMetadata:
     def __init__(
-        self, *,
+        self,
         version: APIVersion,
         version_string: str,
-        kind: EndpointKind,
-        raw_response: ClientResponse
+        kind: EndpointKind
     ):
         self.version = version
         self.version_string = version_string
         self.kind = kind
-        self.raw_response = raw_response
