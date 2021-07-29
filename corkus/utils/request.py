@@ -1,5 +1,4 @@
-from re import S
-from aiohttp.client import ClientSession, ClientTimeout, ClientResponse
+from aiohttp.client import ClientSession, ClientTimeout
 from typing import Optional
 from corkus.version import __version__
 
@@ -15,7 +14,7 @@ class CorkusRequest:
                 }
             )
 
-    async def get(self, url) -> ClientResponse:
+    async def get(self, url) -> dict:
         resp = await self.session.get(url)
         data = await resp.json()
         return data

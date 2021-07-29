@@ -1,4 +1,4 @@
-from objects import CorkusBase
+from .base import CorkusBase
 
 class OnlinePlayersSum(CorkusBase):
     @property
