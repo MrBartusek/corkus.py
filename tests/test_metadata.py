@@ -2,7 +2,7 @@
 
 import unittest
 from corkus import Corkus
-from corkus.metadata import CorkusMetadata, APIVersion, EndpointKind
+from corkus.objects.metadata import CorkusMetadata, APIVersion, EndpointKind
 
 class TestMetadata(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):

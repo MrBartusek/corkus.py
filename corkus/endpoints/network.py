@@ -1,22 +1,15 @@
 from corkus.utils.constants import URL_V1
-from corkus.base import CorkusBase
-from corkus.metadata import CorkusMetadata, APIVersion, EndpointKind
+from corkus.objects import OnlinePlayersSum
+from corkus.objects.metadata import CorkusMetadata, APIVersion, EndpointKind
 
-class OnlinePlayerSum(CorkusBase):
-    @property
-    def players_sum(self) -> int:
-        return self.attributes.get("players_online", 0)
-
-    def __int__(self) -> int:
-        return self.players_sum
 
 class NetworkEndpoint():
     def __init__(self, corkus) -> None:
         self.corkus = corkus
 
-    async def online_players_sum(self) -> OnlinePlayerSum:
+    async def online_players_sum(self) -> OnlinePlayersSum:
         response = await self.corkus.request.get(URL_V1 + "onlinePlayersSum")
-        return OnlinePlayerSum(
+        return OnlinePlayersSum(
             attributes = response,
             metadata = CorkusMetadata(
                 version = APIVersion.V1,

@@ -1,4 +1,4 @@
-from corkus.metadata import CorkusMetadata
+from corkus.objects.metadata import CorkusMetadata
 
 class CorkusBase:
     def __init__(self, attributes: dict,  metadata: CorkusMetadata):
