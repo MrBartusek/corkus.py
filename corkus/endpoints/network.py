@@ -4,8 +4,11 @@ from corkus.metadata import CorkusMetadata, APIVersion, EndpointKind
 
 class OnlinePlayerSum(CorkusBase):
     @property
-    def players_sum(self):
-        return self.attributes.get("name", 0)
+    def players_sum(self) -> int:
+        return self.attributes.get("players_online", 0)
+
+    def __int__(self) -> int:
+        return self.players_sum
 
 class NetworkEndpoint():
     def __init__(self, corkus) -> None:
