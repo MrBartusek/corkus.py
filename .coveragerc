@@ -1,0 +1,8 @@
+[run]
+source = corkus
+omit = tests/*
+
+[report]
+exclude_lines =
+    def __repr__
+    raise NotImplementedError

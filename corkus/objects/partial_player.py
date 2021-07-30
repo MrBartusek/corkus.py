@@ -1,4 +1,3 @@
-from corkus.objects import partial_base
 from typing import Optional
 from .uuid import CorkusUUID
 from .player import Player
@@ -15,3 +14,11 @@ class PartialPlayer(PartialBase):
     async def fetch(self) -> Player:
         identifier = self.uuid if self.uuid is not None else self.username
         return await self.corkus.player.get(identifier)
+
+    def __repr__(self) -> str:
+        result = "<PartialPlayer"
+        if self.uuid is not None:
+            result += f" uuid={self.uuid.string()!r}"
+        if self.username is not None:
+            result += f" username={self.username!r}"
+        return result + ">"

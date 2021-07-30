@@ -29,3 +29,6 @@ class Server(CorkusBase):
     @property
     def type(self) -> ServerType:
         return ServerType("".join([i for i in self._name if not i.isdigit()]))
+
+    def __repr__(self) -> str:
+        return f"<Server name={self.name!r} total_players={self.total_players} players={self.players}>"

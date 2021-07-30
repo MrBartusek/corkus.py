@@ -32,3 +32,6 @@ class Player(CorkusBase):
     @property
     def in_content_team(self) -> bool:
         return self.rank != PlayerRank.PLAYER
+
+    def __repr__(self) -> str:
+        return f"<Player username={self.username!r}>"
