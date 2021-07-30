@@ -1,11 +1,9 @@
+from corkus.endpoints.endpoint import Endpoint
 from typing import Union
 from corkus.utils.constants import URL_V2
 from corkus.objects import Player, CorkusUUID
 
-class PlayerEndpoint():
-    def __init__(self, corkus) -> None:
-        self.corkus = corkus
-
+class PlayerEndpoint(Endpoint):
     async def get(self, username_or_uuid: Union[str, CorkusUUID]) -> Player:
         if isinstance(username_or_uuid, CorkusUUID):
             username_or_uuid = username_or_uuid.string(dashed = True)

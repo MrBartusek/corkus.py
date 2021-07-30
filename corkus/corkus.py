@@ -4,6 +4,7 @@ from corkus.utils.request import CorkusRequest
 
 from corkus.endpoints.network import NetworkEndpoint
 from corkus.endpoints.player import PlayerEndpoint
+from corkus.endpoints.guild import GuildEndpoint
 
 class Corkus:
     """First-class interface for accessing Wynncraft API"""
@@ -14,7 +15,7 @@ class Corkus:
         self.request = CorkusRequest(timeout)
         self.network = NetworkEndpoint(self)
         self.player = PlayerEndpoint(self)
-
+        self.guild = GuildEndpoint(self)
 
     async def close(self) -> Coroutine[Any, Any, None]:
         return await self.request.session.close()

@@ -18,12 +18,12 @@ class PlayerRank(Enum):
 
 class Player(CorkusBase):
     @property
-    def username(self) -> int:
-        return self.attributes.get("username")
+    def username(self) -> str:
+        return self.attributes.get("username", "")
 
     @property
     def uuid(self) -> CorkusUUID:
-        return CorkusUUID(self.attributes.get("uuid"))
+        return CorkusUUID(self.attributes.get("uuid", ""))
 
     @property
     def rank(self) -> PlayerRank:

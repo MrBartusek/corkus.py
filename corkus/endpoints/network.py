@@ -1,11 +1,9 @@
 from typing import List
 from corkus.utils.constants import URL_V1
 from corkus.objects import Server
+from corkus.endpoints.endpoint import Endpoint
 
-class NetworkEndpoint():
-    def __init__(self, corkus) -> None:
-        self.corkus = corkus
-
+class NetworkEndpoint(Endpoint):
     async def players_sum(self) -> int:
         response = await self.corkus.request.get(URL_V1 + "onlinePlayersSum")
         return response.get("players_online", 0)
