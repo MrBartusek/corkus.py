@@ -11,4 +11,10 @@ class NetworkEndpoint(Endpoint):
     async def servers_list(self) -> List[Server]:
         response = await self.corkus.request.get(URL_V1 + "onlinePlayers")
         del response["request"]
+
+        # api sometimes returns such server, i guess just bug
+        # "": []
+        if "" in response:
+            del response[""]
+
         return [Server(self.corkus, name, players) for name, players in response.items()]

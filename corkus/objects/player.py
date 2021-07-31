@@ -1,6 +1,13 @@
 from enum import Enum
+import iso8601
+from datetime import datetime
+
 from .base import CorkusBase
 from .uuid import CorkusUUID
+from .partial_member import PartialMember
+from .partial_guild import PartialGuild
+from .member import GuildRank
+from .player_status import PlayerStatus
 
 class PlayerRank(Enum):
     """ Player Wynncraft Team Rank, if not in content team defaults to PLAYER """
@@ -32,6 +39,58 @@ class Player(CorkusBase):
     @property
     def in_content_team(self) -> bool:
         return self.rank != PlayerRank.PLAYER
+
+    @property
+    def join_date(self) -> datetime:
+        return iso8601.parse_date(self.attributes.get("meta", {}).get("firstJoin", "1970"))
+
+    def last_online(self) -> datetime:
+        return iso8601.parse_date(self.attributes.get("meta", {}).get("lastJoin", "1970"))
+
+    @property
+    def status(self) -> PlayerStatus:
+        return PlayerStatus(self.corkus, self.attributes.get("meta", {}).get("location", {}))
+
+    @property
+    def playtime(self):
+        raise NotImplementedError
+
+    @property
+    def tag(self):
+        raise NotImplementedError
+
+    @property
+    def veteran(self):
+        return self.attributes.get("meta", {}).get("veteran", False)
+
+    @property
+    def classes(self):
+        raise NotImplementedError
+
+    @property
+    def member(self) -> PartialMember:
+        return PartialMember(
+            corkus = self.corkus,
+            uuid = self.uuid,
+            username = self.username,
+            guild = self.guild,
+            rank = GuildRank(self.attributes.get("guild", {}).get("rank", "RECRUIT"))
+        )
+
+    @property
+    def guild(self) -> PartialGuild:
+        return PartialGuild(
+            corkus = self.corkus,
+            name = self.attributes.get("guild", {}).get("name", "")
+        )
+
+    @property
+    def stats(self):
+        raise NotImplementedError
+
+    @property
+    def ranking(self):
+        raise NotImplementedError
 
     def __repr__(self) -> str:
         return f"<Player username={self.username!r}>"

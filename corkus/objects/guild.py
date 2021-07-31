@@ -1,5 +1,6 @@
 from .base import CorkusBase
 from .member import Member
+from typing import List
 
 class Guild(CorkusBase):
     @property
@@ -11,7 +12,7 @@ class Guild(CorkusBase):
         return self.attributes.get("prefix", "")
 
     @property
-    def members(self) -> str:
+    def members(self) -> List[Member]:
         return [Member(self.corkus, m) for m in self.attributes.get("members", [])]
 
     @property
