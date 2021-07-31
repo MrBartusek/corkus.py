@@ -1,4 +1,3 @@
-import corkus
 from .base import CorkusBase
 from .member import Member
 from typing import List

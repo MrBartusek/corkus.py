@@ -4,6 +4,7 @@ from typing import TYPE_CHECKING
 from corkus.objects.partial_player import PartialPlayer
 
 if TYPE_CHECKING:
+    from corkus import Corkus
     from .guild import Guild
     from .uuid import CorkusUUID
     from .member import Member, GuildRank
@@ -11,7 +12,7 @@ if TYPE_CHECKING:
 
 class PartialMember(PartialPlayer):
     def __init__(self,
-        corkus,
+        corkus: Corkus ,
         uuid: CorkusUUID,
         username: str,
         guild: PartialGuild,

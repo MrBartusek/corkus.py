@@ -1,7 +1,11 @@
-from typing import List
+from __future__ import annotations
+from typing import List, TYPE_CHECKING
 from enum import Enum
 from .base import CorkusBase
 from .partial_player import PartialPlayer
+
+if TYPE_CHECKING:
+    from corkus import Corkus
 
 class ServerType(Enum):
     """Type of the server, most servers are stanard servers"""
@@ -10,7 +14,7 @@ class ServerType(Enum):
     YT = "YT"
 
 class Server(CorkusBase):
-    def __init__(self, corkus, name: str, players: List[str]):
+    def __init__(self, corkus: Corkus, name: str, players: List[str]):
         self._name = name
         super().__init__(corkus, players)
 

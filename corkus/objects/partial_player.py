@@ -4,11 +4,12 @@ from typing import TYPE_CHECKING, Optional, Union
 from .partial_base import PartialBase
 
 if TYPE_CHECKING:
+    from corkus import Corkus
     from .uuid import CorkusUUID
     from .player import Player
 
 class PartialPlayer(PartialBase):
-    def __init__(self, corkus, *, uuid: Optional[CorkusUUID] = None, username: Optional[str] = None):
+    def __init__(self, corkus: Corkus, *, uuid: Optional[CorkusUUID] = None, username: Optional[str] = None):
         super().__init__(corkus)
         self._uuid = uuid
         self._username = username

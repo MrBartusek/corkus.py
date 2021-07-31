@@ -9,6 +9,7 @@ from .uuid import CorkusUUID
 
 if TYPE_CHECKING:
     from .guild import Guild
+    from corkus import Corkus
 
 class GuildRank(Enum):
     OWNER = "OWNER"
@@ -18,7 +19,7 @@ class GuildRank(Enum):
     RECRUIT = "RECRUIT"
 
 class Member(CorkusBase):
-    def __init__(self, corkus, guild: Guild, attributes: dict):
+    def __init__(self, corkus: Corkus, guild: Guild, attributes: dict):
         self._guild = guild
         super().__init__(corkus, attributes)
 

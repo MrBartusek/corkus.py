@@ -4,10 +4,11 @@ from typing import TYPE_CHECKING
 from .partial_base import PartialBase
 
 if TYPE_CHECKING:
+    from corkus import Corkus
     from .guild import Guild
 
 class PartialGuild(PartialBase):
-    def __init__(self, corkus, name: str):
+    def __init__(self, corkus: Corkus, name: str):
         super().__init__(corkus)
         self._name = name
 
