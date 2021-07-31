@@ -14,7 +14,7 @@ from .player_status import PlayerStatus
 
 
 class PlayerRank(Enum):
-    """Player Wynncraft Team Rank, if not in content team defaults to PLAYER"""
+    """All content team ranks, if not in content team defaults to PLAYER"""
 
     ADMINISTRATOR = "Administrator"
     MODERATOR = "Moderator"
@@ -30,49 +30,64 @@ class PlayerRank(Enum):
 class Player(CorkusBase):
     @property
     def username(self) -> str:
+        """Minecraft username of player"""
         return self.attributes.get("username", "")
 
     @property
     def uuid(self) -> CorkusUUID:
+        """Minecraft UUID of player"""
         return CorkusUUID(self.attributes.get("uuid", ""))
 
     @property
     def rank(self) -> PlayerRank:
+        """Player Wynncraft Team Rank, if not in content team defaults to PLAYER"""
         return PlayerRank(self.attributes.get("rank", PlayerRank.PLAYER))
 
     @property
     def in_content_team(self) -> bool:
+        """Is player in Wynncraft Content Team"""
         return self.rank != PlayerRank.PLAYER
 
     @property
     def join_date(self) -> datetime:
+        """Date and time when player joined Wynncraft first time"""
         return iso8601.parse_date(self.attributes.get("meta", {}).get("firstJoin", "1970"))
 
     def last_online(self) -> datetime:
-        return iso8601.parse_date(self.attributes.get("meta", {}).get("lastJoin", "1970"))
+        """Date and time when player was last seen online"""
+        if self.status.online:
+            return datetime.utcnow()
+        else:
+            return iso8601.parse_date(self.attributes.get("meta", {}).get("lastJoin", "1970"))
 
     @property
     def status(self) -> PlayerStatus:
+        """Information about player's current online status"""
         return PlayerStatus(self.corkus, self.attributes.get("meta", {}).get("location", {}))
 
     @property
     def playtime(self) -> PlayerPlaytime:
+        """Time that player spent on wynncraft servers"""
         return PlayerPlaytime(self.attributes.get("meta", {}).get(playtime, 0))
 
     @property
     def tag(self):
+        """Player's rank bought from Wynncraft Store"""
         raise NotImplementedError
 
     @property
     def veteran(self):
+        "Is player a veteran eg. had VIP before August 1, 2014 which was when the 1.12 update was released and Minecraft EULA changed"
         return self.attributes.get("meta", {}).get("veteran", False)
 
     @property
     def classes(self):
+        """All of the player's classes"""
         raise NotImplementedError
 
     @property
     def member(self) -> Union[PartialMember, None]:
+        """Partial representation of player in the guild"""
         if self.attributes.get("guild", {}).get("name", None) is None:
             return None
         else:
@@ -86,6 +101,7 @@ class Player(CorkusBase):
 
     @property
     def guild(self) -> Union[PartialGuild, None]:
+        """Partial information about player's guild"""
         if self.attributes.get("guild", {}).get("name", None) is None:
             return None
         else:
@@ -96,6 +112,7 @@ class Player(CorkusBase):
 
     @property
     def stats(self):
+        """General statistics across all classes"""
         raise NotImplementedError
 
     @property
