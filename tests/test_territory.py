@@ -19,6 +19,5 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         self.assertNotEqual(teritory.location.end_y, 0)
         self.assertGreater(len(teritory.guild.name), 0)
 
-
     async def asyncTearDown(self):
         await self.corkus.close()

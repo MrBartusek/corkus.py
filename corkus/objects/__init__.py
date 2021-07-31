@@ -11,3 +11,4 @@ from .guild import Guild
 from .partial_guild import PartialGuild
 from .teritory import Teritory
 from .territory_location import TeritoryLocation
+from .playtime import PlayerPlaytime

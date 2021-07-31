@@ -1,3 +1,5 @@
+from corkus.objects import playtime
+from corkus.objects.playtime import PlayerPlaytime
 from enum import Enum
 from typing import Union
 import iso8601
@@ -9,6 +11,7 @@ from .partial_member import PartialMember
 from .partial_guild import PartialGuild
 from .member import GuildRank
 from .player_status import PlayerStatus
+
 
 class PlayerRank(Enum):
     """Player Wynncraft Team Rank, if not in content team defaults to PLAYER"""
@@ -53,8 +56,8 @@ class Player(CorkusBase):
         return PlayerStatus(self.corkus, self.attributes.get("meta", {}).get("location", {}))
 
     @property
-    def playtime(self):
-        raise NotImplementedError
+    def playtime(self) -> PlayerPlaytime:
+        return PlayerPlaytime(self.attributes.get("meta", {}).get(playtime, 0))
 
     @property
     def tag(self):
