@@ -4,7 +4,7 @@ from .base import CorkusBase
 from .partial_player import PartialPlayer
 
 class ServerType(Enum):
-    """ Type of the server, most servers are stanard servers"""
+    """Type of the server, most servers are stanard servers"""
 
     STANDARD = "WC"
     YT = "YT"

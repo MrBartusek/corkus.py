@@ -5,6 +5,7 @@ from corkus.utils.request import CorkusRequest
 from corkus.endpoints.network import NetworkEndpoint
 from corkus.endpoints.player import PlayerEndpoint
 from corkus.endpoints.guild import GuildEndpoint
+from corkus.endpoints.territory import TerritoryEndpoint
 
 class Corkus:
     """First-class interface for accessing Wynncraft API"""
@@ -25,6 +26,10 @@ class Corkus:
     @property
     def guild(self) -> GuildEndpoint:
         return GuildEndpoint(self)
+
+    @property
+    def territory(self) -> TerritoryEndpoint:
+        return TerritoryEndpoint(self)
 
     async def close(self) -> Coroutine[Any, Any, None]:
         return await self.request.session.close()

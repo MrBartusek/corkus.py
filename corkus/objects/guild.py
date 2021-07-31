@@ -1,3 +1,4 @@
+import corkus
 from .base import CorkusBase
 from .member import Member
 from typing import List
@@ -13,7 +14,7 @@ class Guild(CorkusBase):
 
     @property
     def members(self) -> List[Member]:
-        return [Member(self.corkus, m) for m in self.attributes.get("members", [])]
+        return [Member(self.corkus, self , m) for m in self.attributes.get("members", [])]
 
     @property
     def level(self) -> int:

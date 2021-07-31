@@ -11,7 +11,7 @@ from .member import GuildRank
 from .player_status import PlayerStatus
 
 class PlayerRank(Enum):
-    """ Player Wynncraft Team Rank, if not in content team defaults to PLAYER """
+    """Player Wynncraft Team Rank, if not in content team defaults to PLAYER"""
 
     ADMINISTRATOR = "Administrator"
     MODERATOR = "Moderator"
