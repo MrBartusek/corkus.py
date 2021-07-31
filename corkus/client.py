@@ -13,9 +13,18 @@ class Corkus:
         if timeout is None:
             timeout = TIMEOUT
         self.request = CorkusRequest(timeout)
-        self.network = NetworkEndpoint(self)
-        self.player = PlayerEndpoint(self)
-        self.guild = GuildEndpoint(self)
+
+    @property
+    def network(self) -> NetworkEndpoint:
+        return NetworkEndpoint(self)
+
+    @property
+    def player(self) -> PlayerEndpoint:
+        return PlayerEndpoint(self)
+
+    @property
+    def guild(self) -> GuildEndpoint:
+        return GuildEndpoint(self)
 
     async def close(self) -> Coroutine[Any, Any, None]:
         return await self.request.session.close()
