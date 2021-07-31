@@ -1,4 +1,5 @@
 from enum import Enum
+from typing import Union
 import iso8601
 from datetime import datetime
 
@@ -68,21 +69,27 @@ class Player(CorkusBase):
         raise NotImplementedError
 
     @property
-    def member(self) -> PartialMember:
-        return PartialMember(
-            corkus = self.corkus,
-            uuid = self.uuid,
-            username = self.username,
-            guild = self.guild,
-            rank = GuildRank(self.attributes.get("guild", {}).get("rank", "RECRUIT"))
-        )
+    def member(self) -> Union[PartialMember, None]:
+        if self.attributes.get("guild", {}).get("name", None) is None:
+            return None
+        else:
+            return PartialMember(
+                corkus = self.corkus,
+                uuid = self.uuid,
+                username = self.username,
+                guild = self.guild,
+                rank = GuildRank(self.attributes.get("guild", {}).get("rank", "RECRUIT"))
+            )
 
     @property
-    def guild(self) -> PartialGuild:
-        return PartialGuild(
-            corkus = self.corkus,
-            name = self.attributes.get("guild", {}).get("name", "")
-        )
+    def guild(self) -> Union[PartialGuild, None]:
+        if self.attributes.get("guild", {}).get("name", None) is None:
+            return None
+        else:
+            return PartialGuild(
+                corkus = self.corkus,
+                name = self.attributes.get("guild", {}).get("name", "")
+            )
 
     @property
     def stats(self):
