@@ -1,6 +1,5 @@
-![corkus banner](https://i.imgur.com/Cg7Apc2.jpg)
+![corkus banner](https://i.imgur.com/8FjYte1.gif)
 
-# Corkus.py ⚙️
 
 [![build](https://github.com/MrBartusek/corkus.py/actions/workflows/main.yml/badge.svg)](https://github.com/MrBartusek/corkus.py/actions) [![codecov](https://codecov.io/gh/MrBartusek/corkus.py/branch/main/graph/badge.svg?token=oZbLlhqRKJ)](https://codecov.io/gh/MrBartusek/corkus.py) [![PyPI](https://img.shields.io/pypi/v/corkus.py)](https://pypi.org/project/corkus.py/) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/corkus.py)](https://pypi.org/project/corkus.py/)
 
