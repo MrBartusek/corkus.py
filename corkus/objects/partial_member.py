@@ -1,11 +1,11 @@
 from __future__ import annotations
+from corkus.objects.guild import Guild
 from typing import TYPE_CHECKING
 
 from corkus.objects.partial_player import PartialPlayer
 
 if TYPE_CHECKING:
     from corkus import Corkus
-    from .guild import Guild
     from .uuid import CorkusUUID
     from .member import Member, GuildRank
     from .partial_guild import PartialGuild
@@ -22,11 +22,16 @@ class PartialMember(PartialPlayer):
         self._guild = guild
         self._rank = rank
 
-    async def fetch_guild(self) -> Guild:
-        return await self._guild.fetch()
+    @property
+    def player(self) -> PartialPlayer:
+        return super()
 
-    async def fetch_member(self) -> Member:
-        guild = await self.fetch_guild()
+    @property
+    def guild(self) -> Guild:
+        return self.guild
+
+    async def fetch(self) -> Member:
+        guild = await self._guild.fetch()
         member = [m for m in guild.members if m.uuid == self._uuid]
         if len(member) == 1:
             return member

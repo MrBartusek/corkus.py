@@ -28,8 +28,7 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
 
     async def test_partial_member_fetch(self):
         player = await self.corkus.player.get('MrBartusekXD')
-        guild = await player.guild.fetch()
-        self.assertEqual(guild.name, "The Farplane")
+        self.assertEqual(player.guild, "The Farplane")
         member = await player.member.fetch()
         self.assertEqual(member.guild.name, "The Farplane")
 
