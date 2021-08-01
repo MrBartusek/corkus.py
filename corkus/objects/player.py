@@ -11,6 +11,7 @@ from .partial_member import PartialMember
 from .partial_guild import PartialGuild
 from .member import GuildRank
 from .player_status import PlayerStatus
+from .player_statistics import PlayerStatistics
 
 
 class PlayerRank(Enum):
@@ -111,9 +112,9 @@ class Player(CorkusBase):
             )
 
     @property
-    def stats(self):
+    def statistics(self):
         """General statistics across all classes"""
-        raise NotImplementedError
+        return PlayerStatistics(self.corkus, self, self.attributes.get("global", {}))
 
     @property
     def ranking(self):
