@@ -26,5 +26,12 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         guild = await PartialGuild(self.corkus, "The Farplane").fetch()
         self.assertTrue(guild.tag == "Yin")
 
+    async def test_partial_member_fetch(self):
+        player = await self.corkus.player.get('MrBartusekXD')
+        guild = await player.guild.fetch()
+        self.assertEqual(guild.name, "The Farplane")
+        member = await player.member.fetch()
+        self.assertEqual(member.guild.name, "The Farplane")
+
     async def asyncTearDown(self):
         await self.corkus.close()
