@@ -34,7 +34,7 @@ class PartialMember(PartialPlayer):
         guild = await self._guild.fetch()
         member = [m for m in guild.members if m.uuid == self._uuid]
         if len(member) == 1:
-            return member
+            return member[0]
         else:
             return None
 

@@ -20,4 +20,4 @@ class PartialGuild(PartialBase):
         return await self.corkus.guild.get(self._name)
 
     def __repr__(self) -> str:
-        return f"<PartialGuild name={self._name}>"
+        return f"<PartialGuild name={self._name!r}>"
