@@ -1,6 +1,8 @@
 from .base import CorkusBase
 from .member import Member
 from typing import List
+from datetime import datetime
+from iso8601 import iso8601
 
 class Guild(CorkusBase):
     @property
@@ -12,6 +14,10 @@ class Guild(CorkusBase):
     def tag(self) -> str:
         """Three or four letters prefix of guild"""
         return self.attributes.get("prefix", "")
+
+    @property
+    def created(self) -> datetime:
+        return iso8601.parse_date(self.attributes.get("created", "1970"))
 
     @property
     def members(self) -> List[Member]:

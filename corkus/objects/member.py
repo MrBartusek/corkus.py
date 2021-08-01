@@ -2,14 +2,15 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 from enum import Enum
 import iso8601
-
 from datetime import datetime
+
 from .base import CorkusBase
 from .uuid import CorkusUUID
 
 if TYPE_CHECKING:
     from .guild import Guild
     from corkus import Corkus
+    from .player import Player
 
 class GuildRank(Enum):
     OWNER = "OWNER"
@@ -42,3 +43,6 @@ class Member(CorkusBase):
     @property
     def guild(self) -> Guild:
         return self._guild
+
+    async def fetch_player(self) -> Player:
+        return await self.corkus.player.get(self.uuid)
