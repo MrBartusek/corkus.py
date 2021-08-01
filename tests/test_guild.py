@@ -14,6 +14,8 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(guild.tag, "Yin")
         self.assertGreater(sum([m.contributed_xp for m in guild.members]), 0)
         self.assertTrue(all([m.join_date < m.guild.created for m in guild.members]))
+        self.assertTrue(0 <= guild.level_progress <= 100)
+        self.assertTrue(1 <= guild.level <= 100)
         member = guild.members[0]
         player = await member.fetch_player()
         self.assertEqual(player.guild.name, "The Farplane")
