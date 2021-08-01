@@ -26,7 +26,7 @@ class Member(CorkusBase):
 
     @property
     def username(self) -> int:
-        return self.attributes.get("username", "")
+        return self.attributes.get("name", "")
 
     @property
     def uuid(self) -> CorkusUUID:
