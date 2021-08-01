@@ -5,10 +5,12 @@ from corkus.endpoints.endpoint import Endpoint
 
 class NetworkEndpoint(Endpoint):
     async def players_sum(self) -> int:
+        """Get number of online players across all servers"""
         response = await self.corkus.request.get(URL_V1 + "onlinePlayersSum")
         return response.get("players_online", 0)
 
     async def servers_list(self) -> List[Server]:
+        """List all running servers and players that are online on them"""
         response = await self.corkus.request.get(URL_V1 + "onlinePlayers")
         del response["request"]
 

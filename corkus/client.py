@@ -17,19 +17,39 @@ class Corkus:
 
     @property
     def network(self) -> NetworkEndpoint:
+        """Wynncraft Network specific routes
+
+        - list of servers
+        - sum of online players
+        """
         return NetworkEndpoint(self)
 
     @property
     def player(self) -> PlayerEndpoint:
+        """Statistics of players
+
+        - player statistics
+        - get uuid of player
+        """
         return PlayerEndpoint(self)
 
     @property
     def guild(self) -> GuildEndpoint:
+        """Information about server guild
+
+        - stats of specific guild
+        - list of all guild
+        """
         return GuildEndpoint(self)
 
     @property
     def territory(self) -> TerritoryEndpoint:
+        """Information about Teritories
+
+        - list all teritories
+        """
         return TerritoryEndpoint(self)
 
     async def close(self) -> Coroutine[Any, Any, None]:
+        """End the corkus client when it's not needed anymore"""
         return await self.request.session.close()

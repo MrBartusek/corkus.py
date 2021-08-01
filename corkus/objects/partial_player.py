@@ -18,13 +18,16 @@ class PartialPlayer(PartialBase):
 
     @property
     def username(self) -> Union[str, None]:
+        """Minecraft username of player"""
         return self._username
 
     @property
     def uuid(self) -> Union[CorkusUUID, None]:
+        """Minecraft UUID of player"""
         return self._uuid
 
     async def fetch(self) -> Player:
+        """Fetch player data of this member from API"""
         identifier = self._uuid if self._uuid is not None else self._username
         return await self.corkus.player.get(identifier)
 

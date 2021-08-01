@@ -8,10 +8,8 @@ if TYPE_CHECKING:
     from corkus import Corkus
 
 class ServerType(Enum):
-    """Type of the server, most servers are stanard servers"""
-
     STANDARD = "WC"
-    YT = "YT"
+    YOUTUBE = "YT"
 
 class Server(CorkusBase):
     def __init__(self, corkus: Corkus, name: str, players: List[str]):
@@ -20,18 +18,22 @@ class Server(CorkusBase):
 
     @property
     def name(self) -> str:
+        """The name of server"""
         return self._name
 
     @property
     def players(self) -> List[PartialPlayer]:
+        """List of all online players on this server"""
         return [PartialPlayer(self.corkus, username = p) for p in self.attributes]
 
     @property
     def total_players(self) -> int:
+        """Total number of online player on this server"""
         return len(self.players)
 
     @property
     def type(self) -> ServerType:
+        """Type of the server, most servers are stanard servers"""
         return ServerType("".join([i for i in self._name if not i.isdigit()]))
 
     def __repr__(self) -> str:

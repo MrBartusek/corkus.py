@@ -25,12 +25,15 @@ class PlayerPlaytime():
 
     @property
     def raw(self) -> int:
+        """Get number that API returned"""
         return self._playtime
 
     def minutes(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:
+        """Convert time using specified ratio and return it as minutes"""
         return self._convert(ratio)
 
     def hours(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:
+        """Convert time using specified ratio and return it as hours"""
         return self._convert(ratio) / 60
 
     def _convert(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:

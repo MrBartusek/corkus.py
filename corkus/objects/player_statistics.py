@@ -7,15 +7,6 @@ if TYPE_CHECKING:
     from corkus.objects import Player
 
 class PlayerStatistics(CorkusBase):
-    def __init__(self, corkus: Corkus, player: Player, attributes: dict):
-        self._player = player
-        super().__init__(corkus, attributes)
-
-    @property
-    def player(self) -> Player:
-        """"""
-        return self._player
-
     @property
     def chests_found(self):
         """Total chest opened"""
@@ -77,4 +68,4 @@ class PlayerStatistics(CorkusBase):
         return self.attributes.get("eventsWon", 0)
 
     def __repr__(self) -> str:
-        return f"<PlayerStatistics player={self.player.username!r} chests_found={self.chests_found}>"
+        return f"<PlayerStatistics chests_found={self.chests_found} mobs_killed={self.mobs_killed}>"

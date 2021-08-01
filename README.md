@@ -15,6 +15,45 @@
 - ~~Proper rate limit handling~~ Soon
 - ~~100% coverage of the supported WynncraftAPI.~~ Soon
 
+# Current API Coverage
+
+Guild
+- List ✔️
+- Stats ✔️
+
+Ingredient
+- Get
+- List
+- Search
+
+Item
+- Database
+
+Leaderboard
+- Guild
+- Player
+- PvP
+
+Network
+- Server List ✔️
+- Player Sum ✔️
+
+Player
+- Statistics ✔️
+- UUID ✔️
+
+Recipe
+- Get
+- List
+- Search
+
+Search-API
+- Name
+
+Territory
+- List ✔️
+
+
 ## Installation
 
 *Python 3.8+ or higher is required*

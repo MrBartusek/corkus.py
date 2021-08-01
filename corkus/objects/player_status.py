@@ -4,6 +4,7 @@ from .base import CorkusBase
 class PlayerStatus(CorkusBase):
     @property
     def online(self) -> bool:
+        """Is player online right now"""
         return self.attributes.get("online", False)
 
     @property
