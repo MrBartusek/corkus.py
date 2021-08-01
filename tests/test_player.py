@@ -24,6 +24,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
     async def test_player_general(self):
         player = await self.corkus.player.get('MrBartusekXD')
         self.assertEqual(player.uuid, CorkusUUID('0edc3eb6-74d8-49b6-8b2a-3c0782183e3a'))
+        self.assertGreater(player.playtime.raw, 0)
 
         # Guild
         self.assertEqual(player.member.username, "MrBartusekXD")

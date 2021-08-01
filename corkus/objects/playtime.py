@@ -35,5 +35,5 @@ class PlayerPlaytime():
 
     def _convert(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:
         if isinstance(ratio, PlaytimeConvertRatio):
-            ratio = PlaytimeConvertRatio.value
+            ratio = ratio.value
         return round(self._playtime * ratio)

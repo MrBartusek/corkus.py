@@ -1,4 +1,3 @@
-from corkus.objects import playtime
 from corkus.objects.playtime import PlayerPlaytime
 from enum import Enum
 from typing import Union
@@ -69,7 +68,7 @@ class Player(CorkusBase):
     @property
     def playtime(self) -> PlayerPlaytime:
         """Time that player spent on wynncraft servers"""
-        return PlayerPlaytime(self.attributes.get("meta", {}).get(playtime, 0))
+        return PlayerPlaytime(self.attributes.get("meta", {}).get("playtime", 0))
 
     @property
     def tag(self):
