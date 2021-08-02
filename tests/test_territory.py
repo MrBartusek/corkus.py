@@ -11,7 +11,7 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
     async def test_all_territories(self):
         all_territories = await self.corkus.territory.list_all()
         teritory = all_territories[0]
-        self.assertTrue(any([g.name == "Detlas" for g in all_territories]))
+        self.assertTrue(any(g.name == "Detlas" for g in all_territories))
         self.assertTrue(teritory.acquired > datetime(2013, 4, 29, 0, 0, 0))
         self.assertNotEqual(teritory.location.start_x, 0)
         self.assertNotEqual(teritory.location.start_y, 0)

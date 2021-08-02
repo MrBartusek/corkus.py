@@ -14,7 +14,8 @@ disable=
     raise-missing-from,
     too-few-public-methods,
     unsubscriptable-object,
-    wrong-import-order
+    wrong-import-order,
+    too-many-arguments
 
 [FORMAT]
 max-line-length=240

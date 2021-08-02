@@ -13,8 +13,8 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(guild.name, "The Farplane")
         self.assertEqual(guild.tag, "Yin")
         self.assertGreater(sum([m.contributed_xp for m in guild.members]), 0)
-        self.assertTrue(all([m.join_date < m.guild.created for m in guild.members]))
-        self.assertTrue(any([m.username == "MrBartusekXD" for m in guild.members]))
+        self.assertTrue(all(m.join_date < m.guild.created for m in guild.members))
+        self.assertTrue(any(m.username == "MrBartusekXD" for m in guild.members))
         self.assertTrue(0 <= guild.level_progress <= 100)
         self.assertTrue(1 <= guild.level <= 100)
         member = guild.members[0]
@@ -23,7 +23,7 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
 
     async def test_all_guilds(self):
         all_guilds = await self.corkus.guild.list_all()
-        self.assertTrue(any([g.name == "The Farplane" for g in all_guilds]))
+        self.assertTrue(any(g.name == "The Farplane" for g in all_guilds))
 
     async def test_partial_guild(self):
         guild = await PartialGuild(self.corkus, "The Farplane").fetch()
