@@ -35,7 +35,7 @@ class Corkus:
 
     @property
     def guild(self) -> GuildEndpoint:
-        """Information about server guild
+        """Information about server guilds
 
         - stats of specific guild
         - list of all guild
@@ -44,7 +44,7 @@ class Corkus:
 
     @property
     def territory(self) -> TerritoryEndpoint:
-        """Information about Teritories
+        """Information about teritories
 
         - list all teritories
         """

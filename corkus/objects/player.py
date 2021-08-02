@@ -113,7 +113,7 @@ class Player(CorkusBase):
     @property
     def statistics(self):
         """General statistics across all classes"""
-        return PlayerStatistics(self.corkus, self, self.attributes.get("global", {}))
+        return PlayerStatistics(self.corkus, self.attributes.get("global", {}))
 
     @property
     def ranking(self):
