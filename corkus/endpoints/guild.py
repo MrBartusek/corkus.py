@@ -14,3 +14,8 @@ class GuildEndpoint(Endpoint):
         """Get statics of the guild by given name"""
         response = await self.corkus.request.get(URL_V1 + "guildStats&command=" + name)
         return Guild(self.corkus, response)
+
+    async def search(self, term: str) -> List[PartialGuild]:
+        """Search for guilds using specified search term"""
+        result = await self.corkus.search.guilds_and_players(term)
+        return result.guilds

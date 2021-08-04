@@ -6,6 +6,7 @@ from corkus.endpoints.network import NetworkEndpoint
 from corkus.endpoints.player import PlayerEndpoint
 from corkus.endpoints.guild import GuildEndpoint
 from corkus.endpoints.territory import TerritoryEndpoint
+from corkus.endpoints.search import SearchEndpoint
 
 class Corkus:
     """First-class interface for accessing Wynncraft API"""
@@ -17,38 +18,28 @@ class Corkus:
 
     @property
     def network(self) -> NetworkEndpoint:
-        """Wynncraft Network specific routes
-
-        - list of servers
-        - sum of online players
-        """
+        """Wynncraft Network specific routes like list of all players"""
         return NetworkEndpoint(self)
 
     @property
     def player(self) -> PlayerEndpoint:
-        """Statistics of players
-
-        - player statistics
-        - get uuid of player
-        """
+        """Statistics of players"""
         return PlayerEndpoint(self)
 
     @property
     def guild(self) -> GuildEndpoint:
-        """Information about server guilds
-
-        - stats of specific guild
-        - list of all guild
-        """
+        """Information about server guilds"""
         return GuildEndpoint(self)
 
     @property
     def territory(self) -> TerritoryEndpoint:
-        """Information about teritories
-
-        - list all teritories
-        """
+        """Information about teritories"""
         return TerritoryEndpoint(self)
+
+    @property
+    def search(self) -> SearchEndpoint:
+        """Search for guild and players"""
+        return SearchEndpoint(self)
 
     async def close(self) -> Coroutine[Any, Any, None]:
         """End the corkus client when it's not needed anymore"""

@@ -21,3 +21,5 @@ from .member import Member
 
 from .teritory import Teritory
 from .territory_location import TeritoryLocation
+
+from .search_result import SearchResult
