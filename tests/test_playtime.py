@@ -3,7 +3,7 @@
 import unittest
 from corkus.objects.playtime import PlayerPlaytime, PlaytimeConvertRatio
 
-class TestNetwork(unittest.TestCase):
+class TestPlaytime(unittest.TestCase):
     def setUp(self):
         self.playtime = PlayerPlaytime(1000)
 

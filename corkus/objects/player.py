@@ -11,11 +11,9 @@ from .partial_guild import PartialGuild
 from .member import GuildRank
 from .player_status import PlayerStatus
 from .player_statistics import PlayerStatistics
-
+from .player_class import PlayerClass
 
 class PlayerRank(Enum):
-    """All content team ranks, if not in content team defaults to PLAYER"""
-
     ADMINISTRATOR = "Administrator"
     MODERATOR = "Moderator"
     BUILDER = "Builder"
@@ -26,6 +24,13 @@ class PlayerRank(Enum):
     HYBRID = "Hybrid"
     MEDIA = "Media"
     PLAYER = "Player"
+
+class PlayerTag(Enum):
+    PLAYER = "PLAYER"
+    VIP = "VIP"
+    VIP_PLUS = "VIP+"
+    HERO = "HERO"
+    CHAMPION = "CHAMPION"
 
 class Player(CorkusBase):
     @property
@@ -42,11 +47,6 @@ class Player(CorkusBase):
     def rank(self) -> PlayerRank:
         """Player Wynncraft Team Rank, if not in content team defaults to PLAYER"""
         return PlayerRank(self.attributes.get("rank", PlayerRank.PLAYER))
-
-    @property
-    def in_content_team(self) -> bool:
-        """Is player in Wynncraft Content Team"""
-        return self.rank != PlayerRank.PLAYER
 
     @property
     def join_date(self) -> datetime:
@@ -73,7 +73,7 @@ class Player(CorkusBase):
     @property
     def tag(self):
         """Player's rank bought from Wynncraft Store"""
-        raise NotImplementedError
+        return PlayerTag(self.attributes.get("meta", {}).get("tag", {}).get("value", PlayerTag.PLAYER))
 
     @property
     def veteran(self):
@@ -83,7 +83,7 @@ class Player(CorkusBase):
     @property
     def classes(self):
         """All of the player's classes"""
-        raise NotImplementedError
+        return [PlayerClass(self.corkus, c) for c in self.attributes.get("classes", {})]
 
     @property
     def member(self) -> Union[PartialMember, None]:
@@ -105,10 +105,7 @@ class Player(CorkusBase):
         if self.attributes.get("guild", {}).get("name", None) is None:
             return None
         else:
-            return PartialGuild(
-                corkus = self.corkus,
-                name = self.attributes.get("guild", {}).get("name", "")
-            )
+            return PartialGuild(self.corkus, self.attributes.get("guild", {}).get("name", ""))
 
     @property
     def statistics(self):
