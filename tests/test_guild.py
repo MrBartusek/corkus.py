@@ -1,6 +1,7 @@
 # pylint: disable=attribute-defined-outside-init
 
 import unittest
+from tests import vcr
 from corkus import Corkus
 from corkus.objects import PartialGuild
 
@@ -8,6 +9,7 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
 
+    @vcr.use_cassette
     async def test_get_guild(self):
         guild = await self.corkus.guild.get("The Farplane")
         self.assertEqual(guild.name, "The Farplane")
@@ -21,14 +23,17 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         player = await member.fetch_player()
         self.assertEqual(player.guild.name, "The Farplane")
 
+    @vcr.use_cassette
     async def test_all_guilds(self):
         all_guilds = await self.corkus.guild.list_all()
         self.assertTrue(any(g.name == "The Farplane" for g in all_guilds))
 
+    @vcr.use_cassette
     async def test_partial_guild(self):
         guild = await PartialGuild(self.corkus, "The Farplane").fetch()
         self.assertTrue(guild.tag == "Yin")
 
+    @vcr.use_cassette
     async def test_partial_member_fetch(self):
         player = await self.corkus.player.get('MrBartusekXD')
         self.assertEqual(player.guild.name, "The Farplane")

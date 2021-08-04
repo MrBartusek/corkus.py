@@ -1,0 +1,19 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Corkus.py/1.0.0
+    method: GET
+    uri: https://api.wynncraft.com/public_api.php?action=onlinePlayersSum
+  response:
+    body:
+      string: '{"players_online":1449,"request":{"timestamp":1628090197,"version":1.2}}'
+    headers: {}
+    status:
+      code: 200
+      message: OK
+    url: https://api.wynncraft.com/public_api.php?action=onlinePlayersSum
+version: 1

@@ -48,7 +48,7 @@ Recipe
 - Search
 
 Search-API
-- Name
+- Name ✔️
 
 Territory
 - List ✔️

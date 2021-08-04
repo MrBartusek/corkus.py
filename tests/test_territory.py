@@ -2,12 +2,14 @@
 
 from datetime import datetime
 import unittest
+from tests import vcr
 from corkus import Corkus
 
 class TestGuild(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
 
+    @vcr.use_cassette
     async def test_all_territories(self):
         all_territories = await self.corkus.territory.list_all()
         teritory = all_territories[0]
