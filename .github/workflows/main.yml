@@ -26,13 +26,14 @@ jobs:
       - name: 🧹 Lint with Pylint
         run: find . -name '*.py' -exec pylint {} \;
 
-  test:
+  test-multi-python:
     name: Test with Python ${{ matrix.python-version }}
     needs: lint
     runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.8, 3.9]
+        os: [macOS-latest, ubuntu-latest, windows-latest]
     steps:
       - name: 📥 Checkout the repository
         uses: actions/checkout@v2
