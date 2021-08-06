@@ -22,9 +22,9 @@ Guild
 - Stats ✔️
 
 Ingredient
-- Get
-- List
-- Search
+- Get ✔️
+- List ✔️
+- Search ➕
 
 Item
 - Database

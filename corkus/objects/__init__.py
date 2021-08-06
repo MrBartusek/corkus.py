@@ -23,3 +23,6 @@ from .teritory import Teritory
 from .territory_location import TeritoryLocation
 
 from .search_result import SearchResult
+
+from .partial_ingredient import PartialIngredient
+from .ingredient import Ingredient

@@ -1,3 +1,4 @@
+from corkus import objects
 from aiohttp.client import ClientSession, ClientTimeout
 from typing import Optional
 from corkus.version import __version__
@@ -19,7 +20,9 @@ class CorkusRequest:
         data = await resp.json()
 
         # For V2 Endpoints
-        if data.get("data", None) is not None:
-            data = data.get("data")[0]
+        if data.get("data") is not None:
+            data = data.get("data")
+            if len(data) == 1:
+                data = data[0]
 
         return data
