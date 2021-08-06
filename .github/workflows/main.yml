@@ -26,8 +26,8 @@ jobs:
       - name: 🧹 Lint with Pylint
         run: find . -name '*.py' -exec pylint {} \;
 
-  test-multi-python:
-    name: Test with Python ${{ matrix.python-version }}
+  test:
+    name: Test with Python ${{ matrix.python-version }} on ${{ matrix.os }}
     needs: lint
     runs-on: ubuntu-latest
     strategy:
