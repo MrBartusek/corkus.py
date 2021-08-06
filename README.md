@@ -15,7 +15,7 @@
 - ~~Proper rate limit handling~~ Soon
 - ~~100% coverage of the supported WynncraftAPI.~~ Soon
 
-# Current API Coverage
+## Current API Coverage
 
 Recipe
 - Get
@@ -57,6 +57,24 @@ Territory
 ## Installation
 
 *Python 3.8+ or higher is required*
+
 ```shell
 pip install corkus.py
+```
+
+## Quick Example
+
+```python
+import asyncio
+from corkus import Corkus
+
+async def player_stats():
+    corkus = Corkus()
+
+    player = await corkus.player.get("Salted")
+    print(player.statistics.chests_found) # => 219
+
+    await corkus.close()
+
+asyncio.get_event_loop().run_until_complete(player_stats())
 ```
