@@ -21,7 +21,7 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           python3 -m pip --disable-pip-version-check install -r requirements.txt
-          pip install pylint
+          python3 -m pip --disable-pip-version-check install -r dev-requirements.txt
 
       - name: 🧹 Lint with Pylint
         run: find . -name '*.py' -exec pylint {} \;
@@ -47,7 +47,7 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           python3 -m pip --disable-pip-version-check install -r requirements.txt
-          pip install coverage
+          python3 -m pip --disable-pip-version-check install -r dev-requirements.txt
 
       - name: 🔍 Run tests
         run: |
