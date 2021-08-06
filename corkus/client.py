@@ -8,6 +8,7 @@ from corkus.endpoints.guild import GuildEndpoint
 from corkus.endpoints.territory import TerritoryEndpoint
 from corkus.endpoints.search import SearchEndpoint
 from corkus.endpoints.ingredient import IngredientEndpoint
+from corkus.endpoints.leaderboard import LeaderboardEndpoint
 
 class Corkus:
     """First-class interface for accessing Wynncraft API"""
@@ -46,6 +47,11 @@ class Corkus:
     def ingredient(self) -> IngredientEndpoint:
         """Information about ingredients"""
         return IngredientEndpoint(self)
+
+    @property
+    def leaderboard(self) -> LeaderboardEndpoint:
+        """Leaderboards of best players and guilds"""
+        return LeaderboardEndpoint(self)
 
     async def close(self) -> Coroutine[Any, Any, None]:
         """End the corkus client when it's not needed anymore"""
