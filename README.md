@@ -17,6 +17,14 @@
 
 # Current API Coverage
 
+Recipe
+- Get
+- List
+- Search
+
+Item
+- Database
+
 Guild
 - List ✔️
 - Stats ✔️
@@ -26,13 +34,10 @@ Ingredient
 - List ✔️
 - Search ➕
 
-Item
-- Database
-
 Leaderboard
-- Guild
-- Player
-- PvP
+- Guild ✔️
+- Player ✔️
+- PvP ✔️
 
 Network
 - Server List ✔️
@@ -41,11 +46,6 @@ Network
 Player
 - Statistics ✔️
 - UUID ✔️
-
-Recipe
-- Get
-- List
-- Search
 
 Search-API
 - Name ✔️

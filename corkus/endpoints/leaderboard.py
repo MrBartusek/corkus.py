@@ -1,7 +1,7 @@
 
-from typing import List
+from typing import List, Optional
 from corkus.utils.constants import URL_V1
-from corkus.objects import LeaderboardPlayer, LeaderboardGuild
+from corkus.objects import LeaderboardPlayer, LeaderboardGuild, Timeframe
 from corkus.endpoints.endpoint import Endpoint
 
 class LeaderboardEndpoint(Endpoint):
@@ -15,7 +15,7 @@ class LeaderboardEndpoint(Endpoint):
         response = await self.corkus.request.get(URL_V1 + "statsLeaderboard&type=player&timeframe=alltime")
         return [LeaderboardPlayer(self.corkus, g) for g in response]
 
-    async def pvp(self) -> List[LeaderboardPlayer]:
+    async def pvp(self, *, timeframe: Optional[Timeframe] = Timeframe.ALL_TIME) -> List[LeaderboardPlayer]:
         """Returns a leaderboard of players with a length of 100. Sorted by PvP kills"""
-        response = await self.corkus.request.get(URL_V1 + "statsLeaderboard&type=pvp&timeframe=alltime")
+        response = await self.corkus.request.get(URL_V1 + "statsLeaderboard&type=pvp&timeframe=" + timeframe.value)
         return [LeaderboardPlayer(self.corkus, g) for g in response]

@@ -4,6 +4,7 @@ from .base import CorkusBase
 from .partial_base import PartialBase
 
 from .uuid import CorkusUUID
+from .timeframe import Timeframe
 
 from .base_player import PlayerRank, PlayerTag
 from .player import Player
