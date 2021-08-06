@@ -17,6 +17,7 @@ from .player_gamemodes import PlayerGamemodes, HardcoreType
 from .leaderboard_player import LeaderboardPlayer
 
 from .server import Server, ServerType
+from .partial_server import PartialServer
 
 from .guild import Guild
 from .partial_guild import PartialGuild
