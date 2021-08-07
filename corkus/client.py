@@ -18,6 +18,14 @@ class Corkus:
             timeout = TIMEOUT
         self.request = CorkusRequest(timeout)
 
+    async def __aenter__(self) -> "Corkus":
+        """Async enter"""
+        return self
+
+    async def __aexit__(self, *exc_info) -> None:
+        """Async exit"""
+        await self.close()
+
     @property
     def network(self) -> NetworkEndpoint:
         """Wynncraft Network specific routes like list of all players"""

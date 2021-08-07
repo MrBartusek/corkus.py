@@ -34,6 +34,24 @@ pip install corkus.py
 
 ## Quick Example
 
+Using [Context Manager](https://book.pythontips.com/en/latest/context_managers.html):
+
+```python
+import asyncio
+from corkus import Corkus
+
+async def player_stats():
+    async with Corkus() as corkus:
+        player = await corkus.player.get("Salted")
+        print(f"username: {player.username}")
+        print(f"chests_found: {player.statistics.chests_found}")
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(player_stats())
+```
+
+Without Context Manager:
+
 ```python
 import asyncio
 from corkus import Corkus
@@ -42,9 +60,16 @@ async def player_stats():
     corkus = Corkus()
 
     player = await corkus.player.get("Salted")
-    print(player.statistics.chests_found) # => 219
+    print(f"username: {player.username}")
+    print(f"chests_found: {player.statistics.chests_found}")
 
     await corkus.close()
 
 asyncio.get_event_loop().run_until_complete(player_stats())
+```
+
+Output:
+```
+username: Salted
+chests_found: 219
 ```
