@@ -5,54 +5,24 @@
 
 # Corkus.py ⚙️
 
-> Asynchronous & Blazingly-Fast Python wrapper for [Public Wynncraft API](https://docs.wynncraft.com).
+Asynchronous modern, feature-rich and easy to use Python wrapper for [Public Wynncraft API](https://docs.wynncraft.com).
 
 ## Key Features
 
 - Asynchronous API using `async` and `await`
-- Real object definitions and support for [typing](https://docs.python.org/3/library/typing.html) module
+- Easy to use with an object oriented design and `fetch` functions
+- ≈ 80% coverage of the Wynncraft API as of now
 - ~~Responses caching~~ Soon
 - ~~Proper rate limit handling~~ Soon
-- ~~100% coverage of the supported WynncraftAPI.~~ Soon
 
-## Current API Coverage
+## Missing Features
 
-Recipe
-- Get
-- List
-- Search
-
-Item
-- Database
-
-Guild
-- List ✔️
-- Stats ✔️
-
-Ingredient
-- Get ✔️
-- List ✔️
-- Search ➕
-
-Leaderboard
-- Guild ✔️
-- Player ✔️
-- PvP ✔️
-
-Network
-- Server List ✔️
-- Player Sum ✔️
-
-Player
-- Statistics ✔️
-- UUID ✔️
-
-Search-API
-- Name ✔️
-
-Territory
-- List ✔️
-
+- Recipe Endpoint
+- Item Database Endpoint
+- Ingredients Search
+- Proper rate limit handling
+- Responses caching
+- Error handling
 
 ## Installation
 
