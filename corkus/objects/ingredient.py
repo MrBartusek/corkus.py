@@ -1,20 +1,11 @@
 from __future__ import annotations
-from corkus.objects.base import CorkusBase
 from typing import TYPE_CHECKING, Literal, List
-from enum import Enum
+
+from .base import CorkusBase
+from .enums import Profession
 
 if TYPE_CHECKING:
     from .guild import Guild
-
-class Profession(Enum):
-    ALCHEMISM = "ALCHEMISM"
-    ARMOURING = "ARMOURING"
-    COOKING = "COOKING"
-    JEWELING = "JEWELING"
-    SCRIBING = "SCRIBING"
-    TAILORING = "TAILORING"
-    WEAPONSMITHING = "WEAPONSMITHING"
-    WOODWORKING = "WOODWORKING"
 
 class Ingredient(CorkusBase):
     @property

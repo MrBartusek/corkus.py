@@ -15,7 +15,8 @@ disable=
     too-few-public-methods,
     unsubscriptable-object,
     wrong-import-order,
-    too-many-arguments
+    too-many-arguments,
+    abstract-method
 
 [FORMAT]
 max-line-length=240
