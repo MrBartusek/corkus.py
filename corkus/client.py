@@ -16,7 +16,7 @@ class Corkus:
     def __init__(self, *, timeout: Optional[int] = None) -> None:
         if timeout is None:
             timeout = TIMEOUT
-        self.request = CorkusRequest(timeout)
+        self._request = CorkusRequest(timeout)
 
     async def __aenter__(self) -> "Corkus":
         """Async enter"""
@@ -63,4 +63,4 @@ class Corkus:
 
     async def close(self) -> Coroutine[Any, Any, None]:
         """End the corkus client when it's not needed anymore"""
-        return await self.request.session.close()
+        return await self._request.session.close()

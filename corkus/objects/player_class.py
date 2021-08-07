@@ -22,7 +22,7 @@ class PlayerClass(CorkusBase):
     @property
     def name(self):
         """The official name of the class for example: `mage`, `knight1`, `darkwizard3`"""
-        return self.attributes.get("name", "")
+        return self._attributes.get("name", "")
 
     @property
     def display_name(self) -> Literal["Archer", "Warrior", "Mage", "Assassin", "Shamman", "Hunter", "Knight", "Dark Wizard", "Ninja", "Skyseer"]:
@@ -58,12 +58,12 @@ class PlayerClass(CorkusBase):
     @property
     def quests(self) -> List[Quest]:
         """List of all quests completed by player on this class"""
-        return [Quest(self.corkus, q) for q in self.attributes.get("quests", {}).get("list", [])]
+        return [Quest(self._corkus, q) for q in self._attributes.get("quests", {}).get("list", [])]
 
     @property
     def statistics(self) -> ClassStatistics:
         """General statistics across for this class"""
-        return ClassStatistics(self.corkus, self.attributes)
+        return ClassStatistics(self._corkus, self._attributes)
 
     @property
     def dungeons(self):
@@ -76,7 +76,7 @@ class PlayerClass(CorkusBase):
     @property
     def gamemode(self):
         """The challenge gamemodes that are enabled on this class"""
-        return PlayerGamemodes(self.corkus, self.attributes.get("gamemode", {}), self.statistics.deaths)
+        return PlayerGamemodes(self._corkus, self._attributes.get("gamemode", {}), self.statistics.deaths)
 
     @property
     def professions(self):

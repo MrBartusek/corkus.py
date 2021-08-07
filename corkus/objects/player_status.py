@@ -7,12 +7,12 @@ class PlayerStatus(CorkusBase):
     @property
     def online(self) -> bool:
         """Is player online right now"""
-        return self.attributes.get("online", False)
+        return self._attributes.get("online", False)
 
     @property
     def server(self) -> Union[PartialServer, None]:
-        if self.attributes.get("server") is not None:
-            return PartialServer(self.corkus, self.attributes.get("server", ""))
+        if self._attributes.get("server") is not None:
+            return PartialServer(self._corkus, self._attributes.get("server", ""))
         else:
             return None
 

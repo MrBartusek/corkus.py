@@ -28,7 +28,7 @@ class BasePartialMember(PartialPlayer):
     @property
     def guild(self) -> Guild:
         """The guild that this member is a part of"""
-        return self.guild
+        return self._guild
 
     async def fetch(self) -> Member:
         """Fetch more guild data of this member from API"""

@@ -9,11 +9,11 @@ class PartialGuild(CorkusBase):
     @property
     def name(self) -> str:
         """The name of the guild"""
-        return self.attributes
+        return self._attributes
 
     async def fetch(self) -> Guild:
         """Fetch full guild information from API"""
-        return await self.corkus.guild.get(self.name)
+        return await self._corkus.guild.get(self.name)
 
     def __repr__(self) -> str:
         return f"<PartialGuild name={self.name!r}>"

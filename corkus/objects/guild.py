@@ -6,12 +6,12 @@ class Guild(BaseGuild):
     @property
     def members(self) -> List[Member]:
         """List of all guild members"""
-        return [Member(self.corkus, self , m) for m in self.attributes.get("members", [])]
+        return [Member(self._corkus, self , m) for m in self._attributes.get("members", [])]
 
     @property
     def level_progress(self) -> float:
         """Progress to next level in precentage 1-100%"""
-        return self.attributes.get("xp", 0)
+        return self._attributes.get("xp", 0)
 
     def __repr__(self) -> str:
         return f"<Guild tag={self.tag!r} name={self.name!r}>"

@@ -14,17 +14,17 @@ class PlayerEndpoint(Endpoint):
         """Get statistics of specific player"""
         if isinstance(username_or_uuid, CorkusUUID):
             username_or_uuid = username_or_uuid.string(dashed = True)
-        response = await self.corkus.request.get(URL_V2 + "player/" + username_or_uuid + "/stats")
-        return Player(self.corkus, response)
+        response = await self._corkus._request.get(URL_V2 + "player/" + username_or_uuid + "/stats")
+        return Player(self._corkus, response)
 
     async def get_uuid(self, username: str) -> CorkusUUID:
         """Get UUID from player username
 
         This should not be used in place of the Mojang API, and your IP will be blocked if you do so"""
-        response = await self.corkus.request.get(URL_V2 + "player/" + username + "/uuid")
+        response = await self._corkus._request.get(URL_V2 + "player/" + username + "/uuid")
         return CorkusUUID(response.get("uuid", ""))
 
     async def search(self, term: str) -> List[PartialPlayer]:
         """Search for players using specified search term"""
-        result = await self.corkus.search.guilds_and_players(term)
+        result = await self._corkus.search.guilds_and_players(term)
         return result.players

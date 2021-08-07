@@ -7,10 +7,10 @@ from corkus.objects import Ingredient, PartialIngredient
 class IngredientEndpoint(Endpoint):
     async def list_all(self) -> List[PartialIngredient]:
         """List all available ingredient"""
-        response = await self.corkus.request.get(URL_V2 + "ingredient/list")
-        return [PartialIngredient(self.corkus, i) for i in response]
+        response = await self._corkus._request.get(URL_V2 + "ingredient/list")
+        return [PartialIngredient(self._corkus, i) for i in response]
 
     async def get(self, name: str) -> Ingredient:
         """Get information about ingredient of specified name"""
-        response = await self.corkus.request.get(URL_V2 + "ingredient/get/" + name.replace(" ", "_"))
-        return Ingredient(self.corkus, response)
+        response = await self._corkus._request.get(URL_V2 + "ingredient/get/" + name.replace(" ", "_"))
+        return Ingredient(self._corkus, response)

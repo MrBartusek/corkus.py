@@ -6,5 +6,5 @@ if TYPE_CHECKING:
 
 class CorkusBase:
     def __init__(self, corkus: Corkus, attributes: dict):
-        self.corkus = corkus
-        self.attributes = attributes
+        self._corkus = corkus
+        self._attributes = attributes

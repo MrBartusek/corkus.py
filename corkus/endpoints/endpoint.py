@@ -7,4 +7,4 @@ if TYPE_CHECKING:
 
 class Endpoint():
     def __init__(self, corkus: Corkus) -> None:
-        self.corkus = corkus
+        self._corkus = corkus

@@ -6,12 +6,12 @@ from corkus.endpoints.endpoint import Endpoint
 class NetworkEndpoint(Endpoint):
     async def players_sum(self) -> int:
         """Get number of online players across all servers"""
-        response = await self.corkus.request.get(URL_V1 + "onlinePlayersSum")
+        response = await self._corkus._request.get(URL_V1 + "onlinePlayersSum")
         return response.get("players_online", 0)
 
     async def servers_list(self) -> List[Server]:
         """List all running servers and players that are online on them"""
-        response = await self.corkus.request.get(URL_V1 + "onlinePlayers")
+        response = await self._corkus._request.get(URL_V1 + "onlinePlayers")
         del response["request"]
 
         # api sometimes returns such server, i guess just bug
@@ -19,4 +19,4 @@ class NetworkEndpoint(Endpoint):
         if "" in response:
             del response[""]
 
-        return [Server(self.corkus, name, players) for name, players in response.items()]
+        return [Server(self._corkus, name, players) for name, players in response.items()]

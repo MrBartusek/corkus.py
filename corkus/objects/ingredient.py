@@ -11,17 +11,17 @@ class Ingredient(CorkusBase):
     @property
     def name(self) -> str:
         """The name of the ingredient"""
-        return self.attributes.get("name", "")
+        return self._attributes.get("name", "")
 
     @property
     def tier(self) -> Literal[0, 1, 2, 3]:
         """Number of stars on the ingredient"""
-        return self.attributes.get("tier", 0)
+        return self._attributes.get("tier", 0)
 
     @property
     def reqired_level(self) -> int:
         """Level that an player must get on all of the :py:attr:`~reqired_professions` in order to use this ingredient"""
-        return self.attributes.get("level", 0)
+        return self._attributes.get("level", 0)
 
     @property
     def reqired_professions(self) -> List[Profession]:

@@ -27,22 +27,22 @@ class Member(CorkusBase):
     @property
     def username(self) -> int:
         """Minecraft username of player"""
-        return self.attributes.get("name", "")
+        return self._attributes.get("name", "")
 
     @property
     def uuid(self) -> CorkusUUID:
         """Minecraft UUID of player"""
-        return CorkusUUID(self.attributes.get("uuid", ""))
+        return CorkusUUID(self._attributes.get("uuid", ""))
 
     @property
     def contributed_xp(self) -> int:
         """Total number of contributed experience by this player"""
-        return self.attributes.get("contributed", 0)
+        return self._attributes.get("contributed", 0)
 
     @property
     def join_date(self) -> datetime:
         """Date and time when player joined the guild"""
-        return iso8601.parse_date(self.attributes.get("join", "1970"))
+        return iso8601.parse_date(self._attributes.get("join", "1970"))
 
     @property
     def guild(self) -> Guild:
@@ -51,4 +51,4 @@ class Member(CorkusBase):
 
     async def fetch_player(self) -> Player:
         """Fetch player data of this member from API"""
-        return await self.corkus.player.get(self.uuid)
+        return await self._corkus.player.get(self.uuid)

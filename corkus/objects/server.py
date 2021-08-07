@@ -24,7 +24,7 @@ class Server(CorkusBase):
     @property
     def players(self) -> List[PartialPlayer]:
         """List of all online players on this server"""
-        return [PartialPlayer(self.corkus, username = p) for p in self.attributes]
+        return [PartialPlayer(self._corkus, username = p) for p in self._attributes]
 
     @property
     def total_players(self) -> int:

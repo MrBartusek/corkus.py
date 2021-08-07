@@ -19,12 +19,12 @@ class PlayerGamemodes(CorkusBase):
     @property
     def craftsman(self) -> str:
         """Does this class have the craftsman challenge enabled"""
-        return self.attributes.get("craftsman", False)
+        return self._attributes.get("craftsman", False)
 
     @property
     def hardcore(self) -> HardcoreType:
         """Does this class have the hardcore challenge enabled and what is the status of it"""
-        enabled = self.attributes.get("hardcore", False)
+        enabled = self._attributes.get("hardcore", False)
         active = self._deaths <= 0
         if enabled and active:
             return HardcoreType.ENABLED
@@ -36,12 +36,12 @@ class PlayerGamemodes(CorkusBase):
     @property
     def ironman(self) -> bool:
         """Does this class have the ironman challenge enabled"""
-        return self.attributes.get("ironman", False)
+        return self._attributes.get("ironman", False)
 
     @property
     def hunted(self) -> bool:
         """Does this class have the haunted mode enabled"""
-        return self.attributes.get("hunted", False)
+        return self._attributes.get("hunted", False)
 
     def __repr__(self) -> str:
         return f"<Gamemodes craftsman={self.craftsman!r} hardcore={self.hardcore!r} ironman={self.ironman!r} hunted={self.hunted!r}>"

@@ -4,7 +4,7 @@ class Quest(CorkusBase):
     @property
     def name(self) -> str:
         """The name of quest"""
-        return self.attributes
+        return self._attributes
 
     @property
     def mini(self) -> bool:
