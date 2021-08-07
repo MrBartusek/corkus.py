@@ -1,6 +1,5 @@
 from .base import CorkusBase
-from .member import Member
-from typing import List
+from .partial_teritories import PartialTeritories
 from datetime import datetime
 from iso8601 import iso8601
 
@@ -25,9 +24,13 @@ class BaseGuild(CorkusBase):
         return self._attributes.get("level", 1)
 
     @property
-    def territories(self) -> None:
+    def territories(self) -> PartialTeritories:
         """Teritories owned by the guild"""
-        raise NotImplementedError
+        return PartialTeritories(
+            corkus = self._corkus,
+            guild = self,
+            count = self._attributes.get("territories", 0)
+        )
 
     @property
     def banner(self) -> None:

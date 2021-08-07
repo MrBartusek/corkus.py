@@ -16,7 +16,8 @@ disable=
     unsubscriptable-object,
     wrong-import-order,
     too-many-arguments,
-    abstract-method
+    abstract-method,
+    comparison-with-callable
 
 [FORMAT]
 max-line-length=240
