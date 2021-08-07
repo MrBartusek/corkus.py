@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import TYPE_CHECKING, Union
+from typing import TYPE_CHECKING, Union, Any, Coroutine
 
 from .partial_base import PartialBase
 from .server import ServerType
@@ -23,7 +23,7 @@ class PartialServer(PartialBase):
         """Type of the server, most servers are stanard servers"""
         return ServerType("".join([i for i in self._name if not i.isdigit()]))
 
-    async def fetch(self) -> Union[Server, None]:
+    async def fetch(self) -> Coroutine[Any, Any, Union[Server, None]]:
         """Fetch full server information from API. Returns `None` if server no longer exist"""
         servers = await self.corkus.network.servers_list()
         for server in servers:

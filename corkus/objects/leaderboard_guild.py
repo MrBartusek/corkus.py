@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Coroutine, Any
 from .base_guild import BaseGuild
 
 if TYPE_CHECKING:
@@ -26,7 +26,7 @@ class LeaderboardGuild(BaseGuild):
         """Total wars performed by this guild"""
         return self._attributes.get("warCount", 0)
 
-    async def fetch(self) -> Guild:
+    async def fetch(self) -> Coroutine[Any, Any, Guild]:
         """Fetch information about this guild from Guilds API"""
         return await self._corkus.guild.get(self.name)
 
