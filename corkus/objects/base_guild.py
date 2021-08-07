@@ -1,3 +1,4 @@
+from __future__ import annotations
 from .base import CorkusBase
 from .partial_teritories import PartialTeritories
 from datetime import datetime

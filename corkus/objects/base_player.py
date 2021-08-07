@@ -1,17 +1,8 @@
-from corkus.objects.playtime import PlayerPlaytime
+from __future__ import annotations
 from enum import Enum
-from typing import Union
-import iso8601
-from datetime import datetime
 
 from .base import CorkusBase
 from .uuid import CorkusUUID
-from .partial_member import PartialMember
-from .partial_guild import PartialGuild
-from .member import GuildRank
-from .player_status import PlayerStatus
-from .player_statistics import PlayerStatistics
-from .player_class import PlayerClass
 
 class PlayerRank(Enum):
     ADMINISTRATOR = "Administrator"

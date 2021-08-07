@@ -1,3 +1,4 @@
+from __future__ import annotations
 from .member import Member
 from typing import List
 from .base_guild import BaseGuild

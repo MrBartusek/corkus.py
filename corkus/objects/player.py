@@ -1,3 +1,4 @@
+from __future__ import annotations
 from corkus.objects.playtime import PlayerPlaytime
 from typing import Union
 import iso8601
