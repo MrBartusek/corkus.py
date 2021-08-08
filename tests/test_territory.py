@@ -26,8 +26,10 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         all_territories = await self.corkus.territory.list_all()
         teritory = all_territories[0]
         guild = await teritory.guild.fetch()
+        self.assertGreater(len(guild.territories), 0)
+        self.assertGreater(guild.territories.count, 0)
         guild_teritories = await guild.territories.fetch()
-        self.assertTrue(any(g.name ==teritory.name for g in guild_teritories))
+        self.assertTrue(any(g.name == teritory.name for g in guild_teritories))
 
     async def asyncTearDown(self):
         await self.corkus.close()
