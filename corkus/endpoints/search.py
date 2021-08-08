@@ -6,5 +6,5 @@ from corkus.endpoints.endpoint import Endpoint
 class SearchEndpoint(Endpoint):
     async def guilds_and_players(self, term: str) -> SearchResult:
         """Search for players and guilds in one requests"""
-        response = await self._corkus._request.get(URL_V1 + "statsSearch&search=" + term)
+        response = await self._corkus.request.get(URL_V1 + "statsSearch&search=" + term)
         return SearchResult(self._corkus, response)

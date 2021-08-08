@@ -28,6 +28,11 @@ class Corkus:
         await self.close()
 
     @property
+    def request(self) -> CorkusRequest:
+        """Access request module to make direct API calls"""
+        return self._request
+
+    @property
     def network(self) -> NetworkEndpoint:
         """Wynncraft Network specific routes like list of all players"""
         return NetworkEndpoint(self)
@@ -69,4 +74,4 @@ class Corkus:
 
     async def close(self) -> Coroutine[Any, Any, None]:
         """End the corkus client when it's not needed anymore"""
-        return await self._request.session.close()
+        return await self.request.session.close()
