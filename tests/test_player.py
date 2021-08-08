@@ -21,10 +21,16 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(player.username, "MrBartusekXD")
 
     @vcr.use_cassette
+    async def test_create_empty_partial(self):
+        with self.assertRaises(ValueError):
+            PartialPlayer(self.corkus)
+
+    @vcr.use_cassette
     async def test_fetch_partial(self):
-        partial = PartialPlayer(self.corkus, username = "MrBartusekXD")
+        partial = PartialPlayer(self.corkus, uuid = CorkusUUID('0edc3eb6-74d8-49b6-8b2a-3c0782183e3a'))
+        self.assertEqual(partial.uuid, CorkusUUID('0edc3eb6-74d8-49b6-8b2a-3c0782183e3a'))
         player = await partial.fetch()
-        self.assertEqual(player.uuid, CorkusUUID('0edc3eb6-74d8-49b6-8b2a-3c0782183e3a'))
+        self.assertEqual(player.username, "MrBartusekXD")
 
     @vcr.use_cassette
     async def test_player_general(self):
