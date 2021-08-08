@@ -47,6 +47,8 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
             self.assertEqual(recipe.level.minimum, 1)
             self.assertEqual(recipe.level.maximum, 3)
             self.assertEqual(len(recipe.materials), 2)
+            self.assertTrue(recipe.materials[0].name.startswith("Refined "))
+            self.assertGreater(recipe.materials[0].amount, 0)
             if item[2] != Profession.JEWELING:
                 self.assertGreater(recipe.health_or_damage.minimum, 0)
                 self.assertGreater(recipe.health_or_damage.maximum, 0)

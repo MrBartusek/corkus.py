@@ -5,7 +5,7 @@ class Material(CorkusBase):
     @property
     def name(self) -> str:
         """Name of the material like `Refined Copper Ingot` or `Refined Wheat String`"""
-        return self._attributes.get("name", "")
+        return self._attributes.get("item", "")
 
     @property
     def amount(self) -> int:
