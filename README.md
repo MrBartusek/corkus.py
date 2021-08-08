@@ -11,16 +11,14 @@ Asynchronous modern, feature-rich and easy to use Python wrapper for [Public Wyn
 
 - Asynchronous API using `async` and `await`
 - Easy to use with an object oriented design and `fetch` functions
-- ≈ 80% coverage of the Wynncraft API as of now
+- ≈ 90% coverage of the Wynncraft API as of now
+- Proper rate limit handling
 - ~~Responses caching~~ Soon
-- ~~Proper rate limit handling~~ Soon
 
 ## Missing Features
 
-- Recipe Endpoint
 - Item Database Endpoint
 - Ingredients Search
-- Proper rate limit handling
 - Responses caching
 - Error handling
 
@@ -30,6 +28,12 @@ Asynchronous modern, feature-rich and easy to use Python wrapper for [Public Wyn
 
 ```shell
 pip install corkus.py
+```
+
+Or install latest development version:
+
+```shell
+pip install git+https://github.com/MrBartusek/corkus.py@main
 ```
 
 ## Quick Example

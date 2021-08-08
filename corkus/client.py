@@ -74,4 +74,4 @@ class Corkus:
 
     async def close(self) -> Coroutine[Any, Any, None]:
         """End the corkus client when it's not needed anymore"""
-        return await self.request.session.close()
+        return await self.request._session.close()
