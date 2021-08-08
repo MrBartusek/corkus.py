@@ -5,12 +5,12 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/0.1.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=statsSearch&search=MrBartusekXD
   response:
     body:
-      string: '{"guilds":[],"players":["MrBartusekXD"],"search":"mrbartusekxd","request":{"timestamp":1628090217,"version":1}}'
+      string: '{"guilds":[],"players":["MrBartusekXD"],"search":"mrbartusekxd","request":{"timestamp":1628452563,"version":1}}'
     headers: {}
     status:
       code: 200
