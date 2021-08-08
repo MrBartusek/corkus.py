@@ -20,7 +20,11 @@ class PartialTeritories(PartialBase):
 
     @property
     def count(self):
+        """Total count of teritories owned by this guild"""
         return self._count
+
+    def __len__(self) -> int:
+        return self.count
 
     async def fetch(self) -> Coroutine[Any, Any, List[Teritory]]:
         """Fetch full server information from API. Returns `None` if server no longer exist"""

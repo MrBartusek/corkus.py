@@ -19,3 +19,21 @@ class Profession(Enum):
     WOODCUTTING = "WOODCUTTING"
     FARMING = "FARMING"
     FISHING = "FISHING"
+
+class ItemType(Enum):
+    HELMET = "HELMET"
+    CHESTPLATE = "CHESTPLATE"
+    LEGGINGS = "LEGGINGS"
+    BOOTS = "BOOTS"
+    RING = "RING"
+    NECKLACE = "NECKLACE"
+    BRACELET = "BRACELET"
+    DAGGER = "DAGGER"
+    SPEAR = "SPEAR"
+    BOW = "BOW"
+    WAND = "WAND"
+
+    # Crafted
+    SCROLL = "SCROLL"
+    POTION = "POTION"
+    FOOD = "FOOD"

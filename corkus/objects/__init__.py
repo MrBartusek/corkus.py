@@ -4,7 +4,7 @@ from .base import CorkusBase
 from .partial_base import PartialBase
 
 from .uuid import CorkusUUID
-from .enums import Profession, Timeframe
+from .enums import Profession, Timeframe, ItemType
 
 from .base_player import PlayerRank, PlayerTag
 from .player import Player
@@ -32,3 +32,9 @@ from .search_result import SearchResult
 
 from .partial_ingredient import PartialIngredient
 from .ingredient import Ingredient
+from .material import Material
+
+from .identification import Identification
+
+from .recipe import Recipe
+from .partial_recipe import PartialRecipe
