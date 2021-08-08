@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import TYPE_CHECKING, Optional, Union, Any, Coroutine
+from typing import TYPE_CHECKING, Optional, Union
 
 from .partial_base import PartialBase
 
@@ -26,7 +26,7 @@ class PartialPlayer(PartialBase):
         """Minecraft UUID of player"""
         return self._uuid
 
-    async def fetch(self) -> Coroutine[Any, Any, Player]:
+    async def fetch(self) -> Player:
         """Fetch player data of this member from API"""
         identifier = self._uuid if self._uuid is not None else self._username
         return await self.corkus.player.get(identifier)

@@ -1,6 +1,6 @@
 from __future__ import annotations
 from corkus.objects.guild import Guild
-from typing import TYPE_CHECKING, Coroutine, Any
+from typing import TYPE_CHECKING
 
 from corkus.objects.partial_player import PartialPlayer
 
@@ -30,7 +30,7 @@ class BasePartialMember(PartialPlayer):
         """The guild that this member is a part of"""
         return self._guild
 
-    async def fetch(self) -> Coroutine[Any, Any, Member]:
+    async def fetch(self) -> Member:
         """Fetch more guild data of this member from API"""
         guild = await self._guild.fetch()
         member = [m for m in guild.members if m.uuid == self._uuid]

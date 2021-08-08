@@ -1,6 +1,7 @@
 from __future__ import annotations
 from corkus.objects.base import CorkusBase
-from typing import TYPE_CHECKING, Any, Coroutine
+from typing import TYPE_CHECKING
+
 
 if TYPE_CHECKING:
     from .ingredient import Ingredient
@@ -11,7 +12,7 @@ class PartialIngredient(CorkusBase):
         """The name of the ingredient"""
         return self._attributes
 
-    async def fetch(self) -> Coroutine[Any, Any, Ingredient]:
+    async def fetch(self) -> Ingredient:
         """Fetch full ingredient information from API"""
         return await self._corkus.ingredient.get(self.name)
 

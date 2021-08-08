@@ -1,6 +1,6 @@
 from __future__ import annotations
 from corkus.objects.base import CorkusBase
-from typing import TYPE_CHECKING, Any, Coroutine
+from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
     from .guild import Guild
@@ -11,7 +11,7 @@ class PartialGuild(CorkusBase):
         """The name of the guild"""
         return self._attributes
 
-    async def fetch(self) -> Coroutine[Any, Any, Guild]:
+    async def fetch(self) -> Guild:
         """Fetch full guild information from API"""
         return await self._corkus.guild.get(self.name)
 

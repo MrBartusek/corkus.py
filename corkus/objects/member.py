@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import TYPE_CHECKING, Coroutine, Any
+from typing import TYPE_CHECKING
 from enum import Enum
 import iso8601
 from datetime import datetime
@@ -49,6 +49,6 @@ class Member(CorkusBase):
         """The guild that this member is a part of"""
         return self._guild
 
-    async def fetch_player(self) -> Coroutine[Any, Any, Player]:
+    async def fetch_player(self) -> Player:
         """Fetch player data of this member from API"""
         return await self._corkus.player.get(self.uuid)
