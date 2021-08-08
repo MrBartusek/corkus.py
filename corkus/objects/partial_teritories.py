@@ -1,6 +1,6 @@
 from __future__ import annotations
 from corkus.objects.teritory import Teritory
-from typing import Any, List, TYPE_CHECKING, Coroutine
+from typing import List, TYPE_CHECKING
 from .partial_base import PartialBase
 
 if TYPE_CHECKING:
@@ -26,7 +26,7 @@ class PartialTeritories(PartialBase):
     def __len__(self) -> int:
         return self.count
 
-    async def fetch(self) -> Coroutine[Any, Any, List[Teritory]]:
-        """Fetch full server information from API. Returns `None` if server no longer exist"""
+    async def fetch(self) -> List[Teritory]:
+        """Fetch full teritory information from API"""
         teritories = await self.corkus.territory.list_all()
         return [t for t in teritories if t.guild.name == self._guild.name]

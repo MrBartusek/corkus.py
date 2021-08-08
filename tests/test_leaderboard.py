@@ -1,5 +1,7 @@
 # pylint: disable=attribute-defined-outside-init
 
+from typing import List
+from corkus.objects import LeaderboardPlayer, guild
 import unittest
 from corkus import Corkus
 from tests import vcr
@@ -27,25 +29,32 @@ class TestLeaderboard(unittest.IsolatedAsyncioTestCase):
     @vcr.use_cassette
     async def test_combat_leaderboard(self):
         result = await self.corkus.leaderboard.combat()
-        for player in result:
-            self.assertGreater(len(player.username), 0)
-            self.assertGreater(player.total_combat_level, 0)
-            self.assertGreater(player.playtime.raw, 0)
-
-        self.assertTrue(any(p.pvp_kills > 0 for p in result))
-
-        player = await [p for p in result if p.username == "Maarcus1"][0].fetch()
-        self.assertEqual(player.username, "Maarcus1")
+        await self.check_players(result)
 
     @vcr.use_cassette
     async def test_pvp_leaderboard(self):
         result = await self.corkus.leaderboard.pvp()
+        await self.check_players(result)
+
+    async def check_players(self, result: List[LeaderboardPlayer]):
+        guild_count = 0
         for player in result:
             self.assertGreater(len(player.username), 0)
             self.assertGreater(player.total_combat_level, 0)
             self.assertGreater(player.playtime.raw, 0)
+            self.assertGreater(player.total_xp, 0)
+            self.assertGreater(player.position, 0)
+            if player.guild:
+                guild_count += 1
+                self.assertGreater(len(player.guild.name), 0)
+                self.assertGreater(len(player.member.tag), 0)
+            else:
+                self.assertIsNone(player.member)
 
         self.assertTrue(any(p.pvp_kills > 0 for p in result))
+
+        self.assertGreater(guild_count, 0)
+        self.assertLess(guild_count, len(result))
 
         player = await [p for p in result if p.username == "Maarcus1"][0].fetch()
         self.assertEqual(player.username, "Maarcus1")
