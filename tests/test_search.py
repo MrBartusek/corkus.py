@@ -11,6 +11,7 @@ class TestSearch(unittest.IsolatedAsyncioTestCase):
     @vcr.use_cassette
     async def test_guilds_and_players(self):
         result = await self.corkus.search.guilds_and_players("MrBartusekXD")
+        self.assertEqual(result.term, "mrbartusekxd")
         self.assertTrue(any(p.username == "MrBartusekXD" for p in result.players))
 
         result = await self.corkus.search.guilds_and_players("farplane")
