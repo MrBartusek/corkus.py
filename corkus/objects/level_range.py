@@ -14,13 +14,17 @@ class LevelRange(PartialBase):
         maximum: Optional[int] = None
         ):
         super().__init__(corkus)
+
+        if attributes is None:
+            attributes = {}
+
         self._min = attributes.get("minimum") or minimum or 0
         self._max = attributes.get("maximum") or maximum or 0
 
     @property
     def minimum(self) -> int:
         """The lowest possible identification of this property"""
-        return self.maximum
+        return self._min
 
     @property
     def maximum(self) -> int:

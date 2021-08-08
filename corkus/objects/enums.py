@@ -32,6 +32,7 @@ class ItemType(Enum):
     SPEAR = "SPEAR"
     BOW = "BOW"
     WAND = "WAND"
+    RELIK = "RELIK"
 
     # Crafted
     SCROLL = "SCROLL"
