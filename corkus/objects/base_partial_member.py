@@ -31,7 +31,7 @@ class BasePartialMember(PartialPlayer):
         return self._guild
 
     async def fetch(self) -> Member:
-        """Fetch more guild data of this member from API"""
+        """Fetch more guild data about this member from API"""
         guild = await self._guild.fetch()
         member = [m for m in guild.members if m.uuid == self._uuid]
         if len(member) == 1:
