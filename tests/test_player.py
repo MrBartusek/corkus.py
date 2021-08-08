@@ -3,7 +3,7 @@
 import unittest
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import CorkusUUID, PartialPlayer, PlayerTag, HardcoreType, ClassType
+from corkus.objects import CorkusUUID, PartialPlayer, PlayerTag, HardcoreType, ClassType, PartialServer, ServerType
 
 class TestPlayer(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -66,6 +66,21 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(player_class.type, ClassType.MAGE)
         self.assertEqual(player_class.name, "mage")
         self.assertEqual(player_class.display_name, "Mage")
+
+    @vcr.use_cassette
+    async def test_partial_server(self):
+        partial_server = PartialServer(self.corkus, "WC1")
+        self.assertEqual(partial_server.name, "WC1")
+        self.assertEqual(partial_server.type, ServerType.STANDARD)
+
+        server = await partial_server.fetch()
+        self.assertEqual(server.name, "WC1")
+
+    @vcr.use_cassette
+    async def test_partial_server_invalid(self):
+        partial_server = PartialServer(self.corkus, "invalid")
+        server = await partial_server.fetch()
+        self.assertEqual(server, None)
 
     async def asyncTearDown(self):
         await self.corkus.close()
