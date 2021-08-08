@@ -33,6 +33,10 @@ from .search_result import SearchResult
 from .partial_ingredient import PartialIngredient
 from .ingredient import Ingredient
 from .material import Material
+from .ingredient_sprite import IngredientSprite
+from .ingredient_position import IngredientPositionModifiers
+from .ingredient_comsumable import IngredientComsumableModifiers
+from .ingredient_item import IngredientItemModifiers
 
 from .identification import Identification
 

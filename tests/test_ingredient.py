@@ -3,7 +3,7 @@
 import unittest
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import PartialIngredient
+from corkus.objects import PartialIngredient, Profession
 
 class TestIngredient(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -11,10 +11,35 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
 
     @vcr.use_cassette
     async def test_get_ingredient(self):
-        ingredient = await self.corkus.ingredient.get("Gaze of Darkness")
-        self.assertEqual(ingredient.name, "Gaze of Darkness")
-        self.assertEqual(ingredient.tier, 3)
-        self.assertEqual(ingredient.reqired_level, 105)
+        glow_bulb = await self.corkus.ingredient.get("Glow Bulb Seeds")
+        self.assertEqual(glow_bulb.name, "Glow Bulb Seeds")
+        self.assertEqual(glow_bulb.tier, 3)
+        self.assertEqual(glow_bulb.reqired_level, 105)
+        self.assertGreater(glow_bulb.sprite.id, 0)
+        self.assertIn(Profession.TAILORING, glow_bulb.reqired_professions)
+        self.assertNotEqual(glow_bulb.item_modifiers.durability, 0)
+        self.assertGreater(glow_bulb.item_modifiers.defence_required, 0)
+
+        major = await self.corkus.ingredient.get("Major's Badge")
+        self.assertNotEqual(major.position_modifiers.above, 0)
+        self.assertNotEqual(major.position_modifiers.left, 0)
+        self.assertNotEqual(major.position_modifiers.right, 0)
+        self.assertNotEqual(major.position_modifiers.under, 0)
+        self.assertNotEqual(major.position_modifiers.touching, 0)
+        self.assertNotEqual(major.position_modifiers.not_touching, 0)
+        self.assertNotEqual(major.consumable_modifiers.duration, 0)
+
+        breath = await self.corkus.ingredient.get("Draconic Bone Marrow")
+        self.assertGreater(breath.consumable_modifiers.charges, 0)
+
+        horizon = await self.corkus.ingredient.get("Vortexian Event Horizon")
+        self.assertGreater(horizon.sprite.damage, 0)
+        self.assertNotEqual(horizon.item_modifiers.durability, 0)
+        self.assertGreater(horizon.item_modifiers.strength_required, 0)
+        self.assertGreater(horizon.item_modifiers.dexterity_required, 0)
+        self.assertGreater(horizon.item_modifiers.intelligence_required, 0)
+        self.assertGreater(horizon.item_modifiers.defence_required, 0)
+        self.assertGreater(horizon.item_modifiers.agility_required, 0)
 
     @vcr.use_cassette
     async def test_all_ingredient(self):

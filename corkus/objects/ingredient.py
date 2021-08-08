@@ -1,11 +1,12 @@
 from __future__ import annotations
-from typing import TYPE_CHECKING, Literal, List
+from typing import Literal, List
 
 from .base import CorkusBase
 from .enums import Profession
-
-if TYPE_CHECKING:
-    from .guild import Guild
+from .ingredient_sprite import IngredientSprite
+from .ingredient_position import IngredientPositionModifiers
+from .ingredient_comsumable import IngredientComsumableModifiers
+from .ingredient_item import IngredientItemModifiers
 
 class Ingredient(CorkusBase):
     @property
@@ -26,27 +27,31 @@ class Ingredient(CorkusBase):
     @property
     def reqired_professions(self) -> List[Profession]:
         """List of professions on which player must get :py:attr:`~reqired_level` in order to use this ingredient"""
-        raise NotImplementedError
+        return [Profession(p) for p in self._attributes.get("skills", {})]
 
     @property
-    def sprite(self):
-        raise NotImplementedError
+    def sprite(self) -> IngredientSprite:
+        """Describes look of ingredient in-game"""
+        return IngredientSprite(self._corkus, self._attributes.get("sprite", {}))
 
     @property
     def identifications(self):
         raise NotImplementedError
 
     @property
-    def position_modifiers(self):
-        raise NotImplementedError
+    def position_modifiers(self) -> IngredientPositionModifiers:
+        """How this ingredient affect other ones in the grid"""
+        return IngredientPositionModifiers(self._corkus, self._attributes.get("ingredientPositionModifiers", {}))
 
     @property
-    def item_modifiers(self):
-        raise NotImplementedError
+    def item_modifiers(self) -> IngredientItemModifiers:
+        """Additional modifiers applied only on not consumable items like armour, weapons or jewelry"""
+        return IngredientItemModifiers(self._corkus, self._attributes.get("itemOnlyIDs", {}))
 
     @property
-    def consumable_modifiers(self):
-        raise NotImplementedError
+    def consumable_modifiers(self) -> IngredientComsumableModifiers:
+        """Additional modifiers applied only on comsumable items like food, potions and scrolls"""
+        return IngredientComsumableModifiers(self._corkus, self._attributes.get("consumableOnlyIDs", {}))
 
     def __repr__(self) -> str:
         return f"<Ingredient name={self.name!r}>"
