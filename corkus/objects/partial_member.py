@@ -23,7 +23,7 @@ class PartialMember(BasePartialMember):
     @property
     def rank(self) -> GuildRank:
         """Player's rank in guild"""
-        return self.rank
+        return self._rank
 
     def __repr__(self) -> str:
         return f"<PartialMember username={self._username!r} guild={self._guild}>"

@@ -1,5 +1,6 @@
 # pylint: disable=attribute-defined-outside-init
 
+from corkus.objects.member import GuildRank
 import unittest
 from tests import vcr
 from corkus import Corkus
@@ -37,6 +38,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
 
         # Guild
         self.assertEqual(player.member.username, "MrBartusekXD")
+        self.assertEqual(player.member.rank, GuildRank.CHIEF)
         self.assertEqual(player.guild.name, "The Farplane")
 
         # Stats
