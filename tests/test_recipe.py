@@ -5,7 +5,7 @@ from tests import vcr
 from corkus import Corkus
 from corkus.objects import ItemType, Profession
 
-class TestIngredient(unittest.IsolatedAsyncioTestCase):
+class TestRecipe(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
 
@@ -37,10 +37,13 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
             self.assertEqual(recipe.type, item[1])
             self.assertEqual(recipe.skill, item[2])
             if item[3]:
-                self.assertGreater(recipe.charges, 0)
+                self.assertIsNone(recipe.durability)
+                self.assertEqual(recipe.charges, 3)
                 self.assertGreater(recipe.duration.minimum, 0)
                 self.assertGreater(recipe.duration.maximum, 0)
             else:
+                self.assertIsNone(recipe.charges)
+                self.assertIsNone(recipe.duration)
                 self.assertGreater(recipe.durability.minimum, 0)
                 self.assertGreater(recipe.durability.maximum, 0)
 

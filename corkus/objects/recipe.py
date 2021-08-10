@@ -47,15 +47,10 @@ class Recipe(CorkusBase):
             return None
 
     @property
-    def charges(self) -> Union[None, Literal[1, 2, 3]]:
+    def charges(self) -> Union[None, Literal[3]]:
         """If item is comsumbale returns how many times it can be used"""
         if self.type in (ItemType.POTION, ItemType.SCROLL, ItemType.FOOD):
-            if self.level.minimum > 70:
-                return 3
-            elif self.level.minimum > 30:
-                return 2
-            else:
-                return 1
+            return 3
         else:
             return None
 

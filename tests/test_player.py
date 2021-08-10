@@ -43,6 +43,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         # Overall
         self.assertGreater(player.playtime.raw, 0)
         self.assertEqual(player.tag, PlayerTag.VIP)
+        self.assertEqual(player.join_date.year, 2020)
 
         # Guild
         self.assertEqual(player.member.username, "MrBartusekXD")
@@ -79,6 +80,12 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(all(d.completed > 0 for d in player_class.dungeons))
         self.assertEqual(player_class.dungeons[0].name, "Decrepit Sewers")
         self.assertEqual(player_class.dungeons[0].type, DungeonType.STANDARD)
+
+    @vcr.use_cassette
+    async def test_no_guild(self):
+        player = await self.corkus.player.get("Salted")
+        self.assertIsNone(player.guild)
+        self.assertIsNone(player.member)
 
     @vcr.use_cassette
     async def test_partial_server(self):
