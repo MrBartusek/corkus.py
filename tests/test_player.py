@@ -73,7 +73,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(any(q.wiki_url == "https://wynncraft.fandom.com/wiki/King's_Recruit" for q in player_class.quests))
         self.assertTrue(any(q.wiki_url == "https://wynncraft.fandom.com/wiki/Quests#Mini-Quests" for q in player_class.quests))
         self.assertEqual(player_class.type, ClassType.MAGE)
-        self.assertEqual(player_class.type, ClassType.MAGE)
+        self.assertEqual(player_class.kind, ClassType.MAGE)
         self.assertEqual(player_class.name, "mage")
         self.assertEqual(player_class.display_name, "Mage")
         self.assertTrue(all(d.completed > 0 for d in player_class.dungeons))
