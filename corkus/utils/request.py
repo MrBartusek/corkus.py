@@ -1,5 +1,5 @@
 from __future__ import annotations
-from .ratelimit import RateLimiter
+from corkus.utils.ratelimit import RateLimiter
 from aiohttp.client import ClientSession, ClientTimeout
 from typing import Optional
 from corkus.version import __version__
