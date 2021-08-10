@@ -1,12 +1,19 @@
+from __future__ import annotations
 from .ratelimit import RateLimiter
 from aiohttp.client import ClientSession, ClientTimeout
 from typing import Optional
 from corkus.version import __version__
 
 class CorkusRequest:
-    def __init__(self, timeout: int = 0, session: Optional[ClientSession] = None) -> None:
+    """CorkusRequest is a internal overlay over aiohttp to simplify APi calls"""
+
+    def __init__(self,
+        timeout: Optional[int] = 0,
+        session: Optional[ClientSession] = None,
+        ratelimit_enable: Optional[bool] = True,
+    ) -> None:
         self._session = session
-        self.ratelimit = RateLimiter()
+        self.ratelimit = RateLimiter(ratelimit_enable)
         if session is None:
             self._session = ClientSession(
                 timeout = ClientTimeout(total = timeout),
@@ -15,6 +22,10 @@ class CorkusRequest:
                     "Content-Type": "application/json"
                 }
             )
+    
+    @property
+    def session(self) -> ClientSession:
+        return self._session
 
     async def get(self, url) -> dict:
         await self.ratelimit.limit()

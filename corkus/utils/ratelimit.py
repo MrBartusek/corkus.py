@@ -1,3 +1,4 @@
+from __future__ import annotations
 from multidict import CIMultiDictProxy
 import time
 import logging
@@ -6,10 +7,16 @@ import asyncio
 logger = logging.getLogger("corkus.ratelimit")
 
 class RateLimiter:
-    def __init__(self) -> None:
+    def __init__(self, enable: bool) -> None:
         self._total = 180
         self._remaining = 180
         self._reset = 0
+        self._enabled = enable
+
+    @property
+    def enabled(self) -> bool:
+        """Is ratelimiter enabled"""
+        return self._enabled
 
     @property
     def total(self) -> int:
@@ -31,7 +38,7 @@ class RateLimiter:
 
     async def limit(self) -> None:
         """Delay execution when hitting ratelimit"""
-        if self.remaining < 3:
+        if self.remaining < 3 and self._enabled:
             logger.info(f"You are being ratelimited, waiting for {self.reset}s")
             await asyncio.sleep(self.reset)
 

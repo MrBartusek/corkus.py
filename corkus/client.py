@@ -1,4 +1,5 @@
-from typing import Optional, Coroutine, Any
+from __future__ import annotations
+from typing import Optional, Coroutine, Any, TYPE_CHECKING
 from corkus.utils.constants import TIMEOUT
 from corkus.utils.request import CorkusRequest
 
@@ -11,13 +12,21 @@ from corkus.endpoints.ingredient import IngredientEndpoint
 from corkus.endpoints.leaderboard import LeaderboardEndpoint
 from corkus.endpoints.recipe import RecipeEndpoint
 
+if TYPE_CHECKING:
+    from .utils.ratelimit import RateLimiter
+    from aiohttp import ClientSession
+
 class Corkus:
     """First-class interface for accessing Wynncraft API"""
 
-    def __init__(self, *, timeout: Optional[int] = None) -> None:
+    def __init__(self, *,
+        timeout: Optional[int] = None,
+        session: Optional[ClientSession] = None,
+        ratelimit_enable: Optional[bool] = True,
+        ) -> None:
         if timeout is None:
             timeout = TIMEOUT
-        self._request = CorkusRequest(timeout)
+        self._request = CorkusRequest(timeout, session, ratelimit_enable)
 
     async def __aenter__(self) -> "Corkus":
         """Async enter"""
@@ -29,8 +38,18 @@ class Corkus:
 
     @property
     def request(self) -> CorkusRequest:
-        """Access request module to make direct API calls"""
+        """Access request module to make direct API calls
+        .. note::
+            Directly acessing requester is reserver for advanced users only
+            If there is an endpoint that you can't normall access using library,
+            please [create a issue](https://github.com/MrBartusek/corkus.py/issues/new)
+        """
         return self._request
+
+    @property
+    def ratelimit(self) -> RateLimiter:
+        """Access ratelimit information for this corkus instanciesS"""
+        return self.request.ratelimit
 
     @property
     def network(self) -> NetworkEndpoint:
@@ -74,4 +93,4 @@ class Corkus:
 
     async def close(self) -> Coroutine[Any, Any, None]:
         """End the corkus client when it's not needed anymore"""
-        return await self.request._session.close()
+        return await self.request.session.close()
