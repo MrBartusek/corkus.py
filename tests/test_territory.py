@@ -5,7 +5,7 @@ import unittest
 from tests import vcr
 from corkus import Corkus
 
-class TestGuild(unittest.IsolatedAsyncioTestCase):
+class TestTerritory(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
 

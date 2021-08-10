@@ -3,7 +3,7 @@
 import unittest
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import PartialGuild
+from corkus.objects import PartialGuild, BannerColor, BannerPattern
 
 class TestGuild(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -18,6 +18,13 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(all(m.join_date < m.guild.created for m in guild.members))
         self.assertTrue(any(m.username == "MrBartusekXD" for m in guild.members))
         self.assertTrue(0 <= guild.level_progress <= 100)
+
+        self.assertGreater(guild.banner.tier, 1)
+        self.assertEqual(guild.banner.base_color, BannerColor.BLUE)
+        self.assertTrue(any(l.color == BannerColor.WHITE for l in guild.banner.layers))
+        self.assertTrue(any(l.color == BannerColor.BLUE for l in guild.banner.layers))
+        self.assertTrue(any(l.pattern == BannerPattern.SKULL for l in guild.banner.layers))
+
         self.assertTrue(1 <= guild.level <= 100)
         member = guild.members[0]
         player = await member.fetch_player()

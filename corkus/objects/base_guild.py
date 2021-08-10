@@ -3,6 +3,7 @@ from .base import CorkusBase
 from .partial_teritories import PartialTeritories
 from datetime import datetime
 from iso8601 import iso8601
+from .guild_banner import GuildBanner
 
 class BaseGuild(CorkusBase):
     @property
@@ -34,9 +35,9 @@ class BaseGuild(CorkusBase):
         )
 
     @property
-    def banner(self) -> None:
+    def banner(self) -> GuildBanner:
         """Guild banner"""
-        raise NotImplementedError
+        return GuildBanner(self._corkus, self._attributes.get("banner", {}))
 
     def __repr__(self) -> str:
         return f"<BaseGuild tag={self.tag!r} name={self.name!r}>"

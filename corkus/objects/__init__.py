@@ -25,6 +25,7 @@ from .partial_server import PartialServer
 from .guild import Guild
 from .partial_guild import PartialGuild
 from .leaderboard_guild import LeaderboardGuild
+from .guild_banner import GuildBanner, GuildBannerLayer, BannerColor, BannerPattern
 from .member import Member
 
 from .teritory import Teritory
