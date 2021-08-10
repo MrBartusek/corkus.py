@@ -19,7 +19,10 @@ class ClassStatistics(CorkusBase):
 
     @property
     def items_identified(self) -> int:
-        """Total items identified"""
+        """Total items identified
+        .. warning::
+            This property is currently bugged and will always return `0`. See: [Wynncraft/WynncraftAPI#62](https://github.com/Wynncraft/WynncraftAPI/issues/62)
+        """
         return self._attributes.get("itemsIdentified", 0)
 
     @property

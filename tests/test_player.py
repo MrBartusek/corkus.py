@@ -61,6 +61,8 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(player.statistics.deaths, 0)
         self.assertGreater(player.statistics.discoveries, 0)
 
+        self.assertEqual(player.statistics.items_identified, 0)
+
         # Classes
         player_class = player.classes[0]
         self.assertGreater(player_class.statistics.chests_found, 0)
