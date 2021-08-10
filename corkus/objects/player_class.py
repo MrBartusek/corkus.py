@@ -76,7 +76,7 @@ class PlayerClass(CorkusBase):
     @property
     def raids(self) -> List[Raid]:
         """List of raids completed by this class"""
-        return [Dungeon(self._corkus, d) for d in self._attributes.get("raids", {}).get("list", [])]
+        return [Raid(self._corkus, d) for d in self._attributes.get("raids", {}).get("list", [])]
 
     @property
     def gamemode(self):
