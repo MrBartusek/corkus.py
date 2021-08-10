@@ -22,7 +22,7 @@ class CorkusRequest:
                     "Content-Type": "application/json"
                 }
             )
-    
+
     @property
     def session(self) -> ClientSession:
         return self._session
