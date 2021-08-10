@@ -69,7 +69,8 @@ async def player_stats():
 
     await corkus.close()
 
-asyncio.get_event_loop().run_until_complete(player_stats())
+loop = asyncio.get_event_loop()
+loop.run_until_complete(player_stats())
 ```
 
 Output:
