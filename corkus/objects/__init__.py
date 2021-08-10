@@ -15,6 +15,8 @@ from .player_status import PlayerStatus
 from .player_class import PlayerClass, ClassType
 from .player_gamemodes import PlayerGamemodes, HardcoreType
 from .leaderboard_player import LeaderboardPlayer
+from .dungeon import Dungeon
+from .raid import Raid
 
 from .server import Server, ServerType
 from .partial_server import PartialServer

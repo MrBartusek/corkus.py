@@ -5,6 +5,8 @@ from .base import CorkusBase
 from .quest import Quest
 from .player_statistics import ClassStatistics
 from .player_gamemodes import PlayerGamemodes
+from .dungeon import Dungeon
+from .raid import Raid
 
 class ClassType(Enum):
     ARCHER = "Archer"
@@ -67,12 +69,14 @@ class PlayerClass(CorkusBase):
         return ClassStatistics(self._corkus, self._attributes)
 
     @property
-    def dungeons(self):
-        raise NotImplementedError
+    def dungeons(self) -> List[Dungeon]:
+        """List of dungeons completed by this class"""
+        return [Dungeon(self._corkus, d) for d in self._attributes.get("dungeons", {}).get("list", [])]
 
     @property
-    def raids(self):
-        raise NotImplementedError
+    def raids(self) -> List[Raid]:
+        """List of raids completed by this class"""
+        return [Dungeon(self._corkus, d) for d in self._attributes.get("raids", {}).get("list", [])]
 
     @property
     def gamemode(self):

@@ -1,5 +1,7 @@
 # pylint: disable=attribute-defined-outside-init
 
+from corkus.objects.dungeon import DungeonType
+from corkus.objects.player import Player
 from corkus.objects.member import GuildRank
 import unittest
 from tests import vcr
@@ -74,6 +76,9 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(player_class.type, ClassType.MAGE)
         self.assertEqual(player_class.name, "mage")
         self.assertEqual(player_class.display_name, "Mage")
+        self.assertTrue(all(d.completed > 0 for d in player_class.dungeons))
+        self.assertEqual(player_class.dungeons[0].name, "Decrepit Sewers")
+        self.assertEqual(player_class.dungeons[0].type, DungeonType.STANDARD)
 
     @vcr.use_cassette
     async def test_partial_server(self):
