@@ -2,7 +2,7 @@ from __future__ import annotations
 from typing import Literal, List
 
 from .base import CorkusBase
-from .enums import Profession
+from .enums import ProfessionType
 from .ingredient_sprite import IngredientSprite
 from .ingredient_position import IngredientPositionModifiers
 from .ingredient_comsumable import IngredientComsumableModifiers
@@ -25,9 +25,9 @@ class Ingredient(CorkusBase):
         return self._attributes.get("level", 0)
 
     @property
-    def reqired_professions(self) -> List[Profession]:
+    def reqired_professions(self) -> List[ProfessionType]:
         """List of professions on which player must get :py:attr:`~reqired_level` in order to use this ingredient"""
-        return [Profession(p) for p in self._attributes.get("skills", {})]
+        return [ProfessionType(p) for p in self._attributes.get("skills", {})]
 
     @property
     def sprite(self) -> IngredientSprite:

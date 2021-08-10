@@ -4,7 +4,7 @@ from .base import CorkusBase
 from .partial_base import PartialBase
 
 from .uuid import CorkusUUID
-from .enums import Profession, Timeframe, ItemType
+from .enums import ProfessionType, Timeframe, ItemType
 
 from .base_player import PlayerRank, PlayerTag
 from .player import Player
@@ -15,6 +15,7 @@ from .player_status import PlayerStatus
 from .player_class import PlayerClass, ClassType
 from .player_gamemodes import PlayerGamemodes, HardcoreType
 from .leaderboard_player import LeaderboardPlayer
+from .player_profession import PlayerProfession
 from .dungeon import Dungeon
 from .raid import Raid
 

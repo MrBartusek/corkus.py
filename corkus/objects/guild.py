@@ -11,7 +11,7 @@ class Guild(BaseGuild):
 
     @property
     def level_progress(self) -> float:
-        """Progress to next level in precentage 1-100%"""
+        """Progress to next level in precentage 0-100%"""
         return self._attributes.get("xp", 0)
 
     def __repr__(self) -> str:

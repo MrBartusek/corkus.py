@@ -3,7 +3,7 @@
 import unittest
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import ItemType, Profession
+from corkus.objects import ItemType, ProfessionType
 
 class TestRecipe(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -13,21 +13,21 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
     async def test_get_by_id(self):
         data = [
             # ["ID", "TYPE", "PROFESSION", ""COMBSUMABLE]
-            ["Boots-1-3", ItemType.BOOTS, Profession.TAILORING, False],
-            ["Bow-1-3", ItemType.BOW, Profession.WOODWORKING, False],
-            ["Bracelet-1-3", ItemType.BRACELET, Profession.JEWELING, False],
-            ["Chestplate-1-3", ItemType.CHESTPLATE, Profession.ARMOURING, False],
-            ["Dagger-1-3", ItemType.DAGGER, Profession.WEAPONSMITHING, False],
-            ["Food-1-3", ItemType.FOOD, Profession.COOKING, True],
-            ["Helmet-1-3", ItemType.HELMET, Profession.ARMOURING, False],
-            ["Necklace-1-3", ItemType.NECKLACE, Profession.JEWELING, False],
-            ["Leggings-1-3", ItemType.LEGGINGS, Profession.TAILORING, False],
-            ["Potion-1-3", ItemType.POTION, Profession.ALCHEMISM, True],
-            ["Relik-1-3", ItemType.RELIK, Profession.WOODWORKING, False],
-            ["Ring-1-3", ItemType.RING, Profession.JEWELING, False],
-            ["Scroll-1-3", ItemType.SCROLL, Profession.SCRIBING, True],
-            ["Spear-1-3", ItemType.SPEAR, Profession.WEAPONSMITHING, False],
-            ["Wand-1-3", ItemType.WAND, Profession.WOODWORKING, False]
+            ["Boots-1-3", ItemType.BOOTS, ProfessionType.TAILORING, False],
+            ["Bow-1-3", ItemType.BOW, ProfessionType.WOODWORKING, False],
+            ["Bracelet-1-3", ItemType.BRACELET, ProfessionType.JEWELING, False],
+            ["Chestplate-1-3", ItemType.CHESTPLATE, ProfessionType.ARMOURING, False],
+            ["Dagger-1-3", ItemType.DAGGER, ProfessionType.WEAPONSMITHING, False],
+            ["Food-1-3", ItemType.FOOD, ProfessionType.COOKING, True],
+            ["Helmet-1-3", ItemType.HELMET, ProfessionType.ARMOURING, False],
+            ["Necklace-1-3", ItemType.NECKLACE, ProfessionType.JEWELING, False],
+            ["Leggings-1-3", ItemType.LEGGINGS, ProfessionType.TAILORING, False],
+            ["Potion-1-3", ItemType.POTION, ProfessionType.ALCHEMISM, True],
+            ["Relik-1-3", ItemType.RELIK, ProfessionType.WOODWORKING, False],
+            ["Ring-1-3", ItemType.RING, ProfessionType.JEWELING, False],
+            ["Scroll-1-3", ItemType.SCROLL, ProfessionType.SCRIBING, True],
+            ["Spear-1-3", ItemType.SPEAR, ProfessionType.WEAPONSMITHING, False],
+            ["Wand-1-3", ItemType.WAND, ProfessionType.WOODWORKING, False]
         ]
 
         for item in data:
@@ -52,7 +52,7 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
             self.assertEqual(len(recipe.materials), 2)
             self.assertTrue(recipe.materials[0].name.startswith("Refined "))
             self.assertGreater(recipe.materials[0].amount, 0)
-            if item[2] != Profession.JEWELING:
+            if item[2] != ProfessionType.JEWELING:
                 self.assertGreater(recipe.health_or_damage.minimum, 0)
                 self.assertGreater(recipe.health_or_damage.maximum, 0)
 

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from corkus.objects.player_profession import PlayerProfession
 from enum import Enum
 from typing import List, Literal
 from .base import CorkusBase
@@ -7,6 +8,7 @@ from .player_statistics import ClassStatistics
 from .player_gamemodes import PlayerGamemodes
 from .dungeon import Dungeon
 from .raid import Raid
+from .enums import ProfessionType
 
 class ClassType(Enum):
     ARCHER = "Archer"
@@ -84,12 +86,18 @@ class PlayerClass(CorkusBase):
         return PlayerGamemodes(self._corkus, self._attributes.get("gamemode", {}), self.statistics.deaths)
 
     @property
-    def professions(self):
-        raise NotImplementedError
+    def professions(self) -> List[PlayerProfession]:
+        """Returns a list of all professions"""
+        return [PlayerProfession(self._corkus, name, attr) for name, attr in self._attributes.get("professions", {}).items()]
+
+    def get_profession(self, profession: ProfessionType) -> PlayerProfession:
+        """Returns a profession with the given profession type"""
+        return next((p for p in self.professions if p.type == profession), None)
 
     @property
-    def combat(self):
-        raise NotImplementedError
+    def combat(self) -> PlayerProfession:
+        """Shortcut to combat profession"""
+        return self.get_profession(ProfessionType.COMBAT)
 
     def __repr__(self) -> str:
         return f"<PlayerClass type={self.display_name!r}>"

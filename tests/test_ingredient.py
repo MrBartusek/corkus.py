@@ -3,7 +3,7 @@
 import unittest
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import PartialIngredient, Profession
+from corkus.objects import PartialIngredient, ProfessionType
 
 class TestIngredient(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -16,7 +16,7 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(glow_bulb.tier, 3)
         self.assertEqual(glow_bulb.reqired_level, 105)
         self.assertGreater(glow_bulb.sprite.id, 0)
-        self.assertIn(Profession.TAILORING, glow_bulb.reqired_professions)
+        self.assertIn(ProfessionType.TAILORING, glow_bulb.reqired_professions)
         self.assertNotEqual(glow_bulb.item_modifiers.durability, 0)
         self.assertGreater(glow_bulb.item_modifiers.defence_required, 0)
 

@@ -5,7 +5,8 @@ class Timeframe(Enum):
     ALL_TIME = "alltime"
     WEEKLY = "weekly"
 
-class Profession(Enum):
+class ProfessionType(Enum):
+    COMBAT = "COMBAT"
     ALCHEMISM = "ALCHEMISM"
     ARMOURING = "ARMOURING"
     COOKING = "COOKING"
@@ -14,7 +15,6 @@ class Profession(Enum):
     TAILORING = "TAILORING"
     WEAPONSMITHING = "WEAPONSMITHING"
     WOODWORKING = "WOODWORKING"
-
     MINING = "MINING"
     WOODCUTTING = "WOODCUTTING"
     FARMING = "FARMING"

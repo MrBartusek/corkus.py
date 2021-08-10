@@ -1,12 +1,13 @@
 # pylint: disable=attribute-defined-outside-init
 
+from corkus.objects.enums import ProfessionType
 from corkus.objects.dungeon import DungeonType
 from corkus.objects.player import Player
 from corkus.objects.member import GuildRank
 import unittest
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import CorkusUUID, PartialPlayer, PlayerTag, HardcoreType, ClassType, PartialServer, ServerType
+from corkus.objects import CorkusUUID, PartialPlayer, PlayerTag, HardcoreType, ClassType, PartialServer, ServerType, player_profession
 
 class TestPlayer(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -67,19 +68,35 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertFalse(player_class.gamemode.hunted)
         self.assertFalse(player_class.gamemode.ironman)
         self.assertEqual(player_class.gamemode.hardcore, HardcoreType.DISABLED)
+
+        # Classes - Statistics
         self.assertGreater(player_class.statistics.deaths, 0)
         self.assertGreater(player_class.statistics.discoveries, 0)
         self.assertGreater(player_class.statistics.logins, 0)
+
+        # Classes - Quests
         self.assertTrue(any(q.name == "King's Recruit" for q in player_class.quests))
         self.assertTrue(any(q.wiki_url == "https://wynncraft.fandom.com/wiki/King's_Recruit" for q in player_class.quests))
         self.assertTrue(any(q.wiki_url == "https://wynncraft.fandom.com/wiki/Quests#Mini-Quests" for q in player_class.quests))
+
+        # Classes - Type
         self.assertEqual(player_class.type, ClassType.MAGE)
         self.assertEqual(player_class.kind, ClassType.MAGE)
         self.assertEqual(player_class.name, "mage")
         self.assertEqual(player_class.display_name, "Mage")
+
+        # Classes - Dungeons
         self.assertTrue(all(d.completed > 0 for d in player_class.dungeons))
         self.assertEqual(player_class.dungeons[0].name, "Decrepit Sewers")
         self.assertEqual(player_class.dungeons[0].type, DungeonType.STANDARD)
+
+        # Classes - Professions
+        self.assertEqual(len(player_class.professions), 13)
+        self.assertTrue(all(p.level > 10 for p in player_class.professions))
+        self.assertEqual(player_class.combat.type, ProfessionType.COMBAT)
+        self.assertEqual(player_class.combat.name, "Combat")
+        self.assertEqual(player_class.get_profession(ProfessionType.ALCHEMISM).type, ProfessionType.ALCHEMISM)
+        self.assertGreater(player_class.combat.level_progress, 0)
 
     @vcr.use_cassette
     async def test_no_guild(self):
