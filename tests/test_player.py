@@ -1,13 +1,13 @@
 # pylint: disable=attribute-defined-outside-init
 
-from corkus.objects.enums import ProfessionType
-from corkus.objects.dungeon import DungeonType
-from corkus.objects.player import Player
-from corkus.objects.member import GuildRank
 import unittest
 from tests import vcr
+import time
 from corkus import Corkus
-from corkus.objects import CorkusUUID, PartialPlayer, PlayerTag, HardcoreType, ClassType, PartialServer, ServerType, player_profession
+from corkus.objects import CorkusUUID, PartialPlayer, PlayerTag, HardcoreType, ClassType, PartialServer, ServerType
+from corkus.objects.enums import ProfessionType
+from corkus.objects.dungeon import DungeonType
+from corkus.objects.member import GuildRank
 
 class TestPlayer(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -50,6 +50,15 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(player.member.username, "MrBartusekXD")
         self.assertEqual(player.member.rank, GuildRank.CHIEF)
         self.assertEqual(player.guild.name, "The Farplane")
+        self.assertEqual(player.member.guild.name, "The Farplane")
+        self.assertEqual(player.member.player.username, "MrBartusekXD")
+
+        # Status
+        self.assertFalse(player.status.online)
+        self.assertIsNone(player.status.server)
+        diff = abs(int(player.last_online.timestamp()) - int(time.time()))
+        self.assertGreater(diff, 600)
+
 
         # Stats
         self.assertGreater(player.statistics.chests_found, 0)
@@ -60,7 +69,6 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(player.statistics.logins, 0)
         self.assertGreater(player.statistics.deaths, 0)
         self.assertGreater(player.statistics.discoveries, 0)
-
         self.assertEqual(player.statistics.items_identified, 0)
 
         # Classes

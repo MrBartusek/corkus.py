@@ -33,11 +33,7 @@ class BasePartialMember(PartialPlayer):
     async def fetch(self) -> Member:
         """Fetch more guild data about this member from API"""
         guild = await self._guild.fetch()
-        member = [m for m in guild.members if m.uuid == self._uuid]
-        if len(member) == 1:
-            return member[0]
-        else:
-            return None
+        return next((m for m in guild.members if m.uuid == self._uuid), None)
 
     def __repr__(self) -> str:
         return f"<BasePartialMember username={self._username!r} guild={self._guild}>"

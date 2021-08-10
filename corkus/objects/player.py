@@ -2,7 +2,7 @@ from __future__ import annotations
 from corkus.objects.playtime import PlayerPlaytime
 from typing import Union
 import iso8601
-from datetime import datetime
+import datetime
 
 from .base_player import BasePlayer
 from .partial_member import PartialMember
@@ -27,9 +27,14 @@ class Player(BasePlayer):
     def last_online(self) -> datetime:
         """Date and time when player was last seen online"""
         if self.status.online:
-            return datetime.utcnow()
+            return datetime.datetime.now(datetime.timezone.utc)
         else:
             return iso8601.parse_date(self._attributes.get("meta", {}).get("lastJoin", "1970"))
+
+    @property
+    def online(self) -> bool:
+        """Is player online right now, for detailed information see :py:attr:`~status`"""
+        return self.status.online
 
     @property
     def status(self) -> PlayerStatus:

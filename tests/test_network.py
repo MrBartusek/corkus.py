@@ -1,7 +1,7 @@
 # pylint: disable=attribute-defined-outside-init
 
 import unittest
-from datetime import datetime
+import time
 from tests import vcr
 from corkus import Corkus
 from corkus.objects import ServerType
@@ -27,8 +27,9 @@ class TestNetwork(unittest.IsolatedAsyncioTestCase):
         response = await self.corkus.network.servers_list()
         player = await response[0].players[0].fetch()
         self.assertTrue(player.status.online)
+        self.assertTrue(player.online)
         self.assertEqual(player.status.server.name, response[0].name)
-        diff = abs(int(player.last_online.timestamp()) - int(datetime.utcnow().timestamp()))
+        diff = abs(int(player.last_online.timestamp()) - int(time.time()))
         self.assertTrue(10 >= diff >= 0)
 
     async def asyncTearDown(self):
