@@ -1,6 +1,6 @@
 from __future__ import annotations
 from corkus.objects.playtime import PlayerPlaytime
-from typing import Union
+from typing import List, Union
 import iso8601
 import datetime
 
@@ -47,7 +47,7 @@ class Player(BasePlayer):
         return PlayerPlaytime(self._attributes.get("meta", {}).get("playtime", 0))
 
     @property
-    def classes(self):
+    def classes(self) -> List[PlayerClass]:
         """All of the player's classes"""
         return [PlayerClass(self._corkus, c) for c in self._attributes.get("classes", {})]
 

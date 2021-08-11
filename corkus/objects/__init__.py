@@ -16,7 +16,7 @@ from .player_class import PlayerClass, ClassType
 from .player_gamemodes import PlayerGamemodes, HardcoreType
 from .leaderboard_player import LeaderboardPlayer
 from .player_profession import PlayerProfession
-from .dungeon import Dungeon
+from .dungeon import Dungeon, DungeonType
 from .raid import Raid
 
 from .server import Server, ServerType

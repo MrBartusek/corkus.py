@@ -22,7 +22,7 @@ class Dungeon(CorkusBase):
         return self._attributes.get("name", "")
 
     @property
-    def type(self) -> str:
+    def type(self) -> DungeonType:
         """Type of the dungeon"""
         if self.name.startswith("Corrupted"):
             return DungeonType.CORRUPTED
