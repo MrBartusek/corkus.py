@@ -7,3 +7,4 @@ Member
 ======
 .. autoclass:: Member
    :inherited-members:
+   :undoc-members:

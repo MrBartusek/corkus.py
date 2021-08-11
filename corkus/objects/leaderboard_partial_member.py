@@ -9,6 +9,7 @@ if TYPE_CHECKING:
     from .partial_guild import PartialGuild
 
 class LeaderboardPartialMember(BasePartialMember):
+    """Diffrent version of :py:class:`PartialMember` returned by :py:class:`LeaderboardEndpoint`."""
     def __init__(self,
         corkus: Corkus,
         uuid: CorkusUUID,
@@ -21,7 +22,9 @@ class LeaderboardPartialMember(BasePartialMember):
 
     @property
     def tag(self) -> str:
-        """Three or four letters prefix of guild"""
+        """Prefix displayed as a shorter 3 or 4 letters representation of guild.
+        Like ``AVO``, ``ERN`` or ``YIN``. It's mostly upper-case but it's not a requirement.
+        It's unique across all guild."""
         return self._tag
 
     def __repr__(self) -> str:

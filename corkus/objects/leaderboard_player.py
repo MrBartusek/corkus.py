@@ -10,14 +10,15 @@ if TYPE_CHECKING:
     from .player import Player
 
 class LeaderboardPlayer(BasePlayer):
+    """Diffrent version of :py:class:`Player` returned by :py:class:`LeaderboardEndpoint`."""
     @property
     def username(self) -> str:
-        """Minecraft username of player"""
+        """Minecraft username of player."""
         return self._attributes.get("name", "")
 
     @property
     def playtime(self) -> PlayerPlaytime:
-        """Time that player spent on wynncraft servers"""
+        """Time that player spent on wynncraft servers."""
         return PlayerPlaytime(self._attributes.get("minPlayed", 0))
 
     @property
@@ -27,22 +28,22 @@ class LeaderboardPlayer(BasePlayer):
 
     @property
     def total_combat_level(self) -> int:
-        """Combined combat level across all classes"""
+        """Combined combat level across all classes."""
         return self._attributes.get("level", 0)
 
     @property
     def total_xp(self) -> int:
-        """Total collected combat XP points across all classes"""
+        """Total collected combat XP points across all classes."""
         return self._attributes.get("level", 0)
 
     @property
     def position(self) -> int:
-        """This player possition in players leaderboard"""
+        """This player possition in players leaderboard."""
         return self._attributes.get("num", 0)
 
     @property
     def member(self) -> Union[LeaderboardPartialMember, None]:
-        """Partial representation of player in the guild"""
+        """Partial representation of player in the guild."""
         if self._attributes.get("guildTag") is None:
             return None
         else:
@@ -56,14 +57,16 @@ class LeaderboardPlayer(BasePlayer):
 
     @property
     def guild(self) -> Union[PartialGuild, None]:
-        """Partial information about player's guild"""
+        """Partial information about player's guild."""
         if self._attributes.get("guild") is None:
             return None
         else:
             return PartialGuild(self._corkus, self._attributes.get("guild"))
 
     async def fetch(self) -> Player:
-        """Fetch information about this player from Players API"""
+        """Fetch information about this player from Players API.
+
+        .. include:: ../api_call.rst"""
         return await self._corkus.player.get(self.uuid)
 
     def __repr__(self) -> str:

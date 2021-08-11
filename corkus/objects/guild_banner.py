@@ -1,10 +1,10 @@
 from __future__ import annotations
-import corkus
-from typing import List, Literal, Pattern
+from typing import List, Literal
 from .base import CorkusBase
 from enum import Enum
 
 class BannerColor(Enum):
+    """List of colors available for :py:class:`GuildBanner` and :py:class:`GuildBannerLayer`."""
     WHITE = "WHITE"
     ORANGE = "ORANGE"
     MAGENTA = "MAGENTA"
@@ -23,6 +23,7 @@ class BannerColor(Enum):
     BLACK = "BLACK"
 
 class BannerPattern(Enum):
+    """List of patterns available for :py:class:`GuildBannerLayer`."""
     CIRCLE_MIDDLE = "CIRCLE_MIDDLE"
     SQUARE_BOTTOM_LEFT = "SQUARE_BOTTOM_LEFT"
     SQUARE_BOTTOM_RIGHT = "SQUARE_BOTTOM_RIGHT"
@@ -63,33 +64,36 @@ class BannerPattern(Enum):
     HALF_VERTICAL_MIRROR = "HALF_VERTICAL_MIRROR"
 
 class GuildBannerLayer(CorkusBase):
+    """Represents a layer of :py:class:`GuildBanner`"""
     @property
     def color(self) -> BannerColor:
-        """Color of the pattern"""
+        """Color of the pattern."""
         return BannerColor(self._attributes.get("colour", "WHITE"))
 
     @property
     def pattern(self) -> BannerPattern:
-        """Pattern used on that layer"""
+        """Pattern used on that layer."""
         return BannerPattern(self._attributes.get("pattern", "CROSS"))
 
     def __repr__(self) -> str:
         return f"<GuildBannerLayer color={self.color.value!r} pattern={self.pattern.value!r}>"
 
 class GuildBanner(CorkusBase):
+    """:py:class:`Guild` banners are used to showcase a guild by means of a banner whenever
+    they control a :py:class:`Territory`. Each banner is exclusive and thus no two guilds can have the same banner."""
     @property
     def base_color(self) -> BannerColor:
-        """Color of the banner background"""
+        """Color of the banner background."""
         return BannerColor(self._attributes.get("base", "WHITE"))
 
     @property
     def tier(self) -> Literal[1, 2, 3, 4, 5, 6]:
-        """Tier of the banner represented by pedestal"""
+        """Tier of the banner represented by pedestal."""
         return self._attributes.get("tier", 1)
 
     @property
     def layers(self) -> List[GuildBannerLayer]:
-        """List of banner layers"""
+        """List of banner layers."""
         return [GuildBannerLayer(self._corkus, l) for l in self._attributes.get("layers", {})]
 
     def __repr__(self) -> str:

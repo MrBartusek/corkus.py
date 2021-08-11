@@ -7,3 +7,4 @@ PlayerStatistics
 ================
 .. autoclass:: PlayerStatistics
    :inherited-members:
+   :undoc-members:

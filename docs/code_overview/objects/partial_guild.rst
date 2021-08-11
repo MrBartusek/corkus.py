@@ -5,5 +5,8 @@
 
 PartialGuild
 ============
+.. include:: ../partial_object.rst
+
 .. autoclass:: PartialGuild
    :inherited-members:
+   :undoc-members:

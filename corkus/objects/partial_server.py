@@ -9,22 +9,25 @@ if TYPE_CHECKING:
     from .server import Server
 
 class PartialServer(PartialBase):
+    """Represents a ``Partial`` version of :py:class:Server`."""
     def __init__(self, corkus: Corkus, name: str):
         super().__init__(corkus)
         self._name = name
 
     @property
     def name(self) -> str:
-        """The name of server"""
+        """The name of server."""
         return self._name
 
     @property
     def type(self) -> ServerType:
-        """Type of the server, most servers are stanard servers"""
+        """Type of the server, most servers are stanard servers."""
         return ServerType("".join([i for i in self._name if not i.isdigit()]))
 
     async def fetch(self) -> Union[Server, None]:
-        """Fetch full server information from API. Returns ``None`` if server no longer exist"""
+        """Fetch full server information from API. Returns ``None`` if server no longer exist.
+
+        .. include:: ../api_call.rst"""
         servers = await self.corkus.network.servers_list()
         for server in servers:
             if server.name == self.name:

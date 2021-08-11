@@ -7,3 +7,4 @@ GuildBanner
 ===========
 .. autoclass:: GuildBanner
    :inherited-members:
+   :undoc-members:

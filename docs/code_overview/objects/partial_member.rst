@@ -5,5 +5,8 @@
 
 PartialMember
 =============
+.. include:: ../partial_object.rst
+
 .. autoclass:: PartialMember
    :inherited-members:
+   :undoc-members:

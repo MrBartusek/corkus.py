@@ -7,3 +7,4 @@ GuildRank
 =========
 .. autoclass:: GuildRank
    :inherited-members:
+   :undoc-members:

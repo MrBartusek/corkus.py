@@ -2,10 +2,14 @@ from __future__ import annotations
 from enum import Enum
 
 class Timeframe(Enum):
+    """List of timeframes available for some of leaderboard endpoints."""
+
     ALL_TIME = "alltime"
     WEEKLY = "weekly"
 
 class ProfessionType(Enum):
+    """List of Gathering and Crafting `Professions <https://wynncraft.fandom.com/wiki/Professions>` plus :py:attr:`COMBAT`."""
+
     COMBAT = "COMBAT"
     ALCHEMISM = "ALCHEMISM"
     ARMOURING = "ARMOURING"
@@ -21,6 +25,8 @@ class ProfessionType(Enum):
     FISHING = "FISHING"
 
 class ItemType(Enum):
+    """Crafted and regular items."""
+
     HELMET = "HELMET"
     CHESTPLATE = "CHESTPLATE"
     LEGGINGS = "LEGGINGS"

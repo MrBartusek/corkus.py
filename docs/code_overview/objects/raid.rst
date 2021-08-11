@@ -7,3 +7,4 @@ Raid
 ====
 .. autoclass:: Raid
    :inherited-members:
+   :undoc-members:

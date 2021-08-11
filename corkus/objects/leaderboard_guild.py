@@ -6,28 +6,31 @@ if TYPE_CHECKING:
     from .guild import Guild
 
 class LeaderboardGuild(BaseGuild):
+    """Diffrent version of :py:class:`Guild` returned by :py:class:`LeaderboardEndpoint`."""
     @property
     def members_count(self) -> int:
-        """List of all guild members"""
+        """Count of guild members, to access full list use :py:func:`fetch`."""
         return self._attributes.get("membersCount", 0)
 
     @property
     def total_xp(self) -> int:
-        """Total sum of all xp points collected by this guild"""
+        """Total sum of all xp points collected by this guild."""
         return self._attributes.get("xp", 0)
 
     @property
     def position(self) -> int:
-        """This guild possition in guilds leaderboard"""
+        """This guild possition in guilds leaderboard."""
         return self._attributes.get("num", 0)
 
     @property
     def war_count(self) -> int:
-        """Total wars performed by this guild"""
+        """Total wars performed by this guild."""
         return self._attributes.get("warCount", 0)
 
     async def fetch(self) -> Guild:
-        """Fetch information about this guild from Guilds API"""
+        """Fetch information about this guild from Guilds API.
+
+        .. include:: ../api_call.rst"""
         return await self._corkus.guild.get(self.name)
 
     def __repr__(self) -> str:

@@ -7,3 +7,4 @@ IngredientItemModifiers
 =======================
 .. autoclass:: IngredientItemModifiers
    :inherited-members:
+   :undoc-members:

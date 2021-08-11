@@ -7,3 +7,4 @@ DungeonType
 ===========
 .. autoclass:: DungeonType
    :inherited-members:
+   :undoc-members:

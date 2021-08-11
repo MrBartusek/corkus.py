@@ -7,3 +7,4 @@ HardcoreType
 ============
 .. autoclass:: HardcoreType
    :inherited-members:
+   :undoc-members:

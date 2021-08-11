@@ -7,3 +7,4 @@ PlayerPlaytime
 ==============
 .. autoclass:: PlayerPlaytime
    :inherited-members:
+   :undoc-members:

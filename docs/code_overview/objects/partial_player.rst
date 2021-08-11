@@ -5,5 +5,8 @@
 
 PartialPlayer
 =============
+.. include:: ../partial_object.rst
+
 .. autoclass:: PartialPlayer
    :inherited-members:
+   :undoc-members:

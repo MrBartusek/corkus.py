@@ -7,3 +7,4 @@ PlayerGamemodes
 ===============
 .. autoclass:: PlayerGamemodes
    :inherited-members:
+   :undoc-members:

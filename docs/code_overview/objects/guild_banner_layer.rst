@@ -7,3 +7,4 @@ GuildBannerLayer
 ================
 .. autoclass:: GuildBannerLayer
    :inherited-members:
+   :undoc-members:

@@ -4,9 +4,9 @@ from typing import Union
 
 from .base import CorkusBase
 from .partial_guild import PartialGuild
-from .territory_location import TeritoryLocation
+from .territory_location import TerritoryLocation
 
-class Teritory(CorkusBase):
+class Territory(CorkusBase):
     """Territories are areas which may be claimed by a Guild to receive benefits"""
 
     @property
@@ -29,7 +29,7 @@ class Teritory(CorkusBase):
         return datetime.strptime(self._attributes.get("acquired", "1970-01-01 00:00:00"), "%Y-%m-%d %H:%M:%S")
 
     @property
-    def attacker(self):
+    def attacker(self) -> Union[PartialGuild, None]:
         """Guild that is currently attacking the territory"""
         guid_name = self._attributes.get("attacker", None)
         if guid_name is None:
@@ -38,9 +38,9 @@ class Teritory(CorkusBase):
             return PartialGuild(self._corkus, guid_name)
 
     @property
-    def location(self) -> TeritoryLocation:
+    def location(self) -> TerritoryLocation:
         """The name of the territory"""
-        return TeritoryLocation(self._corkus, self._attributes.get("location", {}))
+        return TerritoryLocation(self._corkus, self._attributes.get("location", {}))
 
     def __repr__(self) -> str:
-        return f"<Teritory name={self.name!r} guild={self.guild}>"
+        return f"<Territory name={self.name!r} guild={self.guild}>"

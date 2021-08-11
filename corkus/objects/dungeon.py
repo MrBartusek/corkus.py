@@ -16,14 +16,15 @@ class DungeonType(Enum):
     """Harder variant of standard dungeons like ``Corrupted Decrepit Sewers``, ``Corrupted Sand-Swept Tomb`` or ``Corrupted Ice Barrows``"""
 
 class Dungeon(CorkusBase):
+    """Represents a `Dungeon <https://wynncraft.fandom.com/wiki/Dungeons>`_. completed by :py:class:`Player`"""
     @property
     def name(self) -> str:
-        """Name of the dungeon"""
+        """Name of the dungeon  like ``Decrepit Sewers``, ``Galleon's Graveyard`` or ``Fallen Factory``."""
         return self._attributes.get("name", "")
 
     @property
     def type(self) -> DungeonType:
-        """Type of the dungeon"""
+        """Type of the dungeon."""
         if self.name.startswith("Corrupted"):
             return DungeonType.CORRUPTED
         elif self.name in (
@@ -55,7 +56,7 @@ class Dungeon(CorkusBase):
 
     @property
     def completed(self) -> int:
-        """Total runs by the player"""
+        """Total runs completed by the player. Failed runs are not counted."""
         return self._attributes.get("completed", 0)
 
     def __repr__(self) -> str:

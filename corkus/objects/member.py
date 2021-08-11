@@ -20,35 +20,38 @@ class GuildRank(Enum):
     RECRUIT = "RECRUIT"
 
 class Member(CorkusBase):
+    """Represents a member of a :py:class:`Guild`."""
     def __init__(self, corkus: Corkus, guild: Guild, attributes: dict):
         self._guild = guild
         super().__init__(corkus, attributes)
 
     @property
     def username(self) -> int:
-        """Minecraft username of player"""
+        """Minecraft username of player."""
         return self._attributes.get("name", "")
 
     @property
     def uuid(self) -> CorkusUUID:
-        """Minecraft UUID of player"""
+        """Minecraft UUID of player."""
         return CorkusUUID(self._attributes.get("uuid", ""))
 
     @property
     def contributed_xp(self) -> int:
-        """Total number of contributed experience by this player"""
+        """Total number of contributed experience by this player."""
         return self._attributes.get("contributed", 0)
 
     @property
     def join_date(self) -> datetime:
-        """Date and time when player joined the guild"""
+        """Datetime when player joined the guild."""
         return iso8601.parse_date(self._attributes.get("join", "1970"))
 
     @property
     def guild(self) -> Guild:
-        """The guild that this member is a part of"""
+        """The guild that this member is a part of."""
         return self._guild
 
     async def fetch_player(self) -> Player:
-        """Fetch player data of this member from API"""
+        """Fetch player data of this member from API.
+
+        .. include:: ../api_call.rst"""
         return await self._corkus.player.get(self.uuid)

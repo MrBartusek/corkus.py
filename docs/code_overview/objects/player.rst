@@ -7,3 +7,4 @@ Player
 ======
 .. autoclass:: Player
    :inherited-members:
+   :undoc-members:

@@ -5,5 +5,8 @@
 
 PartialRecipe
 =============
+.. include:: ../partial_object.rst
+
 .. autoclass:: PartialRecipe
    :inherited-members:
+   :undoc-members:

@@ -7,3 +7,4 @@ IngredientComsumableModifiers
 =============================
 .. autoclass:: IngredientComsumableModifiers
    :inherited-members:
+   :undoc-members:

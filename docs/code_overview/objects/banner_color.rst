@@ -7,3 +7,4 @@ BannerColor
 ===========
 .. autoclass:: BannerColor
    :inherited-members:
+   :undoc-members:

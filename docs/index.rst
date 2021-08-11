@@ -9,6 +9,7 @@ Corkus.py - Wynncraft API Wrapper
 
     getting_started/quick_start
     getting_started/installation
+    getting_started/partial_objects
 
 .. _code_overview:
 

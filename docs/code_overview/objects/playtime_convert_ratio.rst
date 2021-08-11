@@ -7,3 +7,4 @@ PlaytimeConvertRatio
 ====================
 .. autoclass:: PlaytimeConvertRatio
    :inherited-members:
+   :undoc-members:

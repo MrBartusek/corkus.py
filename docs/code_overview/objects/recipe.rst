@@ -7,3 +7,4 @@ Recipe
 ======
 .. autoclass:: Recipe
    :inherited-members:
+   :undoc-members:

@@ -5,5 +5,8 @@
 
 PartialServer
 =============
+.. include:: ../partial_object.rst
+
 .. autoclass:: PartialServer
    :inherited-members:
+   :undoc-members:

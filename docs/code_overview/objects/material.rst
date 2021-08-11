@@ -7,3 +7,4 @@ Material
 ========
 .. autoclass:: Material
    :inherited-members:
+   :undoc-members:

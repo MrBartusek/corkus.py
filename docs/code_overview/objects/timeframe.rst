@@ -7,3 +7,4 @@ Timeframe
 =========
 .. autoclass:: Timeframe
    :inherited-members:
+   :undoc-members:

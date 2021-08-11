@@ -7,3 +7,4 @@ ClassType
 =========
 .. autoclass:: ClassType
    :inherited-members:
+   :undoc-members:

@@ -7,3 +7,4 @@ ClassStatistics
 ===============
 .. autoclass:: ClassStatistics
    :inherited-members:
+   :undoc-members:

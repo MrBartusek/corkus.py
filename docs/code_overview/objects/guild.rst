@@ -7,3 +7,4 @@ Guild
 =====
 .. autoclass:: Guild
    :inherited-members:
+   :undoc-members:

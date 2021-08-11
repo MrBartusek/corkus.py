@@ -3,7 +3,8 @@
 
 .. py:currentmodule:: corkus.objects
 
-Teritory
-========
-.. autoclass:: Teritory
+TerritoryLocation
+=================
+.. autoclass:: TerritoryLocation
    :inherited-members:
+   :undoc-members:

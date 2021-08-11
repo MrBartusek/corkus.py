@@ -7,3 +7,4 @@ ItemType
 ========
 .. autoclass:: ItemType
    :inherited-members:
+   :undoc-members:

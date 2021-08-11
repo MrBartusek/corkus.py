@@ -7,3 +7,4 @@ LeaderboardGuild
 ================
 .. autoclass:: LeaderboardGuild
    :inherited-members:
+   :undoc-members:

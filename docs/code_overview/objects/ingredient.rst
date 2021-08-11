@@ -7,3 +7,4 @@ Ingredient
 ==========
 .. autoclass:: Ingredient
    :inherited-members:
+   :undoc-members:

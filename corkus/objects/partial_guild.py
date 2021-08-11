@@ -8,11 +8,13 @@ if TYPE_CHECKING:
 class PartialGuild(CorkusBase):
     @property
     def name(self) -> str:
-        """The name of the guild"""
+        """The name of the guild."""
         return self._attributes
 
     async def fetch(self) -> Guild:
-        """Fetch full guild information from API"""
+        """Fetch full guild information from API.
+
+        .. include:: ../api_call.rst"""
         return await self._corkus.guild.get(self.name)
 
     def __repr__(self) -> str:

@@ -7,3 +7,4 @@ PlayerProfession
 ================
 .. autoclass:: PlayerProfession
    :inherited-members:
+   :undoc-members:

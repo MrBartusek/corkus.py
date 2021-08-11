@@ -6,7 +6,7 @@ if TYPE_CHECKING:
     from corkus import Corkus
 
 class LevelRange(PartialBase):
-    """Range of levels where crafted item is most effective"""
+    """Range of levels where crafted item is most effective."""
 
     def __init__(self, corkus: Corkus, *,
         attributes: Optional[dict] = None,
@@ -23,13 +23,13 @@ class LevelRange(PartialBase):
 
     @property
     def minimum(self) -> int:
-        """The lowest possible identification of this property"""
+        """Minimal combat level needed in order for this item to be used."""
         return self._min
 
     @property
     def maximum(self) -> int:
-        """The highest possible identification of this property"""
+        """Recommended maximal combat level for this item."""
         return self._max
 
     def __repr__(self) -> str:
-        return f"<Identification min={self.minimum} max={self.maximum}>"
+        return f"<LevelRange min={self.minimum} max={self.maximum}>"

@@ -7,3 +7,4 @@ SearchResult
 ============
 .. autoclass:: SearchResult
    :inherited-members:
+   :undoc-members:

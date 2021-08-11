@@ -7,27 +7,14 @@ if TYPE_CHECKING:
     from corkus import Corkus
 
 class PlayerProfession(CorkusBase):
+    """Information about :py:class:`Player` progress in a specified profession."""
     def __init__(self, corkus: Corkus, name: str, attributes: dict):
         super().__init__(corkus, attributes)
         self._name = name
 
     @property
-    def name(self) -> Literal[
-        "Combat",
-        "Alchemism",
-        "Armouring",
-        "Cooking",
-        "Jeweling",
-        "Scribing",
-        "Tailoring",
-        "Weaponsmithing",
-        "Woodworking",
-        "Mining",
-        "Woodcutting",
-        "Farming",
-        "Fishing"
-        ]:
-        """Pretty name of the profession"""
+    def name(self) -> str:
+        """Pretty name of the profession like ``Alchemism``, ``Mining`` or even ``Combat``"""
         # pylint: disable=no-member
         return self.type.value.capitalize()
 
@@ -48,9 +35,9 @@ class PlayerProfession(CorkusBase):
 
         .. note::
             When a player reach max profession level ``132`` this will insteed
-            return ``None`` but player can still collect XP
+            return ``None`` but player can still collect XP.
 
-            When a player reach combat level ``106`` this may exceed 100%
+            When a player reach combat level ``106`` this may exceed 100%.
         """
         return self._attributes.get("xp", 0)
 

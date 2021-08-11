@@ -12,18 +12,19 @@ class HardcoreType(Enum):
     FAILED = "Failed"
 
 class PlayerGamemodes(CorkusBase):
+    """Challenge gamemodes that are enabled on a :py:class:`PlayerClass`."""
     def __init__(self, corkus: Corkus, attributes: dict, deaths: int):
         super().__init__(corkus, attributes)
         self._deaths = deaths
 
     @property
     def craftsman(self) -> str:
-        """Does this class have the craftsman challenge enabled"""
+        """Does this class have the craftsman challenge enabled."""
         return self._attributes.get("craftsman", False)
 
     @property
     def hardcore(self) -> HardcoreType:
-        """Does this class have the hardcore challenge enabled and what is the status of it"""
+        """Does this class have the hardcore challenge enabled and what is the status of it."""
         enabled = self._attributes.get("hardcore", False)
         active = self._deaths <= 0
         if enabled and active:
@@ -35,12 +36,12 @@ class PlayerGamemodes(CorkusBase):
 
     @property
     def ironman(self) -> bool:
-        """Does this class have the ironman challenge enabled"""
+        """Does this class have the ironman challenge enabled."""
         return self._attributes.get("ironman", False)
 
     @property
     def hunted(self) -> bool:
-        """Does this class have the haunted mode enabled"""
+        """Does this class have the haunted mode enabled."""
         return self._attributes.get("hunted", False)
 
     def __repr__(self) -> str:

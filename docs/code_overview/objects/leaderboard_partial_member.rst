@@ -7,3 +7,4 @@ LeaderboardPartialMember
 ========================
 .. autoclass:: LeaderboardPartialMember
    :inherited-members:
+   :undoc-members:

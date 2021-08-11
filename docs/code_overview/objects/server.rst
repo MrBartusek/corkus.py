@@ -7,3 +7,4 @@ Server
 ======
 .. autoclass:: Server
    :inherited-members:
+   :undoc-members:

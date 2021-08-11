@@ -7,3 +7,4 @@ PlayerRank
 ==========
 .. autoclass:: PlayerRank
    :inherited-members:
+   :undoc-members:

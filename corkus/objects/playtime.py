@@ -3,16 +3,16 @@ from enum import Enum
 from typing import Union
 
 class PlaytimeConvertRatio(Enum):
-    """Most popular playtime convertion ratios"""
+    """Most popular playtime convertion ratios."""
 
     RAW = 1.0
-    """1.0 value returned by the API"""
+    """1.0 value returned by the API."""
 
     OFFICIAL = 4.7
-    """4.7 ratio used by official wynncraft statistics page"""
+    """4.7 ratio used by official wynncraft statistics page."""
 
     WYNNDATA = 5
-    """5.0 ratio used by wynndata.tk"""
+    """5.0 ratio used by `Wynndata <https://www.wynndata.tk/>`_."""
 
 class PlayerPlaytime():
     """Object that helps to convert playtime
@@ -20,7 +20,7 @@ class PlayerPlaytime():
     Wynncraft API returns player playtime in wired way and it can't be used directly.
     See `Wynncraft/WynncraftAPI#8 <https://github.com/Wynncraft/WynncraftAPI/issues/8>`_
 
-    To get most popular conversion ratios see :py:class:`PlaytimeConvertRatio` Enum
+    To get most popular conversion ratios see :py:class:`PlaytimeConvertRatio` Enum.
     """
 
     def __init__(self, playtime: int) -> None:
@@ -28,15 +28,15 @@ class PlayerPlaytime():
 
     @property
     def raw(self) -> int:
-        """Get number that API returned"""
+        """Get number that API returned."""
         return self._playtime
 
     def minutes(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:
-        """Convert time using specified ratio and return it as minutes"""
+        """Convert time using specified ratio and return it as minutes."""
         return self._convert(ratio)
 
     def hours(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:
-        """Convert time using specified ratio and return it as hours"""
+        """Convert time using specified ratio and return it as hours."""
         return self._convert(ratio) / 60
 
     def _convert(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:

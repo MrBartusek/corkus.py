@@ -24,14 +24,16 @@ class ClassType(Enum):
     SKYSEER = "Skyseer"
 
 class PlayerClass(CorkusBase):
+    """Represents one of the `player classes <https://wynncraft.fandom.com/wiki/Classes>`_
+    that a :py:class:`Player` have currently active."""
     @property
     def name(self) -> str:
-        """The official name of the class for example: ``mage``, ``knight1``, ``darkwizard3``"""
+        """The official name of the class for example: ``mage``, ``knight1``, ``darkwizard3``."""
         return self._attributes.get("name", "")
 
     @property
-    def display_name(self) -> Literal["Archer", "Warrior", "Mage", "Assassin", "Shamman", "Hunter", "Knight", "Dark Wizard", "Ninja", "Skyseer"]:
-        """Pretty name to display to end-user"""
+    def display_name(self) -> str:
+        """Pretty name to display to end-user like ``Archer``, ``Mage`` or ``Dark Wizard``."""
         return self.type.value
 
     @property
@@ -62,42 +64,42 @@ class PlayerClass(CorkusBase):
 
     @property
     def quests(self) -> List[Quest]:
-        """List of all quests completed by player on this class"""
+        """List of all quests completed by player on this class."""
         return [Quest(self._corkus, q) for q in self._attributes.get("quests", {}).get("list", [])]
 
     @property
     def statistics(self) -> ClassStatistics:
-        """General statistics across for this class"""
+        """General statistics for this class."""
         return ClassStatistics(self._corkus, self._attributes)
 
     @property
     def dungeons(self) -> List[Dungeon]:
-        """List of dungeons completed by this class"""
+        """List of dungeons completed by this class."""
         return [Dungeon(self._corkus, d) for d in self._attributes.get("dungeons", {}).get("list", [])]
 
     @property
     def raids(self) -> List[Raid]:
-        """List of raids completed by this class"""
+        """List of raids completed by this class."""
         return [Raid(self._corkus, d) for d in self._attributes.get("raids", {}).get("list", [])]
 
     @property
     def gamemode(self) -> PlayerGamemodes:
-        """The challenge gamemodes that are enabled on this class"""
+        """Challenge gamemodes that are enabled on this class."""
         return PlayerGamemodes(self._corkus, self._attributes.get("gamemode", {}), self.statistics.deaths)
 
     @property
     def professions(self) -> List[PlayerProfession]:
-        """Returns a list of all professions"""
+        """Returns a list of progress in all professions"""
         return [PlayerProfession(self._corkus, name, attr) for name, attr in self._attributes.get("professions", {}).items()]
-
-    def get_profession(self, profession: ProfessionType) -> PlayerProfession:
-        """Returns a profession with the given profession type"""
-        return next((p for p in self.professions if p.type == profession), None)
 
     @property
     def combat(self) -> PlayerProfession:
-        """Shortcut to combat profession"""
+        """Shortcut to combat profession."""
         return self.get_profession(ProfessionType.COMBAT)
+
+    def get_profession(self, profession: ProfessionType) -> PlayerProfession:
+        """Returns a profession with the given profession type."""
+        return next((p for p in self.professions if p.type == profession), None)
 
     def __repr__(self) -> str:
         return f"<PlayerClass type={self.display_name!r}>"

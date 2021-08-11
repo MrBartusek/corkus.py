@@ -13,6 +13,7 @@ from .player_statistics import PlayerStatistics
 from .player_class import PlayerClass
 
 class Player(BasePlayer):
+    """Represents a player of a Wynncraft server."""
     @property
     def username(self) -> str:
         """Minecraft username of player"""

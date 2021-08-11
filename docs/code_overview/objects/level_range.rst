@@ -7,3 +7,4 @@ LevelRange
 ==========
 .. autoclass:: LevelRange
    :inherited-members:
+   :undoc-members:

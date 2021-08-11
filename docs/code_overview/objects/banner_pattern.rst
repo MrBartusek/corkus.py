@@ -7,3 +7,4 @@ BannerPattern
 =============
 .. autoclass:: BannerPattern
    :inherited-members:
+   :undoc-members:

@@ -7,3 +7,4 @@ PlayerStatus
 ============
 .. autoclass:: PlayerStatus
    :inherited-members:
+   :undoc-members:

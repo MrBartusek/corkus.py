@@ -7,14 +7,15 @@ if TYPE_CHECKING:
     from corkus.objects import Player
 
 class ClassStatistics(CorkusBase):
+    """General Statistics of a :py:class:`PlayerClass`"""
     @property
     def chests_found(self) -> int:
-        """Total chest opened"""
+        """Total chest opened."""
         return self._attributes.get("chestsFound", 0)
 
     @property
     def blocksWalked(self) -> int:
-        """Total blocks walked"""
+        """Total blocks walked."""
         return self._attributes.get("blocksWalked", 0)
 
     @property
@@ -29,7 +30,7 @@ class ClassStatistics(CorkusBase):
 
     @property
     def mobs_killed(self) -> int:
-        """Total mobs killed"""
+        """Total mobs killed."""
         return self._attributes.get("mobsKilled", 0)
 
     @property
@@ -39,17 +40,17 @@ class ClassStatistics(CorkusBase):
 
     @property
     def pvp_deaths(self) -> int:
-        """Total deaths by players `The Nether<https://wynncraft.fandom.com/wiki/The_Nether>`_."""
+        """Total deaths by players `The Nether <https://wynncraft.fandom.com/wiki/The_Nether>`_."""
         return self._attributes.get("pvp", {}).get("deaths", 0)
 
     @property
     def deaths(self) -> int:
-        """Number of deaths not caused by PVP"""
+        """Number of deaths not caused by PVP."""
         return self._attributes.get("deaths", 0)
 
     @property
     def discoveries(self) -> int:
-        """Total number of Discoveries"""
+        """Total number of discoveries by player."""
         return self._attributes.get("discoveries", 0)
 
     @property
@@ -59,21 +60,22 @@ class ClassStatistics(CorkusBase):
 
     @property
     def logins(self) -> int:
-        """Number of Logins to the server"""
+        """Number of logins to the server."""
         return self._attributes.get("deaths", 0)
 
     def __repr__(self) -> str:
         return f"<ClassStatistics chests_found={self.chests_found} mobs_killed={self.mobs_killed}>"
 
 class PlayerStatistics(ClassStatistics):
+    """General Statistics of a :py:class:`Player`. This class is based on :py:class:`ClassStatistics`."""
     @property
     def total_combat_level(self) -> int:
-        """Sum of combat level across all classes"""
+        """Sum of combat level across all classes."""
         return self._attributes.get("totalLevel", {}).get("combat", 0)
 
     @property
     def total_profession_level(self) -> int:
-        """Sum of profession level across all classes"""
+        """Sum of profession level across all classes."""
         return self._attributes.get("totalLevel", {}).get("profession", 0)
 
     def __repr__(self) -> str:

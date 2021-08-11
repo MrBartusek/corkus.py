@@ -12,28 +12,29 @@ class ServerType(Enum):
     YOUTUBE = "YT"
 
 class Server(CorkusBase):
+    """Represents a singular Wynncraft Server."""
     def __init__(self, corkus: Corkus, name: str, players: List[str]):
         self._name = name
         super().__init__(corkus, players)
 
     @property
     def name(self) -> str:
-        """The name of server"""
+        """The name of server like ``WC1`` or ``WC16`` or ``YT``."""
         return self._name
 
     @property
     def players(self) -> List[PartialPlayer]:
-        """List of all online players on this server"""
+        """List of all online players on this server."""
         return [PartialPlayer(self._corkus, username = p) for p in self._attributes]
 
     @property
     def total_players(self) -> int:
-        """Total number of online player on this server"""
+        """Total number of online player on this server."""
         return len(self.players)
 
     @property
     def type(self) -> ServerType:
-        """Type of the server, most servers are stanard servers"""
+        """Type of the server, most servers are stanard servers."""
         return ServerType("".join([i for i in self._name if not i.isdigit()]))
 
     def __repr__(self) -> str:

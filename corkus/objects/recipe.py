@@ -8,6 +8,7 @@ from .material import Material
 from .identification import Identification
 
 class Recipe(CorkusBase):
+    """Needed materials and skills for `Crafting <https://wynncraft.fandom.com/wiki/Crafting>`_ a item with given properties."""
     @property
     def level(self) -> LevelRange:
         """Level range that this item should be used in"""
@@ -15,32 +16,32 @@ class Recipe(CorkusBase):
 
     @property
     def id(self) -> str:
-        """Return the id of recipe like ``Food-13-15`` or ``Wand-63-65``"""
+        """Return the id of recipe like ``Food-13-15`` or ``Wand-63-65``."""
         return self._attributes.get("id", "")
 
     @property
     def type(self) -> ItemType:
-        """Type of the item"""
+        """Type of the item."""
         return ItemType(self._attributes.get("type", ItemType.WAND))
 
     @property
     def skill(self) -> ProfessionType:
-        """Skill required to craft this item"""
+        """Skill required to craft this item."""
         return ProfessionType(self._attributes.get("skill", ProfessionType.WOODWORKING))
 
     @property
     def materials(self) -> List[Material]:
-        """Skill required to craft this item"""
+        """Skill required to craft this item."""
         return [Material(self._corkus, m) for m in self._attributes.get("materials", [])]
 
     @property
     def health_or_damage(self) -> Identification:
-        """If this item is a weapon this returns damage dealt by this item, if not, health bonus"""
+        """If this item is a weapon this returns damage dealt by this item, if not, health bonus."""
         return Identification(self._corkus, attributes = self._attributes.get("healthOrDamage", {}))
 
     @property
     def duration(self) -> Union[None, Identification]:
-        """If item is comsumbale returns how long it will work after use"""
+        """If item is comsumbale returns how long it will work after use."""
         if "duration" in self._attributes:
             return Identification(self._corkus, attributes = self._attributes.get("duration", {}))
         else:
@@ -48,7 +49,7 @@ class Recipe(CorkusBase):
 
     @property
     def charges(self) -> Union[None, Literal[3]]:
-        """If item is comsumbale returns how many times it can be used"""
+        """If item is comsumbale returns how many times it can be used."""
         if self.type in (ItemType.POTION, ItemType.SCROLL, ItemType.FOOD):
             return 3
         else:
@@ -56,7 +57,7 @@ class Recipe(CorkusBase):
 
     @property
     def durability(self) -> Union[None, Identification]:
-        """If item is armour accessory or weapon, return it's durability"""
+        """If item is armour accessory or weapon, return it's durability."""
         if "durability" in self._attributes:
             return Identification(self._corkus, attributes = self._attributes.get("durability", {}))
         else:

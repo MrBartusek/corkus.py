@@ -30,63 +30,63 @@ class Corkus:
         self._request = CorkusRequest(timeout, session, ratelimit_enable, cache_enable)
 
     async def __aenter__(self) -> "Corkus":
-        """Async enter"""
+        """Async enter."""
         return self
 
     async def __aexit__(self, *exc_info) -> None:
-        """Async exit"""
+        """Async exit."""
         await self.close()
 
     @property
     def request(self) -> CorkusRequest:
         """Access request module to make direct API calls or get ratelimit an cache information
         .. note::
-            Directly making API calls is reserver for advanced users only
+            Directly making API calls is reserver for advanced users only,
             If there is an endpoint that you can't normall access using library,
-            please `create a issue <https://github.com/MrBartusek/corkus.py/issues/new>`_
+            please `create a issue <https://github.com/MrBartusek/corkus.py/issues/new>`_.
         """
         return self._request
 
     @property
     def network(self) -> NetworkEndpoint:
-        """Wynncraft Network specific routes like list of all players"""
+        """Wynncraft Network specific routes like list of all players."""
         return NetworkEndpoint(self)
 
     @property
     def player(self) -> PlayerEndpoint:
-        """Statistics of players"""
+        """Statistics of players."""
         return PlayerEndpoint(self)
 
     @property
     def guild(self) -> GuildEndpoint:
-        """Information about server guilds"""
+        """Information about server guilds."""
         return GuildEndpoint(self)
 
     @property
     def territory(self) -> TerritoryEndpoint:
-        """Information about teritories"""
+        """Information about teritories."""
         return TerritoryEndpoint(self)
 
     @property
     def search(self) -> SearchEndpoint:
-        """Search for guild and players"""
+        """Search for guild and players."""
         return SearchEndpoint(self)
 
     @property
     def ingredient(self) -> IngredientEndpoint:
-        """Information about ingredients"""
+        """Information about ingredients."""
         return IngredientEndpoint(self)
 
     @property
     def leaderboard(self) -> LeaderboardEndpoint:
-        """Leaderboards of best players and guilds"""
+        """Leaderboards of best players and guilds."""
         return LeaderboardEndpoint(self)
 
     @property
     def recipe(self) -> RecipeEndpoint:
-        """Crafted items statistics and recipes"""
+        """Crafted items statistics and recipes."""
         return RecipeEndpoint(self)
 
     async def close(self) -> Coroutine[Any, Any, None]:
-        """End the corkus client when it's not needed anymore"""
+        """End the corkus client when it's not needed anymore."""
         return await self.request.session.close()

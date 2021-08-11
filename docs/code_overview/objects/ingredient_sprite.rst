@@ -7,3 +7,4 @@ IngredientSprite
 ================
 .. autoclass:: IngredientSprite
    :inherited-members:
+   :undoc-members:

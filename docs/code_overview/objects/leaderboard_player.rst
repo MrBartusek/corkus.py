@@ -7,3 +7,4 @@ LeaderboardPlayer
 =================
 .. autoclass:: LeaderboardPlayer
    :inherited-members:
+   :undoc-members:

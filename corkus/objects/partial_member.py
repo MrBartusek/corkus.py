@@ -10,6 +10,7 @@ if TYPE_CHECKING:
     from .partial_guild import PartialGuild
 
 class PartialMember(BasePartialMember):
+    """Represents a ``Partial`` version of :py:class:`Member`."""
     def __init__(self,
         corkus: Corkus,
         uuid: CorkusUUID,
@@ -22,7 +23,7 @@ class PartialMember(BasePartialMember):
 
     @property
     def rank(self) -> GuildRank:
-        """Player's rank in guild"""
+        """Player's rank in guild."""
         return self._rank
 
     def __repr__(self) -> str:

@@ -9,26 +9,29 @@ if TYPE_CHECKING:
     from .recipe import Recipe
 
 class PartialRecipe(CorkusBase):
+    """Represents a ``Partial`` version of :py:class:`Recipe`."""
     @property
     def id(self) -> str:
-        """Return the id of recipe like ``Food-13-15`` or ``Wand-63-65``"""
+        """Return the id of recipe like ``Food-13-15`` or ``Wand-63-65``."""
         return self._attributes
 
     @property
     def type(self) -> ItemType:
-        """Type of the item"""
+        """Type of the item."""
         return ItemType(self.id.split("-")[0].upper())
 
     @property
     def level(self) -> LevelRange:
-        """Level range that this item should be used in"""
+        """Level range that this item should be used in."""
         return LevelRange(self._corkus,
             minimum = int(self.id.split("-")[1].upper()),
             maximum = int(self.id.split("-")[2].upper())
         )
 
     async def fetch(self) -> Coroutine[Any, Any, Recipe]:
-        """Fetch full recipe information from API"""
+        """Fetch full recipe information from API.
+
+        .. include:: ../api_call.rst"""
         return await self._corkus.recipe.get_by_id(self.id)
 
     def __repr__(self) -> str:

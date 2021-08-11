@@ -7,3 +7,4 @@ PlayerTag
 =========
 .. autoclass:: PlayerTag
    :inherited-members:
+   :undoc-members:

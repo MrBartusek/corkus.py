@@ -8,7 +8,8 @@ if TYPE_CHECKING:
 
 class Identification(PartialBase):
     """Identification is a bonnus applied to an item to increse or decrees it's effectiveness.
-    The actual value of identification is randomly selected between :py:attr:`minimum` and :py:attr:`maximum`."""
+    The actual value of identification is randomly selected between :py:attr:`minimum` and :py:attr:`maximum`
+    when item is identified or crafted."""
     def __init__(self, corkus: Corkus, *,
         attributes: Optional[dict] = None,
         minimum: Optional[int] = None,
@@ -24,12 +25,12 @@ class Identification(PartialBase):
 
     @property
     def minimum(self) -> int:
-        """The lowest possible identification of this property"""
+        """The lowest possible identification of this property."""
         return self._min
 
     @property
     def maximum(self) -> int:
-        """The highest possible identification of this property"""
+        """The highest possible identification of this property."""
         return self._max
 
     def __repr__(self) -> str:

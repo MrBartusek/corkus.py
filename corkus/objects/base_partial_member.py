@@ -22,16 +22,19 @@ class BasePartialMember(PartialPlayer):
 
     @property
     def player(self) -> PartialPlayer:
-        """Reduce to to :class:`PartialPlayer"""
+        """Reduce to to :class:`PartialPlayer`. Usefull when you want
+        to fetch player information not member information."""
         return super()
 
     @property
     def guild(self) -> Guild:
-        """The guild that this member is a part of"""
+        """The guild that this member is a part of."""
         return self._guild
 
     async def fetch(self) -> Member:
-        """Fetch more guild data about this member from API"""
+        """Fetch more guild data about this member from API.
+
+        .. include:: ../api_call.rst"""
         guild = await self._guild.fetch()
         return next((m for m in guild.members if m.uuid == self._uuid), None)
 

@@ -1,5 +1,5 @@
 from __future__ import annotations
-from corkus.objects.teritory import Teritory
+from .territory import Territory
 from typing import List, TYPE_CHECKING
 from .partial_base import PartialBase
 
@@ -8,10 +8,10 @@ if TYPE_CHECKING:
     from .guild import Guild
 
 class PartialTeritories(PartialBase):
-    """This partial object is returned as a teritories of guild.
+    """This ``Partial`` object is returned as a teritories of :py:class:`Guild`.
     API returns only numbers of teritories owned by a specific guild.
-    You can use it to request :py:func:`TerritoryEndpoint.list_all`
-    and get detailed list of guilds"""
+    You can use :py:func`fetch` function which calls :py:func:`TerritoryEndpoint.list_all`
+    and return detailed list of teritories owned by thus guild."""
 
     def __init__(self, corkus: Corkus, guild: Guild, count: int):
         super().__init__(corkus)
@@ -20,13 +20,15 @@ class PartialTeritories(PartialBase):
 
     @property
     def count(self) -> int:
-        """Total count of teritories owned by this guild"""
+        """Total count of teritories owned by this guild."""
         return self._count
 
     def __len__(self) -> int:
         return self.count
 
-    async def fetch(self) -> List[Teritory]:
-        """Fetch full teritory information from API"""
+    async def fetch(self) -> List[Territory]:
+        """Fetch full Territory information from API.
+
+        .. include:: ../api_call.rst"""
         teritories = await self.corkus.territory.list_all()
         return [t for t in teritories if t.guild.name == self._guild.name]

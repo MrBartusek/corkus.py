@@ -4,6 +4,7 @@ from .base import CorkusBase
 from .partial_server import PartialServer
 
 class PlayerStatus(CorkusBase):
+    """Represents online status of :py:class:`Player`."""
     @property
     def online(self) -> bool:
         """Is player online right now"""

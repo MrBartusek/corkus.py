@@ -7,3 +7,4 @@ ProfessionType
 ==============
 .. autoclass:: ProfessionType
    :inherited-members:
+   :undoc-members:
