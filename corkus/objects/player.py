@@ -74,7 +74,7 @@ class Player(BasePlayer):
             return PartialGuild(self._corkus, self._attributes.get("guild", {}).get("name", ""))
 
     @property
-    def statistics(self):
+    def statistics(self) -> PlayerStatistics:
         """General statistics across all classes"""
         return PlayerStatistics(self._corkus, self._attributes.get("global", {}))
 

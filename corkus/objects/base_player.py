@@ -35,7 +35,7 @@ class BasePlayer(CorkusBase):
         return PlayerRank(self._attributes.get("rank", PlayerRank.PLAYER))
 
     @property
-    def tag(self):
+    def tag(self) -> PlayerTag:
         """Player's rank bought from Wynncraft Store"""
         return PlayerTag(self._attributes.get("meta", {}).get("tag", {}).get("value", PlayerTag.PLAYER))
 

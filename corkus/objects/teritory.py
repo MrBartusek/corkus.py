@@ -1,5 +1,6 @@
 from __future__ import annotations
 from datetime import datetime
+from typing import Union
 
 from .base import CorkusBase
 from .partial_guild import PartialGuild
@@ -9,12 +10,12 @@ class Teritory(CorkusBase):
     """Territories are areas which may be claimed by a Guild to receive benefits"""
 
     @property
-    def name(self):
+    def name(self) -> str:
         """The name of the territory"""
         return self._attributes.get("territory", None)
 
     @property
-    def guild(self):
+    def guild(self) -> Union[PartialGuild, None]:
         """Guild that currently holds the territory"""
         guid_name = self._attributes.get("guild", None)
         if guid_name is None or guid_name == "Nobody":

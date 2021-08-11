@@ -22,7 +22,7 @@ class LeaderboardPlayer(BasePlayer):
 
     @property
     def pvp_kills(self) -> int:
-        """Total player killed in [The Nether](https://wynncraft.fandom.com/wiki/The_Nether)"""
+        """Total player killed in `The Nether <https://wynncraft.fandom.com/wiki/The_Nether>`_."""
         return self._attributes.get("kills", 0)
 
     @property

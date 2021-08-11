@@ -38,18 +38,19 @@ class PlayerProfession(CorkusBase):
 
     @property
     def level(self) -> int:
-        """Current level in profession. This value is minimum of `1`
-        and maximum of `106` for combat and `132` for other professions"""
+        """Current level in profession. This value is minimum of ``1``
+        and maximum of ``106`` for combat and ``132`` for other professions"""
         return self._attributes.get("level", 1)
 
     @property
     def level_progress(self) -> Union[float, None]:
         """Progress to next level in precentage 0-100%
-        .. note::
-            When a player reach max profession level `132` this will insteed
-            return `None` but player can still collect XP
 
-            When a player reach combat level `106` this may exceed 100%
+        .. note::
+            When a player reach max profession level ``132`` this will insteed
+            return ``None`` but player can still collect XP
+
+            When a player reach combat level ``106`` this may exceed 100%
         """
         return self._attributes.get("xp", 0)
 

@@ -20,8 +20,10 @@ class ClassStatistics(CorkusBase):
     @property
     def items_identified(self) -> int:
         """Total items identified
+
         .. warning::
-            This property is currently bugged and will always return `0`. See: [Wynncraft/WynncraftAPI#62](https://github.com/Wynncraft/WynncraftAPI/issues/62)
+                This property is currently bugged and will always return ``0``. See: 
+                `Wynncraft/WynncraftAPI#62 <https://github.com/Wynncraft/WynncraftAPI/issues/62>`_.
         """
         return self._attributes.get("itemsIdentified", 0)
 
@@ -32,12 +34,12 @@ class ClassStatistics(CorkusBase):
 
     @property
     def pvp_kills(self) -> int:
-        """Total player killed in [The Nether](https://wynncraft.fandom.com/wiki/The_Nether)"""
+        """Total player killed in `The Nether <https://wynncraft.fandom.com/wiki/The_Nether>`_."""
         return self._attributes.get("pvp", {}).get("kills", 0)
 
     @property
     def pvp_deaths(self) -> int:
-        """Total deaths by players [The Nether](https://wynncraft.fandom.com/wiki/The_Nether)"""
+        """Total deaths by players `The Nether<https://wynncraft.fandom.com/wiki/The_Nether>`_."""
         return self._attributes.get("pvp", {}).get("deaths", 0)
 
     @property
@@ -52,7 +54,7 @@ class ClassStatistics(CorkusBase):
 
     @property
     def swarms_won(self) -> int:
-        """Total number of [Swarm Events](https://wynncraft.fandom.com/wiki/Swarm) won by player"""
+        """Total number of `Swarm Events <https://wynncraft.fandom.com/wiki/Swarm>`_ won by player"""
         return self._attributes.get("eventsWon", 0)
 
     @property

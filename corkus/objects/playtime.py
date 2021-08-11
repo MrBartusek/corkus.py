@@ -3,22 +3,24 @@ from enum import Enum
 from typing import Union
 
 class PlaytimeConvertRatio(Enum):
-    """Most popular playtime convertion ratios
+    """Most popular playtime convertion ratios"""
 
-    OFFICIAL - 4.7 ratio used by official wynncraft statistics page
-    WYNNDATA - 5.0 ratio used by wynndata.tk
-    """
-    RAW = 1
+    RAW = 1.0
+    """1.0 value returned by the API"""
+
     OFFICIAL = 4.7
+    """4.7 ratio used by official wynncraft statistics page"""
+
     WYNNDATA = 5
+    """5.0 ratio used by wynndata.tk"""
 
 class PlayerPlaytime():
     """Object that helps to convert playtime
 
     Wynncraft API returns player playtime in wired way and it can't be used directly.
-    See https://github.com/Wynncraft/WynncraftAPI/issues/8
+    See `Wynncraft/WynncraftAPI#8 <https://github.com/Wynncraft/WynncraftAPI/issues/8>`_
 
-    To get most popular conversion ratios see PlaytimeConvertRatio Enum
+    To get most popular conversion ratios see :py:class:`PlaytimeConvertRatio` Enum
     """
 
     def __init__(self, playtime: int) -> None:

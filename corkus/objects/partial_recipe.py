@@ -11,7 +11,7 @@ if TYPE_CHECKING:
 class PartialRecipe(CorkusBase):
     @property
     def id(self) -> str:
-        """Return the id of recipe like `Food-13-15` or `Wand-63-65`"""
+        """Return the id of recipe like ``Food-13-15`` or ``Wand-63-65``"""
         return self._attributes
 
     @property

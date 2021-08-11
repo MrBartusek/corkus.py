@@ -19,7 +19,7 @@ class PartialTeritories(PartialBase):
         self._guild = guild
 
     @property
-    def count(self):
+    def count(self) -> int:
         """Total count of teritories owned by this guild"""
         return self._count
 

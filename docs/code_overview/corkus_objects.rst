@@ -17,7 +17,9 @@ Working with Corkus Objects
    objects/player
    objects/partial_player
    objects/player_playtime
+   objects/playtime_convert_ratio
    objects/player_statistics
+   objects/class_statistics
    objects/player_status
    objects/player_class
    objects/class_type
@@ -28,17 +30,21 @@ Working with Corkus Objects
    objects/dungeon
    objects/dungeon_type
    objects/raid
+   objects/quest
    objects/server
    objects/server_type
    objects/partial_server
    objects/guild
    objects/partial_guild
    objects/leaderboard_guild
+   objects/leaderboard_partial_member
    objects/guild_banner
    objects/guild_banner_layer
    objects/banner_color
    objects/banner_pattern
    objects/member
+   objects/guild_rank
+   objects/partial_member
    objects/teritory
    objects/teritory_location
    objects/partial_teritories
@@ -50,6 +56,7 @@ Working with Corkus Objects
    objects/ingredient_position_modifiers
    objects/ingredient_comsumable_modifiers
    objects/ingredient_item_modifiers
+   objects/level_range
    objects/identification
    objects/recipe
    objects/partial_recipe

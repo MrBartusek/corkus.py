@@ -24,7 +24,7 @@ class PartialServer(PartialBase):
         return ServerType("".join([i for i in self._name if not i.isdigit()]))
 
     async def fetch(self) -> Union[Server, None]:
-        """Fetch full server information from API. Returns `None` if server no longer exist"""
+        """Fetch full server information from API. Returns ``None`` if server no longer exist"""
         servers = await self.corkus.network.servers_list()
         for server in servers:
             if server.name == self.name:

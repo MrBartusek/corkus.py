@@ -9,7 +9,7 @@ class Quest(CorkusBase):
 
     @property
     def mini(self) -> bool:
-        """Is this quest a [Mini - Quest](https://wynncraft.fandom.com/wiki/Quests#Mini-Quests)"""
+        """Is this quest a `Mini - Quest <https://wynncraft.fandom.com/wiki/Quests#Mini-Quests>`_."""
         return self.name.startswith("Mini-Quest - ")
 
     @property

@@ -25,8 +25,8 @@ class ClassType(Enum):
 
 class PlayerClass(CorkusBase):
     @property
-    def name(self):
-        """The official name of the class for example: `mage`, `knight1`, `darkwizard3`"""
+    def name(self) -> str:
+        """The official name of the class for example: ``mage``, ``knight1``, ``darkwizard3``"""
         return self._attributes.get("name", "")
 
     @property
@@ -36,7 +36,7 @@ class PlayerClass(CorkusBase):
 
     @property
     def kind(self) -> ClassType:
-        """Class type ignoring re-skinned variants. `DARK_WIZARD` is converted to `MAGE` etc."""
+        """Class type ignoring re-skinned variants. :py:attr:`ClassType.DARK_WIZARD` is converted to :py:attr:`ClassType.MAGE` etc."""
         class_type = self.type
         if class_type == ClassType.HUNTER:
             return ClassType.ARCHER
@@ -81,7 +81,7 @@ class PlayerClass(CorkusBase):
         return [Raid(self._corkus, d) for d in self._attributes.get("raids", {}).get("list", [])]
 
     @property
-    def gamemode(self):
+    def gamemode(self) -> PlayerGamemodes:
         """The challenge gamemodes that are enabled on this class"""
         return PlayerGamemodes(self._corkus, self._attributes.get("gamemode", {}), self.statistics.deaths)
 

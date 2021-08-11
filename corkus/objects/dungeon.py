@@ -4,16 +4,16 @@ from enum import Enum
 
 class DungeonType(Enum):
     REMOVED = "REMOVED"
-    """Dungeons that were removed from the game in version `1.14.1` like `Skeleton`, `Spider` or `Zombie`"""
+    """Dungeons that were removed from the game in version ``1.14.1`` like ``Skeleton``, ``Spider`` or ``Zombie``"""
 
     REMOVED_MINI = "REMOVED_MINI"
-    """Minidungeons that were reworked in `1.17` `Ice`, `Ocean` and `Jungle`"""
+    """Minidungeons that were reworked in ``1.17`` ``Ice``, ``Ocean`` and ``Jungle``"""
 
     STANDARD = "STANDARD"
-    """Generic dungeons like `Decrepit Sewers`, `Galleon's Graveyard` or `Fallen Factory`"""
+    """Generic dungeons like ``Decrepit Sewers``, ``Galleon's Graveyard`` or ``Fallen Factory``"""
 
     CORRUPTED = "CORRUPTED"
-    """Harder variant of standard dungeons like `Corrupted Decrepit Sewers`, `Corrupted Sand-Swept Tomb` or `Corrupted Ice Barrows`"""
+    """Harder variant of standard dungeons like ``Corrupted Decrepit Sewers``, ``Corrupted Sand-Swept Tomb`` or ``Corrupted Ice Barrows``"""
 
 class Dungeon(CorkusBase):
     @property

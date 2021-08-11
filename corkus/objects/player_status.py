@@ -11,7 +11,7 @@ class PlayerStatus(CorkusBase):
 
     @property
     def server(self) -> Union[PartialServer, None]:
-        """The server that this player is currently on, `None` if player is offline"""
+        """The server that this player is currently on, ``None`` if player is offline"""
         if self._attributes.get("server") is not None:
             return PartialServer(self._corkus, self._attributes.get("server", ""))
         else:

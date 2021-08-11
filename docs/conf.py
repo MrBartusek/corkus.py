@@ -1,7 +1,8 @@
-from os import read
 import sys
+import os
 from datetime import datetime
 import re
+import glob
 
 sys.path.insert(0, ".")
 sys.path.insert(1, "..")
@@ -49,6 +50,9 @@ with open('../corkus/objects/__init__.py', 'r') as objects:
                 "PartialBase"
             ):
                 corkus_objects.append(item)
+
+for f in glob.glob('code_overview/objects/*'):
+    os.remove(f)
 
 for obj in corkus_objects:
     with open("code_overview/objects/" + to_camel_case(obj) + ".rst", "w") as f:

@@ -57,7 +57,7 @@ class CorkusCache:
             return []
 
     def get(self, url: str) -> Union[CacheElement, None]:
-        """Get element with given url. return `None` if not found"""
+        """Get element with given url. return ``None`` if not found"""
         element = next((i for i in self.content if i.url == url), None)
         if element is None:
             logger.debug(f"Not found in cache: {url}")

@@ -43,7 +43,7 @@ class Corkus:
         .. note::
             Directly making API calls is reserver for advanced users only
             If there is an endpoint that you can't normall access using library,
-            please [create a issue](https://github.com/MrBartusek/corkus.py/issues/new)
+            please `create a issue <https://github.com/MrBartusek/corkus.py/issues/new>`_
         """
         return self._request
 
