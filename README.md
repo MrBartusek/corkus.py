@@ -13,13 +13,12 @@ Asynchronous modern, feature-rich and easy to use Python wrapper for [Public Wyn
 - Easy to use with an object oriented design and `fetch` functions
 - ≈ 90% coverage of the Wynncraft API as of now
 - Proper rate limit handling
-- ~~Responses caching~~ Soon
+- Responses caching
 
 ## Missing Features
 
 - Item Database Endpoint
-- Ingredients Search
-- Responses caching
+- Wired search routes
 - Error handling
 
 ## Installation

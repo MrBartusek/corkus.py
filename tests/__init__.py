@@ -2,7 +2,9 @@ from vcr.config import VCR
 
 def remove_headers():
     def before_record_response(response):
-        response['headers'] = {}
+        for header in dict(response['headers']):
+            if header not in ("cache-control", "ratelimit-limit", "ratelimit-remaining", "ratelimit-reset"):
+                del response['headers'][header]
         return response
     return before_record_response
 

@@ -10,8 +10,16 @@ interactions:
     uri: https://api.wynncraft.com/public_api.php?action=statsSearch&search=MrBartusekXD
   response:
     body:
-      string: '{"guilds":[],"players":["MrBartusekXD"],"search":"mrbartusekxd","request":{"timestamp":1628452563,"version":1}}'
-    headers: {}
+      string: '{"guilds":[],"players":["MrBartusekXD"],"search":"mrbartusekxd","request":{"timestamp":1628677124,"version":1}}'
+    headers:
+      cache-control:
+      - max-age=29
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '129'
+      ratelimit-reset:
+      - '15'
     status:
       code: 200
       message: OK

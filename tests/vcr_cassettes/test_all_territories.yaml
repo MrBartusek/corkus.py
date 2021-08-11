@@ -53,10 +53,10 @@ interactions:
         14:43:38","attacker":null,"location":{"startX":-400,"startY":-450,"endX":-315,"endY":-330}},"Mage
         Island":{"territory":"Mage Island","guild":"Titans Valor","acquired":"2021-08-07
         05:53:50","attacker":null,"location":{"startX":805,"startY":-2960,"endX":983,"endY":-2787}},"Twain
-        Mansion":{"territory":"Twain Mansion","guild":"The Simple Ones","acquired":"2021-07-27
-        14:22:27","attacker":null,"location":{"startX":95,"startY":-407,"endX":140,"endY":-310}},"Nesaak
+        Mansion":{"territory":"Twain Mansion","guild":"The Simple Ones","acquired":"2021-08-09
+        17:48:48","attacker":null,"location":{"startX":95,"startY":-407,"endX":140,"endY":-310}},"Nesaak
         Plains South East":{"territory":"Nesaak Plains South East","guild":"The Simple
-        Ones","acquired":"2021-07-27 14:09:09","attacker":null,"location":{"startX":76,"startY":-757,"endX":230,"endY":-660}},"Nesaak
+        Ones","acquired":"2021-08-09 17:53:20","attacker":null,"location":{"startX":76,"startY":-757,"endX":230,"endY":-660}},"Nesaak
         Plains North East":{"territory":"Nesaak Plains North East","guild":"The Simple
         Ones","acquired":"2021-07-20 23:13:31","attacker":null,"location":{"startX":110,"startY":-873,"endX":240,"endY":-1035}},"Nesaak
         Plains Upper North West":{"territory":"Nesaak Plains Upper North West","guild":"The
@@ -65,12 +65,12 @@ interactions:
         Ones","acquired":"2021-07-30 02:30:09","attacker":null,"location":{"startX":-115,"startY":-630,"endX":-240,"endY":-780}},"Great
         Bridge Nesaak":{"territory":"Great Bridge Nesaak","guild":"The Simple Ones","acquired":"2021-07-30
         02:24:49","attacker":null,"location":{"startX":-275,"startY":-620,"endX":-390,"endY":-790}},"Jungle
-        Lower":{"territory":"Jungle Lower","guild":"ShadowFall","acquired":"2021-08-08
-        19:40:42","attacker":null,"location":{"startX":-515,"startY":-610,"endX":-600,"endY":-790}},"Jungle
-        Upper":{"territory":"Jungle Upper","guild":"TheNoLifes","acquired":"2021-08-08
-        19:33:01","attacker":null,"location":{"startX":-671,"startY":-779,"endX":-810,"endY":-630}},"Temple
-        of Legends":{"territory":"Temple of Legends","guild":"ShadowFall","acquired":"2021-08-08
-        19:31:24","attacker":null,"location":{"startX":-631,"startY":-973,"endX":-745,"endY":-1093}},"Rymek
+        Lower":{"territory":"Jungle Lower","guild":"ShadowFall","acquired":"2021-08-11
+        09:42:24","attacker":null,"location":{"startX":-515,"startY":-610,"endX":-600,"endY":-790}},"Jungle
+        Upper":{"territory":"Jungle Upper","guild":"ShadowFall","acquired":"2021-08-11
+        10:14:28","attacker":null,"location":{"startX":-671,"startY":-779,"endX":-810,"endY":-630}},"Temple
+        of Legends":{"territory":"Temple of Legends","guild":"ShadowFall","acquired":"2021-08-11
+        09:45:00","attacker":null,"location":{"startX":-631,"startY":-973,"endX":-745,"endY":-1093}},"Rymek
         East Lower":{"territory":"Rymek East Lower","guild":"Nefarious Ravens","acquired":"2021-08-05
         04:30:32","attacker":null,"location":{"startX":1210,"startY":-1270,"endX":1400,"endY":-1390}},"Rymek
         East Upper":{"territory":"Rymek East Upper","guild":"Nefarious Ravens","acquired":"2021-08-05
@@ -128,8 +128,8 @@ interactions:
         02:16:54","attacker":null,"location":{"startX":880,"startY":-1330,"endX":670,"endY":-1225}},"Nesaak
         Transition":{"territory":"Nesaak Transition","guild":"The Simple Ones","acquired":"2021-07-20
         03:28:55","attacker":null,"location":{"startX":330,"startY":-1040,"endX":75,"endY":-1145}},"Nether
-        Plains Lower":{"territory":"Nether Plains Lower","guild":"The Simple Ones","acquired":"2021-08-07
-        19:43:50","attacker":null,"location":{"startX":75,"startY":-1145,"endX":325,"endY":-1210}},"Mine
+        Plains Lower":{"territory":"Nether Plains Lower","guild":"The Simple Ones","acquired":"2021-08-09
+        22:06:37","attacker":null,"location":{"startX":75,"startY":-1145,"endX":325,"endY":-1210}},"Mine
         Base Plains":{"territory":"Mine Base Plains","guild":"TheNoLifes","acquired":"2021-07-29
         15:23:55","attacker":null,"location":{"startX":550,"startY":-1190,"endX":650,"endY":-1430}},"Nether
         Plains Upper":{"territory":"Nether Plains Upper","guild":"TheNoLifes","acquired":"2021-08-07
@@ -187,16 +187,16 @@ interactions:
         03:27:51","attacker":null,"location":{"startX":-1020,"startY":-4943,"endX":-1134,"endY":-5078}},"Efilim
         East Plains":{"territory":"Efilim East Plains","guild":"Avicia","acquired":"2021-08-06
         21:49:51","attacker":null,"location":{"startX":-1014,"startY":-4944,"endX":-949,"endY":-5079}},"Light
-        Forest North Entrance":{"territory":"Light Forest North Entrance","guild":"Avicia","acquired":"2021-08-08
-        19:55:20","attacker":null,"location":{"startX":-1134,"startY":-4708,"endX":-1030,"endY":-4845}},"Light
-        Forest South Entrance":{"territory":"Light Forest South Entrance","guild":"Emorians","acquired":"2021-08-08
-        19:30:17","attacker":null,"location":{"startX":-1134,"startY":-4548,"endX":-1038,"endY":-4426}},"Light
-        Forest South Exit":{"territory":"Light Forest South Exit","guild":"Lux Nova","acquired":"2021-08-07
-        12:28:40","attacker":null,"location":{"startX":-646,"startY":-4699,"endX":-733,"endY":-4559}},"Light
+        Forest North Entrance":{"territory":"Light Forest North Entrance","guild":"Lux
+        Nova","acquired":"2021-08-11 05:25:51","attacker":null,"location":{"startX":-1134,"startY":-4708,"endX":-1030,"endY":-4845}},"Light
+        Forest South Entrance":{"territory":"Light Forest South Entrance","guild":"Galaxy
+        Knights","acquired":"2021-08-11 09:00:02","attacker":null,"location":{"startX":-1134,"startY":-4548,"endX":-1038,"endY":-4426}},"Light
+        Forest South Exit":{"territory":"Light Forest South Exit","guild":"Lux Nova","acquired":"2021-08-10
+        14:36:36","attacker":null,"location":{"startX":-646,"startY":-4699,"endX":-733,"endY":-4559}},"Light
         Forest West Lower":{"territory":"Light Forest West Lower","guild":"Titans
         Valor","acquired":"2021-08-07 06:32:48","attacker":null,"location":{"startX":-1014,"startY":-4428,"endX":-929,"endY":-4549}},"Light
-        Forest West Upper":{"territory":"Light Forest West Upper","guild":"Emorians","acquired":"2021-08-08
-        19:39:34","attacker":null,"location":{"startX":-1014,"startY":-4708,"endX":-935,"endY":-4845}},"Light
+        Forest West Upper":{"territory":"Light Forest West Upper","guild":"Lux Nova","acquired":"2021-08-11
+        04:35:32","attacker":null,"location":{"startX":-1014,"startY":-4708,"endX":-935,"endY":-4845}},"Light
         Forest East Mid":{"territory":"Light Forest East Mid","guild":"Avicia","acquired":"2021-08-06
         04:07:09","attacker":null,"location":{"startX":-834,"startY":-4839,"endX":-926,"endY":-4708}},"Hobbit
         River":{"territory":"Hobbit River","guild":"Titans Valor","acquired":"2021-08-07
@@ -230,7 +230,7 @@ interactions:
         03:07:54","attacker":null,"location":{"startX":-555,"startY":-4996,"endX":-717,"endY":-4868}},"Fallen
         Village":{"territory":"Fallen Village","guild":"Avicia","acquired":"2021-08-05
         03:10:17","attacker":null,"location":{"startX":-288,"startY":-5409,"endX":-392,"endY":-5294}},"Guild
-        Hall":{"territory":"Guild Hall","guild":"Avicia","acquired":"2021-08-05 02:54:46","attacker":null,"location":{"startX":-349,"startY":-5093,"endX":-137,"endY":-4814}},"Cinfras''s
+        Hall":{"territory":"Guild Hall","guild":"Avicia","acquired":"2021-08-11 09:21:03","attacker":null,"location":{"startX":-349,"startY":-5093,"endX":-137,"endY":-4814}},"Cinfras''s
         Small Farm":{"territory":"Cinfras''s Small Farm","guild":"Lux Nova","acquired":"2021-07-14
         12:50:40","attacker":null,"location":{"startX":-224,"startY":-4793,"endX":-130,"endY":-4643}},"Cinfras
         County Mid-Lower":{"territory":"Cinfras County Mid-Lower","guild":"Lux Nova","acquired":"2021-07-27
@@ -245,26 +245,26 @@ interactions:
         02:03:25","attacker":null,"location":{"startX":-122,"startY":-5430,"endX":-218,"endY":-5567}},"Aldorei
         Valley Mid":{"territory":"Aldorei Valley Mid","guild":"Lux Nova","acquired":"2021-07-31
         14:42:12","attacker":null,"location":{"startX":-322,"startY":-4499,"endX":-557,"endY":-4395}},"Aldorei''s
-        River":{"territory":"Aldorei''s River","guild":"Lux Nova","acquired":"2021-07-31
-        14:34:33","attacker":null,"location":{"startX":-437,"startY":-4656,"endX":-338,"endY":-4756}},"Aldorei''s
+        River":{"territory":"Aldorei''s River","guild":"Lux Nova","acquired":"2021-08-09
+        01:07:57","attacker":null,"location":{"startX":-437,"startY":-4656,"endX":-338,"endY":-4756}},"Aldorei''s
         North Exit":{"territory":"Aldorei''s North Exit","guild":"Lux Nova","acquired":"2021-07-27
         06:30:33","attacker":null,"location":{"startX":-127,"startY":-4639,"endX":3,"endY":-4509}},"Path
         To The Arch":{"territory":"Path To The Arch","guild":"Lux Nova","acquired":"2021-07-20
         16:08:42","attacker":null,"location":{"startX":35,"startY":-4521,"endX":107,"endY":-4641}},"Burning
-        Farm":{"territory":"Burning Farm","guild":"Lux Nova","acquired":"2021-08-02
-        14:00:17","attacker":null,"location":{"startX":107,"startY":-4755,"endX":35,"endY":-4857}},"Cinfras
+        Farm":{"territory":"Burning Farm","guild":"Abyssal Void","acquired":"2021-08-11
+        10:09:54","attacker":null,"location":{"startX":107,"startY":-4755,"endX":35,"endY":-4857}},"Cinfras
         Thanos Transition":{"territory":"Cinfras Thanos Transition","guild":"Lux Nova","acquired":"2021-07-20
         18:11:30","attacker":null,"location":{"startX":98,"startY":-4957,"endX":35,"endY":-5046}},"Path
-        To Thanos":{"territory":"Path To Thanos","guild":"The Mage Legacy","acquired":"2021-07-27
-        02:54:07","attacker":null,"location":{"startX":98,"startY":-5049,"endX":35,"endY":-5149}},"Military
+        To Thanos":{"territory":"Path To Thanos","guild":"The Mage Legacy","acquired":"2021-08-10
+        17:56:42","attacker":null,"location":{"startX":98,"startY":-5049,"endX":35,"endY":-5149}},"Military
         Base":{"territory":"Military Base","guild":"The Mage Legacy","acquired":"2021-07-31
         13:39:51","attacker":null,"location":{"startX":104,"startY":-5393,"endX":166,"endY":-5518}},"Military
         Base Lower":{"territory":"Military Base Lower","guild":"The Mage Legacy","acquired":"2021-07-31
         13:20:44","attacker":null,"location":{"startX":244,"startY":-5407,"endX":168,"endY":-5315}},"Path
         To Ozoth''s Spire Mid":{"territory":"Path To Ozoth''s Spire Mid","guild":"IceBlue
-        Team","acquired":"2021-08-04 04:00:01","attacker":null,"location":{"startX":199,"startY":-5164,"endX":260,"endY":-5042}},"Bandit
-        Cave Lower":{"territory":"Bandit Cave Lower","guild":"IceBlue Team","acquired":"2021-08-06
-        17:38:18","attacker":null,"location":{"startX":111,"startY":-5043,"endX":194,"endY":-4958}},"Canyon
+        Team","acquired":"2021-08-11 10:04:18","attacker":null,"location":{"startX":199,"startY":-5164,"endX":260,"endY":-5042}},"Bandit
+        Cave Lower":{"territory":"Bandit Cave Lower","guild":"IceBlue Team","acquired":"2021-08-11
+        10:14:08","attacker":null,"location":{"startX":111,"startY":-5043,"endX":194,"endY":-4958}},"Canyon
         Entrance Waterfall":{"territory":"Canyon Entrance Waterfall","guild":"Guardian
         of Wynn","acquired":"2021-07-25 12:56:42","attacker":null,"location":{"startX":110,"startY":-4869,"endX":194,"endY":-4741}},"Canyon
         Path South East":{"territory":"Canyon Path South East","guild":"Guardian of
@@ -320,24 +320,24 @@ interactions:
         19:19:39","attacker":null,"location":{"startX":1531,"startY":-5637,"endX":1221,"endY":-5555}},"Temple
         Island":{"territory":"Temple Island","guild":"The Aquarium","acquired":"2021-07-27
         18:11:26","attacker":null,"location":{"startX":991,"startY":-4643,"endX":1124,"endY":-4750}},"Dernel
-        Jungle Lower":{"territory":"Dernel Jungle Lower","guild":"Abyssal Void","acquired":"2021-08-08
-        19:43:09","attacker":null,"location":{"startX":-737,"startY":-317,"endX":-502,"endY":-530}},"Dernel
-        Jungle Upper":{"territory":"Dernel Jungle Upper","guild":"TheNoLifes","acquired":"2021-08-08
-        19:50:56","attacker":null,"location":{"startX":-970,"startY":-795,"endX":-900,"endY":-547}},"Corkus
-        Castle":{"territory":"Corkus Castle","guild":"Emorians","acquired":"2021-08-07
-        21:46:22","attacker":null,"location":{"startX":-1555,"startY":-2968,"endX":-1452,"endY":-2835}},"Fallen
-        Factory":{"territory":"Fallen Factory","guild":"Emorians","acquired":"2021-08-03
-        20:23:56","attacker":null,"location":{"startX":-1579,"startY":-2662,"endX":-1681,"endY":-2518}},"Corkus
-        City Mine":{"territory":"Corkus City Mine","guild":"Emorians","acquired":"2021-08-03
-        20:48:54","attacker":null,"location":{"startX":-1394,"startY":-2750,"endX":-1466,"endY":-2831}},"Factory
-        Entrance":{"territory":"Factory Entrance","guild":"Emorians","acquired":"2021-08-03
-        20:17:11","attacker":null,"location":{"startX":-1683,"startY":-2571,"endX":-1798,"endY":-2730}},"Corkus
-        Forest North":{"territory":"Corkus Forest North","guild":"Emorians","acquired":"2021-08-03
-        20:03:58","attacker":null,"location":{"startX":-1888,"startY":-2862,"endX":-1682,"endY":-2995}},"Avos
-        Workshop":{"territory":"Avos Workshop","guild":"Emorians","acquired":"2021-08-03
-        20:06:24","attacker":null,"location":{"startX":-1681,"startY":-3178,"endX":-1888,"endY":-3375}},"Corkus
-        Countryside":{"territory":"Corkus Countryside","guild":"Emorians","acquired":"2021-08-03
-        19:51:35","attacker":null,"location":{"startX":-1503,"startY":-3191,"endX":-1680,"endY":-3012}},"Ruined
+        Jungle Lower":{"territory":"Dernel Jungle Lower","guild":"ShadowFall","acquired":"2021-08-11
+        09:56:54","attacker":null,"location":{"startX":-737,"startY":-317,"endX":-502,"endY":-530}},"Dernel
+        Jungle Upper":{"territory":"Dernel Jungle Upper","guild":"ShadowFall","acquired":"2021-08-11
+        10:07:10","attacker":null,"location":{"startX":-970,"startY":-795,"endX":-900,"endY":-547}},"Corkus
+        Castle":{"territory":"Corkus Castle","guild":"Emorians","acquired":"2021-08-10
+        16:34:44","attacker":null,"location":{"startX":-1555,"startY":-2968,"endX":-1452,"endY":-2835}},"Fallen
+        Factory":{"territory":"Fallen Factory","guild":"Emorians","acquired":"2021-08-10
+        15:50:12","attacker":null,"location":{"startX":-1579,"startY":-2662,"endX":-1681,"endY":-2518}},"Corkus
+        City Mine":{"territory":"Corkus City Mine","guild":"Emorians","acquired":"2021-08-10
+        16:35:37","attacker":null,"location":{"startX":-1394,"startY":-2750,"endX":-1466,"endY":-2831}},"Factory
+        Entrance":{"territory":"Factory Entrance","guild":"Emorians","acquired":"2021-08-10
+        15:53:18","attacker":null,"location":{"startX":-1683,"startY":-2571,"endX":-1798,"endY":-2730}},"Corkus
+        Forest North":{"territory":"Corkus Forest North","guild":"Emorians","acquired":"2021-08-10
+        16:05:39","attacker":null,"location":{"startX":-1888,"startY":-2862,"endX":-1682,"endY":-2995}},"Avos
+        Workshop":{"territory":"Avos Workshop","guild":"Emorians","acquired":"2021-08-08
+        21:38:11","attacker":null,"location":{"startX":-1681,"startY":-3178,"endX":-1888,"endY":-3375}},"Corkus
+        Countryside":{"territory":"Corkus Countryside","guild":"Emorians","acquired":"2021-08-10
+        16:17:37","attacker":null,"location":{"startX":-1503,"startY":-3191,"endX":-1680,"endY":-3012}},"Ruined
         Houses":{"territory":"Ruined Houses","guild":"Emorians","acquired":"2021-07-31
         20:55:20","attacker":null,"location":{"startX":-1684,"startY":-2569,"endX":-1793,"endY":-2453}},"Avos
         Temple":{"territory":"Avos Temple","guild":"Emorians","acquired":"2021-08-03
@@ -365,44 +365,44 @@ interactions:
         Docks":{"territory":"Jofash Docks","guild":"The Aquarium","acquired":"2021-07-28
         17:15:45","attacker":null,"location":{"startX":1178,"startY":-4175,"endX":1445,"endY":-4012}},"Lusuco":{"territory":"Lusuco","guild":"The
         Simple Ones","acquired":"2021-07-11 19:57:30","attacker":null,"location":{"startX":-267,"startY":-348,"endX":-91,"endY":-250}},"Phinas
-        Farm":{"territory":"Phinas Farm","guild":"Emorians","acquired":"2021-07-22
-        14:15:21","attacker":null,"location":{"startX":-1633,"startY":-2162,"endX":-1842,"endY":-2058}},"Cinfras
+        Farm":{"territory":"Phinas Farm","guild":"Emorians","acquired":"2021-08-10
+        17:09:14","attacker":null,"location":{"startX":-1633,"startY":-2162,"endX":-1842,"endY":-2058}},"Cinfras
         Outskirts":{"territory":"Cinfras Outskirts","guild":"Avicia","acquired":"2021-08-05
         02:40:33","attacker":null,"location":{"startX":-392,"startY":-5116,"endX":-534,"endY":-5278}},"Llevigar":{"territory":"Llevigar","guild":"Paladins
         United","acquired":"2021-07-21 08:28:37","attacker":null,"location":{"startX":-1800,"startY":-4643,"endX":-2171,"endY":-4405}},"Herb
-        Cave":{"territory":"Herb Cave","guild":"TheNoLifes","acquired":"2021-08-08
-        19:50:34","attacker":null,"location":{"startX":-448,"startY":-813,"endX":-557,"endY":-876}},"Icy
+        Cave":{"territory":"Herb Cave","guild":"Sins of Seedia","acquired":"2021-08-11
+        09:52:29","attacker":null,"location":{"startX":-448,"startY":-813,"endX":-557,"endY":-876}},"Icy
         Island":{"territory":"Icy Island","guild":"Titans Valor","acquired":"2021-08-07
         05:25:16","attacker":null,"location":{"startX":1001,"startY":-3274,"endX":1172,"endY":-3430}},"Fleris
         Trail":{"territory":"Fleris Trail","guild":"Paladins United","acquired":"2021-07-21
         20:53:58","attacker":null,"location":{"startX":-1390,"startY":-4594,"endX":-1254,"endY":-4351}},"Abandoned
         Pass":{"territory":"Abandoned Pass","guild":"TheNoLifes","acquired":"2021-08-03
         02:27:41","attacker":null,"location":{"startX":881,"startY":-1225,"endX":1019,"endY":-1380}},"Southern
-        Outpost":{"territory":"Southern Outpost","guild":"Emorians","acquired":"2021-08-08
-        01:35:18","attacker":null,"location":{"startX":-1258,"startY":-2204,"endX":-1444,"endY":-2306}},"Corkus
-        Sea Cove":{"territory":"Corkus Sea Cove","guild":"Emorians","acquired":"2021-08-03
-        20:57:50","attacker":null,"location":{"startX":-1578,"startY":-2662,"endX":-1330,"endY":-2513}},"The
-        Broken Road":{"territory":"The Broken Road","guild":"TheNoLifes","acquired":"2021-08-08
-        06:21:21","attacker":null,"location":{"startX":686,"startY":-923,"endX":493,"endY":-783}},"Grey
-        Ruins":{"territory":"Grey Ruins","guild":"TheNoLifes","acquired":"2021-08-08
-        08:42:46","attacker":null,"location":{"startX":683,"startY":-619,"endX":477,"endY":-515}},"Forest
-        of Eyes":{"territory":"Forest of Eyes","guild":"busted moments","acquired":"2021-08-08
-        18:51:37","attacker":null,"location":{"startX":813,"startY":-333,"endX":1043,"endY":-504}},"Lutho":{"territory":"Lutho","guild":"busted
-        moments","acquired":"2021-08-08 18:04:59","attacker":null,"location":{"startX":936,"startY":-654,"endX":1027,"endY":-754}},"Toxic
-        Drip":{"territory":"Toxic Drip","guild":"busted moments","acquired":"2021-08-08
-        18:00:55","attacker":null,"location":{"startX":893,"startY":-876,"endX":1086,"endY":-992}},"Gateway
-        to Nothing":{"territory":"Gateway to Nothing","guild":"busted moments","acquired":"2021-08-08
-        18:28:07","attacker":null,"location":{"startX":1120,"startY":-882,"endX":1244,"endY":-1058}},"Final
-        Step":{"territory":"Final Step","guild":"busted moments","acquired":"2021-08-08
-        18:45:23","attacker":null,"location":{"startX":1388,"startY":-869,"endX":1254,"endY":-932}},"The
-        Gate":{"territory":"The Gate","guild":"busted moments","acquired":"2021-08-08
-        18:40:09","attacker":null,"location":{"startX":1350,"startY":-520,"endX":1265,"endY":-410}},"Luminous
-        Plateau":{"territory":"Luminous Plateau","guild":"Avicia","acquired":"2021-08-08
-        19:43:35","attacker":null,"location":{"startX":-894,"startY":-5957,"endX":-962,"endY":-6066}},"Azure
-        Frontier":{"territory":"Azure Frontier","guild":"Aequitas","acquired":"2021-08-08
-        18:43:00","attacker":null,"location":{"startX":-894,"startY":-6164,"endX":-684,"endY":-6313}},"Path
-        to Light":{"territory":"Path to Light","guild":"Aequitas","acquired":"2021-08-08
-        18:28:35","attacker":null,"location":{"startX":-775,"startY":-6164,"endX":-827,"endY":-6010}},"Light
+        Outpost":{"territory":"Southern Outpost","guild":"Emorians","acquired":"2021-08-10
+        17:21:53","attacker":null,"location":{"startX":-1258,"startY":-2204,"endX":-1444,"endY":-2306}},"Corkus
+        Sea Cove":{"territory":"Corkus Sea Cove","guild":"Emorians","acquired":"2021-08-10
+        16:44:06","attacker":null,"location":{"startX":-1578,"startY":-2662,"endX":-1330,"endY":-2513}},"The
+        Broken Road":{"territory":"The Broken Road","guild":"TheNoLifes","acquired":"2021-08-11
+        05:24:30","attacker":null,"location":{"startX":686,"startY":-923,"endX":493,"endY":-783}},"Grey
+        Ruins":{"territory":"Grey Ruins","guild":"TheNoLifes","acquired":"2021-08-11
+        05:09:07","attacker":null,"location":{"startX":683,"startY":-619,"endX":477,"endY":-515}},"Forest
+        of Eyes":{"territory":"Forest of Eyes","guild":"Wheres The Finish","acquired":"2021-08-11
+        09:00:43","attacker":null,"location":{"startX":813,"startY":-333,"endX":1043,"endY":-504}},"Lutho":{"territory":"Lutho","guild":"Wheres
+        The Finish","acquired":"2021-08-11 08:19:30","attacker":null,"location":{"startX":936,"startY":-654,"endX":1027,"endY":-754}},"Toxic
+        Drip":{"territory":"Toxic Drip","guild":"Wheres The Finish","acquired":"2021-08-11
+        08:30:23","attacker":null,"location":{"startX":893,"startY":-876,"endX":1086,"endY":-992}},"Gateway
+        to Nothing":{"territory":"Gateway to Nothing","guild":"Wheres The Finish","acquired":"2021-08-11
+        08:37:02","attacker":null,"location":{"startX":1120,"startY":-882,"endX":1244,"endY":-1058}},"Final
+        Step":{"territory":"Final Step","guild":"Wheres The Finish","acquired":"2021-08-11
+        08:44:29","attacker":null,"location":{"startX":1388,"startY":-869,"endX":1254,"endY":-932}},"The
+        Gate":{"territory":"The Gate","guild":"Wheres The Finish","acquired":"2021-08-11
+        08:54:38","attacker":null,"location":{"startX":1350,"startY":-520,"endX":1265,"endY":-410}},"Luminous
+        Plateau":{"territory":"Luminous Plateau","guild":"Aequitas","acquired":"2021-08-11
+        06:43:56","attacker":null,"location":{"startX":-894,"startY":-5957,"endX":-962,"endY":-6066}},"Azure
+        Frontier":{"territory":"Azure Frontier","guild":"Aequitas","acquired":"2021-08-11
+        06:52:14","attacker":null,"location":{"startX":-894,"startY":-6164,"endX":-684,"endY":-6313}},"Path
+        to Light":{"territory":"Path to Light","guild":"Aequitas","acquired":"2021-08-11
+        06:57:13","attacker":null,"location":{"startX":-775,"startY":-6164,"endX":-827,"endY":-6010}},"Light
         Peninsula":{"territory":"Light Peninsula","guild":"Titans Valor","acquired":"2021-08-07
         05:56:47","attacker":null,"location":{"startX":-951,"startY":-4421,"endX":-802,"endY":-4108}},"Nivla
         Woods Entrance":{"territory":"Nivla Woods Entrance","guild":"ShadowFall","acquired":"2021-07-20
@@ -423,16 +423,16 @@ interactions:
         02:22:58","attacker":null,"location":{"startX":402,"startY":-1657,"endX":536,"endY":-1518}},"Nivla
         Woods Edge":{"territory":"Nivla Woods Edge","guild":"TheNoLifes","acquired":"2021-07-29
         15:02:39","attacker":null,"location":{"startX":-74,"startY":-1777,"endX":-3,"endY":-1485}},"Twain
-        Lake":{"territory":"Twain Lake","guild":"The Simple Ones","acquired":"2021-07-20
-        23:18:34","attacker":null,"location":{"startX":0,"startY":-330,"endX":80,"endY":-530}},"Nesaak
+        Lake":{"territory":"Twain Lake","guild":"The Simple Ones","acquired":"2021-08-09
+        17:46:00","attacker":null,"location":{"startX":0,"startY":-330,"endX":80,"endY":-530}},"Nesaak
         Plains South West":{"territory":"Nesaak Plains South West","guild":"The Simple
         Ones","acquired":"2021-07-09 19:13:05","attacker":null,"location":{"startX":70,"startY":-820,"endX":-110,"endY":-625}},"Nesaak
         Village":{"territory":"Nesaak Village","guild":"The Simple Ones","acquired":"2021-07-19
         18:32:00","attacker":null,"location":{"startX":75,"startY":-850,"endX":160,"endY":-760}},"Great
-        Bridge Jungle":{"territory":"Great Bridge Jungle","guild":"ShadowFall","acquired":"2021-08-08
-        19:39:00","attacker":null,"location":{"startX":-395,"startY":-790,"endX":-515,"endY":-610}},"Jungle
-        Lake":{"territory":"Jungle Lake","guild":"TheNoLifes","acquired":"2021-08-08
-        19:45:49","attacker":null,"location":{"startX":-601,"startY":-791,"endX":-680,"endY":-940}},"Rymek
+        Bridge Jungle":{"territory":"Great Bridge Jungle","guild":"ShadowFall","acquired":"2021-08-11
+        10:10:37","attacker":null,"location":{"startX":-395,"startY":-790,"endX":-515,"endY":-610}},"Jungle
+        Lake":{"territory":"Jungle Lake","guild":"Sins of Seedia","acquired":"2021-08-11
+        09:58:59","attacker":null,"location":{"startX":-601,"startY":-791,"endX":-680,"endY":-940}},"Rymek
         East Mid":{"territory":"Rymek East Mid","guild":"Nefarious Ravens","acquired":"2021-08-05
         04:35:47","attacker":null,"location":{"startX":1211,"startY":-1410,"endX":1480,"endY":-1578}},"Rymek
         West Upper":{"territory":"Rymek West Upper","guild":"Nefarious Ravens","acquired":"2021-08-05
@@ -460,12 +460,12 @@ interactions:
         04:30:06","attacker":null,"location":{"startX":-1164,"startY":-3831,"endX":-930,"endY":-3530}},"Ternaves
         Plains Lower":{"territory":"Ternaves Plains Lower","guild":"TheNoLifes","acquired":"2021-08-07
         02:18:39","attacker":null,"location":{"startX":655,"startY":-1430,"endX":880,"endY":-1330}},"Desolate
-        Valley":{"territory":"Desolate Valley","guild":"The Simple Ones","acquired":"2021-07-29
-        20:45:47","attacker":null,"location":{"startX":330,"startY":-1040,"endX":450,"endY":-1170}},"Detlas
+        Valley":{"territory":"Desolate Valley","guild":"The Simple Ones","acquired":"2021-08-09
+        21:54:36","attacker":null,"location":{"startX":330,"startY":-1040,"endX":450,"endY":-1170}},"Detlas
         Savannah Transition":{"territory":"Detlas Savannah Transition","guild":"TheNoLifes","acquired":"2021-08-07
         02:22:06","attacker":null,"location":{"startX":545,"startY":-1520,"endX":650,"endY":-1670}},"Llevigar
-        Entrance":{"territory":"Llevigar Entrance","guild":"Emorians","acquired":"2021-08-07
-        18:57:32","attacker":null,"location":{"startX":-2048,"startY":-4250,"endX":-1932,"endY":-4403}},"Llevigar
+        Entrance":{"territory":"Llevigar Entrance","guild":"Emorians","acquired":"2021-08-09
+        16:06:50","attacker":null,"location":{"startX":-2048,"startY":-4250,"endX":-1932,"endY":-4403}},"Llevigar
         Farm Plains West":{"territory":"Llevigar Farm Plains West","guild":"Paladins
         United","acquired":"2021-07-21 08:40:13","attacker":null,"location":{"startX":-2060,"startY":-4746,"endX":-2171,"endY":-4828}},"Llevigar
         Plains West Lower":{"territory":"Llevigar Plains West Lower","guild":"Paladins
@@ -492,11 +492,11 @@ interactions:
         South East Plains":{"territory":"Efilim South East Plains","guild":"Avicia","acquired":"2021-08-06
         03:38:56","attacker":null,"location":{"startX":-949,"startY":-4942,"endX":-1014,"endY":-4847}},"Aldorei
         Valley West Entrance":{"territory":"Aldorei Valley West Entrance","guild":"Lux
-        Nova","acquired":"2021-08-04 17:19:20","attacker":null,"location":{"startX":-736,"startY":-4428,"endX":-802,"endY":-4553}},"Light
-        Forest West Mid":{"territory":"Light Forest West Mid","guild":"Emorians","acquired":"2021-08-08
-        19:14:17","attacker":null,"location":{"startX":-929,"startY":-4552,"endX":-1014,"endY":-4706}},"Light
-        Forest East Lower":{"territory":"Light Forest East Lower","guild":"Emorians","acquired":"2021-08-08
-        19:11:19","attacker":null,"location":{"startX":-926,"startY":-4700,"endX":-805,"endY":-4552}},"Path
+        Nova","acquired":"2021-08-10 14:17:55","attacker":null,"location":{"startX":-736,"startY":-4428,"endX":-802,"endY":-4553}},"Light
+        Forest West Mid":{"territory":"Light Forest West Mid","guild":"Lux Nova","acquired":"2021-08-11
+        04:37:56","attacker":null,"location":{"startX":-929,"startY":-4552,"endX":-1014,"endY":-4706}},"Light
+        Forest East Lower":{"territory":"Light Forest East Lower","guild":"Lux Nova","acquired":"2021-08-11
+        04:41:30","attacker":null,"location":{"startX":-926,"startY":-4700,"endX":-805,"endY":-4552}},"Path
         to Cinfras":{"territory":"Path to Cinfras","guild":"Avicia","acquired":"2021-08-03
         01:37:31","attacker":null,"location":{"startX":-734,"startY":-4842,"endX":-818,"endY":-4953}},"Gelibord
         Castle":{"territory":"Gelibord Castle","guild":"Empire of Sindria","acquired":"2021-08-02
@@ -515,8 +515,8 @@ interactions:
         02:33:59","attacker":null,"location":{"startX":-290,"startY":-5292,"endX":-392,"endY":-5116}},"Cinfras
         County Lower":{"territory":"Cinfras County Lower","guild":"Lux Nova","acquired":"2021-08-02
         13:49:21","attacker":null,"location":{"startX":3,"startY":-4760,"endX":-127,"endY":-4640}},"Gylia
-        Lake South East":{"territory":"Gylia Lake South East","guild":"The Mage Legacy","acquired":"2021-07-31
-        13:50:36","attacker":null,"location":{"startX":30,"startY":-5157,"endX":-127,"endY":-5271}},"Gert
+        Lake South East":{"territory":"Gylia Lake South East","guild":"The Mage Legacy","acquired":"2021-08-10
+        17:44:44","attacker":null,"location":{"startX":30,"startY":-5157,"endX":-127,"endY":-5271}},"Gert
         Camp":{"territory":"Gert Camp","guild":"The Mage Legacy","acquired":"2021-07-31
         13:37:34","attacker":null,"location":{"startX":30,"startY":-5447,"endX":-83,"endY":-5605}},"Aldorei
         Valley Upper":{"territory":"Aldorei Valley Upper","guild":"Lux Nova","acquired":"2021-07-31
@@ -525,12 +525,12 @@ interactions:
         08:06:41","attacker":null,"location":{"startX":33,"startY":-4367,"endX":107,"endY":-4519}},"Burning
         Airship":{"territory":"Burning Airship","guild":"Lux Nova","acquired":"2021-07-20
         15:14:35","attacker":null,"location":{"startX":35,"startY":-4859,"endX":107,"endY":-4955}},"Path
-        To Military Base":{"territory":"Path To Military Base","guild":"The Mage Legacy","acquired":"2021-07-31
-        13:16:33","attacker":null,"location":{"startX":51,"startY":-5297,"endX":166,"endY":-5391}},"Path
+        To Military Base":{"territory":"Path To Military Base","guild":"The Mage Legacy","acquired":"2021-08-10
+        17:47:44","attacker":null,"location":{"startX":51,"startY":-5297,"endX":166,"endY":-5391}},"Path
         To Ozoth''s Spire Lower":{"territory":"Path To Ozoth''s Spire Lower","guild":"The
-        Mage Legacy","acquired":"2021-07-31 13:26:03","attacker":null,"location":{"startX":260,"startY":-5298,"endX":199,"endY":-5169}},"Bandit
-        Cave Upper":{"territory":"Bandit Cave Upper","guild":"Lux Nova","acquired":"2021-08-06
-        17:59:05","attacker":null,"location":{"startX":194,"startY":-4956,"endX":111,"endY":-4872}},"Canyon
+        Mage Legacy","acquired":"2021-08-10 17:51:00","attacker":null,"location":{"startX":260,"startY":-5298,"endX":199,"endY":-5169}},"Bandit
+        Cave Upper":{"territory":"Bandit Cave Upper","guild":"Lux Nova","acquired":"2021-08-11
+        08:18:54","attacker":null,"location":{"startX":194,"startY":-4956,"endX":111,"endY":-4872}},"Canyon
         Waterfall North":{"territory":"Canyon Waterfall North","guild":"Guardian of
         Wynn","acquired":"2021-07-28 08:15:35","attacker":null,"location":{"startX":115,"startY":-4380,"endX":194,"endY":-4518}},"Canyon
         Path North Mid":{"territory":"Canyon Path North Mid","guild":"Guardian of
@@ -551,23 +551,23 @@ interactions:
         11:28:18","attacker":null,"location":{"startX":443,"startY":-4566,"endX":570,"endY":-4392}},"Cliffside
         Passage North":{"territory":"Cliffside Passage North","guild":"Guardian of
         Wynn","acquired":"2021-07-28 08:26:40","attacker":null,"location":{"startX":572,"startY":-4818,"endX":700,"endY":-4933}},"Cherry
-        Blossom Forest":{"territory":"Cherry Blossom Forest","guild":"IceBlue Team","acquired":"2021-08-08
-        02:04:04","attacker":null,"location":{"startX":699,"startY":-5378,"endX":575,"endY":-5551}},"Entrance
+        Blossom Forest":{"territory":"Cherry Blossom Forest","guild":"IceBlue Team","acquired":"2021-08-10
+        12:07:04","attacker":null,"location":{"startX":699,"startY":-5378,"endX":575,"endY":-5551}},"Entrance
         to Rodoroc":{"territory":"Entrance to Rodoroc","guild":"IceBlue Team","acquired":"2021-08-08
         00:53:31","attacker":null,"location":{"startX":854,"startY":-5257,"endX":1113,"endY":-5367}},"Lava
         Lake Bridge":{"territory":"Lava Lake Bridge","guild":"The Aquarium","acquired":"2021-07-27
         18:59:24","attacker":null,"location":{"startX":1230,"startY":-5240,"endX":1379,"endY":-5366}},"Ahmsord":{"territory":"Ahmsord","guild":"The
         Aquarium","acquired":"2021-07-27 18:06:49","attacker":null,"location":{"startX":1163,"startY":-4462,"endX":942,"endY":-4604}},"Dernel
-        Jungle Mid":{"territory":"Dernel Jungle Mid","guild":"Abyssal Void","acquired":"2021-08-08
-        19:47:30","attacker":null,"location":{"startX":-744,"startY":-528,"endX":-965,"endY":-264}},"Corkus
+        Jungle Mid":{"territory":"Dernel Jungle Mid","guild":"Sins of Seedia","acquired":"2021-08-11
+        05:34:16","attacker":null,"location":{"startX":-744,"startY":-528,"endX":-965,"endY":-264}},"Corkus
         City South":{"territory":"Corkus City South","guild":"Emorians","acquired":"2021-07-09
         19:10:06","attacker":null,"location":{"startX":-1559,"startY":-2662,"endX":-1679,"endY":-2833}},"Legendary
-        Island":{"territory":"Legendary Island","guild":"Emorians","acquired":"2021-07-31
-        21:44:54","attacker":null,"location":{"startX":-1212,"startY":-2576,"endX":-1001,"endY":-2342}},"Corkus
-        Mountain":{"territory":"Corkus Mountain","guild":"Emorians","acquired":"2021-08-03
-        19:57:08","attacker":null,"location":{"startX":-1888,"startY":-2997,"endX":-1683,"endY":-3175}},"Corkus
-        Sea Port":{"territory":"Corkus Sea Port","guild":"Emorians","acquired":"2021-08-03
-        20:39:50","attacker":null,"location":{"startX":-1680,"startY":-2512,"endX":-1437,"endY":-2307}},"Bloody
+        Island":{"territory":"Legendary Island","guild":"Emorians","acquired":"2021-08-10
+        17:23:19","attacker":null,"location":{"startX":-1212,"startY":-2576,"endX":-1001,"endY":-2342}},"Corkus
+        Mountain":{"territory":"Corkus Mountain","guild":"Emorians","acquired":"2021-08-10
+        16:09:58","attacker":null,"location":{"startX":-1888,"startY":-2997,"endX":-1683,"endY":-3175}},"Corkus
+        Sea Port":{"territory":"Corkus Sea Port","guild":"Emorians","acquired":"2021-08-10
+        16:50:27","attacker":null,"location":{"startX":-1680,"startY":-2512,"endX":-1437,"endY":-2307}},"Bloody
         Beach":{"territory":"Bloody Beach","guild":"Emorians","acquired":"2021-08-03
         19:58:53","attacker":null,"location":{"startX":-1376,"startY":-3225,"endX":-1097,"endY":-3426}},"Path
         to Ahmsord Lower":{"territory":"Path to Ahmsord Lower","guild":"The Aquarium","acquired":"2021-07-27
@@ -587,19 +587,19 @@ interactions:
         05:27:08","attacker":null,"location":{"startX":-1020,"startY":-5603,"endX":-910,"endY":-5343}},"Orc
         Battlegrounds":{"territory":"Orc Battlegrounds","guild":"Paladins United","acquired":"2021-07-21
         20:23:38","attacker":null,"location":{"startX":-1460,"startY":-5024,"endX":-1282,"endY":-4870}},"Lighthouse
-        Plateau":{"territory":"Lighthouse Plateau","guild":"Emorians","acquired":"2021-07-10
-        11:24:54","attacker":null,"location":{"startX":-1633,"startY":-2162,"endX":-1445,"endY":-2306}},"Worm
-        Tunnel":{"territory":"Worm Tunnel","guild":"TheNoLifes","acquired":"2021-08-08
-        08:30:05","attacker":null,"location":{"startX":641,"startY":-767,"endX":543,"endY":-640}},"Sinister
-        Forest":{"territory":"Sinister Forest","guild":"busted moments","acquired":"2021-08-08
-        19:07:51","attacker":null,"location":{"startX":815,"startY":-506,"endX":1059,"endY":-629}},"Toxic
-        Caves":{"territory":"Toxic Caves","guild":"busted moments","acquired":"2021-08-08
-        18:23:05","attacker":null,"location":{"startX":1017,"startY":-1146,"endX":844,"endY":-993}},"Bizarre
-        Passage":{"territory":"Bizarre Passage","guild":"busted moments","acquired":"2021-08-08
-        18:33:37","attacker":null,"location":{"startX":1187,"startY":-680,"endX":1388,"endY":-530}},"Primal
-        Fen":{"territory":"Primal Fen","guild":"Avicia","acquired":"2021-08-08 19:47:36","attacker":null,"location":{"startX":-894,"startY":-6244,"endX":-1026,"endY":-6066}},"Nexus
-        of Light":{"territory":"Nexus of Light","guild":"Aequitas","acquired":"2021-08-08
-        18:59:15","attacker":null,"location":{"startX":-645,"startY":-6384,"endX":-855,"endY":-6561}},"Ragni
+        Plateau":{"territory":"Lighthouse Plateau","guild":"Emorians","acquired":"2021-08-10
+        17:17:45","attacker":null,"location":{"startX":-1633,"startY":-2162,"endX":-1445,"endY":-2306}},"Worm
+        Tunnel":{"territory":"Worm Tunnel","guild":"TheNoLifes","acquired":"2021-08-11
+        05:16:50","attacker":null,"location":{"startX":641,"startY":-767,"endX":543,"endY":-640}},"Sinister
+        Forest":{"territory":"Sinister Forest","guild":"Wheres The Finish","acquired":"2021-08-11
+        09:05:08","attacker":null,"location":{"startX":815,"startY":-506,"endX":1059,"endY":-629}},"Toxic
+        Caves":{"territory":"Toxic Caves","guild":"Wheres The Finish","acquired":"2021-08-11
+        08:35:20","attacker":null,"location":{"startX":1017,"startY":-1146,"endX":844,"endY":-993}},"Bizarre
+        Passage":{"territory":"Bizarre Passage","guild":"Wheres The Finish","acquired":"2021-08-11
+        08:51:59","attacker":null,"location":{"startX":1187,"startY":-680,"endX":1388,"endY":-530}},"Primal
+        Fen":{"territory":"Primal Fen","guild":"Aequitas","acquired":"2021-08-11 06:55:07","attacker":null,"location":{"startX":-894,"startY":-6244,"endX":-1026,"endY":-6066}},"Nexus
+        of Light":{"territory":"Nexus of Light","guild":"Aequitas","acquired":"2021-08-11
+        07:03:48","attacker":null,"location":{"startX":-645,"startY":-6384,"endX":-855,"endY":-6561}},"Ragni
         Main Entrance":{"territory":"Ragni Main Entrance","guild":"ShadowFall","acquired":"2021-07-20
         21:26:12","attacker":null,"location":{"startX":-747,"startY":-1530,"endX":-616,"endY":-1652}},"Coastal
         Trail":{"territory":"Coastal Trail","guild":"ShadowFall","acquired":"2021-07-23
@@ -614,8 +614,8 @@ interactions:
         06:00:50","attacker":null,"location":{"startX":900,"startY":-2660,"endX":1100,"endY":-2480}},"Nesaak
         Plains Lower North West":{"territory":"Nesaak Plains Lower North West","guild":"The
         Simple Ones","acquired":"2021-07-19 18:38:31","attacker":null,"location":{"startX":70,"startY":-834,"endX":-120,"endY":-910}},"Jungle
-        Mid":{"territory":"Jungle Mid","guild":"ShadowFall","acquired":"2021-08-08
-        19:53:19","attacker":null,"location":{"startX":-600,"startY":-610,"endX":-670,"endY":-780}},"Rymek
+        Mid":{"territory":"Jungle Mid","guild":"Sins of Seedia","acquired":"2021-08-11
+        10:03:27","attacker":null,"location":{"startX":-600,"startY":-610,"endX":-670,"endY":-780}},"Rymek
         West Lower":{"territory":"Rymek West Lower","guild":"Nefarious Ravens","acquired":"2021-08-05
         04:23:23","attacker":null,"location":{"startX":1209,"startY":-1269,"endX":1020,"endY":-1380}},"Desert
         Mid-Lower":{"territory":"Desert Mid-Lower","guild":"Nefarious Ravens","acquired":"2021-08-05
@@ -645,10 +645,10 @@ interactions:
         14:36:32","attacker":null,"location":{"startX":-1688,"startY":-4962,"endX":-1611,"endY":-4854}},"Efilim
         South Plains":{"territory":"Efilim South Plains","guild":"Avicia","acquired":"2021-08-07
         14:35:18","attacker":null,"location":{"startX":-1030,"startY":-4940,"endX":-1134,"endY":-4847}},"Light
-        Forest North Exit":{"territory":"Light Forest North Exit","guild":"Avicia","acquired":"2021-08-04
-        17:17:40","attacker":null,"location":{"startX":-733,"startY":-4707,"endX":-654,"endY":-4848}},"Mantis
-        Nest":{"territory":"Mantis Nest","guild":"Lux Nova","acquired":"2021-08-04
-        17:46:36","attacker":null,"location":{"startX":-736,"startY":-4559,"endX":-802,"endY":-4698}},"Fortress
+        Forest North Exit":{"territory":"Light Forest North Exit","guild":"Avicia","acquired":"2021-08-10
+        14:40:43","attacker":null,"location":{"startX":-733,"startY":-4707,"endX":-654,"endY":-4848}},"Mantis
+        Nest":{"territory":"Mantis Nest","guild":"Lux Nova","acquired":"2021-08-09
+        02:35:03","attacker":null,"location":{"startX":-736,"startY":-4559,"endX":-802,"endY":-4698}},"Fortress
         North":{"territory":"Fortress North","guild":"Empire of Sindria","acquired":"2021-08-02
         09:43:32","attacker":null,"location":{"startX":-1452,"startY":-5211,"endX":-1272,"endY":-5395}},"Mesquis
         Tower":{"territory":"Mesquis Tower","guild":"Avicia","acquired":"2021-07-31
@@ -674,16 +674,16 @@ interactions:
         05:37:29","attacker":null,"location":{"startX":562,"startY":-5313,"endX":440,"endY":-5191}},"Kandon
         Farm":{"territory":"Kandon Farm","guild":"The Aquarium","acquired":"2021-07-27
         17:53:53","attacker":null,"location":{"startX":710,"startY":-4587,"endX":614,"endY":-4682}},"Thesead
-        Suburbs":{"territory":"Thesead Suburbs","guild":"IceBlue Team","acquired":"2021-08-06
-        05:58:29","attacker":null,"location":{"startX":703,"startY":-5374,"endX":810,"endY":-5216}},"Active
+        Suburbs":{"territory":"Thesead Suburbs","guild":"IceBlue Team","acquired":"2021-08-10
+        12:18:24","attacker":null,"location":{"startX":703,"startY":-5374,"endX":810,"endY":-5216}},"Active
         Volcano":{"territory":"Active Volcano","guild":"The Aquarium","acquired":"2021-07-27
         19:08:58","attacker":null,"location":{"startX":1233,"startY":-5553,"endX":1379,"endY":-5369}},"Corkus
-        City":{"territory":"Corkus City","guild":"Emorians","acquired":"2021-07-09
-        20:39:52","attacker":null,"location":{"startX":-1557,"startY":-2835,"endX":-1680,"endY":-3010}},"Corkus
-        Forest South":{"territory":"Corkus Forest South","guild":"Emorians","acquired":"2021-08-03
-        20:19:12","attacker":null,"location":{"startX":-1681,"startY":-2732,"endX":-1883,"endY":-2861}},"Corkus
-        Statue":{"territory":"Corkus Statue","guild":"Emorians","acquired":"2021-08-03
-        19:59:23","attacker":null,"location":{"startX":-1322,"startY":-2917,"endX":-1393,"endY":-2836}},"Kandon
+        City":{"territory":"Corkus City","guild":"Emorians","acquired":"2021-08-10
+        16:19:23","attacker":null,"location":{"startX":-1557,"startY":-2835,"endX":-1680,"endY":-3010}},"Corkus
+        Forest South":{"territory":"Corkus Forest South","guild":"Emorians","acquired":"2021-08-10
+        15:59:55","attacker":null,"location":{"startX":-1681,"startY":-2732,"endX":-1883,"endY":-2861}},"Corkus
+        Statue":{"territory":"Corkus Statue","guild":"Emorians","acquired":"2021-08-10
+        16:31:19","attacker":null,"location":{"startX":-1322,"startY":-2917,"endX":-1393,"endY":-2836}},"Kandon
         Ridge":{"territory":"Kandon Ridge","guild":"The Aquarium","acquired":"2021-07-27
         17:45:56","attacker":null,"location":{"startX":885,"startY":-4640,"endX":719,"endY":-4777}},"Wybel
         Island":{"territory":"Wybel Island","guild":"The Aquarium","acquired":"2021-07-27
@@ -694,12 +694,12 @@ interactions:
         05:28:59","attacker":null,"location":{"startX":1202,"startY":-3764,"endX":1458,"endY":-3597}},"Lost
         Atoll":{"territory":"Lost Atoll","guild":"Titans Valor","acquired":"2021-08-07
         06:23:55","attacker":null,"location":{"startX":-472,"startY":-3590,"endX":-688,"endY":-3385}},"Forgotten
-        Town":{"territory":"Forgotten Town","guild":"TheNoLifes","acquired":"2021-08-08
-        17:47:12","attacker":null,"location":{"startX":480,"startY":-493,"endX":734,"endY":-355}},"Void
-        Valley":{"territory":"Void Valley","guild":"busted moments","acquired":"2021-08-08
-        18:38:42","attacker":null,"location":{"startX":1082,"startY":-1161,"endX":1250,"endY":-1078}},"Otherwordly
-        Monolith":{"territory":"Otherwordly Monolith","guild":"Aequitas","acquired":"2021-08-08
-        18:39:12","attacker":null,"location":{"startX":-775,"startY":-6164,"endX":-662,"endY":-6003}},"Katoa
+        Town":{"territory":"Forgotten Town","guild":"TheNoLifes","acquired":"2021-08-11
+        05:01:41","attacker":null,"location":{"startX":480,"startY":-493,"endX":734,"endY":-355}},"Void
+        Valley":{"territory":"Void Valley","guild":"Wheres The Finish","acquired":"2021-08-11
+        08:41:40","attacker":null,"location":{"startX":1082,"startY":-1161,"endX":1250,"endY":-1078}},"Otherwordly
+        Monolith":{"territory":"Otherwordly Monolith","guild":"Aequitas","acquired":"2021-08-11
+        07:01:12","attacker":null,"location":{"startX":-775,"startY":-6164,"endX":-662,"endY":-6003}},"Katoa
         Ranch":{"territory":"Katoa Ranch","guild":"ShadowFall","acquired":"2021-07-20
         20:53:06","attacker":null,"location":{"startX":-914,"startY":-1860,"endX":-748,"endY":-1955}},"Road
         to Time Valley":{"territory":"Road to Time Valley","guild":"ShadowFall","acquired":"2021-07-20
@@ -721,8 +721,8 @@ interactions:
         13:50:56","attacker":null,"location":{"startX":-1649,"startY":-5134,"endX":-1763,"endY":-5241}},"Meteor
         Crater":{"territory":"Meteor Crater","guild":"Paladins United","acquired":"2021-07-20
         14:57:29","attacker":null,"location":{"startX":-1800,"startY":-5099,"endX":-1690,"endY":-4969}},"Light
-        Forest Entrance":{"territory":"Light Forest Entrance","guild":"Emorians","acquired":"2021-08-08
-        19:27:05","attacker":null,"location":{"startX":-1040,"startY":-4706,"endX":-1134,"endY":-4552}},"Gelibord":{"territory":"Gelibord","guild":"Avicia","acquired":"2021-08-05
+        Forest Entrance":{"territory":"Light Forest Entrance","guild":"Lux Nova","acquired":"2021-08-11
+        04:30:35","attacker":null,"location":{"startX":-1040,"startY":-4706,"endX":-1134,"endY":-4552}},"Gelibord":{"territory":"Gelibord","guild":"Avicia","acquired":"2021-08-05
         02:42:43","attacker":null,"location":{"startX":-1050,"startY":-5244,"endX":-958,"endY":-5342}},"Dark
         Forest Village":{"territory":"Dark Forest Village","guild":"Avicia","acquired":"2021-07-31
         06:00:41","attacker":null,"location":{"startX":-723,"startY":-5229,"endX":-574,"endY":-5147}},"Cinfras
@@ -734,8 +734,8 @@ interactions:
         Wynn","acquired":"2021-07-27 10:38:03","attacker":null,"location":{"startX":110,"startY":-4736,"endX":194,"endY":-4651}},"Canyon
         Survivor":{"territory":"Canyon Survivor","guild":"Guardian of Wynn","acquired":"2021-07-27
         11:01:20","attacker":null,"location":{"startX":338,"startY":-4628,"endX":269,"endY":-4522}},"Air
-        Temple Upper":{"territory":"Air Temple Upper","guild":"IceBlue Team","acquired":"2021-08-03
-        15:37:20","attacker":null,"location":{"startX":570,"startY":-4833,"endX":445,"endY":-4692}},"Molten
+        Temple Upper":{"territory":"Air Temple Upper","guild":"IceBlue Team","acquired":"2021-08-11
+        10:01:48","attacker":null,"location":{"startX":570,"startY":-4833,"endX":445,"endY":-4692}},"Molten
         Heights Portal":{"territory":"Molten Heights Portal","guild":"The Aquarium","acquired":"2021-07-27
         19:25:10","attacker":null,"location":{"startX":1535,"startY":-5067,"endX":1387,"endY":-5366}},"Road
         To Mine":{"territory":"Road To Mine","guild":"Emorians","acquired":"2021-08-03
@@ -744,16 +744,16 @@ interactions:
         18:44:30","attacker":null,"location":{"startX":1501,"startY":-4513,"endX":1586,"endY":-4789}},"Raider''s
         Base Upper":{"territory":"Raider''s Base Upper","guild":"The Aquarium","acquired":"2021-07-27
         18:43:10","attacker":null,"location":{"startX":1380,"startY":-4457,"endX":1551,"endY":-4316}},"Royal
-        Gate":{"territory":"Royal Gate","guild":"Emorians","acquired":"2021-08-04
-        01:32:32","attacker":null,"location":{"startX":-1822,"startY":-1995,"endX":-2015,"endY":-1725}},"Paths
-        of Sludge":{"territory":"Paths of Sludge","guild":"busted moments","acquired":"2021-08-08
-        18:14:03","attacker":null,"location":{"startX":1040,"startY":-767,"endX":892,"endY":-870}},"Field
-        of Life":{"territory":"Field of Life","guild":"Aequitas","acquired":"2021-08-08
-        19:43:21","attacker":null,"location":{"startX":-894,"startY":-6010,"endX":-827,"endY":-6164}},"Road
+        Gate":{"territory":"Royal Gate","guild":"Emorians","acquired":"2021-08-10
+        17:11:00","attacker":null,"location":{"startX":-1822,"startY":-1995,"endX":-2015,"endY":-1725}},"Paths
+        of Sludge":{"territory":"Paths of Sludge","guild":"Wheres The Finish","acquired":"2021-08-11
+        08:26:12","attacker":null,"location":{"startX":1040,"startY":-767,"endX":892,"endY":-870}},"Field
+        of Life":{"territory":"Field of Life","guild":"Aequitas","acquired":"2021-08-11
+        06:47:15","attacker":null,"location":{"startX":-894,"startY":-6010,"endX":-827,"endY":-6164}},"Road
         to Elkurn":{"territory":"Road to Elkurn","guild":"TheNoLifes","acquired":"2021-07-29
         15:09:14","attacker":null,"location":{"startX":-89,"startY":-1481,"endX":2,"endY":-1267}},"City
-        of Troms":{"territory":"City of Troms","guild":"ShadowFall","acquired":"2021-08-06
-        17:14:26","attacker":null,"location":{"startX":-726,"startY":-970,"endX":-899,"endY":-826}},"The
+        of Troms":{"territory":"City of Troms","guild":"ShadowFall","acquired":"2021-08-10
+        17:09:16","attacker":null,"location":{"startX":-726,"startY":-970,"endX":-899,"endY":-826}},"The
         Bear Zoo":{"territory":"The Bear Zoo","guild":"Titans Valor","acquired":"2021-08-07
         06:09:49","attacker":null,"location":{"startX":-409,"startY":-2539,"endX":-283,"endY":-2414}},"Detlas
         Trail East Plains":{"territory":"Detlas Trail East Plains","guild":"TheNoLifes","acquired":"2021-08-07
@@ -772,10 +772,10 @@ interactions:
         17:12:49","attacker":null,"location":{"startX":949,"startY":-4885,"endX":1057,"endY":-4804}},"Molten
         Reach":{"territory":"Molten Reach","guild":"The Aquarium","acquired":"2021-07-27
         17:20:35","attacker":null,"location":{"startX":1251,"startY":-4894,"endX":1500,"endY":-4964}},"The
-        Silent Road":{"territory":"The Silent Road","guild":"TheNoLifes","acquired":"2021-08-08
-        17:06:48","attacker":null,"location":{"startX":540,"startY":-1088,"endX":704,"endY":-961}},"Bob''s
-        Tomb":{"territory":"Bob''s Tomb","guild":"The Simple Ones","acquired":"2021-08-08
-        01:14:37","attacker":null,"location":{"startX":246,"startY":-747,"endX":380,"endY":-867}},"Maro
+        Silent Road":{"territory":"The Silent Road","guild":"TheNoLifes","acquired":"2021-08-11
+        05:30:27","attacker":null,"location":{"startX":540,"startY":-1088,"endX":704,"endY":-961}},"Bob''s
+        Tomb":{"territory":"Bob''s Tomb","guild":"The Simple Ones","acquired":"2021-08-09
+        17:56:52","attacker":null,"location":{"startX":246,"startY":-747,"endX":380,"endY":-867}},"Maro
         Peaks":{"territory":"Maro Peaks","guild":"Titans Valor","acquired":"2021-08-07
         04:57:15","attacker":null,"location":{"startX":-41,"startY":-4174,"endX":453,"endY":-3793}},"Pre-Light
         Forest Transition":{"territory":"Pre-Light Forest Transition","guild":"Paladins
@@ -789,17 +789,25 @@ interactions:
         19:33:56","attacker":null,"location":{"startX":-435,"startY":-1883,"endX":-270,"endY":-1653}},"Swamp
         West Mid":{"territory":"Swamp West Mid","guild":"Empire of Sindria","acquired":"2021-08-01
         04:16:22","attacker":null,"location":{"startX":-2060,"startY":-5082,"endX":-2171,"endY":-5186}},"Canyon
-        Valley South":{"territory":"Canyon Valley South","guild":"IceBlue Team","acquired":"2021-07-31
-        09:41:43","attacker":null,"location":{"startX":263,"startY":-4973,"endX":199,"endY":-5035}},"Heavenly
-        Ingress":{"territory":"Heavenly Ingress","guild":"Aequitas","acquired":"2021-08-08
-        19:49:12","attacker":null,"location":{"startX":-814,"startY":-6015,"endX":-894,"endY":-5928}},"Desert
-        West Upper":{"territory":"Desert West Upper","guild":"Nefarious Ravens","acquired":"2021-08-05
-        03:47:00","attacker":null,"location":{"startX":990,"startY":-2270,"endX":895,"endY":-2140}},"Corkus
-        Docks":{"territory":"Corkus Docks","guild":"Emorians","acquired":"2021-08-03
-        20:12:22","attacker":null,"location":{"startX":-1891,"startY":-2997,"endX":-2022,"endY":-3274}},"Lexdales
+        Valley South":{"territory":"Canyon Valley South","guild":"IceBlue Team","acquired":"2021-08-11
+        10:08:45","attacker":null,"location":{"startX":263,"startY":-4973,"endX":199,"endY":-5035}},"Heavenly
+        Ingress":{"territory":"Heavenly Ingress","guild":"Aequitas","acquired":"2021-08-11
+        06:36:27","attacker":null,"location":{"startX":-814,"startY":-6015,"endX":-894,"endY":-5928}},"Desert
+        West Upper":{"territory":"Desert West Upper","guild":"Nefarious Ravens","acquired":"2021-08-09
+        01:27:24","attacker":null,"location":{"startX":990,"startY":-2270,"endX":895,"endY":-2140}},"Corkus
+        Docks":{"territory":"Corkus Docks","guild":"Emorians","acquired":"2021-08-08
+        21:44:27","attacker":null,"location":{"startX":-1891,"startY":-2997,"endX":-2022,"endY":-3274}},"Lexdales
         Prison":{"territory":"Lexdales Prison","guild":"Avicia","acquired":"2021-07-31
-        06:09:28","attacker":null,"location":{"startX":-873,"startY":-5518,"endX":-772,"endY":-5585}}},"request":{"timestamp":1628452559,"version":1}}'
-    headers: {}
+        06:09:28","attacker":null,"location":{"startX":-873,"startY":-5518,"endX":-772,"endY":-5585}}},"request":{"timestamp":1628677113,"version":1}}'
+    headers:
+      cache-control:
+      - max-age=19
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '128'
+      ratelimit-reset:
+      - '15'
     status:
       code: 200
       message: OK

@@ -11,15 +11,14 @@ interactions:
   response:
     body:
       string: '{"name":"The Farplane","prefix":"Yin","members":[{"name":"renderme65","uuid":"5be48ae3-82f4-4f4f-baf1-c26fcbe1788a","rank":"CHIEF","contributed":0,"joined":"2019-05-13T00:01:52.787Z","joinedFriendly":"May
-        13th 2019"},{"name":"ojomFox","uuid":"33b6a693-db57-4b3f-b6df-d0772876994f","rank":"OWNER","contributed":352165593,"joined":"2019-05-13T00:01:40.211Z","joinedFriendly":"May
+        13th 2019"},{"name":"ojomFox","uuid":"33b6a693-db57-4b3f-b6df-d0772876994f","rank":"OWNER","contributed":353957629,"joined":"2019-05-13T00:01:40.211Z","joinedFriendly":"May
         13th 2019"},{"name":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"CHIEF","contributed":3179914,"joined":"2020-07-16T18:42:57.175Z","joinedFriendly":"Jul
         16th 2020"},{"name":"RhodieCub","uuid":"55309fc6-413c-4e05-8394-52f28ae41909","rank":"CHIEF","contributed":8913564,"joined":"2020-07-19T22:37:32.505Z","joinedFriendly":"Jul
         19th 2020"},{"name":"Morganhydra","uuid":"e9b2a02b-f07c-42fb-aa0a-210834dc1e6e","rank":"CHIEF","contributed":677997272,"joined":"2020-07-21T00:41:24.835Z","joinedFriendly":"Jul
         21st 2020"},{"name":"TheNameIsBuch","uuid":"5bff02a5-99b7-4327-bc34-d1a77fb2dbbb","rank":"CAPTAIN","contributed":684978,"joined":"2020-07-21T18:30:43.122Z","joinedFriendly":"Jul
-        21st 2020"},{"name":"Onif","uuid":"3f275026-3fc3-4ae9-9d47-45f584d11d57","rank":"CAPTAIN","contributed":11322351,"joined":"2020-07-21T18:45:11.100Z","joinedFriendly":"Jul
-        21st 2020"},{"name":"WhereDaLambSauce","uuid":"3b113e3f-da84-4d72-8298-e8d363e5b1e2","rank":"CAPTAIN","contributed":73841673,"joined":"2020-07-23T00:45:05.789Z","joinedFriendly":"Jul
-        23rd 2020"},{"name":"1rng","uuid":"acbfa24c-7775-4aea-aa1e-a2a5aea18066","rank":"CAPTAIN","contributed":0,"joined":"2020-07-23T17:27:59.437Z","joinedFriendly":"Jul
-        23rd 2020"},{"name":"Galeath","uuid":"9364f2d4-316a-4fa4-b47d-6d5ff7785251","rank":"CHIEF","contributed":46793089,"joined":"2020-07-24T03:35:51.274Z","joinedFriendly":"Jul
+        21st 2020"},{"name":"Onif","uuid":"3f275026-3fc3-4ae9-9d47-45f584d11d57","rank":"CAPTAIN","contributed":11387819,"joined":"2020-07-21T18:45:11.100Z","joinedFriendly":"Jul
+        21st 2020"},{"name":"1rng","uuid":"acbfa24c-7775-4aea-aa1e-a2a5aea18066","rank":"CAPTAIN","contributed":0,"joined":"2020-07-23T17:27:59.437Z","joinedFriendly":"Jul
+        23rd 2020"},{"name":"Galeath","uuid":"9364f2d4-316a-4fa4-b47d-6d5ff7785251","rank":"CHIEF","contributed":47764647,"joined":"2020-07-24T03:35:51.274Z","joinedFriendly":"Jul
         24th 2020"},{"name":"DuckNorris1","uuid":"b3cf8d36-bf1c-450b-bb6c-c224ed4432e1","rank":"CAPTAIN","contributed":7510941,"joined":"2020-07-26T20:25:42.995Z","joinedFriendly":"Jul
         26th 2020"},{"name":"imrix123","uuid":"2af9e14f-cbc2-4dd8-8eef-8dd9e67cccfa","rank":"CAPTAIN","contributed":154193,"joined":"2020-07-26T20:33:00.243Z","joinedFriendly":"Jul
         26th 2020"},{"name":"PiSquared","uuid":"fc86c444-93ca-452c-8d0f-11be4a7cf00c","rank":"CAPTAIN","contributed":14115004,"joined":"2020-08-04T01:48:54.157Z","joinedFriendly":"Aug
@@ -45,18 +44,18 @@ interactions:
         3rd 2021"},{"name":"_Constellar","uuid":"9c1d20f8-5873-49bb-94a0-d997de34d7d5","rank":"CAPTAIN","contributed":3527098,"joined":"2021-06-23T23:04:27.367Z","joinedFriendly":"Jun
         23rd 2021"},{"name":"No_Solo1_","uuid":"4cc49878-8613-472a-9f89-40b613ec4063","rank":"CAPTAIN","contributed":32304936,"joined":"2021-06-24T22:36:06.785Z","joinedFriendly":"Jun
         24th 2021"},{"name":"Kreuzritter","uuid":"47061261-f759-477a-8695-385a7ced6704","rank":"CAPTAIN","contributed":0,"joined":"2021-06-24T23:02:08.791Z","joinedFriendly":"Jun
-        24th 2021"},{"name":"_Skyfox","uuid":"cade85f8-bfce-412a-bd4a-85de1339d574","rank":"CAPTAIN","contributed":22230825,"joined":"2021-06-24T23:31:08.963Z","joinedFriendly":"Jun
+        24th 2021"},{"name":"_Skyfox","uuid":"cade85f8-bfce-412a-bd4a-85de1339d574","rank":"CAPTAIN","contributed":22324555,"joined":"2021-06-24T23:31:08.963Z","joinedFriendly":"Jun
         24th 2021"},{"name":"Taechuk","uuid":"10e1ea16-be96-40e3-a41a-9f62f11a3f22","rank":"CAPTAIN","contributed":1055989,"joined":"2021-06-24T23:33:08.129Z","joinedFriendly":"Jun
         24th 2021"},{"name":"TheBestChair","uuid":"c4950a54-3a05-4a4d-8729-e32995f695b3","rank":"CAPTAIN","contributed":758501478,"joined":"2021-06-25T00:34:41.170Z","joinedFriendly":"Jun
         25th 2021"},{"name":"Taumis","uuid":"4b5d92b3-2c4b-4701-ad73-63fb79c51a10","rank":"CAPTAIN","contributed":33600,"joined":"2021-06-25T21:03:46.364Z","joinedFriendly":"Jun
         25th 2021"},{"name":"BlockMaker44","uuid":"f82297a5-82e9-4812-867d-1ee3e366bbe7","rank":"CAPTAIN","contributed":948479,"joined":"2021-06-26T04:41:50.519Z","joinedFriendly":"Jun
-        26th 2021"},{"name":"FreedomFury18","uuid":"d3c4342b-5759-4139-a18a-856bd72ca281","rank":"CAPTAIN","contributed":4662,"joined":"2021-07-08T01:09:55.801Z","joinedFriendly":"Jul
+        26th 2021"},{"name":"FreedomFury18","uuid":"d3c4342b-5759-4139-a18a-856bd72ca281","rank":"CAPTAIN","contributed":6382176,"joined":"2021-07-08T01:09:55.801Z","joinedFriendly":"Jul
         8th 2021"},{"name":"BlazoRaptor","uuid":"fc41efa1-c9b2-481b-b223-b29c6d9316be","rank":"CAPTAIN","contributed":0,"joined":"2021-07-09T00:40:14.017Z","joinedFriendly":"Jul
-        9th 2021"},{"name":"Penguato","uuid":"9645efc3-ecd0-4cd9-baa0-2069b78d0b1b","rank":"CAPTAIN","contributed":7038,"joined":"2021-07-09T00:40:41.002Z","joinedFriendly":"Jul
+        9th 2021"},{"name":"Penguato","uuid":"9645efc3-ecd0-4cd9-baa0-2069b78d0b1b","rank":"CAPTAIN","contributed":14997,"joined":"2021-07-09T00:40:41.002Z","joinedFriendly":"Jul
         9th 2021"},{"name":"ShibafuPotato","uuid":"86dacf7c-251d-43d1-ae08-2790bf197a47","rank":"CAPTAIN","contributed":0,"joined":"2021-07-09T22:21:06.177Z","joinedFriendly":"Jul
         9th 2021"},{"name":"Reptain94","uuid":"4db3086b-b4dc-47f5-b5b6-12e3ee752d83","rank":"CAPTAIN","contributed":0,"joined":"2021-07-09T22:30:44.539Z","joinedFriendly":"Jul
-        9th 2021"},{"name":"Hollyleaf_","uuid":"d4c726e3-7178-4a75-8326-76da1410c2a7","rank":"CAPTAIN","contributed":6350098,"joined":"2021-07-09T22:44:17.760Z","joinedFriendly":"Jul
-        9th 2021"},{"name":"JasonLuigi","uuid":"20a03156-e447-4209-9539-c4680101179c","rank":"CAPTAIN","contributed":96200228,"joined":"2021-07-10T22:50:12.705Z","joinedFriendly":"Jul
+        9th 2021"},{"name":"Hollyleaf_","uuid":"d4c726e3-7178-4a75-8326-76da1410c2a7","rank":"CAPTAIN","contributed":6415182,"joined":"2021-07-09T22:44:17.760Z","joinedFriendly":"Jul
+        9th 2021"},{"name":"JasonLuigi","uuid":"20a03156-e447-4209-9539-c4680101179c","rank":"CAPTAIN","contributed":100811422,"joined":"2021-07-10T22:50:12.705Z","joinedFriendly":"Jul
         10th 2021"},{"name":"_TurtleBasket_","uuid":"98dc5da9-a402-411c-b906-4963a54a54c7","rank":"CAPTAIN","contributed":155071,"joined":"2021-07-10T22:52:20.532Z","joinedFriendly":"Jul
         10th 2021"},{"name":"imnotmarvin","uuid":"1a10254c-001c-4dd7-8963-b72ec034630b","rank":"CAPTAIN","contributed":0,"joined":"2021-07-11T03:46:49.012Z","joinedFriendly":"Jul
         11th 2021"},{"name":"Hero456","uuid":"b4c150f7-0fa1-4706-af48-834dec7836ee","rank":"CAPTAIN","contributed":20239504,"joined":"2021-07-11T03:48:13.750Z","joinedFriendly":"Jul
@@ -64,26 +63,29 @@ interactions:
         11th 2021"},{"name":"Influxed","uuid":"e4333ccb-600b-496c-ba02-57a4a8579e27","rank":"CAPTAIN","contributed":1969482,"joined":"2021-07-12T03:29:28.401Z","joinedFriendly":"Jul
         12th 2021"},{"name":"Poppy2712","uuid":"18e66c93-0304-424e-9dcc-5d6969e1f182","rank":"CAPTAIN","contributed":644156,"joined":"2021-07-12T20:55:48.592Z","joinedFriendly":"Jul
         12th 2021"},{"name":"pekkapost","uuid":"a6cd1eb9-cbd4-4537-906c-c8c48a64455b","rank":"STRATEGIST","contributed":1926578,"joined":"2021-07-12T20:55:48.835Z","joinedFriendly":"Jul
-        12th 2021"},{"name":"Intersperse","uuid":"1531fd35-397c-4f44-8fa0-ae638b849a1a","rank":"CAPTAIN","contributed":13080945,"joined":"2021-07-12T20:57:55.203Z","joinedFriendly":"Jul
+        12th 2021"},{"name":"Intersperse","uuid":"1531fd35-397c-4f44-8fa0-ae638b849a1a","rank":"CAPTAIN","contributed":14251968,"joined":"2021-07-12T20:57:55.203Z","joinedFriendly":"Jul
         12th 2021"},{"name":"OhAnny","uuid":"9e98db92-5659-4b3a-b1ed-8efbcbafbcfc","rank":"CAPTAIN","contributed":0,"joined":"2021-07-12T21:05:57.014Z","joinedFriendly":"Jul
         12th 2021"},{"name":"Opisek","uuid":"ecbc77f4-0f18-4ec2-9653-ce51e560a4eb","rank":"CAPTAIN","contributed":211920,"joined":"2021-07-17T19:31:03.276Z","joinedFriendly":"Jul
-        17th 2021"},{"name":"furieth","uuid":"0ba8bd6c-5852-40c7-a450-3a4efac1c8cb","rank":"CAPTAIN","contributed":1800161,"joined":"2021-07-21T21:47:34.710Z","joinedFriendly":"Jul
-        21st 2021"},{"name":"mydjsjdh","uuid":"99834bf2-035f-452e-9a38-ada2e7dd5e62","rank":"CAPTAIN","contributed":20035905,"joined":"2021-07-23T00:31:17.782Z","joinedFriendly":"Jul
+        17th 2021"},{"name":"furieth","uuid":"0ba8bd6c-5852-40c7-a450-3a4efac1c8cb","rank":"CAPTAIN","contributed":2756408,"joined":"2021-07-21T21:47:34.710Z","joinedFriendly":"Jul
+        21st 2021"},{"name":"mydjsjdh","uuid":"99834bf2-035f-452e-9a38-ada2e7dd5e62","rank":"CAPTAIN","contributed":20041427,"joined":"2021-07-23T00:31:17.782Z","joinedFriendly":"Jul
         23rd 2021"},{"name":"CertifiedCringe","uuid":"67044367-99ab-4bbd-9d87-fe0a0f0391de","rank":"CAPTAIN","contributed":32458,"joined":"2021-07-23T22:47:04.705Z","joinedFriendly":"Jul
-        23rd 2021"},{"name":"Cartercraz_","uuid":"bdaa7e5e-50c1-45e6-b7fb-36c701a3edda","rank":"RECRUIT","contributed":463453,"joined":"2021-07-24T05:53:50.082Z","joinedFriendly":"Jul
-        24th 2021"},{"name":"DIEGOMINECRAFT23","uuid":"19dc97ee-6ec5-46c5-b8f3-a4771b9ffd0d","rank":"RECRUIT","contributed":2425891,"joined":"2021-07-24T23:43:48.388Z","joinedFriendly":"Jul
-        24th 2021"},{"name":"deereste","uuid":"9afd9327-6a96-4247-9b76-7c8a6192645e","rank":"RECRUIT","contributed":9345190,"joined":"2021-07-24T23:44:17.416Z","joinedFriendly":"Jul
-        24th 2021"},{"name":"DoATripleFlip","uuid":"d943432e-d0bf-4874-8729-699c7bfe9215","rank":"RECRUIT","contributed":4827661,"joined":"2021-07-24T23:46:21.324Z","joinedFriendly":"Jul
-        24th 2021"},{"name":"Dasani_Water","uuid":"2510b466-e65f-493c-98e7-49b9882cae6a","rank":"RECRUIT","contributed":9797869,"joined":"2021-07-24T23:48:37.404Z","joinedFriendly":"Jul
-        24th 2021"},{"name":"Doktor_Waffler","uuid":"372b9584-3d6d-4810-a746-8d015e0524b0","rank":"RECRUIT","contributed":114579,"joined":"2021-07-24T23:53:16.370Z","joinedFriendly":"Jul
-        24th 2021"},{"name":"Hiwaffles","uuid":"46176362-d441-4dbc-9a16-667a6bfa4beb","rank":"RECRUIT","contributed":5736324,"joined":"2021-07-25T00:04:59.952Z","joinedFriendly":"Jul
-        25th 2021"},{"name":"KamiGaming","uuid":"3cd8f827-f1b2-4cb4-8723-6f32539dfa98","rank":"RECRUIT","contributed":343780,"joined":"2021-07-25T18:46:57.400Z","joinedFriendly":"Jul
+        23rd 2021"},{"name":"Cartercraz_","uuid":"bdaa7e5e-50c1-45e6-b7fb-36c701a3edda","rank":"CAPTAIN","contributed":929998,"joined":"2021-07-24T05:53:50.082Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"DIEGOMINECRAFT23","uuid":"19dc97ee-6ec5-46c5-b8f3-a4771b9ffd0d","rank":"CAPTAIN","contributed":2425891,"joined":"2021-07-24T23:43:48.388Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"deereste","uuid":"9afd9327-6a96-4247-9b76-7c8a6192645e","rank":"CAPTAIN","contributed":10603674,"joined":"2021-07-24T23:44:17.416Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"DoATripleFlip","uuid":"d943432e-d0bf-4874-8729-699c7bfe9215","rank":"CAPTAIN","contributed":4827661,"joined":"2021-07-24T23:46:21.324Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"Dasani_Water","uuid":"2510b466-e65f-493c-98e7-49b9882cae6a","rank":"CAPTAIN","contributed":9797869,"joined":"2021-07-24T23:48:37.404Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"Doktor_Waffler","uuid":"372b9584-3d6d-4810-a746-8d015e0524b0","rank":"CAPTAIN","contributed":116922,"joined":"2021-07-24T23:53:16.370Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"Hiwaffles","uuid":"46176362-d441-4dbc-9a16-667a6bfa4beb","rank":"CAPTAIN","contributed":5736324,"joined":"2021-07-25T00:04:59.952Z","joinedFriendly":"Jul
+        25th 2021"},{"name":"KamiGaming","uuid":"3cd8f827-f1b2-4cb4-8723-6f32539dfa98","rank":"CAPTAIN","contributed":343780,"joined":"2021-07-25T18:46:57.400Z","joinedFriendly":"Jul
         25th 2021"},{"name":"_Rituals_","uuid":"c23b242d-a019-4c2c-ba2e-f76eda43e416","rank":"CAPTAIN","contributed":28520384,"joined":"2021-07-25T18:48:15.941Z","joinedFriendly":"Jul
-        25th 2021"},{"name":"Thokuma","uuid":"39f7cb11-511a-4358-9395-7a6b8a17212e","rank":"RECRUIT","contributed":2514985,"joined":"2021-07-27T11:53:54.493Z","joinedFriendly":"Jul
-        27th 2021"},{"name":"Artyom7117","uuid":"66f08b0c-48f7-4b4b-aba3-c898c1361471","rank":"RECRUIT","contributed":102906,"joined":"2021-07-31T19:29:48.542Z","joinedFriendly":"Jul
-        31st 2021"}],"xp":1,"level":56,"created":"2019-05-13T00:01:24.280Z","createdFriendly":"May
-        13th 2019","territories":0,"banner":{"base":"BLUE","tier":2,"structure":"tier2","layers":[{"colour":"WHITE","pattern":"GRADIENT"},{"colour":"BLUE","pattern":"SKULL"},{"colour":"BLUE","pattern":"BORDER"}]},"request":{"timestamp":1628452537,"version":1}}'
-    headers: {}
+        25th 2021"},{"name":"Thokuma","uuid":"39f7cb11-511a-4358-9395-7a6b8a17212e","rank":"CAPTAIN","contributed":2514985,"joined":"2021-07-27T11:53:54.493Z","joinedFriendly":"Jul
+        27th 2021"},{"name":"Artyom7117","uuid":"66f08b0c-48f7-4b4b-aba3-c898c1361471","rank":"CAPTAIN","contributed":102906,"joined":"2021-07-31T19:29:48.542Z","joinedFriendly":"Jul
+        31st 2021"},{"name":"FuriousliamYT","uuid":"f0baa839-3d53-4a58-a438-73f5f1b88525","rank":"RECRUIT","contributed":1389,"joined":"2021-08-11T01:30:23.889Z","joinedFriendly":"Aug
+        11th 2021"}],"xp":1.7,"level":56,"created":"2019-05-13T00:01:24.280Z","createdFriendly":"May
+        13th 2019","territories":0,"banner":{"base":"BLUE","tier":2,"structure":"tier2","layers":[{"colour":"WHITE","pattern":"GRADIENT"},{"colour":"BLUE","pattern":"SKULL"},{"colour":"BLUE","pattern":"BORDER"}]},"request":{"timestamp":1628677106,"version":1}}'
+    headers:
+      cache-control:
+      - max-age=30
     status:
       code: 200
       message: OK
@@ -99,7 +101,7 @@ interactions:
     uri: https://api.wynncraft.com/v2/player/5be48ae3-82f4-4f4f-baf1-c26fcbe1788a/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/5be48ae3-82f4-4f4f-baf1-c26fcbe1788a/stats","code":200,"timestamp":1628452482209,"version":"2.1.0","data":[{"username":"renderme65","uuid":"5be48ae3-82f4-4f4f-baf1-c26fcbe1788a","rank":"Player","meta":{"firstJoin":"2015-08-08T12:38:13.856Z","lastJoin":"2020-05-27T17:31:42.669Z","location":{"online":false,"server":null},"playtime":4046,"tag":{"display":true,"value":"VIP+"},"veteran":false},"classes":[{"name":"warrior","level":105,"dungeons":{"completed":96,"list":[{"name":"Skeleton","completed":6},{"name":"Spider","completed":4},{"name":"Animal","completed":6},{"name":"Zombie","completed":5},{"name":"Silverfish","completed":5},{"name":"Corrupted
+      string: '{"kind":"wynncraft/player/5be48ae3-82f4-4f4f-baf1-c26fcbe1788a/stats","code":200,"timestamp":1628676823237,"version":"2.1.0","data":[{"username":"renderme65","uuid":"5be48ae3-82f4-4f4f-baf1-c26fcbe1788a","rank":"Player","meta":{"firstJoin":"2015-08-08T12:38:13.856Z","lastJoin":"2020-05-27T17:31:42.669Z","location":{"online":false,"server":null},"playtime":4046,"tag":{"display":true,"value":"VIP+"},"veteran":false},"classes":[{"name":"warrior","level":105,"dungeons":{"completed":96,"list":[{"name":"Skeleton","completed":6},{"name":"Spider","completed":4},{"name":"Animal","completed":6},{"name":"Zombie","completed":5},{"name":"Silverfish","completed":5},{"name":"Corrupted
         Sand-Swept Tomb","completed":60},{"name":"Corrupted Infested Pit","completed":1},{"name":"Corrupted
         Underworld Crypt","completed":2},{"name":"Fallen Factory","completed":7}]},"raids":{"completed":0,"list":[]},"quests":{"completed":84,"list":["The
         Envoy Part II","The Envoy Part I","The Belly of the Beast","The Thanos Vaults","The
@@ -162,7 +164,15 @@ interactions:
         Plants","Mini-Quest - Slay Spiders","Tunnel Trouble","The Sewers of Ragni","Cook
         Assistant","Poisoning the Pest","King''s Recruit","Elemental Exercise"]},"itemsIdentified":0,"mobsKilled":267,"pvp":{"kills":0,"deaths":0},"chestsFound":3,"blocksWalked":100815,"logins":3,"deaths":3,"playtime":19,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":20,"intelligence":0,"defence":0,"defense":0,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":11,"xp":90.3},"cooking":{"level":1,"xp":0},"farming":{"level":3,"xp":52},"fishing":{"level":1,"xp":33.3},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":36.6},"woodworking":{"level":1,"xp":60}},"discoveries":23,"eventsWon":0,"preEconomyUpdate":false}],"guild":{"name":"The
         Farplane","rank":"CHIEF"},"global":{"chestsFound":1055,"blocksWalked":10847957,"itemsIdentified":196,"mobsKilled":85868,"totalLevel":{"combat":309,"profession":66,"combined":375},"pvp":{"kills":0,"deaths":0},"logins":1555,"deaths":302,"discoveries":707,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=316
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '176'
+      ratelimit-reset:
+      - '33'
     status:
       code: 200
       message: OK

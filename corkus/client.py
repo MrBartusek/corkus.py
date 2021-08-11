@@ -23,10 +23,11 @@ class Corkus:
         timeout: Optional[int] = None,
         session: Optional[ClientSession] = None,
         ratelimit_enable: Optional[bool] = True,
-        ) -> None:
+        cache_enable: Optional[bool] = True,
+    ) -> None:
         if timeout is None:
             timeout = TIMEOUT
-        self._request = CorkusRequest(timeout, session, ratelimit_enable)
+        self._request = CorkusRequest(timeout, session, ratelimit_enable, cache_enable)
 
     async def __aenter__(self) -> "Corkus":
         """Async enter"""
@@ -38,18 +39,13 @@ class Corkus:
 
     @property
     def request(self) -> CorkusRequest:
-        """Access request module to make direct API calls
+        """Access request module to make direct API calls or get ratelimit an cache information
         .. note::
-            Directly acessing requester is reserver for advanced users only
+            Directly making API calls is reserver for advanced users only
             If there is an endpoint that you can't normall access using library,
             please [create a issue](https://github.com/MrBartusek/corkus.py/issues/new)
         """
         return self._request
-
-    @property
-    def ratelimit(self) -> RateLimiter:
-        """Access ratelimit information for this corkus instanciesS"""
-        return self.request.ratelimit
 
     @property
     def network(self) -> NetworkEndpoint:

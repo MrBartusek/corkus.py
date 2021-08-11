@@ -1426,8 +1426,8 @@ interactions:
         Unite","Prime Meridian","Yuumi","Assassins Creed","Zeize the Means","Aflamiare","MoonLight","ChadWynners","EPIC
         GAMERS","Baum","Gamer Time","Waterboys","Gondor","Eniver","Wanted","WynnBrothers","Le
         Taco Toque","The Pioneers","Cuties","CookiesofWynn","Belfic Wizards","Christianity","Cactus
-        Army","Danger Zone","Nyx Hope","Investigators","DevilArmy","RivenDaleEmpire","Light
-        Spirit Stars","Astral Phantoms","Warriors Of Gavel","PurinaCatChow","HighlandRoyalties","Thalmor","Transparency","StartFromSkratch","EnigmasOfSin","The
+        Army","Danger Zone","Nyx Hope","Investigators","DevilArmy","RivenDaleEmpire","Astral
+        Phantoms","Warriors Of Gavel","PurinaCatChow","HighlandRoyalties","Thalmor","Transparency","StartFromSkratch","EnigmasOfSin","The
         Lost Vortex","Beefy Boys","The Black Dragon","TRAGIIC","Retired DvZ Vets","
         Maniax Germany","The Last Auroras","Blue Fire","Project THOOM","Llama Linguine","InTheWalls","TheDutchies","Door
         Gamers","Elfen Spirit","gang weed","bow art online","Flower Power","EquipmentForWynn","Gmoj","CrimsonTide","United
@@ -1799,8 +1799,17 @@ interactions:
         Of Fortune","Nuke Inc","Kills and Death","The Phoenix Blades","MagicMilk","Admiral","Silence
         Moon Lakeside","ocelOtguild","TheButteryWarriors","Innocent","Chocolates","Nhongpho
         Order","Neustria","Tone Deaf Bards","Yggdrasill","Tumps united","GoFw","Gamers
-        Against Weed","bruhh","The Shadow Army"],"request":{"timestamp":1628452533,"version":1}}'
-    headers: {}
+        Against Weed","bruhh","The Shadow Army","Transful","NewWorld","Luigis Speedsters","Citadel","Puthy
+        Poppers","Fury","Echo Gang","Meltan Guild"],"request":{"timestamp":1628677104,"version":1}}'
+    headers:
+      cache-control:
+      - max-age=30
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '178'
+      ratelimit-reset:
+      - '36'
     status:
       code: 200
       message: OK

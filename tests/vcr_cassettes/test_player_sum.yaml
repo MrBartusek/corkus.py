@@ -10,8 +10,16 @@ interactions:
     uri: https://api.wynncraft.com/public_api.php?action=onlinePlayersSum
   response:
     body:
-      string: '{"players_online":1574,"request":{"timestamp":1628452547,"version":1.2}}'
-    headers: {}
+      string: '{"players_online":980,"request":{"timestamp":1628677092,"version":1.2}}'
+    headers:
+      cache-control:
+      - max-age=9
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '158'
+      ratelimit-reset:
+      - '26'
     status:
       code: 200
       message: OK

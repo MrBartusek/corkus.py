@@ -38,7 +38,7 @@ class RateLimiter:
 
     async def limit(self) -> None:
         """Delay execution when hitting ratelimit"""
-        if self.remaining < 3 and self._enabled:
+        if self.remaining < 3 and self.enabled:
             logger.info(f"You are being ratelimited, waiting for {self.reset}s")
             await asyncio.sleep(self.reset)
 

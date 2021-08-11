@@ -10,9 +10,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Boots-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Boots-1-3","code":200,"timestamp":1628449308999,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BOOTS","skill":"TAILORING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Boots-1-3","code":200,"timestamp":1628675446100,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BOOTS","skill":"TAILORING","materials":[{"item":"Refined
         Copper Ingot","amount":1},{"item":"Refined Wheat String","amount":2}],"healthOrDamage":{"minimum":11,"maximum":14},"durability":{"minimum":175,"maximum":182},"id":"Boots-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1927
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '149'
+      ratelimit-reset:
+      - '21'
     status:
       code: 200
       message: OK
@@ -28,9 +36,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Bow-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Bow-1-3","code":200,"timestamp":1628449310271,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BOW","skill":"WOODWORKING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Bow-1-3","code":200,"timestamp":1628675446438,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BOW","skill":"WOODWORKING","materials":[{"item":"Refined
         Wheat String","amount":2},{"item":"Refined Oak Wood","amount":1}],"healthOrDamage":{"minimum":7,"maximum":10},"durability":{"minimum":175,"maximum":182},"id":"Bow-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1927
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '148'
+      ratelimit-reset:
+      - '21'
     status:
       code: 200
       message: OK
@@ -46,9 +62,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Bracelet-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Bracelet-1-3","code":200,"timestamp":1628449310914,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BRACELET","skill":"JEWELING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Bracelet-1-3","code":200,"timestamp":1628675446686,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BRACELET","skill":"JEWELING","materials":[{"item":"Refined
         Copper Gem","amount":1},{"item":"Refined Gudgeon Oil","amount":2}],"healthOrDamage":{"minimum":0,"maximum":0},"durability":{"minimum":175,"maximum":182},"id":"Bracelet-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1927
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '147'
+      ratelimit-reset:
+      - '21'
     status:
       code: 200
       message: OK
@@ -64,9 +88,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Chestplate-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Chestplate-1-3","code":200,"timestamp":1628449312364,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"CHESTPLATE","skill":"ARMOURING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Chestplate-1-3","code":200,"timestamp":1628675446927,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"CHESTPLATE","skill":"ARMOURING","materials":[{"item":"Refined
         Copper Ingot","amount":2},{"item":"Refined Oak Paper","amount":1}],"healthOrDamage":{"minimum":11,"maximum":14},"durability":{"minimum":175,"maximum":182},"id":"Chestplate-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1927
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '146'
+      ratelimit-reset:
+      - '21'
     status:
       code: 200
       message: OK
@@ -82,9 +114,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Dagger-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Dagger-1-3","code":200,"timestamp":1628449313313,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"DAGGER","skill":"WEAPONSMITHING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Dagger-1-3","code":200,"timestamp":1628675447533,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"DAGGER","skill":"WEAPONSMITHING","materials":[{"item":"Refined
         Copper Ingot","amount":2},{"item":"Refined Oak Wood","amount":1}],"healthOrDamage":{"minimum":6,"maximum":8},"durability":{"minimum":175,"maximum":182},"id":"Dagger-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1928
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '145'
+      ratelimit-reset:
+      - '21'
     status:
       code: 200
       message: OK
@@ -100,9 +140,11 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Food-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Food-1-3","code":200,"timestamp":1628449314270,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"FOOD","skill":"COOKING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Food-1-3","code":200,"timestamp":1628675448352,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"FOOD","skill":"COOKING","materials":[{"item":"Refined
         Gudgeon Meat","amount":2},{"item":"Refined Wheat Grains","amount":1}],"healthOrDamage":{"minimum":24,"maximum":32},"duration":{"minimum":1080,"maximum":1116},"basicDuration":{"minimum":60,"maximum":60},"id":"Food-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1928
     status:
       code: 200
       message: OK
@@ -118,9 +160,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Helmet-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Helmet-1-3","code":200,"timestamp":1628449340834,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Helmet-1-3","code":200,"timestamp":1628675448692,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
         Copper Ingot","amount":1},{"item":"Refined Oak Paper","amount":2}],"healthOrDamage":{"minimum":11,"maximum":14},"durability":{"minimum":175,"maximum":182},"id":"Helmet-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1928
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '143'
+      ratelimit-reset:
+      - '20'
     status:
       code: 200
       message: OK
@@ -136,9 +186,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Necklace-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Necklace-1-3","code":200,"timestamp":1628449341745,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"NECKLACE","skill":"JEWELING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Necklace-1-3","code":200,"timestamp":1628675449555,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"NECKLACE","skill":"JEWELING","materials":[{"item":"Refined
         Copper Gem","amount":1},{"item":"Refined Gudgeon Oil","amount":3}],"healthOrDamage":{"minimum":0,"maximum":0},"durability":{"minimum":175,"maximum":182},"id":"Necklace-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1928
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '142'
+      ratelimit-reset:
+      - '19'
     status:
       code: 200
       message: OK
@@ -154,9 +212,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Leggings-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Leggings-1-3","code":200,"timestamp":1628449343799,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"LEGGINGS","skill":"TAILORING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Leggings-1-3","code":200,"timestamp":1628675449789,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"LEGGINGS","skill":"TAILORING","materials":[{"item":"Refined
         Copper Ingot","amount":2},{"item":"Refined Wheat String","amount":1}],"healthOrDamage":{"minimum":11,"maximum":14},"durability":{"minimum":175,"maximum":182},"id":"Leggings-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1928
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '141'
+      ratelimit-reset:
+      - '19'
     status:
       code: 200
       message: OK
@@ -172,9 +238,11 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Potion-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Potion-1-3","code":200,"timestamp":1628449344808,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"POTION","skill":"ALCHEMISM","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Potion-1-3","code":200,"timestamp":1628675450001,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"POTION","skill":"ALCHEMISM","materials":[{"item":"Refined
         Gudgeon Oil","amount":1},{"item":"Refined Wheat Grains","amount":2}],"healthOrDamage":{"minimum":24,"maximum":33},"duration":{"minimum":360,"maximum":372},"basicDuration":{"minimum":3,"maximum":3},"id":"Potion-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1928
     status:
       code: 200
       message: OK
@@ -190,9 +258,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Relik-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Relik-1-3","code":200,"timestamp":1628449346687,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"RELIK","skill":"WOODWORKING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Relik-1-3","code":200,"timestamp":1628675450865,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"RELIK","skill":"WOODWORKING","materials":[{"item":"Refined
         Gudgeon Oil","amount":2},{"item":"Refined Oak Wood","amount":1}],"healthOrDamage":{"minimum":7,"maximum":10},"durability":{"minimum":175,"maximum":182},"id":"Relik-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1929
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '139'
+      ratelimit-reset:
+      - '18'
     status:
       code: 200
       message: OK
@@ -208,9 +284,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Ring-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Ring-1-3","code":200,"timestamp":1628449347955,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"RING","skill":"JEWELING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Ring-1-3","code":200,"timestamp":1628675452262,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"RING","skill":"JEWELING","materials":[{"item":"Refined
         Copper Gem","amount":1},{"item":"Refined Gudgeon Oil","amount":1}],"healthOrDamage":{"minimum":0,"maximum":0},"durability":{"minimum":175,"maximum":182},"id":"Ring-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1930
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '138'
+      ratelimit-reset:
+      - '18'
     status:
       code: 200
       message: OK
@@ -226,9 +310,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Scroll-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Scroll-1-3","code":200,"timestamp":1628449348902,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"SCROLL","skill":"SCRIBING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Scroll-1-3","code":200,"timestamp":1628675452475,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"SCROLL","skill":"SCRIBING","materials":[{"item":"Refined
         Gudgeon Oil","amount":1},{"item":"Refined Oak Paper","amount":1}],"healthOrDamage":{"minimum":21,"maximum":26},"duration":{"minimum":360,"maximum":372},"basicDuration":{"minimum":3,"maximum":3},"id":"Scroll-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1930
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '137'
+      ratelimit-reset:
+      - '18'
     status:
       code: 200
       message: OK
@@ -244,9 +336,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Spear-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Spear-1-3","code":200,"timestamp":1628449349751,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"SPEAR","skill":"WEAPONSMITHING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Spear-1-3","code":200,"timestamp":1628675452689,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"SPEAR","skill":"WEAPONSMITHING","materials":[{"item":"Refined
         Copper Ingot","amount":1},{"item":"Refined Oak Wood","amount":2}],"healthOrDamage":{"minimum":4,"maximum":6},"durability":{"minimum":175,"maximum":182},"id":"Spear-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1930
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '136'
+      ratelimit-reset:
+      - '18'
     status:
       code: 200
       message: OK
@@ -262,9 +362,17 @@ interactions:
     uri: https://api.wynncraft.com/v2/recipe/get/Wand-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Wand-1-3","code":200,"timestamp":1628449350811,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"WAND","skill":"WOODWORKING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Wand-1-3","code":200,"timestamp":1628675452929,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"WAND","skill":"WOODWORKING","materials":[{"item":"Refined
         Wheat String","amount":1},{"item":"Refined Oak Wood","amount":2}],"healthOrDamage":{"minimum":3,"maximum":5},"durability":{"minimum":175,"maximum":182},"id":"Wand-1-3"}]}'
-    headers: {}
+    headers:
+      cache-control:
+      - max-age=1930
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '135'
+      ratelimit-reset:
+      - '17'
     status:
       code: 200
       message: OK
