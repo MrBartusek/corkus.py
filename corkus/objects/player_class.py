@@ -98,7 +98,9 @@ class PlayerClass(CorkusBase):
         return self.get_profession(ProfessionType.COMBAT)
 
     def get_profession(self, profession: ProfessionType) -> PlayerProfession:
-        """Returns a profession with the given profession type."""
+        """Returns a profession with the given profession type.
+        
+        :param profession: Type of profession."""
         return next((p for p in self.professions if p.type == profession), None)
 
     def __repr__(self) -> str:

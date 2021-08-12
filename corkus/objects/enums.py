@@ -8,7 +8,7 @@ class Timeframe(Enum):
     WEEKLY = "weekly"
 
 class ProfessionType(Enum):
-    """List of Gathering and Crafting `Professions <https://wynncraft.fandom.com/wiki/Professions>` plus :py:attr:`COMBAT`."""
+    """List of Gathering and Crafting `Professions <https://wynncraft.fandom.com/wiki/Professions>`_ plus :py:attr:`COMBAT`."""
 
     COMBAT = "COMBAT"
     ALCHEMISM = "ALCHEMISM"

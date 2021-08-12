@@ -1,7 +1,7 @@
 Installing Corkus.py
 ===============
 
-PRAW supports Python 3.8+. The recommended way to install Corkus is via ``pip``.
+Corkus supports Python 3.8+. The recommended way to install Corkus is via ``pip``.
 
 .. code-block:: bash
 

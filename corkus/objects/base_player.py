@@ -5,6 +5,7 @@ from .base import CorkusBase
 from .uuid import CorkusUUID
 
 class PlayerRank(Enum):
+    """Player Wynncraft Team Rank, if not in content team defaults to :py:attr:`PlayerRank.PLAYER`."""
     ADMINISTRATOR = "Administrator"
     MODERATOR = "Moderator"
     BUILDER = "Builder"
@@ -17,6 +18,7 @@ class PlayerRank(Enum):
     PLAYER = "Player"
 
 class PlayerTag(Enum):
+    """Player's rank bought from `Wynncraft Store <https://store.wynncraft.com>`_."""
     PLAYER = "PLAYER"
     VIP = "VIP"
     VIP_PLUS = "VIP+"

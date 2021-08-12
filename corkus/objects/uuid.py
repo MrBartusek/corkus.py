@@ -8,7 +8,9 @@ class CorkusUUID(UUID):
         super().__init__(uuid)
 
     def string(self, dashed: Optional[bool] = True) -> str:
-        """Convert UUID to dashed or not dashed string"""
+        """Convert UUID to dashed or not dashed string
+
+        :param dashed: Should UUID be dashed."""
         if dashed:
             return super().__str__()
         else:

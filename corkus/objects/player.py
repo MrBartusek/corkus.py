@@ -20,12 +20,12 @@ class Player(BasePlayer):
         return self._attributes.get("username", "")
 
     @property
-    def join_date(self) -> datetime:
+    def join_date(self) -> datetime.datetime:
         """Date and time when player joined Wynncraft first time"""
         return iso8601.parse_date(self._attributes.get("meta", {}).get("firstJoin", "1970"))
 
     @property
-    def last_online(self) -> datetime:
+    def last_online(self) -> datetime.datetime:
         """Date and time when player was last seen online"""
         if self.status.online:
             return datetime.datetime.now(datetime.timezone.utc)
