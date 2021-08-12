@@ -5,7 +5,7 @@
 
 PartialTeritories
 =================
-.. include:: ../partial_object.rst
+.. include:: ../note_partial_object.rst
 
 .. autoclass:: PartialTeritories
    :inherited-members:

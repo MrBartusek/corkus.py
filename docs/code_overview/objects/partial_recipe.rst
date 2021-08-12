@@ -5,7 +5,7 @@
 
 PartialRecipe
 =============
-.. include:: ../partial_object.rst
+.. include:: ../note_partial_object.rst
 
 .. autoclass:: PartialRecipe
    :inherited-members:

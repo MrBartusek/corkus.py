@@ -29,6 +29,6 @@ class PartialTeritories(PartialBase):
     async def fetch(self) -> List[Territory]:
         """Fetch full Territory information from API.
 
-        .. include:: ../api_call.rst"""
+        .. include:: ../note_api_call.rst"""
         teritories = await self.corkus.territory.list_all()
         return [t for t in teritories if t.guild.name == self._guild.name]

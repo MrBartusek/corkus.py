@@ -77,6 +77,6 @@ You don't need to use it, this code works exactly the same:
     bigger applications
 
 Obtain a :class:`.Player`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 TODO

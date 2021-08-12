@@ -1,5 +1,5 @@
 Corkus.py - Wynncraft API Wrapper
-===================================
+==================================
 
 .. _getting_started:
 

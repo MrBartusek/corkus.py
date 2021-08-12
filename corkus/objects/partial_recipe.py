@@ -31,7 +31,7 @@ class PartialRecipe(CorkusBase):
     async def fetch(self) -> Coroutine[Any, Any, Recipe]:
         """Fetch full recipe information from API.
 
-        .. include:: ../api_call.rst"""
+        .. include:: ../note_api_call.rst"""
         return await self._corkus.recipe.get_by_id(self.id)
 
     def __repr__(self) -> str:

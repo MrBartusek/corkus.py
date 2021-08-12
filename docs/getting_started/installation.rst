@@ -1,5 +1,5 @@
 Installing Corkus.py
-===============
+====================
 
 Corkus supports Python 3.8+. The recommended way to install Corkus is via ``pip``.
 
@@ -8,7 +8,7 @@ Corkus supports Python 3.8+. The recommended way to install Corkus is via ``pip`
     pip install corkus.py
 
 Updating Corkus.py
--------------
+------------------
 
 Corkus.py can be updated by running:
 

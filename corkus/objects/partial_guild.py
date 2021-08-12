@@ -14,7 +14,7 @@ class PartialGuild(CorkusBase):
     async def fetch(self) -> Guild:
         """Fetch full guild information from API.
 
-        .. include:: ../api_call.rst"""
+        .. include:: ../note_api_call.rst"""
         return await self._corkus.guild.get(self.name)
 
     def __repr__(self) -> str:

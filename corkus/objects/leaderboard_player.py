@@ -66,7 +66,7 @@ class LeaderboardPlayer(BasePlayer):
     async def fetch(self) -> Player:
         """Fetch information about this player from Players API.
 
-        .. include:: ../api_call.rst"""
+        .. include:: ../note_api_call.rst"""
         return await self._corkus.player.get(self.uuid)
 
     def __repr__(self) -> str:

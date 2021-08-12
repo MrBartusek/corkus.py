@@ -38,6 +38,7 @@ class Ingredient(CorkusBase):
 
     @property
     def identifications(self):
+        """.. include:: ../note_not_implemented.rst"""
         raise NotImplementedError
 
     @property

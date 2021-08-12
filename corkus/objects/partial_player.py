@@ -32,7 +32,7 @@ class PartialPlayer(PartialBase):
     async def fetch(self) -> Player:
         """Fetch full player data from API.
 
-        .. include:: ../api_call.rst"""
+        .. include:: ../note_api_call.rst"""
         identifier = self._uuid if self._uuid is not None else self._username
         return await self.corkus.player.get(identifier)
 

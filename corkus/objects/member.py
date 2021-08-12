@@ -53,5 +53,5 @@ class Member(CorkusBase):
     async def fetch_player(self) -> Player:
         """Fetch player data of this member from API.
 
-        .. include:: ../api_call.rst"""
+        .. include:: ../note_api_call.rst"""
         return await self._corkus.player.get(self.uuid)

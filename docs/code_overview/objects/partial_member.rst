@@ -5,7 +5,7 @@
 
 PartialMember
 =============
-.. include:: ../partial_object.rst
+.. include:: ../note_partial_object.rst
 
 .. autoclass:: PartialMember
    :inherited-members:

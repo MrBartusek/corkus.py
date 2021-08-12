@@ -44,11 +44,7 @@ with open('../corkus/objects/__init__.py', 'r') as objects:
     search = re.findall(r'(?m)^(?:from[ ]+(\S+)[ ]+)?import[ ]+([\S, ]+)[ ]*$', objects.read())
     for result in search:
         for item in result[1].split(", "):
-            if item not in (
-                "CorkusBase",
-                "PartialBase"
-            ):
-                corkus_objects.append(item)
+            corkus_objects.append(item)
 
 for f in glob.glob('code_overview/objects/*'):
     os.remove(f)
@@ -65,7 +61,7 @@ for obj in corkus_objects:
         f.write(obj + "\n")
         f.write("=" * len(obj) + "\n")
         if obj.startswith("Partial"):
-            f.write(".. include:: ../partial_object.rst" + "\n")
+            f.write(".. include:: ../note_partial_object.rst" + "\n")
             f.write("\n")
         f.write(".. autoclass:: " + obj + "\n")
         f.write("   :inherited-members:" + "\n")

@@ -16,7 +16,7 @@ class PartialIngredient(CorkusBase):
     async def fetch(self) -> Ingredient:
         """Fetch full ingredient information from API.
 
-        .. include:: ../api_call.rst"""
+        .. include:: ../note_api_call.rst"""
         return await self._corkus.ingredient.get(self.name)
 
     def __repr__(self) -> str:
