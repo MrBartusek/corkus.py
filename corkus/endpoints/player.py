@@ -19,7 +19,8 @@ class PlayerEndpoint(Endpoint):
 
     async def get_uuid(self, username: str) -> CorkusUUID:
         """Get UUID from player username
-        .. warning::
+
+        .. danger::
             This should not be used in place of the Mojang API, and your IP will be blocked if you do so
         """
         response = await self._corkus.request.get(URL_V2 + "player/" + username + "/uuid")
