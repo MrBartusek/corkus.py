@@ -1,19 +1,20 @@
 from __future__ import annotations
-from typing import Optional, Coroutine, Any, TYPE_CHECKING
+from typing import Optional, TYPE_CHECKING
 from corkus.utils.constants import TIMEOUT
 from corkus.utils.request import CorkusRequest
 
-from corkus.endpoints import NetworkEndpoint
-from corkus.endpoints import PlayerEndpoint
-from corkus.endpoints import GuildEndpoint
-from corkus.endpoints import TerritoryEndpoint
-from corkus.endpoints import SearchEndpoint
-from corkus.endpoints import IngredientEndpoint
-from corkus.endpoints import LeaderboardEndpoint
-from corkus.endpoints import RecipeEndpoint
+from corkus.endpoints import (
+    NetworkEndpoint,
+    PlayerEndpoint,
+    GuildEndpoint,
+    TerritoryEndpoint,
+    SearchEndpoint,
+    IngredientEndpoint,
+    LeaderboardEndpoint,
+    RecipeEndpoint
+)
 
 if TYPE_CHECKING:
-    from .utils.ratelimit import RateLimiter
     from aiohttp import ClientSession
 
 class Corkus:
@@ -83,6 +84,6 @@ class Corkus:
         get ratelimit and cache information."""
         return self._request
 
-    async def close(self) -> Coroutine[Any, Any, None]:
+    async def close(self) -> None:
         """End the corkus client when it's not needed anymore."""
         return await self.request.session.close()

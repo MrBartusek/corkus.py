@@ -28,7 +28,7 @@ class PartialRecipe(CorkusBase):
             maximum = int(self.id.split("-")[2].upper())
         )
 
-    async def fetch(self) -> Coroutine[Any, Any, Recipe]:
+    async def fetch(self) -> Recipe:
         """Fetch full recipe information from API.
 
         .. include:: ../note_api_call.rst"""

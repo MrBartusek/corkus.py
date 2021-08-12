@@ -17,6 +17,7 @@ extensions = [
     "sphinx_autodoc_typehints"
 ]
 html_static_path = ["_static"]
+html_favicon = '_static/favicon.ico'
 html_theme = 'furo'
 htmlhelp_basename = "Corkus.py"
 intersphinx_mapping = {"python": ("https://docs.python.org", None)}
@@ -74,6 +75,8 @@ with open("code_overview/corkus_objects.rst", "w") as f:
     f.write("\n")
     f.write("Working with Corkus Objects" + "\n")
     f.write("==========================="+ "\n")
+    f.write("\n")
+    f.write(".. include:: corkus_objects_info.rst" + "\n")
     f.write("\n")
     f.write(".. toctree::" + "\n")
     f.write("   :maxdepth: 2" + "\n")

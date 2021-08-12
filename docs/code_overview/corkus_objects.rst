@@ -4,6 +4,8 @@
 Working with Corkus Objects
 ===========================
 
+.. include:: corkus_objects_info.rst
+
 .. toctree::
    :maxdepth: 2
    :caption: Objects
