@@ -3,14 +3,14 @@ from typing import Optional, Coroutine, Any, TYPE_CHECKING
 from corkus.utils.constants import TIMEOUT
 from corkus.utils.request import CorkusRequest
 
-from corkus.endpoints.network import NetworkEndpoint
-from corkus.endpoints.player import PlayerEndpoint
-from corkus.endpoints.guild import GuildEndpoint
-from corkus.endpoints.territory import TerritoryEndpoint
-from corkus.endpoints.search import SearchEndpoint
-from corkus.endpoints.ingredient import IngredientEndpoint
-from corkus.endpoints.leaderboard import LeaderboardEndpoint
-from corkus.endpoints.recipe import RecipeEndpoint
+from corkus.endpoints import NetworkEndpoint
+from corkus.endpoints import PlayerEndpoint
+from corkus.endpoints import GuildEndpoint
+from corkus.endpoints import TerritoryEndpoint
+from corkus.endpoints import SearchEndpoint
+from corkus.endpoints import IngredientEndpoint
+from corkus.endpoints import LeaderboardEndpoint
+from corkus.endpoints import RecipeEndpoint
 
 if TYPE_CHECKING:
     from .utils.ratelimit import RateLimiter
@@ -36,16 +36,6 @@ class Corkus:
     async def __aexit__(self, *exc_info) -> None:
         """Async exit."""
         await self.close()
-
-    @property
-    def request(self) -> CorkusRequest:
-        """Access request module to make direct API calls or get ratelimit an cache information
-        .. note::
-            Directly making API calls is reserver for advanced users only,
-            If there is an endpoint that you can't normall access using library,
-            please `create a issue <https://github.com/MrBartusek/corkus.py/issues/new>`_.
-        """
-        return self._request
 
     @property
     def network(self) -> NetworkEndpoint:
@@ -86,6 +76,12 @@ class Corkus:
     def recipe(self) -> RecipeEndpoint:
         """Crafted items statistics and recipes."""
         return RecipeEndpoint(self)
+
+    @property
+    def request(self) -> CorkusRequest:
+        """Access internal request module to make direct API calls or
+        get ratelimit and cache information."""
+        return self._request
 
     async def close(self) -> Coroutine[Any, Any, None]:
         """End the corkus client when it's not needed anymore."""

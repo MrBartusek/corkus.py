@@ -10,7 +10,7 @@ if TYPE_CHECKING:
     from .player import Player
 
 class LeaderboardPlayer(BasePlayer):
-    """Diffrent version of :py:class:`Player` returned by :py:class:`LeaderboardEndpoint`."""
+    """Diffrent version of :py:class:`Player` returned by :py:class:`LeaderboardEndpoint <corkus.endpoints.LeaderboardEndpoint>`."""
     @property
     def username(self) -> str:
         """Minecraft username of player."""

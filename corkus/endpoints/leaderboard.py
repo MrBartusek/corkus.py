@@ -15,7 +15,14 @@ class LeaderboardEndpoint(Endpoint):
         response = await self._corkus.request.get(URL_V1 + "statsLeaderboard&type=player&timeframe=alltime")
         return [LeaderboardPlayer(self._corkus, g) for g in response]
 
-    async def pvp(self, *, timeframe: Optional[Timeframe] = Timeframe.ALL_TIME) -> List[LeaderboardPlayer]:
-        """Returns a leaderboard of players with a length of 100. Sorted by PvP kills"""
+    async def pvp(self, timeframe: Optional[Timeframe] = Timeframe.ALL_TIME) -> List[LeaderboardPlayer]:
+        """Returns a leaderboard of players with a length of 100. Sorted by
+        :py:attr:`LeaderboardPlayer.pvp_kills <corkus.objects.LeaderboardPlayer.pvp_kills>`.
+
+        :param timeframe: Timeframe for results will be returned.
+
+            .. caution::
+                Since `The Nether <https://wynncraft.fandom.com/wiki/The_Nether>`_ is disabled
+                changing ``timeframe`` doesn't do anything."""
         response = await self._corkus.request.get(URL_V1 + "statsLeaderboard&type=pvp&timeframe=" + timeframe.value)
         return [LeaderboardPlayer(self._corkus, g) for g in response]

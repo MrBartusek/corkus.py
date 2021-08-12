@@ -18,6 +18,7 @@ Corkus.py - Wynncraft API Wrapper
     :caption: Code Overview
 
     code_overview/corkus_instance
+    code_overview/endpoints
     code_overview/corkus_objects
 
 .. toctree::

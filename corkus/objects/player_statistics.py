@@ -1,10 +1,5 @@
 from __future__ import annotations
-from typing import TYPE_CHECKING
 from .base import CorkusBase
-
-if TYPE_CHECKING:
-    from corkus import Corkus
-    from corkus.objects import Player
 
 class ClassStatistics(CorkusBase):
     """General Statistics of a :py:class:`PlayerClass`"""
@@ -22,7 +17,7 @@ class ClassStatistics(CorkusBase):
     def items_identified(self) -> int:
         """Total items identified
 
-        .. warning::
+        .. caution::
                 This property is currently bugged and will always return ``0``. See:
                 `Wynncraft/WynncraftAPI#62 <https://github.com/Wynncraft/WynncraftAPI/issues/62>`_.
         """

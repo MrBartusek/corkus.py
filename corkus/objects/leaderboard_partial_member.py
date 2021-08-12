@@ -9,7 +9,7 @@ if TYPE_CHECKING:
     from .partial_guild import PartialGuild
 
 class LeaderboardPartialMember(BasePartialMember):
-    """Diffrent version of :py:class:`PartialMember` returned by :py:class:`LeaderboardEndpoint`."""
+    """Diffrent version of :py:class:`PartialMember` returned by :py:class:`LeaderboardEndpoint <corkus.endpoints.LeaderboardEndpoint>`."""
     def __init__(self,
         corkus: Corkus,
         uuid: CorkusUUID,

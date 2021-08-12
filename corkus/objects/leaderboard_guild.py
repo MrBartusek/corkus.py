@@ -6,7 +6,7 @@ if TYPE_CHECKING:
     from .guild import Guild
 
 class LeaderboardGuild(BaseGuild):
-    """Diffrent version of :py:class:`Guild` returned by :py:class:`LeaderboardEndpoint`."""
+    """Diffrent version of :py:class:`Guild` returned by :py:class:`LeaderboardEndpoint <corkus.endpoints.LeaderboardEndpoint>`."""
     @property
     def members_count(self) -> int:
         """Count of guild members, to access full list use :py:func:`fetch`."""

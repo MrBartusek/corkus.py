@@ -16,17 +16,17 @@ class Player(BasePlayer):
     """Represents a player of a Wynncraft server."""
     @property
     def username(self) -> str:
-        """Minecraft username of player"""
+        """Minecraft username of player."""
         return self._attributes.get("username", "")
 
     @property
     def join_date(self) -> datetime.datetime:
-        """Date and time when player joined Wynncraft first time"""
+        """Date and time when player joined Wynncraft first time."""
         return iso8601.parse_date(self._attributes.get("meta", {}).get("firstJoin", "1970"))
 
     @property
     def last_online(self) -> datetime.datetime:
-        """Date and time when player was last seen online"""
+        """Date and time when player was last seen online."""
         if self.status.online:
             return datetime.datetime.now(datetime.timezone.utc)
         else:
@@ -34,27 +34,27 @@ class Player(BasePlayer):
 
     @property
     def online(self) -> bool:
-        """Is player online right now, for detailed information see :py:attr:`~status`"""
+        """Is player online right now, for detailed information see :py:attr:`~status`."""
         return self.status.online
 
     @property
     def status(self) -> PlayerStatus:
-        """Information about player's current online status"""
+        """Information about player's current online status."""
         return PlayerStatus(self._corkus, self._attributes.get("meta", {}).get("location", {}))
 
     @property
     def playtime(self) -> PlayerPlaytime:
-        """Time that player spent on wynncraft servers"""
+        """Time that player spent on wynncraft servers."""
         return PlayerPlaytime(self._attributes.get("meta", {}).get("playtime", 0))
 
     @property
     def classes(self) -> List[PlayerClass]:
-        """All of the player's classes"""
+        """All of the player's classes."""
         return [PlayerClass(self._corkus, c) for c in self._attributes.get("classes", {})]
 
     @property
     def member(self) -> Union[PartialMember, None]:
-        """Partial representation of player in the guild"""
+        """Partial representation of player in the guild."""
         if self._attributes.get("guild", {}).get("name", None) is None:
             return None
         else:
@@ -68,7 +68,7 @@ class Player(BasePlayer):
 
     @property
     def guild(self) -> Union[PartialGuild, None]:
-        """Partial information about player's guild"""
+        """Partial information about player's guild."""
         if self._attributes.get("guild", {}).get("name", None) is None:
             return None
         else:
@@ -76,7 +76,7 @@ class Player(BasePlayer):
 
     @property
     def statistics(self) -> PlayerStatistics:
-        """General statistics across all classes"""
+        """General statistics across all classes."""
         return PlayerStatistics(self._corkus, self._attributes.get("global", {}))
 
     @property

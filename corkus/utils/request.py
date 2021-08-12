@@ -40,6 +40,11 @@ class CorkusRequest:
         return self._cache
 
     async def get(self, url: str) -> dict:
+        """ Send HTTP GET to given URL.
+        .. note::
+            Directly making API calls is reserver for advanced users only,
+            If there is an endpoint that you can't normall access using library,
+            please `create a issue <https://github.com/MrBartusek/corkus.py/issues/new>`_."""
         cache_element = self._cache.get(url)
         if cache_element:
             return copy.copy(cache_element.content)
