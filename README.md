@@ -5,13 +5,13 @@
 
 # Corkus.py ⚙️
 
-Asynchronous modern, feature-rich and easy to use Python wrapper for [Public Wynncraft API](https://docs.wynncraft.com).
+Asynchronous, feature-rich and easy to use Python wrapper for [Public Wynncraft API](https://docs.wynncraft.com).
 
 ## Key Features
 
 - Asynchronous API using `async` and `await`
 - Easy to use with an object oriented design and `fetch` functions
-- ≈ 90% coverage of the Wynncraft API as of now
+- ≈ 95% coverage of the Wynncraft API as of now
 - Proper rate limit handling
 - Responses caching
 
