@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import TYPE_CHECKING, Any, Coroutine
+from typing import TYPE_CHECKING
 
 from .base import CorkusBase
 from .enums import ItemType
