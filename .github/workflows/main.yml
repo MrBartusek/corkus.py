@@ -24,7 +24,7 @@ jobs:
           python3 -m pip --disable-pip-version-check install -r dev-requirements.txt
 
       - name: 🧹 Lint with Pylint
-        run: find . -name '*.py' -exec pylint --fail-under=8 {} \;
+        run: find . -name '*.py' -exec pylint --fail-under=9 {} \;
 
   test:
     name: Test with Python ${{ matrix.python-version }} on ${{ matrix.os }}
