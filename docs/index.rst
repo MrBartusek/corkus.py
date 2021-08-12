@@ -23,6 +23,16 @@ Corkus.py - Wynncraft API Wrapper
     code_overview/endpoints
     code_overview/corkus_objects
 
+
+.. _package_info:
+
+    .. toctree::
+        :maxdepth: 1
+        :caption: Package Info
+    
+        GitHub Repository <https://github.com/MrBartusek/corkus.py>
+        PyPI Package <https://pypi.org/project/corkus.py/>
+
 .. toctree::
     :hidden:
 
