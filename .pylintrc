@@ -1,9 +1,9 @@
 [MASTER]
 init-hook='import sys; sys.path.append(".")'
 disable=
-    C0114, # missing-module-docstring
-    C0115, # missing-class-docstring
-    C0116, #missing-function-docstring
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
     multiple-statements,
     no-else-return,
     broad-except,
@@ -17,7 +17,9 @@ disable=
     wrong-import-order,
     too-many-arguments,
     abstract-method,
-    comparison-with-callable
+    comparison-with-callable,
+    cyclic-import, # If something will be really weong tests will fail
+    duplicate-code
 
 [FORMAT]
 max-line-length=240

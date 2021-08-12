@@ -45,4 +45,3 @@ from .uuid import CorkusUUID
 from .search_result import SearchResult
 from .identification import Identification
 from .enums import ProfessionType, Timeframe, ItemType
-

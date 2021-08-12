@@ -1,7 +1,7 @@
 # pylint: disable=attribute-defined-outside-init
 
 from typing import List
-from corkus.objects import LeaderboardPlayer, guild
+from corkus.objects import LeaderboardPlayer
 import unittest
 from corkus import Corkus
 from tests import vcr

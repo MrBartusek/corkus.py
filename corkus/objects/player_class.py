@@ -1,7 +1,7 @@
 from __future__ import annotations
 from corkus.objects.player_profession import PlayerProfession
 from enum import Enum
-from typing import List, Literal
+from typing import List
 from .base import CorkusBase
 from .quest import Quest
 from .player_statistics import ClassStatistics

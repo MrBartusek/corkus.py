@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import Literal, Union, TYPE_CHECKING
+from typing import Union, TYPE_CHECKING
 from .base import CorkusBase
 from .enums import ProfessionType
 
