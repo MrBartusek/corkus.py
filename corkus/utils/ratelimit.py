@@ -1,5 +1,4 @@
 from __future__ import annotations
-from multidict import CIMultiDictProxy
 import time
 import logging
 import asyncio
@@ -42,7 +41,7 @@ class RateLimiter:
             logger.info(f"You are being ratelimited, waiting for {self.reset}s")
             await asyncio.sleep(self.reset)
 
-    def update(self, headers: CIMultiDictProxy[str]) -> None:
+    def update(self, headers: dict) -> None:
         """Update current ratelimit information using response headers"""
         self._total = int(headers.get("ratelimit-limit", 180))
         self._remaining = int(headers.get("ratelimit-remaining", 180))

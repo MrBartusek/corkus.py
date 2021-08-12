@@ -1,6 +1,5 @@
 from __future__ import annotations
 from typing import List, Union
-from multidict import CIMultiDictProxy
 import time
 import logging
 
@@ -65,7 +64,7 @@ class CorkusCache:
             logger.debug(f"Serving from cache: {url}")
         return element
 
-    def add(self, url: str, headers: CIMultiDictProxy, content: dict) -> None:
+    def add(self, url: str, headers: dict, content: dict) -> None:
         """Add element to cache"""
         if not self.enabled: return
 
