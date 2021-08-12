@@ -16,3 +16,13 @@ Corkus.py can be updated by running:
 
     pip install --upgrade corkus.py
 
+
+Installing the Latest Development Version
+-----------------------------------------
+    
+Is there a feature that was recently merged into Corkus.py that you cannot wait
+to take advantage of? If so, you can install Corkus.py directly from GitHub like so:
+
+.. code-block:: bash
+
+    pip install --upgrade git+https://github.com/MrBartusek/corkus.py@main
