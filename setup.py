@@ -21,6 +21,8 @@ setup(
     author='MrBartusek',
     url='https://github.com/MrBartusek/corkus.py',
     project_urls={
+        "Documentation": "https://corkuspy.readthedocs.io/en/latest/",
+        "Source": "https://github.com/MrBartusek/corkus.py/",
         "Issue tracker": "https://github.com/MrBartusek/corkus.py/issues"
     },
     version=version,
@@ -37,6 +39,7 @@ setup(
     'Intended Audience :: Developers',
     'Natural Language :: English',
     'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
