@@ -1,7 +1,9 @@
 Corkus.py - Wynncraft API Wrapper
 ==================================
 
-.. _getting_started:
+Asynchronous, feature-rich and easy to use Python wrapper for `Public Wynncraft API <https://docs.wynncraft.com>`_.
+
+Corkus documentation is organized into the following sections:
 
 .. toctree::
     :maxdepth: 1
@@ -13,8 +15,6 @@ Corkus.py - Wynncraft API Wrapper
     getting_started/cache
     getting_started/partial_objects
 
-.. _code_overview:
-
 .. toctree::
     :maxdepth: 1
     :caption: Code Overview
@@ -22,9 +22,6 @@ Corkus.py - Wynncraft API Wrapper
     code_overview/corkus_instance
     code_overview/endpoints
     code_overview/corkus_objects
-
-
-.. _package_info:
 
 .. toctree::
     :maxdepth: 1
