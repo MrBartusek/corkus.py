@@ -39,6 +39,7 @@ setup(
     'Operating System :: OS Independent',
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
     'Topic :: Internet',
     'Topic :: Games/Entertainment',
     'Topic :: Software Development :: Libraries',
