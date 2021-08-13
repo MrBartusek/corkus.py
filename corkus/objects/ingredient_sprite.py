@@ -11,7 +11,7 @@ class IngredientSprite(CorkusBase):
     @property
     def damage(self) -> int:
         """I honestly don't have idea what this property does, if you know
-        please `create a issue <https://github.com/MrBartusek/corkus.py/issues/new>`_"""
+        please `create a issue <https://github.com/MrBartusek/corkus.py/issues/new/choose>`_"""
         return self._attributes.get("damage", 0)
 
     def __repr__(self) -> str:

@@ -39,7 +39,7 @@ class RatelimitExceeded(HTTPException):
         This exception shouldn't be thrown when using Corkus normally.
         If you see that error it's most likely because you disabled :ref:`ratelimit`.
         If you are sure that rate limit is enabled please
-        `create a bug repport <https://github.com/MrBartusek/corkus.py/issues/new>`_
+        `create a bug repport <https://github.com/MrBartusek/corkus.py/issues/new/choose>`_
 
     .. danger::
 
