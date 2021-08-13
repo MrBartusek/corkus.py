@@ -15,9 +15,9 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
         glow_bulb = await self.corkus.ingredient.get("Glow Bulb Seeds")
         self.assertEqual(glow_bulb.name, "Glow Bulb Seeds")
         self.assertEqual(glow_bulb.tier, 3)
-        self.assertEqual(glow_bulb.reqired_level, 105)
+        self.assertEqual(glow_bulb.required_level, 105)
         self.assertGreater(glow_bulb.sprite.id, 0)
-        self.assertIn(ProfessionType.TAILORING, glow_bulb.reqired_professions)
+        self.assertIn(ProfessionType.TAILORING, glow_bulb.required_professions)
         self.assertNotEqual(glow_bulb.item_modifiers.durability, 0)
         self.assertGreater(glow_bulb.item_modifiers.defence_required, 0)
 

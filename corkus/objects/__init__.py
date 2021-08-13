@@ -44,4 +44,4 @@ from .level_range import LevelRange
 from .uuid import CorkusUUID
 from .search_result import SearchResult
 from .identification import Identification
-from .enums import ProfessionType, Timeframe, ItemType
+from .enums import ProfessionType, Timeframe, ItemType, LogicSymbol

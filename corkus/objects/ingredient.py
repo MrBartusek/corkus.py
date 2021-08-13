@@ -22,13 +22,13 @@ class Ingredient(CorkusBase):
         return self._attributes.get("tier", 0)
 
     @property
-    def reqired_level(self) -> int:
-        """Level that an player must get on all of the :py:attr:`~reqired_professions` in order to use this ingredient."""
+    def required_level(self) -> int:
+        """Level that an player must get on all of the :py:attr:`~required_professions` in order to use this ingredient."""
         return self._attributes.get("level", 0)
 
     @property
-    def reqired_professions(self) -> List[ProfessionType]:
-        """List of professions on which player must get :py:attr:`~reqired_level` in order to use this ingredient."""
+    def required_professions(self) -> List[ProfessionType]:
+        """List of professions on which player must get :py:attr:`~required_level` in order to use this ingredient."""
         return [ProfessionType(p) for p in self._attributes.get("skills", {})]
 
     @property

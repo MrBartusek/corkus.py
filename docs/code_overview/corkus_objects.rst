@@ -33,6 +33,7 @@ Working with Corkus Objects
    objects/leaderboard_partial_member
    objects/leaderboard_player
    objects/level_range
+   objects/logic_symbol
    objects/material
    objects/member
    objects/partial_guild

@@ -7,6 +7,27 @@ class Timeframe(Enum):
     ALL_TIME = "alltime"
     WEEKLY = "weekly"
 
+class LogicSymbol(Enum):
+    """LogicSymbols are use in more advanced search calls in the API.
+
+    .. py:currentmodule:: corkus.objects
+
+    If you want to search for :py:class:`Ingredient` that require
+    :py:attr:`ProfessionType.ARMOURING` AND :py:attr:`ProfessionType.SCRIBING` at the same time,
+    you use :py:attr:`AND`
+
+    If you want to search for :py:class:`Ingredient` that require
+    :py:attr:`ProfessionType.ARMOURING` OR :py:attr:`ProfessionType.SCRIBING`
+    you use :py:attr:`OR`. It will result all of the results that
+    have any of provided skills."""
+
+    AND = "&"
+    """Return list of results that match **ALL OF THE PROVIDED ARGUMENTS**."""
+
+    OR = "^"
+    """Return list of results that match **ONE OR MORE OF THE PROVIDED ARGUMENTS**."""
+
+
 class ProfessionType(Enum):
     """List of Gathering and Crafting `Professions <https://wynncraft.fandom.com/wiki/Professions>`_ plus :py:attr:`COMBAT`."""
 

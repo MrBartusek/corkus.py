@@ -1,6 +1,6 @@
 from __future__ import annotations
 from corkus.version import __version__
-from typing import Optional
+from typing import List, Optional, Union
 import copy
 
 from corkus.utils.cache import CorkusCache
@@ -41,7 +41,7 @@ class CorkusRequest:
     def cache(self) -> CorkusCache:
         return self._cache
 
-    async def get(self, url: str) -> dict:
+    async def get(self, url: str) -> Union[dict, List[dict], List[str]]:
         """ Send HTTP GET to given URL.
 
         .. note::
@@ -73,7 +73,7 @@ class CorkusRequest:
         else:
             raise HTTPException(response)
 
-    def _prepare_data(self, data: dict) -> dict:
+    def _prepare_data(self, data):
         """Reduce to data object for v2 endpoints"""
         if data.get("data") is not None:
             data = data.get("data")
