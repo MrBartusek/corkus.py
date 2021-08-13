@@ -8,7 +8,7 @@ from .material import Material
 from .identification import Identification
 
 class Recipe(CorkusBase):
-    """Needed materials and skills for `Crafting <https://wynncraft.fandom.com/wiki/Crafting>`_ a item with given properties."""
+    """Needed materials and professions for `Crafting <https://wynncraft.fandom.com/wiki/Crafting>`_ a item with given properties."""
     @property
     def level(self) -> LevelRange:
         """Level range that this item should be used in"""
@@ -25,13 +25,13 @@ class Recipe(CorkusBase):
         return ItemType(self._attributes.get("type", ItemType.WAND))
 
     @property
-    def skill(self) -> ProfessionType:
-        """Skill required to craft this item."""
+    def profession(self) -> ProfessionType:
+        """Profession required to craft this item."""
         return ProfessionType(self._attributes.get("skill", ProfessionType.WOODWORKING))
 
     @property
     def materials(self) -> List[Material]:
-        """Skill required to craft this item."""
+        """Materials required to craft this item."""
         return [Material(self._corkus, m) for m in self._attributes.get("materials", [])]
 
     @property

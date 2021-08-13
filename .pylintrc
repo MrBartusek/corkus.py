@@ -19,7 +19,8 @@ disable=
     abstract-method,
     comparison-with-callable,
     cyclic-import, # If something will be really weong tests will fail
-    duplicate-code
+    duplicate-code,
+    redefined-builtin
 
 [FORMAT]
 max-line-length=240
