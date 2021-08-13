@@ -1,4 +1,4 @@
-from typing import List, Literal, Union
+from typing import List, Literal
 
 from corkus.endpoints.endpoint import Endpoint
 from corkus.utils.constants import URL_V2
