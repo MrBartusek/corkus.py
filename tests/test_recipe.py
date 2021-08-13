@@ -35,7 +35,7 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
             self.assertEqual(recipe.id, item[0])
 
             self.assertEqual(recipe.type, item[1])
-            self.assertEqual(recipe.skill, item[2])
+            self.assertEqual(recipe.profession, item[2])
             if item[3]:
                 self.assertIsNone(recipe.durability)
                 self.assertEqual(recipe.charges, 3)
