@@ -44,7 +44,7 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
 
     @vcr.use_cassette
     async def test_ingredient_invalid(self):
-        with self.assertRaises(BadRequest) as e:
+        with self.assertRaises(BadRequest):
             await self.corkus.ingredient.get('an invalid ingredient')
 
     @vcr.use_cassette

@@ -33,7 +33,7 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
 
     @vcr.use_cassette
     async def test_guild_invalid(self):
-        with self.assertRaises(BadRequest) as e:
+        with self.assertRaises(BadRequest):
             await self.corkus.guild.get('an invalid guild')
 
     @vcr.use_cassette
