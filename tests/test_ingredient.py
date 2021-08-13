@@ -4,6 +4,7 @@ import unittest
 from tests import vcr
 from corkus import Corkus
 from corkus.objects import PartialIngredient, ProfessionType
+from corkus.errors import BadRequest
 
 class TestIngredient(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -40,6 +41,11 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(horizon.item_modifiers.intelligence_required, 0)
         self.assertGreater(horizon.item_modifiers.defence_required, 0)
         self.assertGreater(horizon.item_modifiers.agility_required, 0)
+
+    @vcr.use_cassette
+    async def test_ingredient_invalid(self):
+        with self.assertRaises(BadRequest) as e:
+            await self.corkus.ingredient.get('an invalid ingredient')
 
     @vcr.use_cassette
     async def test_all_ingredient(self):

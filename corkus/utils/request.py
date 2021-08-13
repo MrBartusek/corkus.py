@@ -1,10 +1,12 @@
 from __future__ import annotations
-from corkus.utils.cache import CorkusCache
-from aiohttp.client import ClientSession, ClientTimeout
-from corkus.utils.ratelimit import RateLimiter
-from typing import Optional
 from corkus.version import __version__
+from typing import Optional
 import copy
+
+from corkus.utils.cache import CorkusCache
+from aiohttp.client import ClientSession, ClientTimeout, ClientResponse
+from corkus.utils.ratelimit import RateLimiter
+from corkus.errors import BadRequest, WynncraftServerError, RatelimitExceeded, HTTPException
 
 class CorkusRequest:
     """CorkusRequest is a internal overlay over aiohttp to simplify APi calls"""
@@ -41,21 +43,35 @@ class CorkusRequest:
 
     async def get(self, url: str) -> dict:
         """ Send HTTP GET to given URL.
+
         .. note::
             Directly making API calls is reserver for advanced users only,
             If there is an endpoint that you can't normall access using library,
             please `create a issue <https://github.com/MrBartusek/corkus.py/issues/new>`_."""
+
         cache_element = self._cache.get(url)
         if cache_element:
             return copy.copy(cache_element.content)
 
         await self._ratelimit.limit()
-        resp = await self._session.get(url)
-        data = await resp.json()
-        self._ratelimit.update(resp.headers)
-        data = self._prepare_data(data)
-        self._cache.add(url, resp.headers, data)
-        return copy.copy(data)
+        response = await self._session.get(url)
+        data = await response.json()
+        self._ratelimit.update(response.headers)
+        self._fix_status_codes(data, response)
+
+        if 200 <= response.status < 400:
+            data = self._prepare_data(data)
+            self._cache.add(url, response.headers, data)
+            return copy.copy(data)
+
+        elif response.status >= 500:
+            raise WynncraftServerError(response)
+        elif response.status >= 429:
+            raise RatelimitExceeded(response)
+        elif response.status >= 400:
+            raise BadRequest(response)
+        else:
+            raise HTTPException(response)
 
     def _prepare_data(self, data: dict) -> dict:
         """Reduce to data object for v2 endpoints"""
@@ -64,3 +80,11 @@ class CorkusRequest:
             if len(data) == 1:
                 data = data[0]
         return data
+
+    def _fix_status_codes(self, data: dict, response: ClientResponse) -> None:
+        """Fix endpoints that return wrong status codes"""
+
+        # https://github.com/Wynncraft/WynncraftAPI/issues/63
+        # and other similar
+        if data.get("error") is not None:
+            response.status = 400

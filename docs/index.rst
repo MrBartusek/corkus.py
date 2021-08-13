@@ -22,6 +22,7 @@ Corkus documentation is organized into the following sections:
     code_overview/corkus_instance
     code_overview/endpoints
     code_overview/corkus_objects
+    code_overview/errors
 
 .. toctree::
     :maxdepth: 1

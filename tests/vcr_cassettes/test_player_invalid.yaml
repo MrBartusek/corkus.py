@@ -1,0 +1,27 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Corkus.py/0.2.2
+    method: GET
+    uri: https://api.wynncraft.com/v2/player/an%20invalid%20username/stats
+  response:
+    body:
+      string: '{"kind":"wynncraft/player/an invalid username/stats","code":400,"timestamp":1628857560404,"version":"2.1.0","data":[]}'
+    headers:
+      cache-control:
+      - max-age=600
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '179'
+      ratelimit-reset:
+      - '60'
+    status:
+      code: 400
+      message: Bad Request
+    url: https://api.wynncraft.com/v2/player/an%20invalid%20username/stats
+version: 1

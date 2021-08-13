@@ -8,6 +8,7 @@ from corkus.objects import CorkusUUID, PartialPlayer, PlayerTag, HardcoreType, C
 from corkus.objects.enums import ProfessionType
 from corkus.objects.dungeon import DungeonType
 from corkus.objects.member import GuildRank
+from corkus.errors import BadRequest
 
 class TestPlayer(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -27,6 +28,12 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
     async def test_create_empty_partial(self):
         with self.assertRaises(ValueError):
             PartialPlayer(self.corkus)
+
+    @vcr.use_cassette
+    async def test_player_invalid(self):
+        with self.assertRaises(BadRequest) as e:
+            await self.corkus.player.get('an invalid username')
+        self.assertEqual(e.exception.response.status, 400)
 
     @vcr.use_cassette
     async def test_fetch_partial(self):

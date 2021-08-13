@@ -86,7 +86,10 @@ with open("code_overview/corkus_objects.rst", "w") as f:
         f.write("   objects/" + to_camel_case(obj) + "\n")
 
 def autodoc_skip_member(app, what, name, obj, skip, options):
-    exclusions = ('__init__')
+    exclusions = (
+        '__init__',
+        '__new__'
+    )
     exclude = name in exclusions
     return True if exclude else None
 

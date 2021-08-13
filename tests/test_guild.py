@@ -4,6 +4,7 @@ import unittest
 from tests import vcr
 from corkus import Corkus
 from corkus.objects import PartialGuild, BannerColor, BannerPattern
+from corkus.errors import BadRequest
 
 class TestGuild(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -29,6 +30,11 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         member = guild.members[0]
         player = await member.fetch_player()
         self.assertEqual(player.guild.name, "The Farplane")
+
+    @vcr.use_cassette
+    async def test_guild_invalid(self):
+        with self.assertRaises(BadRequest) as e:
+            await self.corkus.guild.get('an invalid guild')
 
     @vcr.use_cassette
     async def test_all_guilds(self):

@@ -1,0 +1,27 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Corkus.py/0.2.2
+    method: GET
+    uri: https://api.wynncraft.com/public_api.php?action=guildStats&command=an+invalid+guild
+  response:
+    body:
+      string: '{"error":"Guild not found"}'
+    headers:
+      cache-control:
+      - max-age=30
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '179'
+      ratelimit-reset:
+      - '46'
+    status:
+      code: 200
+      message: OK
+    url: https://api.wynncraft.com/public_api.php?action=guildStats&command=an+invalid+guild
+version: 1
