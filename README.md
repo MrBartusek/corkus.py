@@ -19,7 +19,6 @@ Asynchronous, feature-rich and easy to use Python wrapper for [Public Wynncraft 
 
 - Item Database Endpoint
 - Wired search routes
-- Error handling
 
 ## Installation
 
