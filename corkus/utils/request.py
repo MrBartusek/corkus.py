@@ -9,7 +9,7 @@ from corkus.utils.ratelimit import RateLimiter
 from corkus.errors import BadRequest, WynncraftServerError, RatelimitExceeded, HTTPException
 
 class CorkusRequest:
-    """CorkusRequest is a internal overlay over aiohttp to simplify APi calls"""
+    """CorkusRequest is a internal overlay over aiohttp to simplify API calls"""
 
     def __init__(self,
         timeout: Optional[int] = 0,
