@@ -91,7 +91,7 @@ class ArmourType(Enum):
 class ItemRestrictions(Enum):
     """Restrictions applied to some items."""
 
-    UNTRADEABLE = "UNTRADEABLE"
+    UNTRADABLE = "UNTRADABLE"
     """Items that cannot be traded or dropped."""
 
     QUEST_ITEM = "QUEST_ITEM"

@@ -14,8 +14,8 @@ class ItemEndpoint(Endpoint):
         return [Item(self._corkus, i) for i in response.get("items", {})]
 
     async def search_by_type(self, type: ItemType) -> List[Item]:
-        """Search for the items using their name
-        (:py:attr:`Item.name <corkus.objects.Item.name>`).
+        """Search for the items using their type
+        (:py:attr:`Item.type <corkus.objects.Item.type>`).
 
         .. py:currentmodule:: corkus.objects
 
@@ -25,7 +25,7 @@ class ItemEndpoint(Endpoint):
             :py:attr:`ItemType.FOOD`. Providing them will raise
             :py:exc:`corkus.errors.InvalidInputError`
 
-        :param name: The name of returned items.
+        :param type: The type of returned items.
         :raises InvalidInputError: When invalid type is provided."""
         if type in (ItemType.SCROLL, ItemType.FOOD, ItemType.POTION):
             raise InvalidInputError(f"Searching for crafteds items, like {type}, is not possible.")

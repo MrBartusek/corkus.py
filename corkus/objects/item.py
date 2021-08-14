@@ -26,7 +26,7 @@ class Item(CorkusBase):
     @property
     def type(self) -> ItemType:
         """Type of the item."""
-        return ItemType(self._attributes.get("type", "Wand").upper())
+        return ItemType(self._attributes.get("type", self._attributes.get("accessoryType", "Wand")).upper())
 
     @property
     def tier(self) -> ItemTier:
@@ -53,7 +53,7 @@ class Item(CorkusBase):
         if self._attributes.get("armorType", None) is None:
             return None
         else:
-            return ArmourType(self._attributes.get("armorType"))
+            return ArmourType(self._attributes.get("armorType").upper())
 
     @property
     def armour_color(self) -> Union[Color, None]:
@@ -61,7 +61,7 @@ class Item(CorkusBase):
         if :py:attr:`armour_type` is :py:attr:`ArmourType.LEATHER` or
         else returns ``None``."""
         if self.armour_type == ArmourType.LEATHER:
-            return Color(self._attributes.get("armorColor", "160,101,64").split(","))
+            return Color(tuple([int(c) for c in self._attributes.get("armorColor", "160,101,64").split(",")]))
         else:
             return None
 
@@ -78,6 +78,16 @@ class Item(CorkusBase):
         ``None`` if item can be used by all classes."""
         if self._attributes.get("classRequirement") is not None:
             return ClassType(self._attributes.get("classRequirement"))
+        elif self.type == ItemType.BOW:
+            return ClassType.ARCHER
+        elif self.type == ItemType.SPEAR:
+            return ClassType.WARRIOR
+        elif self.type == ItemType.WAND:
+            return ClassType.MAGE
+        elif self.type == ItemType.DAGGER:
+            return ClassType.ASSASSIN
+        elif self.type == ItemType.RELIK:
+            return ClassType.SKYSEER
         else:
             return None
 
@@ -93,7 +103,7 @@ class Item(CorkusBase):
         if self._attributes.get("restrictions", None) is None:
             return None
         else:
-            return ItemRestrictions(self._attributes.get("restrictions"))
+            return ItemRestrictions(self._attributes.get("restrictions").upper().replace(" ", "_"))
 
     @property
     def lore(self) -> Union[str, None]:
@@ -108,7 +118,7 @@ class Item(CorkusBase):
         .. _block: https://minecraft.fandom.com/wiki/Java_Edition_data_values/Pre-flattening/Block_IDs
         .. _item: https://minecraft.fandom.com/wiki/Java_Edition_data_values/Pre-flattening/Item_IDs
         .. _data value: https://minecraft.fandom.com/wiki/Java_Edition_data_values/Pre-flattening"""
-        return self._attributes.get("material", self._generate_id())
+        return self._attributes.get("material") or self._generate_id()
 
     def _generate_id(self) -> str:
         if self.armour_type == ArmourType.LEATHER:
