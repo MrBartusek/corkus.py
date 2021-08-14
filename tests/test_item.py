@@ -1,11 +1,10 @@
 # pylint: disable=attribute-defined-outside-init
 
-from corkus.objects.enums import ArmourType
 import unittest
 import asyncio
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import ItemType, ItemTier, ClassType, ItemRestrictions
+from corkus.objects import ItemType, ItemTier, ClassType, ItemRestrictions, ArmourType
 from corkus.errors import InvalidInputError
 
 class TestItem(unittest.IsolatedAsyncioTestCase):
