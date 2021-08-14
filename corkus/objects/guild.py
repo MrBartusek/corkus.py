@@ -12,7 +12,11 @@ class Guild(BaseGuild):
 
     @property
     def level_progress(self) -> float:
-        """Progress to next :py:attr:`level` in precentage 0-100%"""
+        """Progress to next :py:attr:`level` in precentage 0-100%
+
+        .. caution::
+                This property is currently bugged and return invalid precentage. See:
+                `Wynncraft/WynncraftAPI#61 <https://github.com/Wynncraft/WynncraftAPI/issues/61>`_."""
         return self._attributes.get("xp", 0)
 
     def __repr__(self) -> str:

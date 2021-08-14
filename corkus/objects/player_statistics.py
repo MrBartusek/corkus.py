@@ -18,7 +18,7 @@ class ClassStatistics(CorkusBase):
         """Total items identified
 
         .. caution::
-                This property is currently bugged and will always return ``0``. See:
+                This property is currently bugged and always returns ``0``. See:
                 `Wynncraft/WynncraftAPI#62 <https://github.com/Wynncraft/WynncraftAPI/issues/62>`_.
         """
         return self._attributes.get("itemsIdentified", 0)

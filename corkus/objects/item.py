@@ -16,7 +16,11 @@ class Item(CorkusBase):
 
     @property
     def display_name(self) -> str:
-        """Name that should be displayed to end-user, usually match :py:attr:`name`."""
+        """Name that should be displayed to end-user, usually match :py:attr:`name`.
+
+        .. caution::
+                This property may not be reliable. See:
+                `Wynncraft/WynncraftAPI19 <https://github.com/Wynncraft/WynncraftAPI/issues/19>`_."""
         return self._attributes.get("displayName", self.name)
 
     @property
@@ -31,7 +35,11 @@ class Item(CorkusBase):
 
     @property
     def set(self) -> Union[str, None]:
-        """The name of the set this item is part of. ``None`` if not part of a set."""
+        """The name of the set this item is part of. ``None`` if not part of a set.
+
+        .. caution::
+                This property is currently bugged and works only for ``Leaf`` set. See:
+                `Wynncraft/WynncraftAPI#36 <https://github.com/Wynncraft/WynncraftAPI/issues/36>`_."""
         return self._attributes.get("set", None)
 
     @property
