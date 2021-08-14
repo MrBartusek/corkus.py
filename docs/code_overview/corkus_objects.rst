@@ -10,10 +10,12 @@ Working with Corkus Objects
    :maxdepth: 2
    :caption: Objects
 
+   objects/armour_type
    objects/banner_color
    objects/banner_pattern
    objects/class_statistics
    objects/class_type
+   objects/color
    objects/corkus_uuid
    objects/dungeon
    objects/dungeon_type
@@ -28,6 +30,9 @@ Working with Corkus Objects
    objects/ingredient_item_modifiers
    objects/ingredient_position_modifiers
    objects/ingredient_sprite
+   objects/item
+   objects/item_restrictions
+   objects/item_tier
    objects/item_type
    objects/leaderboard_guild
    objects/leaderboard_partial_member

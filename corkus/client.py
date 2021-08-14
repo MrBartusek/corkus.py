@@ -11,7 +11,8 @@ from corkus.endpoints import (
     SearchEndpoint,
     IngredientEndpoint,
     LeaderboardEndpoint,
-    RecipeEndpoint
+    RecipeEndpoint,
+    ItemEndpoint
 )
 
 if TYPE_CHECKING:
@@ -39,11 +40,6 @@ class Corkus:
         await self.close()
 
     @property
-    def network(self) -> NetworkEndpoint:
-        """Wynncraft Network specific routes like list of all players."""
-        return NetworkEndpoint(self)
-
-    @property
     def player(self) -> PlayerEndpoint:
         """Statistics of players."""
         return PlayerEndpoint(self)
@@ -52,6 +48,11 @@ class Corkus:
     def guild(self) -> GuildEndpoint:
         """Information about server guilds."""
         return GuildEndpoint(self)
+
+    @property
+    def network(self) -> NetworkEndpoint:
+        """Wynncraft Network specific routes like list of all players."""
+        return NetworkEndpoint(self)
 
     @property
     def territory(self) -> TerritoryEndpoint:
@@ -64,6 +65,16 @@ class Corkus:
         return SearchEndpoint(self)
 
     @property
+    def item(self) -> ItemEndpoint:
+        """Regular (not crafted) items database."""
+        return ItemEndpoint(self)
+
+    @property
+    def recipe(self) -> RecipeEndpoint:
+        """Crafted items statistics and recipes."""
+        return RecipeEndpoint(self)
+
+    @property
     def ingredient(self) -> IngredientEndpoint:
         """Information about ingredients."""
         return IngredientEndpoint(self)
@@ -72,11 +83,6 @@ class Corkus:
     def leaderboard(self) -> LeaderboardEndpoint:
         """Leaderboards of best players and guilds."""
         return LeaderboardEndpoint(self)
-
-    @property
-    def recipe(self) -> RecipeEndpoint:
-        """Crafted items statistics and recipes."""
-        return RecipeEndpoint(self)
 
     @property
     def request(self) -> CorkusRequest:

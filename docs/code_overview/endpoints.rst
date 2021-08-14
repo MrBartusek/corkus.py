@@ -24,6 +24,7 @@ List of all endpoints
     endpoints/network
     endpoints/territory
     endpoints/search
-    endpoints/leaderboard
+    endpoints/item
     endpoints/ingredient
     endpoints/recipe
+    endpoints/leaderboard

@@ -30,7 +30,7 @@ class Territory(CorkusBase):
 
     @property
     def attacker(self) -> Union[PartialGuild, None]:
-        """Guild that is currently attacking the territory"""
+        """Guild that is currently attacking the territory."""
         guid_name = self._attributes.get("attacker", None)
         if guid_name is None:
             return None
@@ -38,8 +38,13 @@ class Territory(CorkusBase):
             return PartialGuild(self._corkus, guid_name)
 
     @property
+    def is_attacked(self) -> bool:
+        """Is this territory currently under attack."""
+        return self.attacker is not None
+
+    @property
     def location(self) -> TerritoryLocation:
-        """The name of the territory"""
+        """The location of the territory."""
         return TerritoryLocation(self._corkus, self._attributes.get("location", {}))
 
     def __repr__(self) -> str:

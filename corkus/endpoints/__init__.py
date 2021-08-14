@@ -8,3 +8,4 @@ from .search import SearchEndpoint
 from .ingredient import IngredientEndpoint
 from .leaderboard import LeaderboardEndpoint
 from .recipe import RecipeEndpoint
+from .item import ItemEndpoint

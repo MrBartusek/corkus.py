@@ -20,9 +20,9 @@ class CorkusRequest:
         self._session = session
         self._ratelimit = RateLimiter(ratelimit_enable)
         self._cache = CorkusCache(cache_enable)
+        self.timeout = timeout
         if session is None:
             self._session = ClientSession(
-                timeout = ClientTimeout(total = timeout),
                 headers = {
                     "User-Agent": f"Corkus.py/{__version__}",
                     "Content-Type": "application/json"
@@ -54,7 +54,7 @@ class CorkusRequest:
             return copy.copy(cache_element.content)
 
         await self._ratelimit.limit()
-        response = await self._session.get(url)
+        response = await self._session.get(url, timeout = self._get_timeout(url))
         data = await response.json()
         self._ratelimit.update(response.headers)
         self._fix_status_codes(data, response)
@@ -72,6 +72,10 @@ class CorkusRequest:
             raise BadRequest(response)
         else:
             raise HTTPException(response)
+
+    def _get_timeout(self, url: str) -> ClientTimeout:
+        multilayer = 3 if "itemDB&category" in url else 1
+        return ClientTimeout(total = self.timeout * multilayer)
 
     def _prepare_data(self, data):
         """Reduce to data object for v2 endpoints"""

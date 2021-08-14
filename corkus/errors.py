@@ -6,10 +6,15 @@ class CorkusException(Exception):
     Ideally speaking, this could be caught to handle any exceptions thrown from this library.
     """
 
+class InvalidInputError(CorkusException):
+    """Exception that's thrown when you call a corkus function with
+    invalid arguments. Corkus verified that argument isn't valid
+    before sending request."""
+
 class HTTPException(CorkusException):
     """Exception that's thrown when an HTTP request operation fails."""
     def __init__(self, response: ClientResponse) -> None:
-        super().__init__()
+        super().__init__("received not successful status code: HTTP " + str(response.status))
         self._response = response
 
     @property

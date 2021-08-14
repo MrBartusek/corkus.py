@@ -7,6 +7,7 @@ Exceptions hierarchy:
 
 - :py:exc:`CorkusException`
 
+  - :py:exc:`InvalidInputError`
   - :py:exc:`HTTPException`
 
     - :py:exc:`WynncraftServerError`
