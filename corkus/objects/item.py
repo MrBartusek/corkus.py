@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import Literal, List, Union
+from typing import Union
 
 from .base import CorkusBase
 from .enums import ArmourType, ItemType, ItemTier, ItemRestrictions

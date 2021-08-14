@@ -20,7 +20,9 @@ disable=
     comparison-with-callable,
     cyclic-import, # If something will be really weong tests will fail
     duplicate-code,
-    redefined-builtin
+    redefined-builtin,
+    too-many-return-statements,
+    too-many-branches
 
 [FORMAT]
 max-line-length=240
