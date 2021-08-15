@@ -73,3 +73,7 @@ Output:
 username: Salted
 chests_found: 219
 ```
+
+## Links
+- [Documentation](https://corkuspy.readthedocs.io)
+- [PyPi Package](https://pypi.org/project/corkus.py/)
