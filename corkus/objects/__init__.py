@@ -41,10 +41,10 @@ from .ingredient_comsumable import IngredientComsumableModifiers
 from .ingredient_item import IngredientItemModifiers
 from .level_range import LevelRange
 
-from .item import Item
+from .item import Item, ArmourType, ItemTier, ItemRestrictions
 
 from .uuid import CorkusUUID
 from .search_result import SearchResult
 from .identification import Identification
-from .enums import ProfessionType, Timeframe, ItemType, LogicSymbol, ArmourType, ItemTier, ItemRestrictions
+from .enums import ProfessionType, Timeframe, ItemType, LogicSymbol
 from .color import Color

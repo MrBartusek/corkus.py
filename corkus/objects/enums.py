@@ -67,33 +67,3 @@ class ItemType(Enum):
     """Crafted item."""
     FOOD = "FOOD"
     """Crafted item."""
-
-class ItemTier(Enum):
-    """Rarity tier of the item"""
-
-    SET = "SET"
-    NORMAL = "NORMAL"
-    UNIQUE = "UNIQUE"
-    RARE = "RARE"
-    LEGENDARY = "LEGENDARY"
-    FABLED = "FABLED"
-    MYTHIC = "MYTHIC"
-
-class ArmourType(Enum):
-    """Material from which armour is made, same as in vanilla."""
-
-    LEATHER = "LEATHER"
-    IRON = "IRON"
-    CHAIN = "CHAIN"
-    GOLDEN = "GOLDEN"
-    DIAMOND = "DIAMOND"
-
-class ItemRestrictions(Enum):
-    """Restrictions applied to some items."""
-
-    UNTRADABLE = "UNTRADABLE"
-    """Items that cannot be traded or dropped."""
-
-    QUEST_ITEM = "QUEST_ITEM"
-    """A special kind of :py:attr:`UNTRADEABLE` items awarded during
-    or after completing a quest."""
