@@ -24,7 +24,7 @@ class LeaderboardGuild(BaseGuild):
 
     @property
     def war_count(self) -> int:
-        """Total wars performed by this guild."""
+        """Number of wars the guild has done, including failed ones."""
         return self._attributes.get("warCount", 0)
 
     async def fetch(self) -> Guild:
