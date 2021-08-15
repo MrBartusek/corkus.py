@@ -22,7 +22,6 @@ setup(
     url='https://github.com/MrBartusek/corkus.py',
     project_urls={
         "Documentation": "https://corkuspy.readthedocs.io/en/latest/",
-        "Source": "https://github.com/MrBartusek/corkus.py/",
         "Issue tracker": "https://github.com/MrBartusek/corkus.py/issues"
     },
     version=version,
