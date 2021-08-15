@@ -1,0 +1,32 @@
+name: Upload Python Package
+
+on:
+  create:
+    tags:
+      - v*
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 📥 Checkout the repository
+      uses: actions/checkout@v2
+
+    - name: 🛠️ Set up Python 3
+      uses: actions/setup-python@v2
+      id: python
+      with:
+        python-version: 3.x
+
+    - name: 📦 Install dependencies
+      run: |
+        python3 -m pip --disable-pip-version-check install -r requirements.txt
+        python3 -m pip --disable-pip-version-check install setuptools twine
+    - name: ⚙️ Build and publish
+      env:
+        TWINE_USERNAME: __token__
+        TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+      run: |
+        python setup.py sdist
+        twine upload dist/*
