@@ -82,6 +82,25 @@ You don't need to use it, this code works exactly the same:
     bigger applications
 
 Obtain a :class:`.Player`
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-TODO
+To obtain a :class:`.Player` instance, you must first obtain
+:class:`.PlayerEndpoint` instance. To access any
+endpoint in corkus you need to use properties of :class:`.Corkus` instance.
+:class:`.PlayerEndpoint` is available under
+:attr:`.Corkus.player`
+
+.. code-block:: python
+
+    # assume you have a corkus instance bound to variable ` corkus`
+
+    player = await corkus.player.get("Salted")
+    print(f"username: {player.username}")
+    print(f"chests_found: {player.statistics.chests_found}")
+
+Output:
+
+.. code-block::
+
+    username: Salted
+    chests_found: 219
