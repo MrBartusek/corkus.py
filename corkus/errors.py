@@ -14,7 +14,7 @@ class InvalidInputError(CorkusException):
 class HTTPException(CorkusException):
     """Exception that's thrown when an HTTP request operation fails."""
     def __init__(self, response: ClientResponse) -> None:
-        super().__init__("received not successful status code: HTTP " + str(response.status))
+        super().__init__(f"received status code: HTTP {response.status} for {response.url}")
         self._response = response
 
     @property

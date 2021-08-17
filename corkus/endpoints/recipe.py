@@ -43,7 +43,7 @@ class RecipeEndpoint(Endpoint):
         """
         response = await self._request.get(
             version = APIVersion.V2,
-            parameters = "recipe/search/type/" + type.value.capitalize(),
+            parameters = "recipe/search/type/" + type.value.lower(),
             timeout = timeout
         )
         return [Recipe(self._corkus, r) for r in response.get("data", [])]
@@ -57,7 +57,7 @@ class RecipeEndpoint(Endpoint):
         """
         response = await self._request.get(
             version = APIVersion.V2,
-            parameters = "recipe/search/type/" + profession.value.capitalize(),
+            parameters = "recipe/search/skill/" + profession.value.lower(),
             timeout = timeout
         )
         return [Recipe(self._corkus, r) for r in response.get("data", [])]

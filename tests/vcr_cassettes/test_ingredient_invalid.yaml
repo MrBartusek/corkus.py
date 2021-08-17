@@ -5,21 +5,21 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.2.2
+      - Corkus.py/0.3.0
     method: GET
     uri: https://api.wynncraft.com/v2/ingredient/get/an_invalid_ingredient
   response:
     body:
-      string: '{"kind":"wynncraft/ingredient/get/an_invalid_ingredient","code":400,"timestamp":1628861455474,"version":"2.1.0","data":[]}'
+      string: '{"kind":"wynncraft/ingredient/get/an_invalid_ingredient","code":400,"timestamp":1629225181081,"version":"2.1.0","data":[]}'
     headers:
       cache-control:
-      - max-age=3600
+      - max-age=906
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '177'
+      - '165'
       ratelimit-reset:
-      - '5'
+      - '6'
     status:
       code: 400
       message: Bad Request

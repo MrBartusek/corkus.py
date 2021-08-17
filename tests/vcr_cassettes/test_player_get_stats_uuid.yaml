@@ -5,12 +5,12 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.1.0
+      - Corkus.py/0.3.0
     method: GET
     uri: https://api.wynncraft.com/v2/player/0edc3eb6-74d8-49b6-8b2a-3c0782183e3a/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/0edc3eb6-74d8-49b6-8b2a-3c0782183e3a/stats","code":200,"timestamp":1628676831275,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-07-26T17:02:09.988Z","location":{"online":false,"server":null},"playtime":2866,"tag":{"display":true,"value":"VIP"},"veteran":false},"classes":[{"name":"mage","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
+      string: '{"kind":"wynncraft/player/0edc3eb6-74d8-49b6-8b2a-3c0782183e3a/stats","code":200,"timestamp":1629227883445,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-07-26T17:02:09.988Z","location":{"online":false,"server":null},"playtime":2866,"tag":{"display":true,"value":"VIP"},"veteran":false},"classes":[{"name":"mage","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
         Sewers","completed":4},{"name":"Lost Sanctuary","completed":2},{"name":"Underworld
         Crypt","completed":1},{"name":"Ice Barrows","completed":6},{"name":"Sand-Swept
         Tomb","completed":4},{"name":"Undergrowth Ruins","completed":5},{"name":"Galleon''s
@@ -63,7 +63,13 @@ interactions:
         Farplane","rank":"CHIEF"},"global":{"chestsFound":1425,"blocksWalked":17308984,"itemsIdentified":0,"mobsKilled":48314,"totalLevel":{"combat":102,"profession":663,"combined":765},"pvp":{"kills":0,"deaths":0},"logins":598,"deaths":119,"discoveries":586,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
     headers:
       cache-control:
-      - max-age=314
+      - max-age=598
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '164'
+      ratelimit-reset:
+      - '55'
     status:
       code: 200
       message: OK

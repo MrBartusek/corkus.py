@@ -1,0 +1,67 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Corkus.py/0.3.0
+    method: GET
+    uri: https://api.wynncraft.com/v2/recipe/search/type/helmet
+  response:
+    body:
+      string: '{"kind":"wynncraft/recipe/search/type/helmet","code":200,"timestamp":1629227890047,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Copper Ingot","amount":1},{"item":"Refined Oak Paper","amount":2}],"healthOrDamage":{"minimum":11,"maximum":14},"durability":{"minimum":175,"maximum":182},"id":"Helmet-1-3"},{"level":{"minimum":3,"maximum":5},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Copper Ingot","amount":1},{"item":"Refined Oak Paper","amount":2}],"healthOrDamage":{"minimum":14,"maximum":21},"durability":{"minimum":182,"maximum":189},"id":"Helmet-3-5"},{"level":{"minimum":5,"maximum":7},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Copper Ingot","amount":1},{"item":"Refined Oak Paper","amount":2}],"healthOrDamage":{"minimum":21,"maximum":27},"durability":{"minimum":189,"maximum":196},"id":"Helmet-5-7"},{"level":{"minimum":7,"maximum":9},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Copper Ingot","amount":1},{"item":"Refined Oak Paper","amount":2}],"healthOrDamage":{"minimum":26,"maximum":38},"durability":{"minimum":196,"maximum":203},"id":"Helmet-7-9"},{"level":{"minimum":10,"maximum":13},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Granite Ingot","amount":2},{"item":"Refined Birch Paper","amount":4}],"healthOrDamage":{"minimum":35,"maximum":47},"durability":{"minimum":207,"maximum":217},"id":"Helmet-10-13"},{"level":{"minimum":13,"maximum":15},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Granite Ingot","amount":2},{"item":"Refined Birch Paper","amount":4}],"healthOrDamage":{"minimum":47,"maximum":67},"durability":{"minimum":217,"maximum":224},"id":"Helmet-13-15"},{"level":{"minimum":15,"maximum":17},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Granite Ingot","amount":2},{"item":"Refined Birch Paper","amount":4}],"healthOrDamage":{"minimum":67,"maximum":79},"durability":{"minimum":224,"maximum":231},"id":"Helmet-15-17"},{"level":{"minimum":17,"maximum":19},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Granite Ingot","amount":2},{"item":"Refined Birch Paper","amount":4}],"healthOrDamage":{"minimum":79,"maximum":92},"durability":{"minimum":231,"maximum":238},"id":"Helmet-17-19"},{"level":{"minimum":20,"maximum":23},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Gold Ingot","amount":2},{"item":"Refined Willow Paper","amount":4}],"healthOrDamage":{"minimum":87,"maximum":104},"durability":{"minimum":238,"maximum":252},"id":"Helmet-20-23"},{"level":{"minimum":23,"maximum":25},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Gold Ingot","amount":2},{"item":"Refined Willow Paper","amount":4}],"healthOrDamage":{"minimum":99,"maximum":121},"durability":{"minimum":252,"maximum":259},"id":"Helmet-23-25"},{"level":{"minimum":25,"maximum":27},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Gold Ingot","amount":2},{"item":"Refined Willow Paper","amount":4}],"healthOrDamage":{"minimum":121,"maximum":148},"durability":{"minimum":259,"maximum":266},"id":"Helmet-25-27"},{"level":{"minimum":27,"maximum":29},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Gold Ingot","amount":2},{"item":"Refined Willow Paper","amount":4}],"healthOrDamage":{"minimum":148,"maximum":176},"durability":{"minimum":266,"maximum":273},"id":"Helmet-27-29"},{"level":{"minimum":30,"maximum":33},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Sandstone Ingot","amount":3},{"item":"Refined Acacia Paper","amount":6}],"healthOrDamage":{"minimum":160,"maximum":190},"durability":{"minimum":277,"maximum":287},"id":"Helmet-30-33"},{"level":{"minimum":33,"maximum":35},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Sandstone Ingot","amount":3},{"item":"Refined Acacia Paper","amount":6}],"healthOrDamage":{"minimum":190,"maximum":225},"durability":{"minimum":287,"maximum":294},"id":"Helmet-33-35"},{"level":{"minimum":35,"maximum":37},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Sandstone Ingot","amount":3},{"item":"Refined Acacia Paper","amount":6}],"healthOrDamage":{"minimum":225,"maximum":260},"durability":{"minimum":294,"maximum":301},"id":"Helmet-35-37"},{"level":{"minimum":37,"maximum":39},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Sandstone Ingot","amount":3},{"item":"Refined Acacia Paper","amount":6}],"healthOrDamage":{"minimum":260,"maximum":300},"durability":{"minimum":301,"maximum":308},"id":"Helmet-37-39"},{"level":{"minimum":40,"maximum":43},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Iron Ingot","amount":3},{"item":"Refined Spruce Paper","amount":6}],"healthOrDamage":{"minimum":310,"maximum":365},"durability":{"minimum":312,"maximum":322},"id":"Helmet-40-43"},{"level":{"minimum":43,"maximum":45},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Iron Ingot","amount":3},{"item":"Refined Spruce Paper","amount":6}],"healthOrDamage":{"minimum":365,"maximum":420},"durability":{"minimum":322,"maximum":329},"id":"Helmet-43-45"},{"level":{"minimum":45,"maximum":47},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Iron Ingot","amount":3},{"item":"Refined Spruce Paper","amount":6}],"healthOrDamage":{"minimum":420,"maximum":480},"durability":{"minimum":329,"maximum":336},"id":"Helmet-45-47"},{"level":{"minimum":47,"maximum":49},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Iron Ingot","amount":3},{"item":"Refined Spruce Paper","amount":6}],"healthOrDamage":{"minimum":480,"maximum":540},"durability":{"minimum":336,"maximum":343},"id":"Helmet-47-49"},{"level":{"minimum":50,"maximum":53},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Silver Ingot","amount":4},{"item":"Refined Jungle Paper","amount":8}],"healthOrDamage":{"minimum":550,"maximum":630},"durability":{"minimum":347,"maximum":357},"id":"Helmet-50-53"},{"level":{"minimum":53,"maximum":55},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Silver Ingot","amount":4},{"item":"Refined Jungle Paper","amount":8}],"healthOrDamage":{"minimum":630,"maximum":740},"durability":{"minimum":357,"maximum":364},"id":"Helmet-53-55"},{"level":{"minimum":55,"maximum":57},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Silver Ingot","amount":4},{"item":"Refined Jungle Paper","amount":8}],"healthOrDamage":{"minimum":740,"maximum":850},"durability":{"minimum":364,"maximum":371},"id":"Helmet-55-57"},{"level":{"minimum":57,"maximum":59},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Silver Ingot","amount":4},{"item":"Refined Jungle Paper","amount":8}],"healthOrDamage":{"minimum":850,"maximum":960},"durability":{"minimum":371,"maximum":378},"id":"Helmet-57-59"},{"level":{"minimum":60,"maximum":63},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Cobalt Ingot","amount":4},{"item":"Refined Dark Paper","amount":8}],"healthOrDamage":{"minimum":970,"maximum":1070},"durability":{"minimum":382,"maximum":392},"id":"Helmet-60-63"},{"level":{"minimum":63,"maximum":65},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Cobalt Ingot","amount":4},{"item":"Refined Dark Paper","amount":8}],"healthOrDamage":{"minimum":1070,"maximum":1160},"durability":{"minimum":392,"maximum":399},"id":"Helmet-63-65"},{"level":{"minimum":65,"maximum":67},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Cobalt Ingot","amount":4},{"item":"Refined Dark Paper","amount":8}],"healthOrDamage":{"minimum":1160,"maximum":1260},"durability":{"minimum":399,"maximum":406},"id":"Helmet-65-67"},{"level":{"minimum":67,"maximum":69},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Cobalt Ingot","amount":4},{"item":"Refined Dark Paper","amount":8}],"healthOrDamage":{"minimum":1260,"maximum":1350},"durability":{"minimum":406,"maximum":413},"id":"Helmet-67-69"},{"level":{"minimum":70,"maximum":73},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Kanderstone Ingot","amount":5},{"item":"Refined Light Paper","amount":10}],"healthOrDamage":{"minimum":1360,"maximum":1480},"durability":{"minimum":417,"maximum":427},"id":"Helmet-70-73"},{"level":{"minimum":73,"maximum":75},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Kanderstone Ingot","amount":5},{"item":"Refined Light Paper","amount":10}],"healthOrDamage":{"minimum":1480,"maximum":1600},"durability":{"minimum":427,"maximum":434},"id":"Helmet-73-75"},{"level":{"minimum":75,"maximum":77},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Kanderstone Ingot","amount":5},{"item":"Refined Light Paper","amount":10}],"healthOrDamage":{"minimum":1600,"maximum":1730},"durability":{"minimum":434,"maximum":441},"id":"Helmet-75-77"},{"level":{"minimum":77,"maximum":79},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Kanderstone Ingot","amount":5},{"item":"Refined Light Paper","amount":10}],"healthOrDamage":{"minimum":1730,"maximum":1850},"durability":{"minimum":441,"maximum":448},"id":"Helmet-77-79"},{"level":{"minimum":80,"maximum":83},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Diamond Ingot","amount":5},{"item":"Refined Pine Paper","amount":10}],"healthOrDamage":{"minimum":1870,"maximum":2010},"durability":{"minimum":452,"maximum":462},"id":"Helmet-80-83"},{"level":{"minimum":83,"maximum":85},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Diamond Ingot","amount":5},{"item":"Refined Pine Paper","amount":10}],"healthOrDamage":{"minimum":2010,"maximum":2160},"durability":{"minimum":462,"maximum":469},"id":"Helmet-83-85"},{"level":{"minimum":85,"maximum":87},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Diamond Ingot","amount":5},{"item":"Refined Pine Paper","amount":10}],"healthOrDamage":{"minimum":2160,"maximum":2320},"durability":{"minimum":469,"maximum":476},"id":"Helmet-85-87"},{"level":{"minimum":87,"maximum":89},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Diamond Ingot","amount":5},{"item":"Refined Pine Paper","amount":10}],"healthOrDamage":{"minimum":2320,"maximum":2460},"durability":{"minimum":476,"maximum":483},"id":"Helmet-87-89"},{"level":{"minimum":90,"maximum":93},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Molten Ingot","amount":6},{"item":"Refined Avo Paper","amount":12}],"healthOrDamage":{"minimum":2480,"maximum":2640},"durability":{"minimum":483,"maximum":497},"id":"Helmet-90-93"},{"level":{"minimum":93,"maximum":95},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Molten Ingot","amount":6},{"item":"Refined Avo Paper","amount":12}],"healthOrDamage":{"minimum":2640,"maximum":2840},"durability":{"minimum":497,"maximum":504},"id":"Helmet-93-95"},{"level":{"minimum":95,"maximum":97},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Molten Ingot","amount":6},{"item":"Refined Avo Paper","amount":12}],"healthOrDamage":{"minimum":2840,"maximum":3020},"durability":{"minimum":504,"maximum":511},"id":"Helmet-95-97"},{"level":{"minimum":97,"maximum":99},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Molten Ingot","amount":6},{"item":"Refined Avo Paper","amount":12}],"healthOrDamage":{"minimum":3020,"maximum":3200},"durability":{"minimum":511,"maximum":518},"id":"Helmet-97-99"},{"level":{"minimum":100,"maximum":103},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Voidstone Ingot","amount":6},{"item":"Refined Sky Paper","amount":12}],"healthOrDamage":{"minimum":3250,"maximum":3300},"durability":{"minimum":522,"maximum":525},"id":"Helmet-100-103"},{"level":{"minimum":103,"maximum":105},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+        Dernic Ingot","amount":6},{"item":"Refined Dernic Paper","amount":12}],"healthOrDamage":{"minimum":3300,"maximum":3350},"durability":{"minimum":525,"maximum":527},"id":"Helmet-103-105"}]}'
+    headers:
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '142'
+      ratelimit-reset:
+      - '50'
+    status:
+      code: 200
+      message: OK
+    url: https://api.wynncraft.com/v2/recipe/search/type/helmet
+version: 1

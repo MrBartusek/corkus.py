@@ -55,7 +55,7 @@ class IngredientEndpoint(Endpoint):
         """
         response = await self._request.get(
             version = APIVersion.V2,
-            parameters = "ingredient/search/tier/" + tier,
+            parameters = "ingredient/search/tier/" + str(tier),
             timeout = timeout
         )
         return [Ingredient(self._corkus, i) for i in response.get("data", [])]
@@ -69,7 +69,7 @@ class IngredientEndpoint(Endpoint):
         """
         response = await self._request.get(
             version = APIVersion.V2,
-            parameters = "ingredient/search/level/" + level,
+            parameters = "ingredient/search/level/" + str(level),
             timeout = timeout
         )
         return [Ingredient(self._corkus, i) for i in response.get("data", [])]
@@ -86,7 +86,7 @@ class IngredientEndpoint(Endpoint):
 
         response = await self._request.get(
             version = APIVersion.V2,
-            parameters = "ingredient/search/skills/" + symbol + professions.join(","),
+            parameters = "ingredient/search/skills/" + symbol.value + ",".join(professions),
             timeout = timeout
         )
         return [Ingredient(self._corkus, i) for i in response.get("data", [])]

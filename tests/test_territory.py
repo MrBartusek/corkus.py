@@ -22,7 +22,7 @@ class TestTerritory(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(len(Territory.guild.name), 0)
 
     @vcr.use_cassette
-    async def test_partial_Territory(self):
+    async def test_partial_territory(self):
         all_territories = await self.corkus.territory.list_all()
         Territory = all_territories[0]
         guild = await Territory.guild.fetch()

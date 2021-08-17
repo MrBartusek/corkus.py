@@ -13,7 +13,7 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.corkus = Corkus()
 
     @vcr.use_cassette
-    async def test_get_all(self):
+    async def test_get_all_items(self):
         items = await self.corkus.item.get_all()
         self.assertTrue(all(len(i.name) > 0 for i in items))
         self.assertTrue(any(i.name != i.display_name for i in items))
@@ -25,6 +25,19 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(any(i.required_class == ClassType.SKYSEER for i in items))
         self.assertTrue(any(i.restrictions == ItemRestrictions.QUEST_ITEM for i in items))
         self.assertTrue(any(i.restrictions ==  ItemRestrictions.UNTRADABLE for i in items))
+
+        self.assertTrue(any(i.type == ItemType.HELMET for i in items))
+        self.assertTrue(any(i.type == ItemType.CHESTPLATE for i in items))
+        self.assertTrue(any(i.type == ItemType.LEGGINGS for i in items))
+        self.assertTrue(any(i.type == ItemType.BOOTS for i in items))
+        self.assertTrue(any(i.type == ItemType.RING for i in items))
+        self.assertTrue(any(i.type == ItemType.NECKLACE for i in items))
+        self.assertTrue(any(i.type == ItemType.BRACELET for i in items))
+        self.assertTrue(any(i.type == ItemType.DAGGER for i in items))
+        self.assertTrue(any(i.type == ItemType.SPEAR for i in items))
+        self.assertTrue(any(i.type == ItemType.BOW for i in items))
+        self.assertTrue(any(i.type == ItemType.WAND for i in items))
+        self.assertTrue(any(i.type == ItemType.RELIK for i in items))
 
         ids = [
             "298:0", "299:0", "300:0", "301:0", "302:0",
@@ -90,12 +103,12 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(chestplate.item_id, "299:0")
 
     @vcr.use_cassette
-    async def test_search_type_invalid(self):
+    async def test_search_item_type_invalid(self):
         with self.assertRaises(InvalidInputError):
             await self.corkus.item.search_by_type(ItemType.POTION)
 
     @vcr.use_cassette
-    async def test_search_type(self):
+    async def test_search_item_type(self):
         items = await self.corkus.item.search_by_type(ItemType.NECKLACE)
         self.assertTrue(all(i.type == ItemType.NECKLACE for i in items))
 
