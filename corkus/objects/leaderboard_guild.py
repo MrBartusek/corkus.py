@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Optional
 from .base_guild import BaseGuild
 
 if TYPE_CHECKING:
@@ -27,11 +27,14 @@ class LeaderboardGuild(BaseGuild):
         """Number of wars the guild has done, including failed ones."""
         return self._attributes.get("warCount", 0)
 
-    async def fetch(self) -> Guild:
+    async def fetch(self, timeout: Optional[int] = None) -> Guild:
         """Fetch information about this guild from Guilds API.
 
-        .. include:: ../note_api_call.rst"""
-        return await self._corkus.guild.get(self.name)
+        .. include:: ../note_api_call.rst
+
+        :param timeout: Optionally override default timeout.
+        """
+        return await self._corkus.guild.get(self.name, timeout)
 
     def __repr__(self) -> str:
         return f"<Guild tag={self.tag!r} name={self.name!r}>"

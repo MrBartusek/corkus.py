@@ -28,11 +28,14 @@ class PartialRecipe(CorkusBase):
             maximum = int(self.id.split("-")[2].upper())
         )
 
-    async def fetch(self) -> Recipe:
+    async def fetch(self, timeout: Optional[int] = None) -> Recipe:
         """Fetch full recipe information from API.
 
-        .. include:: ../note_api_call.rst"""
-        return await self._corkus.recipe.get_by_id(self.id)
+        .. include:: ../note_api_call.rst
+
+        :param timeout: Optionally override default timeout.
+        """
+        return await self._corkus.recipe.get_by_id(self.id, timeout)
 
     def __repr__(self) -> str:
         return f"<PartialRecipe id={self.id!r}>"

@@ -1,6 +1,6 @@
 from __future__ import annotations
 from corkus.objects.playtime import PlayerPlaytime
-from typing import TYPE_CHECKING, Union
+from typing import TYPE_CHECKING, Union, Optional
 
 from .base_player import BasePlayer
 from .leaderboard_partial_member import LeaderboardPartialMember
@@ -63,11 +63,14 @@ class LeaderboardPlayer(BasePlayer):
         else:
             return PartialGuild(self._corkus, self._attributes.get("guild"))
 
-    async def fetch(self) -> Player:
+    async def fetch(self, timeout: Optional[int] = None) -> Player:
         """Fetch information about this player from Players API.
 
-        .. include:: ../note_api_call.rst"""
-        return await self._corkus.player.get(self.uuid)
+        .. include:: ../note_api_call.rst
+
+        :param timeout: Optionally override default timeout.
+        """
+        return await self._corkus.player.get(self.uuid, timeout)
 
     def __repr__(self) -> str:
         return f"<LeaderboardPlayer username={self.username!r}>"

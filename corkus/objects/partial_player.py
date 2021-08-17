@@ -29,12 +29,15 @@ class PartialPlayer(PartialBase):
         """Minecraft UUID of player."""
         return self._uuid
 
-    async def fetch(self) -> Player:
+    async def fetch(self, timeout: Optional[int] = None) -> Player:
         """Fetch full player data from API.
 
-        .. include:: ../note_api_call.rst"""
+        .. include:: ../note_api_call.rst
+
+        :param timeout: Optionally override default timeout.
+        """
         identifier = self._uuid if self._uuid is not None else self._username
-        return await self.corkus.player.get(identifier)
+        return await self.corkus.player.get(identifier, timeout)
 
     def __repr__(self) -> str:
         result = "<PartialPlayer"

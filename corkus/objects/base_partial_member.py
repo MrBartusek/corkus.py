@@ -1,6 +1,6 @@
 from __future__ import annotations
 from corkus.objects.guild import Guild
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Optional
 
 from corkus.objects.partial_player import PartialPlayer
 
@@ -23,7 +23,8 @@ class BasePartialMember(PartialPlayer):
     @property
     def player(self) -> PartialPlayer:
         """Reduce to to :class:`PartialPlayer`. Usefull when you want
-        to fetch player information not member information."""
+        to fetch player information not member information.
+        """
         return super()
 
     @property
@@ -31,11 +32,14 @@ class BasePartialMember(PartialPlayer):
         """The guild that this member is a part of."""
         return self._guild
 
-    async def fetch(self) -> Member:
+    async def fetch(self, timeout: Optional[int] = None) -> Member:
         """Fetch more guild data about this member from API.
 
-        .. include:: ../note_api_call.rst"""
-        guild = await self._guild.fetch()
+        .. include:: ../note_api_call.rst
+
+        :param timeout: Optionally override default timeout.
+        """
+        guild = await self._guild.fetch(timeout)
         return next((m for m in guild.members if m.uuid == self._uuid), None)
 
     def __repr__(self) -> str:

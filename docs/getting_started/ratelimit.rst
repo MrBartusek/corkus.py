@@ -25,4 +25,3 @@ You can access current rate limit information by :py:attr:`Corkus.rate_limit <co
 
 .. autoclass:: corkus.client.RateLimit
     :inherited-members:
-

@@ -1,6 +1,6 @@
 from __future__ import annotations
 from .territory import Territory
-from typing import List, TYPE_CHECKING
+from typing import TYPE_CHECKING, Optional, List
 from .partial_base import PartialBase
 
 if TYPE_CHECKING:
@@ -26,9 +26,12 @@ class PartialTeritories(PartialBase):
     def __len__(self) -> int:
         return self.count
 
-    async def fetch(self) -> List[Territory]:
+    async def fetch(self, timeout: Optional[int] = None) -> List[Territory]:
         """Fetch full Territory information from API.
 
-        .. include:: ../note_api_call.rst"""
-        teritories = await self.corkus.territory.list_all()
+        .. include:: ../note_api_call.rst
+
+        :param timeout: Optionally override default timeout.
+        """
+        teritories = await self.corkus.territory.list_all(timeout)
         return [t for t in teritories if t.guild.name == self._guild.name]
