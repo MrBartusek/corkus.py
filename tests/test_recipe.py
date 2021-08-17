@@ -3,7 +3,7 @@
 import unittest
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import ItemType, ProfessionType, LogicSymbol
+from corkus.objects import ItemType, ProfessionType
 
 class TestRecipe(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):

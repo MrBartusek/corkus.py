@@ -1,10 +1,9 @@
 # pylint: disable=attribute-defined-outside-init
 
-from corkus.objects.enums import LogicSymbol
 import unittest
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import PartialIngredient, ProfessionType
+from corkus.objects import PartialIngredient, ProfessionType, LogicSymbol
 from corkus.errors import BadRequest
 
 class TestIngredient(unittest.IsolatedAsyncioTestCase):
