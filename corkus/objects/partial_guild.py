@@ -15,7 +15,7 @@ class PartialGuild(CorkusBase):
         """Fetch full guild information from API.
 
         .. include:: ../note_api_call.rst
-        
+
         :param timeout: Optionally override default timeout.
         """
         return await self._corkus.guild.get(self.name, timeout)
