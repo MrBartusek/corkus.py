@@ -49,7 +49,9 @@ Let's say that you want to get ``level`` of first guild in :py:func:`GuildEndpoi
     .. code-block:: python
 
         all_guilds = await corkus.guild.list_all()
-        guild = await corkus.guild.get(all_guild[0].name)
+        guild_name = all_guild[0].name
+        guild = await corkus.guild.get(guild_name)
+
         print(guild.level) # => 27
 
     Don't do that! You can simplify this code using :py:func:`PartialGuild.fetch`!
@@ -61,9 +63,11 @@ Let's say that you want to get ``level`` of first guild in :py:func:`GuildEndpoi
 
         all_guilds = await corkus.guild.list_all()
         guild = await all_guild[0].fetch()
+
         print(guild.level) # => 27
 
-    This snippet use :py:func:`PartialGuild.fetch` to make code more readable.
+    This snippet use :py:func:`PartialGuild.fetch` to make code more readable and faster to
+    write.
 
 Every ``fetch()`` is a API call
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
