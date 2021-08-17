@@ -9,7 +9,8 @@ if TYPE_CHECKING:
 class Identification(PartialBase):
     """Identification is a bonnus applied to an item to increse or decrees it's effectiveness.
     The actual value of identification is randomly selected between :py:attr:`minimum` and :py:attr:`maximum`
-    when item is identified or crafted."""
+    when item is identified or crafted.
+    """
     def __init__(self, corkus: Corkus, *,
         attributes: Optional[dict] = None,
         minimum: Optional[int] = None,

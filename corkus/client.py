@@ -20,7 +20,8 @@ if TYPE_CHECKING:
 class RateLimit:
     """Current ratelimit information for a Corkus instance. You should considier
     these values as a information rather than use them in regulating your requests
-    since, Corkus have a ratelimit system in place."""
+    since, Corkus have a ratelimit system in place.
+    """
     def __init__(self, total: int, remaining: int, reset: int) -> None:
         self._total = total
         self._remaining = remaining

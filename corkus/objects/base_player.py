@@ -43,7 +43,9 @@ class BasePlayer(CorkusBase):
 
     @property
     def veteran(self) -> bool:
-        "Is player a veteran, meaning, had VIP before August 1, 2014 which was when the 1.12 update was released and Minecraft EULA changed."
+        """Is player a veteran, meaning, had VIP before August 1, 2014 which was when the 1.12 update was
+        released and Minecraft EULA changed.
+        """
         return self._attributes.get("meta", {}).get("veteran", False)
 
     def __repr__(self) -> str:

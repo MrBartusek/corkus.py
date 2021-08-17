@@ -4,10 +4,12 @@ from typing import List
 from .base_guild import BaseGuild
 
 class Guild(BaseGuild):
-    """`Guilds <https://wynncraft.fandom.com/wiki/Guilds>`_ are Wynncraft communities communities of people that work together to achieve their goals."""
+    """`Guilds <https://wynncraft.fandom.com/wiki/Guilds>`_ are Wynncraft communities communities of people
+    that work together to achieve their goals.
+    """
     @property
     def members(self) -> List[Member]:
-        """List of all members currently in guild"""
+        """List of all members currently in guild."""
         return [Member(self._corkus, self , m) for m in self._attributes.get("members", [])]
 
     @property
@@ -15,8 +17,9 @@ class Guild(BaseGuild):
         """Progress to next :py:attr:`level` in precentage 0-100%
 
         .. caution::
-                This property is currently bugged and return invalid precentage. See:
-                `Wynncraft/WynncraftAPI#61 <https://github.com/Wynncraft/WynncraftAPI/issues/61>`_."""
+            This property is currently bugged and return invalid precentage. See:
+            `Wynncraft/WynncraftAPI#61 <https://github.com/Wynncraft/WynncraftAPI/issues/61>`_.
+        """
         return self._attributes.get("xp", 0)
 
     def __repr__(self) -> str:

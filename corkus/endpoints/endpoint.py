@@ -5,7 +5,6 @@ if TYPE_CHECKING:
     from corkus import Corkus
     from corkus.utils.request import CorkusRequest
 
-
 class Endpoint():
     def __init__(self, corkus: Corkus, request: CorkusRequest) -> None:
         self._corkus = corkus

@@ -19,6 +19,7 @@ class NetworkEndpoint(Endpoint):
 
     async def servers_list(self, timeout: Optional[int] = None) -> List[Server]:
         """List all running servers and players that are online on them.
+
         :param timeout: Optionally override default timeout.
         """
         response = await self._request.get(
