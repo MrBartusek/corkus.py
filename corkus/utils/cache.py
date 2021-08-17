@@ -35,25 +35,16 @@ class CacheElement():
         return f"<CacheElement url={self.url!r} valid_timestamp={self.valid_timestamp}>"
 
 class CorkusCache:
-    def __init__(self, enable: bool) -> None:
-        self._enabled = enable
+    def __init__(self) -> None:
         self._cache: List[CacheElement] = []
-
-    @property
-    def enabled(self) -> bool:
-        """Is cache enabled"""
-        return self._enabled
 
     @property
     def content(self) -> List[CacheElement]:
         """Cache content"""
-        if self.enabled:
-            for item in self._cache:
-                if item.valid_timestamp <= time.time():
-                    self._cache.remove(item)
-            return self._cache
-        else:
-            return []
+        for item in self._cache:
+            if item.valid_timestamp <= time.time():
+                self._cache.remove(item)
+        return self._cache
 
     def get(self, url: str) -> Union[CacheElement, None]:
         """Get element with given url. return ``None`` if not found"""
@@ -66,8 +57,6 @@ class CorkusCache:
 
     def add(self, url: str, headers: dict, content: dict) -> None:
         """Add element to cache"""
-        if not self.enabled: return
-
         cache_header = headers.get("cache-control", None)
         if cache_header is None:
             logger.debug(f"No cache-control for: {url} - default to 600")
@@ -79,6 +68,3 @@ class CorkusCache:
         logger.debug(f"Caching: {url} - for {seconds} seconds")
 
         self._cache.append(CacheElement(url, int(time.time()) + int(seconds), content))
-
-    def __repr__(self) -> str:
-        return f"<CorkusCache items={len(self.content)}>"

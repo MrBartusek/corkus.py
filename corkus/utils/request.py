@@ -1,12 +1,17 @@
 from __future__ import annotations
-from corkus.version import __version__
-from typing import List, Optional, Union
+from typing import Optional
+from enum import Enum
+from aiohttp.client import ClientSession, ClientResponse
 import copy
 
-from corkus.utils.cache import CorkusCache
-from aiohttp.client import ClientSession, ClientTimeout, ClientResponse
-from corkus.utils.ratelimit import RateLimiter
+from .cache import CorkusCache
+from .ratelimit import RateLimiter
+from corkus.version import __version__
 from corkus.errors import BadRequest, WynncraftServerError, RatelimitExceeded, HTTPException
+
+class APIVersion(Enum):
+    V1 = "https://api.wynncraft.com/public_api.php?action="
+    V2 = "https://api.wynncraft.com/v2/"
 
 class CorkusRequest:
     """CorkusRequest is a internal overlay over aiohttp to simplify API calls"""
@@ -17,9 +22,12 @@ class CorkusRequest:
         ratelimit_enable: Optional[bool] = True,
         cache_enable: Optional[bool] = True,
     ) -> None:
+        self.ratelimit = RateLimiter()
+        self.cache = CorkusCache()
+        self.ratelimit_enable = ratelimit_enable
+        self.cache_enable = cache_enable
+
         self._session = session
-        self._ratelimit = RateLimiter(ratelimit_enable)
-        self._cache = CorkusCache(cache_enable)
         self.timeout = timeout
         if session is None:
             self._session = ClientSession(
@@ -29,39 +37,24 @@ class CorkusRequest:
                 }
             )
 
-    @property
-    def session(self) -> ClientSession:
-        return self._session
+    async def get(self, version: APIVersion, parameters: str, timeout: Optional[int]) -> dict:
+        url = version.value + parameters
 
-    @property
-    def ratelimit(self) -> RateLimiter:
-        return self._ratelimit
+        if self.cache_enable:
+            cache_element = self.cache.get(url)
+            if cache_element:
+                return copy.copy(cache_element.content)
 
-    @property
-    def cache(self) -> CorkusCache:
-        return self._cache
+        if self.ratelimit_enable:
+            await self.ratelimit.limit()
 
-    async def get(self, url: str) -> Union[dict, List[dict], List[str]]:
-        """ Send HTTP GET to given URL.
-
-        .. note::
-            Directly making API calls is reserver for advanced users only,
-            If there is an endpoint that you can't normall access using library,
-            please `create a issue <https://github.com/MrBartusek/corkus.py/issues/new/choose>`_."""
-
-        cache_element = self._cache.get(url)
-        if cache_element:
-            return copy.copy(cache_element.content)
-
-        await self._ratelimit.limit()
-        response = await self._session.get(url, timeout = self._get_timeout(url))
+        response = await self._session.get(url, timeout = timeout or self.timeout)
         data = await response.json()
-        self._ratelimit.update(response.headers)
+        self.ratelimit.update(response.headers)
         self._fix_status_codes(data, response)
 
         if 200 <= response.status < 400:
-            data = self._prepare_data(data)
-            self._cache.add(url, response.headers, data)
+            self.cache.add(url, response.headers, data)
             return copy.copy(data)
 
         elif response.status >= 500:
@@ -73,20 +66,11 @@ class CorkusRequest:
         else:
             raise HTTPException(response)
 
-    def _get_timeout(self, url: str) -> ClientTimeout:
-        multilayer = 3 if "itemDB&category" in url else 1
-        return ClientTimeout(total = self.timeout * multilayer)
-
-    def _prepare_data(self, data):
-        """Reduce to data object for v2 endpoints"""
-        if data.get("data") is not None:
-            data = data.get("data")
-            if len(data) == 1:
-                data = data[0]
-        return data
+    async def close(self) -> None:
+        return await self._session.close()
 
     def _fix_status_codes(self, data: dict, response: ClientResponse) -> None:
-        """Fix endpoints that return wrong status codes"""
+        """Fix endpoints that return wrong status codes."""
 
         # https://github.com/Wynncraft/WynncraftAPI/issues/63
         # and other similar

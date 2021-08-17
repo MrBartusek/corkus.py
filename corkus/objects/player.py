@@ -81,7 +81,13 @@ class Player(BasePlayer):
 
     @property
     def ranking(self):
-        """.. include:: ../note_not_implemented.rst"""
+        """
+        .. caution::
+            This property will return invalid information if player name is
+            improperly capitalized.
+
+        .. include:: ../note_not_implemented.rst
+        """
         raise NotImplementedError
 
     def __repr__(self) -> str:
