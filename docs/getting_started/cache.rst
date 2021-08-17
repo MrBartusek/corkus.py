@@ -49,10 +49,3 @@ Current cache times are decided intro 3 groups:
 
     - :py:func:`IngredientEndpoint.get`
     - :py:func:`RecipeEndpoint.get_by_id`
-
-Accessing cache
-~~~~~~~~~~~~~~~
-
-.. py:currentmodule:: corkus
-
-See: :py:attr:`CorkusCache`

@@ -11,7 +11,7 @@ class TestRatelimit(unittest.IsolatedAsyncioTestCase):
     @vcr.use_cassette
     async def test_ratelimit(self):
         await self.corkus.ingredient.get("Glow Bulb Seeds")
-        self.assertLess(self.corkus.ratelimit.remaining, self.corkus.ratelimit.total)
+        self.assertLess(self.corkus.rate_limit.remaining, self.corkus.rate_limit.total)
 
     async def asyncTearDown(self):
         await self.corkus.close()

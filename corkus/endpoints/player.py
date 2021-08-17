@@ -14,7 +14,7 @@ class PlayerEndpoint(Endpoint):
 
         .. note::
             If you are getting player by UUID please make sure it's in
-            the dashed form or, even better, wrap it intro :py:class`CorkusUUID`
+            the dashed form or, even better, wrap it intro :py:class:`CorkusUUID <corkus.objects.CorkusUUID>`
             like so:
 
             .. code-block:: python

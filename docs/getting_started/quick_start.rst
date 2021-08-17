@@ -7,15 +7,12 @@ using Corkus.py, the Python Wynncraft API Wrapper. It's fun and easy. Let's get 
 Prerequisites
 -------------
 
-:Python Knowledge:
-    You need to know at least a little Python to use Corkus. It's a asynchronous wrapper so
+:Python Knowledge: You need to know at least a little Python to use Corkus. It's a asynchronous wrapper so
     you need to need basic knowledge how `asyncio`_ work and how to use  ``async`` and ``await``.
     Corkus supports `Python 3.8+`_.
-:Wynncraft Knowledge:
-    A basic understanding of how Wynncraft works is a must. In the event you
+:Wynncraft Knowledge: A basic understanding of how Wynncraft works is a must. In the event you
     are not already familiar with Wynncraft start at `Wynncraft Help`_.
-:Optional `AIOHTTP`_ Knowledge:
-    AIOHTTP is a library that drives Corkus.py and thus understanding how to handle
+:Optional `AIOHTTP`_ Knowledge: AIOHTTP is a library that drives Corkus.py and thus understanding how to handle
     ClientSession would be beneficial.
 
 .. _python 3.8+: https://docs.python.org/3/tutorial/index.html

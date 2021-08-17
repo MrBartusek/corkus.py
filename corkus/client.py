@@ -109,7 +109,7 @@ class Corkus:
         return LeaderboardEndpoint(self, self._request)
 
     @property
-    def ratelimit(self) -> RateLimit:
+    def rate_limit(self) -> RateLimit:
         """Current ratelimit information for this Corkus instance."""
         return RateLimit(
             total = self._request.ratelimit.total,

@@ -18,9 +18,11 @@ When working with Corkus.py you don't need to worry about rate limit. When you a
 limit corkus will execute :py:func:`asyncio.sleep` that will delay you request and log that
 fact using ``corkus.ratelimit`` logger.
 
-Accessing rate limit class
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Accessing rate limit
+~~~~~~~~~~~~~~~~~~~~
 
-.. py:currentmodule:: corkus
+You can access current rate limit information by :py:attr:`Corkus.rate_limit <corkus.Corkus.rate_limit>`
 
-See: :py:attr:`RateLimiter`
+.. autoclass:: corkus.client.RateLimit
+    :inherited-members:
+
