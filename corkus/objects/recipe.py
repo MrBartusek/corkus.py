@@ -11,7 +11,7 @@ class Recipe(CorkusBase):
     """Needed materials and professions for `Crafting <https://wynncraft.fandom.com/wiki/Crafting>`_ a item with given properties."""
     @property
     def level(self) -> LevelRange:
-        """Level range that this item should be used in"""
+        """Level range that this item should be used in."""
         return LevelRange(self._corkus, attributes = self._attributes.get("level", {}))
 
     @property

@@ -7,16 +7,16 @@ from .partial_guild import PartialGuild
 from .territory_location import TerritoryLocation
 
 class Territory(CorkusBase):
-    """Territories are areas which may be claimed by a Guild to receive benefits"""
+    """Territories are areas which may be claimed by a :py:class:`Guild` to receive benefits."""
 
     @property
     def name(self) -> str:
-        """The name of the territory"""
+        """The name of the territory."""
         return self._attributes.get("territory", None)
 
     @property
     def guild(self) -> Union[PartialGuild, None]:
-        """Guild that currently holds the territory"""
+        """Guild that currently holds the territory."""
         guid_name = self._attributes.get("guild", None)
         if guid_name is None or guid_name == "Nobody":
             return None
@@ -25,7 +25,7 @@ class Territory(CorkusBase):
 
     @property
     def acquired(self) -> datetime:
-        """Time when the territory was acquired"""
+        """Datetime when the territory was acquired."""
         return datetime.strptime(self._attributes.get("acquired", "1970-01-01 00:00:00"), "%Y-%m-%d %H:%M:%S")
 
     @property
@@ -44,7 +44,7 @@ class Territory(CorkusBase):
 
     @property
     def location(self) -> TerritoryLocation:
-        """The location of the territory."""
+        """The location of this territory."""
         return TerritoryLocation(self._corkus, self._attributes.get("location", {}))
 
     def __repr__(self) -> str:

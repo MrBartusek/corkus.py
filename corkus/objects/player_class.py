@@ -55,7 +55,7 @@ class PlayerClass(CorkusBase):
 
     @property
     def type(self) -> ClassType:
-        """Class type including re-skinned variants"""
+        """Class type including re-skinned variants."""
         name = "".join([i for i in self.name if not i.isdigit()])
         if name == "darkwizard":
             name = "dark wizard"
@@ -89,7 +89,7 @@ class PlayerClass(CorkusBase):
 
     @property
     def professions(self) -> List[PlayerProfession]:
-        """Returns a list of progress in all professions"""
+        """Returns a list of all players professions."""
         return [PlayerProfession(self._corkus, name, attr) for name, attr in self._attributes.get("professions", {}).items()]
 
     @property

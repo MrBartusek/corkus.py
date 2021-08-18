@@ -9,7 +9,7 @@ from .color import Color
 from .quest import Quest
 
 class ItemTier(Enum):
-    """Rarity tier of the item"""
+    """Rarity tier of the item."""
 
     SET = "SET"
     NORMAL = "NORMAL"
@@ -125,7 +125,7 @@ class Item(CorkusBase):
     @property
     def required_quest(self) -> Union[Quest, None]:
         """The quest that must have been completed in order
-        for this item to be used"""
+        for this item to be used."""
         return self._attributes.get("quest", None)
 
     @property

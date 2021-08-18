@@ -14,7 +14,7 @@ class APIVersion(Enum):
     V2 = "https://api.wynncraft.com/v2/"
 
 class CorkusRequest:
-    """CorkusRequest is a internal overlay over aiohttp to simplify API calls"""
+    """CorkusRequest is a internal overlay over aiohttp to simplify API calls."""
 
     def __init__(self,
         timeout: Optional[int] = 0,

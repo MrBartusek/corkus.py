@@ -7,7 +7,7 @@ if TYPE_CHECKING:
     from corkus import Corkus
 
 class HardcoreType(Enum):
-    """Describes current status of player's hardcore challenge"""
+    """Describes current status of player's hardcore challenge."""
     ENABLED = "Enabled"
     DISABLED = "Disabled"
     FAILED = "Failed"

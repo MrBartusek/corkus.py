@@ -50,7 +50,7 @@ class ClassStatistics(CorkusBase):
 
     @property
     def swarms_won(self) -> int:
-        """Total number of `Swarm Events <https://wynncraft.fandom.com/wiki/Swarm>`_ won by player"""
+        """Total number of `Swarm Events <https://wynncraft.fandom.com/wiki/Swarm>`_ won by player."""
         return self._attributes.get("eventsWon", 0)
 
     @property

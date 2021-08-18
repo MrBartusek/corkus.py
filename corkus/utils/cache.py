@@ -18,17 +18,14 @@ class CacheElement():
 
     @property
     def url(self) -> str:
-        """URL to which request was send"""
         return self._url
 
     @property
     def valid_timestamp(self) -> int:
-        """Timestamp to which this element is valid"""
         return self._valid_timestamp
 
     @property
     def content(self) -> dict:
-        """Parsed response from API"""
         return self._content
 
     def __repr__(self) -> str:
@@ -40,14 +37,12 @@ class CorkusCache:
 
     @property
     def content(self) -> List[CacheElement]:
-        """Cache content"""
         for item in self._cache:
             if item.valid_timestamp <= time.time():
                 self._cache.remove(item)
         return self._cache
 
     def get(self, url: str) -> Union[CacheElement, None]:
-        """Get element with given url. return ``None`` if not found"""
         element = next((i for i in self.content if i.url == url), None)
         if element is None:
             logger.debug(f"Not found in cache: {url}")
@@ -56,7 +51,6 @@ class CorkusCache:
         return element
 
     def add(self, url: str, headers: dict, content: dict) -> None:
-        """Add element to cache"""
         cache_header = headers.get("cache-control", None)
         if cache_header is None:
             logger.debug(f"No cache-control for: {url} - default to 600")

@@ -9,7 +9,10 @@ if TYPE_CHECKING:
 
 class ServerType(Enum):
     STANDARD = "WC"
+    """Regular Wynncraft servers."""
+
     YOUTUBE = "YT"
+    """Servers restricted to players with :py:attr:`PlayerRank.MEDIA` rank."""
 
 class Server(CorkusBase):
     """Represents a singular Wynncraft Server."""

@@ -43,14 +43,14 @@ from which you will make all of the request.
 
     async def main():
         async with Corkus() as corkus:
-            pass
             # Do your API stuff here
+            pass
 
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main())
 
 If you are not familiar with `asyncio`_ that snippet may seam a bit scarry. Don't worry!
-Thats a minimal requirement to run asynchronous python code! All code that ``main()`` is now asynchronous.
+Thats a minimal requirement to run asynchronous python code! All code inside ``main()`` is now asynchronous.
 
 You probably see that this snippet also uses a `Context Manager`_ in order to simplify the code. 
 You don't need to use it, this code works exactly the same:
@@ -72,11 +72,14 @@ You don't need to use it, this code works exactly the same:
 
 .. _context manager: https://book.pythontips.com/en/latest/context_managers.html
 
+In this example you need to call :py:func:`Corkus.close() <corkus.Corkus.close>`. Be sure to always close corkus client before
+closing your application.
+
 .. note::
 
-    You should use `Context Manager`_ when dealing with smaller scripts and
-    manually create :class:`.Corkus` instance when dealing with bots or other
-    bigger applications
+    You should use `Context Manager`_ when dealing with smaller scripts and directly
+    create and close :class:`.Corkus` instance when dealing with bots or other
+    bigger applications.
 
 Obtain a :class:`.Player`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

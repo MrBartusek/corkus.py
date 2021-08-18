@@ -5,16 +5,37 @@ from .base import CorkusBase
 from .uuid import CorkusUUID
 
 class PlayerRank(Enum):
-    """Player Wynncraft Team Rank, if not in content team defaults to :py:attr:`PlayerRank.PLAYER`."""
+    """Player special rank."""
     ADMINISTRATOR = "Administrator"
+    """Admins are either the owners or developers of Wynncraft."""
+
     MODERATOR = "Moderator"
+    """Moderators enforce the Wynncraft rules on the forums, game servers, and Discord.
+    They are also here to help players when needed."""
+
     BUILDER = "Builder"
+    """The Builder tag is given to the builders who built the physical map."""
+
     ITEM = "Item"
+    """Members of the Item Team create new items as well as balance existing ones."""
+
     GAME_MASTER = "Game Master"
+    """The GM tag is given to Game Masters, the creators of items, quests, mobs, etc."""
+
     CMD = "CMD"
+    """The CMD tag is given to the talented command blockers who create the cutscenes and
+    puzzle you see in-game."""
+
     MUSIC = "Music"
+    """Given to the official composers of Wynncraft's music."""
+
+
     HYBRID = "Hybrid"
+    """The Hybrid tag is given to Wynncraft Hybrids; Content Team members who are both builders, GMs, or CMDs."""
+
     MEDIA = "Media"
+    """Media is granted to those who record and post Wynncraft videos on Youtube or stream Wynncraft."""
+
     PLAYER = "Player"
 
 class PlayerTag(Enum):
@@ -33,7 +54,7 @@ class BasePlayer(CorkusBase):
 
     @property
     def rank(self) -> PlayerRank:
-        """Player Wynncraft Team Rank, if not in content team defaults to :py:attr:`PlayerRank.PLAYER`."""
+        """Player special rank, if don't have one, default to :py:attr:`PlayerRank.PLAYER`."""
         return PlayerRank(self._attributes.get("rank", PlayerRank.PLAYER))
 
     @property

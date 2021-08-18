@@ -24,7 +24,8 @@ class HTTPException(CorkusException):
         .. |ClientResponse| replace:: ``ClientResponse``
         .. _ClientResponse: https://docs.aiohttp.org/en/latest/client_reference.html#aiohttp.ClientResponse
 
-        :rtype: |ClientResponse|_"""
+        :rtype: |ClientResponse|_
+        """
         return self._response
 
 class WynncraftServerError(HTTPException):
@@ -34,7 +35,8 @@ class WynncraftServerError(HTTPException):
     If the error continues occurring for the same request it should be reported on the
     `Wynncraft API issue tracker <https://github.com/Wynncraft/WynncraftAPI/issues>`_;
     or if you believe the error is exploitable, or directly to Colin (Colin#0670 on discord, colin350 on the forums)
-    if the issue is exploitable/poses a risk to the stability of the API."""
+    if the issue is exploitable/poses a risk to the stability of the API.
+    """
 
 class RatelimitExceeded(HTTPException):
     """Exception that's thrown for when a 429 status code occurs.
@@ -49,7 +51,6 @@ class RatelimitExceeded(HTTPException):
     .. danger::
 
         IPs that repeatedly exceed the rate limit could be blacklisted.
-
     """
 
 class BadRequest(HTTPException):
@@ -58,9 +59,4 @@ class BadRequest(HTTPException):
     Indicates that a parameter given by the client was in an incorrect format,
     or that the requested resource doesn't exist. This client should not
     immediately request this resource again without changes.
-
-    Common reasons:
-
-    - The requested resource doesn't exists (e.g. The requested username hasn't logged onto Wynncraft when getting player stats; the requested ingredient doesn't exist)
-    - A provided argument wasn't in the correct format (for example when searching by level in recipe api, provided a letter instead of a number)
-    - When using more advanced search route, an invalid symbol or prop is provided"""
+    """

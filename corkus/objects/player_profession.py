@@ -20,13 +20,13 @@ class PlayerProfession(CorkusBase):
 
     @property
     def type(self) -> ProfessionType:
-        """Type of the profession"""
+        """Type of the profession."""
         return ProfessionType(self._name.upper())
 
     @property
     def level(self) -> int:
         """Current level in profession. This value is minimum of ``1``
-        and maximum of ``106`` for combat and ``132`` for other professions"""
+        and maximum of ``106`` for combat and ``132`` for other professions."""
         return self._attributes.get("level", 1)
 
     @property
