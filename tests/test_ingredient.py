@@ -19,7 +19,7 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(glow_bulb.sprite.id, 0)
         self.assertIn(ProfessionType.TAILORING, glow_bulb.required_professions)
         self.assertNotEqual(glow_bulb.item_modifiers.durability, 0)
-        self.assertGreater(glow_bulb.item_modifiers.skill_points, 0)
+        self.assertGreater(glow_bulb.item_modifiers.skill_points.defence, 0)
 
         major = await self.corkus.ingredient.get("Major's Badge")
         self.assertNotEqual(major.position_modifiers.above, 0)
@@ -36,11 +36,11 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
         horizon = await self.corkus.ingredient.get("Vortexian Event Horizon")
         self.assertGreater(horizon.sprite.damage, 0)
         self.assertNotEqual(horizon.item_modifiers.durability, 0)
-        self.assertGreater(horizon.item_modifiers.strength_required, 0)
-        self.assertGreater(horizon.item_modifiers.dexterity_required, 0)
-        self.assertGreater(horizon.item_modifiers.intelligence_required, 0)
-        self.assertGreater(horizon.item_modifiers.defence_required, 0)
-        self.assertGreater(horizon.item_modifiers.agility_required, 0)
+        self.assertGreater(horizon.item_modifiers.skill_points.strength, 0)
+        self.assertGreater(horizon.item_modifiers.skill_points.dexterity, 0)
+        self.assertGreater(horizon.item_modifiers.skill_points.intelligence, 0)
+        self.assertGreater(horizon.item_modifiers.skill_points.defence, 0)
+        self.assertGreater(horizon.item_modifiers.skill_points.agility, 0)
 
     @vcr.use_cassette
     async def test_ingredient_invalid(self):
