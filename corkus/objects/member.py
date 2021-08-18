@@ -38,7 +38,7 @@ class Member(CorkusBase):
 
     @property
     def contributed_xp(self) -> int:
-        """Total number of contributed experience by this player."""
+        """Total number of contributed experience points by this player."""
         return self._attributes.get("contributed", 0)
 
     @property

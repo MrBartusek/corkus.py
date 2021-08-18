@@ -15,7 +15,8 @@ class BaseGuild(CorkusBase):
     def tag(self) -> str:
         """Prefix displayed as a shorter 3 or 4 letters representation of guild.
         Like ``AVO``, ``ERN`` or ``YIN``. It's mostly upper-case but it's not a requirement.
-        It's unique across all guild."""
+        It's unique across all guild.
+        """
         return self._attributes.get("prefix", "")
 
     @property
@@ -28,7 +29,8 @@ class BaseGuild(CorkusBase):
         """Level of the guild from ``1`` to ``100``. Guild members can use ``/guild xp`` command
         to contribute XP to the guild. Leveling guild grants perks like more
         member slots or guild bank upgrades. The exact XP values are available
-        `on the wiki <https://wynncraft.fandom.com/wiki/Guilds#Leveling_Guild>`_."""
+        `on the wiki <https://wynncraft.fandom.com/wiki/Guilds#Leveling_Guild>`_.
+        """
         return self._attributes.get("level", 1)
 
     @property

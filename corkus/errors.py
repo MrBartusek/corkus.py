@@ -19,7 +19,7 @@ class HTTPException(CorkusException):
 
     @property
     def response(self) -> ClientResponse:
-        """Failed response returned by AIOHTTP
+        """Failed response returned by AIOHTTP.
 
         .. |ClientResponse| replace:: ``ClientResponse``
         .. _ClientResponse: https://docs.aiohttp.org/en/latest/client_reference.html#aiohttp.ClientResponse

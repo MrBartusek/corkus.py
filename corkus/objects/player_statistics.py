@@ -9,13 +9,13 @@ class ClassStatistics(CorkusBase):
         return self._attributes.get("chestsFound", 0)
 
     @property
-    def blocksWalked(self) -> int:
+    def blocks_walked(self) -> int:
         """Total blocks walked."""
         return self._attributes.get("blocksWalked", 0)
 
     @property
     def items_identified(self) -> int:
-        """Total items identified
+        """Total items identified.
 
         .. caution::
                 This property is currently bugged and always returns ``0``. See:
@@ -35,7 +35,7 @@ class ClassStatistics(CorkusBase):
 
     @property
     def pvp_deaths(self) -> int:
-        """Total deaths by players `The Nether <https://wynncraft.fandom.com/wiki/The_Nether>`_."""
+        """Total deaths by players in `The Nether <https://wynncraft.fandom.com/wiki/The_Nether>`_."""
         return self._attributes.get("pvp", {}).get("deaths", 0)
 
     @property

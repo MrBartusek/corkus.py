@@ -98,8 +98,8 @@ class Item(CorkusBase):
 
     @property
     def required_level(self) -> int:
-        """Minimum combat level (
-        :py:attr:`PlayerProfession.level <corkus.objects.PlayerProfession.level>` from
+        """Minimum combat level
+        (:py:attr:`PlayerProfession.level <corkus.objects.PlayerProfession.level>` from
         :py:attr:`PlayerClass.combat <corkus.objects.PlayerClass.combat>`) required to use this item."""
         return self._attributes.get("level", 1)
 

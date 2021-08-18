@@ -16,7 +16,7 @@ class DungeonType(Enum):
     """Harder variant of standard dungeons like ``Corrupted Decrepit Sewers``, ``Corrupted Sand-Swept Tomb`` or ``Corrupted Ice Barrows``"""
 
 class Dungeon(CorkusBase):
-    """Represents a `Dungeon <https://wynncraft.fandom.com/wiki/Dungeons>`_. completed by :py:class:`Player`"""
+    """Represents a `Dungeon <https://wynncraft.fandom.com/wiki/Dungeons>`_ completed by a :py:class:`Player`"""
     @property
     def name(self) -> str:
         """Name of the dungeon  like ``Decrepit Sewers``, ``Galleon's Graveyard`` or ``Fallen Factory``."""

@@ -5,7 +5,7 @@ class IngredientSprite(CorkusBase):
     """Represents visual look of :py:class:`Ingredient`"""
     @property
     def id(self) -> int:
-        """Minecraft item ID that represents this ingredient"""
+        """Minecraft item ID that represents this ingredient."""
         return self._attributes.get("id", 0)
 
     @property

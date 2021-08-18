@@ -30,23 +30,23 @@ class RateLimit:
     @property
     def total(self) -> int:
         """Total number of requests that user can send per minute under provided
-        API key or IP if not provided."""
+        API key or IP if one is not provided."""
         return self._total
 
     @property
     def remaining(self) -> int:
-        """Total number of requests left that user send for that minute
+        """Total number of requests left that user can send for that minute
         (:py:attr:`total` - used)."""
         return self._remaining
 
     @property
     def reset(self) -> int:
-        """Number of seconds left under this minute ends and thus ratelimit
+        """Number of seconds left until this minute ends and thus ratelimit
         is restored back to :py:attr:`total`."""
         return self._reset
 
 class Corkus:
-    """First-class interface for accessing Wynncraft API"""
+    """First-class interface for accessing Wynncraft API."""
 
     def __init__(self, *,
         timeout: Optional[int] = 30,

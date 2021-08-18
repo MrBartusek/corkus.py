@@ -9,7 +9,7 @@ if TYPE_CHECKING:
     from .server import Server
 
 class PartialServer(PartialBase):
-    """Represents a ``Partial`` version of :py:class:Server`."""
+    """Represents a ``Partial`` version of :py:class:`Server`."""
     def __init__(self, corkus: Corkus, name: str):
         super().__init__(corkus)
         self._name = name

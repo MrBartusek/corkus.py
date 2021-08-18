@@ -69,7 +69,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
 
         # Stats
         self.assertGreater(player.statistics.chests_found, 0)
-        self.assertGreater(player.statistics.blocksWalked, 0)
+        self.assertGreater(player.statistics.blocks_walked, 0)
         self.assertGreater(player.statistics.mobs_killed, 0)
         self.assertGreater(player.statistics.total_combat_level, 0)
         self.assertGreater(player.statistics.total_profession_level, 0)
