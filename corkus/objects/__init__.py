@@ -50,3 +50,4 @@ from .search_result import SearchResult
 from .identification import Identification
 from .enums import ProfessionType, Timeframe, ItemType, LogicSymbol, ItemCategory
 from .color import Color
+from .skill_points import SkillPoints

@@ -9,6 +9,7 @@ from .player_gamemodes import PlayerGamemodes
 from .dungeon import Dungeon
 from .raid import Raid
 from .enums import ProfessionType
+from .skill_points import SkillPoints
 
 class ClassType(Enum):
     ARCHER = "Archer"
@@ -102,6 +103,19 @@ class PlayerClass(CorkusBase):
 
         :param profession: Type of profession."""
         return next((p for p in self.professions if p.type == profession), None)
+
+    @property
+    def skill_points(self) -> SkillPoints:
+        """Skill points of this class."""
+        skills = self._attributes.get("skills", {})
+        return SkillPoints(
+            corkus = self._corkus,
+            strength = skills.get("strength", 0),
+            dexterity = skills.get("dexterity", 0),
+            intelligence = skills.get("intelligence", 0),
+            defence = skills.get("defence", 0),
+            agility = skills.get("agility", 0)
+        )
 
     def __repr__(self) -> str:
         return f"<PlayerClass type={self.display_name!r}>"

@@ -19,7 +19,7 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(glow_bulb.sprite.id, 0)
         self.assertIn(ProfessionType.TAILORING, glow_bulb.required_professions)
         self.assertNotEqual(glow_bulb.item_modifiers.durability, 0)
-        self.assertGreater(glow_bulb.item_modifiers.defence_required, 0)
+        self.assertGreater(glow_bulb.item_modifiers.skill_points, 0)
 
         major = await self.corkus.ingredient.get("Major's Badge")
         self.assertNotEqual(major.position_modifiers.above, 0)

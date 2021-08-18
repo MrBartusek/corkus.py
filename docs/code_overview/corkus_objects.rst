@@ -68,6 +68,7 @@ Working with Corkus Objects
    objects/search_result
    objects/server
    objects/server_type
+   objects/skill_points
    objects/territory
    objects/territory_location
    objects/timeframe
