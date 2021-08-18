@@ -10,6 +10,7 @@ Working with Corkus Objects
    :maxdepth: 2
    :caption: Objects
 
+   objects/armour_defence
    objects/armour_type
    objects/attack_speed
    objects/banner_color

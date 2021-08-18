@@ -44,6 +44,7 @@ from .level_range import LevelRange
 from .item import Item, ArmourType, ItemTier, ItemRestrictions, AttackSpeed
 from .mojang_skin_response import MojangSkinResponse
 from .weapon_damage import WeaponDamage
+from .armour_defense import ArmourDefence
 
 from .uuid import CorkusUUID
 from .search_result import SearchResult

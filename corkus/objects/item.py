@@ -11,6 +11,8 @@ from .player_class import ClassType
 from .color import Color
 from .quest import Quest
 from .weapon_damage import WeaponDamage
+from .skill_points import SkillPoints
+from .armour_defense import ArmourDefence
 
 class ItemTier(Enum):
     """Rarity tier of the item."""
@@ -148,6 +150,18 @@ class Item(CorkusBase):
             return None
 
     @property
+    def skill_points(self) -> SkillPoints:
+        """Skill points required in order to use this item."""
+        return SkillPoints(
+            corkus = self._corkus,
+            strength = self._attributes.get("strength", 0),
+            dexterity = self._attributes.get("dexterity", 0),
+            intelligence = self._attributes.get("intelligence", 0),
+            defence = self._attributes.get("defence", 0),
+            agility = self._attributes.get("agility", 0)
+        )
+
+    @property
     def required_quest(self) -> Union[Quest, None]:
         """The quest that must have been completed in order
         for this item to be used."""
@@ -188,6 +202,24 @@ class Item(CorkusBase):
     def identified(self) -> bool:
         """Is this item is pre-identified when obtained."""
         return self._attributes.get("identified", False)
+
+    @property
+    def health(self) -> Union[AttackSpeed, None]:
+        """If this item is a armour piece (:py:attr:`category` is :py:attr:`ItemCategory.ARMOUR`)
+        return set amount of health this armor provides."""
+        if self.category is ItemCategory.ARMOUR:
+            return self._attributes.get("health", 0)
+        else:
+            return None
+
+    @property
+    def armour_defence(self) -> Union[ArmourDefence, None]:
+        """If this item is a armour piece (:py:attr:`category` is :py:attr:`ItemCategory.ARMOUR`)
+        return protection it gives against elemental attacks."""
+        if self.category is ItemCategory.ARMOUR:
+            return ArmourDefence(self._corkus, self._attributes)
+        else:
+            return None
 
     @property
     def skin(self) -> Union[MojangSkinResponse, None]:
