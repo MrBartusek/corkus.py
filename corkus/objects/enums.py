@@ -67,3 +67,25 @@ class ItemType(Enum):
     """Crafted item."""
     FOOD = "FOOD"
     """Crafted item."""
+
+class ItemCategory(Enum):
+    """Crafted and regular items."""
+
+    ARMOUR = "ARMOUR"
+    WEAPON = "WEAPON"
+    ACCESSORY = "ACCESSORY"
+    COMSUMABLE = "COMSUMABLE"
+
+    @staticmethod
+    def from_type(type: ItemType) -> "ItemCategory":
+        """Convert :py:class:`ItemType` intro :py:class:`ItemCategory`."""
+        if type in (ItemType.HELMET, ItemType.CHESTPLATE, ItemType.LEGGINGS, ItemType.BOOTS):
+            return ItemCategory.ARMOUR
+        elif type in (ItemType.RING, ItemType.NECKLACE, ItemType.BRACELET):
+            return ItemCategory.ACCESSORY
+        elif type in (ItemType.DAGGER, ItemType.SPEAR, ItemType.BOW, ItemType.WAND, ItemType.RELIK):
+            return ItemCategory.WEAPON
+        elif type in (ItemType.SCROLL, ItemType.POTION, ItemType.FOOD):
+            return ItemCategory.COMSUMABLE
+        else:
+            raise ValueError(f"invalid type: {type}")

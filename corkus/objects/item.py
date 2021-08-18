@@ -1,12 +1,16 @@
 from __future__ import annotations
+from corkus.objects.mojang_skin_response import MojangSkinResponse
 from typing import Union
 from enum import Enum
+import base64
+import json
 
 from .base import CorkusBase
-from .enums import ItemType
+from .enums import ItemType, ItemCategory
 from .player_class import ClassType
 from .color import Color
 from .quest import Quest
+from .weapon_damage import WeaponDamage
 
 class ItemTier(Enum):
     """Rarity tier of the item."""
@@ -38,6 +42,18 @@ class ItemRestrictions(Enum):
     """A special kind of :py:attr:`UNTRADABLE` items awarded during
     or after completing a quest."""
 
+class AttackSpeed(Enum):
+    """Attack speed of a weapon."""
+
+    SUPER_SLOW = "SUPER_SLOW"
+    VERY_SLOW = "VERY_SLOW"
+    SLOW = "SLOW"
+    NORMAL = "NORMAL"
+    FAST = "FAST"
+    VERY_FAST = "VERY_FAST"
+    SUPER_FAST = "SUPER_FAST"
+
+
 class Item(CorkusBase):
     """Represents regular (non-crafted) Wynncraft item."""
     @property
@@ -50,14 +66,20 @@ class Item(CorkusBase):
         """Name that should be displayed to end-user, usually match :py:attr:`name`.
 
         .. caution::
-                This property may not be reliable. See:
-                `Wynncraft/WynncraftAPI19 <https://github.com/Wynncraft/WynncraftAPI/issues/19>`_."""
+            This property may not be reliable. See:
+            `Wynncraft/WynncraftAPI19 <https://github.com/Wynncraft/WynncraftAPI/issues/19>`_.
+        """
         return self._attributes.get("displayName", self.name)
 
     @property
     def type(self) -> ItemType:
         """Type of the item."""
         return ItemType(self._attributes.get("type", self._attributes.get("accessoryType", "Wand")).upper())
+
+    @property
+    def category(self) -> ItemCategory:
+        """Category of the item."""
+        return ItemCategory.from_type(self.type)
 
     @property
     def tier(self) -> ItemTier:
@@ -80,8 +102,11 @@ class Item(CorkusBase):
 
     @property
     def armour_type(self) -> Union[ArmourType, None]:
-        """Material from which armour is made, if not a armour piece, returns ``None``."""
-        if self._attributes.get("armorType", None) is None:
+        """Material from which armour is made. If not a armour piece, or
+        item is player head, returns ``None``."""
+        if self.skin is not None:
+            return None
+        elif self._attributes.get("armorType", None) is None:
             return None
         else:
             return ArmourType(self._attributes.get("armorType").upper())
@@ -142,6 +167,40 @@ class Item(CorkusBase):
         return self._attributes.get("addedLore", None)
 
     @property
+    def damage(self) -> Union[WeaponDamage, None]:
+        """If this item is a weapon (:py:attr:`category` is :py:attr:`ItemCategory.WEAPON`)
+        return it's damage."""
+        if self.category is ItemCategory.WEAPON:
+            return WeaponDamage(self._corkus, self._attributes)
+        else:
+            return None
+
+    @property
+    def attack_speed(self) -> Union[AttackSpeed, None]:
+        """If this item is a weapon (:py:attr:`category` is :py:attr:`ItemCategory.WEAPON`)
+        return it's attack speed."""
+        if self.category is ItemCategory.WEAPON:
+            return AttackSpeed(self._attributes.get("attackSpeed", "VERY_SLOW"))
+        else:
+            return None
+
+    @property
+    def identified(self) -> bool:
+        """Is this item is pre-identified when obtained."""
+        return self._attributes.get("identified", False)
+
+    @property
+    def skin(self) -> Union[MojangSkinResponse, None]:
+        """If this item is a helmet (:py:attr:`type` is :py:attr:`ItemType.HELMET`)
+        in form player head, this return information about owner of the head."""
+        if self._attributes.get("skin") is not None:
+            response = base64.b64decode(self._attributes.get("skin"))
+            attributes = json.loads(response)
+            return MojangSkinResponse(self._corkus, attributes)
+        else:
+            return None
+
+    @property
     def item_id(self) -> str:
         """Minecraft `block`_/`item`_ ID + optional `data value`_,
         pre-flattening. Format: ``ID:DV``
@@ -149,6 +208,9 @@ class Item(CorkusBase):
         .. _block: https://minecraft.fandom.com/wiki/Java_Edition_data_values/Pre-flattening/Block_IDs
         .. _item: https://minecraft.fandom.com/wiki/Java_Edition_data_values/Pre-flattening/Item_IDs
         .. _data value: https://minecraft.fandom.com/wiki/Java_Edition_data_values/Pre-flattening"""
+        if self.skin is not None:
+            return "397:3"
+
         return self._attributes.get("material") or self._generate_id()
 
     def _generate_id(self) -> str:

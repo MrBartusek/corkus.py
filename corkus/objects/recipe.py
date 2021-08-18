@@ -3,7 +3,7 @@ from typing import List, Literal, Union
 
 from .base import CorkusBase
 from .level_range import LevelRange
-from .enums import ItemType, ProfessionType
+from .enums import ItemType, ProfessionType, ItemCategory
 from .material import Material
 from .identification import Identification
 
@@ -23,6 +23,11 @@ class Recipe(CorkusBase):
     def type(self) -> ItemType:
         """Type of the item."""
         return ItemType(self._attributes.get("type", ItemType.WAND))
+
+    @property
+    def category(self) -> ItemCategory:
+        """Category of the item."""
+        return ItemCategory.from_type(self.type)
 
     @property
     def profession(self) -> ProfessionType:

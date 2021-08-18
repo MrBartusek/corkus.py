@@ -41,10 +41,12 @@ from .ingredient_comsumable import IngredientComsumableModifiers
 from .ingredient_item import IngredientItemModifiers
 from .level_range import LevelRange
 
-from .item import Item, ArmourType, ItemTier, ItemRestrictions
+from .item import Item, ArmourType, ItemTier, ItemRestrictions, AttackSpeed
+from .mojang_skin_response import MojangSkinResponse
+from .weapon_damage import WeaponDamage
 
 from .uuid import CorkusUUID
 from .search_result import SearchResult
 from .identification import Identification
-from .enums import ProfessionType, Timeframe, ItemType, LogicSymbol
+from .enums import ProfessionType, Timeframe, ItemType, LogicSymbol, ItemCategory
 from .color import Color

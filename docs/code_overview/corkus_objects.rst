@@ -11,6 +11,7 @@ Working with Corkus Objects
    :caption: Objects
 
    objects/armour_type
+   objects/attack_speed
    objects/banner_color
    objects/banner_pattern
    objects/class_statistics
@@ -31,6 +32,7 @@ Working with Corkus Objects
    objects/ingredient_position_modifiers
    objects/ingredient_sprite
    objects/item
+   objects/item_category
    objects/item_restrictions
    objects/item_tier
    objects/item_type
@@ -41,6 +43,7 @@ Working with Corkus Objects
    objects/logic_symbol
    objects/material
    objects/member
+   objects/mojang_skin_response
    objects/partial_guild
    objects/partial_ingredient
    objects/partial_member
@@ -68,3 +71,4 @@ Working with Corkus Objects
    objects/territory
    objects/territory_location
    objects/timeframe
+   objects/weapon_damage
