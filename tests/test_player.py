@@ -43,6 +43,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(player.username, "MrBartusekXD")
 
     @vcr.use_cassette
+    # pylint: disable=too-many-statements
     async def test_player_general(self):
         player = await self.corkus.player.get('MrBartusekXD')
 
