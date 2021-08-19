@@ -42,6 +42,7 @@ Working with Corkus Objects
    objects/leaderboard_player
    objects/level_range
    objects/logic_symbol
+   objects/major_identification
    objects/material
    objects/member
    objects/mojang_skin_response

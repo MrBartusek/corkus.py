@@ -1,6 +1,5 @@
 from __future__ import annotations
-from corkus.objects.mojang_skin_response import MojangSkinResponse
-from typing import Union
+from typing import List, Union
 from enum import Enum
 import base64
 import json
@@ -13,6 +12,8 @@ from .quest import Quest
 from .weapon_damage import WeaponDamage
 from .skill_points import SkillPoints
 from .armour_defense import ArmourDefence
+from .major_identification import MajorIdentification
+from .mojang_skin_response import MojangSkinResponse
 
 class ItemTier(Enum):
     """Rarity tier of the item."""
@@ -220,6 +221,11 @@ class Item(CorkusBase):
             return ArmourDefence(self._corkus, self._attributes)
         else:
             return None
+
+    @property
+    def major_identifications(self) -> List[MajorIdentification]:
+        """List all Major IDs on the item."""
+        return [MajorIdentification(self._corkus, i) for i in self._attributes.get("majorIds", [])]
 
     @property
     def skin(self) -> Union[MojangSkinResponse, None]:

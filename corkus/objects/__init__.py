@@ -45,6 +45,7 @@ from .item import Item, ArmourType, ItemTier, ItemRestrictions, AttackSpeed
 from .mojang_skin_response import MojangSkinResponse
 from .weapon_damage import WeaponDamage
 from .armour_defense import ArmourDefence
+from .major_identification import MajorIdentification
 
 from .uuid import CorkusUUID
 from .search_result import SearchResult
