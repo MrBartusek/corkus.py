@@ -5,34 +5,38 @@ from .partial_base import PartialBase
 
 if TYPE_CHECKING:
     from corkus import Corkus
+    from .identification_values import IdentificationValues
+    from .identification_type import IdentificationType
 
 class Identification(PartialBase):
-    """Identification is a bonnus applied to an item to increse or decrees it's effectiveness.
-    The actual value of identification is randomly selected between :py:attr:`minimum` and :py:attr:`maximum`
-    when item is identified or crafted.
-    """
-    def __init__(self, corkus: Corkus, *,
-        attributes: Optional[dict] = None,
-        minimum: Optional[int] = None,
-        maximum: Optional[int] = None
-        ):
+    """Identification is a bonnus applied to an item to increse or decreese it's effectiveness."""
+    def __init__(self, corkus: Corkus, type: IdentificationType, *, value: Optional[int] = None, values: Optional[IdentificationValues] = None):
         super().__init__(corkus)
-
-        if attributes is None:
-            attributes = {}
-
-        self._min = attributes.get("minimum") or minimum or 0
-        self._max = attributes.get("maximum") or maximum or 0
+        self._type = type
+        self._value = value
+        self._values = values
 
     @property
-    def minimum(self) -> int:
-        """The lowest possible identification of this property."""
-        return self._min
+    def type(self) -> IdentificationType:
+        """Type of the identification."""
+        return self._type
 
     @property
-    def maximum(self) -> int:
-        """The highest possible identification of this property."""
-        return self._max
+    def value(self) -> int:
+        """If this identification is returned from pre-identified item thus returns
+        actually value on the item. In other cases return ``None``."""
+        return self._value
+
+    @property
+    def values(self) -> IdentificationValues:
+        """If this identification is in fact rolled and not static return
+        it's possible values."""
+        return self._values
 
     def __repr__(self) -> str:
-        return f"<Identification min={self.minimum} max={self.maximum}>"
+        result = "<Identification"
+        if self.value is not None:
+            result += f" value={self.value}"
+        if self.values is not None:
+            result += f" values={self.values}"
+        return result + ">"

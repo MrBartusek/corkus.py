@@ -24,8 +24,8 @@ class PartialRecipe(CorkusBase):
     def level(self) -> LevelRange:
         """Level range that this item should be used in."""
         return LevelRange(self._corkus,
-            minimum = int(self.id.split("-")[1].upper()),
-            maximum = int(self.id.split("-")[2].upper())
+            min = int(self.id.split("-")[1].upper()),
+            max = int(self.id.split("-")[2].upper())
         )
 
     async def fetch(self, timeout: Optional[int] = None) -> Recipe:

@@ -27,6 +27,7 @@ Working with Corkus Objects
    objects/guild_rank
    objects/hardcore_type
    objects/identification
+   objects/identification_type
    objects/ingredient
    objects/ingredient_comsumable_modifiers
    objects/ingredient_item_modifiers

@@ -14,6 +14,9 @@ from .skill_points import SkillPoints
 from .armour_defense import ArmourDefence
 from .major_identification import MajorIdentification
 from .mojang_skin_response import MojangSkinResponse
+from .identification_values import IdentificationValues
+from .identification import Identification
+from corkus.data.ids_convert import ids_convert
 
 class ItemTier(Enum):
     """Rarity tier of the item."""
@@ -226,6 +229,42 @@ class Item(CorkusBase):
     def major_identifications(self) -> List[MajorIdentification]:
         """List all Major IDs on the item."""
         return [MajorIdentification(self._corkus, i) for i in self._attributes.get("majorIds", [])]
+
+    @property
+    def identifications(self) -> List[Identification]:
+        """List all identifications of this item."""
+        result = []
+        for key, value in self._attributes.items():
+            if not isinstance(value, int) or value == 0: continue
+            type = next(id["type"] for id in ids_convert if id["items_api"] == key)
+            if type is None: continue
+            if self.identified:
+                result.append(Identification(self._corkus, type, value = value))
+            else:
+                result.append(Identification(self._corkus, type, values = self._generate_identification_value(value)))
+        return result
+
+    def _generate_identification_value(self, base_value: int) -> IdentificationValues:
+        """The values given by the API represent the 'base value' of that identification, when an item is
+        actually identified a random number is generated for each non-zero identification and is then
+        multiplied by that identification's base value. For identifications that have a positive base
+        value, the random number can be between 0.3 and 1.3. For identifications that have a negative
+        base value, the random number can be between 0.7 and 1.3. The result after multiplication is then
+        rounded to the nearest integer, with a maximum value of -1 for negative identifications and a
+        minimum value of 1 for positive identifications.
+        """
+        min_value, max_value = None, None
+        if base_value > 0:
+            min_value = min(round(base_value * 0.3), 1)
+            max_value = min(round(base_value * 1.3), 1)
+        else:
+            min_value = max(round(base_value * 0.7), -1)
+            max_value = max(round(base_value * 1.3), -1)
+        return IdentificationValues(
+            self._corkus,
+            min = min_value,
+            max = max_value
+        )
 
     @property
     def skin(self) -> Union[MojangSkinResponse, None]:

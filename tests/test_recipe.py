@@ -39,22 +39,22 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
             if item[3]:
                 self.assertIsNone(recipe.durability)
                 self.assertEqual(recipe.charges, 3)
-                self.assertGreater(recipe.duration.minimum, 0)
-                self.assertGreater(recipe.duration.maximum, 0)
+                self.assertGreater(recipe.duration.min, 0)
+                self.assertGreater(recipe.duration.max, 0)
             else:
                 self.assertIsNone(recipe.charges)
                 self.assertIsNone(recipe.duration)
-                self.assertGreater(recipe.durability.minimum, 0)
-                self.assertGreater(recipe.durability.maximum, 0)
+                self.assertGreater(recipe.durability.min, 0)
+                self.assertGreater(recipe.durability.max, 0)
 
-            self.assertEqual(recipe.level.minimum, 1)
-            self.assertEqual(recipe.level.maximum, 3)
+            self.assertEqual(recipe.level.min, 1)
+            self.assertEqual(recipe.level.max, 3)
             self.assertEqual(len(recipe.materials), 2)
             self.assertTrue(recipe.materials[0].name.startswith("Refined "))
             self.assertGreater(recipe.materials[0].amount, 0)
             if item[2] != ProfessionType.JEWELING:
-                self.assertGreater(recipe.health_or_damage.minimum, 0)
-                self.assertGreater(recipe.health_or_damage.maximum, 0)
+                self.assertGreater(recipe.health_or_damage.min, 0)
+                self.assertGreater(recipe.health_or_damage.max, 0)
 
     @vcr.use_cassette
     async def test_list_all_recipes(self):
@@ -62,8 +62,8 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
         partial_recipe = [r for r in recipes if r.id == "Boots-1-3"][0]
         self.assertEqual(partial_recipe.id, "Boots-1-3")
         self.assertEqual(partial_recipe.type, ItemType.BOOTS)
-        self.assertEqual(partial_recipe.level.minimum, 1)
-        self.assertEqual(partial_recipe.level.maximum, 3)
+        self.assertEqual(partial_recipe.level.min, 1)
+        self.assertEqual(partial_recipe.level.max, 3)
 
         recipe = await partial_recipe.fetch()
         self.assertEqual(recipe.id, "Boots-1-3")

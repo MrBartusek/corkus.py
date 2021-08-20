@@ -5,7 +5,7 @@ from .base import CorkusBase
 from .level_range import LevelRange
 from .enums import ItemType, ProfessionType, ItemCategory
 from .material import Material
-from .identification import Identification
+from .identification_values import IdentificationValues
 
 class Recipe(CorkusBase):
     """Needed materials and professions for `Crafting <https://wynncraft.fandom.com/wiki/Crafting>`_ a item with given properties."""
@@ -40,15 +40,15 @@ class Recipe(CorkusBase):
         return [Material(self._corkus, m) for m in self._attributes.get("materials", [])]
 
     @property
-    def health_or_damage(self) -> Identification:
+    def health_or_damage(self) -> IdentificationValues:
         """If this item is a weapon this returns damage dealt by this item, if not, health bonus."""
-        return Identification(self._corkus, attributes = self._attributes.get("healthOrDamage", {}))
+        return IdentificationValues(self._corkus, attributes = self._attributes.get("healthOrDamage", {}))
 
     @property
-    def duration(self) -> Union[None, Identification]:
+    def duration(self) -> Union[None, IdentificationValues]:
         """If item is comsumbale returns how long it will work after use."""
         if "duration" in self._attributes:
-            return Identification(self._corkus, attributes = self._attributes.get("duration", {}))
+            return IdentificationValues(self._corkus, attributes = self._attributes.get("duration", {}))
         else:
             return None
 
@@ -61,10 +61,10 @@ class Recipe(CorkusBase):
             return None
 
     @property
-    def durability(self) -> Union[None, Identification]:
+    def durability(self) -> Union[None, IdentificationValues]:
         """If item is armour accessory or weapon, return it's durability."""
         if "durability" in self._attributes:
-            return Identification(self._corkus, attributes = self._attributes.get("durability", {}))
+            return IdentificationValues(self._corkus, attributes = self._attributes.get("durability", {}))
         else:
             return None
 

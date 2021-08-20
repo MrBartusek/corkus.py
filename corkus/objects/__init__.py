@@ -50,6 +50,8 @@ from .major_identification import MajorIdentification
 from .uuid import CorkusUUID
 from .search_result import SearchResult
 from .identification import Identification
+from .identification_values import IdentificationValues
+from .identification_type import IdentificationType
 from .enums import ProfessionType, Timeframe, ItemType, LogicSymbol, ItemCategory
 from .color import Color
 from .skill_points import SkillPoints

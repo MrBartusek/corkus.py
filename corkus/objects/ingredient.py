@@ -1,12 +1,15 @@
 from __future__ import annotations
 from typing import Literal, List
 
+from corkus.data.ids_convert import ids_convert
 from .base import CorkusBase
 from .enums import ProfessionType
 from .ingredient_sprite import IngredientSprite
 from .ingredient_position import IngredientPositionModifiers
 from .ingredient_comsumable import IngredientComsumableModifiers
 from .ingredient_item import IngredientItemModifiers
+from .identification import Identification
+from .identification_values import IdentificationValues
 
 class Ingredient(CorkusBase):
     """Crafting Ingredients are items found in the world of
@@ -37,9 +40,17 @@ class Ingredient(CorkusBase):
         return IngredientSprite(self._corkus, self._attributes.get("sprite", {}))
 
     @property
-    def identifications(self):
-        """.. include:: ../note_not_implemented.rst"""
-        raise NotImplementedError
+    def identifications(self) -> List[Identification]:
+        """List all identifications added by this ingredient."""
+        result = []
+        for key, value in self._attributes.get("identifications", []):
+            type = next(id["type"] for id in ids_convert if id["ingredients_api"] == key)
+            if type is None:
+                raise ValueError(f"unknown identification: {key}")
+            result.append(Identification(self._corkus, type, values = 
+                IdentificationValues(self._corkus, attributes = value))
+            )
+        return result
 
     @property
     def position_modifiers(self) -> IngredientPositionModifiers:
