@@ -47,9 +47,9 @@ class Ingredient(CorkusBase):
             type = next(id["type"] for id in ids_convert if id["ingredients_api"] == key)
             if type is None:
                 raise ValueError(f"unknown identification: {key}")
-            result.append(Identification(self._corkus, type, values = 
-                IdentificationValues(self._corkus, attributes = value))
-            )
+            result.append(Identification(self._corkus, type,
+                values = IdentificationValues(self._corkus, attributes = value)
+            ))
         return result
 
     @property
