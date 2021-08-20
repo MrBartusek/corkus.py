@@ -28,6 +28,7 @@ Working with Corkus Objects
    objects/hardcore_type
    objects/identification
    objects/identification_type
+   objects/identification_values
    objects/ingredient
    objects/ingredient_comsumable_modifiers
    objects/ingredient_item_modifiers

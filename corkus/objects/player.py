@@ -50,7 +50,7 @@ class Player(BasePlayer):
     @property
     def classes(self) -> List[PlayerClass]:
         """All of the player's classes."""
-        return [PlayerClass(self._corkus, c) for c in self._attributes.get("classes", {})]
+        return [PlayerClass(self._corkus, self, c) for c in self._attributes.get("classes", {})]
 
     @property
     def member(self) -> Union[PartialMember, None]:
