@@ -6,6 +6,7 @@ from datetime import datetime
 
 from .base import CorkusBase
 from .uuid import CorkusUUID
+from .partial_player import PartialPlayer
 
 if TYPE_CHECKING:
     from .guild import Guild
@@ -50,6 +51,11 @@ class Member(CorkusBase):
     def guild(self) -> Guild:
         """The guild that this member is a part of."""
         return self._guild
+    
+    @property
+    def player(self) -> PartialPlayer:
+        """Reduce to to :class:`PartialPlayer`."""
+        return PartialPlayer(self._corkus, uuid = self.uuid, username = self.username)
 
     async def fetch_player(self) -> Player:
         """Fetch player data of this member from API.
