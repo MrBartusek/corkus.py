@@ -51,7 +51,7 @@ class Member(CorkusBase):
     def guild(self) -> Guild:
         """The guild that this member is a part of."""
         return self._guild
-   
+
     @property
     def player(self) -> PartialPlayer:
         """Reduce to to :class:`PartialPlayer`."""
