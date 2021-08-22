@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import TYPE_CHECKING, Optional
+from typing import TYPE_CHECKING, Optional, Union
 
 from .partial_base import PartialBase
 
@@ -22,13 +22,13 @@ class Identification(PartialBase):
         return self._type
 
     @property
-    def value(self) -> int:
-        """If this identification is returned from pre-identified item thus returns
-        actually value on the item. In other cases return ``None``."""
+    def value(self) -> Union[int, None]:
+        """If this identification is returned from pre-identified item returns
+        actually value of it. In other cases return ``None``."""
         return self._value
 
     @property
-    def values(self) -> IdentificationValues:
+    def values(self) ->  Union[IdentificationValues, None]:
         """If this identification is in fact rolled and not static return
         it's possible values."""
         return self._values

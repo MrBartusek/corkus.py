@@ -13,7 +13,7 @@ Some of the objects in Corkus.py are marked as ``Partial``. For example:
 These objects doesn't contain a lot of information and their primary use is to
 allow for easy access to other API resources simplifying your code.
 
-Take for example :py:func:`GuildEndpoint.list_all`. This function lists all of the
+Take for example :py:func:`GuildEndpoint.list_all <corkus.endpoints.GuildEndpoint.list_all>`. This function lists all of the
 guilds on the server, there are ``12,000+`` of those. In the ideal world this function
 would return :py:class:`List <typing.List>` [:py:class:`Guild`] hoverer that is not the
 case. This would significantly slow the API. So instead it returns
@@ -41,7 +41,8 @@ use :py:func:`PartialGuild.fetch` to convert it to :py:class:`Guild`.
 
 Every ``Partial`` object has some sort of ``async fetch()`` function.
 These functions are shortcuts for calls using Endpoints. For example:
-Let's say that you want to get ``level`` of first guild in :py:func:`GuildEndpoint.list_all`.
+Let's say that you want to get ``level`` of first guild in
+:py:func:`GuildEndpoint.list_all <corkus.endpoints.GuildEndpoint.list_all>`.
 
 .. admonition:: Bad Practice
     :class: error
@@ -75,7 +76,8 @@ Every ``fetch()`` is a API call
 You need to understand that calling ``fetch()`` is a web request to
 Wynncraft API, that means it will take a second depending how fast your
 internet speed is. You generally should minimize number of calls to seed up
-your app and don't abuse the API too much. So instead of calling :py:func:`PlayerEndpoint.search`
+your app and don't abuse the API too much. So instead of calling
+:py:func:`PlayerEndpoint.search <corkus.endpoints.PlayerEndpoint.search>`
 and fetching each player, maybe you can just cope with their usernames?
 
 .. admonition:: Remember
