@@ -8,7 +8,7 @@ Prerequisites
 -------------
 
 :Python Knowledge: You need to know at least a little Python to use Corkus. It's a asynchronous wrapper so
-    you need to need basic knowledge how `asyncio`_ work and how to use  ``async`` and ``await``.
+    you need to have basic knowledge how `asyncio`_ work and how to use  ``async`` and ``await`` syntax.
     Corkus supports `Python 3.8+`_.
 :Wynncraft Knowledge: A basic understanding of how Wynncraft works is a must. In the event you
     are not already familiar with Wynncraft start at `Wynncraft Help`_.
@@ -92,7 +92,7 @@ endpoint in corkus you need to use properties of :class:`.Corkus` instance.
 
 .. code-block:: python
 
-    # assume you have a corkus instance bound to variable ` corkus`
+    # assume you have a corkus instance bound to variable "corkus"
 
     player = await corkus.player.get("Salted")
     print(f"username: {player.username}")

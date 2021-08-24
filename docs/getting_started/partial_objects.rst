@@ -33,7 +33,7 @@ case. This would significantly slow the API. So instead it returns
 
 Corkus instead of representing that as :py:class:`List <typing.List>` [:py:class:`str`]
 wraps it intro :py:class:`List <typing.List>` [:py:class:`PartialGuild`]. You can still
-use it as a normal :py:class:`str` using :py:class:`PartialGuild.name` but, you can also
+use it as a normal string using :py:class:`PartialGuild.name` but, you can also
 use :py:func:`PartialGuild.fetch` to convert it to :py:class:`Guild`.
 
 ``fetch()`` function

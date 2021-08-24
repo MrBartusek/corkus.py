@@ -26,7 +26,7 @@ pip install corkus.py
 Or install latest development version:
 
 ```shell
-pip install --upgrade  git+https://github.com/MrBartusek/corkus.py@main
+pip install --upgrade git+https://github.com/MrBartusek/corkus.py@main
 ```
 
 See [documentation](https://corkuspy.readthedocs.io/en/latest/getting_started/installation.html) for more information.

@@ -8,9 +8,9 @@ if TYPE_CHECKING:
 
 class HardcoreType(Enum):
     """Describes current status of player's hardcore challenge."""
-    ENABLED = "Enabled"
-    DISABLED = "Disabled"
-    FAILED = "Failed"
+    ENABLED = "ENABLED"
+    DISABLED = "DISABLED"
+    FAILED = "FAILED"
 
 class PlayerGamemodes(CorkusBase):
     """Challenge gamemodes that are enabled on a :py:class:`PlayerClass`."""
