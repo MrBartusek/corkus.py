@@ -1,0 +1,182 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Corkus.py/0.3.0
+    method: GET
+    uri: https://api.wynncraft.com/public_api.php?action=guildStats&command=The+Farplane
+  response:
+    body:
+      string: '{"name":"The Farplane","prefix":"Yin","members":[{"name":"renderme65","uuid":"5be48ae3-82f4-4f4f-baf1-c26fcbe1788a","rank":"CHIEF","contributed":0,"joined":"2019-05-13T00:01:52.787Z","joinedFriendly":"May
+        13th 2019"},{"name":"ojomFox","uuid":"33b6a693-db57-4b3f-b6df-d0772876994f","rank":"OWNER","contributed":360896977,"joined":"2019-05-13T00:01:40.211Z","joinedFriendly":"May
+        13th 2019"},{"name":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"CHIEF","contributed":3179914,"joined":"2020-07-16T18:42:57.175Z","joinedFriendly":"Jul
+        16th 2020"},{"name":"RhodieCub","uuid":"55309fc6-413c-4e05-8394-52f28ae41909","rank":"CHIEF","contributed":8913564,"joined":"2020-07-19T22:37:32.505Z","joinedFriendly":"Jul
+        19th 2020"},{"name":"Morganhydra","uuid":"e9b2a02b-f07c-42fb-aa0a-210834dc1e6e","rank":"CHIEF","contributed":680447998,"joined":"2020-07-21T00:41:24.835Z","joinedFriendly":"Jul
+        21st 2020"},{"name":"TheNameIsBuch","uuid":"5bff02a5-99b7-4327-bc34-d1a77fb2dbbb","rank":"CAPTAIN","contributed":684978,"joined":"2020-07-21T18:30:43.122Z","joinedFriendly":"Jul
+        21st 2020"},{"name":"Onif","uuid":"3f275026-3fc3-4ae9-9d47-45f584d11d57","rank":"CAPTAIN","contributed":11550396,"joined":"2020-07-21T18:45:11.100Z","joinedFriendly":"Jul
+        21st 2020"},{"name":"1rng","uuid":"acbfa24c-7775-4aea-aa1e-a2a5aea18066","rank":"CAPTAIN","contributed":0,"joined":"2020-07-23T17:27:59.437Z","joinedFriendly":"Jul
+        23rd 2020"},{"name":"Galeath","uuid":"9364f2d4-316a-4fa4-b47d-6d5ff7785251","rank":"CHIEF","contributed":47825081,"joined":"2020-07-24T03:35:51.274Z","joinedFriendly":"Jul
+        24th 2020"},{"name":"DuckNorris1","uuid":"b3cf8d36-bf1c-450b-bb6c-c224ed4432e1","rank":"CAPTAIN","contributed":7510941,"joined":"2020-07-26T20:25:42.995Z","joinedFriendly":"Jul
+        26th 2020"},{"name":"imrix123","uuid":"2af9e14f-cbc2-4dd8-8eef-8dd9e67cccfa","rank":"CAPTAIN","contributed":154193,"joined":"2020-07-26T20:33:00.243Z","joinedFriendly":"Jul
+        26th 2020"},{"name":"PiSquared","uuid":"fc86c444-93ca-452c-8d0f-11be4a7cf00c","rank":"CAPTAIN","contributed":14115004,"joined":"2020-08-04T01:48:54.157Z","joinedFriendly":"Aug
+        4th 2020"},{"name":"Slynnder","uuid":"029457dd-bbc3-489c-8af9-f303b7818c05","rank":"CAPTAIN","contributed":18212721,"joined":"2020-08-06T04:16:14.954Z","joinedFriendly":"Aug
+        6th 2020"},{"name":"_Dl3G0_","uuid":"d0b2822a-d968-4958-af73-5ec1342a9c80","rank":"CAPTAIN","contributed":11178923,"joined":"2020-09-07T06:57:52.521Z","joinedFriendly":"Sep
+        7th 2020"},{"name":"_ClaudzHero4","uuid":"25b07811-479b-44e1-b88c-a9f527bbcbe4","rank":"CAPTAIN","contributed":32734,"joined":"2020-11-08T17:46:12.237Z","joinedFriendly":"Nov
+        8th 2020"},{"name":"RyLi_","uuid":"4df264be-2f7d-42dc-9609-7b4ec9eaede3","rank":"CAPTAIN","contributed":0,"joined":"2020-07-26T19:55:47.224Z","joinedFriendly":"Jul
+        26th 2020"},{"name":"cupcake1220","uuid":"5916c33a-25ea-4c02-a414-90e919286e80","rank":"CAPTAIN","contributed":0,"joined":"2020-12-26T01:10:47.717Z","joinedFriendly":"Dec
+        26th 2020"},{"name":"KramDogg28","uuid":"8cdab455-28b8-4459-b41b-a090b616fd80","rank":"CAPTAIN","contributed":8987685,"joined":"2020-12-26T01:13:18.382Z","joinedFriendly":"Dec
+        26th 2020"},{"name":"cat_miester","uuid":"318d3cb5-9f06-40cb-a0e4-b1228a608817","rank":"CAPTAIN","contributed":8599521,"joined":"2020-12-26T02:37:08.521Z","joinedFriendly":"Dec
+        26th 2020"},{"name":"FreddyThatGuy","uuid":"cccb2e50-c714-4e21-86c4-cba01d9da4cb","rank":"CAPTAIN","contributed":12436,"joined":"2020-12-26T19:02:31.317Z","joinedFriendly":"Dec
+        26th 2020"},{"name":"SkyLuca","uuid":"62dd87ab-2a85-4eae-8d8a-ef7d8c9d597b","rank":"CAPTAIN","contributed":9126358,"joined":"2020-12-27T22:51:30.786Z","joinedFriendly":"Dec
+        27th 2020"},{"name":"shvy","uuid":"4ee3893e-21bf-4896-b53f-0707794afedc","rank":"CAPTAIN","contributed":14558370,"joined":"2020-12-28T00:50:49.354Z","joinedFriendly":"Dec
+        28th 2020"},{"name":"ShawarmaOnTop","uuid":"c75c9c45-4a36-4fc8-a4d0-fce922997494","rank":"CHIEF","contributed":12265943,"joined":"2020-07-20T22:51:40.973Z","joinedFriendly":"Jul
+        20th 2020"},{"name":"Aceshigh2007","uuid":"35122d14-4bf3-458d-a563-3c0d2f106e75","rank":"CAPTAIN","contributed":3941,"joined":"2021-05-09T00:29:42.645Z","joinedFriendly":"May
+        9th 2021"},{"name":"Flame_Burrito","uuid":"24256241-1847-4ef1-8f4e-8a740d580842","rank":"CAPTAIN","contributed":19453387,"joined":"2021-05-20T03:39:33.424Z","joinedFriendly":"May
+        20th 2021"},{"name":"TemperedAbyss","uuid":"aed444fd-0905-4874-863f-f215985c0708","rank":"CAPTAIN","contributed":2036,"joined":"2021-06-02T06:41:17.131Z","joinedFriendly":"Jun
+        2nd 2021"},{"name":"_Constellar","uuid":"9c1d20f8-5873-49bb-94a0-d997de34d7d5","rank":"CAPTAIN","contributed":4310480,"joined":"2021-06-23T23:04:27.367Z","joinedFriendly":"Jun
+        23rd 2021"},{"name":"No_Solo1_","uuid":"4cc49878-8613-472a-9f89-40b613ec4063","rank":"CAPTAIN","contributed":32304936,"joined":"2021-06-24T22:36:06.785Z","joinedFriendly":"Jun
+        24th 2021"},{"name":"_Skyfox","uuid":"cade85f8-bfce-412a-bd4a-85de1339d574","rank":"CAPTAIN","contributed":22345376,"joined":"2021-06-24T23:31:08.963Z","joinedFriendly":"Jun
+        24th 2021"},{"name":"TheBestChair","uuid":"c4950a54-3a05-4a4d-8729-e32995f695b3","rank":"CAPTAIN","contributed":758501478,"joined":"2021-06-25T00:34:41.170Z","joinedFriendly":"Jun
+        25th 2021"},{"name":"Taumis","uuid":"4b5d92b3-2c4b-4701-ad73-63fb79c51a10","rank":"CAPTAIN","contributed":15075430,"joined":"2021-06-25T21:03:46.364Z","joinedFriendly":"Jun
+        25th 2021"},{"name":"BlockMaker44","uuid":"f82297a5-82e9-4812-867d-1ee3e366bbe7","rank":"CAPTAIN","contributed":948479,"joined":"2021-06-26T04:41:50.519Z","joinedFriendly":"Jun
+        26th 2021"},{"name":"FreedomFury18","uuid":"d3c4342b-5759-4139-a18a-856bd72ca281","rank":"CAPTAIN","contributed":14139448,"joined":"2021-07-08T01:09:55.801Z","joinedFriendly":"Jul
+        8th 2021"},{"name":"BlazoRaptor","uuid":"fc41efa1-c9b2-481b-b223-b29c6d9316be","rank":"CAPTAIN","contributed":0,"joined":"2021-07-09T00:40:14.017Z","joinedFriendly":"Jul
+        9th 2021"},{"name":"Penguato","uuid":"9645efc3-ecd0-4cd9-baa0-2069b78d0b1b","rank":"CAPTAIN","contributed":23041,"joined":"2021-07-09T00:40:41.002Z","joinedFriendly":"Jul
+        9th 2021"},{"name":"ShibafuPotato","uuid":"86dacf7c-251d-43d1-ae08-2790bf197a47","rank":"CAPTAIN","contributed":0,"joined":"2021-07-09T22:21:06.177Z","joinedFriendly":"Jul
+        9th 2021"},{"name":"Reptain94","uuid":"4db3086b-b4dc-47f5-b5b6-12e3ee752d83","rank":"CAPTAIN","contributed":5905567,"joined":"2021-07-09T22:30:44.539Z","joinedFriendly":"Jul
+        9th 2021"},{"name":"Hollyleaf_","uuid":"d4c726e3-7178-4a75-8326-76da1410c2a7","rank":"CAPTAIN","contributed":6415182,"joined":"2021-07-09T22:44:17.760Z","joinedFriendly":"Jul
+        9th 2021"},{"name":"JasonLuigi","uuid":"20a03156-e447-4209-9539-c4680101179c","rank":"CAPTAIN","contributed":148682074,"joined":"2021-07-10T22:50:12.705Z","joinedFriendly":"Jul
+        10th 2021"},{"name":"_TurtleBasket_","uuid":"98dc5da9-a402-411c-b906-4963a54a54c7","rank":"CAPTAIN","contributed":1624748,"joined":"2021-07-10T22:52:20.532Z","joinedFriendly":"Jul
+        10th 2021"},{"name":"imnotmarvin","uuid":"1a10254c-001c-4dd7-8963-b72ec034630b","rank":"CAPTAIN","contributed":0,"joined":"2021-07-11T03:46:49.012Z","joinedFriendly":"Jul
+        11th 2021"},{"name":"Hero456","uuid":"b4c150f7-0fa1-4706-af48-834dec7836ee","rank":"CAPTAIN","contributed":20241829,"joined":"2021-07-11T03:48:13.750Z","joinedFriendly":"Jul
+        11th 2021"},{"name":"Bearers","uuid":"13c5676c-bb70-417d-897f-b3b3c9506d5f","rank":"CAPTAIN","contributed":2537377,"joined":"2021-07-11T20:10:20.046Z","joinedFriendly":"Jul
+        11th 2021"},{"name":"Influxed","uuid":"e4333ccb-600b-496c-ba02-57a4a8579e27","rank":"CAPTAIN","contributed":1969482,"joined":"2021-07-12T03:29:28.401Z","joinedFriendly":"Jul
+        12th 2021"},{"name":"Poppy2712","uuid":"18e66c93-0304-424e-9dcc-5d6969e1f182","rank":"CAPTAIN","contributed":644156,"joined":"2021-07-12T20:55:48.592Z","joinedFriendly":"Jul
+        12th 2021"},{"name":"pekkapost","uuid":"a6cd1eb9-cbd4-4537-906c-c8c48a64455b","rank":"STRATEGIST","contributed":1926578,"joined":"2021-07-12T20:55:48.835Z","joinedFriendly":"Jul
+        12th 2021"},{"name":"Intersperse","uuid":"1531fd35-397c-4f44-8fa0-ae638b849a1a","rank":"CAPTAIN","contributed":17921961,"joined":"2021-07-12T20:57:55.203Z","joinedFriendly":"Jul
+        12th 2021"},{"name":"OhAnny","uuid":"9e98db92-5659-4b3a-b1ed-8efbcbafbcfc","rank":"CAPTAIN","contributed":0,"joined":"2021-07-12T21:05:57.014Z","joinedFriendly":"Jul
+        12th 2021"},{"name":"Opisek","uuid":"ecbc77f4-0f18-4ec2-9653-ce51e560a4eb","rank":"CAPTAIN","contributed":211920,"joined":"2021-07-17T19:31:03.276Z","joinedFriendly":"Jul
+        17th 2021"},{"name":"mydjsjdh","uuid":"99834bf2-035f-452e-9a38-ada2e7dd5e62","rank":"CAPTAIN","contributed":20058960,"joined":"2021-07-23T00:31:17.782Z","joinedFriendly":"Jul
+        23rd 2021"},{"name":"Cartercraz_","uuid":"bdaa7e5e-50c1-45e6-b7fb-36c701a3edda","rank":"CAPTAIN","contributed":1100927,"joined":"2021-07-24T05:53:50.082Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"DIEGOMINECRAFT23","uuid":"19dc97ee-6ec5-46c5-b8f3-a4771b9ffd0d","rank":"CAPTAIN","contributed":2425891,"joined":"2021-07-24T23:43:48.388Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"deereste","uuid":"9afd9327-6a96-4247-9b76-7c8a6192645e","rank":"CAPTAIN","contributed":10603674,"joined":"2021-07-24T23:44:17.416Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"DoATripleFlip","uuid":"d943432e-d0bf-4874-8729-699c7bfe9215","rank":"CAPTAIN","contributed":4827661,"joined":"2021-07-24T23:46:21.324Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"Dasani_Water","uuid":"2510b466-e65f-493c-98e7-49b9882cae6a","rank":"CAPTAIN","contributed":9797869,"joined":"2021-07-24T23:48:37.404Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"Doktor_Waffler","uuid":"372b9584-3d6d-4810-a746-8d015e0524b0","rank":"CAPTAIN","contributed":124275,"joined":"2021-07-24T23:53:16.370Z","joinedFriendly":"Jul
+        24th 2021"},{"name":"Hiwaffles","uuid":"46176362-d441-4dbc-9a16-667a6bfa4beb","rank":"CAPTAIN","contributed":5736324,"joined":"2021-07-25T00:04:59.952Z","joinedFriendly":"Jul
+        25th 2021"},{"name":"KamiGaming","uuid":"3cd8f827-f1b2-4cb4-8723-6f32539dfa98","rank":"CAPTAIN","contributed":343780,"joined":"2021-07-25T18:46:57.400Z","joinedFriendly":"Jul
+        25th 2021"},{"name":"_Rituals_","uuid":"c23b242d-a019-4c2c-ba2e-f76eda43e416","rank":"CAPTAIN","contributed":28571386,"joined":"2021-07-25T18:48:15.941Z","joinedFriendly":"Jul
+        25th 2021"},{"name":"Thokuma","uuid":"39f7cb11-511a-4358-9395-7a6b8a17212e","rank":"CAPTAIN","contributed":2713309,"joined":"2021-07-27T11:53:54.493Z","joinedFriendly":"Jul
+        27th 2021"},{"name":"Artyom7117","uuid":"66f08b0c-48f7-4b4b-aba3-c898c1361471","rank":"CAPTAIN","contributed":102906,"joined":"2021-07-31T19:29:48.542Z","joinedFriendly":"Jul
+        31st 2021"},{"name":"FuriousliamYT","uuid":"f0baa839-3d53-4a58-a438-73f5f1b88525","rank":"RECRUIT","contributed":179119,"joined":"2021-08-11T01:30:23.889Z","joinedFriendly":"Aug
+        11th 2021"},{"name":"Affyn","uuid":"0ba8bd6c-5852-40c7-a450-3a4efac1c8cb","rank":"CAPTAIN","contributed":3158374,"joined":"2021-07-21T21:47:34.710Z","joinedFriendly":"Jul
+        21st 2021"},{"name":"Pickles_726","uuid":"347911b3-8e81-4561-8563-f942ae999375","rank":"RECRUIT","contributed":36142,"joined":"2021-08-12T06:11:36.734Z","joinedFriendly":"Aug
+        12th 2021"},{"name":"MortosVivos","uuid":"7ec02275-2665-4b88-ad1b-e0d01aadea3d","rank":"CAPTAIN","contributed":3374862,"joined":"2021-08-15T00:25:06.862Z","joinedFriendly":"Aug
+        15th 2021"},{"name":"TheGuyWhoPlays","uuid":"9b8b2f75-33c2-42f4-9a0e-80735a9fdd72","rank":"RECRUIT","contributed":477325,"joined":"2021-08-15T20:27:22.053Z","joinedFriendly":"Aug
+        15th 2021"},{"name":"Axuel07","uuid":"9c03bc14-4211-40f7-8775-0591f9491b58","rank":"RECRUIT","contributed":93985,"joined":"2021-08-16T16:47:00.020Z","joinedFriendly":"Aug
+        16th 2021"}],"xp":4.4,"level":56,"created":"2019-05-13T00:01:24.280Z","createdFriendly":"May
+        13th 2019","territories":0,"banner":{"base":"BLUE","tier":2,"structure":"tier2","layers":[{"colour":"WHITE","pattern":"GRADIENT"},{"colour":"BLUE","pattern":"SKULL"},{"colour":"BLUE","pattern":"BORDER"}]},"request":{"timestamp":1629796195,"version":1}}'
+    headers:
+      cache-control:
+      - max-age=29
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '174'
+      ratelimit-reset:
+      - '3'
+    status:
+      code: 200
+      message: OK
+    url: https://api.wynncraft.com/public_api.php?action=guildStats&command=The+Farplane
+- request:
+    body: null
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Corkus.py/0.3.0
+    method: GET
+    uri: https://api.wynncraft.com/v2/player/5be48ae3-82f4-4f4f-baf1-c26fcbe1788a/stats
+  response:
+    body:
+      string: '{"kind":"wynncraft/player/5be48ae3-82f4-4f4f-baf1-c26fcbe1788a/stats","code":200,"timestamp":1629796197671,"version":"2.1.0","data":[{"username":"renderme65","uuid":"5be48ae3-82f4-4f4f-baf1-c26fcbe1788a","rank":"Player","meta":{"firstJoin":"2015-08-08T12:38:13.856Z","lastJoin":"2020-05-27T17:31:42.669Z","location":{"online":false,"server":null},"playtime":4046,"tag":{"display":true,"value":"VIP+"},"veteran":false},"classes":[{"name":"warrior","level":105,"dungeons":{"completed":96,"list":[{"name":"Skeleton","completed":6},{"name":"Spider","completed":4},{"name":"Animal","completed":6},{"name":"Zombie","completed":5},{"name":"Silverfish","completed":5},{"name":"Corrupted
+        Sand-Swept Tomb","completed":60},{"name":"Corrupted Infested Pit","completed":1},{"name":"Corrupted
+        Underworld Crypt","completed":2},{"name":"Fallen Factory","completed":7}]},"raids":{"completed":0,"list":[]},"quests":{"completed":84,"list":["The
+        Envoy Part II","The Envoy Part I","The Belly of the Beast","The Thanos Vaults","The
+        Qira Hive","From the Bottom","???","Fallen Delivery","Aldorei''s Secret Part
+        II","The Hunger of Gerts Part 2","The Hunger of Gerts Part 1","Purple and
+        Blue","Aldorei''s Secret Part I","The Bigger Picture","Flight in Distress","The
+        Ultimate Weapon","Reincarnation","Murder Mystery","Troubled Tribesmen","WynnExcavation
+        Site D","Haven Antiquity","Grand Youth","Temple of the Legends","Memory Paranoia","Lost
+        Soles","Lost Royalty","Out of my Mind","Lost in the Jungle","Redbeard''s Booty","Beneath
+        the Depths","The Passage","WynnExcavation Site C","Zhight Island","The Shadow
+        of the Beast","Master Piece","Death Whistle","Jungle Fever","Crop Failure","Corrupted
+        Betrayal","The Maiden Tower","A Grave Mistake","The House of Twain","Rise
+        of the Quartron","WynnExcavation Site B","Bob''s Lost Soul","Underice","Fate
+        of the Fallen","Clearing the Camps","Heart of Llevigar","Tower of Ascension","Ice
+        Nations","Pirate''s Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation
+        Site A","Tribal Aggression","Stable Story","Meaningful Holiday","Kingdom of
+        Sand","A Sandy Scandal","Green Gloop","Craftmas Chaos","The Mercenary","Lost
+        Tower","The Corrupted Village","Dwelling Walls","The Dark Descent","Pit of
+        the Dead","Cluck Cluck","Macabre Masquerade ''''Hallowynn 2014''''","Studying
+        the Corrupt","Grave Digger","Maltic''s Well","Potion Making","Arachnids''
+        Ascent","Creeper Infiltration","Mushroom Man","Elemental Exercise","Underwater","The
+        Sewers of Ragni","Tunnel Trouble","Cook Assistant","Poisoning the Pest","King''s
+        Recruit"]},"itemsIdentified":38,"mobsKilled":23132,"pvp":{"kills":0,"deaths":0},"chestsFound":413,"blocksWalked":4470380,"logins":644,"deaths":144,"playtime":1626,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":94,"intelligence":66,"defence":40,"defense":40,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":102,"xp":0},"cooking":{"level":1,"xp":0},"farming":{"level":2,"xp":5.2},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":2,"xp":68.4},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":76.6},"woodcutting":{"level":2,"xp":23.6},"woodworking":{"level":1,"xp":0}},"discoveries":383,"eventsWon":0,"preEconomyUpdate":false},{"name":"mage1","level":91,"dungeons":{"completed":77,"list":[{"name":"Decrepit
+        Sewers","completed":4},{"name":"Infested Pit","completed":8},{"name":"Lost
+        Sanctuary","completed":1},{"name":"Sand-Swept Tomb","completed":9},{"name":"Underworld
+        Crypt","completed":4},{"name":"Ice Barrows","completed":2},{"name":"Undergrowth
+        Ruins","completed":1},{"name":"Corrupted Lost Sanctuary","completed":1},{"name":"Corrupted
+        Decrepit Sewers","completed":2},{"name":"Corrupted Infested Pit","completed":2},{"name":"Corrupted
+        Underworld Crypt","completed":1},{"name":"Corrupted Sand-Swept Tomb","completed":42}]},"raids":{"completed":0,"list":[]},"quests":{"completed":54,"list":["Redbeard''s
+        Booty","Beneath the Depths","The Passage","WynnExcavation Site C","Zhight
+        Island","The Shadow of the Beast","Death Whistle","Master Piece","Crop Failure","Jungle
+        Fever","Corrupted Betrayal","The Maiden Tower","A Grave Mistake","The House
+        of Twain","Rise of the Quartron","WynnExcavation Site B","Bob''s Lost Soul","Underice","Fate
+        of the Fallen","Clearing the Camps","Heart of Llevigar","Ice Nations","Pirate''s
+        Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation Site A","Tribal
+        Aggression","Stable Story","Meaningful Holiday","Kingdom of Sand","A Sandy
+        Scandal","Green Gloop","Craftmas Chaos","The Mercenary","Lost Tower","The
+        Corrupted Village","The Dark Descent","Dwelling Walls","Pit of the Dead","Cluck
+        Cluck","Macabre Masquerade ''''Hallowynn 2014''''","Studying the Corrupt","Grave
+        Digger","Maltic''s Well","Potion Making","Arachnids'' Ascent","Creeper Infiltration","Mushroom
+        Man","Elemental Exercise","Underwater","Tunnel Trouble","The Sewers of Ragni","Cook
+        Assistant","Poisoning the Pest"]},"itemsIdentified":0,"mobsKilled":9654,"pvp":{"kills":0,"deaths":0},"chestsFound":164,"blocksWalked":5714774,"logins":141,"deaths":45,"playtime":736,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":20,"dexterity":52,"intelligence":86,"defence":10,"defense":10,"agility":10},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":90,"xp":11.4},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":0},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":2,"xp":47.3},"woodworking":{"level":1,"xp":0}},"discoveries":227,"eventsWon":0,"preEconomyUpdate":false},{"name":"assassin","level":87,"dungeons":{"completed":92,"list":[{"name":"Skeleton","completed":18},{"name":"Spider","completed":18},{"name":"Animal","completed":14},{"name":"Zombie","completed":7},{"name":"Silverfish","completed":24},{"name":"Sand-Swept
+        Tomb","completed":1},{"name":"Corrupted Sand-Swept Tomb","completed":10}]},"raids":{"completed":0,"list":[]},"quests":{"completed":53,"list":["???","Fallen
+        Delivery","The Hunger of Gerts Part 2","Aldorei''s Secret Part II","Purple
+        and Blue","The Hunger of Gerts Part 1","Aldorei''s Secret Part I","Flight
+        in Distress","Reincarnation","Murder Mystery","Troubled Tribesmen","WynnExcavation
+        Site D","Haven Antiquity","Grand Youth","Temple of the Legends","Memory Paranoia","Lost
+        Soles","Lost Royalty","Lost in the Jungle","Beneath the Depths","The Passage","Zhight
+        Island","WynnExcavation Site C","Master Piece","Jungle Fever","The House of
+        Twain","Rise of the Quartron","WynnExcavation Site B","Bob''s Lost Soul","Clearing
+        the Camps","Heart of Llevigar","Ice Nations","Tower of Ascension","Pirate''s
+        Trove","Canyon Condor","Wrath of the Mummy","Tribal Aggression","WynnExcavation
+        Site A","Stable Story","Kingdom of Sand","A Sandy Scandal","Green Gloop","Craftmas
+        Chaos","The Mercenary","Lost Tower","Cluck Cluck","Pit of the Dead","Macabre
+        Masquerade ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Mushroom
+        Man","Underwater","Cook Assistant"]},"itemsIdentified":157,"mobsKilled":51929,"pvp":{"kills":0,"deaths":0},"chestsFound":447,"blocksWalked":406817,"logins":718,"deaths":94,"playtime":1579,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":42,"dexterity":42,"intelligence":40,"defence":20,"defense":20,"agility":28},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":87,"xp":13.2},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":0},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":58,"eventsWon":0,"preEconomyUpdate":true},{"name":"archer","level":19,"dungeons":{"completed":4,"list":[{"name":"Skeleton","completed":2},{"name":"Decrepit
+        Sewers","completed":2}]},"raids":{"completed":0,"list":[]},"quests":{"completed":6,"list":["Maltic''s
+        Well","Mushroom Man","Underwater","The Sewers of Ragni","Cook Assistant","Poisoning
+        the Pest"]},"itemsIdentified":1,"mobsKilled":886,"pvp":{"kills":0,"deaths":0},"chestsFound":28,"blocksWalked":155171,"logins":49,"deaths":16,"playtime":86,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":8,"dexterity":7,"intelligence":7,"defence":7,"defense":7,"agility":7},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":19,"xp":58},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":0},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":16,"eventsWon":0,"preEconomyUpdate":true},{"name":"hunter","level":13,"dungeons":{"completed":0,"list":[]},"raids":{"completed":0,"list":[]},"quests":{"completed":9,"list":["Underwater","Infested
+        Plants","Mini-Quest - Slay Spiders","Tunnel Trouble","The Sewers of Ragni","Cook
+        Assistant","Poisoning the Pest","King''s Recruit","Elemental Exercise"]},"itemsIdentified":0,"mobsKilled":267,"pvp":{"kills":0,"deaths":0},"chestsFound":3,"blocksWalked":100815,"logins":3,"deaths":3,"playtime":19,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":20,"intelligence":0,"defence":0,"defense":0,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":11,"xp":90.3},"cooking":{"level":1,"xp":0},"farming":{"level":3,"xp":52},"fishing":{"level":1,"xp":33.3},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":36.6},"woodworking":{"level":1,"xp":60}},"discoveries":23,"eventsWon":0,"preEconomyUpdate":false}],"guild":{"name":"The
+        Farplane","rank":"CHIEF"},"global":{"chestsFound":1055,"blocksWalked":10847957,"itemsIdentified":196,"mobsKilled":85868,"totalLevel":{"combat":309,"profession":66,"combined":375},"pvp":{"kills":0,"deaths":0},"logins":1555,"deaths":302,"discoveries":707,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
+    headers:
+      cache-control:
+      - max-age=600
+      ratelimit-limit:
+      - '180'
+      ratelimit-remaining:
+      - '173'
+      ratelimit-reset:
+      - '3'
+    status:
+      code: 200
+      message: OK
+    url: https://api.wynncraft.com/v2/player/5be48ae3-82f4-4f4f-baf1-c26fcbe1788a/stats
+version: 1

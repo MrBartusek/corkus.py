@@ -11,7 +11,7 @@ class TestLeaderboard(unittest.IsolatedAsyncioTestCase):
         self.corkus = Corkus()
 
     @vcr.use_cassette
-    async def test_guild_leaderboard(self):
+    async def test_leaderboard_guild(self):
         result = await self.corkus.leaderboard.guild()
         for guild in result:
             self.assertGreater(len(guild.name), 0)
@@ -27,12 +27,12 @@ class TestLeaderboard(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(guild.name, "Avicia")
 
     @vcr.use_cassette
-    async def test_combat_leaderboard(self):
+    async def test_leaderboard_combat(self):
         result = await self.corkus.leaderboard.combat()
         await self.check_players(result)
 
     @vcr.use_cassette
-    async def test_pvp_leaderboard(self):
+    async def test_leaderboard_pvp(self):
         result = await self.corkus.leaderboard.pvp()
         await self.check_players(result)
 

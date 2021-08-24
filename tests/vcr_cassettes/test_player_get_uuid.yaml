@@ -10,16 +10,16 @@ interactions:
     uri: https://api.wynncraft.com/v2/player/MrBartusekXD/uuid
   response:
     body:
-      string: '{"kind":"wynncraft/player/MrBartusekXD/uuid","code":200,"timestamp":1629227885447,"version":"2.1.0","data":[{"name":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a"}]}'
+      string: '{"kind":"wynncraft/player/MrBartusekXD/uuid","code":200,"timestamp":1629796274184,"version":"2.1.0","data":[{"name":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a"}]}'
     headers:
       cache-control:
       - max-age=600
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '163'
+      - '179'
       ratelimit-reset:
-      - '55'
+      - '46'
     status:
       code: 200
       message: OK

@@ -10,7 +10,7 @@ class TestTerritory(unittest.IsolatedAsyncioTestCase):
         self.corkus = Corkus()
 
     @vcr.use_cassette
-    async def test_all_territories(self):
+    async def test_territory_all(self):
         all_territories = await self.corkus.territory.list_all()
         Territory = all_territories[0]
         self.assertTrue(any(g.name == "Detlas" for g in all_territories))
@@ -22,7 +22,7 @@ class TestTerritory(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(len(Territory.guild.name), 0)
 
     @vcr.use_cassette
-    async def test_partial_territory(self):
+    async def test_territory_partial(self):
         all_territories = await self.corkus.territory.list_all()
         Territory = all_territories[0]
         guild = await Territory.guild.fetch()

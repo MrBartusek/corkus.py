@@ -9,7 +9,7 @@ class TestSearch(unittest.IsolatedAsyncioTestCase):
         self.corkus = Corkus()
 
     @vcr.use_cassette
-    async def test_guilds_and_players(self):
+    async def test_search_guilds_and_players(self):
         result = await self.corkus.search.guilds_and_players("MrBartusekXD")
         self.assertEqual(result.term, "mrbartusekxd")
         self.assertTrue(any(p.username == "MrBartusekXD" for p in result.players))
@@ -18,12 +18,12 @@ class TestSearch(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(any(g.name == "The Farplane" for g in result.guilds))
 
     @vcr.use_cassette
-    async def test_players(self):
+    async def test_search_players(self):
         result = await self.corkus.player.search("MrBartusekXD")
         self.assertTrue(any(p.username == "MrBartusekXD" for p in result))
 
     @vcr.use_cassette
-    async def test_guild(self):
+    async def test_search_guild(self):
         result = await self.corkus.guild.search("farplane")
         self.assertTrue(any(g.name == "The Farplane" for g in result))
 

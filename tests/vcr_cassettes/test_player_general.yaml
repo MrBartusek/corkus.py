@@ -10,7 +10,7 @@ interactions:
     uri: https://api.wynncraft.com/v2/player/MrBartusekXD/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/MrBartusekXD/stats","code":200,"timestamp":1629292999722,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-07-26T17:02:09.988Z","location":{"online":false,"server":null},"playtime":2866,"tag":{"display":true,"value":"VIP"},"veteran":false},"classes":[{"name":"mage","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
+      string: '{"kind":"wynncraft/player/MrBartusekXD/stats","code":200,"timestamp":1629796195247,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-07-26T17:02:09.988Z","location":{"online":false,"server":null},"playtime":2866,"tag":{"display":true,"value":"VIP"},"veteran":false},"classes":[{"name":"mage","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
         Sewers","completed":4},{"name":"Lost Sanctuary","completed":2},{"name":"Underworld
         Crypt","completed":1},{"name":"Ice Barrows","completed":6},{"name":"Sand-Swept
         Tomb","completed":4},{"name":"Undergrowth Ruins","completed":5},{"name":"Galleon''s
@@ -63,13 +63,13 @@ interactions:
         Farplane","rank":"CHIEF"},"global":{"chestsFound":1425,"blocksWalked":17308984,"itemsIdentified":0,"mobsKilled":48314,"totalLevel":{"combat":102,"profession":663,"combined":765},"pvp":{"kills":0,"deaths":0},"logins":598,"deaths":119,"discoveries":586,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
     headers:
       cache-control:
-      - max-age=600
+      - max-age=555
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '179'
+      - '155'
       ratelimit-reset:
-      - '41'
+      - '20'
     status:
       code: 200
       message: OK
@@ -85,14 +85,14 @@ interactions:
     uri: https://api.wynncraft.com/v2/player/ojomFox/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/ojomFox/stats","code":200,"timestamp":1629292783472,"version":"2.1.0","data":[{"username":"ojomFox","uuid":"33b6a693-db57-4b3f-b6df-d0772876994f","rank":"Player","meta":{"firstJoin":"2014-05-24T01:17:38.401Z","lastJoin":"2021-08-18T05:19:16.233Z","location":{"online":false,"server":null},"playtime":34114,"tag":{"display":true,"value":"CHAMPION"},"veteran":true},"classes":[{"name":"knight1","level":194,"dungeons":{"completed":338,"list":[{"name":"Zombie","completed":9},{"name":"Silverfish","completed":159},{"name":"Animal","completed":6},{"name":"Decrepit
+      string: '{"kind":"wynncraft/player/ojomFox/stats","code":200,"timestamp":1629796240691,"version":"2.1.0","data":[{"username":"ojomFox","uuid":"33b6a693-db57-4b3f-b6df-d0772876994f","rank":"Player","meta":{"firstJoin":"2014-05-24T01:17:38.401Z","lastJoin":"2021-08-24T07:24:57.438Z","location":{"online":false,"server":null},"playtime":34674,"tag":{"display":true,"value":"CHAMPION"},"veteran":true},"classes":[{"name":"knight1","level":194,"dungeons":{"completed":338,"list":[{"name":"Zombie","completed":9},{"name":"Silverfish","completed":159},{"name":"Animal","completed":6},{"name":"Decrepit
         Sewers","completed":8},{"name":"Underworld Crypt","completed":1},{"name":"Corrupted
         Sand-Swept Tomb","completed":108},{"name":"Infested Pit","completed":5},{"name":"Corrupted
         Undergrowth Ruins","completed":6},{"name":"Eldritch Outlook","completed":7},{"name":"Corrupted
         Underworld Crypt","completed":12},{"name":"Corrupted Decrepit Sewers","completed":1},{"name":"Corrupted
         Infested Pit","completed":1},{"name":"Corrupted Lost Sanctuary","completed":1},{"name":"Corrupted
-        Ice Barrows","completed":1},{"name":"Fallen Factory","completed":13}]},"raids":{"completed":47,"list":[{"name":"The
-        Canyon Colossus","completed":21},{"name":"Orphion''s Nexus of Light","completed":24},{"name":"Nest
+        Ice Barrows","completed":1},{"name":"Fallen Factory","completed":13}]},"raids":{"completed":51,"list":[{"name":"The
+        Canyon Colossus","completed":25},{"name":"Orphion''s Nexus of Light","completed":24},{"name":"Nest
         of the Grootslangs","completed":2}]},"quests":{"completed":63,"list":["A Hunter''s
         Calling","Point of No Return","A Journey Further","A Journey Beyond","Royal
         Trials","Mini-Quest - Slay Conures","Recipe For Disaster","Dwarves and Doguns
@@ -109,7 +109,7 @@ interactions:
         Gloop","Craftmas Chaos","The Mercenary","Lost Tower","The Dark Descent","Cluck
         Cluck","Pit of the Dead","Macabre Masquerade ''''Hallowynn 2014''''","Grave
         Digger","Maltic''s Well","Arachnids'' Ascent","Stable Story","Mushroom Man","Underwater","The
-        Sewers of Ragni","Cook Assistant","King''s Recruit","Mini-Quest - Gather Copper"]},"itemsIdentified":116,"mobsKilled":192667,"pvp":{"kills":0,"deaths":2},"chestsFound":39758,"blocksWalked":1635940191,"logins":6099,"deaths":438,"playtime":17900,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":14,"dexterity":85,"intelligence":9,"defence":92,"defense":92,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":105,"xp":6},"cooking":{"level":1,"xp":0},"farming":{"level":20,"xp":25.2},"fishing":{"level":56,"xp":8.6},"jeweling":{"level":1,"xp":0},"mining":{"level":11,"xp":15.3},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":70},"woodcutting":{"level":6,"xp":35.3},"woodworking":{"level":1,"xp":0}},"discoveries":2612,"eventsWon":0,"preEconomyUpdate":true},{"name":"skyseer","level":107,"dungeons":{"completed":25,"list":[{"name":"Decrepit
+        Sewers of Ragni","Cook Assistant","King''s Recruit","Mini-Quest - Gather Copper"]},"itemsIdentified":116,"mobsKilled":192763,"pvp":{"kills":0,"deaths":2},"chestsFound":43239,"blocksWalked":1636825901,"logins":6173,"deaths":444,"playtime":18378,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":78,"dexterity":61,"intelligence":0,"defence":0,"defense":0,"agility":51},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":105,"xp":6},"cooking":{"level":1,"xp":0},"farming":{"level":20,"xp":25.2},"fishing":{"level":56,"xp":8.6},"jeweling":{"level":1,"xp":0},"mining":{"level":11,"xp":15.3},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":70},"woodcutting":{"level":6,"xp":35.3},"woodworking":{"level":1,"xp":0}},"discoveries":2739,"eventsWon":0,"preEconomyUpdate":true},{"name":"skyseer","level":107,"dungeons":{"completed":25,"list":[{"name":"Decrepit
         Sewers","completed":2},{"name":"Infested Pit","completed":3},{"name":"Corrupted
         Decrepit Sewers","completed":6},{"name":"Corrupted Infested Pit","completed":8},{"name":"Ice
         Barrows","completed":2},{"name":"Corrupted Lost Sanctuary","completed":1},{"name":"Corrupted
@@ -118,7 +118,7 @@ interactions:
         Journey Beyond","The Qira Hive","The Passage","Realm of Light I - The Worm
         Holes","Fate of the Fallen","Tower of Ascension","The Mercenary","Creeper
         Infiltration","Arachnids'' Ascent","The Sewers of Ragni","Cook Assistant","King''s
-        Recruit"]},"itemsIdentified":0,"mobsKilled":49064,"pvp":{"kills":0,"deaths":0},"chestsFound":74,"blocksWalked":4511816,"logins":533,"deaths":101,"playtime":1235,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":32,"dexterity":27,"intelligence":32,"defence":67,"defense":67,"agility":40},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":105,"xp":0.9},"cooking":{"level":1,"xp":0},"farming":{"level":3,"xp":85.4},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":492,"eventsWon":0,"preEconomyUpdate":false},{"name":"assassin","level":79,"dungeons":{"completed":23,"list":[{"name":"Skeleton","completed":2},{"name":"Silverfish","completed":12},{"name":"Animal","completed":4},{"name":"Spider","completed":1},{"name":"Corrupted
+        Recruit"]},"itemsIdentified":0,"mobsKilled":49124,"pvp":{"kills":0,"deaths":0},"chestsFound":74,"blocksWalked":4527820,"logins":571,"deaths":101,"playtime":1317,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":32,"dexterity":27,"intelligence":32,"defence":67,"defense":67,"agility":40},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":105,"xp":0.9},"cooking":{"level":1,"xp":0},"farming":{"level":3,"xp":85.4},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":502,"eventsWon":0,"preEconomyUpdate":false},{"name":"assassin","level":79,"dungeons":{"completed":23,"list":[{"name":"Skeleton","completed":2},{"name":"Silverfish","completed":12},{"name":"Animal","completed":4},{"name":"Spider","completed":1},{"name":"Corrupted
         Lost Sanctuary","completed":2},{"name":"Corrupted Infested Pit","completed":1},{"name":"Corrupted
         Decrepit Sewers","completed":1}]},"raids":{"completed":0,"list":[]},"quests":{"completed":25,"list":["Flight
         in Distress","Reincarnation","Haven Antiquity","Temple of the Legends","Lost
@@ -126,7 +126,7 @@ interactions:
         Lost Soul","Ice Nations","Tower of Ascension","Wrath of the Mummy","Green
         Gloop","The Mercenary","Lost Tower","Cluck Cluck","Macabre Masquerade ''''Hallowynn
         2014''''","Grave Digger","Maltic''s Well","Stable Story","Mushroom Man","Underwater","Cook
-        Assistant","King''s Recruit"]},"itemsIdentified":665,"mobsKilled":139319,"pvp":{"kills":335,"deaths":207},"chestsFound":388,"blocksWalked":60036836,"logins":3534,"deaths":250,"playtime":9698,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":5,"dexterity":35,"intelligence":45,"defence":51,"defense":51,"agility":20},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":79,"xp":5.6},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":26.6},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":70},"mining":{"level":1,"xp":66.6},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":80},"woodcutting":{"level":1,"xp":36.6},"woodworking":{"level":1,"xp":0}},"discoveries":196,"eventsWon":0,"preEconomyUpdate":false},{"name":"mage","level":75,"dungeons":{"completed":4,"list":[{"name":"Skeleton","completed":3},{"name":"Spider","completed":1}]},"raids":{"completed":0,"list":[]},"quests":{"completed":17,"list":["Reincarnation","Haven
+        Assistant","King''s Recruit"]},"itemsIdentified":665,"mobsKilled":139319,"pvp":{"kills":335,"deaths":207},"chestsFound":388,"blocksWalked":60036836,"logins":3535,"deaths":250,"playtime":9698,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":5,"dexterity":35,"intelligence":45,"defence":51,"defense":51,"agility":20},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":79,"xp":5.6},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":26.6},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":70},"mining":{"level":1,"xp":66.6},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":80},"woodcutting":{"level":1,"xp":36.6},"woodworking":{"level":1,"xp":0}},"discoveries":196,"eventsWon":0,"preEconomyUpdate":false},{"name":"mage","level":75,"dungeons":{"completed":4,"list":[{"name":"Skeleton","completed":3},{"name":"Spider","completed":1}]},"raids":{"completed":0,"list":[]},"quests":{"completed":17,"list":["Reincarnation","Haven
         Antiquity","Temple of the Legends","The Passage","Jungle Fever","The House
         of Twain","Bob''s Lost Soul","Ice Nations","Wrath of the Mummy","Lost Tower","Cluck
         Cluck","Grave Digger","Maltic''s Well","Stable Story","Mushroom Man","Underwater","Cook
@@ -140,17 +140,17 @@ interactions:
         Mercenary","Lost Tower","Pit of the Dead","Cluck Cluck","Macabre Masquerade
         ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Mushroom Man","Underwater","Cook
         Assistant"]},"itemsIdentified":67,"mobsKilled":3492,"pvp":{"kills":63,"deaths":84},"chestsFound":22,"blocksWalked":255684,"logins":585,"deaths":52,"playtime":818,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":0,"defence":10,"defense":10,"agility":48},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":50,"xp":52.5},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":0},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":70,"eventsWon":0,"preEconomyUpdate":false},{"name":"darkwizard","level":2,"dungeons":{"completed":0,"list":[]},"raids":{"completed":0,"list":[]},"quests":{"completed":0,"list":[]},"itemsIdentified":6,"mobsKilled":0,"pvp":{"kills":3,"deaths":34},"chestsFound":2,"blocksWalked":2469,"logins":130,"deaths":4,"playtime":267,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":0,"defence":0,"defense":0,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":2,"xp":2.6},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":0},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":3,"eventsWon":0,"preEconomyUpdate":false},{"name":"hunter1","level":1,"dungeons":{"completed":0,"list":[]},"raids":{"completed":0,"list":[]},"quests":{"completed":1,"list":["King''s
-        Recruit"]},"itemsIdentified":0,"mobsKilled":17,"pvp":{"kills":0,"deaths":0},"chestsFound":10,"blocksWalked":260475,"logins":50,"deaths":9,"playtime":79,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":0,"defence":0,"defense":0,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":1,"xp":31.8},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":80},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":46.6},"woodworking":{"level":1,"xp":63.3}},"discoveries":8,"eventsWon":0,"preEconomyUpdate":false}],"guild":{"name":"The
-        Farplane","rank":"OWNER"},"global":{"chestsFound":40632,"blocksWalked":1701099376,"itemsIdentified":1019,"mobsKilled":425006,"totalLevel":{"combat":577,"profession":212,"combined":789},"pvp":{"kills":460,"deaths":396},"logins":12917,"deaths":984,"discoveries":3401,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
+        Recruit"]},"itemsIdentified":0,"mobsKilled":17,"pvp":{"kills":0,"deaths":0},"chestsFound":10,"blocksWalked":260475,"logins":51,"deaths":9,"playtime":79,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":0,"defence":0,"defense":0,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":1,"xp":31.8},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":80},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":46.6},"woodworking":{"level":1,"xp":63.3}},"discoveries":8,"eventsWon":0,"preEconomyUpdate":false}],"guild":{"name":"The
+        Farplane","rank":"OWNER"},"global":{"chestsFound":44113,"blocksWalked":1702001090,"itemsIdentified":1019,"mobsKilled":425162,"totalLevel":{"combat":577,"profession":212,"combined":789},"pvp":{"kills":460,"deaths":396},"logins":13031,"deaths":990,"discoveries":3538,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
     headers:
       cache-control:
-      - max-age=384
+      - max-age=600
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '178'
+      - '154'
       ratelimit-reset:
-      - '41'
+      - '20'
     status:
       code: 200
       message: OK

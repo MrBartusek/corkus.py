@@ -10,16 +10,16 @@ interactions:
     uri: https://api.wynncraft.com/v2/player/an%20invalid%20username/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/an invalid username/stats","code":400,"timestamp":1629227885740,"version":"2.1.0","data":[]}'
+      string: '{"kind":"wynncraft/player/an invalid username/stats","code":400,"timestamp":1629796274657,"version":"2.1.0","data":[]}'
     headers:
       cache-control:
       - max-age=600
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '162'
+      - '178'
       ratelimit-reset:
-      - '55'
+      - '46'
     status:
       code: 400
       message: Bad Request

@@ -11,7 +11,7 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         self.corkus = Corkus()
 
     @vcr.use_cassette
-    async def test_get_guild(self):
+    async def test_guild_get(self):
         guild = await self.corkus.guild.get("The Farplane")
         self.assertEqual(guild.name, "The Farplane")
         self.assertEqual(guild.tag, "Yin")
@@ -37,17 +37,17 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
             await self.corkus.guild.get('an invalid guild')
 
     @vcr.use_cassette
-    async def test_all_guilds(self):
+    async def test_guild_all(self):
         all_guilds = await self.corkus.guild.list_all()
         self.assertTrue(any(g.name == "The Farplane" for g in all_guilds))
 
     @vcr.use_cassette
-    async def test_partial_guild(self):
+    async def test_guild_partial(self):
         guild = await PartialGuild(self.corkus, "The Farplane").fetch()
         self.assertTrue(guild.tag == "Yin")
 
     @vcr.use_cassette
-    async def test_partial_member_fetch(self):
+    async def test__guid_partial_member(self):
         player = await self.corkus.player.get('MrBartusekXD')
         self.assertEqual(player.guild.name, "The Farplane")
         member = await player.member.fetch()

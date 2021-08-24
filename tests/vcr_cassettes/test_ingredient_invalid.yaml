@@ -10,16 +10,16 @@ interactions:
     uri: https://api.wynncraft.com/v2/ingredient/get/an_invalid_ingredient
   response:
     body:
-      string: '{"kind":"wynncraft/ingredient/get/an_invalid_ingredient","code":400,"timestamp":1629225181081,"version":"2.1.0","data":[]}'
+      string: '{"kind":"wynncraft/ingredient/get/an_invalid_ingredient","code":400,"timestamp":1629796200718,"version":"2.1.0","data":[]}'
     headers:
       cache-control:
-      - max-age=906
+      - max-age=3600
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '165'
+      - '177'
       ratelimit-reset:
-      - '6'
+      - '60'
     status:
       code: 400
       message: Bad Request

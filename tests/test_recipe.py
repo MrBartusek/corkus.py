@@ -10,7 +10,7 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
         self.corkus = Corkus()
 
     @vcr.use_cassette
-    async def test_get_recipe_by_id(self):
+    async def test_recipe_get_by_id(self):
         data = [
             # ["ID", "TYPE", "PROFESSION", ""COMBSUMABLE]
             ["Boots-1-3", ItemType.BOOTS, ProfessionType.TAILORING, False],
@@ -57,7 +57,7 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
                 self.assertGreater(recipe.health_or_damage.max, 0)
 
     @vcr.use_cassette
-    async def test_list_all_recipes(self):
+    async def test_recipe_all(self):
         recipes = await self.corkus.recipe.list_all()
         partial_recipe = [r for r in recipes if r.id == "Boots-1-3"][0]
         self.assertEqual(partial_recipe.id, "Boots-1-3")
@@ -69,13 +69,13 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(recipe.id, "Boots-1-3")
 
     @vcr.use_cassette
-    async def test_search_recipe_type(self):
+    async def test_recipe_search_type(self):
         result = await self.corkus.recipe.search_by_type(ItemType.HELMET)
         self.assertGreater(len(result), 0)
         self.assertTrue(all(r.type == ItemType.HELMET for r in result))
 
     @vcr.use_cassette
-    async def test_search_recipe_profession(self):
+    async def test_recipe_search_profession(self):
         result = await self.corkus.recipe.search_by_profession(ProfessionType.WOODWORKING)
         self.assertGreater(len(result), 0)
         self.assertTrue(all(r.profession == ProfessionType.WOODWORKING for r in result))

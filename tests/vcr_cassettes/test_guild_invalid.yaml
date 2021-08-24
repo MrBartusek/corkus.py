@@ -17,9 +17,9 @@ interactions:
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '174'
+      - '172'
       ratelimit-reset:
-      - '9'
+      - '2'
     status:
       code: 200
       message: OK

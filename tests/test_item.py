@@ -13,7 +13,7 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.corkus = Corkus()
 
     @vcr.use_cassette
-    async def test_get_all_items(self):
+    async def test_item_all(self):
         items = await self.corkus.item.get_all()
         self.assertTrue(all(len(i.name) > 0 for i in items))
         self.assertTrue(any(i.name != i.display_name for i in items))
@@ -49,7 +49,7 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
             self.assertTrue(any(i.item_id ==  id for i in items))
 
     @vcr.use_cassette
-    async def test_search_wand(self):
+    async def test_item_search_wand(self):
         result = await self.corkus.item.search_by_name("Bob's Mythic Wand")
         self.assertEqual(len(result), 1)
         wand = result[0]
@@ -66,7 +66,7 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(wand.item_id, "269:19")
 
     @vcr.use_cassette
-    async def test_search_helmet(self):
+    async def test_item_search_helmet(self):
         result = await self.corkus.item.search_by_name("Scarlet Veil")
         self.assertEqual(len(result), 1)
         helmet = result[0]
@@ -83,7 +83,7 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(helmet.item_id, "302:0")
 
     @vcr.use_cassette
-    async def test_search_chestplate(self):
+    async def test_item_search_chestplate(self):
         result = await self.corkus.item.search_by_name("Snail Mail")
         self.assertEqual(len(result), 1)
         chestplate = result[0]
@@ -103,12 +103,12 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(chestplate.item_id, "299:0")
 
     @vcr.use_cassette
-    async def test_search_item_type_invalid(self):
+    async def test_item_search_type_invalid(self):
         with self.assertRaises(InvalidInputError):
             await self.corkus.item.search_by_type(ItemType.POTION)
 
     @vcr.use_cassette
-    async def test_search_item_type(self):
+    async def test_item_search_type(self):
         items = await self.corkus.item.search_by_type(ItemType.NECKLACE)
         self.assertTrue(all(i.type == ItemType.NECKLACE for i in items))
 
