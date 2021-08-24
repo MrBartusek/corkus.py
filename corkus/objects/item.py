@@ -1,8 +1,10 @@
 from __future__ import annotations
+from corkus.objects.identification_type import IdentificationType
 from typing import List, Union
 from enum import Enum
 import base64
 import json
+import math
 
 from .base import CorkusBase
 from .enums import ItemType, ItemCategory
@@ -233,12 +235,20 @@ class Item(CorkusBase):
     @property
     def identifications(self) -> List[Identification]:
         """List all identifications of this item."""
+        not_identified_id = (
+            IdentificationType.AIR_DEFENSE,
+            IdentificationType.FIRE_DEFENSE,
+            IdentificationType.EARTH_DEFENSE,
+            IdentificationType.WATER_DEFENSE,
+            IdentificationType.THUNDER_DEFENSE
+        )
+
         result = []
         for key, value in self._attributes.items():
             if not isinstance(value, int) or value == 0: continue
-            type = next(id["type"] for id in ids_convert if id["items_api"] == key)
+            type = next((id["type"] for id in ids_convert if id["items_api"] == key), None)
             if type is None: continue
-            if self.identified:
+            if self.identified or type in not_identified_id:
                 result.append(Identification(self._corkus, type, value = value))
             else:
                 result.append(Identification(self._corkus, type, values = self._generate_identification_value(value)))
@@ -255,16 +265,21 @@ class Item(CorkusBase):
         """
         min_value, max_value = None, None
         if base_value > 0:
-            min_value = min(round(base_value * 0.3), 1)
-            max_value = min(round(base_value * 1.3), 1)
+            min_value = max(self._normal_round(base_value * 0.3), 1)
+            max_value = max(self._normal_round(base_value * 1.3), 1)
         else:
-            min_value = max(round(base_value * 0.7), -1)
-            max_value = max(round(base_value * 1.3), -1)
+            min_value = min(self._normal_round(base_value * 0.7), -1)
+            max_value = min(self._normal_round(base_value * 1.3), -1)
         return IdentificationValues(
             self._corkus,
             min = min_value,
             max = max_value
         )
+
+    def _normal_round(self, n):
+        if n - math.floor(n) < 0.5:
+            return math.floor(n)
+        return math.ceil(n)
 
     @property
     def skin(self) -> Union[MojangSkinResponse, None]:

@@ -34,9 +34,9 @@ class Identification(PartialBase):
         return self._values
 
     def __repr__(self) -> str:
-        result = "<Identification"
+        result = f"<Identification type={self.type.value!r}"
         if self.value is not None:
             result += f" value={self.value}"
         if self.values is not None:
-            result += f" values={self.values}"
+            result += f" values=\"{self.values.min}/{self.values.max}\""
         return result + ">"

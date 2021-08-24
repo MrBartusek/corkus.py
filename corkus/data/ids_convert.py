@@ -6,22 +6,42 @@ from corkus.objects.identification_type import IdentificationType
 ids_convert = [
     {
         "type": IdentificationType.AIR_DEFENSE,
+        "items_api": "airDefense",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.EARTH_DEFENSE,
+        "items_api": "earthDefense",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.FIRE_DEFENSE,
+        "items_api": "fireDefense",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.THUNDER_DEFENSE,
+        "items_api": "thunderDefense",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.WATER_DEFENSE,
+        "items_api": "waterDefense",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.AIR_DEFENSE_BONUS,
         "items_api": "bonusAirDefense",
         "ingredient_api": "AIRDEFENSE"
     }, {
-        "type": IdentificationType.EARTH_DEFENSE,
+        "type": IdentificationType.EARTH_DEFENSE_BONUS,
         "items_api": "bonusEarthDefense",
         "ingredient_api": "EARTHDEFENSE"
     }, {
-        "type": IdentificationType.FIRE_DEFENSE,
+        "type": IdentificationType.FIRE_DEFENSE_BONUS,
         "items_api": "bonusFireDefense",
         "ingredient_api": "FIREDEFENSE"
     }, {
-        "type": IdentificationType.THUNDER_DEFENSE,
+        "type": IdentificationType.THUNDER_DEFENSE_BONUS,
         "items_api": "bonusThunderDefense",
         "ingredient_api": "THUNDERDEFENSE"
     }, {
-        "type": IdentificationType.WATER_DEFENSE,
+        "type": IdentificationType.WATER_DEFENSE_BONUS,
         "items_api": "bonusWaterDefense",
         "ingredient_api": "WATERDEFENSE"
     }, {
@@ -93,7 +113,7 @@ ids_convert = [
         "items_api": "manaRegen",
         "ingredient_api": "MANAREGEN"
     }, {
-        "type": IdentificationType.SPEED,
+        "type": IdentificationType.WALK_SPEED,
         "items_api": "speed",
         "ingredient_api": "SPEED"
     }, {

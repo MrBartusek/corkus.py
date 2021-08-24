@@ -14,7 +14,7 @@ class MojangSkinResponse(CorkusBase):
     def requested(self) -> Union[datetime, None]:
         """Datetime when request to Mojang API actually was sent. Note that this property might be missing."""
         if self._attributes.get("timestamp") is not None:
-            return datetime.fromtimestamp(self._attributes.get("timestamp"))
+            return datetime.fromtimestamp(self._attributes.get("timestamp", 0) / 1000)
         else:
             return None
 

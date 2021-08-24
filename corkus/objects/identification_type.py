@@ -40,14 +40,25 @@ class IdentificationType(Enum):
 
     # Elemental defence
     AIR_DEFENSE = "AIR_DEFENSE"
-    """Percentage bonus to air defense."""
+    """Air defense points granted by this item."""
     EARTH_DEFENSE = "EARTH_DEFENSE"
-    """Percentage bonus to earth defense."""
+    """Earth defense points granted by this item."""
     FIRE_DEFENSE = "FIRE_DEFENSE"
-    """Percentage bonus to fire defense."""
+    """Fire defense points granted by this item."""
     THUNDER_DEFENSE = "THUNDER_DEFENSE"
-    """Percentage bonus to thunder defense."""
+    """Thunder defense points granted by this item."""
     WATER_DEFENSE = "WATER_DEFENSE"
+    """Wather defense points granted by this item."""
+
+    AIR_DEFENSE_BONUS = "AIR_DEFENSE_BONUS"
+    """Percentage bonus to air defense."""
+    EARTH_DEFENSE_BONUS = "EARTH_DEFENSE_BONUS"
+    """Percentage bonus to earth defense."""
+    FIRE_DEFENSE_BONUS = "FIRE_DEFENSE_BONUS"
+    """Percentage bonus to fire defense."""
+    THUNDER_DEFENSE_BONUS = "THUNDER_DEFENSE_BONUS"
+    """Percentage bonus to thunder defense."""
+    WATER_DEFENSE_BONUS = "WATER_DEFENSE_BONUS"
     """Percentage bonus to wather defense."""
 
     # Health and mana
@@ -75,7 +86,7 @@ class IdentificationType(Enum):
     """Percentage exploding modifier."""
 
     # Movement
-    SPEED = "SPEED"
+    WALK_SPEED = "WALK_SPEED"
     """Percentage walk speed modifier"""
     SPRINT = "SPRINT"
     """Percentage modifier on rate of depleting sprint bar."""

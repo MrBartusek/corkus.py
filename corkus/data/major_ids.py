@@ -23,7 +23,7 @@ major_ids = {
     },
     "EXPLOSIVE_IMPACT": {
         "name": "Explosive Impact",
-        "effect": " Your \"Exploding\" ID can trigger whet hitting mobs with your basic attack"
+        "effect": "Your \"Exploding\" ID can trigger whet hitting mobs with your basic attack"
     },
     "ARCANES": {
         "name": "Transcendence",

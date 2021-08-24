@@ -1,10 +1,20 @@
 # pylint: disable=attribute-defined-outside-init
 
+from corkus.objects.identification import Identification
+from corkus.objects.identification_type import IdentificationType
 import unittest
 import asyncio
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import ItemType, ItemTier, ClassType, ItemRestrictions, ArmourType
+from corkus.objects import (
+    ItemType,
+    ItemTier,
+    ClassType,
+    ItemRestrictions,
+    ArmourType,
+    ItemCategory,
+    AttackSpeed
+)
 from corkus.errors import InvalidInputError
 
 class TestItem(unittest.IsolatedAsyncioTestCase):
@@ -64,6 +74,14 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertIsNone(wand.lore)
         self.assertIsNone(wand.restrictions)
         self.assertEqual(wand.item_id, "269:19")
+        self.assertEqual(wand.category, ItemCategory.WEAPON)
+        self.assertIsNone(wand.armour_type)
+        self.assertEqual(wand.damage.neutral, "125-180")
+        self.assertEqual(wand.attack_speed, AttackSpeed.NORMAL)
+        self.assertTrue(wand.identified)
+        self.assertIsNone(wand.health)
+        self.assertIsNone(wand.armour_defence)
+        self.assertTrue(any(i.type == IdentificationType.LOOT_BONUS and i.value > 0 and i.values is None for i in wand.identifications))
 
     @vcr.use_cassette
     async def test_item_search_helmet(self):
@@ -81,6 +99,15 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(helmet.lore, "You're seeing red... Time to see more of it.")
         self.assertIsNone(helmet.restrictions)
         self.assertEqual(helmet.item_id, "302:0")
+
+        self.assertTrue(any(i.type == IdentificationType.EARTH_DEFENSE and i.value == -30 for i in helmet.identifications))
+        self.assertTrue(any(i.type == IdentificationType.WALK_SPEED and i.values.min == 2 and i.values.max == 10 for i in helmet.identifications))
+
+        self.assertEqual(len(helmet.major_identifications), 1)
+        identification = helmet.major_identifications[0]
+        self.assertEqual(identification.name, "Explosive Impact")
+        self.assertEqual(identification.effect, 'Your "Exploding" ID can trigger whet hitting mobs with your basic attack')
+        self.assertEqual(identification.id, "EXPLOSIVE_IMPACT")
 
     @vcr.use_cassette
     async def test_item_search_chestplate(self):
@@ -101,6 +128,20 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertIsNone(chestplate.lore)
         self.assertIsNone(chestplate.restrictions)
         self.assertEqual(chestplate.item_id, "299:0")
+
+    @vcr.use_cassette
+    async def test_item_search_head(self):
+        result = await self.corkus.item.search_by_name("Gert Mask")
+        self.assertEqual(len(result), 1)
+        mask = result[0]
+        self.assertGreater(mask.health, 0)
+        self.assertGreater(mask.armour_defence.earth, 0)
+        self.assertLess(mask.armour_defence.fire, 0)
+        self.assertGreater(mask.required_level, 0)
+        self.assertEqual(mask.item_id, "397:3")
+        self.assertEqual(mask.skin.username, "bmanrules")
+        self.assertGreater(mask.skin.requested.timestamp(), 1000)
+        self.assertTrue(mask.skin.skin_url.startswith("http://textures.minecraft.net/texture/"))
 
     @vcr.use_cassette
     async def test_item_search_type_invalid(self):

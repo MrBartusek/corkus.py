@@ -17,8 +17,14 @@ class IdentificationValues(PartialBase):
         ):
         super().__init__(corkus)
 
+        if attributes is None:
+            attributes = {}
+
         self._min = attributes.get("minimum") or min or 0
         self._max = attributes.get("maximum") or max or 0
+
+        if self._max < self._min:
+            self._min, self._max = self._max, self._min
 
     @property
     def min(self) -> int:
