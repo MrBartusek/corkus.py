@@ -1,6 +1,5 @@
 # pylint: disable=attribute-defined-outside-init
 
-from datetime import datetime
 import unittest
 from tests import vcr
 import time
