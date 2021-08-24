@@ -47,11 +47,12 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(guild.tag == "Yin")
 
     @vcr.use_cassette
-    async def test__guid_partial_member(self):
+    async def test_guid_partial_member(self):
         player = await self.corkus.player.get('MrBartusekXD')
         self.assertEqual(player.guild.name, "The Farplane")
         member = await player.member.fetch()
         self.assertEqual(member.guild.name, "The Farplane")
+        self.assertEqual(member.player.username, "MrBartusekXD")
 
     async def asyncTearDown(self):
         await self.corkus.close()

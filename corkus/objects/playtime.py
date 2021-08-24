@@ -30,6 +30,13 @@ class PlayerPlaytime():
         """Get number that API returned."""
         return self._playtime
 
+    def seconds(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:
+        """Convert time using specified ratio and return it as seconds.
+
+        :param ratio: Ratio by which raw playtime will be multiplayed.
+        """
+        return self._convert(ratio) * 60
+
     def minutes(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:
         """Convert time using specified ratio and return it as minutes.
 

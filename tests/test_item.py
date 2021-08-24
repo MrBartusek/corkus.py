@@ -48,6 +48,11 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(any(i.type == ItemType.WAND for i in items))
         self.assertTrue(any(i.type == ItemType.RELIK for i in items))
 
+        self.assertTrue(any(i.category == ItemCategory.ACCESSORY for i in items))
+        self.assertTrue(any(i.category == ItemCategory.WEAPON for i in items))
+        self.assertFalse(any(i.category == ItemCategory.COMSUMABLE for i in items))
+        self.assertTrue(any(i.category == ItemCategory.ARMOUR for i in items))
+
         ids = [
             "298:0", "299:0", "300:0", "301:0", "302:0",
             "303:0", "304:0", "305:0", "306:0", "307:0",
@@ -80,6 +85,7 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(wand.identified)
         self.assertIsNone(wand.health)
         self.assertIsNone(wand.armour_defence)
+        self.assertIsNone(wand.skin)
         self.assertTrue(any(i.type == IdentificationType.LOOT_BONUS and i.value > 0 and i.values is None for i in wand.identifications))
 
     @vcr.use_cassette
@@ -98,6 +104,9 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(helmet.lore, "You're seeing red... Time to see more of it.")
         self.assertIsNone(helmet.restrictions)
         self.assertEqual(helmet.item_id, "302:0")
+        self.assertIsNone(helmet.skin)
+        self.assertIsNone(helmet.damage)
+        self.assertIsNone(helmet.attack_speed)
 
         self.assertTrue(any(i.type == IdentificationType.EARTH_DEFENSE and i.value == -30 for i in helmet.identifications))
         self.assertTrue(any(i.type == IdentificationType.WALK_SPEED and i.values.min == 2 and i.values.max == 10 for i in helmet.identifications))
@@ -127,6 +136,8 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertIsNone(chestplate.lore)
         self.assertIsNone(chestplate.restrictions)
         self.assertEqual(chestplate.item_id, "299:0")
+        self.assertIsNone(chestplate.skin)
+        self.assertGreater(chestplate.skill_points.strength, 0)
 
     @vcr.use_cassette
     async def test_item_search_head(self):
@@ -138,9 +149,11 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertLess(mask.armour_defence.fire, 0)
         self.assertGreater(mask.required_level, 0)
         self.assertEqual(mask.item_id, "397:3")
+        self.assertIsNone(mask.armour_type)
         self.assertEqual(mask.skin.username, "bmanrules")
         self.assertGreater(mask.skin.requested.timestamp(), 1000)
-        self.assertTrue(mask.skin.skin_url.startswith("http://textures.minecraft.net/texture/"))
+        self.assertIsNotNone(mask.skin.uuid)
+        self.assertTrue(mask.skin.url.startswith("http://textures.minecraft.net/texture/"))
 
     @vcr.use_cassette
     async def test_item_search_type_invalid(self):

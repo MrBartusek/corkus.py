@@ -10,7 +10,7 @@ interactions:
     uri: https://api.wynncraft.com/v2/player/MrBartusekXD/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/MrBartusekXD/stats","code":200,"timestamp":1629796195247,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-07-26T17:02:09.988Z","location":{"online":false,"server":null},"playtime":2866,"tag":{"display":true,"value":"VIP"},"veteran":false},"classes":[{"name":"mage","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
+      string: '{"kind":"wynncraft/player/MrBartusekXD/stats","code":200,"timestamp":1629805314386,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-07-26T17:02:09.988Z","location":{"online":false,"server":null},"playtime":2866,"tag":{"display":true,"value":"VIP"},"veteran":false},"classes":[{"name":"mage","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
         Sewers","completed":4},{"name":"Lost Sanctuary","completed":2},{"name":"Underworld
         Crypt","completed":1},{"name":"Ice Barrows","completed":6},{"name":"Sand-Swept
         Tomb","completed":4},{"name":"Undergrowth Ruins","completed":5},{"name":"Galleon''s
@@ -67,9 +67,9 @@ interactions:
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '177'
+      - '179'
       ratelimit-reset:
-      - '5'
+      - '6'
     status:
       code: 200
       message: OK
@@ -91,7 +91,7 @@ interactions:
         16th 2020"},{"name":"RhodieCub","uuid":"55309fc6-413c-4e05-8394-52f28ae41909","rank":"CHIEF","contributed":8913564,"joined":"2020-07-19T22:37:32.505Z","joinedFriendly":"Jul
         19th 2020"},{"name":"Morganhydra","uuid":"e9b2a02b-f07c-42fb-aa0a-210834dc1e6e","rank":"CHIEF","contributed":680447998,"joined":"2020-07-21T00:41:24.835Z","joinedFriendly":"Jul
         21st 2020"},{"name":"TheNameIsBuch","uuid":"5bff02a5-99b7-4327-bc34-d1a77fb2dbbb","rank":"CAPTAIN","contributed":684978,"joined":"2020-07-21T18:30:43.122Z","joinedFriendly":"Jul
-        21st 2020"},{"name":"Onif","uuid":"3f275026-3fc3-4ae9-9d47-45f584d11d57","rank":"CAPTAIN","contributed":11550396,"joined":"2020-07-21T18:45:11.100Z","joinedFriendly":"Jul
+        21st 2020"},{"name":"Onif","uuid":"3f275026-3fc3-4ae9-9d47-45f584d11d57","rank":"CAPTAIN","contributed":11566820,"joined":"2020-07-21T18:45:11.100Z","joinedFriendly":"Jul
         21st 2020"},{"name":"1rng","uuid":"acbfa24c-7775-4aea-aa1e-a2a5aea18066","rank":"CAPTAIN","contributed":0,"joined":"2020-07-23T17:27:59.437Z","joinedFriendly":"Jul
         23rd 2020"},{"name":"Galeath","uuid":"9364f2d4-316a-4fa4-b47d-6d5ff7785251","rank":"CHIEF","contributed":47825081,"joined":"2020-07-24T03:35:51.274Z","joinedFriendly":"Jul
         24th 2020"},{"name":"DuckNorris1","uuid":"b3cf8d36-bf1c-450b-bb6c-c224ed4432e1","rank":"CAPTAIN","contributed":7510941,"joined":"2020-07-26T20:25:42.995Z","joinedFriendly":"Jul
@@ -106,7 +106,7 @@ interactions:
         26th 2020"},{"name":"cat_miester","uuid":"318d3cb5-9f06-40cb-a0e4-b1228a608817","rank":"CAPTAIN","contributed":8599521,"joined":"2020-12-26T02:37:08.521Z","joinedFriendly":"Dec
         26th 2020"},{"name":"FreddyThatGuy","uuid":"cccb2e50-c714-4e21-86c4-cba01d9da4cb","rank":"CAPTAIN","contributed":12436,"joined":"2020-12-26T19:02:31.317Z","joinedFriendly":"Dec
         26th 2020"},{"name":"SkyLuca","uuid":"62dd87ab-2a85-4eae-8d8a-ef7d8c9d597b","rank":"CAPTAIN","contributed":9126358,"joined":"2020-12-27T22:51:30.786Z","joinedFriendly":"Dec
-        27th 2020"},{"name":"shvy","uuid":"4ee3893e-21bf-4896-b53f-0707794afedc","rank":"CAPTAIN","contributed":14558370,"joined":"2020-12-28T00:50:49.354Z","joinedFriendly":"Dec
+        27th 2020"},{"name":"shvy","uuid":"4ee3893e-21bf-4896-b53f-0707794afedc","rank":"CAPTAIN","contributed":14572092,"joined":"2020-12-28T00:50:49.354Z","joinedFriendly":"Dec
         28th 2020"},{"name":"ShawarmaOnTop","uuid":"c75c9c45-4a36-4fc8-a4d0-fce922997494","rank":"CHIEF","contributed":12265943,"joined":"2020-07-20T22:51:40.973Z","joinedFriendly":"Jul
         20th 2020"},{"name":"Aceshigh2007","uuid":"35122d14-4bf3-458d-a563-3c0d2f106e75","rank":"CAPTAIN","contributed":3941,"joined":"2021-05-09T00:29:42.645Z","joinedFriendly":"May
         9th 2021"},{"name":"Flame_Burrito","uuid":"24256241-1847-4ef1-8f4e-8a740d580842","rank":"CAPTAIN","contributed":19453387,"joined":"2021-05-20T03:39:33.424Z","joinedFriendly":"May
@@ -134,7 +134,7 @@ interactions:
         12th 2021"},{"name":"Intersperse","uuid":"1531fd35-397c-4f44-8fa0-ae638b849a1a","rank":"CAPTAIN","contributed":17921961,"joined":"2021-07-12T20:57:55.203Z","joinedFriendly":"Jul
         12th 2021"},{"name":"OhAnny","uuid":"9e98db92-5659-4b3a-b1ed-8efbcbafbcfc","rank":"CAPTAIN","contributed":0,"joined":"2021-07-12T21:05:57.014Z","joinedFriendly":"Jul
         12th 2021"},{"name":"Opisek","uuid":"ecbc77f4-0f18-4ec2-9653-ce51e560a4eb","rank":"CAPTAIN","contributed":211920,"joined":"2021-07-17T19:31:03.276Z","joinedFriendly":"Jul
-        17th 2021"},{"name":"mydjsjdh","uuid":"99834bf2-035f-452e-9a38-ada2e7dd5e62","rank":"CAPTAIN","contributed":20058960,"joined":"2021-07-23T00:31:17.782Z","joinedFriendly":"Jul
+        17th 2021"},{"name":"mydjsjdh","uuid":"99834bf2-035f-452e-9a38-ada2e7dd5e62","rank":"CAPTAIN","contributed":20059797,"joined":"2021-07-23T00:31:17.782Z","joinedFriendly":"Jul
         23rd 2021"},{"name":"Cartercraz_","uuid":"bdaa7e5e-50c1-45e6-b7fb-36c701a3edda","rank":"CAPTAIN","contributed":1100927,"joined":"2021-07-24T05:53:50.082Z","joinedFriendly":"Jul
         24th 2021"},{"name":"DIEGOMINECRAFT23","uuid":"19dc97ee-6ec5-46c5-b8f3-a4771b9ffd0d","rank":"CAPTAIN","contributed":2425891,"joined":"2021-07-24T23:43:48.388Z","joinedFriendly":"Jul
         24th 2021"},{"name":"deereste","uuid":"9afd9327-6a96-4247-9b76-7c8a6192645e","rank":"CAPTAIN","contributed":10603674,"joined":"2021-07-24T23:44:17.416Z","joinedFriendly":"Jul
@@ -153,16 +153,16 @@ interactions:
         15th 2021"},{"name":"TheGuyWhoPlays","uuid":"9b8b2f75-33c2-42f4-9a0e-80735a9fdd72","rank":"RECRUIT","contributed":477325,"joined":"2021-08-15T20:27:22.053Z","joinedFriendly":"Aug
         15th 2021"},{"name":"Axuel07","uuid":"9c03bc14-4211-40f7-8775-0591f9491b58","rank":"RECRUIT","contributed":93985,"joined":"2021-08-16T16:47:00.020Z","joinedFriendly":"Aug
         16th 2021"}],"xp":4.4,"level":56,"created":"2019-05-13T00:01:24.280Z","createdFriendly":"May
-        13th 2019","territories":0,"banner":{"base":"BLUE","tier":2,"structure":"tier2","layers":[{"colour":"WHITE","pattern":"GRADIENT"},{"colour":"BLUE","pattern":"SKULL"},{"colour":"BLUE","pattern":"BORDER"}]},"request":{"timestamp":1629796195,"version":1}}'
+        13th 2019","territories":0,"banner":{"base":"BLUE","tier":2,"structure":"tier2","layers":[{"colour":"WHITE","pattern":"GRADIENT"},{"colour":"BLUE","pattern":"SKULL"},{"colour":"BLUE","pattern":"BORDER"}]},"request":{"timestamp":1629805314,"version":1}}'
     headers:
       cache-control:
       - max-age=30
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '176'
+      - '178'
       ratelimit-reset:
-      - '5'
+      - '6'
     status:
       code: 200
       message: OK

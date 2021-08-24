@@ -32,9 +32,9 @@ class MojangSkinResponse(CorkusBase):
         return self._attributes.get("profileName")
 
     @property
-    def skin_url(self) -> str:
+    def url(self) -> str:
         """URL to the player's skin."""
         return self._attributes.get("textures", {}).get("SKIN", {}).get("url", "")
 
     def __repr__(self) -> str:
-        return f"<MojangSkinResponse username={self.username!r} skin_url={self.skin_url!r}>"
+        return f"<MojangSkinResponse username={self.username!r} skin_url={self.url!r}>"

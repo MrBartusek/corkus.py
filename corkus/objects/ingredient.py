@@ -43,8 +43,8 @@ class Ingredient(CorkusBase):
     def identifications(self) -> List[Identification]:
         """List all identifications added by this ingredient."""
         result = []
-        for key, value in self._attributes.get("identifications", []):
-            type = next(id["type"] for id in ids_convert if id["ingredients_api"] == key)
+        for key, value in self._attributes.get("identifications", []).items():
+            type = next((id["type"] for id in ids_convert if id["ingredient_api"] == key), None)
             if type is None:
                 raise ValueError(f"unknown identification: {key}")
             result.append(Identification(self._corkus, type,

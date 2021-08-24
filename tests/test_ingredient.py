@@ -3,7 +3,7 @@
 import unittest
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import PartialIngredient, ProfessionType, LogicSymbol
+from corkus.objects import PartialIngredient, ProfessionType, LogicSymbol, IdentificationType
 from corkus.errors import BadRequest
 
 class TestIngredient(unittest.IsolatedAsyncioTestCase):
@@ -20,6 +20,7 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
         self.assertIn(ProfessionType.TAILORING, glow_bulb.required_professions)
         self.assertNotEqual(glow_bulb.item_modifiers.durability, 0)
         self.assertGreater(glow_bulb.item_modifiers.skill_points.defence, 0)
+        self.assertTrue(any(i.type == IdentificationType.HEALTH_REGEN_RAW and i.values.min == 130 and i.values.max == 145 and i.value is None for i in glow_bulb.identifications))
 
         major = await self.corkus.ingredient.get("Major's Badge")
         self.assertNotEqual(major.position_modifiers.above, 0)

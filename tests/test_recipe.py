@@ -3,7 +3,7 @@
 import unittest
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import ItemType, ProfessionType
+from corkus.objects import ItemType, ProfessionType, ItemCategory
 
 class TestRecipe(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -11,32 +11,33 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
 
     @vcr.use_cassette
     async def test_recipe_get_by_id(self):
-        data = [
+        items = [
             # ["ID", "TYPE", "PROFESSION", ""COMBSUMABLE]
-            ["Boots-1-3", ItemType.BOOTS, ProfessionType.TAILORING, False],
-            ["Bow-1-3", ItemType.BOW, ProfessionType.WOODWORKING, False],
-            ["Bracelet-1-3", ItemType.BRACELET, ProfessionType.JEWELING, False],
-            ["Chestplate-1-3", ItemType.CHESTPLATE, ProfessionType.ARMOURING, False],
-            ["Dagger-1-3", ItemType.DAGGER, ProfessionType.WEAPONSMITHING, False],
-            ["Food-1-3", ItemType.FOOD, ProfessionType.COOKING, True],
-            ["Helmet-1-3", ItemType.HELMET, ProfessionType.ARMOURING, False],
-            ["Necklace-1-3", ItemType.NECKLACE, ProfessionType.JEWELING, False],
-            ["Leggings-1-3", ItemType.LEGGINGS, ProfessionType.TAILORING, False],
-            ["Potion-1-3", ItemType.POTION, ProfessionType.ALCHEMISM, True],
-            ["Relik-1-3", ItemType.RELIK, ProfessionType.WOODWORKING, False],
-            ["Ring-1-3", ItemType.RING, ProfessionType.JEWELING, False],
-            ["Scroll-1-3", ItemType.SCROLL, ProfessionType.SCRIBING, True],
-            ["Spear-1-3", ItemType.SPEAR, ProfessionType.WEAPONSMITHING, False],
-            ["Wand-1-3", ItemType.WAND, ProfessionType.WOODWORKING, False]
+            ["Boots-1-3", ItemType.BOOTS, ProfessionType.TAILORING, ItemCategory.ARMOUR],
+            ["Bow-1-3", ItemType.BOW, ProfessionType.WOODWORKING, ItemCategory.WEAPON],
+            ["Bracelet-1-3", ItemType.BRACELET, ProfessionType.JEWELING, ItemCategory.ACCESSORY],
+            ["Chestplate-1-3", ItemType.CHESTPLATE, ProfessionType.ARMOURING, ItemCategory.ARMOUR],
+            ["Dagger-1-3", ItemType.DAGGER, ProfessionType.WEAPONSMITHING, ItemCategory.WEAPON],
+            ["Food-1-3", ItemType.FOOD, ProfessionType.COOKING, ItemCategory.COMSUMABLE],
+            ["Helmet-1-3", ItemType.HELMET, ProfessionType.ARMOURING, ItemCategory.ARMOUR],
+            ["Necklace-1-3", ItemType.NECKLACE, ProfessionType.JEWELING, ItemCategory.ACCESSORY],
+            ["Leggings-1-3", ItemType.LEGGINGS, ProfessionType.TAILORING, ItemCategory.ARMOUR],
+            ["Potion-1-3", ItemType.POTION, ProfessionType.ALCHEMISM, ItemCategory.COMSUMABLE],
+            ["Relik-1-3", ItemType.RELIK, ProfessionType.WOODWORKING, ItemCategory.WEAPON],
+            ["Ring-1-3", ItemType.RING, ProfessionType.JEWELING, ItemCategory.ACCESSORY],
+            ["Scroll-1-3", ItemType.SCROLL, ProfessionType.SCRIBING, ItemCategory.COMSUMABLE],
+            ["Spear-1-3", ItemType.SPEAR, ProfessionType.WEAPONSMITHING, ItemCategory.WEAPON],
+            ["Wand-1-3", ItemType.WAND, ProfessionType.WOODWORKING, ItemCategory.WEAPON]
         ]
 
-        for item in data:
+        for item in items:
             recipe = await self.corkus.recipe.get_by_id(item[0])
             self.assertEqual(recipe.id, item[0])
 
             self.assertEqual(recipe.type, item[1])
             self.assertEqual(recipe.profession, item[2])
-            if item[3]:
+            self.assertEqual(recipe.category, item[3])
+            if item[3] == ItemCategory.COMSUMABLE:
                 self.assertIsNone(recipe.durability)
                 self.assertEqual(recipe.charges, 3)
                 self.assertGreater(recipe.duration.min, 0)

@@ -18,3 +18,6 @@ class TestPlaytime(unittest.TestCase):
 
     def test_playtime_hours(self):
         self.assertEqual(self.playtime.hours(PlaytimeConvertRatio.RAW), 1000 / 60)
+    
+    def test_playtime_seconds(self):
+        self.assertEqual(self.playtime.seconds(PlaytimeConvertRatio.RAW), 1000 * 60)
