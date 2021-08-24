@@ -44,7 +44,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(e.exception.response.status, 400)
 
     @vcr.use_cassette
-    async def test_playe_partial(self):
+    async def test_player_partial(self):
         partial = PartialPlayer(self.corkus, uuid = CorkusUUID('0edc3eb6-74d8-49b6-8b2a-3c0782183e3a'))
         self.assertEqual(partial.uuid, CorkusUUID('0edc3eb6-74d8-49b6-8b2a-3c0782183e3a'))
         player = await partial.fetch()
