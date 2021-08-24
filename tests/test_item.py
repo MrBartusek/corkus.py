@@ -1,7 +1,5 @@
 # pylint: disable=attribute-defined-outside-init
 
-from corkus.objects.identification import Identification
-from corkus.objects.identification_type import IdentificationType
 import unittest
 import asyncio
 from tests import vcr
@@ -13,7 +11,8 @@ from corkus.objects import (
     ItemRestrictions,
     ArmourType,
     ItemCategory,
-    AttackSpeed
+    AttackSpeed,
+    IdentificationType
 )
 from corkus.errors import InvalidInputError
 
