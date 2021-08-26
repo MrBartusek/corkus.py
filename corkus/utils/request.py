@@ -1,13 +1,15 @@
 from __future__ import annotations
+from os import error
 from typing import Optional
 from enum import Enum
+import asyncio
 from aiohttp.client import ClientSession, ClientResponse
 import copy
 
 from .cache import CorkusCache
 from .ratelimit import RateLimiter
 from corkus.version import __version__
-from corkus.errors import BadRequest, WynncraftServerError, RatelimitExceeded, HTTPException
+from corkus.errors import BadRequest, WynncraftServerError, RatelimitExceeded, HTTPError, CorkusTimeoutError
 
 class APIVersion(Enum):
     V1 = "https://api.wynncraft.com/public_api.php?action="
@@ -48,8 +50,12 @@ class CorkusRequest:
         if self.ratelimit_enable:
             await self.ratelimit.limit()
 
-        response = await self._session.get(url, timeout = timeout or self.timeout)
-        data = await response.json()
+        try:
+            response = await self._session.get(url, timeout = timeout or self.timeout)
+            data = await response.json()
+        except asyncio.TimeoutError:
+            raise CorkusTimeoutError(timeout, error)
+
         self.ratelimit.update(response.headers)
         self._fix_status_codes(data, response)
 
@@ -64,7 +70,7 @@ class CorkusRequest:
         elif response.status >= 400:
             raise BadRequest(response)
         else:
-            raise HTTPException(response)
+            raise HTTPError(response)
 
     async def close(self) -> None:
         return await self._session.close()

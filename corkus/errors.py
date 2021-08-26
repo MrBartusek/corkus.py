@@ -11,7 +11,24 @@ class InvalidInputError(CorkusException):
     invalid arguments. Corkus verified that argument isn't valid
     before sending request."""
 
-class HTTPException(CorkusException):
+class CorkusTimeoutError(CorkusException):
+    """Exception that's thrown when a request timeouts."""
+    def __init__(self, timeout: int, url: str) -> None:
+        super().__init__(f"request timeout after {timeout} seconds for {url}")
+        self._timeout = timeout
+        self._url = url
+
+    @property
+    def timeout(self) -> int:
+        """Configured timeout."""
+        return self._timeout
+
+    @property
+    def url(self) -> int:
+        """URL for which timeout happened."""
+        return self._timeout
+
+class HTTPError(CorkusException):
     """Exception that's thrown when an HTTP request operation fails."""
     def __init__(self, response: ClientResponse) -> None:
         super().__init__(f"received status code: HTTP {response.status} for {response.url}")
@@ -28,7 +45,7 @@ class HTTPException(CorkusException):
         """
         return self._response
 
-class WynncraftServerError(HTTPException):
+class WynncraftServerError(HTTPError):
     """Exception that's thrown for when a 500 range status code occurs.
 
     This error indicates an unexpected error prevent the server from processing the request.
@@ -38,7 +55,7 @@ class WynncraftServerError(HTTPException):
     if the issue is exploitable/poses a risk to the stability of the API.
     """
 
-class RatelimitExceeded(HTTPException):
+class RatelimitExceeded(HTTPError):
     """Exception that's thrown for when a 429 status code occurs.
 
     .. warning::
@@ -53,7 +70,7 @@ class RatelimitExceeded(HTTPException):
         IPs that repeatedly exceed the rate limit could be blacklisted.
     """
 
-class BadRequest(HTTPException):
+class BadRequest(HTTPError):
     """Exception that's thrown for when a 400 status code occurs.
 
     Indicates that a parameter given by the client was in an incorrect format,
