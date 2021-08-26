@@ -28,7 +28,7 @@ class BasePartialMember(PartialPlayer):
         return super()
 
     @property
-    def guild(self) -> Guild:
+    def guild(self) -> PartialGuild:
         """The guild that this member is a part of."""
         return self._guild
 
