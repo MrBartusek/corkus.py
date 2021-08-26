@@ -1,5 +1,4 @@
 from __future__ import annotations
-from corkus.objects.guild import Guild
 from typing import TYPE_CHECKING, Optional
 
 from corkus.objects.partial_player import PartialPlayer
