@@ -1,9 +1,9 @@
 from __future__ import annotations
-from typing import List, Optional
+from typing import Optional
 
 from .endpoint import Endpoint
 from corkus.utils.request import APIVersion
-from corkus.objects import Server, OnlinePlayers
+from corkus.objects import OnlinePlayers
 
 class NetworkEndpoint(Endpoint):
     async def players_sum(self, timeout: Optional[int] = None) -> int:
