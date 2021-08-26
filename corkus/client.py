@@ -46,7 +46,9 @@ class RateLimit:
         return self._reset
 
 class Corkus:
-    """First-class interface for accessing Wynncraft API."""
+    """First-class interface for accessing Wynncraft API.
+
+    For configuration options see: :ref:`configuration`."""
 
     def __init__(self, *,
         timeout: Optional[int] = 30,

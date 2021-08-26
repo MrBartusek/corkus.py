@@ -1,3 +1,5 @@
+.. _cache:
+
 Response Caching
 ================
 
