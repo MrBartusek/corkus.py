@@ -2,7 +2,7 @@ from __future__ import annotations
 from typing import List, TYPE_CHECKING
 from enum import Enum
 from .base import CorkusBase
-from .partial_player import PartialPlayer
+from .partial_online_player import PartialOnlinePlayer
 
 if TYPE_CHECKING:
     from corkus import Corkus
@@ -26,9 +26,9 @@ class Server(CorkusBase):
         return self._name
 
     @property
-    def players(self) -> List[PartialPlayer]:
+    def players(self) -> List[PartialOnlinePlayer]:
         """List of all online players on this server."""
-        return [PartialPlayer(self._corkus, username = p) for p in self._attributes]
+        return [PartialOnlinePlayer(self._corkus, self, username = p) for p in self._attributes]
 
     @property
     def total_players(self) -> int:

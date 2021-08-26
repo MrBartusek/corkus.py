@@ -3,7 +3,7 @@ from typing import List, Optional
 
 from .endpoint import Endpoint
 from corkus.utils.request import APIVersion
-from corkus.objects import Server
+from corkus.objects import Server, OnlinePlayers
 
 class NetworkEndpoint(Endpoint):
     async def players_sum(self, timeout: Optional[int] = None) -> int:
@@ -17,7 +17,7 @@ class NetworkEndpoint(Endpoint):
         )
         return response.get("players_online", 0)
 
-    async def servers_list(self, timeout: Optional[int] = None) -> List[Server]:
+    async def online_players(self, timeout: Optional[int] = None) -> OnlinePlayers:
         """List all running servers and players that are online on them.
 
         :param timeout: Optionally override default timeout.
@@ -35,4 +35,4 @@ class NetworkEndpoint(Endpoint):
         if "" in response:
             del response[""]
 
-        return [Server(self._corkus, name, players) for name, players in response.items()]
+        return OnlinePlayers(self._corkus, response)

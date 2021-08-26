@@ -48,9 +48,11 @@ Working with Corkus Objects
    objects/material
    objects/member
    objects/mojang_skin_response
+   objects/online_players
    objects/partial_guild
    objects/partial_ingredient
    objects/partial_member
+   objects/partial_online_player
    objects/partial_player
    objects/partial_recipe
    objects/partial_server

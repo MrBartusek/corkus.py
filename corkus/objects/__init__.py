@@ -28,6 +28,8 @@ from .partial_teritories import PartialTeritories
 
 from .server import Server, ServerType
 from .partial_server import PartialServer
+from .partial_online_player import PartialOnlinePlayer
+from .online_players import OnlinePlayers
 
 from .recipe import Recipe
 from .partial_recipe import PartialRecipe

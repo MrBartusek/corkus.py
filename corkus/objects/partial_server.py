@@ -31,8 +31,8 @@ class PartialServer(PartialBase):
 
         :param timeout: Optionally override default timeout.
         """
-        servers = await self.corkus.network.servers_list(timeout)
-        for server in servers:
+        online_players = await self.corkus.network.online_players(timeout)
+        for server in online_players.servers:
             if server.name == self.name:
                 return server
         return None

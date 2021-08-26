@@ -17,18 +17,19 @@ class TestNetwork(unittest.IsolatedAsyncioTestCase):
 
     @vcr.use_cassette
     async def test_network_servers_list(self):
-        response = await self.corkus.network.servers_list()
-        self.assertGreaterEqual(sum([s.total_players for s in response]), 1)
-        self.assertTrue(any(s.name.startswith("WC") for s in response))
-        self.assertTrue(any(s.type == ServerType.STANDARD for s in response))
+        response = await self.corkus.network.online_players()
+        self.assertGreater(sum([s.total_players for s in response.servers]), 0)
+        self.assertTrue(any(s.name.startswith("WC") for s in response.servers))
+        self.assertTrue(any(s.type == ServerType.STANDARD for s in response.servers))
+        self.assertGreater(len(response.players), 0)
 
     @vcr.use_cassette
     async def test_network_online_status(self):
-        response = await self.corkus.network.servers_list()
-        player = await response[0].players[0].fetch()
+        response = await self.corkus.network.online_players()
+        player = await response.players[0].fetch()
         self.assertTrue(player.status.online)
         self.assertTrue(player.online)
-        self.assertEqual(player.status.server.name, response[0].name)
+        self.assertEqual(player.status.server.name, response.servers[0].name)
         diff = abs(int(player.last_online.timestamp()) - int(time.time()))
         self.assertTrue(10 >= diff >= 0)
 
