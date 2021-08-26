@@ -28,7 +28,7 @@ Current cache times are decided intro 3 groups:
     - :py:func:`GuildEndpoint.get`
     - :py:func:`TerritoryEndpoint.list_all`
     - :py:func:`NetworkEndpoint.players_sum`
-    - :py:func:`NetworkEndpoint.servers_list`
+    - :py:func:`NetworkEndpoint.online_players`
     - :py:func:`SearchEndpoint.guilds_and_players`
     - :py:func:`PlayerEndpoint.search`
     - :py:func:`GuildEndpoint.search`
