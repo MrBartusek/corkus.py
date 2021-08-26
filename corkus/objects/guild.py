@@ -4,7 +4,7 @@ from typing import List
 from .base_guild import BaseGuild
 
 class Guild(BaseGuild):
-    """`Guilds <https://wynncraft.fandom.com/wiki/Guilds>`_ are Wynncraft communities communities of people
+    """`Guilds <https://wynncraft.fandom.com/wiki/Guilds>`_ are Wynncraft communities of people
     that work together to achieve their goals.
     """
     @property
