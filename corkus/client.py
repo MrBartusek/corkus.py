@@ -51,6 +51,7 @@ class Corkus:
     For configuration options see: :ref:`configuration`."""
 
     def __init__(self, *,
+        api_key: Optional[str] = None,
         timeout: Optional[int] = 30,
         session: Optional[ClientSession] = None,
         ratelimit_enable: Optional[bool] = True,
