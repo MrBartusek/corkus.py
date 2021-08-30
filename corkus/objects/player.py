@@ -11,6 +11,9 @@ from .member import GuildRank
 from .player_status import PlayerStatus
 from .player_statistics import PlayerStatistics
 from .player_class import PlayerClass
+from .dungeon import Dungeon
+from .raid import Raid
+from .quest import Quest
 
 class Player(BasePlayer):
     """Represents a player of a Wynncraft server."""
@@ -89,6 +92,33 @@ class Player(BasePlayer):
         .. include:: ../note_not_implemented.rst
         """
         raise NotImplementedError
+
+    @property
+    def quests(self) -> List[Quest]:
+        """List of all quests completed by player, combined across all classes."""
+        result = []
+        for quest in [q for c in self.classes for q in c.quests]:
+            if any(q.name == quest for q in result): continue
+            result.append(quest)
+        return result
+
+    @property
+    def dungeons(self) -> List[Dungeon]:
+        """List of dungeons completed by this player, combined across all classes."""
+        result = []
+        for dungeon in [d for c in self.classes for d in c.dungeons]:
+            if any(q.name == dungeon for q in result): continue
+            result.append(dungeon)
+        return result
+
+    @property
+    def raids(self) -> List[Raid]:
+        """List of raids completed by this player, combined across all classes."""
+        result = []
+        for raid in [r for c in self.classes for r in c.raids]:
+            if any(q.name == raid for q in result): continue
+            result.append(raid)
+        return result
 
     def __repr__(self) -> str:
         return f"<Player username={self.username!r}>"

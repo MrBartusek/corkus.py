@@ -62,6 +62,11 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(player.tag, PlayerTag.VIP)
         self.assertEqual(player.join_date.year, 2020)
 
+        # Combined from classes
+        self.assertTrue(all(d.completed > 0 for d in player.dungeons))
+        self.assertEqual(player.dungeons[0].name, "Decrepit Sewers")
+        self.assertTrue(any(q.name == "King's Recruit" for q in player.quests))
+
         # Guild
         self.assertEqual(player.member.username, "MrBartusekXD")
         self.assertEqual(player.member.rank, GuildRank.CHIEF)
@@ -128,6 +133,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         player = await self.corkus.player.get("ojomFox")
         player_class = player.classes[0]
         self.assertTrue(all(r.completed > 0 for r in player_class.raids))
+        self.assertEqual(player.raids[0].name, "The Canyon Colossus")
         self.assertEqual(player_class.raids[0].name, "The Canyon Colossus")
         self.assertTrue(any(d.type == DungeonType.STANDARD for d in player_class.dungeons))
         self.assertTrue(any(d.type == DungeonType.CORRUPTED for d in player_class.dungeons))
