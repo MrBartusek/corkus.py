@@ -11,6 +11,7 @@ Corkus documentation is organized into the following sections:
 
     getting_started/quick_start
     getting_started/installation
+    getting_started/api_keys
     getting_started/configuration
     getting_started/ratelimit
     getting_started/cache

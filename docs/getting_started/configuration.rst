@@ -17,15 +17,18 @@ same name. For example:
 Configuration Options
 ~~~~~~~~~~~~~~~~~~~~~
 
+api_key
+    Your key for Wynncraft API. :ref:`How to obtain API keys <keys>`.
+
+session
+    If you want to use a custom `ClientSession <https://docs.aiohttp.org/en/latest/client_reference.html#aiohttp.ClientSession>`_,
+    you can pass it in the following argument.
+
 timeout
     Default: ``30``
 
     Number of seconds after API requests will raise :py:exc:`corkus.errors.CorkusTimeoutError`. It can be
     overridden by timeout argument in each API call function.
-
-session
-    If you want to use a custom `ClientSession <https://docs.aiohttp.org/en/latest/client_reference.html#aiohttp.ClientSession>`_,
-    you can pass it in the following argument.
 
 cache_enable
     Default: ``True``
