@@ -1,4 +1,5 @@
 from __future__ import annotations
+from typing import Union
 from enum import Enum
 
 class IdentificationType(Enum):
@@ -109,3 +110,23 @@ class IdentificationType(Enum):
     """Percentage modifier to gartering speed."""
     SOUL_POINTS = "SOUL_POINTS"
     """Percentage chance to regenerate an additional soul point."""
+
+    @staticmethod
+    def from_items_api(key: str) -> Union[IdentificationType, None]:
+        from corkus.data import ids_convert
+        return next((id["type"] for id in ids_convert if id["items_api"] == key), None)
+
+    @staticmethod
+    def from_ingredient_api(key: str) -> Union[IdentificationType, None]:
+        from corkus.data import ids_convert
+        return next((id["type"] for id in ids_convert if id["ingredient_api"] == key), None)
+
+    @staticmethod
+    def to_items_api(type: IdentificationType) -> str:
+        from corkus.data import ids_convert
+        return next((id["items_api"] for id in ids_convert if id["type"] == type), None)
+
+    @staticmethod
+    def to_ingredient_api(type: IdentificationType) -> str:
+        from corkus.data import ids_convert
+        return next((id["ingredient_api"] for id in ids_convert if id["type"] == type), None)

@@ -16,6 +16,7 @@ Corkus documentation is organized into the following sections:
     getting_started/ratelimit
     getting_started/cache
     getting_started/partial_objects
+    getting_started/search_routes
 
 .. toctree::
     :maxdepth: 1

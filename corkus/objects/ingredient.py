@@ -1,7 +1,6 @@
 from __future__ import annotations
 from typing import Literal, List
 
-from corkus.data.ids_convert import ids_convert
 from .base import CorkusBase
 from .enums import ProfessionType
 from .ingredient_sprite import IngredientSprite
@@ -10,6 +9,7 @@ from .ingredient_comsumable import IngredientComsumableModifiers
 from .ingredient_item import IngredientItemModifiers
 from .identification import Identification
 from .identification_values import IdentificationValues
+from .identification_type import IdentificationType
 
 class Ingredient(CorkusBase):
     """Crafting Ingredients are items found in the world of
@@ -44,7 +44,7 @@ class Ingredient(CorkusBase):
         """List all identifications added by this ingredient."""
         result = []
         for key, value in self._attributes.get("identifications", []).items():
-            type = next((id["type"] for id in ids_convert if id["ingredient_api"] == key), None)
+            type = IdentificationType.from_ingredient_api(key)
             if type is None:
                 raise ValueError(f"unknown identification: {key}")
             result.append(Identification(self._corkus, type,

@@ -18,7 +18,6 @@ from .major_identification import MajorIdentification
 from .mojang_skin_response import MojangSkinResponse
 from .identification_values import IdentificationValues
 from .identification import Identification
-from corkus.data.ids_convert import ids_convert
 
 class ItemTier(Enum):
     """Rarity tier of the item."""
@@ -246,7 +245,7 @@ class Item(CorkusBase):
         result = []
         for key, value in self._attributes.items():
             if not isinstance(value, int) or value == 0: continue
-            type = next((id["type"] for id in ids_convert if id["items_api"] == key), None)
+            type = IdentificationType.from_items_api(key)
             if type is None: continue
             if self.identified or type in not_identified_id:
                 result.append(Identification(self._corkus, type, value = value))

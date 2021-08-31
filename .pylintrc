@@ -18,12 +18,13 @@ disable=
     too-many-arguments,
     abstract-method,
     comparison-with-callable,
-    cyclic-import, # If something will be really weong tests will fail
+    cyclic-import, # If something will be really wrong tests will fail
     duplicate-code,
     redefined-builtin,
     too-many-return-statements,
     too-many-branches,
-    too-many-public-methods
+    too-many-public-methods,
+    import-outside-toplevel
 
 [FORMAT]
 max-line-length=240
