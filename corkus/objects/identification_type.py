@@ -27,6 +27,26 @@ class IdentificationType(Enum):
     SPELL_DAMAGE_RAW = "SPELL_DAMAGE_RAW"
     """Bonus to spell damage."""
 
+    # Spells
+    RAINBOW_SPELL_DAMAGE_RAW = "RAINBOW_SPELL_DAMAGE_RAW"
+    """Bonus to rainbow spell damage."""
+    SPELL_COST_1 = "SPELL_COST_1"
+    """Modifier on cost of 1st spell."""
+    SPELL_COST_1_RAW = "SPELL_COST_1_RAW"
+    """Precentage modifier on cost of 1st spell."""
+    SPELL_COST_2 = "SPELL_COST_2"
+    """Modifier on cost of 2nd spell."""
+    SPELL_COST_2_RAW = "SPELL_COST_2_RAW"
+    """Precentage modifier on cost of 2nd spell."""
+    SPELL_COST_3 = "SPELL_COST_3"
+    """Modifier on cost of 3rd spell."""
+    SPELL_COST_3_RAW = "SPELL_COST_3_RAW"
+    """Precentage modifier on cost of 3rd spell."""
+    SPELL_COST_4 = "SPELL_COST_4"
+    """Modifier on cost of 4th spell."""
+    SPELL_COST_4_RAW = "SPELL_COST_4_RAW"
+    """Precentage modifier on cost of 4th spell."""
+
     # Elemental damage
     AIR_DAMAGE_BONUS = "AIR_DAMAGE_BONUS"
     """Percentage bonus to air damage."""

@@ -188,5 +188,41 @@ ids_convert = [
         "type": IdentificationType.LOOT_QUALITY,
         "items_api": "lootQuality",
         "ingredient_api": ""
+    }, {
+        "type": IdentificationType.RAINBOW_SPELL_DAMAGE_RAW,
+        "items_api": "rainbowSpellDamageRaw",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.SPELL_COST_1,
+        "items_api": "spellCostRaw1",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.SPELL_COST_1_RAW,
+        "items_api": "spellCostPct1",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.SPELL_COST_2,
+        "items_api": "spellCostRaw2",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.SPELL_COST_2_RAW,
+        "items_api": "spellCostPct2",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.SPELL_COST_3,
+        "items_api": "spellCostRaw3",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.SPELL_COST_3_RAW,
+        "items_api": "spellCostPct3",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.SPELL_COST_4,
+        "items_api": "spellCostRaw5",
+        "ingredient_api": ""
+    }, {
+        "type": IdentificationType.SPELL_COST_4_RAW,
+        "items_api": "spellCostPct4",
+        "ingredient_api": ""
     }
 ]
