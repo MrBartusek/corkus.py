@@ -44,7 +44,8 @@ ogp_site_url = "https://corkuspy.readthedocs.io"
 ogp_site_name = "Corkus.py Documentation"
 ogp_image = "https://corkuspy.readthedocs.io/en/latest/_static/logo.png"
 ogp_custom_meta_tags = [
-    '<meta name="google-site-verification" content="hIrkOqiXAYM8rbacCCcHQSAL83yd49nzfUwV7OY0POo" />',
+    '<meta name="google-site-verification" content="hIrkOqiXAYM8rbacCCcHQSAL83yd49nzfUwV7OY0POo" />'
+    '<meta name="description" content="Asynchronous, feature-rich and easy to use Python wrapper for Public Wynncraft API."/>',
 ]
 
 def to_camel_case(string):
