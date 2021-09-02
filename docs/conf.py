@@ -38,6 +38,7 @@ autoclass_content = "class"
 html_logo = "_static/logo.png"
 autodoc_class_signature = "separated"
 set_type_checking_flag = True
+html_title = f"Corkus.py {__version__}"
 
 ogp_site_url = "https://corkuspy.readthedocs.io"
 ogp_site_name = "Corkus.py Documentation"
