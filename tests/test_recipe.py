@@ -81,6 +81,7 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(len(result), 0)
         self.assertTrue(all(r.profession == ProfessionType.WOODWORKING for r in result))
 
+    @vcr.use_cassette
     async def test_recipe_search_level(self):
         result = await self.corkus.recipe.search_by_level(
             LogicSymbol.AND,
@@ -89,6 +90,7 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(len(result), 0)
         self.assertTrue(all(r.level.min == 1 for r in result))
 
+    @vcr.use_cassette
     async def test_recipe_search_durability(self):
         result = await self.corkus.recipe.search_by_durability(
             LogicSymbol.AND,
@@ -97,6 +99,7 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(len(result), 0)
         self.assertTrue(all(r.durability.min == 175 for r in result))
 
+    @vcr.use_cassette
     async def test_recipe_health_or_damage(self):
         result = await self.corkus.recipe.search_by_health_or_damage(
             LogicSymbol.AND,
@@ -105,6 +108,7 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(len(result), 0)
         self.assertTrue(all(r.health_or_damage.min == 11 for r in result))
 
+    @vcr.use_cassette
     async def test_recipe_duration(self):
         result = await self.corkus.recipe.search_by_duration(
             LogicSymbol.AND,
