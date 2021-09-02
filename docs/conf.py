@@ -14,7 +14,9 @@ exclude_patterns = ["_build"]
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
-    "sphinx_autodoc_typehints"
+    "sphinx_autodoc_typehints",
+    "sphinxext.opengraph",
+    "sphinx_copybutton"
 ]
 html_static_path = ["_static"]
 html_css_files = ['colors.css']
@@ -36,6 +38,13 @@ autoclass_content = "class"
 html_logo = "_static/logo.png"
 autodoc_class_signature = "separated"
 set_type_checking_flag = True
+
+ogp_site_url = "https://corkuspy.readthedocs.io"
+ogp_site_name = "Corkus.py Documentation"
+ogp_image = "https://corkuspy.readthedocs.io/en/latest/_static/logo.png"
+ogp_custom_meta_tags = [
+    '<meta name="google-site-verification" content="hIrkOqiXAYM8rbacCCcHQSAL83yd49nzfUwV7OY0POo" />',
+]
 
 def to_camel_case(string):
     string = string.replace("UUID", "Uuid")
