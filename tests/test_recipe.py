@@ -3,7 +3,7 @@
 import unittest
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import ItemType, ProfessionType, ItemCategory
+from corkus.objects import ItemType, ProfessionType, ItemCategory, LogicSymbol
 
 class TestRecipe(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -80,6 +80,38 @@ class TestRecipe(unittest.IsolatedAsyncioTestCase):
         result = await self.corkus.recipe.search_by_profession(ProfessionType.WOODWORKING)
         self.assertGreater(len(result), 0)
         self.assertTrue(all(r.profession == ProfessionType.WOODWORKING for r in result))
+
+    async def test_recipe_search_level(self):
+        result = await self.corkus.recipe.search_by_level(
+            LogicSymbol.AND,
+            min = 1
+        )
+        self.assertGreater(len(result), 0)
+        self.assertTrue(all(r.level.min == 1 for r in result))
+
+    async def test_recipe_search_durability(self):
+        result = await self.corkus.recipe.search_by_durability(
+            LogicSymbol.AND,
+            min = 175
+        )
+        self.assertGreater(len(result), 0)
+        self.assertTrue(all(r.durability.min == 175 for r in result))
+
+    async def test_recipe_health_or_damage(self):
+        result = await self.corkus.recipe.search_by_health_or_damage(
+            LogicSymbol.AND,
+            min = 11
+        )
+        self.assertGreater(len(result), 0)
+        self.assertTrue(all(r.health_or_damage.min == 11 for r in result))
+
+    async def test_recipe_duration(self):
+        result = await self.corkus.recipe.search_by_duration(
+            LogicSymbol.AND,
+            min = 360
+        )
+        self.assertGreater(len(result), 0)
+        self.assertTrue(all(r.duration.min == 360 for r in result))
 
     async def asyncTearDown(self):
         await self.corkus.close()

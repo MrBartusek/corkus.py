@@ -83,7 +83,7 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
             self.assertIn(ProfessionType.ALCHEMISM, i.required_professions)
 
     @vcr.use_cassette
-    async def tetest_ingredient_search_professions_or(self):
+    async def test_ingredient_search_professions_or(self):
         result = await self.corkus.ingredient.search_by_professions(
             LogicSymbol.OR,
             [ProfessionType.WOODWORKING, ProfessionType.ALCHEMISM]
@@ -94,6 +94,47 @@ class TestIngredient(unittest.IsolatedAsyncioTestCase):
                 ProfessionType.WOODWORKING in i.required_professions or
                 ProfessionType.ALCHEMISM in i.required_professions
             )
+
+    @vcr.use_cassette
+    async def test_ingredient_search_sprite(self):
+        result = await self.corkus.ingredient.search_by_sprite(
+            LogicSymbol.AND,
+            id = 449
+        )
+        self.assertGreater(len(result), 0)
+        self.assertTrue(all(i.sprite.id == 449 for i in result))
+
+    @vcr.use_cassette
+    async def test_ingredient_search_identifications(self):
+        result = await self.corkus.ingredient.search_by_identifications(
+            LogicSymbol.AND,
+            [
+                (IdentificationType.XP_BONUS, 4, 6),
+                (IdentificationType.LOOT_BONUS, None, None),
+            ]
+        )
+        self.assertGreater(len(result), 0)
+        for ing in result:
+            self.assertTrue(any(id.type == IdentificationType.XP_BONUS for id in ing.identifications))
+
+    @vcr.use_cassette
+    async def test_ingredient_search_item_modifiers(self):
+        result = await self.corkus.ingredient.search_by_item_modifiers(
+            LogicSymbol.AND,
+            durability = -28
+        )
+        self.assertGreater(len(result), 0)
+        self.assertTrue(all(i.item_modifiers.durability == -28 for i in result))
+
+    @vcr.use_cassette
+    async def test_ingredient_search_consumabl_modifiers(self):
+        result = await self.corkus.ingredient.search_by_consumable_modifiers(
+            LogicSymbol.AND,
+            duration = 60
+        )
+        self.assertGreater(len(result), 0)
+        self.assertTrue(all(i.consumable_modifiers.duration == 60 for i in result))
+
 
     @vcr.use_cassette
     async def test_ingredient_partial(self):

@@ -5,11 +5,14 @@ from enum import Enum
 import asyncio
 from aiohttp.client import ClientSession, ClientResponse
 import copy
+import logging
 
 from .cache import CorkusCache
 from .ratelimit import RateLimiter
 from corkus.version import __version__
 from corkus.errors import BadRequest, WynncraftServerError, RatelimitExceeded, HTTPError, CorkusTimeoutError
+
+logger = logging.getLogger("corkus.request")
 
 class APIVersion(Enum):
     V1 = "https://api.wynncraft.com/public_api.php?action="
@@ -80,5 +83,12 @@ class CorkusRequest:
 
         # https://github.com/Wynncraft/WynncraftAPI/issues/63
         # and other similar
-        if data.get("error") is not None:
+        if data.get("error") is not None and response.status != 400:
+            logger.debug(f"Got error field but status code is {response.status}- changing to: 400")
             response.status = 400
+
+        elif data.get("status", 200) != response.status:
+            status_field = data.get("status", 200)
+            new_status = max(data.get("status", 200), response.status)
+            logger.debug(f"Status field [{status_field}] is diffrent than status code [{response.status}] - changing to: {new_status}")
+            response.status = new_status

@@ -17,6 +17,7 @@ extensions = [
     "sphinx_autodoc_typehints"
 ]
 html_static_path = ["_static"]
+html_css_files = ['colors.css']
 html_favicon = '_static/favicon.ico'
 html_theme = 'furo'
 htmlhelp_basename = "Corkus.py"
