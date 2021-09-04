@@ -99,6 +99,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertFalse(player_class.gamemode.ironman)
         self.assertEqual(player_class.gamemode.hardcore, HardcoreType.DISABLED)
         self.assertTrue(player_class.approximate_create[0] <= player.join_date <= (player_class.approximate_create[1]))
+        self.assertGreater(player_class.playtime.raw, 0)
 
         # Classes - Statistics
         self.assertGreater(player_class.statistics.deaths, 0)

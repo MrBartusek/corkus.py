@@ -132,6 +132,7 @@ class PlayerClass(CorkusBase):
     @property
     def playtime(self) -> PlayerPlaytime:
         """Time that player spent on wynncraft servers using this class."""
+        return PlayerPlaytime(self._attributes.get("playtime", 0))
         return PlayerPlaytime(self._attributes.get("meta", {}).get("playtime", 0))
 
     @property
