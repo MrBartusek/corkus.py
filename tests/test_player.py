@@ -66,6 +66,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(all(d.completed > 0 for d in player.dungeons))
         self.assertEqual(player.dungeons[0].name, "Decrepit Sewers")
         self.assertTrue(any(q.name == "King's Recruit" for q in player.quests))
+        self.assertGreater(player.combined_level, 0)
 
         # Guild
         self.assertEqual(player.member.username, "MrBartusekXD")
@@ -100,6 +101,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(player_class.gamemode.hardcore, HardcoreType.DISABLED)
         self.assertTrue(player_class.approximate_create[0] <= player.join_date <= (player_class.approximate_create[1]))
         self.assertGreater(player_class.playtime.raw, 0)
+        self.assertGreater(player_class.combined_level, 0)
 
         # Classes - Statistics
         self.assertGreater(player_class.statistics.deaths, 0)

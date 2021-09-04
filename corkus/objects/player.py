@@ -51,6 +51,11 @@ class Player(BasePlayer):
         return PlayerPlaytime(self._attributes.get("meta", {}).get("playtime", 0))
 
     @property
+    def combined_level(self) -> int:
+        """Combined level of all professions across all classes including combat."""
+        return sum(c.combined_level for c in self.classes)
+
+    @property
     def classes(self) -> List[PlayerClass]:
         """All of the player's classes."""
         return [PlayerClass(self._corkus, self, c) for c in self._attributes.get("classes", {})]
@@ -83,17 +88,6 @@ class Player(BasePlayer):
         return PlayerStatistics(self._corkus, self._attributes.get("global", {}))
 
     @property
-    def ranking(self):
-        """
-        .. caution::
-            This property will return invalid information if player name is
-            improperly capitalized.
-
-        .. include:: ../note_not_implemented.rst
-        """
-        raise NotImplementedError
-
-    @property
     def quests(self) -> List[Quest]:
         """List of all quests completed by player, combined across all classes."""
         result = []
@@ -119,6 +113,17 @@ class Player(BasePlayer):
             if any(q.name == raid for q in result): continue
             result.append(raid)
         return result
+
+    @property
+    def ranking(self):
+        """
+        .. caution::
+            This property will return invalid information if player name is
+            improperly capitalized.
+
+        .. include:: ../note_not_implemented.rst
+        """
+        raise NotImplementedError
 
     def __repr__(self) -> str:
         return f"<Player username={self.username!r}>"

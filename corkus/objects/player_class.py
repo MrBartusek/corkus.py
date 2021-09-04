@@ -133,7 +133,11 @@ class PlayerClass(CorkusBase):
     def playtime(self) -> PlayerPlaytime:
         """Time that player spent on wynncraft servers using this class."""
         return PlayerPlaytime(self._attributes.get("playtime", 0))
-        return PlayerPlaytime(self._attributes.get("meta", {}).get("playtime", 0))
+
+    @property
+    def combined_level(self) -> int:
+        """Combined level of all professions including combat."""
+        return self._attributes.get("level", 0)
 
     @property
     def statistics(self) -> ClassStatistics:
