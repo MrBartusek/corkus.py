@@ -33,21 +33,21 @@ class PlayerPlaytime():
     def seconds(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:
         """Convert time using specified ratio and return it as seconds.
 
-        :param ratio: Ratio by which raw playtime will be multiplayed.
+        :param ratio: Ratio by which raw playtime will be multiplied.
         """
         return self._convert(ratio) * 60
 
     def minutes(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:
         """Convert time using specified ratio and return it as minutes.
 
-        :param ratio: Ratio by which raw playtime will be multiplayed.
+        :param ratio: Ratio by which raw playtime will be multiplied.
         """
         return self._convert(ratio)
 
     def hours(self, ratio: Union[PlaytimeConvertRatio, float]) -> int:
         """Convert time using specified ratio and return it as hours.
 
-        :param ratio: Ratio by which raw playtime will be multiplayed.
+        :param ratio: Ratio by which raw playtime will be multiplied.
         """
         return self._convert(ratio) / 60
 
