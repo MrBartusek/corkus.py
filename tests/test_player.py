@@ -14,7 +14,8 @@ from corkus.objects import (
     ServerType,
     ProfessionType,
     DungeonType,
-    GuildRank
+    GuildRank,
+    PlayerRank
 )
 from corkus.errors import BadRequest
 
@@ -60,6 +61,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         # Overall
         self.assertGreater(player.playtime.raw, 0)
         self.assertEqual(player.tag, PlayerTag.VIP)
+        self.assertEqual(player.rank, PlayerRank.REGULAR)
         self.assertEqual(player.join_date.year, 2020)
 
         # Combined from classes
@@ -156,6 +158,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
     @vcr.use_cassette
     async def test_player_no_guild(self):
         player = await self.corkus.player.get("Salted")
+        self.assertEqual(player.rank, PlayerRank.ADMINISTRATOR)
         self.assertIsNone(player.guild)
         self.assertIsNone(player.member)
 

@@ -6,37 +6,36 @@ from .uuid import CorkusUUID
 
 class PlayerRank(Enum):
     """Player special rank."""
-    ADMINISTRATOR = "Administrator"
+    ADMINISTRATOR = "ADMINISTRATOR"
     """Admins are either the owners or developers of Wynncraft."""
 
-    MODERATOR = "Moderator"
+    MODERATOR = "MODERATOR"
     """Moderators enforce the Wynncraft rules on the forums, game servers, and Discord.
     They are also here to help players when needed."""
 
-    BUILDER = "Builder"
+    BUILDER = "BUILDER"
     """The Builder tag is given to the builders who built the physical map."""
 
-    ITEM = "Item"
+    ITEM = "ITEM"
     """Members of the Item Team create new items as well as balance existing ones."""
 
-    GAME_MASTER = "Game Master"
+    GAME_MASTER = "GAME_MASTER"
     """The GM tag is given to Game Masters, the creators of items, quests, mobs, etc."""
 
     CMD = "CMD"
     """The CMD tag is given to the talented command blockers who create the cutscenes and
     puzzle you see in-game."""
 
-    MUSIC = "Music"
+    MUSIC = "MUSIC"
     """Given to the official composers of Wynncraft's music."""
 
-
-    HYBRID = "Hybrid"
+    HYBRID = "HYBRID"
     """The Hybrid tag is given to Wynncraft Hybrids; Content Team members who are both builders, GMs, or CMDs."""
 
-    MEDIA = "Media"
+    MEDIA = "MEDIA"
     """Media is granted to those who record and post Wynncraft videos on Youtube or stream Wynncraft."""
 
-    PLAYER = "Player"
+    REGULAR = "REGULAR"
 
 class PlayerTag(Enum):
     """Player's rank bought from `Wynncraft Store <https://store.wynncraft.com>`_."""
@@ -55,7 +54,10 @@ class BasePlayer(CorkusBase):
     @property
     def rank(self) -> PlayerRank:
         """Player special rank, if don't have one, default to :py:attr:`PlayerRank.PLAYER`."""
-        return PlayerRank(self._attributes.get("rank", PlayerRank.PLAYER))
+        rank = self._attributes.get("rank")
+        if rank is None or rank.upper() == "PLAYER":
+            rank = "REGULAR"
+        return PlayerRank(rank.upper())
 
     @property
     def tag(self) -> PlayerTag:
