@@ -20,17 +20,17 @@ if TYPE_CHECKING:
     from .player import Player
 
 class ClassType(Enum):
-    ARCHER = "Archer"
-    WARRIOR = "Warrior"
-    MAGE = "Mage"
-    ASSASSIN = "Assassin"
-    SHAMAN = "Shamman"
+    ARCHER = "ARCHER"
+    WARRIOR = "WARRIOR"
+    MAGE = "MAGE"
+    ASSASSIN = "ASSASSIN"
+    SHAMAN = "SHAMMAN"
 
-    HUNTER = "Hunter"
-    KNIGHT = "Knight"
-    DARK_WIZARD = "Dark Wizard"
-    NINJA = "Ninja"
-    SKYSEER = "Skyseer"
+    HUNTER = "HUNTER"
+    KNIGHT = "KNIGHT"
+    DARK_WIZARD = "DARK_WIZARD"
+    NINJA = "NINJA"
+    SKYSEER = "SKYSEER"
 
 class PlayerClass(CorkusBase):
     """Represents one of the `player classes <https://wynncraft.fandom.com/wiki/Classes>`_
@@ -47,7 +47,7 @@ class PlayerClass(CorkusBase):
     @property
     def display_name(self) -> str:
         """Pretty name to display to end-user like ``Archer``, ``Mage`` or ``Dark Wizard``."""
-        return self.type.value
+        return self.type.value.replace("_"," ").title()
 
     @property
     def approximate_create(self) -> Tuple[datetime, datetime]:
@@ -121,7 +121,7 @@ class PlayerClass(CorkusBase):
         name = "".join([i for i in self.name if not i.isdigit()])
         if name == "darkwizard":
             name = "dark wizard"
-        name = name.title()
+        name = name.upper().replace(" ", "_")
         return ClassType(name)
 
     @property

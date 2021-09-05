@@ -140,7 +140,7 @@ class Item(CorkusBase):
         """The class that is required for this item to be used.
         ``None`` if item can be used by all classes."""
         if self._attributes.get("classRequirement") is not None:
-            return ClassType(self._attributes.get("classRequirement"))
+            return ClassType(self._attributes.get("classRequirement").upper())
         elif self.type == ItemType.BOW:
             return ClassType.ARCHER
         elif self.type == ItemType.SPEAR:
