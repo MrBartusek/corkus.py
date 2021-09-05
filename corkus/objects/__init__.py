@@ -13,6 +13,7 @@ from .player_profession import PlayerProfession
 from .dungeon import Dungeon, DungeonType
 from .raid import Raid
 from .quest import Quest
+from .player_ranking import Ranking, PlayerRanking, PlayerOverallRanking, PlayerSoloRanking
 
 from .guild import Guild
 from .partial_guild import PartialGuild

@@ -60,9 +60,12 @@ Working with Corkus Objects
    objects/player
    objects/player_class
    objects/player_gamemodes
+   objects/player_overall_ranking
    objects/player_playtime
    objects/player_profession
    objects/player_rank
+   objects/player_ranking
+   objects/player_solo_ranking
    objects/player_statistics
    objects/player_status
    objects/player_tag
@@ -70,6 +73,7 @@ Working with Corkus Objects
    objects/profession_type
    objects/quest
    objects/raid
+   objects/ranking
    objects/recipe
    objects/search_result
    objects/server

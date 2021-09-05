@@ -132,7 +132,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(player_class.get_profession(ProfessionType.ALCHEMISM).type, ProfessionType.ALCHEMISM)
         self.assertGreater(player_class.combat.level_progress, 0)
 
-        # Alternative player
+        # Alternative players
         player = await self.corkus.player.get("ojomFox")
         player_class = player.classes[0]
         self.assertTrue(all(r.completed > 0 for r in player_class.raids))
@@ -141,6 +141,17 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(any(d.type == DungeonType.STANDARD for d in player_class.dungeons))
         self.assertTrue(any(d.type == DungeonType.CORRUPTED for d in player_class.dungeons))
         self.assertTrue(any(d.type == DungeonType.REMOVED for d in player_class.dungeons))
+
+        player = await self.corkus.player.get("Maarcus1")
+        self.assertGreater(player.ranking.player.solo.overall, 0)
+        self.assertGreater(player.ranking.player.solo.combat, 0)
+        self.assertGreater(player.ranking.player.solo.professions[ProfessionType.WOODWORKING], 0)
+        self.assertGreater(player.ranking.player.overall.professions, 0)
+        self.assertGreater(player.ranking.player.overall.all, 0)
+        self.assertGreater(player.ranking.player.overall.combat, 0)
+
+        self.assertIsNone(player.ranking.guild)
+        self.assertIsNone(player.ranking.pvp)
 
     @vcr.use_cassette
     async def test_player_no_guild(self):

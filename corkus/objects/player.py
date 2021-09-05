@@ -14,6 +14,7 @@ from .player_class import PlayerClass
 from .dungeon import Dungeon
 from .raid import Raid
 from .quest import Quest
+from .player_ranking import Ranking
 
 class Player(BasePlayer):
     """Represents a player of a Wynncraft server."""
@@ -115,15 +116,14 @@ class Player(BasePlayer):
         return result
 
     @property
-    def ranking(self):
-        """
+    def ranking(self) -> Ranking:
+        """Place of player in various leaderboards.
+
         .. caution::
             This property will return invalid information if player name is
             improperly capitalized.
-
-        .. include:: ../note_not_implemented.rst
         """
-        raise NotImplementedError
+        return Ranking(self._corkus, self._attributes.get("ranking", {}))
 
     def __repr__(self) -> str:
         return f"<Player username={self.username!r}>"
