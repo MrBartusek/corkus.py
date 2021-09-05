@@ -1,7 +1,7 @@
 from __future__ import annotations
 from os import error
 from typing import Optional
-from enum import Enum
+from enum import 
 import asyncio
 from aiohttp.client import ClientSession, ClientResponse
 import copy

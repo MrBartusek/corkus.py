@@ -24,6 +24,7 @@ setup(
         "Documentation": "https://corkuspy.readthedocs.io/en/latest/",
         "Issue tracker": "https://github.com/MrBartusek/corkus.py/issues"
     },
+    package_data={"corkus": ["py.typed"]},
     version=version,
     license='MIT',
     description='A Python wrapper for the Wynncraft API',
