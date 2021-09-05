@@ -57,7 +57,7 @@ class BasePlayer(CorkusBase):
         rank = self._attributes.get("rank")
         if rank is None or rank.upper() == "PLAYER":
             rank = "REGULAR"
-        return PlayerRank(rank.upper())
+        return PlayerRank(rank.upper().replace(" ", "_"))
 
     @property
     def tag(self) -> PlayerTag:
