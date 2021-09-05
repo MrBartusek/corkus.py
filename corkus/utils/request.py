@@ -23,6 +23,7 @@ class CorkusRequest:
 
     def __init__(self,
         timeout: Optional[int] = 0,
+        api_key: Optional[str] = None,
         session: Optional[ClientSession] = None,
         ratelimit_enable: Optional[bool] = True,
         cache_enable: Optional[bool] = True,
@@ -35,12 +36,13 @@ class CorkusRequest:
         self._session = session
         self.timeout = timeout
         if session is None:
-            self._session = ClientSession(
-                headers = {
-                    "User-Agent": f"Corkus.py/{__version__}",
-                    "Content-Type": "application/json"
-                }
-            )
+            headers = {
+                "User-Agent": f"Corkus.py/{__version__}",
+                "Content-Type": "application/json"
+            }
+            if api_key is not None:
+                headers["apikey"] = api_key
+            self._session = ClientSession(headers = headers)
 
     async def get(self, version: APIVersion, parameters: str, timeout: Optional[int]) -> dict:
         url = version.value + parameters

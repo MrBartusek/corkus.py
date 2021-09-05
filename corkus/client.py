@@ -58,7 +58,7 @@ class Corkus:
         cache_enable: Optional[bool] = True,
     ) -> None:
         self._api_key = api_key
-        self._request = CorkusRequest(timeout, session, ratelimit_enable, cache_enable)
+        self._request = CorkusRequest(timeout, api_key, session, ratelimit_enable, cache_enable)
 
     async def __aenter__(self) -> "Corkus":
         """Async enter."""
