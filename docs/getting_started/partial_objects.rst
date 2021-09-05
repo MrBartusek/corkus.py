@@ -16,7 +16,7 @@ allow for easy access to other API resources simplifying your code.
 Take for example :py:func:`GuildEndpoint.list_all <corkus.endpoints.GuildEndpoint.list_all>`. This function lists all of the
 guilds on the server, there are ``12,000+`` of those. In the ideal world this function
 would return :py:class:`List <typing.List>` [:py:class:`Guild`] hoverer that is not the
-case. This would significantly slow the API. So instead it returns
+case. This would significantly slow down the API. So instead it returns
 :py:class:`List <typing.List>` [:py:class:`str`]. Raw response looks something like that:
 
 .. code-block:: json
@@ -40,7 +40,7 @@ use :py:func:`PartialGuild.fetch` to convert it to :py:class:`Guild`.
 ~~~~~~~~~~~~~~~~~~~~
 
 Every ``Partial`` object has some sort of ``async fetch()`` function.
-These functions are shortcuts for calls using Endpoints. For example:
+These functions are shortcuts for API calls using Endpoints. For example:
 Let's say that you want to get ``level`` of first guild in
 :py:func:`GuildEndpoint.list_all <corkus.endpoints.GuildEndpoint.list_all>`.
 

@@ -21,7 +21,7 @@ class PlayerEndpoint(Endpoint):
 
                 corkus.player.get(CorkusUUID(uuid))
 
-        :param username_or_uuid: Username or UUID of player.
+        :param username_or_uuid: Username or UUID of the player.
         :param timeout: Optionally override default timeout.
         """
         if isinstance(username_or_uuid, CorkusUUID):
