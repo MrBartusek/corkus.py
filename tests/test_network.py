@@ -33,5 +33,12 @@ class TestNetwork(unittest.IsolatedAsyncioTestCase):
         diff = abs(int(player.last_online.timestamp()) - int(time.time()))
         self.assertTrue(10 >= diff >= 0)
 
+    @vcr.use_cassette
+    async def test_network_helpers(self):
+        response = await self.corkus.network.online_players()
+        player = response.players[0]
+        self.assertTrue(response.is_player_online(player))
+        self.assertEqual(response.get_player_server(player).name, response.servers[0].name)
+
     async def asyncTearDown(self):
         await self.corkus.close()
