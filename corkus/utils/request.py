@@ -1,5 +1,4 @@
 from __future__ import annotations
-from os import error
 from typing import Optional
 from enum import Enum
 import asyncio
