@@ -15,3 +15,6 @@ class CorkusUUID(UUID):
             return super().__str__()
         else:
             return str(super().hex)
+
+    def __repr__(self) -> str:
+        return f"<CorkusUUID {self.string()}>"

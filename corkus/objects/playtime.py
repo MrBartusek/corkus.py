@@ -55,3 +55,6 @@ class PlayerPlaytime():
         if isinstance(ratio, PlaytimeConvertRatio):
             ratio = ratio.value
         return round(self._playtime * ratio)
+
+    def __repr__(self) -> str:
+        return f"<PlayerPlaytime hours={self.hours}>"

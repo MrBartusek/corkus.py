@@ -32,3 +32,6 @@ class IngredientPositionModifiers(CorkusBase):
     def not_touching(self) -> int:
         """Ingredient effectiveness modifier in precentage to ingredients not touching this one."""
         return self._attributes.get("notTouching", 0)
+
+    def __repr__(self) -> str:
+        return f"<IngredientPositionModifiers right={self.right} left={self.left} above={self.above} under={self.under} touching={self.touching} not_touching={self.not_touching}>"
