@@ -25,7 +25,7 @@ class ClassType(Enum):
     WARRIOR = "WARRIOR"
     MAGE = "MAGE"
     ASSASSIN = "ASSASSIN"
-    SHAMAN = "SHAMMAN"
+    SHAMAN = "SHAMAN"
 
     HUNTER = "HUNTER"
     KNIGHT = "KNIGHT"
