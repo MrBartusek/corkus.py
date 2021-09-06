@@ -3,7 +3,7 @@ from .partial_base import PartialBase
 
 class SkillPoints(PartialBase):
     """This is multi-purpose class for player skill points. You may see it as a reqired
-    skill points for an item or even skill points of the class."""
+    skill points for an item or skill points of the class."""
 
     def __init__(self, corkus, strength: int, dexterity: int, intelligence: int, defence: int, agility: int) -> None:
         super().__init__(corkus)

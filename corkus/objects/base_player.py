@@ -53,7 +53,7 @@ class BasePlayer(CorkusBase):
 
     @property
     def rank(self) -> PlayerRank:
-        """Player special rank, if don't have one, default to :py:attr:`PlayerRank.PLAYER`."""
+        """Player special rank, if don't have one, default to :py:attr:`PlayerRank.REGULAR`."""
         rank = self._attributes.get("rank")
         if rank is None or rank.upper() == "PLAYER":
             rank = "REGULAR"

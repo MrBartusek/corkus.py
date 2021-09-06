@@ -8,7 +8,8 @@ if TYPE_CHECKING:
     from corkus import Corkus
 
 class ServerType(Enum):
-    STANDARD = "WC"
+    """Type of :py:class:`Server`."""
+    REGULAR = "WC"
     """Regular Wynncraft servers."""
 
     YOUTUBE = "YT"
@@ -39,6 +40,11 @@ class Server(CorkusBase):
     def type(self) -> ServerType:
         """Type of the server, most servers are stanard servers."""
         return ServerType("".join([i for i in self._name if not i.isdigit()]))
+
+    @property
+    def regular(self) -> bool:
+        """Is this server a regular server (:py:attr:`type` is :py:attr:`ServerType.REGULAR`)."""
+        return self.type == ServerType.REGULAR
 
     def __repr__(self) -> str:
         return f"<Server name={self.name!r} total_players={self.total_players} players={self.players}>"

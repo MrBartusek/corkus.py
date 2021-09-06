@@ -166,7 +166,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
     async def test_player_partial_server(self):
         partial_server = PartialServer(self.corkus, "WC1")
         self.assertEqual(partial_server.name, "WC1")
-        self.assertEqual(partial_server.type, ServerType.STANDARD)
+        self.assertEqual(partial_server.type, ServerType.REGULAR)
 
         server = await partial_server.fetch()
         self.assertEqual(server.name, "WC1")

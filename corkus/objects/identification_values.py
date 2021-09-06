@@ -7,7 +7,7 @@ if TYPE_CHECKING:
     from corkus import Corkus
 
 class IdentificationValues(PartialBase):
-    """Represents possible values of :py:class:`Identification` The actual value of identification
+    """Represents possible values of :py:class:`Identification`. The actual value of identification
     is randomly selected between :py:attr:`min` and :py:attr:`max` when item is identified or crafted.
     """
     def __init__(self, corkus: Corkus, *,

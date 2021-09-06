@@ -11,7 +11,7 @@ class PartialTeritories(PartialBase):
     """This ``Partial`` object is returned as a teritories of :py:class:`Guild`.
     API returns only numbers of teritories owned by a specific guild.
     You can use :py:func:`fetch` function which calls :py:func:`TerritoryEndpoint.list_all() <corkus.endpoints.TerritoryEndpoint.list_all>`
-    and return detailed list of teritories owned by thus guild."""
+    and return detailed list of teritories owned by this guild."""
 
     def __init__(self, corkus: Corkus, guild: Guild, count: int):
         super().__init__(corkus)

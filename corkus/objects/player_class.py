@@ -20,6 +20,7 @@ if TYPE_CHECKING:
     from .player import Player
 
 class ClassType(Enum):
+    """Type of :py:class:`PlayerClass`."""
     ARCHER = "ARCHER"
     WARRIOR = "WARRIOR"
     MAGE = "MAGE"
@@ -41,7 +42,7 @@ class PlayerClass(CorkusBase):
 
     @property
     def name(self) -> str:
-        """The official name of the class for example: ``mage``, ``knight1``, ``darkwizard3``."""
+        """The official name of the class for example: ``mage``, ``knight1`` or ``darkwizard3``."""
         return self._attributes.get("name", "")
 
     @property
@@ -185,7 +186,7 @@ class PlayerClass(CorkusBase):
     @property
     def pre_economy_update(self) -> str:
         """Did this class achieve level 101 before `1.18 Economy Update
-        <https://forums.wynncraft.com/threads/1-18-the-economy-update-changelog.238340/>`_.
+        <https://forums.wynncraft.com/threads/1-18-the-economy-update-changelog.238340/>`_
         when level cap was risen.
         """
         return self._attributes.get("preEconomyUpdate")

@@ -100,7 +100,13 @@ with open("code_overview/corkus_objects.rst", "w") as f:
 def autodoc_skip_member(app, what, name, obj, skip, options):
     exclusions = (
         '__init__',
-        '__new__'
+        '__new__',
+        'from_items_api',
+        'from_ingredient_api',
+        'to_items_api',
+        'to_ingredient_api',
+        'with_traceback',
+        'from_type'
     )
     exclude = name in exclusions
     return True if exclude else None

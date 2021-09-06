@@ -2,7 +2,7 @@ from __future__ import annotations
 from .base import CorkusBase
 
 class Raid(CorkusBase):
-    """Represents a `Raid <https://wynncraft.fandom.com/wiki/Raids>`_. completed by :py:class:`Player`"""
+    """Represents a `Raid <https://wynncraft.fandom.com/wiki/Raids>`_ completed by A :py:class:`Player`"""
     @property
     def name(self) -> str:
         """Name of the raid."""
