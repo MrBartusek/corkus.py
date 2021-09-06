@@ -25,7 +25,13 @@ setup(
         "Issue tracker": "https://github.com/MrBartusek/corkus.py/issues"
     },
     package_data={"corkus": ["py.typed"]},
-    packages=["corkus", "corkus.objects", "corkus.endpoints"],
+    packages=[
+        "corkus",
+        "corkus.objects",
+        "corkus.endpoints",
+        "corkus.utils",
+        "corkus.data"
+    ],
     version=version,
     license='MIT',
     description='A Python wrapper for the Wynncraft API',
