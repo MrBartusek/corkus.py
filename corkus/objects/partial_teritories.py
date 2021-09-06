@@ -35,6 +35,6 @@ class PartialTeritories(PartialBase):
         """
         teritories = await self._corkus.territory.list_all(timeout)
         return [t for t in teritories if t.guild.name == self._guild.name]
-    
+
     def __repr__(self) -> str:
         return f"<PartialTeritories count={self.count}>"

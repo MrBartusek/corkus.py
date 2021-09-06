@@ -62,6 +62,6 @@ class Member(CorkusBase):
 
         .. include:: ../note_api_call.rst"""
         return await self._corkus.player.get(self.uuid)
-    
+
     def __repr__(self) -> str:
         return f"<Member username={self.username!r} guild={self.guild.name!r}>"
