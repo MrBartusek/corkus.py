@@ -1,10 +1,10 @@
 from __future__ import annotations
 from typing import TYPE_CHECKING
-from enum import Enum
 import iso8601
 from datetime import datetime
 
 from .base import CorkusBase
+from corkus.utils import CorkusEnum
 from .uuid import CorkusUUID
 from .partial_player import PartialPlayer
 
@@ -13,7 +13,7 @@ if TYPE_CHECKING:
     from corkus import Corkus
     from .player import Player
 
-class GuildRank(Enum):
+class GuildRank(CorkusEnum):
     OWNER = "OWNER"
     CHIEF = "CHIEF"
     STRATEGIST = "STRATEGIST"

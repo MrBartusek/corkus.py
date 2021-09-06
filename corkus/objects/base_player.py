@@ -3,6 +3,7 @@ from enum import Enum
 
 from .base import CorkusBase
 from .uuid import CorkusUUID
+from corkus.utils import CorkusEnum
 
 class PlayerRank(Enum):
     """Player special rank."""
@@ -37,13 +38,13 @@ class PlayerRank(Enum):
 
     REGULAR = "REGULAR"
 
-class PlayerTag(Enum):
+class PlayerTag(CorkusEnum):
     """Player's rank bought from `Wynncraft Store <https://store.wynncraft.com>`_."""
-    PLAYER = "PLAYER"
-    VIP = "VIP"
-    VIP_PLUS = "VIP+"
-    HERO = "HERO"
     CHAMPION = "CHAMPION"
+    HERO = "HERO"
+    VIP_PLUS = "VIP+"
+    VIP = "VIP"
+    PLAYER = "PLAYER"
 
 class BasePlayer(CorkusBase):
     @property

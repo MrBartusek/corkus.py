@@ -7,6 +7,7 @@ import json
 import math
 
 from .base import CorkusBase
+from corkus.utils import CorkusEnum
 from .enums import ItemType, ItemCategory
 from .player_class import ClassType
 from .color import Color
@@ -19,25 +20,25 @@ from .mojang_skin_response import MojangSkinResponse
 from .identification_values import IdentificationValues
 from .identification import Identification
 
-class ItemTier(Enum):
+class ItemTier(CorkusEnum):
     """Rarity tier of the item."""
 
+    MYTHIC = "MYTHIC"
+    FABLED = "FABLED"
+    LEGENDARY = "LEGENDARY"
+    RARE = "RARE"
+    UNIQUE = "UNIQUE"
     SET = "SET"
     NORMAL = "NORMAL"
-    UNIQUE = "UNIQUE"
-    RARE = "RARE"
-    LEGENDARY = "LEGENDARY"
-    FABLED = "FABLED"
-    MYTHIC = "MYTHIC"
 
-class ArmourType(Enum):
+class ArmourType(CorkusEnum):
     """Material from which armour is made, same as in vanilla."""
 
-    LEATHER = "LEATHER"
-    IRON = "IRON"
-    CHAIN = "CHAIN"
-    GOLDEN = "GOLDEN"
     DIAMOND = "DIAMOND"
+    GOLDEN = "GOLDEN"
+    CHAIN = "CHAIN"
+    IRON = "IRON"
+    LEATHER = "LEATHER"
 
 class ItemRestrictions(Enum):
     """Restrictions applied to some items."""
@@ -49,17 +50,16 @@ class ItemRestrictions(Enum):
     """A special kind of :py:attr:`UNTRADABLE` items awarded during
     or after completing a quest."""
 
-class AttackSpeed(Enum):
+class AttackSpeed(CorkusEnum):
     """Attack speed of a weapon."""
 
+    SUPER_FAST = "SUPER_FAST"
+    VERY_FAST = "VERY_FAST"
+    FAST = "FAST"
+    NORMAL = "NORMAL"
+    SLOW = "SLOW"
     SUPER_SLOW = "SUPER_SLOW"
     VERY_SLOW = "VERY_SLOW"
-    SLOW = "SLOW"
-    NORMAL = "NORMAL"
-    FAST = "FAST"
-    VERY_FAST = "VERY_FAST"
-    SUPER_FAST = "SUPER_FAST"
-
 
 class Item(CorkusBase):
     """Represents regular (non-crafted) Wynncraft item."""
