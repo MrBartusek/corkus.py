@@ -14,7 +14,7 @@ class InvalidInputError(CorkusException):
 class CorkusTimeoutError(CorkusException):
     """Exception that's thrown when a request timeouts."""
     def __init__(self, timeout: int, url: str) -> None:
-        super().__init__(f"request timeout after {timeout} seconds for {url}")
+        super().__init__(f"request timeout after {timeout} second{'s' if timeout > 1 else ''} for {url}")
         self._timeout = timeout
         self._url = url
 
