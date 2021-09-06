@@ -33,5 +33,5 @@ class PartialTeritories(PartialBase):
 
         :param timeout: Optionally override default timeout.
         """
-        teritories = await self.corkus.territory.list_all(timeout)
+        teritories = await self._corkus.territory.list_all(timeout)
         return [t for t in teritories if t.guild.name == self._guild.name]

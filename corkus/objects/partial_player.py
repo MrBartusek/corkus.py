@@ -37,7 +37,7 @@ class PartialPlayer(PartialBase):
         :param timeout: Optionally override default timeout.
         """
         identifier = self._uuid if self._uuid is not None else self._username
-        return await self.corkus.player.get(identifier, timeout)
+        return await self._corkus.player.get(identifier, timeout)
 
     def __repr__(self) -> str:
         result = "<PartialPlayer"

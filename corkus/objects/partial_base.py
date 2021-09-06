@@ -6,4 +6,4 @@ if TYPE_CHECKING:
 
 class PartialBase:
     def __init__(self, corkus: Corkus):
-        self.corkus = corkus
+        self._corkus = corkus
