@@ -97,7 +97,7 @@ class IngredientEndpoint(Endpoint):
 
     async def search_by_sprite(self,
         symbol: LogicSymbol, *,
-        id: Optional[int],
+        id: Optional[int] = None,
         damage: Optional[int] = None,
         timeout: Optional[int] = None
     ) -> List[Ingredient]:
