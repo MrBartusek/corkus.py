@@ -24,7 +24,10 @@ class RateLimiter:
 
     @property
     def reset(self) -> int:
-        return self._reset - int(time.time())
+        if self._reset == 0:
+            return 0
+        else:
+            return self._reset - int(time.time())
 
     async def limit(self) -> None:
         if self.remaining <= 1:
