@@ -44,7 +44,7 @@ class RateLimit:
         """Number of seconds left until this minute ends and thus ratelimit
         is restored back to :py:attr:`total`."""
         return self._reset
-    
+
     def __repr__(self) -> str:
         return f"<RateLimit total={self.total} remaining={self.remaining} reset={self.reset}>"
 
