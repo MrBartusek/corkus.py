@@ -13,7 +13,7 @@ class TestNetwork(unittest.IsolatedAsyncioTestCase):
     @vcr.use_cassette
     async def test_network_player_sum(self):
         response = await self.corkus.network.players_sum()
-        self.assertGreaterEqual(response, 1)
+        self.assertGreaterEqual(response, 100)
 
     @vcr.use_cassette
     async def test_network_servers_list(self):
@@ -21,7 +21,8 @@ class TestNetwork(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(sum([s.total_players for s in response.servers]), 0)
         self.assertTrue(any(s.name.startswith("WC") for s in response.servers))
         self.assertTrue(any(s.type == ServerType.REGULAR for s in response.servers))
-        self.assertGreater(len(response.players), 0)
+        self.assertGreater(len(response.players), 100)
+        self.assertGreater(len(response.regular_players), 100)
 
     @vcr.use_cassette
     async def test_network_online_status(self):
