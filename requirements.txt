@@ -1,2 +1,2 @@
-aiohttp>=3.6.0,<3.8.0 # Match discord.py
-iso8601==0.1.16
+aiohttp>=3.6.0,<3.8.0
+iso8601>=0.1.10,<0.1.17
