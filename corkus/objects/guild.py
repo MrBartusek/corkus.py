@@ -23,4 +23,4 @@ class Guild(BaseGuild):
         return self._attributes.get("xp", 0)
 
     def __repr__(self) -> str:
-        return f"<Guild tag={self.tag!r} name={self.name!r}>"
+        return f"<Guild name={self.name!r} tag={self.tag!r} members={len(self.members)}>"

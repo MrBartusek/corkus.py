@@ -37,4 +37,4 @@ class LeaderboardGuild(BaseGuild):
         return await self._corkus.guild.get(self.name, timeout)
 
     def __repr__(self) -> str:
-        return f"<Guild tag={self.tag!r} name={self.name!r}>"
+        return f"<LeaderboardGuild name={self.name!r} tag={self.tag!r} members={self.members_count}>"
