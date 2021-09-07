@@ -45,7 +45,7 @@ class Member(CorkusBase):
     @property
     def join_date(self) -> datetime:
         """Datetime when player joined the guild."""
-        return iso8601.parse_date(self._attributes.get("join", "1970"))
+        return iso8601.parse_date(self._attributes.get("joined", "1970"))
 
     @property
     def guild(self) -> Guild:
