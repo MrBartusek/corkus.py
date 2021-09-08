@@ -11,3 +11,18 @@ class CorkusEnum(Enum):
         if not isinstance(obj, self.__class__):
             return NotImplemented
         return int(self) < int(obj)
+
+    def __le__(self, obj: object) -> bool:
+        if not isinstance(obj, self.__class__):
+            return NotImplemented
+        return int(self) <= int(obj)
+
+    def __gt__(self, obj: object) -> bool:
+        if not isinstance(obj, self.__class__):
+            return NotImplemented
+        return int(self) > int(obj)
+
+    def __ge__(self, obj: object) -> bool:
+        if not isinstance(obj, self.__class__):
+            return NotImplemented
+        return int(self) >= int(obj)
