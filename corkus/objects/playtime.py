@@ -57,4 +57,4 @@ class PlayerPlaytime():
         return round(self._playtime * ratio)
 
     def __repr__(self) -> str:
-        return f"<PlayerPlaytime hours={self.hours}>"
+        return f"<PlayerPlaytime hours={self.hours(4.7)}>"

@@ -198,4 +198,4 @@ class PlayerClass(CorkusBase):
         return next((p for p in self.professions if p.type == profession), None)
 
     def __repr__(self) -> str:
-        return f"<PlayerClass type={self.display_name!r}>"
+        return f"<PlayerClass type={self.display_name!r} combat={self.combat.level}>"

@@ -46,4 +46,4 @@ class PlayerGamemodes(CorkusBase):
         return self._attributes.get("hunted", False)
 
     def __repr__(self) -> str:
-        return f"<Gamemodes craftsman={self.craftsman!r} hardcore={self.hardcore!r} ironman={self.ironman!r} hunted={self.hunted!r}>"
+        return f"<PlayerGamemodes craftsman={self.craftsman!r} hardcore={self.hardcore!r} ironman={self.ironman!r} hunted={self.hunted!r}>"
