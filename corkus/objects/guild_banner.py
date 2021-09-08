@@ -6,6 +6,7 @@ from enum import Enum
 class BannerColor(Enum):
     """List of colors available for :py:class:`GuildBanner` and :py:class:`GuildBannerLayer`."""
     WHITE = "WHITE"
+    SILVER = "SILVER"
     ORANGE = "ORANGE"
     MAGENTA = "MAGENTA"
     LIGHT_BLUE = "LIGHT_BLUE"
@@ -25,6 +26,7 @@ class BannerColor(Enum):
 class BannerPattern(Enum):
     """List of patterns available for :py:class:`GuildBannerLayer`."""
     CIRCLE_MIDDLE = "CIRCLE_MIDDLE"
+    DIAGONAL_RIGHT_MIRROR = "DIAGONAL_RIGHT_MIRROR"
     SQUARE_BOTTOM_LEFT = "SQUARE_BOTTOM_LEFT"
     SQUARE_BOTTOM_RIGHT = "SQUARE_BOTTOM_RIGHT"
     SQUARE_TOP_LEFT = "SQUARE_TOP_LEFT"
