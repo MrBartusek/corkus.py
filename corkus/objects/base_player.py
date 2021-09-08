@@ -63,7 +63,10 @@ class BasePlayer(CorkusBase):
     @property
     def tag(self) -> PlayerTag:
         """Player's rank bought from `Wynncraft Store <https://store.wynncraft.com>`_."""
-        return PlayerTag(self._attributes.get("meta", {}).get("tag", {}).get("value", PlayerTag.PLAYER))
+        tag = self._attributes.get("meta", {}).get("tag", {}).get("value")
+        if tag is None:
+            return PlayerTag.PLAYER
+        return PlayerTag(tag)
 
     @property
     def veteran(self) -> bool:
