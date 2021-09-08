@@ -175,19 +175,19 @@ ids_convert = [
     }, {
         "type": IdentificationType.SPRINT,
         "items_api": "sprintRegen",
-        "ingredient_api": ""
+        "ingredient_api": "STAMINA_REGEN"
     }, {
         "type": IdentificationType.SPRINT_REGEN,
         "items_api": "sprint",
-        "ingredient_api": ""
+        "ingredient_api": "STAMINA"
     }, {
         "type": IdentificationType.JUMP_HEIGHT,
         "items_api": "jumpHeight",
-        "ingredient_api": ""
+        "ingredient_api": "JUMP_HEIGHT"
     }, {
         "type": IdentificationType.LOOT_QUALITY,
         "items_api": "lootQuality",
-        "ingredient_api": ""
+        "ingredient_api": "LOOT_QUALITY"
     }, {
         "type": IdentificationType.RAINBOW_SPELL_DAMAGE_RAW,
         "items_api": "rainbowSpellDamageRaw",
