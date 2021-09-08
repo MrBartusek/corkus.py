@@ -124,7 +124,11 @@ class Item(CorkusBase):
         if :py:attr:`armour_type` is :py:attr:`ArmourType.LEATHER` or
         else returns ``None``."""
         if self.armour_type == ArmourType.LEATHER:
-            return Color(tuple(int(c) for c in self._attributes.get("armorColor", "160,101,64").split(",")))
+            colors = (self._attributes.get("armorColor", "160,101,64")
+                .replace(" ", ",")
+                .replace("\t", ",")
+                .split(','))
+            return Color(tuple(int(c) for c in colors))
         else:
             return None
 
