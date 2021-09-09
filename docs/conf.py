@@ -16,7 +16,8 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx_autodoc_typehints",
     "sphinxext.opengraph",
-    "sphinx_copybutton"
+    "sphinx_copybutton",
+    "sphinx_design"
 ]
 html_static_path = ["_static"]
 html_css_files = ['colors.css']
