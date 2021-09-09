@@ -82,4 +82,5 @@ First of all, thanks! Check [contributing guidelines](https://corkuspy.readthedo
 
 ## Links
 - [Documentation](https://corkuspy.readthedocs.io)
+- [Forum Post](https://forums.wynncraft.com/threads/corkus-py-python-wrapper-for-wynncraft-api.295400/)
 - [PyPi Package](https://pypi.org/project/corkus.py/)

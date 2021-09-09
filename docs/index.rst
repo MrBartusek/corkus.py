@@ -34,6 +34,7 @@ Corkus documentation is organized into the following sections:
     package_info/change_log
     package_info/contributing
     GitHub Repository <https://github.com/MrBartusek/corkus.py>
+    Forum Post <https://forums.wynncraft.com/threads/corkus-py-python-wrapper-for-wynncraft-api.295400/>
     PyPI Package <https://pypi.org/project/corkus.py/>
 
 .. toctree::
