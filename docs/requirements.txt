@@ -4,4 +4,3 @@ furo==2021.08.31
 sphinx-autodoc-typehints==1.11.1
 sphinxext-opengraph==0.4.2
 sphinx-copybutton==0.4.0
-sphinx-design==0.0.12
