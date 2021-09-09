@@ -56,3 +56,21 @@ linting for each PR but, if you want to run it by yourself you can use following
 .. code-block:: bash
 
     python -m pylint corkus tests
+
+Documentation
+~~~~~~~~~~~~~
+
+Documentation setup:
+
+.. code-block:: bash
+
+    cd docs
+    pip install -r requirements.txt
+
+Building documentation:
+
+.. code-block:: bash
+
+    make html
+
+Builded documentation is available under ``docs/_build/html``
