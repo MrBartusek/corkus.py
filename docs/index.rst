@@ -31,6 +31,7 @@ Corkus documentation is organized into the following sections:
     :maxdepth: 1
     :caption: Package Info
 
+    package_info/contributing
     GitHub Repository <https://github.com/MrBartusek/corkus.py>
     PyPI Package <https://pypi.org/project/corkus.py/>
 

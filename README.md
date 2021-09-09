@@ -74,6 +74,12 @@ username: Salted
 chests_found: 219
 ```
 
+## Contributing
+
+Want to contribute to the project?
+
+First of all, thanks! Check [contributing guidelines](https://corkuspy.readthedocs.io/en/latest/package_info/contributing.html) for more information.
+
 ## Links
 - [Documentation](https://corkuspy.readthedocs.io)
 - [PyPi Package](https://pypi.org/project/corkus.py/)
