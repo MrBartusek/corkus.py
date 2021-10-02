@@ -27,7 +27,8 @@ from .territory import Territory
 from .territory_location import TerritoryLocation
 from .partial_teritories import PartialTeritories
 
-from .server import Server, ServerType
+from .base_server import ServerType
+from .server import Server
 from .partial_server import PartialServer
 from .partial_online_player import PartialOnlinePlayer
 from .online_players import OnlinePlayers
