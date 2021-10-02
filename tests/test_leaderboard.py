@@ -17,7 +17,7 @@ class TestLeaderboard(unittest.IsolatedAsyncioTestCase):
             self.assertGreater(len(guild.name), 0)
             self.assertGreater(len(guild.tag), 0)
             self.assertGreater(guild.total_xp, 0)
-            self.assertTrue(1 <= guild.level <= 100)
+            self.assertGreater(guild.level, 1)
             self.assertGreater(guild.members_count, 0)
             self.assertTrue(1 <= guild.position <= 100)
 

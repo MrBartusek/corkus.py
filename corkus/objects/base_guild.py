@@ -26,11 +26,7 @@ class BaseGuild(CorkusBase):
 
     @property
     def level(self) -> int:
-        """Level of the guild from ``1`` to ``100``. Guild members can use ``/guild xp`` command
-        to contribute XP to the guild. Leveling guild grants perks like more
-        member slots or guild bank upgrades. The exact XP values are available
-        `on the wiki <https://wynncraft.fandom.com/wiki/Guilds#Leveling_Guild>`_.
-        """
+        """Level of the guild."""
         return self._attributes.get("level", 1)
 
     @property

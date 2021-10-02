@@ -27,7 +27,7 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(any(l.color == BannerColor.BLUE for l in guild.banner.layers))
         self.assertTrue(any(l.pattern == BannerPattern.SKULL for l in guild.banner.layers))
 
-        self.assertTrue(1 <= guild.level <= 100)
+        self.assertGreater(guild.level, 56)
         member = guild.members[0]
         player = await member.fetch_player()
         self.assertEqual(player.guild.name, "The Farplane")
