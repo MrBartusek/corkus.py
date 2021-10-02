@@ -9,10 +9,11 @@ if TYPE_CHECKING:
 
 class ServerType(Enum):
     """Type of :py:class:`Server`."""
-    REGULAR = "WC"
+
+    REGULAR = "REGULAR"
     """Regular Wynncraft servers."""
 
-    YOUTUBE = "YT"
+    MEDIA = "MEDIA"
     """Servers restricted to players with :py:attr:`PlayerRank.MEDIA` rank."""
 
     OTHER = "OTHER"
@@ -36,7 +37,7 @@ class BaseServer(CorkusBase):
         if self.name.startswith("WC"):
             return ServerType.REGULAR
         elif self.name.startswith("YT"):
-            return ServerType.YOUTUBE
+            return ServerType.MEDIA
         else:
             return ServerType.OTHER
 
