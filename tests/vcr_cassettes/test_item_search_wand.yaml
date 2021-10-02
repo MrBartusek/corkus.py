@@ -5,21 +5,21 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=itemDB&search=Bob's+Mythic+Wand
   response:
     body:
-      string: '{"items":[{"name":"Bob''s Mythic Wand","tier":"Legendary","type":"Wand","set":null,"identified":true,"material":"269:19","dropType":"never","addedLore":null,"sockets":3,"damage":"125-180","earthDamage":"0-0","thunderDamage":"0-0","waterDamage":"0-0","fireDamage":"0-0","airDamage":"0-0","attackSpeed":"NORMAL","level":75,"quest":"Reincarnation","classRequirement":null,"strength":0,"dexterity":0,"intelligence":0,"defense":0,"agility":0,"strengthPoints":10,"dexterityPoints":10,"intelligencePoints":10,"defensePoints":10,"agilityPoints":10,"damageBonus":10,"damageBonusRaw":0,"spellDamage":10,"spellDamageRaw":0,"rainbowSpellDamageRaw":0,"healthRegen":0,"healthRegenRaw":0,"healthBonus":0,"poison":0,"lifeSteal":0,"manaRegen":0,"manaSteal":0,"spellCostPct1":0,"spellCostRaw1":0,"spellCostPct2":0,"spellCostRaw2":0,"spellCostPct3":0,"spellCostRaw3":0,"spellCostPct4":0,"spellCostRaw4":0,"thorns":0,"reflection":0,"attackSpeedBonus":0,"speed":0,"exploding":0,"soulPoints":0,"sprint":0,"sprintRegen":0,"jumpHeight":0,"xpBonus":20,"lootBonus":20,"lootQuality":0,"emeraldStealing":0,"gatherXpBonus":0,"gatherSpeed":0,"bonusEarthDamage":0,"bonusThunderDamage":0,"bonusWaterDamage":0,"bonusFireDamage":0,"bonusAirDamage":0,"bonusEarthDefense":0,"bonusThunderDefense":0,"bonusWaterDefense":0,"bonusFireDefense":0,"bonusAirDefense":0,"category":"weapon"}],"request":{"timestamp":1629796235,"version":1.4}}'
+      string: '{"items":[{"name":"Bob''s Mythic Wand","tier":"Legendary","type":"Wand","set":null,"identified":true,"material":"269:19","dropType":"never","addedLore":null,"sockets":3,"damage":"125-180","earthDamage":"0-0","thunderDamage":"0-0","waterDamage":"0-0","fireDamage":"0-0","airDamage":"0-0","attackSpeed":"NORMAL","level":75,"quest":"Reincarnation","classRequirement":null,"strength":0,"dexterity":0,"intelligence":0,"defense":0,"agility":0,"strengthPoints":10,"dexterityPoints":10,"intelligencePoints":10,"defensePoints":10,"agilityPoints":10,"damageBonus":10,"damageBonusRaw":0,"spellDamage":10,"spellDamageRaw":0,"rainbowSpellDamageRaw":0,"healthRegen":0,"healthRegenRaw":0,"healthBonus":0,"poison":0,"lifeSteal":0,"manaRegen":0,"manaSteal":0,"spellCostPct1":0,"spellCostRaw1":0,"spellCostPct2":0,"spellCostRaw2":0,"spellCostPct3":0,"spellCostRaw3":0,"spellCostPct4":0,"spellCostRaw4":0,"thorns":0,"reflection":0,"attackSpeedBonus":0,"speed":0,"exploding":0,"soulPoints":0,"sprint":0,"sprintRegen":0,"jumpHeight":0,"xpBonus":20,"lootBonus":20,"lootQuality":0,"emeraldStealing":0,"gatherXpBonus":0,"gatherSpeed":0,"bonusEarthDamage":0,"bonusThunderDamage":0,"bonusWaterDamage":0,"bonusFireDamage":0,"bonusAirDamage":0,"bonusEarthDefense":0,"bonusThunderDefense":0,"bonusWaterDefense":0,"bonusFireDefense":0,"bonusAirDefense":0,"category":"weapon"}],"request":{"timestamp":1633164110,"version":1.4}}'
     headers:
       cache-control:
       - max-age=30
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '167'
+      - '149'
       ratelimit-reset:
-      - '25'
+      - '10'
     status:
       code: 200
       message: OK

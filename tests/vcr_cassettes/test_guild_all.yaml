@@ -5,7 +5,7 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=guildList
   response:
@@ -140,7 +140,7 @@ interactions:
         Keem Team","TheMeepEmpire","StoneMain","Baked Brothers","Cant Touch This","Mortal
         Assassins","Guards of Wynn","ExtremeProGamers","Guild of Guildynes","Flawless","MemeTeam","NVIDIA","Salty
         Skypers","blue dragons","GetCaked","Ultimate","The Sexy Gods","dnk","veldin","Lykos
-        Rising","BlanKinAcerio","Guild of Mercs","The Wynn Gods","No Sanity","MastersPVP","GoodFellas","BandOfWanderers","tobias
+        Rising","BlanKinAcerio","Guild of Mercs","The Wynn Gods","MastersPVP","GoodFellas","BandOfWanderers","tobias
         hashminger","The Resistance","Fornaxian","NightShade","TambiTime","Harbinger
         of Qira","Gavelum Order","Ape Squad","Xenon","Knix Clan","LeedleLeedleLee","Skillfull
         Morons","DiamondAuthority","We Lag Alot","Goon Squad","Enigma","Everest","TheGamerGuild","Creeper
@@ -384,7 +384,7 @@ interactions:
         People","Holy Inferno","TheWynnHeroes","Darknovas","HaHaEvolution","Blacklight
         Mili","The Syndicate","West","Council of Evil","TheGuild","True Knights","Myth
         of Raven","crystals knight","Eternity","MLG PRO","Lantern Corps","Jesuses
-        Followe","MLGWynncrafters","MonsterHunters","Dawn of Legends","Gondors Ranger","KaC","Council
+        Followe","MonsterHunters","Dawn of Legends","Gondors Ranger","KaC","Council
         Of Chao","The Fab People","Vanguards","Riot","HyperButterTeam","Redstone Realm","Anbu","LeSecretDope","Tigers
         of Wynn","WarpSheep","Hollow Dream","Kippers","Conquerors","Fireborlto","Imperiis","Squiddy
         Legends","Kappini","Hells Messenger","EUnicorns","TheWynnLegacy","PXsGuild","Fire
@@ -432,9 +432,8 @@ interactions:
         For Perfect","KMLCraft","Colpach","Catpocalypse","SystemExit","Amicis","Drunken
         Empire","PurplePumpkinPpl","Ghost Blade","Perihorn","AuthorsPower","Coja","AtomBombCaesar","HoverSquirrels","Questing
         Factory","Midnight Bloom","TheSpecialForces","Eighth Swallow","Order of Elements","Drunk
-        Overlords","LEGENDS OF WYNN","Blocking Dead","DogsAmongUs","Vault Hunters","Cake
-        Empire","Bouwsteen","Skybreakers","BJb","KioPeppa","The X","Kitty Faction","Cute
-        Can Kill","Villager","SnowWings","Legendary Mages","Ghouls","FrenchGuild","knights
+        Overlords","LEGENDS OF WYNN","DogsAmongUs","Vault Hunters","Cake Empire","Bouwsteen","Skybreakers","BJb","KioPeppa","The
+        X","Kitty Faction","Cute Can Kill","Villager","SnowWings","Legendary Mages","Ghouls","FrenchGuild","knights
         of wynn","Trible A","sandwich","xRyutoOfficial","The Legends","TheShadowHeroes","USDM","Brotato","CrimsonKnights","Lads
         On Tour","The Undecided","TheJesusSquad","AVNs","LittleToNoMurder","SavageSquad","Xink","Infernum","Water
         Ways","GemCrusher","Whitelisted","Looters Brigade","Elven Blade","Corrupt
@@ -511,14 +510,14 @@ interactions:
         of Us","BoomSquad","Bob Mythic War","Eternity Build","alois admirals","xenocide","LightningArc","BlackDragons","The
         Secret Box","Maagdennies","The Beaters","WizardsCo","Wynncraft Exile","Etron","CAME
         FROM DEATH","Riders of Chaos","JaxarsArmy","Team Magic","The Elemelons","Vanity","thebrotherhood","DeBerenKillers","TheOcean","TheWynnCrafters","FairyKittens","Team
-        mekines","Strafinq","DWMA","No Challenge","ARONYMOUS","The Land Above","Guards
-        of Light","SpectresOfWynn","Traverse","Immortal Light","Rangers of Wynn","NightR","FishyFace","HellRaisers","Spirit
-        Knights","Fishers of Wynn","The Infected","MCRMY","Nuff To Knife","Colden","klilk","The
-        Sky Heroes","Grand Chase","Legend of Foxes","Difference","FuzzleWuzzle","New
-        Brotherhood","TheWynnSquad","Southern Tribe","MasterWynnLords","FFY","KKKang","Join
-        Play Game","Truth Life","Eternal Exile","Elements of Wyn","Cipher","Faint","Relic
-        Masters","NetherStorm","The Travellers","Shadow League","Corrupted Minds","HunWarriors","We
-        Cant Spell","The Doctors","Soldiers of Wyn","The Vultures","Fiore","WorldOfCrazines","Soldiers
+        mekines","Strafinq","DWMA","No Challenge","ARONYMOUS","Guards of Light","SpectresOfWynn","Traverse","Immortal
+        Light","Rangers of Wynn","NightR","FishyFace","HellRaisers","Spirit Knights","Fishers
+        of Wynn","The Infected","MCRMY","Nuff To Knife","Colden","klilk","The Sky
+        Heroes","Grand Chase","Legend of Foxes","Difference","FuzzleWuzzle","New Brotherhood","TheWynnSquad","Southern
+        Tribe","MasterWynnLords","FFY","KKKang","Join Play Game","Truth Life","Eternal
+        Exile","Elements of Wyn","Cipher","Faint","Relic Masters","NetherStorm","The
+        Travellers","Shadow League","Corrupted Minds","HunWarriors","We Cant Spell","The
+        Doctors","Soldiers of Wyn","The Vultures","Fiore","WorldOfCrazines","Soldiers
         of Ska","TransChron","Boom","curse","Dragon Knights","Elite End Guild","The
         Goon Guild","The Piggies","Well Raiders","Reaper Of Soul","Moster Hunters","MCStrike","DerGang","The
         Super Yetie","the assassins","Fruity","xXxBOSSESxXx","DeathTeam","Destructors","The
@@ -582,7 +581,7 @@ interactions:
         Park","The Fallen Gods","TomLoffice","Spirit Rogues","HDV","Suck","Wings of
         Freedom","the P destroyers","DarkHunters","TheFallen","TheWynnFoundatio","AcE","pugfluff","Secret
         Darkness","Jaguars","Mykslow","GWeeb","Dragon Slayerz","Sentox","NewWynnOrder","Baguette","Vana
-        Diel","ZikoL","Gavelian Army","Ravioli","Sands Company","MageTail","PirateCraft","LeagueOfDabs","Timelords
+        Diel","ZikoL","Ravioli","Sands Company","MageTail","PirateCraft","LeagueOfDabs","Timelords
         of Wynn","Word Salad","Landroval","Material","Legion Of Demons","Pug Life","Rival","MainDeagle","Flame
         Phoenix","TeaParty","Furinkazan","Leskebabsdubled","Prius Power Poop","AppleTurtles","Tech
         Masters","Luxury","Stars Club","Saviors","TheWolfpack","CaliAndCanadian","Eternal
@@ -716,12 +715,12 @@ interactions:
         Bacons","Wallie","SevenDeadlySins","SansTheSkeleton","Gundan","RussianAnniClan","Gilded
         Sparrows","Arbiters","Kachigga","The Sindar","Illusion","Doherty","Minecraft","Kill
         Or Be Killed","KZGuardian","AbyssoGaloshes","Three Quarters","KnightmareX","KoolKidzKlub","IceBabies","Lost
-        Light","Woah","Evolved","WynnMiners","PhantomArchers","Strangers","TheDarkEmpire","Looting
+        Light","Woah","Evolved","PhantomArchers","Strangers","TheDarkEmpire","Looting
         TM","Can See Me","Lamaze","ItalianWarriors","the Court","Tai Adepts ","The
         Real Gavel","DestinyTravelers","  TaMoJunto","The Welch Clan","DragonsArise","The
         Good Boios","Ecksdee","KFC TEAM","Imperfekt","TheATeam","THE BR NOOBS","RougeKnights","Olympius","Ahcuvek","League
         O Awesome","Boomblaadje","Mythical","Money Hunters","Wild","Dark Emeralds","Java","Phoenixia","Cult
-        of Drale","Wyverns Lair","Sympathy","DragonFury","MidNightBlackCats","Furries","Samsung","NewType","EarthGate","BenderGuild","Boom
+        of Drale","Wyverns Lair","Sympathy","DragonFury","MidNightBlackCats","Samsung","NewType","EarthGate","BenderGuild","Boom
         ","Retro Gaming","The Wynn Kittens","Final Order","Wolves","BlazingKillers","Dark
         Matter","Truck","L Team","The Red Army","Guildless","Nature Srubs","RandomTanGuild","DarKnight","Dogecoin","Aogiri
         Tree","Royal Guards","LunasGirls","Team Ender","Forsakend","No se llama","We
@@ -737,7 +736,7 @@ interactions:
         of Time","Titans in Pijamas","FlameKnights","My Laddies","Crownless","Sweet
         Emeralds","Wood Division GmbH","Alarian","MuiderMountains","joloskeer","BurgerPants","AR
         Rise","Renegades","PowerMad","Legion Of Light","Total Madness","The Ascendence","the
-        dark elite","Pandrylon","pufferfish clan","Steel Warriors","PAP","Umbra Ariolos","Simmer","Plebs","LightingOfGavel","Ramu
+        dark elite","Pandrylon","pufferfish clan","Steel Warriors","PAP","Simmer","Plebs","LightingOfGavel","Ramu
         of Wynn","Knights Of Fruma","Doritos","DarkFrost","Banned","Fallen Moon","WCGL","HBB","Dochicot","Derptatoz","TheWolves","Cool
         Story Bro","pro wynncraft","RUSH","Moticons","Mgc","Mages of Guard","Rubyfang","The
         Pink Guys","The Moo Angels","Team Wither","DemoniacLords","Conlex","Legenda","WaWaWeeWa","Wiggly
@@ -881,7 +880,7 @@ interactions:
         Chest","OrderOfKraken","Faces of Hate","Two Ordinary Men","Prodigy","Sword
         art Online","NekosDojo","sandwiches","LionsRage","Envyous","wynners","Dystopians","Nohbdy","Fragma","HiddenFairyVillage","Forsaken
         Void","FallenVirtue","BrasilTeam","Deal With Karma","PaCtx","Scrubz Brand","Coiosii","ZF
-        Clan","WynnDragons","TheKitchen","BlackCats","Dragon Steel","SEM","Reverses","AlphaFour","Truncated","BloodOfTheRuined","Cake","Wyyners","Knights
+        Clan","WynnDragons","TheKitchen","BlackCats","Dragon Steel","SEM","AlphaFour","Truncated","BloodOfTheRuined","Cake","Wyyners","Knights
         of Norda","LoempiaVouwers","HUN Shield","Fnatic","The Dragons","TheUniversum","Crucia","Warzazate
         Army","XxDogexX Clan","Was She Legal","Destroyrz","TheSoullessArmy","No GAME
         No LIFE","TheNrk","WynnWanders","MasterzOfWynn","Guardian of Wynn","Bowler","Konosuba","Autistic
@@ -1022,10 +1021,10 @@ interactions:
         Warriors","KingdomPhoenixes","TheGermanTeam","The Asgardians"," CN Berserker","Gild
         for dumbos","meme","Fatal","The Mithics","pDx","SkyislandDwellers","Aithusas
         Legend","Ljord","The Revengers","The Icy Ones","Tabula Rasa","Swabbie","Brotaceii","Log
-        horizon","Arcania","Sages of Hyrule","Sum Rocky Boiz","MichaelAsian","OpGaminG","league
-        of nolifers","Holzkoepfe","MageDestroyers","Orchids Rest","Niesatzer Simbel","TNTdumdums","Legends
-        of Wynn ","Brothers in Arms","YIFF","Demonic Royalty","Pao De Forma","Runouw
-        Legion","Dragon","GrandmasterBTW","Bearing the death","EzWynn","Doerfania","NicoNicoNii","EmeraldDevilClan","KnightsCode","FPD","Minecraft
+        horizon","Arcania","Sum Rocky Boiz","MichaelAsian","OpGaminG","league of nolifers","Holzkoepfe","MageDestroyers","Orchids
+        Rest","Niesatzer Simbel","TNTdumdums","Legends of Wynn ","Brothers in Arms","YIFF","Demonic
+        Royalty","Pao De Forma","Runouw Legion","Dragon","GrandmasterBTW","Bearing
+        the death","EzWynn","Doerfania","NicoNicoNii","EmeraldDevilClan","KnightsCode","FPD","Minecraft
         FanClub","Sodeta","Cavalery","Locus Iste","Kartoshechka","The Pickle Jar","Hented
         Clan","EmisGuild","Slappers Of Wynn","Team Epiccraft","Kohanna","LNation","Vafeanon
         AngelS","WynnersOfWynn","DobiFox","Taco Kingdom","Les Kiwis","Da Wildebeests","Those
@@ -1091,7 +1090,7 @@ interactions:
         Clan","The Alliance guards","Krusty Krab Club","Lotus","Pheonix Legion","bbwd","SickPsycho","Honor
         and Glory","Critical Failure","Epoch","Apple Thieves","GuildOfSzumich","Elysium
         Knights","Featherfall","Optimum Squad","SovietUnion","Big Boy Lil Peen","Khans","Mistake","LegandarySmeef","Faded
-        Prestige","The Bonesong","Orange Cybels","The Sodeta","The German one","AnimeForPlot","SomeGuildYea","TheBestGuildEver","GarfleGlob","MacDonalds","LegendOfWynn","Hot
+        Prestige","The Bonesong","Orange Cybels","The Sodeta","The German one","AnimeForPlot","TheBestGuildEver","GarfleGlob","MacDonalds","LegendOfWynn","Hot
         Ice","Sloths","Quarantined","The Lost Age","Starlight Brigade","Dutch Colonists","Cerceuil
         Moqueur","BrunoIsMommy","Star horizon","milly rockers","Shinsengumi","Ze Boyz","Shameless","CovertCrackhead","Sketchey
         Squad","Club One","Mist of Calamity","Jeff","Boomers","Draconian","Yellow
@@ -1099,7 +1098,7 @@ interactions:
         as Foil","FooxyCoon","Tha Club","HalfBlood","Ravens Ward","Bohemian Empire","HeckForums","The
         Holy Sun","Kekistan","RealYTC","Kalium","GAGaming","AM Cuplu","Sigma Octantis","Solo","Competitivity","Spartans","Frozen
         Storm","TheSecretWynn","Wynncrafter","Big Bois","Wonders Of Wynn","GreatHexahedron","Pipo
-        monks","Church of Shlomp","JohnnyR","Sandstorm ","Eggians","french PONY","Armifera","Almost","TowardsDRK","Moments","Stormcloaks","Demon
+        monks","Church of Shlomp","JohnnyR","Sandstorm ","french PONY","Armifera","Almost","TowardsDRK","Moments","Stormcloaks","Demon
         Cats","Wynnic Wanderers","Gamers R Us","IceFireS","Kingdomers","ImperialWookies","The
         Banana Cats","Dreamers","Wardens of Light","Whimsical Willows","Wumer","Super
         Banana","World Guard","Konterbierfront","SkyeBluKnights","Darknights","The
@@ -1137,9 +1136,9 @@ interactions:
         Wild Hunt","The Republic","The Beads","Agent Of Elite","The Collusion","Orange
         Peel","Orokin","Betelgeuse","Cunk","The Holy Empire","Orphan Stompers","Corona","Gluwu","Knights
         of Cthulu","Karaluchy","Stud Squad","The Honips","DragonsBrow","Malpercia","SpaceFriends","Scykers","Dankest
-        Memerino","Its Just Me","TheArcherClub","Klub Ice","TheFallenOnes","Primes
-        Peasants","Sentinals of Almuj","pucci gang","Benders Nation","Unmatronymic","TheGhost","Adeps
-        Acinus","LightStrike","RPGame","ReD Adv Co","CrypticKnights","ItsKaShiDoSama","FreshCookiesGalo","Breathe","Umbra
+        Memerino","Its Just Me","TheArcherClub","Klub Ice","Primes Peasants","Sentinals
+        of Almuj","pucci gang","Benders Nation","Unmatronymic","TheGhost","Adeps Acinus","LightStrike","RPGame","ReD
+        Adv Co","CrypticKnights","ItsKaShiDoSama","FreshCookiesGalo","Breathe","Umbra
         Legion","The Ninth Gate","TheLastStrike","minecraft gaming","MangeMonZukini","Glaire","Krieger
         Templars","Formidable Five","SPIG","The Black Crows","Hands of God","Peaky
         Blinders","Acid Pops","Burry","BrokenBakery","Black Whales","SqueakTopia","Helarion","Timolia","Arcanuan","North
@@ -1230,7 +1229,7 @@ interactions:
         Forest","Black Clover","Viking","AK Nation","Solo Leveling","NEIT","reaper
         Revolution","Celestial Void","Neo Tekno","Absolut","The Dark Duo","MANGER","Kitty
         Cat","GremoryClan","Gang","VoidWalkers","FrenchPower","These Hoes","Haileys
-        Harem","Za Warudo","Daddy Satan","Zephyrian Knights","Avis","JesusBoys","Strqfz","AlfonsoCorp","Almuj
+        Harem","Za Warudo","Zephyrian Knights","Avis","JesusBoys","Strqfz","AlfonsoCorp","Almuj
         Bank Quest","DarkTime","Ravioli Revolution","OogaBooga Clan","Fortnite Gamers","Swerve","The
         Eliminators","IberianEmpire","DerPutzdienst","Volcanic Alliance","Needlemakers","Murakumo","Srigga
         Federation","Veneficus","Black Copra","JustWynn","Pandas Rebellion","cretins","Urgle","Castaways","Furious
@@ -1269,7 +1268,7 @@ interactions:
         Of Wynn","Waleno","Weebs of Wynn","Torrent","POTATO NATION","LanjiaoKia","Troglodytes","Afro
         Bar","The Sheikah","Plup Club","FrikandelSpeciaal","FR Dragonia","BladesOfDestiny","Wynnic
         Warlocks","TopHatClan","Molk GANG","GURUGANG","Nihon Hoso Kyokai","Xylus","GradLads","Inocentbystandar","SimplyCrew","Imperial
-        Goods","Nines Own Goal","Mad Burnish","Groovin Baboomer","PIG Legion","SGTKFM","Dark
+        Goods","Nines Own Goal","Mad Burnish","Groovin Baboomer","PIG Legion","Dark
         Blades","First Day Promise","CraftGuild","LeMondeDesOmbre","WeirdKahootName","SleepingBlocks","Lux
         Nova","DONKEY","Chaos Raisers","Bad Omens","The End","Racial Wranglers","Pirates
         Divided","Cube Cube World","Organic Energy","GetBoofed","germany best","WitherCult","NorthAtlanticPact","Ridge","BlueCheesePanda","ChuMenschis","Randos","Arcane
@@ -1343,11 +1342,11 @@ interactions:
         Of Tentacles","Orphans","The Watchers","MinersOfSouls","Dawn of Time","WitleAviation","FreedomForPigs","Strawberries","NAPS","Gay
         Squad","BestWinnie","Teraz To Jest","Irish Mayhem","Infinity Void Guild","Chibi
         Army","Gamers Only Club","SorosTerv","FieryPhoenix","The Silver","NorthernVikings","Hentai","Bento
-        Brigade","Remnant","Tokyosoulless","Lidice","Antumbra","Sherwood","Misfit
-        Outcasts","Luminosity","The Dremora","Territory Thieves","Black Mamba","done","Surprise","Sad
-        Dads","Barb","The Complex Ones","FlyingDerps","Lunar Frost","Nuzcord","The
-        Shadow Cats","SchwarzTH","Dark Legion","Eternal Flame","Silverstein","fortnite","Woof","Idomius","Ire
-        of Fruma","p boys","The Firehearted","Crimson Dusk","Hyacinthum","DontKnow","RealOnes","United
+        Brigade","Tokyosoulless","Lidice","Antumbra","Sherwood","Misfit Outcasts","Luminosity","The
+        Dremora","Territory Thieves","Black Mamba","done","Surprise","Sad Dads","Barb","The
+        Complex Ones","FlyingDerps","Lunar Frost","Nuzcord","The Shadow Cats","SchwarzTH","Dark
+        Legion","Eternal Flame","Silverstein","fortnite","Woof","Idomius","Ire of
+        Fruma","p boys","The Firehearted","Crimson Dusk","Hyacinthum","DontKnow","RealOnes","United
         Weeb Nation","Nerfuria","LoliRegime","PokePals","HazeBlazerz","vape god","Malakan","MespDreams","Dark
         Army","L Inquisition","Simply Imperial","Rising Moon","mqllcopz GUILD","Puma
         Pants","lesbogosses","CorkusTradingCo","GamerSansPogKek","Esortia Genesis","Cuddles","Ethereal
@@ -1429,11 +1428,11 @@ interactions:
         Phantoms","Warriors Of Gavel","PurinaCatChow","HighlandRoyalties","Thalmor","Transparency","StartFromSkratch","EnigmasOfSin","The
         Lost Vortex","Beefy Boys","The Black Dragon","TRAGIIC","Retired DvZ Vets","
         Maniax Germany","The Last Auroras","Blue Fire","Project THOOM","Llama Linguine","InTheWalls","TheDutchies","Door
-        Gamers","Elfen Spirit","gang weed","bow art online","Flower Power","EquipmentForWynn","Gmoj","CrimsonTide","United
+        Gamers","Elfen Spirit","gang weed","Flower Power","EquipmentForWynn","Gmoj","CrimsonTide","United
         Arabs","Billenials","ArmyBrothers","Ilvareisto","nutters","Golden Knights","SaveTheMagikarp","Sporttaucher","The
         Bois","Mighty Toothpicks","Army of Sinjin","Fuzzy Spiders","My Wynn Academia","Royal
         Tempest","Slaughter Gang","Dragon Society","Atlas Inc","MaCeTi","Jew Crew","TheKingsRangers","SpicyChiliPeppers","Techno
-        Foxos","FRWL","Band of Bastards","Linux","Nobody Else","Ivomph","Corruptedt","Elysian","Templars
+        Foxos","FRWL","Band of Bastards","Linux","Nobody Else","Ivomph","Corruptedt","Templars
         Vow","Yang Gang","Void Fire Pheonix","TheMiniNovas","ZenZ","Terra Steel","Yuei
         Koko","Ziria","Platroxs FanKlub","WynnHorses","FoxHaeven","WolfsDays","Constellations","Water
         Skeli","Duwang","Valley Watchers","Straight Outta RS","only spam heal","Winds
@@ -1447,8 +1446,8 @@ interactions:
         Gang","Spectral Thieves","HammerBanden","Lunar Crystal","SpiritLegion","shanondoor
         river","TntdestroysBack","Chimerica","Autus","Dead Innocence","MMOsBeforeHoes","Flight
         Rising","Virginity Rocks","Elementals","Hoodie","HighGuards","Facinofastaion","BoyNextDoor","Crescent
-        Wolves","TryHoarders","Paradise of Cats","POGGERS","BearZoo","SleepingArt","Wybels
-        Order","Joeviet union","NightGuards","MineTogether","Golem Vanguards","Nephthys","Nekoclub","
+        Wolves","Paradise of Cats","POGGERS","BearZoo","SleepingArt","Wybels Order","Joeviet
+        union","NightGuards","MineTogether","Golem Vanguards","Nephthys","Nekoclub","
         Some People","I Dunno","Only Be Friends","Riventide","couchie","Training Grounds","Heavy
         Metal","The Aquarium","Bucket Battalion","HatarFanAlla","Reil Mercenaries","The
         Progeny","Galactic Paladins","Made In Haven","im rotten","Sendelia","Silly","By
@@ -1506,9 +1505,9 @@ interactions:
         Hunters","Greengo","Sirota Empire","JasmineDragons","Rampage","Lost Shadows","NOMS","The
         Goblin Cave","Envious","The Witch Hunters","Astrum Pantheon","UnitedWarriors","Luxfort","Aspect
         of gods","Goreclaw","Maiaowraraireay","Honeyworks","BigBoys","Banan","The
-        Miners","GREYFIVENINE","Quatuor Elementis","RainyWindow","The Devito Nation","SomeGuild","MEESIX","The
-        Simple Two","Israelites","SangFroid","elements of wynn","Laughing Giraffe","Epidur","HOILERI","Feroxis","Broken
-        Immortals","Imagine Wagons","Black Ghost","TheGentlemen","Coringas Do Aegis","Harmony","Skellymen
+        Miners","GREYFIVENINE","Quatuor Elementis","RainyWindow","The Devito Nation","SomeGuild","MEESIX","Israelites","SangFroid","elements
+        of wynn","Laughing Giraffe","Epidur","HOILERI","Feroxis","Broken Immortals","Imagine
+        Wagons","Black Ghost","TheGentlemen","Coringas Do Aegis","Harmony","Skellymen
         Creed","The Weathermen","Bass Pro Shops","Magical Mittens","cryingisfun","TheYesLifes","RadioTwenty","Knights
         of Solinu","touhou","qwertyuiopasdfgh","The Covenant","The Fun Police","Aragonain
         knights","Dempsey","Zygote","Dexity","Gregario","TheBloodKnights","Black Bulls","Trade
@@ -1516,10 +1515,10 @@ interactions:
         Empire","Inapt Tubby Buns","The Yummy Gummie","Gate To Oblivion","BunBuns
         Legacy","Arctic Anonymous","African Black Men","Ivory Tusk","SAOhollyFighters","Syndicat
         Emeraud","Ball Crushers","Starfall","HHHCCCoooGUILD","Bros in Bathtub","Afishia","Verbissen
-        Guild","Ochikonda","Nerds","Oreo Dragon","TheInsaneMan","Enclave","The HL
-        Guild","RealRawr","rd games","Void Villagers Cult","Arcane Nomads","Empire
-        of Azgeda","Stalkers Of Wynn","CHIFRUDOS","tBos","Nightfall Friends","Recruits
-        of Wynn","EclairTailOmbre","Vermelho","Red Legion","Doriyah Witnesses","Aurra","bigballmen","Armaggedon","Protagonist","             WynnNoob","Rapid
+        Guild","Ochikonda","Oreo Dragon","TheInsaneMan","Enclave","The HL Guild","RealRawr","rd
+        games","Void Villagers Cult","Arcane Nomads","Empire of Azgeda","Stalkers
+        Of Wynn","CHIFRUDOS","tBos","Nightfall Friends","Recruits of Wynn","EclairTailOmbre","Vermelho","Red
+        Legion","Doriyah Witnesses","Aurra","bigballmen","Armaggedon","Protagonist","             WynnNoob","Rapid
         Quake ASN","Suumo","Free Software","The Bob Fan Club","Deadly Clucks","Toemorians","Hearts
         of Iron","The Last Division","Ignotis","White Tree Order","CivCrafter","MildlySuccessful","The
         Papal States","Corrupted Nation","Index","Blackout","Insomnia R Us","reedeedoodaa","Huts","NamelessGuild","Empire
@@ -1539,7 +1538,7 @@ interactions:
         Gang","Bobs Battle Bois","Wybel Masters","WooshyBonkpole","Japanese Hunter","Canadian
         Geese","the grey parrots","Urinex","Celestia FR","Aquato","Wabba","Princes
         of Gay","TheBoyes","Business Boys","GankPlank","Lost Legacy","Eternal Eclipse","Radeon","Sitakuan
-        Empire","rickowensfanclub","Hungarian Hunters","hacsckgoruem","TidalWave","GimmeGangGuild","Luna","AShenTe","Fuchsia","The
+        Empire","Hungarian Hunters","hacsckgoruem","TidalWave","GimmeGangGuild","Luna","AShenTe","Fuchsia","The
         Bruh Army","Roll Initiative","Wynn is dog","Discount Skyblock","Miwi","Mega
         Ender","Cheems Union","Breadskate","The BIRDIE Gang","Catharsis","ProjectManhattan","Zhight
         Fanclub","Ya Cult","Cryptnote","EmeraldTrail","DeuxdeuxQi","The Knight Sky","Koksnasen","Alpha
@@ -1550,7 +1549,7 @@ interactions:
         Of Greed","JoeLeague","hk guild","Cyber Citizens","Vib Bing","Flikkira","Ower
         Sponge","Den Of Weirdos","SWARM","Catholic Church","Guild Heresy","Dark Vengeance","Abribus","Ginger
         Squad","Binnis","CandyCandyHouse","The Octagon","Moon Rats","WynncraftFrance","Inverted
-        Cross","TerraLune","Erisium","UglyMen","Japan Yukkuri Corp","Legiones Oblivioni","Just
+        Cross","Erisium","UglyMen","Japan Yukkuri Corp","Legiones Oblivioni","Just
         Mustard","KenyaYogurtShop","Shrek IV","Boctario","Contemplate","BuildCraftia","The
         Tribe Of","The Milkmen","The Wynnic Nerds","CopyPasta","Haachama","PlayerOfGermany","Cucumbers
         Wavus","die rote Ehre","CharminUltraSTR","augh","PhoenixAU","Seasons","SIHULU","
@@ -1567,7 +1566,7 @@ interactions:
         Hack","EmperorPenguin","DekoSummer","QuokkaBois","GryFinndor","Vinland","Azuryte","Cookies
         Cult","Gamer","Frost","Noxian Might","MysticGuild","Runkels","TheGrookSlayers","KittyDoggy","Deaths
         Dance","Panda guild","Shadow Of Doom","Join Lux Nova","Dragonslayer","Pyrite
-        Travellers","Team Baguette","bonk","Invisible","HoRangYi","Le Club Mekt","YukanoSore","Tanksa","Interstellar","BloodEclipse","Catuni","Arbiters
+        Travellers","Team Baguette","bonk","Invisible","HoRangYi","YukanoSore","Tanksa","Interstellar","BloodEclipse","Catuni","Arbiters
         Eclipse","Zooms","Achte","OvenMitt","The Two Idiots","TugaPayToWin","Amazon","Unwholesome
         Bois","BestShip","Codonorix","EveSy","NightWitches","Voids Wrath","Nazarick
         Catacom","Enderghost","BlockRoses","Mals Iron Fist","WatermelonPeople","Red
@@ -1619,35 +1618,35 @@ interactions:
         Brewers","Rise of Evil","Reminiscence","The Commonwealth","Divine Bovine","Spectrum","White
         Fox","The Cannan Hous","Never Lack","Going Merry","LalSaas","TNTs","Founders
         Legion","The Grove","lPVCl","Casual","ZmrdLife","Mystic Summit","DoofenshmirtzInc","Lacuna","Horizon
-        Knights","GroundPound","Aurus","CurryGmbH","Junkk Industry","The Black Empire","Remedy","Lyrical","SALMAN","Janigirl","FlyingTiger","Queens
+        Knights","GroundPound","Aurus","CurryGmbH","The Black Empire","Remedy","Lyrical","SALMAN","Janigirl","FlyingTiger","Queens
         Stone Age","Totems of Avos","Infinity Guild","First Fleet","SkyMasters","TheLadss","Furry
         Og Squad","Kingdia","The Mythics","Regnum Statera","QWERTY","Hyacinthus Souls","Midnight
-        Tricks","Nocent Link","Wynn Guilded Hero","The Almighty Potat","RedstoneCookies","Somni
-        Squad","wwwww","The Oddballs ","BLYATMAN","HackAcademy","Plebjes League","TTK
-        Light","Chicken United","Centuras","Silverdawn","The Peculiars","Chimp Store","Dunkin
-        Crunkins","DSK Crew","Creeper Warriors","Retrospective","Empire of Tamriel","Sixth
-        Floor","Elit Magyar Legio","ShadowAssassin","The FishTank","The Fallen Simps","Dragon
-        Cave","Casual Undead","TheCall","Hairy Toast Origin","DottyDoks","ShyGuy Nation","PimPimPOOmPOOm","BS
+        Tricks","Nocent Link","The Almighty Potat","RedstoneCookies","Somni Squad","wwwww","The
+        Oddballs ","BLYATMAN","HackAcademy","Plebjes League","TTK Light","Chicken
+        United","Centuras","Silverdawn","The Peculiars","Chimp Store","Dunkin Crunkins","DSK
+        Crew","Creeper Warriors","Retrospective","Empire of Tamriel","Sixth Floor","Elit
+        Magyar Legio","ShadowAssassin","The FishTank","The Fallen Simps","Dragon Cave","Casual
+        Undead","TheCall","Hairy Toast Origin","DottyDoks","ShyGuy Nation","PimPimPOOmPOOm","BS
         Brigade","gdiugio","DivineKnights","DaBaby SubReddit","Boops","Chiefs Of Corkus","Morphic","Hollowsong","Blue
         Xpanse Flar","Farkasok","AllSpagetNoRegrt","Astra Ivory","TIMOTHY","NepSquad","ChickenMafia","Order
         of the Void","Poze","Eternal Day","Gods Tear","Quote","Zenety","CringeBabies","PWCanina","La
         Goony Boonies","WaffleSandwich","Immortal Legends","Blood Raven","The EZ Games","The
         Green Forze","Shadow Company","EagleFamily","Carlos","BallZack","Carnifex","DURUM
-        GANG","De Kanariduiven","Maraniana","IronGuild","Pater Noster","COVID","https","Anarchism","Caramell
+        GANG","De Kanariduiven","Maraniana","IronGuild","Pater Noster","COVID","https","Caramell
         Dansen","busted moments","Africa","Periodic Table","Calcium","KaloGetto","Crafters
         Guild","Garter Gang","Black Phoenix","AstralLibrary","The Legacy","Weebineers","EmeraldEmpire","Hunt
         of Eyes","The Commission","afflictedChimps","Jormungandr","Church of Varun","Rogue
         Doge","JamWap","Restless Insanity","Junski Brod","volux","Dream Team","Sledge","Vtube
         Rabbit Hole","Toetans","KnightsAtArms","looney guild","Frozen Phoenix","Jar
-        Jar Shrek","Cookie Squad","Paladins Untied","Trouvaille","Slapping Legion","Ultra
-        Violet","The Woolly Army","Darkins","SoonTM","Echo Zero One","Minds of Death","Soup
-        Empire","Good Hopes","Cowboy Hat Clan","Int Chairo Forces","E on Horse","Asencia","Chinatown","Nightbreakers","vunk","Medical","TW
+        Jar Shrek","Cookie Squad","Paladins Untied","Trouvaille","Ultra Violet","The
+        Woolly Army","Darkins","SoonTM","Echo Zero One","Minds of Death","Soup Empire","Good
+        Hopes","Cowboy Hat Clan","Int Chairo Forces","E on Horse","Asencia","Chinatown","Nightbreakers","vunk","Medical","TW
         guild","The Wonder Pets","Overlords","Apathy Inc","ghoti","Baladins United","Arctic","Doges","Cake
         Crusaders","Mauf","Aionios","Ryoshi","The Over Top","Golden Warriors","Nan
         Clan","Milk Tea","Pogo Slayer","Gluckles Goons","Bucket And A Mop","The Crimson","Potatoes
         Inc","Frost Walkers","Axolotl Dragons","Floodfinger Nepta","KSIs Forehead","Tabletop","Corkains","Ahjin","NomeraPOSOSI","Nifrath","madness","nd
         oolong and hun","Cinfras Knights","Special Forces","Panini","Freiheit","orangu","The
-        Revenants","WhiteOut","fritos","RacoonInnit","BKFST","realm","Brightdawn","Wolfcraft","The
+        Revenants","WhiteOut","fritos","BKFST","realm","Brightdawn","Wolfcraft","The
         Association","Peacekeepers","Clown Busters","Black Lux","Taupes","SoloWing","SCHNOUCHNI","Dai
         Wan Ron","Cythra","WereWolvess","Extinction","FrenchBaguette","Order of Entropy","Family
         Game Night","Corkians","The Sleuth","Starlight Wonder","GyrosBois","GuysOfDragons","Walahi
@@ -1659,16 +1658,16 @@ interactions:
         Octane Army","Stormwind","Coven of Light","Sanguine","Ex Animo","Shard of
         Illusion","A Guild","Hero Association","Rat Club","Tenebria","SleepingForrest","The
         Boiiiis","Ingenii Mygale","Neivei","Imperial Knights","Platinum","Lil Wil","Nuggies","Hona","Demonix","Cosmic
-        Lily","EverworldInc","I Hate names","SephBad","KySMP","NoWarInFruma","ClownFish
-        Council","The Cosmonauts","Djungelskog","bon no","qock","Bloody Emeralds","LePartiClub","Wybel
+        Lily","EverworldInc","SephBad","KySMP","NoWarInFruma","ClownFish Council","The
+        Cosmonauts","Djungelskog","bon no","qock","Bloody Emeralds","LePartiClub","Wybel
         Republic","LaSekte","Aquila","The KEKMA","TheLads","RDDDF","Dragon Brothers","Unicorn
         Hearth","DAUNS","BaldoKnightz","PoggersSayLess","Aphelion","Sky Nova","Neko
         Maid Cafe","Wenis Wumbo","Bratz","The Western Pact","pee pee","Elmoria","Orphan
-        Slappers","Alchemists","ultra","Genisis","Stylax Guards","AxisOrder","Rojao","Four
-        Divinities","TheBeesKnees","Abyssal Guardian","Firestorm","Lose Your Self","Style
-        Defenders","NekuDot","Lil Shrooms","Legion de jade","Den Episka Guild","Access","Houkago
-        Tea Time","Capitals","Darknessium","Kekpol","Bottom Shelf","Waning Sun","Vuralis","Untame","Goots","BBoF","HeckinNerds","The
-        Dark League","Sea Squids","Jeng","StrawHat Pirates","Terra","KfarTavor","Norway","wynnpumpkins","Mememan","GuildName","No
+        Slappers","Alchemists","ultra","Stylax Guards","AxisOrder","Rojao","Four Divinities","TheBeesKnees","Abyssal
+        Guardian","Firestorm","Lose Your Self","Style Defenders","NekuDot","Lil Shrooms","Legion
+        de jade","Den Episka Guild","Access","Houkago Tea Time","Capitals","Darknessium","Kekpol","Bottom
+        Shelf","Waning Sun","Vuralis","Untame","Goots","BBoF","HeckinNerds","The Dark
+        League","Sea Squids","Jeng","StrawHat Pirates","Terra","KfarTavor","Norway","wynnpumpkins","Mememan","GuildName","No
         Drags Here","I hate ILQ","Baja Battalion","Knights of Babba","Yiga Clan","The
         Man","JoinAeq","american empire","Vermillion Wings","BuffThiccLee","Ban Hammer","Nomad","The
         Death Angels","Celandine","Skyblock Duo","GYP ON TOP","The Alinori","Bedroom
@@ -1683,9 +1682,9 @@ interactions:
         Drip","Epic Godz","Hellfire Ember","Bro What I Do","Maid Cafe","BRIS","Happy
         Meadows","Horse","Kingdom Goats","Moth","The Bread Bank","E on horse lol","Death
         March","SoupForums","Burble Bards","Doki Doki Literature Club","Doki Doki
-        Literature","Hello","The Dawn Traders","Lucky","House of Sustenance","Piplup","chrysitis
+        Literature","Hello","The Dawn Traders","House of Sustenance","Piplup","chrysitis
         onlyfans","Based Department","Radiant","Feel The Wynnter","Revolution Lustucru","Avas
-        Family","AnimeThighs","MelonCult","Witchs Cult","Astral","The Pastafarians","UNKN","Vennaskond","Gremilen","TLSBP","Bards
+        Family","AnimeThighs","MelonCult","Witchs Cult","Astral","The Pastafarians","UNKN","Vennaskond","Gremilen","Bards
         Of The Round Table","MidnightRealm","Wynncraft Historia","Impact","ACatsuki","Kizuki","Royal
         Lavender","KNIGHTS F BLOOD","Kanami","Pendulum","Nerd Herd","Keysrs Eido","WArriorsempai","Chaos
         Co","Golden Dawn","Shenanigans Squad","The Mad Architects","Alternate Accounts","Lolos
@@ -1704,12 +1703,12 @@ interactions:
         Generation","Bakery","Wybel","Quaternion","Valkyrian Empire","Legends Of Jerry","The
         Light of Soul","Thighs","ZeroDawn","Meal Team Six","Pantheon","Koroban","come
         what may","Fist of Karma","FlowerMuffins","YouJustGotCoconutMalled","The Aisyn","ButtonMashers","SunLight","Empire
-        of the Sun","Kage","Mushcord","Tumira","TrinitySeven","Agile","Wall Street
-        Elite","CherryBlossom","Gypsy Extermination Service","Truth","Luneria","Tower
-        Gang","Other Paladins","the Avos","Bromance","xXWynnLegendsXx","Mercurian
-        Order","MakesYourDeath","Absolute Radience","Sympelys","Dogie","Shinra","the
-        gaming","TheColleguz","Noumena","Enemy","The Very Boring Guild","GhostHunters","Excessive
-        Force","Survivalists","The Dragons of Darkness","Halalos Leveli Dojo","SolarSquare","Unidentified","MikuAnime","DogWaaterWarriors","Adventurers
+        of the Sun","Mushcord","Tumira","TrinitySeven","Agile","Wall Street Elite","CherryBlossom","Gypsy
+        Extermination Service","Truth","Luneria","Tower Gang","Other Paladins","the
+        Avos","Bromance","xXWynnLegendsXx","Mercurian Order","MakesYourDeath","Absolute
+        Radience","Sympelys","Dogie","Shinra","the gaming","TheColleguz","Noumena","Enemy","The
+        Very Boring Guild","GhostHunters","Excessive Force","Survivalists","The Dragons
+        of Darkness","Halalos Leveli Dojo","SolarSquare","Unidentified","MikuAnime","DogWaaterWarriors","Adventurers
         Guild","Merchants Guild","Parkour Community","Time Lords","GOZA LEVE","smol
         unicorns","The Darkbronze Legion","The Potato","CHADwork","TerabumInc","RWBY","The
         Beninging of the Nend","ArsUmbra","Resort Royale","Booty Destroyers","Crusader","TheNerds","Bikini
@@ -1726,7 +1725,7 @@ interactions:
         to Bingus","Stormbreak","Avengers of Fortune","The JEDFC","TheBush","Black
         Vortex","Zingaronia","OKMRSHOW","Kratos","Saturday Book Club","Lari Gang","Team
         Of Noobs","ViVi is Cap","Order of Tirisfal","Chinese Food","Smurking","WynnCraft
-        Forceful","Drok","Magical Arcane Super Society","Tekkadan","The Phantom Troupe","cccp","Hunting
+        Forceful","Magical Arcane Super Society","Tekkadan","The Phantom Troupe","cccp","Hunting
         Proffers","Calm","Severity","Aurora Veil","TreeHuggers","Sauce","Kind Regards","Compagnons
         rescapes","Corkus Sea","Le Serpi","HELLOTEAM","Gilded Phoenixes","WICKED","Hypernova","Hunter
         Horse","Tristain","L Prof Heaven","Tomolia","TWOTS","Chunibyo","Dream City","BuckyOnly","GooseRevolution","Legendary
@@ -1735,11 +1734,10 @@ interactions:
         of the Dark Eclipse","Simply Oranges","jellyfishe","Moonarch","Myself","Balls
         Deep Sixty Nine","Le Baguette","Not A Hoe","GoFastEatAZZ","jondan fan club","Scholars
         Of Darkness","The Imps","jiahengyp","Meme Team Supreme XD","Knights of Cima","TheBestMacroers","Dino
-        Nuggies","Wynnstelle","Knights of Aldorei","Lost in The Wynn","MANSAURUS CLAN","Orange
-        bottle","Eons","Arlezguild","Iron Legion","Herb Cave Hermits","teto","Last
-        of Saturn","Kahos Adventure Team","ludo","Dropped Soap","Heartbreakers","Flex","Sunbreakers","OurBigPeen","The
-        Chubbakery","Grim","Jake","SippyCupGuardians","DarkNova","Genshin Buddies","ur
-        guild tranny","Fristi","The Roman Legion","Rose Apollo","poop","Jeus","Grappa
+        Nuggies","Wynnstelle","Lost in The Wynn","MANSAURUS CLAN","Orange bottle","Eons","Arlezguild","Iron
+        Legion","Herb Cave Hermits","teto","Last of Saturn","Kahos Adventure Team","ludo","Dropped
+        Soap","Heartbreakers","Flex","Sunbreakers","OurBigPeen","Grim","Jake","SippyCupGuardians","DarkNova","Genshin
+        Buddies","ur guild tranny","Fristi","The Roman Legion","Rose Apollo","poop","Jeus","Grappa
         Ice","MuYaHo","Dug Dig","MeltyChocolate","Villager Heaven","The Home Depot","Masters
         of the Arts","Kuomintang","MonkeeTogetherStrong","TomeSlot","Dab Enterprises","Lost
         In Wynn","Shadowfish","HakugyokurouMin","Realm of Rebirthed","Ordem dos Realitas","Tartarus
@@ -1768,12 +1766,11 @@ interactions:
         Gang","Ophidian","Willo Gamer Warriors","OJIEPAP","Knights Solaris","balls","Sons
         of Coruption","Hong Kong Police Force","GeoStorm","Hopeless","Scarlet Lotus","Envy","Knights
         of Solaire","Wynter","mocofat","Chronos","LettuceLads","Gezellige Makkers","Nation
-        of Nothing","Italian Inquisition","Ixtal","The Gay Bar","The Blue Rosepire","The
-        Crimson Crusaders","Kool Kid Guild","Beecat Bartering Co","LaCouizine","Hakuna
-        Matata","SpleenSplitter","wuppy","Mistletoe","Salty Sailors","Ba Sing Se","Rowla","Bobs
-        Depressed Friends","Little Studio","Cantaloupians","Received New Mail","Risky","Polarity","Emerald
-        Embers","UnderWorld","happy biftday crimi","Butter Bois","GoldenPhoenix","Haplos
-        Community Guild","Universal Guild","sakeSakpoPanihsaP","Vantigo","Ominous
+        of Nothing","Italian Inquisition","Ixtal","The Blue Rosepire","The Crimson
+        Crusaders","Kool Kid Guild","Beecat Bartering Co","LaCouizine","SpleenSplitter","wuppy","Mistletoe","Salty
+        Sailors","Ba Sing Se","Rowla","Bobs Depressed Friends","Little Studio","Cantaloupians","Received
+        New Mail","Risky","Polarity","Emerald Embers","UnderWorld","happy biftday
+        crimi","Butter Bois","GoldenPhoenix","Haplos Community Guild","Universal Guild","sakeSakpoPanihsaP","Vantigo","Ominous
         Latin Name","urmom","The Wynn Winners Fourever","Adamantem Astra","Gamer Gang","Cnts","Amogus","FrenchPatchPlease","Casuall
         people","Schokoladentrio","Jasmine Dragon","The Crowz","The Jelly Empire","She
         said she was lvl eighteen","Bad Clan","Abyssal Void","Gabba Wok","Imperious","Dlya
@@ -1785,17 +1782,17 @@ interactions:
         Player Campaign","pitbull","Diero","SleepingSheep","Scuffed Inc","Taiwan Water
         Chicken Club","Nyberg empire","Emily","Exhausted","Blueberries","TurtleGang","The
         Council","Ncraft","Orphelin Tieks","The NameLess Fools","holy fricken heck","Scrimblo
-        Males United","Testing Stuff","Salvieons Kingdom","Flairwars United","Bs of
-        the Caribbean","UwUOwO","guild name","BINGUS","Sakutora Empire","Sylvan Hunters","SANMANOMIZUNIKAN","VEILING","DiuNeiLoMo","Etnyun","Magical
-        Carrot","Ruthless","Goop Gang","VoxelDraqons Chaos Chlub","Cosmic Angel","The  Idiots","RatKingdom","Sussy
+        Males United","Salvieons Kingdom","Flairwars United","Bs of the Caribbean","UwUOwO","guild
+        name","BINGUS","Sakutora Empire","Sylvan Hunters","SANMANOMIZUNIKAN","VEILING","DiuNeiLoMo","Etnyun","Magical
+        Carrot","Ruthless","Goop Gang","VoxelDraqons Chaos Chlub","The  Idiots","RatKingdom","Sussy
         Bakas","Postoloprty","Noctis","sweater gang","The Eye","The Kandermen","Gacha
-        Addicts","Shattered Embers","Taxes","TOFHIK","Rakkers","Nefarious Dilcks","CheeseBurhers","Asian
-        mafia","Wynk","The Empire of Wynn","Not Gosu","Cult of The Hydra","Funfon","Blackborough","Norrbo","Audax","The
+        Addicts","Shattered Embers","Taxes","TOFHIK","Rakkers","CheeseBurhers","Asian
+        mafia","Wynk","Not Gosu","Cult of The Hydra","Funfon","Blackborough","Norrbo","Audax","The
         Holy Sleepers","Stars in the Ocean","Lily","Quest Generator","Super Monkey
-        Fan Club","PhoenixFive YT","Gaming Lounge","Ascension to Heaven","Yurei","Taureau
-        Noir","Flying Pans","Crazy Btw","Bootleg Brigade","Rings of Jupiter","MyDoom","Crisp","The
-        Antigrass","BigBoiBrigade","Ocean Of Fortune","Nuke Inc","Kills and Death","The
-        Phoenix Blades","MagicMilk","Silence Moon Lakeside","ocelOtguild","TheButteryWarriors","Innocent","Chocolates","Nhongpho
+        Fan Club","PhoenixFive YT","Gaming Lounge","Ascension to Heaven","Yurei","Flying
+        Pans","Bootleg Brigade","Rings of Jupiter","MyDoom","Crisp","The Antigrass","BigBoiBrigade","Ocean
+        Of Fortune","Nuke Inc","Kills and Death","The Phoenix Blades","MagicMilk","Silence
+        Moon Lakeside","ocelOtguild","TheButteryWarriors","Innocent","Chocolates","Nhongpho
         Order","Neustria","Tone Deaf Bards","Yggdrasill","Tumps united","GoFw","Gamers
         Against Weed","bruhh","The Shadow Army","Transful","NewWorld","Luigis Speedsters","Citadel","Puthy
         Poppers","Fury","Echo Gang","Meltan Guild","Luthor Gang","Cope","Danto And
@@ -1803,7 +1800,22 @@ interactions:
         Council","SeaSkipperClan","ShadowsOfWynn","Average Anthrax Enjoyers","chucky
         the killerchicken","LaMafiaDeRagni","Racoon Family","Manic","The Earth Kingdom","Altus","TheParabellumCorporation","The
         Realm of Dern","Wynn Inc","Shark","WeebNation","Lootrunners","Scarlet Coven","A
-        Resting Place","LManburg","The Godeaters","Catgirl Death Squad"],"request":{"timestamp":1629796196,"version":1}}'
+        Resting Place","LManburg","The Godeaters","Catgirl Death Squad","BTRM Enterprise","The
+        QC Legion","We Are Baguettes","Question Mark Syndicate","WeLoveMineCraft","The
+        Eternal Legion","Akatsuki Clan","The Eternal","Hive","The Lost Akuma","Knights
+        of the Blood Oath","La Mafia","The Motherfluffers","The Order of the Veiled
+        Light","Coven of Fire","your nightmare","Nefarious Dulcks","LatamAsiam","Suomalaiset
+        Miehet","Funky Spunky Monkies","Epic Geemers","Bebous","Sleep Deprived","Tears
+        of Doom","Ange Pee","Assassin Enthusiasts","Nova Research Operations","Butt
+        Stuff","Saxophone","IllegalGamers","VierBierServusHier","estrogenenjoyers","Kingdom
+        Cats","Gaymer Pride","Name Redacted","Lovely Gudgeons Nest","FujinatedToJuSleep","Alcoholism","Water
+        Wolfes","Clowntown","FunkyMonkeyFriday","The Infinity Empire","The Overseeing
+        Eye","Pluto","Twelfth Legion","Alestice","MomsElectFace","Flames of Fear","Clockwork
+        Earth","adrian wynn killer","Just Another Sleepless Night","GrillGuild","Gank
+        Squad","Euphorians","Quit Wynn","Ravens","Lucidian","KatzenKrieger","Ginger
+        Beans","The Chill Guys","Gathering of Homies","Merxenaries","Furs and Friends","Solus","girl","Strategic
+        Nuclear Based Agency","Mystical","The Cult Of The Flames","Whack","Frog pond","WarrersHeaven","GermanKingdom","Phoenix
+        Nest","ooarchives"],"request":{"timestamp":1633164103,"version":1}}'
     headers:
       cache-control:
       - max-age=30
@@ -1812,7 +1824,7 @@ interactions:
       ratelimit-remaining:
       - '175'
       ratelimit-reset:
-      - '4'
+      - '17'
     status:
       code: 200
       message: OK

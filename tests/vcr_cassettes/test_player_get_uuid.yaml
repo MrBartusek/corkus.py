@@ -5,21 +5,21 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/v2/player/MrBartusekXD/uuid
   response:
     body:
-      string: '{"kind":"wynncraft/player/MrBartusekXD/uuid","code":200,"timestamp":1629796274184,"version":"2.1.0","data":[{"name":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a"}]}'
+      string: '{"kind":"wynncraft/player/MrBartusekXD/uuid","code":200,"timestamp":1633163735166,"version":"2.1.0","data":[{"name":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a"}]}'
     headers:
       cache-control:
-      - max-age=600
+      - max-age=222
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '179'
+      - '133'
       ratelimit-reset:
-      - '46'
+      - '7'
     status:
       code: 200
       message: OK

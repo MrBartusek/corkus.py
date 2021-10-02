@@ -5,22 +5,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=itemDB&search=Gert+Mask
   response:
     body:
       string: '{"items":[{"name":"Gert Mask","tier":"Normal","type":"Helmet","set":null,"restrictions":"Quest
-        Item","material":null,"armorType":"Leather","armorColor":"160,101,64","dropType":"never","addedLore":null,"sockets":0,"health":1300,"earthDefense":40,"thunderDefense":0,"waterDefense":0,"fireDefense":-40,"airDefense":0,"level":75,"quest":null,"classRequirement":null,"strength":0,"dexterity":0,"intelligence":0,"defense":0,"agility":0,"strengthPoints":0,"dexterityPoints":0,"intelligencePoints":0,"defensePoints":0,"agilityPoints":0,"damageBonus":0,"damageBonusRaw":0,"spellDamage":0,"spellDamageRaw":0,"rainbowSpellDamageRaw":0,"healthRegen":0,"healthRegenRaw":0,"skin":"eyJ0aW1lc3RhbXAiOjE0MzY1MTUwOTY5NzcsInByb2ZpbGVJZCI6IjA3NmVjZDVhMzEzMzRjMzRiOTEyNDBhNTQ5MGY0YzgwIiwicHJvZmlsZU5hbWUiOiJibWFucnVsZXMiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhhZWUyZjMwMTE2MzhjOTllNDI4NTk2NjRhZWIxM2RlYWRhOGRmZDZiM2ZkYmQ2YmNhNTEzNWE3ZTBlNiJ9fX0=","healthBonus":0,"poison":0,"lifeSteal":0,"manaRegen":0,"manaSteal":0,"spellCostPct1":0,"spellCostRaw1":0,"spellCostPct2":0,"spellCostRaw2":0,"spellCostPct3":0,"spellCostRaw3":0,"spellCostPct4":0,"spellCostRaw4":0,"thorns":0,"reflection":0,"attackSpeedBonus":0,"speed":0,"exploding":0,"soulPoints":0,"sprint":0,"sprintRegen":0,"jumpHeight":0,"xpBonus":0,"lootBonus":0,"lootQuality":0,"emeraldStealing":0,"gatherXpBonus":0,"gatherSpeed":0,"bonusEarthDamage":0,"bonusThunderDamage":0,"bonusWaterDamage":0,"bonusFireDamage":0,"bonusAirDamage":0,"bonusEarthDefense":0,"bonusThunderDefense":0,"bonusWaterDefense":0,"bonusFireDefense":0,"bonusAirDefense":0,"category":"armor"}],"request":{"timestamp":1629797960,"version":1.4}}'
+        Item","material":null,"armorType":"Leather","armorColor":"160,101,64","dropType":"never","addedLore":null,"sockets":0,"health":1300,"earthDefense":40,"thunderDefense":0,"waterDefense":0,"fireDefense":-40,"airDefense":0,"level":75,"quest":null,"classRequirement":null,"strength":0,"dexterity":0,"intelligence":0,"defense":0,"agility":0,"strengthPoints":0,"dexterityPoints":0,"intelligencePoints":0,"defensePoints":0,"agilityPoints":0,"damageBonus":0,"damageBonusRaw":0,"spellDamage":0,"spellDamageRaw":0,"rainbowSpellDamageRaw":0,"healthRegen":0,"healthRegenRaw":0,"skin":"eyJ0aW1lc3RhbXAiOjE0MzY1MTUwOTY5NzcsInByb2ZpbGVJZCI6IjA3NmVjZDVhMzEzMzRjMzRiOTEyNDBhNTQ5MGY0YzgwIiwicHJvZmlsZU5hbWUiOiJibWFucnVsZXMiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhhZWUyZjMwMTE2MzhjOTllNDI4NTk2NjRhZWIxM2RlYWRhOGRmZDZiM2ZkYmQ2YmNhNTEzNWE3ZTBlNiJ9fX0=","healthBonus":0,"poison":0,"lifeSteal":0,"manaRegen":0,"manaSteal":0,"spellCostPct1":0,"spellCostRaw1":0,"spellCostPct2":0,"spellCostRaw2":0,"spellCostPct3":0,"spellCostRaw3":0,"spellCostPct4":0,"spellCostRaw4":0,"thorns":0,"reflection":0,"attackSpeedBonus":0,"speed":0,"exploding":0,"soulPoints":0,"sprint":0,"sprintRegen":0,"jumpHeight":0,"xpBonus":0,"lootBonus":0,"lootQuality":0,"emeraldStealing":0,"gatherXpBonus":0,"gatherSpeed":0,"bonusEarthDamage":0,"bonusThunderDamage":0,"bonusWaterDamage":0,"bonusFireDamage":0,"bonusAirDamage":0,"bonusEarthDefense":0,"bonusThunderDefense":0,"bonusWaterDefense":0,"bonusFireDefense":0,"bonusAirDefense":0,"category":"armor"}],"request":{"timestamp":1633164109,"version":1.4}}'
     headers:
       cache-control:
       - max-age=30
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '179'
+      - '152'
       ratelimit-reset:
-      - '40'
+      - '11'
     status:
       code: 200
       message: OK

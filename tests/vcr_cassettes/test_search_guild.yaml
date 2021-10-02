@@ -5,21 +5,21 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=statsSearch&search=farplane
   response:
     body:
-      string: '{"guilds":["The Farplane"],"players":[],"search":"farplane","request":{"timestamp":1629796335,"version":1}}'
+      string: '{"guilds":["The Farplane"],"players":[],"search":"farplane","request":{"timestamp":1633164118,"version":1}}'
     headers:
       cache-control:
       - max-age=30
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '179'
+      - '103'
       ratelimit-reset:
-      - '45'
+      - '2'
     status:
       code: 200
       message: OK

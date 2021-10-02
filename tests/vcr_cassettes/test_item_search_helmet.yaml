@@ -5,22 +5,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=itemDB&search=Scarlet+Veil
   response:
     body:
       string: '{"items":[{"name":"Scarlet Veil","tier":"Fabled","type":"Helmet","set":null,"material":null,"armorType":"Chain","armorColor":"160,101,64","dropType":"NORMAL","addedLore":"You''re
-        seeing red... Time to see more of it.","sockets":0,"health":1000,"earthDefense":-30,"thunderDefense":-30,"waterDefense":-30,"fireDefense":-30,"airDefense":-30,"level":52,"quest":null,"classRequirement":null,"strength":0,"dexterity":0,"intelligence":0,"defense":0,"agility":0,"strengthPoints":0,"dexterityPoints":0,"intelligencePoints":0,"defensePoints":0,"agilityPoints":0,"majorIds":["EXPLOSIVE_IMPACT"],"damageBonus":25,"damageBonusRaw":65,"spellDamage":0,"spellDamageRaw":0,"rainbowSpellDamageRaw":0,"healthRegen":0,"healthRegenRaw":0,"healthBonus":0,"poison":0,"lifeSteal":0,"manaRegen":0,"manaSteal":0,"spellCostPct1":0,"spellCostRaw1":0,"spellCostPct2":0,"spellCostRaw2":0,"spellCostPct3":0,"spellCostRaw3":0,"spellCostPct4":0,"spellCostRaw4":0,"thorns":0,"reflection":0,"attackSpeedBonus":1,"speed":8,"exploding":0,"soulPoints":0,"sprint":0,"sprintRegen":0,"jumpHeight":0,"xpBonus":0,"lootBonus":0,"lootQuality":0,"emeraldStealing":0,"gatherXpBonus":0,"gatherSpeed":0,"bonusEarthDamage":0,"bonusThunderDamage":0,"bonusWaterDamage":0,"bonusFireDamage":0,"bonusAirDamage":0,"bonusEarthDefense":-100,"bonusThunderDefense":-100,"bonusWaterDefense":-100,"bonusFireDefense":-100,"bonusAirDefense":-100,"category":"armor"}],"request":{"timestamp":1629796232,"version":1.4}}'
+        seeing red... Time to see more of it.","sockets":0,"health":1000,"earthDefense":-30,"thunderDefense":-30,"waterDefense":-30,"fireDefense":-30,"airDefense":-30,"level":52,"quest":null,"classRequirement":null,"strength":0,"dexterity":0,"intelligence":0,"defense":0,"agility":0,"strengthPoints":0,"dexterityPoints":0,"intelligencePoints":0,"defensePoints":0,"agilityPoints":0,"majorIds":["EXPLOSIVE_IMPACT"],"damageBonus":25,"damageBonusRaw":65,"spellDamage":0,"spellDamageRaw":0,"rainbowSpellDamageRaw":0,"healthRegen":0,"healthRegenRaw":0,"healthBonus":0,"poison":0,"lifeSteal":0,"manaRegen":0,"manaSteal":0,"spellCostPct1":0,"spellCostRaw1":0,"spellCostPct2":0,"spellCostRaw2":0,"spellCostPct3":0,"spellCostRaw3":0,"spellCostPct4":0,"spellCostRaw4":0,"thorns":0,"reflection":0,"attackSpeedBonus":1,"speed":8,"exploding":0,"soulPoints":0,"sprint":0,"sprintRegen":0,"jumpHeight":0,"xpBonus":0,"lootBonus":0,"lootQuality":0,"emeraldStealing":0,"gatherXpBonus":0,"gatherSpeed":0,"bonusEarthDamage":0,"bonusThunderDamage":0,"bonusWaterDamage":0,"bonusFireDamage":0,"bonusAirDamage":0,"bonusEarthDefense":-100,"bonusThunderDefense":-100,"bonusWaterDefense":-100,"bonusFireDefense":-100,"bonusAirDefense":-100,"category":"armor"}],"request":{"timestamp":1633164109,"version":1.4}}'
     headers:
       cache-control:
       - max-age=30
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '169'
+      - '151'
       ratelimit-reset:
-      - '28'
+      - '11'
     status:
       code: 200
       message: OK

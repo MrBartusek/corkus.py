@@ -5,7 +5,7 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=guildStats&command=an+invalid+guild
   response:
@@ -19,7 +19,7 @@ interactions:
       ratelimit-remaining:
       - '172'
       ratelimit-reset:
-      - '2'
+      - '17'
     status:
       code: 200
       message: OK

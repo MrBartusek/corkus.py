@@ -5,22 +5,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/v2/ingredient/get/Glow_Bulb_Seeds
   response:
     body:
-      string: '{"kind":"wynncraft/ingredient/get/Glow_Bulb_Seeds","code":200,"timestamp":1629796194973,"version":"2.1.0","data":[{"name":"Glow
+      string: '{"kind":"wynncraft/ingredient/get/Glow_Bulb_Seeds","code":200,"timestamp":1633163723916,"version":"2.1.0","data":[{"name":"Glow
         Bulb Seeds","tier":3,"level":105,"skills":["TAILORING","WEAPONSMITHING"],"sprite":{"id":410,"damage":0},"identifications":{"INTELLIGENCEPOINTS":{"minimum":10,"maximum":12},"HEALTHREGENRAW":{"minimum":130,"maximum":145},"DAMAGEBONUS":{"minimum":-12,"maximum":-9}},"itemOnlyIDs":{"durabilityModifier":-160,"strengthRequirement":0,"dexterityRequirement":0,"intelligenceRequirement":0,"defenceRequirement":35,"agilityRequirement":0},"consumableOnlyIDs":{"duration":0,"charges":0},"ingredientPositionModifiers":{"left":0,"right":0,"above":0,"under":0,"touching":0,"notTouching":0}}]}'
     headers:
       cache-control:
-      - max-age=3595
+      - max-age=3219
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
       - '169'
       ratelimit-reset:
-      - '1'
+      - '16'
     status:
       code: 200
       message: OK
@@ -31,22 +31,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/v2/ingredient/get/Major's_Badge
   response:
     body:
-      string: '{"kind":"wynncraft/ingredient/get/Major''s_Badge","code":200,"timestamp":1629796199808,"version":"2.1.0","data":[{"name":"Major''s
+      string: '{"kind":"wynncraft/ingredient/get/Major''s_Badge","code":200,"timestamp":1633163726363,"version":"2.1.0","data":[{"name":"Major''s
         Badge","tier":3,"level":80,"skills":["ARMOURING","TAILORING","WEAPONSMITHING","WOODWORKING","JEWELING","ALCHEMISM"],"sprite":{"id":175,"damage":0},"identifications":{},"itemOnlyIDs":{"durabilityModifier":-175,"strengthRequirement":0,"dexterityRequirement":0,"intelligenceRequirement":0,"defenceRequirement":0,"agilityRequirement":0},"consumableOnlyIDs":{"duration":-300,"charges":0},"ingredientPositionModifiers":{"left":-15,"right":-180,"above":-110,"under":-20,"touching":35,"notTouching":-30}}]}'
     headers:
       cache-control:
-      - max-age=3600
+      - max-age=3222
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
       - '168'
       ratelimit-reset:
-      - '1'
+      - '16'
     status:
       code: 200
       message: OK
@@ -57,22 +57,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/v2/ingredient/get/Draconic_Bone_Marrow
   response:
     body:
-      string: '{"kind":"wynncraft/ingredient/get/Draconic_Bone_Marrow","code":200,"timestamp":1629796200034,"version":"2.1.0","data":[{"name":"Draconic
+      string: '{"kind":"wynncraft/ingredient/get/Draconic_Bone_Marrow","code":200,"timestamp":1633163726483,"version":"2.1.0","data":[{"name":"Draconic
         Bone Marrow","tier":3,"level":96,"skills":["ALCHEMISM","SCRIBING"],"sprite":{"id":437,"damage":0},"identifications":{},"itemOnlyIDs":{"durabilityModifier":0,"strengthRequirement":0,"dexterityRequirement":0,"intelligenceRequirement":0,"defenceRequirement":0,"agilityRequirement":0},"consumableOnlyIDs":{"duration":-300,"charges":2},"ingredientPositionModifiers":{"left":30,"right":30,"above":0,"under":0,"touching":0,"notTouching":0}}]}'
     headers:
       cache-control:
-      - max-age=3600
+      - max-age=3222
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '179'
+      - '167'
       ratelimit-reset:
-      - '60'
+      - '16'
     status:
       code: 200
       message: OK
@@ -83,22 +83,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/v2/ingredient/get/Vortexian_Event_Horizon
   response:
     body:
-      string: '{"kind":"wynncraft/ingredient/get/Vortexian_Event_Horizon","code":200,"timestamp":1629796200255,"version":"2.1.0","data":[{"name":"Vortexian
+      string: '{"kind":"wynncraft/ingredient/get/Vortexian_Event_Horizon","code":200,"timestamp":1633163726607,"version":"2.1.0","data":[{"name":"Vortexian
         Event Horizon","tier":3,"level":105,"skills":["JEWELING"],"sprite":{"id":397,"damage":3},"identifications":{"ATTACKSPEED":{"minimum":1,"maximum":1}},"itemOnlyIDs":{"durabilityModifier":-180,"strengthRequirement":45,"dexterityRequirement":45,"intelligenceRequirement":45,"defenceRequirement":45,"agilityRequirement":45},"consumableOnlyIDs":{"duration":0,"charges":0},"ingredientPositionModifiers":{"left":0,"right":0,"above":0,"under":0,"touching":0,"notTouching":0}}]}'
     headers:
       cache-control:
-      - max-age=3600
+      - max-age=3222
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '178'
+      - '166'
       ratelimit-reset:
-      - '60'
+      - '16'
     status:
       code: 200
       message: OK

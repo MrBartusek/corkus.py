@@ -5,12 +5,12 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/0.3.0
+      - Corkus.py/1.0.0
     method: GET
     uri: https://api.wynncraft.com/v2/ingredient/search/skills/&woodworking,alchemism
   response:
     body:
-      string: "{\"kind\":\"wynncraft/ingredient/search/skills/&woodworking,alchemism\",\"code\":200,\"timestamp\":1629796202543,\"version\":\"2.1.0\",\"data\":[{\"name\":\"Borange
+      string: "{\"kind\":\"wynncraft/ingredient/search/skills/&woodworking,alchemism\",\"code\":200,\"timestamp\":1633164106535,\"version\":\"2.1.0\",\"data\":[{\"name\":\"Borange
         Fluff\",\"tier\":3,\"level\":100,\"skills\":[\"WEAPONSMITHING\",\"WOODWORKING\",\"ARMOURING\",\"TAILORING\",\"JEWELING\",\"COOKING\",\"ALCHEMISM\",\"SCRIBING\"],\"sprite\":{\"id\":397,\"damage\":3},\"identifications\":{},\"itemOnlyIDs\":{\"durabilityModifier\":0,\"strengthRequirement\":0,\"dexterityRequirement\":0,\"intelligenceRequirement\":0,\"defenceRequirement\":0,\"agilityRequirement\":0},\"consumableOnlyIDs\":{\"duration\":0,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":0,\"right\":0,\"above\":0,\"under\":0,\"touching\":12,\"notTouching\":12}},{\"name\":\"Electroplasm\",\"tier\":3,\"level\":26,\"skills\":[\"SCRIBING\",\"WOODWORKING\",\"WEAPONSMITHING\",\"ALCHEMISM\"],\"sprite\":{\"id\":351,\"damage\":15},\"identifications\":{\"DEXTERITYPOINTS\":{\"minimum\":8,\"maximum\":12}},\"itemOnlyIDs\":{\"durabilityModifier\":-79,\"strengthRequirement\":0,\"dexterityRequirement\":15,\"intelligenceRequirement\":0,\"defenceRequirement\":0,\"agilityRequirement\":0},\"consumableOnlyIDs\":{\"duration\":-150,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":0,\"right\":0,\"above\":0,\"under\":0,\"touching\":0,\"notTouching\":0}},{\"name\":\"Elephelk
         Trunk\",\"tier\":3,\"level\":86,\"skills\":[\"ALCHEMISM\",\"WEAPONSMITHING\",\"WOODWORKING\",\"ARMOURING\",\"TAILORING\"],\"sprite\":{\"id\":154,\"damage\":0},\"identifications\":{\"EARTHDEFENSE\":{\"minimum\":24,\"maximum\":28},\"WATERDEFENSE\":{\"minimum\":24,\"maximum\":28}},\"itemOnlyIDs\":{\"durabilityModifier\":70,\"strengthRequirement\":15,\"dexterityRequirement\":0,\"intelligenceRequirement\":15,\"defenceRequirement\":0,\"agilityRequirement\":0},\"consumableOnlyIDs\":{\"duration\":120,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":0,\"right\":0,\"above\":0,\"under\":0,\"touching\":0,\"notTouching\":0}},{\"name\":\"Glacial
         Anomaly\",\"tier\":3,\"level\":92,\"skills\":[\"WOODWORKING\",\"ALCHEMISM\"],\"sprite\":{\"id\":373,\"damage\":0},\"identifications\":{\"MANAREGEN\":{\"minimum\":1,\"maximum\":1},\"SPELLDAMAGERAW\":{\"minimum\":140,\"maximum\":140}},\"itemOnlyIDs\":{\"durabilityModifier\":-149,\"strengthRequirement\":0,\"dexterityRequirement\":0,\"intelligenceRequirement\":25,\"defenceRequirement\":0,\"agilityRequirement\":0},\"consumableOnlyIDs\":{\"duration\":-270,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":0,\"right\":0,\"above\":0,\"under\":0,\"touching\":0,\"notTouching\":0}},{\"name\":\"Major's
@@ -26,9 +26,9 @@ interactions:
       ratelimit-limit:
       - '180'
       ratelimit-remaining:
-      - '173'
+      - '158'
       ratelimit-reset:
-      - '58'
+      - '14'
     status:
       code: 200
       message: OK
