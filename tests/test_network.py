@@ -21,6 +21,8 @@ class TestNetwork(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(sum([s.total_players for s in response.servers]), 0)
         self.assertTrue(any(s.name.startswith("WC") for s in response.servers))
         self.assertTrue(any(s.type == ServerType.REGULAR for s in response.servers))
+        self.assertTrue(any(s.type == ServerType.YOUTUBE for s in response.servers))
+        self.assertFalse(any(s.type == ServerType.OTHER for s in response.servers))
         self.assertGreater(len(response.players), 100)
         self.assertGreater(len(response.regular_players), 100)
 

@@ -15,6 +15,9 @@ class ServerType(Enum):
     YOUTUBE = "YT"
     """Servers restricted to players with :py:attr:`PlayerRank.MEDIA` rank."""
 
+    OTHER = "OTHER"
+    """Different type of the server. Most likely a temporary testing server."""
+
 class BaseServer(CorkusBase):
     def __init__(self, corkus: Corkus, name: str, attributes: dict = None):
         self._name = name
@@ -30,7 +33,12 @@ class BaseServer(CorkusBase):
     @property
     def type(self) -> ServerType:
         """Type of the server."""
-        return ServerType("".join([i for i in self.name if not i.isdigit()]))
+        if self.name.startswith("WC"):
+            return ServerType.REGULAR
+        elif self.name.startswith("YT"):
+            return ServerType.YOUTUBE
+        else:
+            return ServerType.OTHER
 
     @property
     def regular(self) -> bool:
