@@ -26,4 +26,4 @@ class PartialOnlinePlayer(PartialPlayer):
         return self._server
 
     def __repr__(self) -> str:
-        return super().__repr__().replace("PartialPlayer", f"PartialOnlinePlayer server={self._server.name!r} ")
+        return super().__repr__().replace("PartialPlayer", f"PartialOnlinePlayer server={self._server.name!r}")
