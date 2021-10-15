@@ -1,7 +1,7 @@
 ![corkus banner](https://i.imgur.com/8FjYte1.gif)
 
 
-[![build](https://img.shields.io/github/workflow/status/MrBartusek/corkus.py/build)](https://github.com/MrBartusek/corkus.py/actions) [![codecov](https://codecov.io/gh/MrBartusek/corkus.py/branch/main/graph/badge.svg?token=oZbLlhqRKJ)](https://codecov.io/gh/MrBartusek/corkus.py) [![Documentation Status](https://img.shields.io/readthedocs/corkuspy)](https://corkuspy.readthedocs.io/en/latest/?badge=latest) [![PyPI](https://img.shields.io/pypi/v/corkus.py)](https://pypi.org/project/corkus.py/) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/corkus.py)](https://pypi.org/project/corkus.py/)
+[![build](https://img.shields.io/github/workflow/status/MrBartusek/corkus.py/build)](https://github.com/MrBartusek/corkus.py/actions) [![codecov](https://codecov.io/gh/MrBartusek/corkus.py/branch/main/graph/badge.svg?token=oZbLlhqRKJ)](https://codecov.io/gh/MrBartusek/corkus.py) [![Documentation Status](https://img.shields.io/readthedocs/corkuspy)](https://corkuspy.readthedocs.io/en/stable) [![PyPI](https://img.shields.io/pypi/v/corkus.py)](https://pypi.org/project/corkus.py/) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/corkus.py)](https://pypi.org/project/corkus.py/)
 
 # Corkus.py ⚙️
 
@@ -29,7 +29,7 @@ Or install latest development version:
 pip install --upgrade git+https://github.com/MrBartusek/corkus.py@main
 ```
 
-See [documentation](https://corkuspy.readthedocs.io/en/latest/getting_started/installation.html) for more information.
+See [documentation](https://corkuspy.readthedocs.io/en/stable/getting_started/installation.html) for more information.
 
 ## Quick Example
 
@@ -78,7 +78,7 @@ chests_found: 219
 
 Want to contribute to the project?
 
-First of all, thanks! Check [contributing guidelines](https://corkuspy.readthedocs.io/en/latest/package_info/contributing.html) for more information.
+First of all, thanks! Check [contributing guidelines](https://corkuspy.readthedocs.io/en/stable/package_info/contributing.html) for more information.
 
 ## Links
 - [Documentation](https://corkuspy.readthedocs.io)
