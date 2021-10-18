@@ -7,8 +7,8 @@
 Search Routes
 =============
 
-Wynncraft API uses a quite unique system for searching things. All of the search Routes
-are divided intro 3 categories
+Wynncraft API uses a quite unique system for searching things. All of the search routes
+are divided intro 3 categories:
 
 :green:`Simple`
     Simple queries perform simple pattern matching and display results. These are just
