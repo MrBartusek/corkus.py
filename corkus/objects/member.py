@@ -38,6 +38,11 @@ class Member(CorkusBase):
         return CorkusUUID(self._attributes.get("uuid", ""))
 
     @property
+    def rank(self) -> GuildRank:
+        """Player's rank in guild."""
+        return GuildRank(self._attributes.get("rank", GuildRank.RECRUIT))
+
+    @property
     def contributed_xp(self) -> int:
         """Total number of contributed experience points by this player."""
         return self._attributes.get("contributed", 0)

@@ -1,6 +1,7 @@
 # pylint: disable=attribute-defined-outside-init
 
 import unittest
+from corkus.objects.member import GuildRank
 from tests import vcr
 from corkus import Corkus
 from corkus.objects import PartialGuild, BannerColor, BannerPattern
@@ -19,6 +20,7 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(all(m.join_date > m.guild.created for m in guild.members))
         self.assertEqual(guild.created.year, 2019)
         self.assertTrue(any(m.username == "MrBartusekXD" for m in guild.members))
+        self.assertTrue(any(m.rank == GuildRank.OWNER for m in guild.members))
         self.assertTrue(0 <= guild.level_progress <= 100)
 
         self.assertGreater(guild.banner.tier, 1)
