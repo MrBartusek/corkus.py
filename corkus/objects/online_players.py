@@ -1,6 +1,7 @@
 from __future__ import annotations
 from typing import List, Union
 
+from corkus.utils.utils import Utils
 from .base import CorkusBase
 from .server import Server
 from .partial_online_player import PartialOnlinePlayer
@@ -29,16 +30,7 @@ class OnlinePlayers(CorkusBase):
 
         :param player: Player username or player object to check for.
         """
-        if isinstance(player, str):
-            username = player
-        elif isinstance(player, (Player, PartialOnlinePlayer)):
-            username = player.username
-        elif isinstance(player, PartialPlayer):
-            username = player.username
-            if username is None:
-                raise ValueError("expected PartialPlayer with username")
-        else:
-            raise TypeError(f"expected str, Player, PartialPlayer or PartialOnlinePlayer, received {type(player)}")
+        username = Utils.player_to_username(player)
         for p in self.players:
             if p.username == username:
                 return p.server
