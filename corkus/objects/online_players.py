@@ -37,7 +37,7 @@ class OnlinePlayers(CorkusBase):
                 return p.server
         return None
 
-    def is_player_online(self, player: Union[str, Player, PartialPlayer, PartialOnlinePlayer]) -> bool:
+    def is_player_online(self, player: Union[str, Player, PartialPlayer, PartialOnlinePlayer, Member]) -> bool:
         """Check if player is online.
 
         :param player: Player username or player object to check for.
