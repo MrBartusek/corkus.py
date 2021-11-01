@@ -1,10 +1,9 @@
 # pylint: disable=attribute-defined-outside-init
 
 import unittest
-from corkus.objects.member import GuildRank
 from tests import vcr
 from corkus import Corkus
-from corkus.objects import PartialGuild, BannerColor, BannerPattern
+from corkus.objects import PartialGuild, BannerColor, BannerPattern, GuildRank
 from corkus.errors import BadRequest
 
 class TestGuild(unittest.IsolatedAsyncioTestCase):
