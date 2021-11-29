@@ -10,7 +10,7 @@ Upcoming Changes
 
 - Add :py:func:`get_member() <Guild.get_member>` function to :py:class:`Guild`.
 - Add :py:attr:`rank <Member.rank>` property to :py:class:`Member`.
-- :py:func:`OnlinePlayers.get_player_server` and :py:func:`OnlinePlayers.get_player_server` now accept :py:class:`Member` as argument.
+- :py:func:`OnlinePlayers.get_player_server` and :py:func:`OnlinePlayers.is_player_online` now accept :py:class:`Member` as argument.
 - Support Python 3.10
 
 1.1.0 (2021/10/02)
