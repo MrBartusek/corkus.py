@@ -96,6 +96,7 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
 
         # Classes
         player_class = player.classes[0]
+        self.assertEqual(player.best_class.name, player_class.name)
         self.assertGreater(player_class.statistics.chests_found, 0)
         self.assertFalse(player_class.gamemode.craftsman)
         self.assertFalse(player_class.gamemode.hunted)

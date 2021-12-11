@@ -62,6 +62,14 @@ class Player(BasePlayer):
         return [PlayerClass(self._corkus, self, c) for c in self._attributes.get("classes", {})]
 
     @property
+    def best_class(self) -> Union[PlayerClass, None]:
+        """Player's best class. This is determined by sorting by :py:attr:`PlayerClass.combat` level and
+        :py:attr:`PlayerClass.combined_level`."""
+        classes = self.classes.copy()
+        classes.sort(key=lambda x: (x.combat.level, x.combined_level))
+        return classes[0] if len(classes) > 0 else None
+
+    @property
     def member(self) -> Union[PartialMember, None]:
         """Partial representation of player in the guild."""
         if self._attributes.get("guild", {}).get("name", None) is None:
