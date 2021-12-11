@@ -54,9 +54,10 @@ class PlayerClass(CorkusBase):
     def approximate_create(self) -> Tuple[datetime, datetime]:
         """Approximate time when class was created.
 
-        Wynncraft API does not provide information
-        when a class was created but this property makes a educated guess and provide two datetimes
-        between which this class was created.
+        .. note::
+            Wynncraft API does not provide information
+            when a class was created but this property makes a educated guess and provide two datetimes
+            between which this class was created.
         """
         SE_UPDATE = datetime(2019, 12, 8, tzinfo = timezone.utc)
         ECONOMY_UPDATE_PATCH1 = datetime(2019, 6, 8, tzinfo = timezone.utc)
