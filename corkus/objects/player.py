@@ -66,7 +66,7 @@ class Player(BasePlayer):
         """Player's best class. This is determined by sorting by :py:attr:`PlayerClass.combat` level and
         :py:attr:`PlayerClass.combined_level`."""
         classes = self.classes.copy()
-        classes.sort(key=lambda x: (x.combat.level, x.combined_level))
+        classes.sort(key = lambda x: (x.combat.level, x.combined_level), reverse = True)
         return classes[0] if len(classes) > 0 else None
 
     @property
