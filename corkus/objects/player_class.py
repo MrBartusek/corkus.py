@@ -55,7 +55,7 @@ class PlayerClass(CorkusBase):
         """Approximate time when class was created.
 
         .. note::
-            Wynncraft API does not provide information about 
+            Wynncraft API does not provide information about
             when a class was created. This property makes a educated guess and provide two datetimes
             between which this class was created.
         """
