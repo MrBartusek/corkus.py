@@ -58,7 +58,7 @@ class CorkusRequest:
             response = await self._session.get(url, timeout = timeout or self.timeout)
             data = await response.json()
         except asyncio.TimeoutError:
-            raise CorkusTimeoutError(timeout, url)
+            raise CorkusTimeoutError(timeout or self.timeout, url)
 
         self.ratelimit.update(response.headers)
         self._fix_status_codes(data, response)
