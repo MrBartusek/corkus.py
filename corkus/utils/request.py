@@ -45,6 +45,8 @@ class CorkusRequest:
 
     async def get(self, version: APIVersion, parameters: str, timeout: Optional[int]) -> dict:
         url = version.value + parameters
+        if timeout is None:
+            timeout = self.timeout
 
         if self.cache_enable:
             cache_element = self.cache.get(url)
@@ -55,10 +57,10 @@ class CorkusRequest:
             await self.ratelimit.limit()
 
         try:
-            response = await self._session.get(url, timeout = timeout or self.timeout)
+            response = await self._session.get(url, timeout = timeout)
             data = await response.json()
         except asyncio.TimeoutError:
-            raise CorkusTimeoutError(timeout or self.timeout, url)
+            raise CorkusTimeoutError(timeout, url)
 
         self.ratelimit.update(response.headers)
         self._fix_status_codes(data, response)
