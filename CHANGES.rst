@@ -5,6 +5,13 @@ Corkus.py follows `semantic versioning <http://semver.org/>`_.
 
 .. py:currentmodule:: corkus.objects
 
+
+1.2.1 (2020/01/20)
+------------------
+
+- Fix a bug where :py:exc:`CorkusTimeoutError <corkus.errors.CorkusTimeoutError>` will be thrown without timeout property
+  when no custom timeout is set (`#13 <https://github.com/MrBartusek/corkus.py/pull/13>`_)
+
 1.2.0 (2021/12/26)
 ------------------
 
