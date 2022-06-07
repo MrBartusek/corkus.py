@@ -5,12 +5,12 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/ingredient/search/level/76
   response:
     body:
-      string: "{\"kind\":\"wynncraft/ingredient/search/level/76\",\"code\":200,\"timestamp\":1633164106139,\"version\":\"2.1.0\",\"data\":[{\"name\":\"Accursed
+      string: "{\"kind\":\"wynncraft/ingredient/search/level/76\",\"code\":200,\"timestamp\":1654609129765,\"version\":\"2.1.0\",\"data\":[{\"name\":\"Accursed
         Effigy\",\"tier\":2,\"level\":76,\"skills\":[\"ARMOURING\",\"TAILORING\"],\"sprite\":{\"id\":449,\"damage\":0},\"identifications\":{\"MANASTEAL\":{\"minimum\":1,\"maximum\":1},\"FIREDAMAGEBONUS\":{\"minimum\":8,\"maximum\":14},\"SPEED\":{\"minimum\":-12,\"maximum\":-10}},\"itemOnlyIDs\":{\"durabilityModifier\":-87,\"strengthRequirement\":0,\"dexterityRequirement\":0,\"intelligenceRequirement\":0,\"defenceRequirement\":15,\"agilityRequirement\":0},\"consumableOnlyIDs\":{\"duration\":0,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":0,\"right\":0,\"above\":0,\"under\":0,\"touching\":0,\"notTouching\":0}},{\"name\":\"Erratic
         Aspect\",\"tier\":2,\"level\":76,\"skills\":[\"ARMOURING\"],\"sprite\":{\"id\":397,\"damage\":3},\"identifications\":{\"THUNDERDAMAGEBONUS\":{\"minimum\":10,\"maximum\":10},\"FIREDAMAGEBONUS\":{\"minimum\":10,\"maximum\":10},\"LIFESTEAL\":{\"minimum\":70,\"maximum\":70},\"HEALTHREGEN\":{\"minimum\":-15,\"maximum\":-15}},\"itemOnlyIDs\":{\"durabilityModifier\":-87,\"strengthRequirement\":0,\"dexterityRequirement\":10,\"intelligenceRequirement\":0,\"defenceRequirement\":10,\"agilityRequirement\":0},\"consumableOnlyIDs\":{\"duration\":0,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":0,\"right\":0,\"above\":0,\"under\":0,\"touching\":0,\"notTouching\":0}},{\"name\":\"Obelisk
         Core\",\"tier\":3,\"level\":76,\"skills\":[\"WOODWORKING\",\"ARMOURING\",\"JEWELING\"],\"sprite\":{\"id\":397,\"damage\":3},\"identifications\":{},\"itemOnlyIDs\":{\"durabilityModifier\":-131,\"strengthRequirement\":0,\"dexterityRequirement\":0,\"intelligenceRequirement\":0,\"defenceRequirement\":0,\"agilityRequirement\":0},\"consumableOnlyIDs\":{\"duration\":0,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":-200,\"right\":0,\"above\":0,\"under\":0,\"touching\":0,\"notTouching\":0}},{\"name\":\"Overload
@@ -19,15 +19,15 @@ interactions:
         Rune\",\"tier\":3,\"level\":76,\"skills\":[\"WOODWORKING\"],\"sprite\":{\"id\":138,\"damage\":0},\"identifications\":{\"DAMAGEBONUS\":{\"minimum\":4,\"maximum\":5},\"SPELLDAMAGE\":{\"minimum\":4,\"maximum\":5}},\"itemOnlyIDs\":{\"durabilityModifier\":-131,\"strengthRequirement\":0,\"dexterityRequirement\":0,\"intelligenceRequirement\":0,\"defenceRequirement\":0,\"agilityRequirement\":0,\"attackSpeedModifier\":0,\"powderSlotModifier\":0},\"consumableOnlyIDs\":{\"duration\":0,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":-45,\"right\":-45,\"above\":0,\"under\":0,\"touching\":45,\"notTouching\":45}},{\"name\":\"Repulsive
         Aspect\",\"tier\":2,\"level\":76,\"skills\":[\"WEAPONSMITHING\",\"WOODWORKING\"],\"sprite\":{\"id\":397,\"damage\":3},\"identifications\":{\"EARTHDAMAGEBONUS\":{\"minimum\":10,\"maximum\":10},\"THUNDERDAMAGEBONUS\":{\"minimum\":10,\"maximum\":10},\"DAMAGEBONUS\":{\"minimum\":15,\"maximum\":15},\"HEALTHREGENRAW\":{\"minimum\":-55,\"maximum\":-55}},\"itemOnlyIDs\":{\"durabilityModifier\":-87,\"strengthRequirement\":10,\"dexterityRequirement\":10,\"intelligenceRequirement\":0,\"defenceRequirement\":0,\"agilityRequirement\":0},\"consumableOnlyIDs\":{\"duration\":0,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":0,\"right\":0,\"above\":0,\"under\":0,\"touching\":0,\"notTouching\":0}},{\"name\":\"Royal
         Bug\u2019s Blood\",\"tier\":0,\"level\":76,\"skills\":[\"ALCHEMISM\",\"WOODWORKING\"],\"sprite\":{\"id\":441,\"damage\":0},\"identifications\":{\"SPELLDAMAGE\":{\"minimum\":2,\"maximum\":4},\"XPBONUS\":{\"minimum\":1,\"maximum\":3}},\"itemOnlyIDs\":{\"durabilityModifier\":-122,\"strengthRequirement\":0,\"dexterityRequirement\":0,\"intelligenceRequirement\":8,\"defenceRequirement\":0,\"agilityRequirement\":0},\"consumableOnlyIDs\":{\"duration\":-230,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":0,\"right\":0,\"above\":0,\"under\":0,\"touching\":0,\"notTouching\":0}},{\"name\":\"Shattered
-        Aspect\",\"tier\":2,\"level\":76,\"skills\":[\"ARMOURING\",\"TAILORING\"],\"sprite\":{\"id\":397,\"damage\":3},\"identifications\":{\"EARTHDAMAGEBONUS\":{\"minimum\":10,\"maximum\":10},\"AIRDAMAGEBONUS\":{\"minimum\":10,\"maximum\":10},\"DAMAGEBONUSRAW\":{\"minimum\":90,\"maximum\":90},\"SPELLDAMAGERAW\":{\"minimum\":-70,\"maximum\":-70}},\"itemOnlyIDs\":{\"durabilityModifier\":-87,\"strengthRequirement\":10,\"dexterityRequirement\":0,\"intelligenceRequirement\":0,\"defenceRequirement\":0,\"agilityRequirement\":10},\"consumableOnlyIDs\":{\"duration\":0,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":0,\"right\":0,\"above\":0,\"under\":0,\"touching\":0,\"notTouching\":0}},{\"name\":\"Soggy
+        Aspect\",\"tier\":2,\"level\":76,\"skills\":[\"ARMOURING\",\"TAILORING\"],\"sprite\":{\"id\":397,\"damage\":3},\"identifications\":{\"EARTHDAMAGEBONUS\":{\"minimum\":10,\"maximum\":10},\"AIRDAMAGEBONUS\":{\"minimum\":10,\"maximum\":10},\"DAMAGEBONUSRAW\":{\"minimum\":80,\"maximum\":80},\"SPELLDAMAGERAW\":{\"minimum\":-65,\"maximum\":-65}},\"itemOnlyIDs\":{\"durabilityModifier\":-87,\"strengthRequirement\":10,\"dexterityRequirement\":0,\"intelligenceRequirement\":0,\"defenceRequirement\":0,\"agilityRequirement\":10},\"consumableOnlyIDs\":{\"duration\":0,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":0,\"right\":0,\"above\":0,\"under\":0,\"touching\":0,\"notTouching\":0}},{\"name\":\"Soggy
         Stone\",\"tier\":0,\"level\":76,\"skills\":[\"WEAPONSMITHING\",\"WOODWORKING\"],\"sprite\":{\"id\":351,\"damage\":4},\"identifications\":{\"WATERDAMAGEBONUS\":{\"minimum\":2,\"maximum\":5},\"THUNDERDEFENSE\":{\"minimum\":-5,\"maximum\":-2}},\"itemOnlyIDs\":{\"durabilityModifier\":-42,\"strengthRequirement\":0,\"dexterityRequirement\":0,\"intelligenceRequirement\":0,\"defenceRequirement\":0,\"agilityRequirement\":0},\"consumableOnlyIDs\":{\"duration\":0,\"charges\":0},\"ingredientPositionModifiers\":{\"left\":0,\"right\":0,\"above\":0,\"under\":0,\"touching\":0,\"notTouching\":0}}]}"
     headers:
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '160'
-      ratelimit-reset:
-      - '14'
+      RateLimit-Remaining:
+      - '74'
+      RateLimit-Reset:
+      - '11'
     status:
       code: 200
       message: OK

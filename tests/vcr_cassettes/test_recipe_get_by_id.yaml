@@ -5,22 +5,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Boots-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Boots-1-3","code":200,"timestamp":1633163736833,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BOOTS","skill":"TAILORING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Boots-1-3","code":200,"timestamp":1654606260195,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BOOTS","skill":"TAILORING","materials":[{"item":"Refined
         Copper Ingot","amount":1},{"item":"Refined Wheat String","amount":2}],"healthOrDamage":{"minimum":11,"maximum":14},"durability":{"minimum":175,"maximum":182},"id":"Boots-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '123'
-      ratelimit-reset:
-      - '5'
+      RateLimit-Remaining:
+      - '176'
+      RateLimit-Reset:
+      - '60'
+      cache-control:
+      - max-age=719
     status:
       code: 200
       message: OK
@@ -31,22 +31,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Bow-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Bow-1-3","code":200,"timestamp":1633163737354,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BOW","skill":"WOODWORKING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Bow-1-3","code":200,"timestamp":1654607436925,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BOW","skill":"WOODWORKING","materials":[{"item":"Refined
         Wheat String","amount":2},{"item":"Refined Oak Wood","amount":1}],"healthOrDamage":{"minimum":7,"maximum":10},"durability":{"minimum":175,"maximum":182},"id":"Bow-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '122'
-      ratelimit-reset:
-      - '5'
+      RateLimit-Remaining:
+      - '175'
+      RateLimit-Reset:
+      - '60'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -57,22 +57,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Bracelet-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Bracelet-1-3","code":200,"timestamp":1633163737471,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BRACELET","skill":"JEWELING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Bracelet-1-3","code":200,"timestamp":1654607437050,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"BRACELET","skill":"JEWELING","materials":[{"item":"Refined
         Copper Gem","amount":1},{"item":"Refined Gudgeon Oil","amount":2}],"healthOrDamage":{"minimum":0,"maximum":0},"durability":{"minimum":175,"maximum":182},"id":"Bracelet-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '121'
-      ratelimit-reset:
-      - '5'
+      RateLimit-Remaining:
+      - '174'
+      RateLimit-Reset:
+      - '59'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -83,22 +83,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Chestplate-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Chestplate-1-3","code":200,"timestamp":1633163737587,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"CHESTPLATE","skill":"ARMOURING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Chestplate-1-3","code":200,"timestamp":1654607437200,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"CHESTPLATE","skill":"ARMOURING","materials":[{"item":"Refined
         Copper Ingot","amount":2},{"item":"Refined Oak Paper","amount":1}],"healthOrDamage":{"minimum":11,"maximum":14},"durability":{"minimum":175,"maximum":182},"id":"Chestplate-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '120'
-      ratelimit-reset:
-      - '5'
+      RateLimit-Remaining:
+      - '173'
+      RateLimit-Reset:
+      - '59'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -109,22 +109,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Dagger-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Dagger-1-3","code":200,"timestamp":1633163737707,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"DAGGER","skill":"WEAPONSMITHING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Dagger-1-3","code":200,"timestamp":1654607437334,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"DAGGER","skill":"WEAPONSMITHING","materials":[{"item":"Refined
         Copper Ingot","amount":2},{"item":"Refined Oak Wood","amount":1}],"healthOrDamage":{"minimum":6,"maximum":8},"durability":{"minimum":175,"maximum":182},"id":"Dagger-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '119'
-      ratelimit-reset:
-      - '5'
+      RateLimit-Remaining:
+      - '172'
+      RateLimit-Reset:
+      - '59'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -135,22 +135,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Food-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Food-1-3","code":200,"timestamp":1633163737824,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"FOOD","skill":"COOKING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Food-1-3","code":200,"timestamp":1654607437466,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"FOOD","skill":"COOKING","materials":[{"item":"Refined
         Gudgeon Meat","amount":2},{"item":"Refined Wheat Grains","amount":1}],"healthOrDamage":{"minimum":24,"maximum":32},"duration":{"minimum":1080,"maximum":1116},"basicDuration":{"minimum":60,"maximum":60},"id":"Food-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '118'
-      ratelimit-reset:
-      - '5'
+      RateLimit-Remaining:
+      - '171'
+      RateLimit-Reset:
+      - '59'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -161,22 +161,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Helmet-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Helmet-1-3","code":200,"timestamp":1633163737944,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Helmet-1-3","code":200,"timestamp":1654607437593,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"HELMET","skill":"ARMOURING","materials":[{"item":"Refined
         Copper Ingot","amount":1},{"item":"Refined Oak Paper","amount":2}],"healthOrDamage":{"minimum":11,"maximum":14},"durability":{"minimum":175,"maximum":182},"id":"Helmet-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '117'
-      ratelimit-reset:
-      - '5'
+      RateLimit-Remaining:
+      - '170'
+      RateLimit-Reset:
+      - '59'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -187,22 +187,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Necklace-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Necklace-1-3","code":200,"timestamp":1633163738068,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"NECKLACE","skill":"JEWELING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Necklace-1-3","code":200,"timestamp":1654607437720,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"NECKLACE","skill":"JEWELING","materials":[{"item":"Refined
         Copper Gem","amount":1},{"item":"Refined Gudgeon Oil","amount":3}],"healthOrDamage":{"minimum":0,"maximum":0},"durability":{"minimum":175,"maximum":182},"id":"Necklace-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '116'
-      ratelimit-reset:
-      - '4'
+      RateLimit-Remaining:
+      - '169'
+      RateLimit-Reset:
+      - '59'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -213,22 +213,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Leggings-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Leggings-1-3","code":200,"timestamp":1633163738190,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"LEGGINGS","skill":"TAILORING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Leggings-1-3","code":200,"timestamp":1654607437844,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"LEGGINGS","skill":"TAILORING","materials":[{"item":"Refined
         Copper Ingot","amount":2},{"item":"Refined Wheat String","amount":1}],"healthOrDamage":{"minimum":11,"maximum":14},"durability":{"minimum":175,"maximum":182},"id":"Leggings-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '115'
-      ratelimit-reset:
-      - '4'
+      RateLimit-Remaining:
+      - '168'
+      RateLimit-Reset:
+      - '59'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -239,22 +239,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Potion-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Potion-1-3","code":200,"timestamp":1633163738313,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"POTION","skill":"ALCHEMISM","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Potion-1-3","code":200,"timestamp":1654607437994,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"POTION","skill":"ALCHEMISM","materials":[{"item":"Refined
         Gudgeon Oil","amount":1},{"item":"Refined Wheat Grains","amount":2}],"healthOrDamage":{"minimum":24,"maximum":33},"duration":{"minimum":360,"maximum":372},"basicDuration":{"minimum":3,"maximum":3},"id":"Potion-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '114'
-      ratelimit-reset:
-      - '4'
+      RateLimit-Remaining:
+      - '167'
+      RateLimit-Reset:
+      - '58'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -265,22 +265,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Relik-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Relik-1-3","code":200,"timestamp":1633163738429,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"RELIK","skill":"WOODWORKING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Relik-1-3","code":200,"timestamp":1654607438130,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"RELIK","skill":"WOODWORKING","materials":[{"item":"Refined
         Gudgeon Oil","amount":2},{"item":"Refined Oak Wood","amount":1}],"healthOrDamage":{"minimum":7,"maximum":10},"durability":{"minimum":175,"maximum":182},"id":"Relik-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '113'
-      ratelimit-reset:
-      - '4'
+      RateLimit-Remaining:
+      - '166'
+      RateLimit-Reset:
+      - '58'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -291,22 +291,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Ring-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Ring-1-3","code":200,"timestamp":1633163738560,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"RING","skill":"JEWELING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Ring-1-3","code":200,"timestamp":1654607438279,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"RING","skill":"JEWELING","materials":[{"item":"Refined
         Copper Gem","amount":1},{"item":"Refined Gudgeon Oil","amount":1}],"healthOrDamage":{"minimum":0,"maximum":0},"durability":{"minimum":175,"maximum":182},"id":"Ring-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '112'
-      ratelimit-reset:
-      - '4'
+      RateLimit-Remaining:
+      - '165'
+      RateLimit-Reset:
+      - '58'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -317,22 +317,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Scroll-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Scroll-1-3","code":200,"timestamp":1633163738677,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"SCROLL","skill":"SCRIBING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Scroll-1-3","code":200,"timestamp":1654607438422,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"SCROLL","skill":"SCRIBING","materials":[{"item":"Refined
         Gudgeon Oil","amount":1},{"item":"Refined Oak Paper","amount":1}],"healthOrDamage":{"minimum":21,"maximum":26},"duration":{"minimum":360,"maximum":372},"basicDuration":{"minimum":3,"maximum":3},"id":"Scroll-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '111'
-      ratelimit-reset:
-      - '4'
+      RateLimit-Remaining:
+      - '164'
+      RateLimit-Reset:
+      - '58'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -343,22 +343,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Spear-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Spear-1-3","code":200,"timestamp":1633163738791,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"SPEAR","skill":"WEAPONSMITHING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Spear-1-3","code":200,"timestamp":1654607438569,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"SPEAR","skill":"WEAPONSMITHING","materials":[{"item":"Refined
         Copper Ingot","amount":1},{"item":"Refined Oak Wood","amount":2}],"healthOrDamage":{"minimum":4,"maximum":6},"durability":{"minimum":175,"maximum":182},"id":"Spear-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '110'
-      ratelimit-reset:
-      - '4'
+      RateLimit-Remaining:
+      - '163'
+      RateLimit-Reset:
+      - '58'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK
@@ -369,22 +369,22 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/recipe/get/Wand-1-3
   response:
     body:
-      string: '{"kind":"wynncraft/recipe/get/Wand-1-3","code":200,"timestamp":1633163738909,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"WAND","skill":"WOODWORKING","materials":[{"item":"Refined
+      string: '{"kind":"wynncraft/recipe/get/Wand-1-3","code":200,"timestamp":1654607438712,"version":"2.1.0","data":[{"level":{"minimum":1,"maximum":3},"type":"WAND","skill":"WOODWORKING","materials":[{"item":"Refined
         Wheat String","amount":1},{"item":"Refined Oak Wood","amount":2}],"healthOrDamage":{"minimum":3,"maximum":5},"durability":{"minimum":175,"maximum":182},"id":"Wand-1-3"}]}'
     headers:
-      cache-control:
-      - max-age=3222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '109'
-      ratelimit-reset:
-      - '4'
+      RateLimit-Remaining:
+      - '162'
+      RateLimit-Reset:
+      - '58'
+      cache-control:
+      - max-age=1896
     status:
       code: 200
       message: OK

@@ -5,21 +5,21 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=itemDB&search=Snail+Mail
   response:
     body:
-      string: '{"items":[{"name":"Snail Mail","tier":"Set","type":"Chestplate","set":null,"material":null,"armorType":"Leather","armorColor":"0,51,51","dropType":"NORMAL","addedLore":null,"sockets":3,"health":3950,"earthDefense":75,"thunderDefense":0,"waterDefense":0,"fireDefense":100,"airDefense":0,"level":97,"quest":null,"classRequirement":null,"strength":65,"dexterity":0,"intelligence":0,"defense":90,"agility":0,"strengthPoints":0,"dexterityPoints":0,"intelligencePoints":0,"defensePoints":0,"agilityPoints":-10,"damageBonus":0,"damageBonusRaw":0,"spellDamage":0,"spellDamageRaw":0,"rainbowSpellDamageRaw":0,"healthRegen":20,"healthRegenRaw":0,"healthBonus":0,"poison":0,"lifeSteal":0,"manaRegen":0,"manaSteal":0,"spellCostPct1":0,"spellCostRaw1":0,"spellCostPct2":0,"spellCostRaw2":0,"spellCostPct3":0,"spellCostRaw3":0,"spellCostPct4":0,"spellCostRaw4":0,"thorns":15,"reflection":0,"attackSpeedBonus":0,"speed":0,"exploding":0,"soulPoints":0,"sprint":0,"sprintRegen":0,"jumpHeight":0,"xpBonus":0,"lootBonus":0,"lootQuality":0,"emeraldStealing":0,"gatherXpBonus":0,"gatherSpeed":0,"bonusEarthDamage":0,"bonusThunderDamage":0,"bonusWaterDamage":0,"bonusFireDamage":0,"bonusAirDamage":0,"bonusEarthDefense":9,"bonusThunderDefense":0,"bonusWaterDefense":0,"bonusFireDefense":9,"bonusAirDefense":0,"category":"armor"}],"request":{"timestamp":1633164108,"version":1.4}}'
+      string: '{"items":[{"name":"Snail Mail","tier":"Set","type":"Chestplate","set":null,"material":null,"armorType":"Leather","armorColor":"0,51,51","dropType":"NORMAL","addedLore":null,"sockets":3,"health":3950,"earthDefense":75,"thunderDefense":0,"waterDefense":0,"fireDefense":100,"airDefense":0,"level":97,"quest":null,"classRequirement":null,"strength":65,"dexterity":0,"intelligence":0,"defense":90,"agility":0,"strengthPoints":0,"dexterityPoints":0,"intelligencePoints":0,"defensePoints":0,"agilityPoints":-10,"damageBonus":0,"damageBonusRaw":0,"spellDamage":0,"spellDamageRaw":0,"rainbowSpellDamageRaw":0,"healthRegen":20,"healthRegenRaw":0,"healthBonus":0,"poison":0,"lifeSteal":0,"manaRegen":0,"manaSteal":0,"spellCostPct1":0,"spellCostRaw1":0,"spellCostPct2":0,"spellCostRaw2":0,"spellCostPct3":0,"spellCostRaw3":0,"spellCostPct4":0,"spellCostRaw4":0,"thorns":15,"reflection":0,"attackSpeedBonus":0,"speed":0,"exploding":0,"soulPoints":0,"sprint":0,"sprintRegen":0,"jumpHeight":0,"xpBonus":0,"lootBonus":0,"lootQuality":0,"emeraldStealing":0,"gatherXpBonus":0,"gatherSpeed":0,"bonusEarthDamage":0,"bonusThunderDamage":0,"bonusWaterDamage":0,"bonusFireDamage":0,"bonusAirDamage":0,"bonusEarthDefense":9,"bonusThunderDefense":0,"bonusWaterDefense":0,"bonusFireDefense":9,"bonusAirDefense":0,"category":"armor"}],"request":{"timestamp":1654609132,"version":1.4}}'
     headers:
+      RateLimit-Limit:
+      - '180'
+      RateLimit-Remaining:
+      - '67'
+      RateLimit-Reset:
+      - '8'
       cache-control:
       - max-age=30
-      ratelimit-limit:
-      - '180'
-      ratelimit-remaining:
-      - '153'
-      ratelimit-reset:
-      - '12'
     status:
       code: 200
       message: OK

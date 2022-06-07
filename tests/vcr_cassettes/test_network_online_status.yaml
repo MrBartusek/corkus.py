@@ -5,21 +5,21 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=onlinePlayers
   response:
     body:
-      string: '{"request":{"timestamp":1633164096,"version":1.2},"WC1":["Suyarumi","Ooopsay","Ast0n3","haydox69","Lee_with_4_es","VITASZE4412","lachymoo1921","noidc","SaltyKing","NeonRider","f1ow3r_Ja2","wltjr0830","Blueswords","xXBuster","igoligo"],"WC10":["SpooksReturns_18","Infinius","Nukewarmachine","logitak","DreamNumber1Fan","Chomusukee","Blockybfb","iZaiiTeK","0NeverOne","Eroxis","ElaireWinters","XS1ingx","Cobayaforever","nadavch","Ragchel","MRkiller_X","Democratics"],"WC11":["specter_knight_","WAZ01404","FormerlyChucks","Dw267","_Vurkanes_","hirotoy0","KodixBaldhead","LJS04","Az_igazi_Pankox","Rage_21","ichi0110","zacktracer","Flrelfy","SGTKFM","PureCloudByAir","SteveKunG","kotones","davi33","IMakeMc","s0w0s","LAUR3NZ","Sl4zz","aiZdexy","0ffend","Vhispers","Rinkashii","Pizzamampf12","limeugh","Nightnettle","Nima87","David566667","XxLight_OwOxX","I_LIKE_DIRT123","StillNotFast26"],"WC12":["Idekater","ZXsrh","BigPizza9876","HotPink_Prince","Mr_Rabbitman","1_Blockhead","Apokalypse05","valenia","Ad4m69","IMzet","MonkeyB42","zVenx_","imperathor02","Himewari","Da_BadBoi","jazzyboot","Fiffi_0815","Arheynt","Ian0822"],"WC13":["gamerman5601","Flager_Man","Prungon","kelongg","Har312","Taumis","Al_Shehhi","jeqss","VitaminK1","AlexBaan","LemonBullcc","Goronenyoshi","SquirlFlite","Gan_juba","PoppuZote","wilsan3","echsim","orenGr","wowew","yukkuru_chan","Forestcommando","narthoolis_","Faxxy1","Darkraft_YT","TheFrostB1te","Lblox","Topy3","Dark_Pheonix1","ItemIdentifier","soal5367","Tnepres"],"WC14":["TheRetroRaichu","One_Eyed_Pete","YTme","MrAshen_2","razer_wither","Orginality","Groffles_Bear","Aprizotic","Blade4Kingdom","Lootboy9","PyrusJustin","Temones","PadroneOmega","GARYBOX20","KayAspectia","B_enedek","PanD0rA__","cnumnumz","czekon","C0nstantPain","LucsBot","Samric","SupineCow381928","Matigrillson","Brahkas","BTK2000","zGuaapo","Tomboman","Ksteve010"],"WC15":["Mosha72","Seagazer","pomqkin","Xisys","Kraugel","Fury_Earth","KanozyOwO","WuYi","xMayow","Aussi3Mate","proha_Fox","Tr3d","muru1","Thallahhh","Bootrun","Chiccotot","ASFJerome1311","LunarLegend180"],"WC16":["Pekacheew","Spheroids","NimAspirin0206","pentahedron","JAYoung90","IWillRekU3206","ShadeLeone","CoffeeTimeNow","BlockBurst13","M8807","Shadow_moonlight","Pheonix228","Link_The_Hero","Kyykek","Ikasy_","RussetMantle","lemonalade","A_Moll","xiao_zhi__","WeLoveMemes123","Miner_HQT"],"WC17":["Fearurobi","Nathaniel_c_s","Maiev","Harsta","CarlitoCabonito","hegelund08","Shiinaz","_OutFeu_","velxz","program283","Magowo","Errkk_Skyseer","feorge"],"WC18":["fff_every_day","Rak147jh","blanoir3298","owoModix","Demonic_Frenzy","amberhoofd","Snowled_","Awwsamiri","thorjulius","BerserKY","Zorome__","Skylantera","T_game1","Pandabaa","Henricks","ArtcI","nico09x","jtlim3812","Shattered_star","Salty_Pinecone","HedgeHogg1734","zonkulous","Ghostyboy_","m1x8g","hufft","SkaletaGames","3yBHa9I_IIaCTa","Laca1011","SwedishNoob","Ho_goon","steveholdssteve","oliwa247","Tale61","_EndermanSteve_"],"WC19":["Alone_Alone_Al","SteelFoxy","Janni56","nicebruddhahosas","DRGREENLUNGZZ420","Maluss","pa05112309","Cvrtis_","Rey_Uver_Bust","birk303","YharonChicken","Destiny_Ram","zrpq","5zzzzz","Gorkensal301010","epletv4","Amenthyst","Good110","Kwasny_Robaczek","AddDasZ","MikaelUr","JarvyLarzSJ","RaiderXWhite","PeanutHero4886","_Grundel_","UnshapedPower16","Ralshido","Goblin_Fart","ShadowVYX","ChaosMelone9","Poke55","Cyayo_","spoghet","Blue243","FKYB"],"WC2":["PigPickAxe","IcyWind_040","HIMHIM2204","KaeVIII","Brodie54321","Cendred","OctoberVIII","OceanBoyVN","Keinetic_","Balduer","ARC_seal","Orionid","DudieGuy","Luky__cz","Redex27","SovietS3al","Kleftakias","owoEnz","MlyuL","Unsatisfied08","DK_Hound","Thyntain","Vopenka","Will4340","Spitfire456123","iCultish","007samboss","Lanceplayzss","MeLegit","Synch__","buttercreeper72"],"WC20":["YSHUH","AlanGreyson","Aelyea","Pure_Crystal","aFireBlaze","Rfakhri11","HarryJPotter","_Patriick","Prisme606","Cyana__","lavnc","AxolosG","Axlod","Camollll","Zerfex","Sparky_Jack","NazK_","XxUnicorn_uwu_xX","Salamanderlonk"],"WC21":["Priesade","Aidosang","Harru10","Avita","ArentVos","Survival_Lele","RiderTest101","theseaemperor","_Askaii","DrMuteSTEVE","blackcat2018","Eliasr0207","Counthill","Phlpp_6","yj58","SizofrenKedi","ImLexi","B765432354","Krissien","Farbschlurf","TheFloofBean","Speedrunner2Wish","PeiceOfCake","WayaBoy","thewhitemaske","Saika","EThowt1107"],"WC22":["ReddRZ","madfrog6","PsychopathSuiSei","rokobata510","disabledoctopus","Decizorro","meowmeow0510","Mr_P0taet0es","Pangalan","Twe2x","Robber001","Game_Fiendz","Xsequtioner","wigelpikel","NqRin","JazzyTheBee","Liqhtspeed","TheCyprius","iiMecro","DiDiwah","P4RZ1VAL_","Xerxesz","Galaxy89464","SwifyKitten","MoonPulse","Selchar","Albaiihts","Balzsveged","SpicyCinnamon","Bad_At_Names_Guy","CodeRKX","Grimdjo6","WithoutAScript","SnavPope"],"WC23":["craftguyL","Bas_Tech","JellyJackHK","ThEpicFerret","WarpingLight","Wabzy","NiceAndFabulous","l3lackChee","__BadName","natthaphon2550","0h_L1fe","balder10"],"WC24":["lengoy","oRight__","nu162","Sharpre","kykym6ep","F4K_Tibi_Ezz","MartyLove6606","Herob","Skyline_Michael","MR_ACME","SpaceComet99","WarpedLeaves","AjuroMaru","j3ns_k0rt","FalconLim","whxsper","Crimson_Herrings","fludsqua","SuperBoomTNT","pat_crafter07","SheepMindSC2"],"WC25":["VX14","siu_jerry0u0","FrostMelon","Jaack_BS","Siixel","_brown_bear_","KeralixYT","shahr5508","Kingsman_DE","ValMendoris","WillTMcManus","_laye","_s0y_","jameslkc","AZHeaps_","kratzkrag","WynncraftIsBest","DarkZed645","Carnish","STORM3377","Big_sity_Prolap","Greenxxrose","KillerTomate16","taa876","ofeky","xd_mchotdog","linnyflower","snoepkanon123","SadNogitsune","Cmanda","Apakalyph_HD","GameKnight373","YEETAMUSMAXIMUS","StarlightClover"],"WC26":["DespacitOwO","NotAHackusator","KiwiTeaa","Noritho","Kextekercs","Goldenpig55","Evil_Viktor","ainz2001","Kaede_Hoshizora","bneator","Plompa","pakinator2000","NuclearKFC","chunsing1119","Mira301","LyftedTV","suppo1100","fusiongames","ADudeInAChair","ChessMasterr","MelonPanda","EdoDrill","Pitch_7","oront121","crafttomtom","jothstar","Rebien","Lil_Deer_Gamer","SGSDG","hata156","p0k3rfac3","Vestrack"],"WC27":["WizBack","SyndereN","PigPlays1","Unr3alistik","Fudgeyducky55","Extr4cti0n","HoJai_","tcdcbs","Tagrals","BadLife_LY","flaskis23","Angry_Pony","NunuNana","ortieez","Yobee","fancydctreeblox4","LookAButterfly","LC_Clarence","Faulthy","VialbinoGamer14","ZasperOW","_AppSt_","A_GL","BigfuknM","Crixx007","Small_Arthur","SoftVore","Ruimond2020","StellarWombat","FireFireYT_","Satorisa","Mr_Valle","_BuldoSauR_"],"WC28":["Celmestra","AymanSenpai","kingdedede1273","ZooPii","PowerEmil","Xgaming1371","RigidStudios","HellFire3003","BadGuppies","Cloud_Dash","Avazo","stoneofsteeI","Gorkensalg","iCallumity","scurepank23","QuonkityQuonk","CaptainWalrus6","jeremy279","alfredthedonkey","FastAsVoid","dragonprinces","LifeIsOk_","LoGoN256","penggi_","ComradePig24","Kata_Kana","Zippers1","LangyCZ","TheFinie","76vm"],"WC29":["tomere","darknessV10","IordanidisL","Jessu4","Davibs01","Holy_Bucket","M7AM7","Ow1nn","DeviGamePvP","U_M_I","KhongPhaiPo","Ryo_24","PHGz","nekokunn_","23pm","Ettoregame3465","Daddlies","Marc05_","TheUltraMonkey","Rudeburrito","Baken","NoamRight","Ilagias","toUrl","CarrotBunn","Soichiro1000","AltoIgloo","AmbassadorMax","nomusan0805","tphoeng","cobraphenix07","aaa12035","PruneThe3rd","Vinssous","zztabor","LOL666PX"],"WC3":["Maarcus1","Axorit","JoinTAq","TatoMerchant","VireVeonix","Slime","OriTheSpirit","Waffellz","exopodable","czad","Voxeeer","DinoRawrr","Shok0Shoko","KyleCarrot","Sadann","PolarBaeJr","Wideman","L2nOxQuu4","D1uLaSing","DatDotDotDot","datdot","MrGrucci","WeaponMerchant","Icy_Ice","sum00","U_YU","7260","JuniorSupreme","Silentmaxx","crturtle","unrealphantom","The_ScorpionZ","KhanhMai","JeTeComboEnAsics"],"WC32":["Toufu0365","gandiiii","Dw00010","DenZyL235","MonDz","skypower13","H4ru__","PokemonGamer11","Electrochemistry","MaybeIamDana","Zinnig","Pffa","hubukituki","bikesuper"],"WC33":["Iannaan","MissingLightTW","Wolfdragon24","Thomas8454","Diamond_Laser","Broodjeboter2","Maracs","Lilydere","NyghtHound_","MikakunYT","SirTracyXVII","rushiaenjoyer","cataclysmOfPigs","Pododeng","Snowy_Cathy"],"WC34":["Calluum","ppfart","Trigonometri","MichaelCratar","Zadbrat","MmrSmite","SaturatedVapor","SirRicington","LaMDaKiS","Yusobad","Goong_Ploonk","nkklk","Poopninja31","NaPewnoNieArczi","Martin411","Ding1128","ZiggyPlayz","_Knoll_","Arcaneghost24","_ProFor_","LordOfScience","jesseseptoo","Dacro16","KarenGillan","DingCheng0611","Aerrihn","_OneEyed_","DeadlyLucifer","Delf295","Assailent","l_xiaozhe"],"WC4":["S8Bing","xXTigaaXx","Hell_5ire","LRlaokei","oMixkyD","MrPuffer_","DarkEnergy242","_Chipla","musicalluci","SolarMex","2ur_","reoru1306","seasameoil","GarettFogel","tukemenebisio","DennEEker","EdtsonUwU","Yukihira_Souma","Amishmoistyman","snermann","weirdTDM345","presz","adzburg","Gyseline","Berded","xyz2001","LaplaceDisplace","HeySeb"],"WC5":["Dracium_Z","Julppuu","75vm","DesignzZ","TigerNewc","mars522","iSoosie","Galaxyfuse54","x_Enigma_x","Astrofoid109","xTigah","MinYoongi","kid8831","LunaMoon137","GLDENCHAINS","Mns_Hello","skywalker998","xjsk","SinfulBan","Ootakemaru","_draxy_","Fin_Land","maikura_jp","a176","VCGO","SugyOnThis","Pipohylje","millertym3","BcraftLP","TAD3790","andressss23jr"],"WC6":["smile_yuy","mmfmgmghggmgmffm","AskMyself","Celestises","Severnis","Winter_Echo","TwelfthR","JenoJames","MamaMug","Gatsy","Edd25","Mikazu","WalkingATHopCard","SpKirby","KnotheFlo10","492ms","Kidroy_buckley"],"WC7":["ziuzidu","BigStupidCat","Embers_fireyt","OtisDaNerd","Cruz","ryder930320","Osmierk","Tunzisfeb","AmberHeart0","SektorOdin","n0chv","Datbi1ch","Recentname","MrKilller","ViValdi_01","LilChildren","FlyingCity263","ImSoCherry","KnuddelFuchsNyo","Hoaf","shiftkeyz","KatiTan"],"WC8":["Kamyuu","a0916204515","OKOKLH","caaaaake","Script_super","Czg","jomkung415","Ms_DrawCreeper","Mozarts","mr_bear0","Guartectiever","Ls_Raxnar","SannahBellentor","AEGIS549","Lexf1r","Bran_","SirBoccoro","Sobota654","KiritoHvH","honoka_pitaya","Matt_the_Person","Gellos01","adrianerkul93","ThoughtCanoe10","ItzMaty","EmpireofSindria","ItzRosmontis","paivaf19","Herr_Kasi","battlebeastz"],"WC9":["HotKing","Naetty","CurnsIron_","Demoniac_Shuten","_Kedama","xAyasei","Kyzuhr","GoldenStrawb","Daera_Love","Azert125","Youzoy","Technikel8","HidykTv","ZenTherBenz","Arikage","CigilOp","AWNecro","Tambourin","ztw0_0","N0vato","SoSo123","GamingDemon_","3DeepWater3","KotaroNika_Yt","smfja2hv_05","MARKABEST","InsidiousFury","triplerazee","winbran"],"YT":["kmaxi"]}'
+      string: '{"request":{"timestamp":1654609107,"version":1.2},"WC1":["Maarcus1","oldnewjay","T307","Pandamonium","VanicArts","AlpakastarSC2","DogeTennant","Jeff0910211","miniPCpro","Magicmakerman","Kthuulhuu","skywalkinerate","Sedyreph","trickr","Yazzzzz","bongin","RoSeNur","juagonphly","olinus10","Raurh","VHoltz_","IsabellaSky","AdamJCoote","Murs_Ran","Esdy","PROIZER69","MrApplesauce3","Mqjik","kandakuu","CombatXPBomb","xd_mchotdog"],"WC10":["Shadeless","TheWynnWizard","BH_AlperEren","Google_HQ","Kensi_E","Alex_235_UA","BaroTea","xVict","eauee","SpaceCubey","BobbyUwU","TonSS","TheWhale1969","Satsurai_0829","BabyOkami","MarvelousMarvy","Xamaisog","DarkestLariat","Kqiru","ElectroGaming45","parimates","wynnpixel","WildAzoki","22b_sti","EZREAL7821","Pandouge","Sherderr","Sabk","H0ERM","Hotaru_Sama","redthewitherYT","Seversum","DeAstatine","Chuckjirka"],"WC11":["Porknips","MonsieurAime","Obama_VEVO","Heiwatyan","rq1nn","kikysu","TY_Erik","Cho_colate2","EnderMiku","meowmeowburst","bloodnighttw","astronotdog","fargolden","MoutonDeCoton_","NearGolden","Taeo02","anassaid","Lonver","BeautifulDuck"],"WC12":["Dark_willie","STomin","kwauters","Dracium_Z","Karakuridoji14","Drollings","Speedliann","rIVen_Dog","oht__555","orenGr","Gilgamesh__1Na","TOB0SU","SweetComputer","Lefteris05","GodCarp","MerryTacos","Aledar_Cart"],"WC13":["TheBossPenguin2","Dheodri","StarleChang","ExcIusive","Batesha","DerDoktor44","yumeir_","pedrao","CyannAkua","TonyCreeper","Brombatz","nullun12","HarryOtterTM","Brummbatz","WolFFF888"],"WC14":["wurtel2005","Chlebekk","Xrality","xXDas_IssesXx","Ivan_Kov","Pododeng","mrdd02","a6o","Wert_pl","JayG07","Ghosted2Death","iambot999","Voodoodude18","JonathanDMLmao","BishopC4","KnuddyWasTaken","huskymudkipper56","deliciousJI","Edifie","TheNecronBoss","loeven90","liquidslowly","sobin","epickigamer","BaiMaoYeLu","Little_Fely","DarthNetherrack","TomikoKun","Tigerlol1","ColaSnowy","Kittycat21347","Brosqa","Yamavagyok","Lord_Schmiddi","Kecske11"],"WC15":["BurritoEnjoyer","Carpo123","wolf_cute","ArecceX","Tonly","DoneBlock","Xiao_Hao68","Sire_Maou","Clickmate","Beedlejuice","unuxx","Vortex119","OneClap","FearingBug61625","Splynncryth","Iwanaga_Kotoko_","CunBenMapleLEAF","Saxmartinez","evieen15","Step_To_Hell","Kashmaty","UnovaNetworks","natcrackers","lya102"],"WC16":["Reseeety","Calluum","ppfart","_thrmy","LaMDaKiS","YNIVEI","SpeeDZzinFiniTy","Julinho","Light_Works","Lightsaberrlx","Corcustos","brilliantknight","Sombian","Lhz271","Knoight"],"WC17":["kwildspirit","GayAutumn","oOLostStarOo","MrGam3z","lil_justin","asdasdawsd","blockyYoshi","GekkeGundalf","xMavis","HeadGotYeeted","LatiBurst","SzczurexPL","Bardakass","VoyM","gimmefins","Riku7797","MrRussetPotato","Balcsi919113","Pupak_","DaaDuck","Zobixx","monu19","ElLegoLord","jozsika44"],"WC18":["PotC4t","ChrisJ1234","Vaacation","justGatze","Ronpich","DeepBlue_i7","yoonchang","ItsTaDevil","Jae_Hwan_","snakeyeeees","StarBinee","GreatYuni","LovelySeo","MillionKei","chihaaya","purduu","gunnyvukhi","iamgiantbaby","buggubb","Before1999","dopeb","saschacooler13","CrazyLizard283","manatsu_"],"WC19":["shoboi_sniper","LordchenEnder","34N","DerpingDuck","Modestsky","LvckyKnqck","WayTooHigh","M4NDSr","Fr0z3nOG","Firecrafter12","Sha0wGuaY","OverYoMoma","MonsterFlo11","AWornOutShoe","pientena","NoalouisKanako","gowcaw97","FalconPhoenix","Achro_","Alice_CromWeLL","Tatsumaro0526"],"WC2":["Titan08_cz","PurpleFox030","Notespecially","yoshi7200","GhostWithAxe","Mate4","Flufe","Backtobqck_","Rizona_Lunar","TAH2694foundfan","SakuraAki101","Shadow_MOOnlight","Osis","CocoNuts24510","xAng3l","GetBackToLobby","ImRp","Danfinite","gobblesmax","Dran1x","DARK8421","A_R_102","Crystalcaves23","NesTheMess","diliny867","DDArl","Pedro9558","SummerPudding"],"WC20":["maxmix889","pxslxxc","hotdgog","Mian76","Buttercup9871","talthewarrior11","Kurusei","galshalo55","Mcoop","GLACK_in_BLACK","Elifte","PeetuPi","AvatarAa","yannoli","KaffeMonstret1","Herodirk","JasonScorpio","ZrBence","Lucky32","Gumikacsa","SzamitoGepezo","jhil"],"WC21":["cHILLit420","TerraQu","Enjoyder","NamexLV","Ugnat_","arrowsters","Spacebot037","WigglesJr","sir_meta_knight","FeatherPheasant","8xy","syonkr","Hosi","FrozenEarth","_LiangFen_","MivosVanos","maorking9090","Zhifty","TheRedMonadoXC","_HotChocolate","Viridian"],"WC22":["Jalapinata","Mistmemo","_FluffyDucky","szymeczko","hgabor07","SpaceTato","albatorlol","Ph8enix","Ar_Snak___","hppeng","frekashi_","GamerOfSound","BlueNoobStorm","dizver_girl","PippinPuppy2014","MitaiDjole","CiTrOnIxCz","VZ50","CandyB0t","Amor_VincitOmnia","dapwo","Nekoturnal","OniPepperOni","Meatyrabbit","Salmaster","SSMePlz","doanhtk123","Vestfal","Triflame","Shaolyy","Lord2014"],"WC23":["tukemenebisio","amatsuki1017","R_kolomi_S","MilkyYay","AmbassadorDaixy","Caulan","E5doremiss","WinZZed","JinxJanx","Tortagion","Ineedtomigrate","Nick_Ilithe","Fuguh","Omnivi","wasd94327","bryanloh","Nyzocker27","EmoMiki","ohaziki2","BlueTheSniper"],"WC24":["Antimon501","Aiza","RaincloudRam","Lu_Tan","remutaso","PokeMatthew","HIe2","LyesMC","Crixx007","Moonrabbit7","_eVax","Cream_Sauce","aoringojoji","Starzzle","Yukasumi","NekoMiji","Ptrd","Habidudi"],"WC25":["dowadowa","IKilledBlitz","Albb_n","lqstedskills","Takakine06","kallymoss","_Zhu_nasudayo","FailedCondom","Frawlok","Jaskaa","SkilledWarpIdol","OnlyMeee","hibob2213","redcubePlyer","Sgt_Kirky","h0ink","Paynike_TV","Midnight2828","Dibujaman","UchihaEdge","RaeyK","MrNinjaPowha"],"WC26":["ShiroKazu389","KillianSS","Clawscar","Jeta","GUS_DragonMC","Imadbro21","waman","Veilloretrix","StupefiedSteve","TimeValley","1msg","CuriousKaze","Partybombe736","hoshi_uda","Rumi08","TheNub4579","banna1","MoccaMolly","Itz_Darkness__","ewPanda","Webbiss","jmgamer2005","Daejadin","DaBerzerker","Hoven133","Bogdan172","Davidcrack043","Keyholder"],"WC27":["Sam218","KermitZeeFr0g","Seipodon","Gevonden","sergo0o","Cloucri","drachehuels","Bakura1","MicrosoftWord44","Dripstone_Mc","DarkManDisliker","Bukina","TNTbommetje","BloodSorcerer","Yiiff","Nathandtm","Lagi_YT","ghyzz","J3L1SU","Lander990","Levi367","CertifiableCooky","EchoVoyd","HTurBotH","QueenElisabet","Neji_16","Asta35300","Freezehud","MiaoVN","Joey475574","rupitu","Gendii_","MissAphelia","MagicLazyFrog","ColdWind_","blousy"],"WC28":["ElPavoGranaino","SirKiddo","OneEqualsThree","space33","noadb1310","AB_1229","Almighty_Kenn","Battle0706","TheEpicGumGum","CK73","XenoJiiva","Miqsah","Fire_Fireblade","Arqito","HallifTheLynx","viggoasna","emptychild107","kotadon","TheEndStarburst","Grodgodis","AidMan69","hulvy","Paaidi","MeBeGoose","CoolAstroVoid","tttOuO","RaidRazor"],"WC29":["roeelasos","SaschaThaFox","DaddyEdi","LuCoolUs","Taralash","UnitedForever","Mestaaja","Joyoustroll","LuckyBrub","TheHarmenator","zvyap","BigBoyGabe","winterjauch","Leavd","Ravelico","Ryakia","LonelyCreeper87","slapek","Aftershokke","kaddy306","zDextereo","MrBrot_","6066","TheDarkLord173","WR417H","TheRealFlens","DogEatingSpaghet","Ralph998","Glycan","Pearl722","Borodalei","Dudeperfect5091","Shorden"],"WC3":["Swayya","_Mr_lizard","Parallel_world","SUPER_MAT","Meinking_HD","CommandWitchery","SugVon","14MoAndCounting","MyNameIsHidden","WeaboSteam","nHexanol","GTrouble","mrcraftyketchup","Snxwii","Haruchl_","PolarBaeJr","Chqrish","ExtraLemonZest","XH","Luckywolf64","skypower13","Ezpeon","Keldorn","jittermat","Fearlesscat369"],"WC30":["Bremminglar","gamerxtrem2412","MisterBrandts","Rouquinator1","JYingJHui","Razorbackbull","az60208","180cm60kg17cm","DeadlyDream_H","joelin_TW","OptimusTango","4__Federn","Ecstasia_G","Katyte","_ENDERBRO_","Pydzy","LiNcHaSz","LemonBullcc","SheinBet","SaveMyWifi","zumiezfusion","Binzuo","Leaf_yeh","El_Van_Gogh","mattCS","CatbearPANDA96","creeperbome","Leroyng08","EnderBlueBoy","KoraniAFM","slaterme","Goose2923"],"WC31":["FireSpecht07","mobrap","piggylover6","Leafy_Crow","_ow1_","Oxamort3210","Rylb","martimcavaco","Boru_Var_MI","blobfox","Pyrophany","liam262144","oxids","Yuki_Po","TM75","Just4Fox_","fireliccio","KanozyOwO","TheLesserPenguin","Leqito","Sorcerous","Rabbit_flower","Lalatera","___Hopeless___","Garatok","Heathclyff","Broodjeboter","Sylv0504","TheTrueMVP","beer678","Marv_03"],"WC32":["LeoHooffmann","llcetea","bobobread_","detokun0508","shermylol","Dustarro","Appraisal_Expert","Libres","peelppp","ArKazix","Enderkombat","just_cedar","AnkkaPankka","Firestarlight94","Pierrep","BlueStrawberry19","gentelepam","Belgariond","SvenTerror","Taliyent","Monono_TX","ArakiLH","_StrikeTheEarth_","Vqdy","sina_gamer","Lucas_mon","Insomniac_1950","King_Duck1","aceisol","Doomboy765","Zaper8","Neil1299_TW"],"WC33":["_Drogan_","DrLanti","FriraMeow","Hhuba090915","Terarii","OceanTheGreat","Horus3","DancingMad","Sage_LanCaster","Alexxxgng","Goldmemder","Jemesy","RussetMantle","Ikasy_","Kloko","Aizah","Cristal1ne","Wilder_Watz","Atscd","boglebog","Shadow64510","Nozomie_Tsubasa","Felinkaa","MlyuL","IceWarox","CarrieChiou","MoiNonPlusIgo","EchoHD_","JeanGuyGabriel","Ragivell","Birthstones","19kss","TheFinalPage","Wynnletics","Soul_p4l"],"WC4":["Salmogus","RSpieter99","Geniuskraken","Atom9","SydeForce32767","Netorare8577","sDyno","SirpaxFire","tom_302","NamelessAnomaly","YOTZNViNE","UrAvgSpirit","Nico140ps","sp3pq","fujio_o","luckeyluuk","_JammerLappen_","gettuxxedlol","Mayka","BrokenBonez_","MounirLeBombist","ClassicalAdicter","KnotheFlo10","Gangsterizm","Qxcl_","ile90","Kornel6","SirHand","Rafasi"],"WC5":["callenmj23","AmbassadorZonar","j1nthan","oppi1000","igotlove","RPTRoxareX","EgorDerev","Adasek1","andyliuqq","Kornil","iPredator123","baldej","SaruV","GetSpookier","HakeVRG","uhVortex","guava321","SneakyEndermanX","Paakkuunn","Shirolyrics","Neji_7414","Hystericalpeanut","Avoidry","mozo___"],"WC6":["MrElijah155","1nsect_","foozbump","JohnO1919","Ghosty_lol","suiryuu01","Modeun","Darkerooz","Pryxes","deqdly","Uto0","lego_man724","Aqua_g","Eca_Shadow","Galectik","hummtiti","c31t","AdithyaGamers","Diseased_Kidneys","Sparkibbx","arcanety","Ascended_Winter","Zefs","Tuc40","BonkyBob","OoIced_LatteoO","Pigxelate","ForaMarz","Goownh"],"WC7":["5to","KK34","Zythinos","1v16","S4njc","TeaCookie","Gujibo","SilverCarrot","_See_","Bluefire_24","Kayame_Aoi","FireVoges","Nue_Noja","Purple_Panda2","TheBestBi","Vanilla070","JellyBigBrain","Breadtox","Kreuzritter","Dragunovi","MartinHUN1","SuperSaltyMuch","DernKatze","DaDashy","BecauseNo","Amarru_","segium","Asoart","Unknown_OuO","Samuelblue123"],"WC8":["WodHod","FufiQueen","dannyboai","Acvetum","Sokudoo","MrSplazer","ttvfattybtw","Tolgadoetgame","QueenBeeii","Glacade","MigatteNoGokuii","blacksmlle","melvyn1073","Takr1u","ivan06_PT","Joka_Uchia","okapopon"],"WC9":["ScpTap","XxZerobladexX","gsdog3001","OligarchToad","Kundelcio","Felipe_Android","PyroParadox","Violeta_Flv","BetaLukas","KVVS","RehubCuper","POPcon255","TOPene","snowfumasa","Macro_Lepiota","Berraie","Carnish","rusek2007","rriissstt","Fireable","Day__Night","Itchyguy89","Chocochip13579","errorpotato404","Skullman11111","Levi_07","Noobotio","zherterry"],"YT":[]}'
     headers:
-      cache-control:
-      - max-age=14
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '141'
-      ratelimit-reset:
-      - '9'
+      RateLimit-Remaining:
+      - '55'
+      RateLimit-Reset:
+      - '4'
+      cache-control:
+      - max-age=1
     status:
       code: 200
       message: OK
@@ -30,88 +30,676 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
-    uri: https://api.wynncraft.com/v2/player/Suyarumi/stats
+    uri: https://api.wynncraft.com/v2/player/Maarcus1/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/Suyarumi/stats","code":200,"timestamp":1633163875306,"version":"2.1.0","data":[{"username":"Suyarumi","uuid":"d2824222-e378-4c47-905f-e316ed40b402","rank":"Player","meta":{"firstJoin":"2018-08-23T17:00:23.220Z","lastJoin":"2021-10-02T08:37:32.371Z","location":{"online":true,"server":"WC1"},"playtime":8940,"tag":{"display":true,"value":null},"veteran":false},"classes":[{"name":"mage","level":892,"dungeons":{"completed":537,"list":[{"name":"Decrepit
-        Sewers","completed":2},{"name":"Infested Pit","completed":9},{"name":"Lost
-        Sanctuary","completed":4},{"name":"Underworld Crypt","completed":17},{"name":"Sand-Swept
-        Tomb","completed":22},{"name":"Ice Barrows","completed":10},{"name":"Undergrowth
-        Ruins","completed":9},{"name":"Galleon''s Graveyard","completed":6},{"name":"Corrupted
-        Ice Barrows","completed":65},{"name":"Corrupted Sand-Swept Tomb","completed":63},{"name":"Corrupted
-        Underworld Crypt","completed":63},{"name":"Corrupted Lost Sanctuary","completed":66},{"name":"Corrupted
-        Infested Pit","completed":65},{"name":"Corrupted Decrepit Sewers","completed":65},{"name":"Fallen
-        Factory","completed":1},{"name":"Eldritch Outlook","completed":6},{"name":"Corrupted
-        Undergrowth Ruins","completed":64}]},"raids":{"completed":118,"list":[{"name":"Nest
-        of the Grootslangs","completed":9},{"name":"Orphion''s Nexus of Light","completed":68},{"name":"The
-        Canyon Colossus","completed":41}]},"quests":{"completed":148,"list":["A Hunter''s
+      string: '{"kind":"wynncraft/player/Maarcus1/stats","code":200,"timestamp":1654608449233,"version":"2.1.0","data":[{"username":"Maarcus1","uuid":"b7454a9d-ea64-4dea-a4ef-c544d6861b7c","rank":"Player","meta":{"firstJoin":"2017-06-12T16:54:46.948Z","lastJoin":"2022-06-07T13:26:29.845Z","location":{"online":true,"server":"WC1"},"playtime":215185,"tag":{"display":true,"value":"CHAMPION"},"veteran":false},"classes":[{"name":"hunter","level":1678,"dungeons":{"completed":306,"list":[{"name":"Decrepit
+        Sewers","completed":4},{"name":"Infested Pit","completed":4},{"name":"Undergrowth
+        Ruins","completed":5},{"name":"Corrupted Decrepit Sewers","completed":14},{"name":"Corrupted
+        Infested Pit","completed":8},{"name":"Corrupted Sand-Swept Tomb","completed":214},{"name":"Sand-Swept
+        Tomb","completed":12},{"name":"Corrupted Underworld Crypt","completed":9},{"name":"Underworld
+        Crypt","completed":3},{"name":"Ice Barrows","completed":6},{"name":"Corrupted
+        Ice Barrows","completed":2},{"name":"Eldritch Outlook","completed":3},{"name":"Corrupted
+        Undergrowth Ruins","completed":13},{"name":"Fallen Factory","completed":4},{"name":"Galleon''s
+        Graveyard","completed":5}]},"raids":{"completed":209,"list":[{"name":"The
+        Canyon Colossus","completed":103},{"name":"Nest of the Grootslangs","completed":25},{"name":"Orphion''s
+        Nexus of Light","completed":81}]},"quests":{"completed":259,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","Mini-Quest - Slay Dragonlings","The Hero of Gavel","Royal Trials","Mini-Quest
+        - Slay Angels","The Fortuneteller","Mini-Quest - Slay Conures","Recipe For
+        Disaster","Mini-Quest - Slay Creatures of the Void","One Thousand Meters Under","Mini-Quest
+        - Slay Astrochelys Manis","Dwarves and Doguns Part IV","Mini-Quest - Slay
+        Ifrits","Dwarves and Doguns Part III","Mini-Quest - Slay Azers","The Feathers
+        Fly Part II","Dwarves and Doguns Part II","Mini-Quest - Slay Frosted Guards
+        & Cryostone Golems","Dwarves and Doguns Part I","Mini-Quest - Slay Magma Entities","The
+        Feathers Fly Part I","Fantastic Voyage","Mini-Quest - Slay Pernix Monkeys","The
+        Envoy Part II","Enter the Dojo","The Hidden City","Mini-Quest - Slay Ailuropodas","Mixed
+        Feelings","Beyond the Grave","Desperate Metal","Cowfusion","The Canary Calls","The
+        Lost","Mini-Quest - Slay Robots","The Canyon Guides","A Marauder''s Dues","The
+        Envoy Part I","Mini-Quest - Slay Jinkos","The Belly of the Beast","The Thanos
+        Vaults","???","General''s Orders","The Qira Hive","From the Bottom","Mini-Quest
+        - Slay Hobgoblins","Fallen Delivery","Realm of Light V - The Realm of Light","The
+        Hunger of Gerts Part 2","Mini-Quest - Slay Felrocs","Purple and Blue","The
+        Hunger of Gerts Part 1","Aldorei''s Secret Part II","The Bigger Picture","The
+        Ultimate Weapon","Flight in Distress","Mini-Quest - Slay Weirds","Reincarnation","Acquiring
+        Credentials","Murder Mystery","Troubled Tribesmen","Mini-Quest - Slay Myconids","Forbidden
+        Prison","Lexdale Witch Trials","Realm of Light IV - Finding the Light","WynnExcavation
+        Site D","Haven Antiquity","Mini-Quest - Slay Dead Villagers","Shattered Minds","Grand
+        Youth","Lazarus Pit","Temple of the Legends","Memory Paranoia","From the Mountains","Lost
+        Soles","Lost Royalty","Mini-Quest - Slay Idols","Realm of Light III - A Headless
+        History","Out of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Redbeard''s
+        Booty","Reclaiming the House","Beneath the Depths","Mini-Quest - Slay Wraiths
+        & Phantasms","The Order of the Grook","An Iron Heart Part II","The Passage","WynnExcavation
+        Site C","Zhight Island","Mini-Quest - Slay Lizardmen","The Shadow of the Beast","Realm
+        of Light I - The Worm Holes","Master Piece","Death Whistle","Corrupted Betrayal","Jungle
+        Fever","Crop Failure","The Maiden Tower","A Grave Mistake","Mini-Quest - Slay
+        Slimes","The House of Twain","Rise of the Quartron","An Iron Heart Part I","Frost
+        Bite","WynnExcavation Site B","Bob''s Lost Soul","Mini-Quest - Slay Orcs","Blazing
+        Retribution","Underice","Fate of the Fallen","Clearing the Camps","Star Thief","Heart
+        of Llevigar","Tower of Ascension","Ice Nations","Mini-Quest - Slay Creatures
+        of Nesaak Forest","Pirate''s Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation
+        Site A","Tribal Aggression","Mini-Quest - Slay Coyotes","Kingdom of Sand","Meaningful
+        Holiday","A Sandy Scandal","Green Gloop","Craftmas Chaos","Mini-Quest - Slay
+        Scarabs","The Mercenary","Misadventure on the Sea","Deja Vu","The Corrupted
+        Village","Lost Tower","Recover the Past","Mini-Quest - Slay Skeletons","The
+        Dark Descent","Dwelling Walls","Pit of the Dead","Cluck Cluck","Macabre Masquerade
+        ''''Hallowynn 2014''''","Studying the Corrupt","Grave Digger","Maltic''s Well","Mini-Quest
+        - Slay Mooshrooms","Creeper Infiltration","Arachnids'' Ascent","Stable Story","Potion
+        Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel Trouble","The
+        Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook Assistant","Poisoning
+        the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest - Gather Willow
+        Logs II","Mini-Quest - Gather Millet II","Mini-Quest - Gather Bass III","Mini-Quest
+        - Gather Bass II","Mini-Quest - Gather Bass IV","Mini-Quest - Gather Rice","Mini-Quest
+        - Gather Rice IV","Mini-Quest - Gather Rice III","Mini-Quest - Gather Rice
+        II","Mini-Quest - Gather Sorghum IV","Mini-Quest - Gather Sorghum III","Mini-Quest
+        - Gather Sorghum","Mini-Quest - Gather Sorghum II","Mini-Quest - Gather Molten
+        Eel IV","Mini-Quest - Gather Molten Eel","Mini-Quest - Gather Molten Eel II","Mini-Quest
+        - Gather Molten Eel III","Mini-Quest - Gather Acacia Logs II","Mini-Quest
+        - Gather Icefish","Mini-Quest - Gather Decay Roots II","Mini-Quest - Gather
+        Diamonds IV","Mini-Quest - Gather Avo Logs III","Mini-Quest - Gather Molten
+        Ore IV","Mini-Quest - Gather Molten Ore III","Mini-Quest - Gather Molten Ore","Mini-Quest
+        - Gather Molten Ore II","Mini-Quest - Gather Cobalt III","Mini-Quest - Gather
+        Gudgeon","Mini-Quest - Gather Copper","Mini-Quest - Gather Oak Logs","Mini-Quest
+        - Gather Wheat","Mini-Quest - Gather Birch Logs","Mini-Quest - Gather Trout","Mini-Quest
+        - Gather Granite","Mini-Quest - Gather Barley","Mini-Quest - Gather Willow
+        Logs","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather Gold","Mini-Quest
+        - Gather Oats","Mini-Quest - Gather Salmon","Mini-Quest - Gather Salmon II","Mini-Quest
+        - Gather Oats II","Mini-Quest - Gather Gold II","Mini-Quest - Gather Malt","Mini-Quest
+        - Gather Sandstone","Mini-Quest - Gather Carp","Mini-Quest - Gather Sandstone
+        II","Mini-Quest - Gather Malt II","Mini-Quest - Gather Carp II","Mini-Quest
+        - Gather Iron II","Mini-Quest - Gather Spruce Logs","Mini-Quest - Gather Spruce
+        Logs II","Mini-Quest - Gather Iron","Mini-Quest - Gather Icefish II","Mini-Quest
+        - Gather Hops","Mini-Quest - Gather Hops II","Mini-Quest - Gather Jungle Logs","Mini-Quest
+        - Gather Piranhas II","Mini-Quest - Gather Piranhas","Mini-Quest - Gather
+        Jungle Logs II","Mini-Quest - Gather Silver II","Mini-Quest - Gather Silver","Mini-Quest
+        - Gather Rye II","Mini-Quest - Gather Rye","Mini-Quest - Gather Light Logs
+        III","Mini-Quest - Gather Cobalt","Mini-Quest - Gather Cobalt II","Mini-Quest
+        - Gather Dark Logs","Mini-Quest - Gather Dark Logs II","Mini-Quest - Gather
+        Koi III","Mini-Quest - Gather Millet III","Mini-Quest - Gather Millet","Mini-Quest
+        - Gather Light Logs","Mini-Quest - Gather Light Logs II","Mini-Quest - Gather
+        Decay Roots","Mini-Quest - Gather Kanderstone III","Mini-Quest - Gather Kanderstone","Mini-Quest
+        - Gather Kanderstone II","Mini-Quest - Gather Decay Roots III","Mini-Quest
+        - Gather Gylia Fish","Mini-Quest - Gather Gylia Fish II","Mini-Quest - Gather
+        Gylia Fish III","Mini-Quest - Gather Diamonds","Mini-Quest - Gather Pine Logs","Mini-Quest
+        - Gather Bass","Mini-Quest - Gather Diamonds III","Mini-Quest - Gather Bamboo","Mini-Quest
+        - Gather Pine Logs II","Mini-Quest - Gather Diamonds II","Mini-Quest - Gather
+        Pine Logs III","Mini-Quest - Gather Avo Logs","Mini-Quest - Gather Avo Logs
+        II","Mini-Quest - Gather Avo Logs IV","Mini-Quest - Gather Dark Logs III","Mini-Quest
+        - Gather Koi II","Mini-Quest - Gather Koi"]},"itemsIdentified":0,"mobsKilled":232035,"pvp":{"kills":502,"deaths":67},"blocksWalked":199384532,"logins":14066,"deaths":856,"playtime":54931,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":100,"dexterity":0,"intelligence":46,"defence":54,"defense":54,"agility":0},"professions":{"alchemism":{"level":132,"xp":null},"armouring":{"level":132,"xp":null},"combat":{"level":106,"xp":2499.3},"cooking":{"level":132,"xp":null},"farming":{"level":132,"xp":null},"fishing":{"level":132,"xp":null},"jeweling":{"level":132,"xp":null},"mining":{"level":132,"xp":null},"scribing":{"level":132,"xp":null},"tailoring":{"level":132,"xp":null},"weaponsmithing":{"level":132,"xp":null},"woodcutting":{"level":132,"xp":null},"woodworking":{"level":132,"xp":null}},"discoveries":697,"eventsWon":0,"preEconomyUpdate":true},{"name":"skyseer","level":1322,"dungeons":{"completed":91,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":17},{"name":"Corrupted Infested Pit","completed":2},{"name":"Corrupted
+        Underworld Crypt","completed":2},{"name":"Corrupted Lost Sanctuary","completed":2},{"name":"Corrupted
+        Ice Barrows","completed":2},{"name":"Corrupted Undergrowth Ruins","completed":37},{"name":"Eldritch
+        Outlook","completed":22},{"name":"Corrupted Sand-Swept Tomb","completed":3},{"name":"Underworld
+        Crypt","completed":1},{"name":"Ice Barrows","completed":1},{"name":"Undergrowth
+        Ruins","completed":1},{"name":"Decrepit Sewers","completed":1}]},"raids":{"completed":34,"list":[{"name":"The
+        Canyon Colossus","completed":15},{"name":"Nest of the Grootslangs","completed":3},{"name":"Orphion''s
+        Nexus of Light","completed":16}]},"quests":{"completed":138,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Royal Trials","The Fortuneteller","Mini-Quest
+        - Slay Conures","Recipe For Disaster","One Thousand Meters Under","Dwarves
+        and Doguns Part IV","Dwarves and Doguns Part III","The Feathers Fly Part II","Dwarves
+        and Doguns Part II","Dwarves and Doguns Part I","The Feathers Fly Part I","Fantastic
+        Voyage","The Envoy Part II","Enter the Dojo","The Hidden City","Mixed Feelings","Beyond
+        the Grave","Desperate Metal","Cowfusion","The Lost","The Canary Calls","The
+        Canyon Guides","The Envoy Part I","A Marauder''s Dues","The Belly of the Beast","The
+        Thanos Vaults","???","The Qira Hive","From the Bottom","General''s Orders","Realm
+        of Light V - The Realm of Light","Fallen Delivery","The Hunger of Gerts Part
+        2","Purple and Blue","The Hunger of Gerts Part 1","Aldorei''s Secret Part
+        II","The Bigger Picture","The Ultimate Weapon","Flight in Distress","Aldorei''s
+        Secret Part I","Acquiring Credentials","Reincarnation","Murder Mystery","Troubled
+        Tribesmen","Forbidden Prison","Lexdale Witch Trials","Realm of Light IV -
+        Finding the Light","Shattered Minds","Haven Antiquity","WynnExcavation Site
+        D","Lazarus Pit","Grand Youth","Temple of the Legends","Memory Paranoia","From
+        the Mountains","Lost Soles","Lost Royalty","Realm of Light III - A Headless
+        History","Out of my Mind","Realm of Light II - Taproot","Lost in the Jungle","Reclaiming
+        the House","Redbeard''s Booty","Beneath the Depths","The Order of the Grook","An
+        Iron Heart Part II","The Passage","WynnExcavation Site C","Zhight Island","Realm
+        of Light I - The Worm Holes","The Shadow of the Beast","Master Piece","Death
+        Whistle","Crop Failure","Corrupted Betrayal","Jungle Fever","The Maiden Tower","A
+        Grave Mistake","Rise of the Quartron","An Iron Heart Part I","The House of
+        Twain","Frost Bite","WynnExcavation Site B","Bob''s Lost Soul","Blazing Retribution","Underice","Fate
+        of the Fallen","Star Thief","Clearing the Camps","Heart of Llevigar","Tower
+        of Ascension","Ice Nations","Pirate''s Trove","Canyon Condor","Wrath of the
+        Mummy","Tribal Aggression","WynnExcavation Site A","Meaningful Holiday","Kingdom
+        of Sand","A Sandy Scandal","Green Gloop","The Mercenary","Craftmas Chaos","Misadventure
+        on the Sea","Deja Vu","Lost Tower","The Corrupted Village","Recover the Past","Dwelling
+        Walls","The Dark Descent","Pit of the Dead","Cluck Cluck","Macabre Masquerade
+        ''''Hallowynn 2014''''","Studying the Corrupt","Grave Digger","Maltic''s Well","Creeper
+        Infiltration","Arachnids'' Ascent","Stable Story","Potion Making","Elemental
+        Exercise","Mushroom Man","Underwater","Tunnel Trouble","The Sewers of Ragni","Infested
+        Plants","Cook Assistant","Poisoning the Pest","King''s Recruit","Enzan''s
+        Brother","Mini-Quest - Gather Rice III","Mini-Quest - Gather Kanderstone III"]},"itemsIdentified":0,"mobsKilled":10562624,"pvp":{"kills":0,"deaths":0},"blocksWalked":1432334787,"logins":6980,"deaths":562,"playtime":10315,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":88,"dexterity":17,"intelligence":0,"defence":57,"defense":57,"agility":38},"professions":{"alchemism":{"level":103,"xp":21.7},"armouring":{"level":101,"xp":70.5},"combat":{"level":106,"xp":45629.1},"cooking":{"level":112,"xp":19.4},"farming":{"level":100,"xp":0.5},"fishing":{"level":110,"xp":0.2},"jeweling":{"level":101,"xp":0.1},"mining":{"level":100,"xp":11.4},"scribing":{"level":100,"xp":1.3},"tailoring":{"level":101,"xp":69.7},"weaponsmithing":{"level":100,"xp":2.7},"woodcutting":{"level":100,"xp":0.8},"woodworking":{"level":100,"xp":60.7}},"discoveries":667,"eventsWon":0,"preEconomyUpdate":false},{"name":"darkwizard3","level":1104,"dungeons":{"completed":168,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":2},{"name":"Corrupted Underworld Crypt","completed":2},{"name":"Corrupted
+        Sand-Swept Tomb","completed":89},{"name":"Corrupted Ice Barrows","completed":8},{"name":"Corrupted
+        Undergrowth Ruins","completed":57},{"name":"Eldritch Outlook","completed":4},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Lost
+        Sanctuary","completed":1},{"name":"Underworld Crypt","completed":1},{"name":"Undergrowth
+        Ruins","completed":1},{"name":"Ice Barrows","completed":1}]},"raids":{"completed":26,"list":[{"name":"Nest
+        of the Grootslangs","completed":1},{"name":"The Canyon Colossus","completed":20},{"name":"Orphion''s
+        Nexus of Light","completed":5}]},"quests":{"completed":137,"list":["A Hunter''s
         Calling","Point of No Return","A Journey Further","A Journey Beyond","The
         Olmic Rune","The Hero of Gavel","Royal Trials","The Fortuneteller","Recipe
         For Disaster","One Thousand Meters Under","Dwarves and Doguns Part IV","Dwarves
         and Doguns Part III","The Feathers Fly Part II","Dwarves and Doguns Part II","Dwarves
         and Doguns Part I","The Feathers Fly Part I","Fantastic Voyage","The Envoy
-        Part II","Enter the Dojo","The Hidden City","Beyond the Grave","Mixed Feelings","Desperate
-        Metal","Cowfusion","The Lost","The Canary Calls","Mini-Quest - Slay Robots","The
-        Canyon Guides","A Marauder''s Dues","The Envoy Part I","The Belly of the Beast","The
-        Thanos Vaults","General''s Orders","From the Bottom","The Qira Hive","Realm
-        of Light V - The Realm of Light","Fallen Delivery","The Hunger of Gerts Part
-        2","Purple and Blue","The Hunger of Gerts Part 1","Aldorei''s Secret Part
-        II","The Bigger Picture","Flight in Distress","The Ultimate Weapon","Acquiring
-        Credentials","Aldorei''s Secret Part I","Reincarnation","Murder Mystery","Troubled
-        Tribesmen","Lexdale Witch Trials","Forbidden Prison","Realm of Light IV -
-        Finding the Light","WynnExcavation Site D","Haven Antiquity","Shattered Minds","Mini-Quest
-        - Slay Dead Villagers","Lazarus Pit","Grand Youth","Temple of the Legends","Memory
+        Part II","Enter the Dojo","The Hidden City","Mixed Feelings","Beyond the Grave","Cowfusion","Desperate
+        Metal","The Canary Calls","The Lost","The Canyon Guides","A Marauder''s Dues","The
+        Envoy Part I","The Belly of the Beast","The Thanos Vaults","???","From the
+        Bottom","General''s Orders","The Qira Hive","Fallen Delivery","Realm of Light
+        V - The Realm of Light","The Hunger of Gerts Part 2","Purple and Blue","The
+        Hunger of Gerts Part 1","Aldorei''s Secret Part II","The Bigger Picture","The
+        Ultimate Weapon","Flight in Distress","Reincarnation","Acquiring Credentials","Murder
+        Mystery","Troubled Tribesmen","Forbidden Prison","Lexdale Witch Trials","Realm
+        of Light IV - Finding the Light","Haven Antiquity","WynnExcavation Site D","Shattered
+        Minds","Grand Youth","Lazarus Pit","Temple of the Legends","Memory Paranoia","From
+        the Mountains","Lost Soles","Lost Royalty","Realm of Light III - A Headless
+        History","Out of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Redbeard''s
+        Booty","Reclaiming the House","Beneath the Depths","The Order of the Grook","An
+        Iron Heart Part II","The Passage","WynnExcavation Site C","Zhight Island","The
+        Shadow of the Beast","Realm of Light I - The Worm Holes","Death Whistle","Master
+        Piece","Jungle Fever","Crop Failure","Corrupted Betrayal","The Maiden Tower","A
+        Grave Mistake","The House of Twain","Rise of the Quartron","An Iron Heart
+        Part I","Frost Bite","WynnExcavation Site B","Bob''s Lost Soul","Blazing Retribution","Underice","Fate
+        of the Fallen","Star Thief","Clearing the Camps","Heart of Llevigar","Ice
+        Nations","Tower of Ascension","Pirate''s Trove","Canyon Condor","Wrath of
+        the Mummy","WynnExcavation Site A","Tribal Aggression","Meaningful Holiday","Kingdom
+        of Sand","A Sandy Scandal","Green Gloop","Craftmas Chaos","The Mercenary","Misadventure
+        on the Sea","Deja Vu","Lost Tower","The Corrupted Village","Recover the Past","The
+        Dark Descent","Dwelling Walls","Cluck Cluck","Pit of the Dead","Studying the
+        Corrupt","Macabre Masquerade ''''Hallowynn 2014''''","Grave Digger","Maltic''s
+        Well","Creeper Infiltration","Arachnids'' Ascent","Stable Story","Potion Making","Elemental
+        Exercise","Mushroom Man","Underwater","Tunnel Trouble","The Sewers of Ragni","Infested
+        Plants","Cook Assistant","Poisoning the Pest","King''s Recruit","Enzan''s
+        Brother","Mini-Quest - Gather Gylia Fish III","Mini-Quest - Gather Bass II","Mini-Quest
+        - Gather Bass III"]},"itemsIdentified":0,"mobsKilled":30736,"pvp":{"kills":0,"deaths":0},"blocksWalked":248969409,"logins":1986,"deaths":93,"playtime":2090,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":45,"intelligence":95,"defence":37,"defense":37,"agility":0},"professions":{"alchemism":{"level":80,"xp":4.6},"armouring":{"level":77,"xp":86.1},"combat":{"level":106,"xp":1100.6},"cooking":{"level":76,"xp":64.6},"farming":{"level":98,"xp":0.2},"fishing":{"level":103,"xp":62.6},"jeweling":{"level":80,"xp":3.8},"mining":{"level":98,"xp":0},"scribing":{"level":80,"xp":6.5},"tailoring":{"level":70,"xp":12.5},"weaponsmithing":{"level":70,"xp":1.1},"woodcutting":{"level":98,"xp":0.9},"woodworking":{"level":80,"xp":18.5}},"discoveries":688,"eventsWon":0,"preEconomyUpdate":true},{"name":"knight1","level":972,"dungeons":{"completed":154,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":3},{"name":"Corrupted Sand-Swept Tomb","completed":108},{"name":"Corrupted
+        Undergrowth Ruins","completed":29},{"name":"Eldritch Outlook","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Lost
+        Sanctuary","completed":1},{"name":"Underworld Crypt","completed":1},{"name":"Ice
+        Barrows","completed":1},{"name":"Sand-Swept Tomb","completed":1},{"name":"Undergrowth
+        Ruins","completed":4},{"name":"Galleon''s Graveyard","completed":3}]},"raids":{"completed":24,"list":[{"name":"Nest
+        of the Grootslangs","completed":1},{"name":"The Canyon Colossus","completed":9},{"name":"Orphion''s
+        Nexus of Light","completed":14}]},"quests":{"completed":137,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Royal Trials","The Fortuneteller","Recipe
+        For Disaster","One Thousand Meters Under","Dwarves and Doguns Part IV","Dwarves
+        and Doguns Part III","The Feathers Fly Part II","Dwarves and Doguns Part II","Dwarves
+        and Doguns Part I","The Feathers Fly Part I","Fantastic Voyage","The Envoy
+        Part II","Enter the Dojo","The Hidden City","Beyond the Grave","Mixed Feelings","Cowfusion","Desperate
+        Metal","The Lost","The Canary Calls","The Canyon Guides","A Marauder''s Dues","The
+        Envoy Part I","The Belly of the Beast","The Thanos Vaults","???","The Qira
+        Hive","General''s Orders","From the Bottom","Realm of Light V - The Realm
+        of Light","Fallen Delivery","The Hunger of Gerts Part 2","Purple and Blue","The
+        Hunger of Gerts Part 1","The Bigger Picture","Aldorei''s Secret Part II","The
+        Ultimate Weapon","Flight in Distress","Aldorei''s Secret Part I","Acquiring
+        Credentials","Reincarnation","Murder Mystery","Troubled Tribesmen","Forbidden
+        Prison","Lexdale Witch Trials","Realm of Light IV - Finding the Light","Shattered
+        Minds","Haven Antiquity","WynnExcavation Site D","Lazarus Pit","Grand Youth","Temple
+        of the Legends","Memory Paranoia","From the Mountains","Lost Soles","Lost
+        Royalty","Realm of Light III - A Headless History","Out of my Mind","Lost
+        in the Jungle","Realm of Light II - Taproot","Reclaiming the House","Redbeard''s
+        Booty","Beneath the Depths","The Order of the Grook","An Iron Heart Part II","The
+        Passage","Zhight Island","WynnExcavation Site C","Realm of Light I - The Worm
+        Holes","The Shadow of the Beast","Master Piece","Death Whistle","Jungle Fever","Crop
+        Failure","Corrupted Betrayal","The Maiden Tower","A Grave Mistake","The House
+        of Twain","An Iron Heart Part I","Rise of the Quartron","Frost Bite","WynnExcavation
+        Site B","Bob''s Lost Soul","Blazing Retribution","Underice","Fate of the Fallen","Clearing
+        the Camps","Star Thief","Heart of Llevigar","Tower of Ascension","Ice Nations","Pirate''s
+        Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation Site A","Tribal
+        Aggression","Meaningful Holiday","Kingdom of Sand","A Sandy Scandal","Green
+        Gloop","The Mercenary","Craftmas Chaos","Misadventure on the Sea","Deja Vu","Lost
+        Tower","The Corrupted Village","Recover the Past","Dwelling Walls","The Dark
+        Descent","Cluck Cluck","Pit of the Dead","Studying the Corrupt","Macabre Masquerade
+        ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Creeper Infiltration","Arachnids''
+        Ascent","Stable Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Cook Assistant","Poisoning
+        the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest - Gather Decay
+        Roots III","Mini-Quest - Gather Bass II"]},"itemsIdentified":0,"mobsKilled":17213,"pvp":{"kills":0,"deaths":0},"blocksWalked":141096672,"logins":1550,"deaths":93,"playtime":1476,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":97,"intelligence":23,"defence":0,"defense":0,"agility":80},"professions":{"alchemism":{"level":60,"xp":44},"armouring":{"level":71,"xp":11},"combat":{"level":106,"xp":123.7},"cooking":{"level":62,"xp":65.6},"farming":{"level":98,"xp":1.2},"fishing":{"level":98,"xp":1},"jeweling":{"level":60,"xp":31.8},"mining":{"level":90,"xp":1},"scribing":{"level":60,"xp":15.9},"tailoring":{"level":61,"xp":1.3},"weaponsmithing":{"level":60,"xp":26.4},"woodcutting":{"level":98,"xp":0.1},"woodworking":{"level":60,"xp":32.8}},"discoveries":667,"eventsWon":0,"preEconomyUpdate":true},{"name":"darkwizard5","level":971,"dungeons":{"completed":182,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":3},{"name":"Corrupted Sand-Swept Tomb","completed":91},{"name":"Corrupted
+        Ice Barrows","completed":8},{"name":"Corrupted Undergrowth Ruins","completed":62},{"name":"Eldritch
+        Outlook","completed":5},{"name":"Corrupted Underworld Crypt","completed":2},{"name":"Corrupted
+        Lost Sanctuary","completed":5},{"name":"Fallen Factory","completed":2},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Lost
+        Sanctuary","completed":1},{"name":"Underworld Crypt","completed":1}]},"raids":{"completed":28,"list":[{"name":"Nest
+        of the Grootslangs","completed":1},{"name":"The Canyon Colossus","completed":10},{"name":"Orphion''s
+        Nexus of Light","completed":17}]},"quests":{"completed":137,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Royal Trials","The Fortuneteller","Recipe
+        For Disaster","One Thousand Meters Under","Dwarves and Doguns Part IV","Dwarves
+        and Doguns Part III","The Feathers Fly Part II","Mini-Quest - Slay Frosted
+        Guards & Cryostone Golems","Dwarves and Doguns Part II","Dwarves and Doguns
+        Part I","The Feathers Fly Part I","Fantastic Voyage","Enter the Dojo","The
+        Envoy Part II","The Hidden City","Beyond the Grave","Mixed Feelings","Cowfusion","Desperate
+        Metal","The Lost","The Canary Calls","The Canyon Guides","A Marauder''s Dues","The
+        Envoy Part I","The Belly of the Beast","The Thanos Vaults","???","The Qira
+        Hive","General''s Orders","From the Bottom","Fallen Delivery","Realm of Light
+        V - The Realm of Light","The Hunger of Gerts Part 2","Purple and Blue","The
+        Hunger of Gerts Part 1","The Bigger Picture","Aldorei''s Secret Part II","Flight
+        in Distress","The Ultimate Weapon","Aldorei''s Secret Part I","Reincarnation","Acquiring
+        Credentials","Troubled Tribesmen","Murder Mystery","Forbidden Prison","Lexdale
+        Witch Trials","Realm of Light IV - Finding the Light","Haven Antiquity","WynnExcavation
+        Site D","Shattered Minds","Grand Youth","Lazarus Pit","Temple of the Legends","Memory
         Paranoia","From the Mountains","Lost Soles","Lost Royalty","Realm of Light
-        III - A Headless History","Out of my Mind","Lost in the Jungle","Realm of
-        Light II - Taproot","Redbeard''s Booty","Reclaiming the House","Beneath the
-        Depths","The Order of the Grook","An Iron Heart Part II","The Passage","Zhight
-        Island","WynnExcavation Site C","Realm of Light I - The Worm Holes","The Shadow
-        of the Beast","Master Piece","Death Whistle","Crop Failure","Corrupted Betrayal","Jungle
-        Fever","The Maiden Tower","A Grave Mistake","Rise of the Quartron","An Iron
-        Heart Part I","The House of Twain","Frost Bite","WynnExcavation Site B","Bob''s
-        Lost Soul","Blazing Retribution","Underice","Fate of the Fallen","Clearing
+        III - A Headless History","Out of my Mind","Realm of Light II - Taproot","Lost
+        in the Jungle","Reclaiming the House","Redbeard''s Booty","Beneath the Depths","The
+        Order of the Grook","An Iron Heart Part II","The Passage","Zhight Island","WynnExcavation
+        Site C","Realm of Light I - The Worm Holes","The Shadow of the Beast","Master
+        Piece","Death Whistle","Crop Failure","Corrupted Betrayal","Jungle Fever","The
+        Maiden Tower","A Grave Mistake","The House of Twain","An Iron Heart Part I","Rise
+        of the Quartron","Frost Bite","WynnExcavation Site B","Bob''s Lost Soul","Blazing
+        Retribution","Underice","Fate of the Fallen","Clearing the Camps","Star Thief","Heart
+        of Llevigar","Tower of Ascension","Ice Nations","Pirate''s Trove","Canyon
+        Condor","Wrath of the Mummy","WynnExcavation Site A","Tribal Aggression","Meaningful
+        Holiday","Kingdom of Sand","A Sandy Scandal","Green Gloop","The Mercenary","Craftmas
+        Chaos","Misadventure on the Sea","Deja Vu","Lost Tower","The Corrupted Village","Recover
+        the Past","The Dark Descent","Dwelling Walls","Pit of the Dead","Cluck Cluck","Studying
+        the Corrupt","Macabre Masquerade ''''Hallowynn 2014''''","Grave Digger","Maltic''s
+        Well","Creeper Infiltration","Arachnids'' Ascent","Stable Story","Potion Making","Elemental
+        Exercise","Mushroom Man","Underwater","Tunnel Trouble","The Sewers of Ragni","Infested
+        Plants","Cook Assistant","Poisoning the Pest","King''s Recruit","Enzan''s
+        Brother","Mini-Quest - Gather Koi"]},"itemsIdentified":0,"mobsKilled":32407,"pvp":{"kills":0,"deaths":0},"blocksWalked":-1772914266,"logins":3758,"deaths":65,"playtime":10125,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":100,"intelligence":32,"defence":0,"defense":0,"agility":68},"professions":{"alchemism":{"level":60,"xp":39.3},"armouring":{"level":70,"xp":3.3},"combat":{"level":106,"xp":1082.5},"cooking":{"level":60,"xp":44.7},"farming":{"level":98,"xp":16.8},"fishing":{"level":98,"xp":0.8},"jeweling":{"level":60,"xp":25.9},"mining":{"level":93,"xp":69.6},"scribing":{"level":60,"xp":29.2},"tailoring":{"level":60,"xp":27.1},"weaponsmithing":{"level":60,"xp":0.2},"woodcutting":{"level":98,"xp":0.1},"woodworking":{"level":60,"xp":59.3}},"discoveries":648,"eventsWon":0,"preEconomyUpdate":true},{"name":"mage","level":968,"dungeons":{"completed":522,"list":[{"name":"Decrepit
+        Sewers","completed":7},{"name":"Sand-Swept Tomb","completed":1},{"name":"Infested
+        Pit","completed":2},{"name":"Lost Sanctuary","completed":1},{"name":"Underworld
+        Crypt","completed":1},{"name":"Undergrowth Ruins","completed":2},{"name":"Corrupted
+        Sand-Swept Tomb","completed":377},{"name":"Corrupted Infested Pit","completed":15},{"name":"Corrupted
+        Lost Sanctuary","completed":21},{"name":"Corrupted Decrepit Sewers","completed":19},{"name":"Fallen
+        Factory","completed":5},{"name":"Corrupted Ice Barrows","completed":6},{"name":"Corrupted
+        Undergrowth Ruins","completed":64},{"name":"Eldritch Outlook","completed":1}]},"raids":{"completed":15,"list":[{"name":"The
+        Canyon Colossus","completed":8},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":6}]},"quests":{"completed":136,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Royal Trials","The Fortuneteller","Recipe
+        For Disaster","One Thousand Meters Under","Dwarves and Doguns Part IV","Dwarves
+        and Doguns Part III","The Feathers Fly Part II","Mini-Quest - Slay Frosted
+        Guards & Cryostone Golems","Dwarves and Doguns Part II","Dwarves and Doguns
+        Part I","The Feathers Fly Part I","Fantastic Voyage","The Envoy Part II","Enter
+        the Dojo","The Hidden City","Mixed Feelings","Beyond the Grave","Cowfusion","Desperate
+        Metal","The Lost","The Canary Calls","The Canyon Guides","A Marauder''s Dues","The
+        Envoy Part I","The Belly of the Beast","The Thanos Vaults","The Qira Hive","???","General''s
+        Orders","From the Bottom","Fallen Delivery","Realm of Light V - The Realm
+        of Light","The Hunger of Gerts Part 2","Purple and Blue","The Hunger of Gerts
+        Part 1","Aldorei''s Secret Part II","The Bigger Picture","The Ultimate Weapon","Flight
+        in Distress","Aldorei''s Secret Part I","Reincarnation","Acquiring Credentials","Murder
+        Mystery","Troubled Tribesmen","Forbidden Prison","Lexdale Witch Trials","Realm
+        of Light IV - Finding the Light","WynnExcavation Site D","Haven Antiquity","Shattered
+        Minds","Grand Youth","Lazarus Pit","Temple of the Legends","Memory Paranoia","From
+        the Mountains","Lost Soles","Lost Royalty","Realm of Light III - A Headless
+        History","Out of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Redbeard''s
+        Booty","Reclaiming the House","Beneath the Depths","The Order of the Grook","An
+        Iron Heart Part II","The Passage","WynnExcavation Site C","Zhight Island","The
+        Shadow of the Beast","Realm of Light I - The Worm Holes","Master Piece","Death
+        Whistle","Corrupted Betrayal","Jungle Fever","Crop Failure","The Maiden Tower","A
+        Grave Mistake","The House of Twain","Rise of the Quartron","An Iron Heart
+        Part I","Frost Bite","WynnExcavation Site B","Bob''s Lost Soul","Blazing Retribution","Underice","Fate
+        of the Fallen","Clearing the Camps","Star Thief","Heart of Llevigar","Tower
+        of Ascension","Ice Nations","Pirate''s Trove","Canyon Condor","Wrath of the
+        Mummy","WynnExcavation Site A","Tribal Aggression","Meaningful Holiday","Kingdom
+        of Sand","A Sandy Scandal","Green Gloop","Craftmas Chaos","The Mercenary","Misadventure
+        on the Sea","Deja Vu","The Corrupted Village","Lost Tower","Recover the Past","Dwelling
+        Walls","The Dark Descent","Cluck Cluck","Pit of the Dead","Macabre Masquerade
+        ''''Hallowynn 2014''''","Studying the Corrupt","Grave Digger","Maltic''s Well","Creeper
+        Infiltration","Arachnids'' Ascent","Stable Story","Potion Making","Elemental
+        Exercise","Mushroom Man","Underwater","Tunnel Trouble","The Sewers of Ragni","Infested
+        Plants","Cook Assistant","Poisoning the Pest","King''s Recruit","Enzan''s
+        Brother"]},"itemsIdentified":0,"mobsKilled":156318,"pvp":{"kills":822,"deaths":90},"blocksWalked":16861792,"logins":4536,"deaths":352,"playtime":6419,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":99,"intelligence":34,"defence":0,"defense":0,"agility":67},"professions":{"alchemism":{"level":60,"xp":38.4},"armouring":{"level":70,"xp":29.1},"combat":{"level":106,"xp":348.7},"cooking":{"level":60,"xp":30},"farming":{"level":98,"xp":0.5},"fishing":{"level":98,"xp":0},"jeweling":{"level":60,"xp":79.9},"mining":{"level":90,"xp":1.3},"scribing":{"level":60,"xp":6.5},"tailoring":{"level":60,"xp":36.3},"weaponsmithing":{"level":60,"xp":18.8},"woodcutting":{"level":98,"xp":0.4},"woodworking":{"level":60,"xp":11.4}},"discoveries":685,"eventsWon":0,"preEconomyUpdate":true},{"name":"assassin","level":968,"dungeons":{"completed":341,"list":[{"name":"Decrepit
+        Sewers","completed":9},{"name":"Infested Pit","completed":6},{"name":"Underworld
+        Crypt","completed":3},{"name":"Sand-Swept Tomb","completed":10},{"name":"Undergrowth
+        Ruins","completed":8},{"name":"Corrupted Decrepit Sewers","completed":15},{"name":"Ice
+        Barrows","completed":1},{"name":"Corrupted Sand-Swept Tomb","completed":225},{"name":"Corrupted
+        Infested Pit","completed":5},{"name":"Corrupted Undergrowth Ruins","completed":49},{"name":"Eldritch
+        Outlook","completed":2},{"name":"Corrupted Underworld Crypt","completed":6},{"name":"Corrupted
+        Lost Sanctuary","completed":1},{"name":"Corrupted Ice Barrows","completed":1}]},"raids":{"completed":29,"list":[{"name":"The
+        Canyon Colossus","completed":18},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":10}]},"quests":{"completed":136,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Royal Trials","The Fortuneteller","Recipe
+        For Disaster","One Thousand Meters Under","Dwarves and Doguns Part IV","Dwarves
+        and Doguns Part III","The Feathers Fly Part II","Mini-Quest - Slay Frosted
+        Guards & Cryostone Golems","Dwarves and Doguns Part II","Dwarves and Doguns
+        Part I","The Feathers Fly Part I","Fantastic Voyage","The Envoy Part II","Enter
+        the Dojo","The Hidden City","Mixed Feelings","Beyond the Grave","Desperate
+        Metal","Cowfusion","The Canary Calls","The Lost","The Canyon Guides","A Marauder''s
+        Dues","The Envoy Part I","The Belly of the Beast","The Thanos Vaults","???","From
+        the Bottom","General''s Orders","The Qira Hive","Fallen Delivery","Realm of
+        Light V - The Realm of Light","The Hunger of Gerts Part 2","The Hunger of
+        Gerts Part 1","Purple and Blue","Aldorei''s Secret Part II","The Bigger Picture","The
+        Ultimate Weapon","Flight in Distress","Aldorei''s Secret Part I","Reincarnation","Acquiring
+        Credentials","Murder Mystery","Troubled Tribesmen","Forbidden Prison","Lexdale
+        Witch Trials","Realm of Light IV - Finding the Light","WynnExcavation Site
+        D","Haven Antiquity","Shattered Minds","Grand Youth","Lazarus Pit","Temple
+        of the Legends","Memory Paranoia","From the Mountains","Lost Soles","Lost
+        Royalty","Realm of Light III - A Headless History","Out of my Mind","Lost
+        in the Jungle","Realm of Light II - Taproot","Redbeard''s Booty","Reclaiming
+        the House","Beneath the Depths","The Order of the Grook","An Iron Heart Part
+        II","The Passage","Zhight Island","WynnExcavation Site C","The Shadow of the
+        Beast","Realm of Light I - The Worm Holes","Death Whistle","Master Piece","Crop
+        Failure","Jungle Fever","Corrupted Betrayal","The Maiden Tower","A Grave Mistake","The
+        House of Twain","Rise of the Quartron","An Iron Heart Part I","Frost Bite","WynnExcavation
+        Site B","Bob''s Lost Soul","Blazing Retribution","Underice","Fate of the Fallen","Clearing
+        the Camps","Star Thief","Heart of Llevigar","Ice Nations","Tower of Ascension","Pirate''s
+        Trove","Canyon Condor","Wrath of the Mummy","Tribal Aggression","WynnExcavation
+        Site A","Meaningful Holiday","Kingdom of Sand","A Sandy Scandal","Green Gloop","Craftmas
+        Chaos","The Mercenary","Misadventure on the Sea","Deja Vu","Lost Tower","The
+        Corrupted Village","Recover the Past","Dwelling Walls","The Dark Descent","Pit
+        of the Dead","Cluck Cluck","Macabre Masquerade ''''Hallowynn 2014''''","Studying
+        the Corrupt","Grave Digger","Maltic''s Well","Creeper Infiltration","Arachnids''
+        Ascent","Stable Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Cook Assistant","Poisoning
+        the Pest","King''s Recruit","Enzan''s Brother"]},"itemsIdentified":0,"mobsKilled":48959,"pvp":{"kills":89,"deaths":54},"blocksWalked":196710165,"logins":3760,"deaths":269,"playtime":6446,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":94,"intelligence":37,"defence":0,"defense":0,"agility":69},"professions":{"alchemism":{"level":60,"xp":29.9},"armouring":{"level":70,"xp":10.1},"combat":{"level":106,"xp":1068.7},"cooking":{"level":60,"xp":31.7},"farming":{"level":98,"xp":1.2},"fishing":{"level":98,"xp":0.5},"jeweling":{"level":60,"xp":21.5},"mining":{"level":90,"xp":0.4},"scribing":{"level":60,"xp":16},"tailoring":{"level":60,"xp":18.8},"weaponsmithing":{"level":60,"xp":41.9},"woodcutting":{"level":98,"xp":0.4},"woodworking":{"level":60,"xp":6.9}},"discoveries":687,"eventsWon":0,"preEconomyUpdate":true},{"name":"warrior","level":968,"dungeons":{"completed":300,"list":[{"name":"Sand-Swept
+        Tomb","completed":4},{"name":"Corrupted Decrepit Sewers","completed":27},{"name":"Corrupted
+        Infested Pit","completed":10},{"name":"Corrupted Sand-Swept Tomb","completed":204},{"name":"Corrupted
+        Underworld Crypt","completed":8},{"name":"Corrupted Lost Sanctuary","completed":8},{"name":"Ice
+        Barrows","completed":3},{"name":"Undergrowth Ruins","completed":3},{"name":"Infested
+        Pit","completed":3},{"name":"Underworld Crypt","completed":3},{"name":"Eldritch
+        Outlook","completed":1},{"name":"Corrupted Undergrowth Ruins","completed":26}]},"raids":{"completed":44,"list":[{"name":"The
+        Canyon Colossus","completed":24},{"name":"Orphion''s Nexus of Light","completed":8},{"name":"Nest
+        of the Grootslangs","completed":12}]},"quests":{"completed":135,"list":["A
+        Hunter''s Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Royal Trials","The Fortuneteller","Recipe
+        For Disaster","One Thousand Meters Under","Dwarves and Doguns Part IV","Dwarves
+        and Doguns Part III","The Feathers Fly Part II","Dwarves and Doguns Part II","Dwarves
+        and Doguns Part I","The Feathers Fly Part I","Fantastic Voyage","The Envoy
+        Part II","Enter the Dojo","The Hidden City","Mixed Feelings","Beyond the Grave","Cowfusion","Desperate
+        Metal","The Canary Calls","The Lost","The Canyon Guides","A Marauder''s Dues","The
+        Envoy Part I","The Belly of the Beast","The Thanos Vaults","???","The Qira
+        Hive","From the Bottom","General''s Orders","Fallen Delivery","Realm of Light
+        V - The Realm of Light","The Hunger of Gerts Part 2","Purple and Blue","The
+        Hunger of Gerts Part 1","Aldorei''s Secret Part II","The Bigger Picture","The
+        Ultimate Weapon","Flight in Distress","Aldorei''s Secret Part I","Reincarnation","Acquiring
+        Credentials","Murder Mystery","Troubled Tribesmen","Forbidden Prison","Lexdale
+        Witch Trials","Realm of Light IV - Finding the Light","WynnExcavation Site
+        D","Haven Antiquity","Shattered Minds","Grand Youth","Lazarus Pit","Temple
+        of the Legends","Memory Paranoia","From the Mountains","Lost Soles","Lost
+        Royalty","Realm of Light III - A Headless History","Out of my Mind","Lost
+        in the Jungle","Realm of Light II - Taproot","Redbeard''s Booty","Reclaiming
+        the House","Beneath the Depths","The Order of the Grook","An Iron Heart Part
+        II","The Passage","WynnExcavation Site C","Zhight Island","The Shadow of the
+        Beast","Realm of Light I - The Worm Holes","Master Piece","Death Whistle","Corrupted
+        Betrayal","Jungle Fever","Crop Failure","The Maiden Tower","A Grave Mistake","The
+        House of Twain","Rise of the Quartron","An Iron Heart Part I","Frost Bite","WynnExcavation
+        Site B","Bob''s Lost Soul","Blazing Retribution","Underice","Fate of the Fallen","Clearing
+        the Camps","Star Thief","Heart of Llevigar","Tower of Ascension","Ice Nations","Pirate''s
+        Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation Site A","Tribal
+        Aggression","Kingdom of Sand","Meaningful Holiday","A Sandy Scandal","Green
+        Gloop","Craftmas Chaos","The Mercenary","Misadventure on the Sea","Deja Vu","The
+        Corrupted Village","Lost Tower","Recover the Past","The Dark Descent","Dwelling
+        Walls","Cluck Cluck","Pit of the Dead","Macabre Masquerade ''''Hallowynn 2014''''","Studying
+        the Corrupt","Grave Digger","Maltic''s Well","Creeper Infiltration","Arachnids''
+        Ascent","Stable Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Cook Assistant","Poisoning
+        the Pest","King''s Recruit","Enzan''s Brother"]},"itemsIdentified":0,"mobsKilled":161899,"pvp":{"kills":3,"deaths":4},"blocksWalked":54545686,"logins":3892,"deaths":252,"playtime":4722,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":98,"intelligence":24,"defence":0,"defense":0,"agility":78},"professions":{"alchemism":{"level":60,"xp":54.1},"armouring":{"level":70,"xp":11.7},"combat":{"level":106,"xp":555.8},"cooking":{"level":60,"xp":25.2},"farming":{"level":98,"xp":0.2},"fishing":{"level":98,"xp":2},"jeweling":{"level":60,"xp":16.1},"mining":{"level":90,"xp":1.5},"scribing":{"level":60,"xp":6.2},"tailoring":{"level":60,"xp":1.8},"weaponsmithing":{"level":60,"xp":14.2},"woodcutting":{"level":98,"xp":0.8},"woodworking":{"level":60,"xp":32.7}},"discoveries":688,"eventsWon":0,"preEconomyUpdate":true},{"name":"ninja","level":968,"dungeons":{"completed":293,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":19},{"name":"Corrupted Sand-Swept Tomb","completed":203},{"name":"Corrupted
+        Ice Barrows","completed":8},{"name":"Eldritch Outlook","completed":4},{"name":"Corrupted
+        Undergrowth Ruins","completed":38},{"name":"Corrupted Underworld Crypt","completed":3},{"name":"Corrupted
+        Infested Pit","completed":2},{"name":"Corrupted Lost Sanctuary","completed":3},{"name":"Lost
+        Sanctuary","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Underworld Crypt","completed":1},{"name":"Undergrowth
+        Ruins","completed":6},{"name":"Galleon''s Graveyard","completed":3}]},"raids":{"completed":41,"list":[{"name":"The
+        Canyon Colossus","completed":24},{"name":"Nest of the Grootslangs","completed":5},{"name":"Orphion''s
+        Nexus of Light","completed":12}]},"quests":{"completed":136,"list":["Point
+        of No Return","A Journey Further","A Journey Beyond","The Olmic Rune","The
+        Hero of Gavel","Royal Trials","The Fortuneteller","Recipe For Disaster","One
+        Thousand Meters Under","Dwarves and Doguns Part IV","Dwarves and Doguns Part
+        III","The Feathers Fly Part II","Dwarves and Doguns Part II","Dwarves and
+        Doguns Part I","The Feathers Fly Part I","Fantastic Voyage","The Envoy Part
+        II","Enter the Dojo","The Hidden City","Mixed Feelings","Beyond the Grave","Desperate
+        Metal","Cowfusion","The Lost","The Canary Calls","The Canyon Guides","A Marauder''s
+        Dues","The Envoy Part I","The Belly of the Beast","The Thanos Vaults","???","The
+        Qira Hive","General''s Orders","From the Bottom","Realm of Light V - The Realm
+        of Light","Fallen Delivery","The Hunger of Gerts Part 2","Purple and Blue","The
+        Hunger of Gerts Part 1","Aldorei''s Secret Part II","The Bigger Picture","The
+        Ultimate Weapon","Flight in Distress","Aldorei''s Secret Part I","Acquiring
+        Credentials","Reincarnation","Troubled Tribesmen","Murder Mystery","Forbidden
+        Prison","Lexdale Witch Trials","Realm of Light IV - Finding the Light","Shattered
+        Minds","Haven Antiquity","WynnExcavation Site D","Lazarus Pit","Grand Youth","Temple
+        of the Legends","Memory Paranoia","From the Mountains","Lost Soles","Lost
+        Royalty","Realm of Light III - A Headless History","Out of my Mind","Lost
+        in the Jungle","Realm of Light II - Taproot","Reclaiming the House","Redbeard''s
+        Booty","Beneath the Depths","The Order of the Grook","An Iron Heart Part II","The
+        Passage","WynnExcavation Site C","Zhight Island","Realm of Light I - The Worm
+        Holes","The Shadow of the Beast","Master Piece","Death Whistle","Corrupted
+        Betrayal","Jungle Fever","Crop Failure","The Maiden Tower","A Grave Mistake","The
+        House of Twain","Rise of the Quartron","An Iron Heart Part I","Frost Bite","WynnExcavation
+        Site B","Bob''s Lost Soul","Blazing Retribution","Fate of the Fallen","Underice","Clearing
         the Camps","Star Thief","Heart of Llevigar","Ice Nations","Tower of Ascension","Pirate''s
         Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation Site A","Tribal
         Aggression","Meaningful Holiday","Kingdom of Sand","A Sandy Scandal","Green
-        Gloop","The Mercenary","Craftmas Chaos","Misadventure on the Sea","Deja Vu","The
-        Corrupted Village","Lost Tower","Recover the Past","The Dark Descent","Dwelling
-        Walls","Cluck Cluck","Pit of the Dead","Studying the Corrupt","Macabre Masquerade
-        ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Mini-Quest - Slay
-        Mooshrooms","Creeper Infiltration","Arachnids'' Ascent","Stable Story","Potion
+        Gloop","Craftmas Chaos","Mini-Quest - Slay Scarabs","The Mercenary","Misadventure
+        on the Sea","Deja Vu","Lost Tower","The Corrupted Village","Recover the Past","Dwelling
+        Walls","The Dark Descent","Cluck Cluck","Pit of the Dead","Studying the Corrupt","Macabre
+        Masquerade ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Mini-Quest
+        - Slay Mooshrooms","Creeper Infiltration","Arachnids'' Ascent","Stable Story","Potion
         Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel Trouble","The
         Sewers of Ragni","Infested Plants","Cook Assistant","Poisoning the Pest","King''s
-        Recruit","Enzan''s Brother","Mini-Quest - Gather Jungle Logs","Mini-Quest
-        - Gather Jungle Logs II","Mini-Quest - Gather Cobalt","Mini-Quest - Gather
-        Cobalt II","Mini-Quest - Gather Cobalt III","Mini-Quest - Gather Millet","Mini-Quest
-        - Gather Millet II","Mini-Quest - Gather Millet III","Mini-Quest - Gather
-        Dark Logs","Mini-Quest - Gather Dark Logs II","Mini-Quest - Gather Dark Logs
-        III"]},"itemsIdentified":0,"mobsKilled":143332,"pvp":{"kills":0,"deaths":0},"chestsFound":9620,"blocksWalked":1176781106,"logins":1064,"deaths":67,"playtime":8431,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":48,"intelligence":83,"defence":61,"defense":61,"agility":0},"professions":{"alchemism":{"level":60,"xp":10.5},"armouring":{"level":60,"xp":14.3},"combat":{"level":104,"xp":11.4},"cooking":{"level":60,"xp":6.2},"farming":{"level":74,"xp":0},"fishing":{"level":66,"xp":14.6},"jeweling":{"level":61,"xp":65.3},"mining":{"level":75,"xp":0.3},"scribing":{"level":60,"xp":9.1},"tailoring":{"level":70,"xp":6.3},"weaponsmithing":{"level":67,"xp":55.1},"woodcutting":{"level":75,"xp":0.1},"woodworking":{"level":72,"xp":42.2}},"discoveries":5821,"eventsWon":0,"preEconomyUpdate":false},{"name":"warrior","level":101,"dungeons":{"completed":40,"list":[{"name":"Decrepit
-        Sewers","completed":1},{"name":"Sand-Swept Tomb","completed":7},{"name":"Undergrowth
-        Ruins","completed":18},{"name":"Corrupted Undergrowth Ruins","completed":2},{"name":"Corrupted
-        Ice Barrows","completed":2},{"name":"Corrupted Sand-Swept Tomb","completed":2},{"name":"Corrupted
-        Underworld Crypt","completed":2},{"name":"Corrupted Lost Sanctuary","completed":2},{"name":"Corrupted
-        Infested Pit","completed":2},{"name":"Corrupted Decrepit Sewers","completed":2}]},"raids":{"completed":1,"list":[{"name":"Nest
-        of the Grootslangs","completed":1}]},"quests":{"completed":19,"list":["Mini-Quest
-        - Slay Felrocs","Aldorei''s Secret Part II","Aldorei''s Secret Part I","Realm
-        of Light III - A Headless History","Realm of Light II - Taproot","The Passage","Realm
-        of Light I - The Worm Holes","Corrupted Betrayal","Mini-Quest - Slay Creatures
-        of Nesaak Forest","Tower of Ascension","Kingdom of Sand","A Sandy Scandal","Mini-Quest
-        - Slay Scarabs","Stable Story","Tunnel Trouble","The Sewers of Ragni","Mini-Quest
-        - Slay Spiders","King''s Recruit","Enzan''s Brother"]},"itemsIdentified":0,"mobsKilled":13996,"pvp":{"kills":0,"deaths":0},"chestsFound":343,"blocksWalked":3822732,"logins":105,"deaths":8,"playtime":509,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":31,"intelligence":0,"defence":74,"defense":74,"agility":83},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":95,"xp":57.8},"cooking":{"level":5,"xp":66.6},"farming":{"level":3,"xp":12.5},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":494,"eventsWon":0,"preEconomyUpdate":false}],"guild":{"name":"The
-        Unusual","rank":"RECRUITER"},"global":{"chestsFound":9963,"blocksWalked":1180603838,"itemsIdentified":0,"mobsKilled":157328,"totalLevel":{"combat":199,"profession":818,"combined":1017},"pvp":{"kills":0,"deaths":0},"logins":1169,"deaths":75,"discoveries":6315,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
+        Recruit","Enzan''s Brother"]},"itemsIdentified":0,"mobsKilled":28001,"pvp":{"kills":46,"deaths":35},"blocksWalked":43786694,"logins":3577,"deaths":144,"playtime":7012,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":99,"intelligence":34,"defence":0,"defense":0,"agility":67},"professions":{"alchemism":{"level":60,"xp":5},"armouring":{"level":70,"xp":15.7},"combat":{"level":106,"xp":80.2},"cooking":{"level":60,"xp":42.2},"farming":{"level":98,"xp":0.6},"fishing":{"level":98,"xp":0.4},"jeweling":{"level":60,"xp":62.8},"mining":{"level":90,"xp":1},"scribing":{"level":60,"xp":13.5},"tailoring":{"level":60,"xp":45.4},"weaponsmithing":{"level":60,"xp":19.2},"woodcutting":{"level":98,"xp":0.4},"woodworking":{"level":60,"xp":26.5}},"discoveries":664,"eventsWon":0,"preEconomyUpdate":true},{"name":"knight","level":968,"dungeons":{"completed":1407,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":5},{"name":"Corrupted Underworld Crypt","completed":5},{"name":"Corrupted
+        Sand-Swept Tomb","completed":1109},{"name":"Corrupted Ice Barrows","completed":6},{"name":"Corrupted
+        Undergrowth Ruins","completed":274},{"name":"Eldritch Outlook","completed":2},{"name":"Corrupted
+        Infested Pit","completed":1},{"name":"Corrupted Lost Sanctuary","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Undergrowth
+        Ruins","completed":1},{"name":"Underworld Crypt","completed":1}]},"raids":{"completed":16,"list":[{"name":"The
+        Canyon Colossus","completed":9},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":6}]},"quests":{"completed":135,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Royal Trials","The Fortuneteller","Recipe
+        For Disaster","One Thousand Meters Under","Dwarves and Doguns Part IV","Dwarves
+        and Doguns Part III","The Feathers Fly Part II","Dwarves and Doguns Part II","Dwarves
+        and Doguns Part I","The Feathers Fly Part I","Fantastic Voyage","Enter the
+        Dojo","The Envoy Part II","The Hidden City","Mixed Feelings","Beyond the Grave","Cowfusion","Desperate
+        Metal","The Canary Calls","The Lost","The Canyon Guides","A Marauder''s Dues","The
+        Envoy Part I","The Belly of the Beast","The Thanos Vaults","???","The Qira
+        Hive","General''s Orders","From the Bottom","Realm of Light V - The Realm
+        of Light","Fallen Delivery","The Hunger of Gerts Part 2","Purple and Blue","The
+        Hunger of Gerts Part 1","Aldorei''s Secret Part II","The Bigger Picture","The
+        Ultimate Weapon","Flight in Distress","Aldorei''s Secret Part I","Acquiring
+        Credentials","Reincarnation","Murder Mystery","Troubled Tribesmen","Forbidden
+        Prison","Lexdale Witch Trials","Realm of Light IV - Finding the Light","WynnExcavation
+        Site D","Shattered Minds","Haven Antiquity","Grand Youth","Lazarus Pit","Temple
+        of the Legends","Memory Paranoia","From the Mountains","Lost Soles","Lost
+        Royalty","Realm of Light III - A Headless History","Out of my Mind","Realm
+        of Light II - Taproot","Lost in the Jungle","Reclaiming the House","Redbeard''s
+        Booty","Beneath the Depths","The Order of the Grook","An Iron Heart Part II","The
+        Passage","WynnExcavation Site C","Zhight Island","Realm of Light I - The Worm
+        Holes","The Shadow of the Beast","Master Piece","Death Whistle","Crop Failure","Corrupted
+        Betrayal","Jungle Fever","The Maiden Tower","A Grave Mistake","The House of
+        Twain","Rise of the Quartron","An Iron Heart Part I","Frost Bite","WynnExcavation
+        Site B","Bob''s Lost Soul","Blazing Retribution","Fate of the Fallen","Underice","Star
+        Thief","Clearing the Camps","Heart of Llevigar","Ice Nations","Tower of Ascension","Pirate''s
+        Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation Site A","Tribal
+        Aggression","Meaningful Holiday","Kingdom of Sand","A Sandy Scandal","Green
+        Gloop","The Mercenary","Craftmas Chaos","Misadventure on the Sea","Deja Vu","Lost
+        Tower","The Corrupted Village","Recover the Past","The Dark Descent","Dwelling
+        Walls","Cluck Cluck","Pit of the Dead","Studying the Corrupt","Macabre Masquerade
+        ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Creeper Infiltration","Arachnids''
+        Ascent","Stable Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Cook Assistant","Poisoning
+        the Pest","King''s Recruit","Enzan''s Brother"]},"itemsIdentified":0,"mobsKilled":20986,"pvp":{"kills":0,"deaths":0},"blocksWalked":-925859154,"logins":7817,"deaths":149,"playtime":98028,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":98,"intelligence":27,"defence":0,"defense":0,"agility":75},"professions":{"alchemism":{"level":60,"xp":26.2},"armouring":{"level":70,"xp":40.8},"combat":{"level":106,"xp":611.6},"cooking":{"level":60,"xp":29.4},"farming":{"level":98,"xp":0.2},"fishing":{"level":98,"xp":0.5},"jeweling":{"level":60,"xp":44.8},"mining":{"level":90,"xp":0.8},"scribing":{"level":60,"xp":10.1},"tailoring":{"level":60,"xp":47.1},"weaponsmithing":{"level":60,"xp":59.4},"woodcutting":{"level":98,"xp":0.5},"woodworking":{"level":60,"xp":21.5}},"discoveries":669,"eventsWon":0,"preEconomyUpdate":true},{"name":"darkwizard","level":968,"dungeons":{"completed":206,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":5},{"name":"Corrupted Sand-Swept Tomb","completed":128},{"name":"Corrupted
+        Ice Barrows","completed":3},{"name":"Corrupted Undergrowth Ruins","completed":56},{"name":"Corrupted
+        Underworld Crypt","completed":1},{"name":"Fallen Factory","completed":2},{"name":"Eldritch
+        Outlook","completed":1},{"name":"Decrepit Sewers","completed":6},{"name":"Ice
+        Barrows","completed":1},{"name":"Undergrowth Ruins","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Galleon''s Graveyard","completed":1}]},"raids":{"completed":33,"list":[{"name":"Nest
+        of the Grootslangs","completed":1},{"name":"The Canyon Colossus","completed":9},{"name":"Orphion''s
+        Nexus of Light","completed":23}]},"quests":{"completed":138,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Royal Trials","Mini-Quest - Slay Angels","The
+        Fortuneteller","Recipe For Disaster","One Thousand Meters Under","Mini-Quest
+        - Slay Astrochelys Manis","Dwarves and Doguns Part IV","Dwarves and Doguns
+        Part III","The Feathers Fly Part II","Dwarves and Doguns Part II","Dwarves
+        and Doguns Part I","The Feathers Fly Part I","Fantastic Voyage","The Envoy
+        Part II","Enter the Dojo","The Hidden City","Mixed Feelings","Beyond the Grave","Desperate
+        Metal","Cowfusion","The Canary Calls","The Lost","The Canyon Guides","A Marauder''s
+        Dues","The Envoy Part I","The Belly of the Beast","The Thanos Vaults","???","The
+        Qira Hive","General''s Orders","From the Bottom","Realm of Light V - The Realm
+        of Light","Fallen Delivery","The Hunger of Gerts Part 2","Purple and Blue","The
+        Hunger of Gerts Part 1","Aldorei''s Secret Part II","The Bigger Picture","The
+        Ultimate Weapon","Flight in Distress","Aldorei''s Secret Part I","Reincarnation","Acquiring
+        Credentials","Murder Mystery","Troubled Tribesmen","Forbidden Prison","Lexdale
+        Witch Trials","Realm of Light IV - Finding the Light","Shattered Minds","Haven
+        Antiquity","WynnExcavation Site D","Grand Youth","Lazarus Pit","Temple of
+        the Legends","Memory Paranoia","From the Mountains","Lost Soles","Lost Royalty","Realm
+        of Light III - A Headless History","Out of my Mind","Lost in the Jungle","Realm
+        of Light II - Taproot","Reclaiming the House","Redbeard''s Booty","Beneath
+        the Depths","The Order of the Grook","An Iron Heart Part II","The Passage","WynnExcavation
+        Site C","Zhight Island","Realm of Light I - The Worm Holes","The Shadow of
+        the Beast","Master Piece","Death Whistle","Corrupted Betrayal","Jungle Fever","Crop
+        Failure","The Maiden Tower","A Grave Mistake","The House of Twain","Rise of
+        the Quartron","An Iron Heart Part I","Frost Bite","WynnExcavation Site B","Bob''s
+        Lost Soul","Blazing Retribution","Underice","Fate of the Fallen","Star Thief","Clearing
+        the Camps","Heart of Llevigar","Tower of Ascension","Ice Nations","Pirate''s
+        Trove","Canyon Condor","Wrath of the Mummy","Tribal Aggression","WynnExcavation
+        Site A","Meaningful Holiday","Kingdom of Sand","A Sandy Scandal","Green Gloop","The
+        Mercenary","Craftmas Chaos","Misadventure on the Sea","Deja Vu","Lost Tower","The
+        Corrupted Village","Recover the Past","Dwelling Walls","The Dark Descent","Pit
+        of the Dead","Cluck Cluck","Studying the Corrupt","Macabre Masquerade ''''Hallowynn
+        2014''''","Grave Digger","Maltic''s Well","Mini-Quest - Slay Mooshrooms","Creeper
+        Infiltration","Arachnids'' Ascent","Stable Story","Potion Making","Elemental
+        Exercise","Mushroom Man","Underwater","Tunnel Trouble","The Sewers of Ragni","Infested
+        Plants","Cook Assistant","Poisoning the Pest","King''s Recruit","Enzan''s
+        Brother"]},"itemsIdentified":0,"mobsKilled":57290,"pvp":{"kills":0,"deaths":2},"blocksWalked":250557977,"logins":4907,"deaths":272,"playtime":6901,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":100,"intelligence":37,"defence":0,"defense":0,"agility":63},"professions":{"alchemism":{"level":60,"xp":64.8},"armouring":{"level":70,"xp":16},"combat":{"level":106,"xp":74.4},"cooking":{"level":60,"xp":41.1},"farming":{"level":98,"xp":0.8},"fishing":{"level":98,"xp":0.8},"jeweling":{"level":60,"xp":5.9},"mining":{"level":90,"xp":1.2},"scribing":{"level":60,"xp":23.2},"tailoring":{"level":60,"xp":15.5},"weaponsmithing":{"level":60,"xp":38.4},"woodcutting":{"level":98,"xp":0.5},"woodworking":{"level":60,"xp":17.4}},"discoveries":666,"eventsWon":0,"preEconomyUpdate":true},{"name":"darkwizard1","level":968,"dungeons":{"completed":277,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":3},{"name":"Corrupted Underworld Crypt","completed":1},{"name":"Corrupted
+        Infested Pit","completed":1},{"name":"Corrupted Sand-Swept Tomb","completed":196},{"name":"Corrupted
+        Ice Barrows","completed":6},{"name":"Corrupted Undergrowth Ruins","completed":59},{"name":"Eldritch
+        Outlook","completed":1},{"name":"Corrupted Lost Sanctuary","completed":6},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Underworld
+        Crypt","completed":1},{"name":"Undergrowth Ruins","completed":1}]},"raids":{"completed":63,"list":[{"name":"The
+        Canyon Colossus","completed":47},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":15}]},"quests":{"completed":135,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Royal Trials","The Fortuneteller","Recipe
+        For Disaster","One Thousand Meters Under","Dwarves and Doguns Part IV","Dwarves
+        and Doguns Part III","The Feathers Fly Part II","Dwarves and Doguns Part II","Dwarves
+        and Doguns Part I","The Feathers Fly Part I","Fantastic Voyage","Enter the
+        Dojo","The Envoy Part II","The Hidden City","Beyond the Grave","Mixed Feelings","Cowfusion","Desperate
+        Metal","The Canary Calls","The Lost","The Canyon Guides","A Marauder''s Dues","The
+        Envoy Part I","The Belly of the Beast","The Thanos Vaults","???","The Qira
+        Hive","General''s Orders","From the Bottom","Fallen Delivery","Realm of Light
+        V - The Realm of Light","The Hunger of Gerts Part 2","The Hunger of Gerts
+        Part 1","Purple and Blue","Aldorei''s Secret Part II","The Bigger Picture","The
+        Ultimate Weapon","Flight in Distress","Aldorei''s Secret Part I","Acquiring
+        Credentials","Reincarnation","Murder Mystery","Troubled Tribesmen","Forbidden
+        Prison","Lexdale Witch Trials","Realm of Light IV - Finding the Light","WynnExcavation
+        Site D","Haven Antiquity","Shattered Minds","Grand Youth","Lazarus Pit","Temple
+        of the Legends","Memory Paranoia","From the Mountains","Lost Soles","Lost
+        Royalty","Realm of Light III - A Headless History","Out of my Mind","Lost
+        in the Jungle","Realm of Light II - Taproot","Reclaiming the House","Redbeard''s
+        Booty","Beneath the Depths","The Order of the Grook","An Iron Heart Part II","The
+        Passage","WynnExcavation Site C","Zhight Island","Realm of Light I - The Worm
+        Holes","The Shadow of the Beast","Master Piece","Death Whistle","Jungle Fever","Corrupted
+        Betrayal","Crop Failure","The Maiden Tower","A Grave Mistake","The House of
+        Twain","An Iron Heart Part I","Rise of the Quartron","Frost Bite","WynnExcavation
+        Site B","Bob''s Lost Soul","Blazing Retribution","Underice","Fate of the Fallen","Clearing
+        the Camps","Star Thief","Heart of Llevigar","Tower of Ascension","Ice Nations","Pirate''s
+        Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation Site A","Tribal
+        Aggression","Meaningful Holiday","Kingdom of Sand","A Sandy Scandal","Green
+        Gloop","Craftmas Chaos","The Mercenary","Misadventure on the Sea","Deja Vu","Lost
+        Tower","The Corrupted Village","Recover the Past","Dwelling Walls","The Dark
+        Descent","Pit of the Dead","Cluck Cluck","Studying the Corrupt","Macabre Masquerade
+        ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Creeper Infiltration","Arachnids''
+        Ascent","Stable Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Cook Assistant","Poisoning
+        the Pest","King''s Recruit","Enzan''s Brother"]},"itemsIdentified":0,"mobsKilled":16488,"pvp":{"kills":0,"deaths":0},"blocksWalked":75345979,"logins":3003,"deaths":74,"playtime":3084,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":95,"intelligence":40,"defence":0,"defense":0,"agility":65},"professions":{"alchemism":{"level":60,"xp":30.4},"armouring":{"level":70,"xp":0.9},"combat":{"level":106,"xp":57.2},"cooking":{"level":60,"xp":21.5},"farming":{"level":98,"xp":0.6},"fishing":{"level":98,"xp":0},"jeweling":{"level":60,"xp":2.2},"mining":{"level":90,"xp":0.4},"scribing":{"level":60,"xp":0.4},"tailoring":{"level":60,"xp":20.4},"weaponsmithing":{"level":60,"xp":4.1},"woodcutting":{"level":98,"xp":0.4},"woodworking":{"level":60,"xp":39.6}},"discoveries":687,"eventsWon":0,"preEconomyUpdate":true},{"name":"darkwizard2","level":968,"dungeons":{"completed":162,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":5},{"name":"Corrupted Sand-Swept Tomb","completed":103},{"name":"Corrupted
+        Lost Sanctuary","completed":1},{"name":"Corrupted Ice Barrows","completed":5},{"name":"Corrupted
+        Undergrowth Ruins","completed":41},{"name":"Eldritch Outlook","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Lost
+        Sanctuary","completed":1},{"name":"Underworld Crypt","completed":1},{"name":"Galleon''s
+        Graveyard","completed":1},{"name":"Undergrowth Ruins","completed":1}]},"raids":{"completed":21,"list":[{"name":"The
+        Canyon Colossus","completed":7},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":13}]},"quests":{"completed":135,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Royal Trials","The Fortuneteller","Recipe
+        For Disaster","One Thousand Meters Under","Dwarves and Doguns Part IV","The
+        Feathers Fly Part II","Dwarves and Doguns Part III","Dwarves and Doguns Part
+        II","Dwarves and Doguns Part I","The Feathers Fly Part I","Fantastic Voyage","The
+        Envoy Part II","Enter the Dojo","The Hidden City","Mixed Feelings","Beyond
+        the Grave","Desperate Metal","Cowfusion","The Lost","The Canary Calls","The
+        Canyon Guides","A Marauder''s Dues","The Envoy Part I","The Belly of the Beast","The
+        Thanos Vaults","The Qira Hive","???","General''s Orders","From the Bottom","Fallen
+        Delivery","Realm of Light V - The Realm of Light","The Hunger of Gerts Part
+        2","Purple and Blue","The Hunger of Gerts Part 1","Aldorei''s Secret Part
+        II","The Bigger Picture","The Ultimate Weapon","Flight in Distress","Aldorei''s
+        Secret Part I","Reincarnation","Acquiring Credentials","Troubled Tribesmen","Murder
+        Mystery","Forbidden Prison","Lexdale Witch Trials","Realm of Light IV - Finding
+        the Light","Haven Antiquity","Shattered Minds","WynnExcavation Site D","Grand
+        Youth","Lazarus Pit","Temple of the Legends","From the Mountains","Memory
+        Paranoia","Lost Soles","Lost Royalty","Realm of Light III - A Headless History","Out
+        of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Redbeard''s
+        Booty","Reclaiming the House","Beneath the Depths","The Order of the Grook","An
+        Iron Heart Part II","The Passage","Zhight Island","WynnExcavation Site C","The
+        Shadow of the Beast","Realm of Light I - The Worm Holes","Master Piece","Death
+        Whistle","Corrupted Betrayal","Jungle Fever","Crop Failure","The Maiden Tower","A
+        Grave Mistake","The House of Twain","Rise of the Quartron","An Iron Heart
+        Part I","Frost Bite","WynnExcavation Site B","Bob''s Lost Soul","Blazing Retribution","Underice","Fate
+        of the Fallen","Clearing the Camps","Star Thief","Heart of Llevigar","Tower
+        of Ascension","Ice Nations","Pirate''s Trove","Canyon Condor","Wrath of the
+        Mummy","Tribal Aggression","WynnExcavation Site A","Meaningful Holiday","Kingdom
+        of Sand","A Sandy Scandal","Green Gloop","The Mercenary","Craftmas Chaos","Misadventure
+        on the Sea","Deja Vu","Lost Tower","The Corrupted Village","Recover the Past","The
+        Dark Descent","Dwelling Walls","Pit of the Dead","Cluck Cluck","Macabre Masquerade
+        ''''Hallowynn 2014''''","Studying the Corrupt","Grave Digger","Maltic''s Well","Creeper
+        Infiltration","Arachnids'' Ascent","Stable Story","Potion Making","Elemental
+        Exercise","Mushroom Man","Underwater","Tunnel Trouble","The Sewers of Ragni","Infested
+        Plants","Cook Assistant","Poisoning the Pest","King''s Recruit","Enzan''s
+        Brother"]},"itemsIdentified":0,"mobsKilled":15097,"pvp":{"kills":0,"deaths":1},"blocksWalked":228763760,"logins":1677,"deaths":77,"playtime":2006,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":97,"intelligence":25,"defence":0,"defense":0,"agility":78},"professions":{"alchemism":{"level":60,"xp":26},"armouring":{"level":70,"xp":22.1},"combat":{"level":106,"xp":27.8},"cooking":{"level":60,"xp":10.1},"farming":{"level":98,"xp":1},"fishing":{"level":98,"xp":1.1},"jeweling":{"level":60,"xp":18.6},"mining":{"level":90,"xp":0.3},"scribing":{"level":60,"xp":33.1},"tailoring":{"level":60,"xp":50.9},"weaponsmithing":{"level":60,"xp":48.1},"woodcutting":{"level":98,"xp":0.4},"woodworking":{"level":60,"xp":26.1}},"discoveries":657,"eventsWon":0,"preEconomyUpdate":true},{"name":"darkwizard4","level":968,"dungeons":{"completed":244,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":2},{"name":"Corrupted Underworld Crypt","completed":1},{"name":"Corrupted
+        Sand-Swept Tomb","completed":163},{"name":"Corrupted Ice Barrows","completed":10},{"name":"Corrupted
+        Undergrowth Ruins","completed":59},{"name":"Decrepit Sewers","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Lost Sanctuary","completed":1},{"name":"Undergrowth
+        Ruins","completed":1},{"name":"Corrupted Infested Pit","completed":1},{"name":"Corrupted
+        Lost Sanctuary","completed":1},{"name":"Eldritch Outlook","completed":1},{"name":"Galleon''s
+        Graveyard","completed":2}]},"raids":{"completed":57,"list":[{"name":"The Canyon
+        Colossus","completed":52},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":4}]},"quests":{"completed":135,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Royal Trials","The Fortuneteller","Recipe
+        For Disaster","One Thousand Meters Under","Dwarves and Doguns Part IV","Dwarves
+        and Doguns Part III","The Feathers Fly Part II","Dwarves and Doguns Part II","Dwarves
+        and Doguns Part I","The Feathers Fly Part I","Fantastic Voyage","The Envoy
+        Part II","Enter the Dojo","The Hidden City","Mixed Feelings","Beyond the Grave","Desperate
+        Metal","Cowfusion","The Lost","The Canary Calls","The Canyon Guides","The
+        Envoy Part I","A Marauder''s Dues","The Belly of the Beast","The Thanos Vaults","???","The
+        Qira Hive","General''s Orders","From the Bottom","Realm of Light V - The Realm
+        of Light","Fallen Delivery","The Hunger of Gerts Part 2","Purple and Blue","The
+        Hunger of Gerts Part 1","Aldorei''s Secret Part II","The Bigger Picture","Flight
+        in Distress","The Ultimate Weapon","Aldorei''s Secret Part I","Reincarnation","Acquiring
+        Credentials","Troubled Tribesmen","Murder Mystery","Forbidden Prison","Lexdale
+        Witch Trials","Realm of Light IV - Finding the Light","Haven Antiquity","Shattered
+        Minds","WynnExcavation Site D","Lazarus Pit","Grand Youth","Temple of the
+        Legends","From the Mountains","Memory Paranoia","Lost Soles","Lost Royalty","Realm
+        of Light III - A Headless History","Out of my Mind","Realm of Light II - Taproot","Lost
+        in the Jungle","Redbeard''s Booty","Reclaiming the House","Beneath the Depths","The
+        Order of the Grook","An Iron Heart Part II","The Passage","Zhight Island","WynnExcavation
+        Site C","Realm of Light I - The Worm Holes","The Shadow of the Beast","Death
+        Whistle","Master Piece","Corrupted Betrayal","Crop Failure","Jungle Fever","The
+        Maiden Tower","A Grave Mistake","The House of Twain","Rise of the Quartron","An
+        Iron Heart Part I","Frost Bite","WynnExcavation Site B","Bob''s Lost Soul","Blazing
+        Retribution","Underice","Fate of the Fallen","Star Thief","Clearing the Camps","Heart
+        of Llevigar","Tower of Ascension","Ice Nations","Pirate''s Trove","Canyon
+        Condor","Wrath of the Mummy","Tribal Aggression","WynnExcavation Site A","Meaningful
+        Holiday","Kingdom of Sand","A Sandy Scandal","Green Gloop","The Mercenary","Craftmas
+        Chaos","Misadventure on the Sea","Deja Vu","Lost Tower","The Corrupted Village","Recover
+        the Past","Dwelling Walls","The Dark Descent","Pit of the Dead","Cluck Cluck","Studying
+        the Corrupt","Macabre Masquerade ''''Hallowynn 2014''''","Grave Digger","Maltic''s
+        Well","Creeper Infiltration","Arachnids'' Ascent","Stable Story","Potion Making","Elemental
+        Exercise","Mushroom Man","Underwater","Tunnel Trouble","The Sewers of Ragni","Infested
+        Plants","Cook Assistant","Poisoning the Pest","King''s Recruit","Enzan''s
+        Brother"]},"itemsIdentified":0,"mobsKilled":14672,"pvp":{"kills":0,"deaths":0},"blocksWalked":26283261,"logins":1513,"deaths":79,"playtime":1630,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":99,"intelligence":37,"defence":0,"defense":0,"agility":64},"professions":{"alchemism":{"level":60,"xp":30.8},"armouring":{"level":70,"xp":9.7},"combat":{"level":106,"xp":92.7},"cooking":{"level":60,"xp":3.9},"farming":{"level":98,"xp":0.7},"fishing":{"level":98,"xp":2.6},"jeweling":{"level":60,"xp":39.1},"mining":{"level":90,"xp":1},"scribing":{"level":60,"xp":3},"tailoring":{"level":60,"xp":35.9},"weaponsmithing":{"level":60,"xp":25.5},"woodcutting":{"level":98,"xp":0.4},"woodworking":{"level":60,"xp":41.1}},"discoveries":635,"eventsWon":0,"preEconomyUpdate":true}],"guild":{"name":"Nefarious
+        Ravens","rank":"RECRUIT"},"global":{"blocksWalked":215867294,"itemsIdentified":0,"mobsKilled":11394725,"totalLevel":{"combat":1484,"profession":13443,"combined":14927},"pvp":{"kills":1462,"deaths":253},"logins":63022,"deaths":3337,"discoveries":9405,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
     headers:
-      cache-control:
-      - max-age=363
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '140'
-      ratelimit-reset:
-      - '9'
+      RateLimit-Remaining:
+      - '54'
+      RateLimit-Reset:
+      - '4'
+      cache-control:
+      - max-age=1113
     status:
       code: 200
       message: OK
-    url: https://api.wynncraft.com/v2/player/Suyarumi/stats
+    url: https://api.wynncraft.com/v2/player/Maarcus1/stats
 version: 1

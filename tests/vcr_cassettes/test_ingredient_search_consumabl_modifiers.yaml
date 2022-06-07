@@ -5,20 +5,20 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/ingredient/search/consumableOnlyIDs/&duration%3C60%3E
   response:
     body:
-      string: '{"kind":"wynncraft/ingredient/search/consumableOnlyIDs/&duration<60>","code":200,"timestamp":1633164105542,"version":"2.1.0","data":[{"name":"Dried
+      string: '{"kind":"wynncraft/ingredient/search/consumableOnlyIDs/&duration<60>","code":200,"timestamp":1654609129005,"version":"2.1.0","data":[{"name":"Dried
         Kelp","tier":2,"level":33,"skills":["SCRIBING","COOKING","ALCHEMISM"],"sprite":{"id":338,"damage":0},"identifications":{"HEALTHREGEN":{"minimum":6,"maximum":12}},"itemOnlyIDs":{"durabilityModifier":0,"strengthRequirement":0,"dexterityRequirement":0,"intelligenceRequirement":0,"defenceRequirement":0,"agilityRequirement":0},"consumableOnlyIDs":{"duration":60,"charges":0},"ingredientPositionModifiers":{"left":0,"right":0,"above":0,"under":0,"touching":0,"notTouching":0}}]}'
     headers:
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '163'
-      ratelimit-reset:
-      - '15'
+      RateLimit-Remaining:
+      - '77'
+      RateLimit-Reset:
+      - '11'
     status:
       code: 200
       message: OK

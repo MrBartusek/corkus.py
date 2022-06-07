@@ -5,12 +5,12 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.0.0
+      - Corkus.py/1.2.1
     method: GET
     uri: https://api.wynncraft.com/v2/player/0edc3eb6-74d8-49b6-8b2a-3c0782183e3a/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/0edc3eb6-74d8-49b6-8b2a-3c0782183e3a/stats","code":200,"timestamp":1633163734954,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-07-26T17:02:09.988Z","location":{"online":false,"server":null},"playtime":2866,"tag":{"display":true,"value":"VIP"},"veteran":false},"classes":[{"name":"mage","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
+      string: '{"kind":"wynncraft/player/0edc3eb6-74d8-49b6-8b2a-3c0782183e3a/stats","code":200,"timestamp":1654607434158,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-12-28T18:20:06.071Z","location":{"online":false,"server":null},"playtime":2971,"tag":{"display":true,"value":"VIP"},"veteran":false},"classes":[{"name":"mage","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
         Sewers","completed":4},{"name":"Lost Sanctuary","completed":2},{"name":"Underworld
         Crypt","completed":1},{"name":"Ice Barrows","completed":6},{"name":"Sand-Swept
         Tomb","completed":4},{"name":"Undergrowth Ruins","completed":5},{"name":"Galleon''s
@@ -18,7 +18,7 @@ interactions:
         Factory","completed":2},{"name":"Infested Pit","completed":4},{"name":"Corrupted
         Infested Pit","completed":1},{"name":"Corrupted Lost Sanctuary","completed":1},{"name":"Corrupted
         Sand-Swept Tomb","completed":7},{"name":"Corrupted Ice Barrows","completed":1},{"name":"Corrupted
-        Undergrowth Ruins","completed":1},{"name":"Corrupted Underworld Crypt","completed":10}]},"raids":{"completed":0,"list":[]},"quests":{"completed":149,"list":["Point
+        Undergrowth Ruins","completed":1},{"name":"Corrupted Underworld Crypt","completed":10}]},"raids":{"completed":0,"list":[]},"quests":{"completed":151,"list":["Point
         of No Return","A Journey Further","A Journey Beyond","The Olmic Rune","Royal
         Trials","The Fortuneteller","Recipe For Disaster","One Thousand Meters Under","Dwarves
         and Doguns Part IV","Dwarves and Doguns Part III","Mini-Quest - Slay Frosted
@@ -29,17 +29,18 @@ interactions:
         of the Beast","The Thanos Vaults","General''s Orders","From the Bottom","???","Fallen
         Delivery","The Hunger of Gerts Part 2","Purple and Blue","The Hunger of Gerts
         Part 1","Aldorei''s Secret Part II","The Bigger Picture","Flight in Distress","The
-        Ultimate Weapon","Reincarnation","Murder Mystery","Troubled Tribesmen","WynnExcavation
-        Site D","Haven Antiquity","Grand Youth","Temple of the Legends","Memory Paranoia","Lost
-        Soles","Lost Royalty","Out of my Mind","Lost in the Jungle","Redbeard''s Booty","Beneath
-        the Depths","The Order of the Grook","The Passage","Zhight Island","WynnExcavation
-        Site C","The Shadow of the Beast","Master Piece","Death Whistle","Jungle Fever","Crop
-        Failure","Corrupted Betrayal","The Maiden Tower","A Grave Mistake","Mini-Quest
-        - Slay Slimes","The House of Twain","Rise of the Quartron","Frost Bite","WynnExcavation
-        Site B","Mini-Quest - Slay Orcs","Bob''s Lost Soul","Underice","Fate of the
-        Fallen","Clearing the Camps","Star Thief","Heart of Llevigar","Ice Nations","Tower
-        of Ascension","Mini-Quest - Slay Creatures of Nesaak Forest","Pirate''s Trove","Canyon
-        Condor","Wrath of the Mummy","Tribal Aggression","Mini-Quest - Slay Coyotes","WynnExcavation
+        Ultimate Weapon","Reincarnation","Murder Mystery","Troubled Tribesmen","Forbidden
+        Prison","WynnExcavation Site D","Haven Antiquity","Grand Youth","Temple of
+        the Legends","Memory Paranoia","Lost Soles","Lost Royalty","Out of my Mind","Lost
+        in the Jungle","Redbeard''s Booty","Beneath the Depths","The Order of the
+        Grook","The Passage","Zhight Island","WynnExcavation Site C","The Shadow of
+        the Beast","Master Piece","Death Whistle","Jungle Fever","Crop Failure","Corrupted
+        Betrayal","The Maiden Tower","A Grave Mistake","Mini-Quest - Slay Slimes","The
+        House of Twain","Rise of the Quartron","Frost Bite","WynnExcavation Site B","Mini-Quest
+        - Slay Orcs","Bob''s Lost Soul","Underice","Fate of the Fallen","Clearing
+        the Camps","Star Thief","Heart of Llevigar","Ice Nations","Tower of Ascension","Mini-Quest
+        - Slay Creatures of Nesaak Forest","Pirate''s Trove","Canyon Condor","Wrath
+        of the Mummy","Tribal Aggression","Mini-Quest - Slay Coyotes","WynnExcavation
         Site A","Kingdom of Sand","Meaningful Holiday","A Sandy Scandal","Green Gloop","Mini-Quest
         - Slay Scarabs","Craftmas Chaos","The Mercenary","Misadventure on the Sea","Deja
         Vu","Lost Tower","The Corrupted Village","Recover the Past","Mini-Quest -
@@ -48,28 +49,28 @@ interactions:
         Digger","Maltic''s Well","Mini-Quest - Slay Mooshrooms","Creeper Infiltration","Arachnids''
         Ascent","Stable Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
         Trouble","The Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook
-        Assistant","Poisoning the Pest","King''s Recruit","Mini-Quest - Gather Oak
-        Logs","Mini-Quest - Gather Wheat","Mini-Quest - Gather Birch Logs","Mini-Quest
-        - Gather Copper","Mini-Quest - Gather Willow Logs","Mini-Quest - Gather Willow
-        Logs II","Mini-Quest - Gather Granite","Mini-Quest - Gather Trout","Mini-Quest
-        - Gather Salmon","Mini-Quest - Gather Salmon II","Mini-Quest - Gather Gudgeon","Mini-Quest
-        - Gather Carp II","Mini-Quest - Gather Barley","Mini-Quest - Gather Gold","Mini-Quest
-        - Gather Oats","Mini-Quest - Gather Oats II","Mini-Quest - Gather Gold II","Mini-Quest
-        - Gather Acacia Logs","Mini-Quest - Gather Malt","Mini-Quest - Gather Sandstone","Mini-Quest
-        - Gather Carp","Mini-Quest - Gather Acacia Logs II","Mini-Quest - Gather Malt
-        II","Mini-Quest - Gather Sandstone II","Mini-Quest - Gather Spruce Logs","Mini-Quest
-        - Gather Spruce Logs II","Mini-Quest - Gather Iron II","Mini-Quest - Gather
-        Koi II"]},"itemsIdentified":0,"mobsKilled":48314,"pvp":{"kills":0,"deaths":0},"chestsFound":1425,"blocksWalked":17308984,"logins":598,"deaths":119,"playtime":2866,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":35,"dexterity":33,"intelligence":41,"defence":50,"defense":50,"agility":41},"professions":{"alchemism":{"level":66,"xp":46.5},"armouring":{"level":27,"xp":97.4},"combat":{"level":102,"xp":81.3},"cooking":{"level":70,"xp":5.1},"farming":{"level":72,"xp":37.2},"fishing":{"level":71,"xp":13.8},"jeweling":{"level":71,"xp":53.2},"mining":{"level":70,"xp":54.4},"scribing":{"level":54,"xp":66.3},"tailoring":{"level":73,"xp":31.9},"weaponsmithing":{"level":19,"xp":4.4},"woodcutting":{"level":52,"xp":97},"woodworking":{"level":18,"xp":14.5}},"discoveries":586,"eventsWon":0,"preEconomyUpdate":false}],"guild":{"name":"The
-        Farplane","rank":"CHIEF"},"global":{"chestsFound":1425,"blocksWalked":17308984,"itemsIdentified":0,"mobsKilled":48314,"totalLevel":{"combat":102,"profession":663,"combined":765},"pvp":{"kills":0,"deaths":0},"logins":598,"deaths":119,"discoveries":586,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
+        Assistant","Poisoning the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest
+        - Gather Oak Logs","Mini-Quest - Gather Wheat","Mini-Quest - Gather Birch
+        Logs","Mini-Quest - Gather Copper","Mini-Quest - Gather Willow Logs","Mini-Quest
+        - Gather Willow Logs II","Mini-Quest - Gather Granite","Mini-Quest - Gather
+        Trout","Mini-Quest - Gather Salmon","Mini-Quest - Gather Salmon II","Mini-Quest
+        - Gather Gudgeon","Mini-Quest - Gather Carp II","Mini-Quest - Gather Barley","Mini-Quest
+        - Gather Gold","Mini-Quest - Gather Oats","Mini-Quest - Gather Oats II","Mini-Quest
+        - Gather Gold II","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather Malt","Mini-Quest
+        - Gather Sandstone","Mini-Quest - Gather Carp","Mini-Quest - Gather Acacia
+        Logs II","Mini-Quest - Gather Malt II","Mini-Quest - Gather Sandstone II","Mini-Quest
+        - Gather Spruce Logs","Mini-Quest - Gather Spruce Logs II","Mini-Quest - Gather
+        Iron II","Mini-Quest - Gather Koi II"]},"itemsIdentified":0,"mobsKilled":50721,"pvp":{"kills":0,"deaths":0},"blocksWalked":17517852,"logins":611,"deaths":119,"playtime":2971,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":35,"dexterity":33,"intelligence":41,"defence":50,"defense":50,"agility":41},"professions":{"alchemism":{"level":66,"xp":46.5},"armouring":{"level":27,"xp":97.4},"combat":{"level":102,"xp":81.3},"cooking":{"level":70,"xp":5.1},"farming":{"level":72,"xp":37.2},"fishing":{"level":71,"xp":69.1},"jeweling":{"level":71,"xp":53.2},"mining":{"level":70,"xp":54.7},"scribing":{"level":54,"xp":66.3},"tailoring":{"level":73,"xp":31.9},"weaponsmithing":{"level":19,"xp":4.4},"woodcutting":{"level":52,"xp":97},"woodworking":{"level":18,"xp":14.5}},"discoveries":537,"eventsWon":0,"preEconomyUpdate":false}],"guild":{"name":"The
+        Farplane","rank":"CHIEF"},"global":{"blocksWalked":17517852,"itemsIdentified":0,"mobsKilled":50721,"totalLevel":{"combat":102,"profession":663,"combined":765},"pvp":{"kills":0,"deaths":0},"logins":611,"deaths":119,"discoveries":537,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
     headers:
-      cache-control:
-      - max-age=222
-      ratelimit-limit:
+      RateLimit-Limit:
       - '180'
-      ratelimit-remaining:
-      - '134'
-      ratelimit-reset:
-      - '7'
+      RateLimit-Remaining:
+      - '48'
+      RateLimit-Reset:
+      - '2'
+      cache-control:
+      - max-age=96
     status:
       code: 200
       message: OK
