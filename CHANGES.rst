@@ -6,6 +6,16 @@ Corkus.py follows `semantic versioning <http://semver.org/>`_.
 .. py:currentmodule:: corkus.objects
 
 
+2.0.0 (2022/06/07)
+------------------
+
+- :bdg-danger-line:`BREAKING` Due to recent API changes ``PlayerStatistics.chests_found`` and
+  ``ClassStatistics.chests_found`` were removed.
+- :bdg-danger-line:`BREAKING` Value of :py:attr:`ServerType.REGULAR` has been changed from ``WC`` to ``REGULAR``.
+- :bdg-danger-line:`BREAKING` ``ServerType.YOUTUBE`` enum key is now named :py:attr:`ServerType.MEDIA` and it's 
+  value has been changed from ``YT`` to ``MEDIA``.
+- Add warnings for broken properties in :py:class:`PlayerSoloRanking` and :py:class:`PlayerOverallRanking`.
+
 1.2.1 (2022/01/20)
 ------------------
 
