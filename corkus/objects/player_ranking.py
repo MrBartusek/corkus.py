@@ -51,7 +51,12 @@ class PlayerSoloRanking(CorkusBase):
     @property
     def professions(self) -> Dict[ProfessionType, Union[int, None]]:
         """Dictionary containing all of the :py:class`ProfessionType` as keys and
-        player's places in these leaderboards as keys. Keys are ``None`` if not in top 100."""
+        player's places in these leaderboards as keys. Keys are ``None`` if not in top 100.
+
+        .. caution::
+                This property is currently bugged and keys will always be ``None``. See:
+                `Wynncraft/WynncraftAPI#66 <https://github.com/Wynncraft/WynncraftAPI/issues/66>`_.
+        """
         result = {}
         for prof in ProfessionType:
             result[prof] = self._attributes.get(prof.value.lower())
@@ -59,22 +64,42 @@ class PlayerSoloRanking(CorkusBase):
 
     @property
     def overall(self) -> Union[int, None]:
-        """Player's place in overall solo leaderboard. Returns ``None`` if not in top 100."""
+        """Player's place in overall solo leaderboard. Returns ``None`` if not in top 100.
+
+        .. caution::
+                This property is currently bugged and always returns ``None``. See:
+                `Wynncraft/WynncraftAPI#66 <https://github.com/Wynncraft/WynncraftAPI/issues/66>`_.
+        """
         return self._attributes.get("overall")
 
 class PlayerOverallRanking(CorkusBase):
     """Represents *overall* category of :py:class:`PlayerRanking`."""
     @property
     def all(self) -> Dict[ProfessionType, Union[int, None]]:
-        """Player's place in overall all leaderboard. Returns ``None`` if not in top 100."""
+        """Player's place in overall all leaderboard. Returns ``None`` if not in top 100.
+
+        .. caution::
+                This property is currently bugged and always returns ``None``. See:
+                `Wynncraft/WynncraftAPI#66 <https://github.com/Wynncraft/WynncraftAPI/issues/66>`_.
+        """
         return self._attributes.get("all")
 
     @property
     def professions(self) -> Union[int, None]:
-        """Player's place in overall professions leaderboard. Returns ``None`` if not in top 100."""
+        """Player's place in overall professions leaderboard. Returns ``None`` if not in top 100.
+
+        .. caution::
+                This property is currently bugged and always returns ``None``. See:
+                `Wynncraft/WynncraftAPI#66 <https://github.com/Wynncraft/WynncraftAPI/issues/66>`_.
+        """
         return self._attributes.get("profession")
 
     @property
     def combat(self) -> Union[int, None]:
-        """Player's place in overall combat leaderboard. Returns ``None`` if not in top 100."""
+        """Player's place in overall combat leaderboard. Returns ``None`` if not in top 100.
+
+        .. caution::
+                This property is currently bugged and always returns ``None``. See:
+                `Wynncraft/WynncraftAPI#66 <https://github.com/Wynncraft/WynncraftAPI/issues/66>`_.
+        """
         return self._attributes.get("combat")
