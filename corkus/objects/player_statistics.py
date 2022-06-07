@@ -4,11 +4,6 @@ from .base import CorkusBase
 class ClassStatistics(CorkusBase):
     """General Statistics of a :py:class:`PlayerClass`"""
     @property
-    def chests_found(self) -> int:
-        """Total chest opened."""
-        return self._attributes.get("chestsFound", 0)
-
-    @property
     def blocks_walked(self) -> int:
         """Total blocks walked."""
         return self._attributes.get("blocksWalked", 0)
@@ -59,7 +54,7 @@ class ClassStatistics(CorkusBase):
         return self._attributes.get("deaths", 0)
 
     def __repr__(self) -> str:
-        return f"<ClassStatistics chests_found={self.chests_found} mobs_killed={self.mobs_killed}>"
+        return f"<ClassStatistics logins={self.logins} mobs_killed={self.mobs_killed}>"
 
 class PlayerStatistics(ClassStatistics):
     """General Statistics of a :py:class:`Player`. This class is based on :py:class:`ClassStatistics`."""
@@ -74,4 +69,4 @@ class PlayerStatistics(ClassStatistics):
         return self._attributes.get("totalLevel", {}).get("profession", 0)
 
     def __repr__(self) -> str:
-        return f"<PlayerStatistics chests_found={self.chests_found} mobs_killed={self.mobs_killed}>"
+        return f"<PlayerStatistics logins={self.logins} mobs_killed={self.mobs_killed}>"

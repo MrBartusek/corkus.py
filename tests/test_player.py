@@ -84,7 +84,6 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(diff, 600)
 
         # Stats
-        self.assertGreater(player.statistics.chests_found, 0)
         self.assertGreater(player.statistics.blocks_walked, 0)
         self.assertGreater(player.statistics.mobs_killed, 0)
         self.assertGreater(player.statistics.total_combat_level, 0)
@@ -97,7 +96,6 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         # Classes
         player_class = player.classes[0]
         self.assertEqual(player.best_class.name, player_class.name)
-        self.assertGreater(player_class.statistics.chests_found, 0)
         self.assertFalse(player_class.gamemode.craftsman)
         self.assertFalse(player_class.gamemode.hunted)
         self.assertFalse(player_class.gamemode.ironman)

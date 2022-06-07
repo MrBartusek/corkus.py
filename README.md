@@ -43,7 +43,7 @@ async def player_stats():
     async with Corkus() as corkus:
         player = await corkus.player.get("Salted")
         print(f"username: {player.username}")
-        print(f"chests_found: {player.statistics.chests_found}")
+        print(f"logins: {player.statistics.logins}")
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(player_stats())
@@ -60,7 +60,7 @@ async def player_stats():
 
     player = await corkus.player.get("Salted")
     print(f"username: {player.username}")
-    print(f"chests_found: {player.statistics.chests_found}")
+    print(f"logins: {player.statistics.logins}")
 
     await corkus.close()
 
@@ -71,7 +71,7 @@ loop.run_until_complete(player_stats())
 Output:
 ```
 username: Salted
-chests_found: 219
+logins: 1022
 ```
 
 ## Contributing
