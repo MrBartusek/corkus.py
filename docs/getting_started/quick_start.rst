@@ -96,7 +96,7 @@ endpoint in corkus you need to use properties of :class:`.Corkus` instance.
 
     player = await corkus.player.get("Salted")
     print(f"username: {player.username}")
-    print(f"logins: {player.statistics.1022}")
+    print(f"logins: {player.statistics.logins}")
 
 Output:
 
