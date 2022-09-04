@@ -1,7 +1,11 @@
 ![corkus banner](https://i.imgur.com/8FjYte1.gif)
 
-
-[![build](https://img.shields.io/github/workflow/status/MrBartusek/corkus.py/build)](https://github.com/MrBartusek/corkus.py/actions) [![codecov](https://codecov.io/gh/MrBartusek/corkus.py/branch/main/graph/badge.svg?token=oZbLlhqRKJ)](https://codecov.io/gh/MrBartusek/corkus.py) [![Documentation Status](https://img.shields.io/readthedocs/corkuspy)](https://corkuspy.readthedocs.io/en/stable) [![PyPI](https://img.shields.io/pypi/v/corkus.py)](https://pypi.org/project/corkus.py/) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/corkus.py)](https://pypi.org/project/corkus.py/)
+[![pypi](https://img.shields.io/pypi/v/corkus.py)](https://pypi.org/project/corkus.py/)
+[![build](https://img.shields.io/github/workflow/status/MrBartusek/corkus.py/build)](https://github.com/MrBartusek/corkus.py/actions)
+[![docs build](https://img.shields.io/readthedocs/corkuspy)](https://corkuspy.readthedocs.io/en/stable)
+![Codecov](https://img.shields.io/codecov/c/github/MrBartusek/corkus.py)
+[![python version](https://img.shields.io/pypi/pyversions/corkus.py)](https://pypi.org/project/corkus.py/)
+![downloads](https://img.shields.io/pypi/dm/corkus.py?color=sucess)
 
 # Corkus.py ⚙️
 
