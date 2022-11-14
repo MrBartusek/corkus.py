@@ -1,3 +1,4 @@
 pylint==2.9.6
 coverage==5.5
 vcrpy==4.1.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
