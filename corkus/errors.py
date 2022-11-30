@@ -26,7 +26,7 @@ class CorkusTimeoutError(CorkusException):
     @property
     def url(self) -> int:
         """URL for which timeout happened."""
-        return self._timeout
+        return self._url
 
 class HTTPError(CorkusException):
     """Exception that's thrown when an HTTP request operation fails."""

@@ -18,6 +18,7 @@ Corkus.py follows `semantic versioning <http://semver.org/>`_.
 - Project now uses ``characters`` instead of ``classes`` in documentation.
 - Add support for `Python 3.11 <https://docs.python.org/3/whatsnew/3.11.html>`_
 - Update dependencies. You can now use ``aiohttp 3.8.x`` and ``iso8601 1.x``
+- Fix :py:exc:`CorkusTimeoutError <corkus.errors.CorkusTimeoutError>` returning invalid url.
 
 2.0.0 (2022/06/07)
 ------------------
