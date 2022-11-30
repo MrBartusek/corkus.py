@@ -3,8 +3,8 @@
 
 .. py:currentmodule:: corkus.objects
 
-PlayerClass
-===========
-.. autoclass:: PlayerClass
+CharacterType
+=============
+.. autoclass:: CharacterType
    :inherited-members:
    :undoc-members:

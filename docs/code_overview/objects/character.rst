@@ -3,8 +3,8 @@
 
 .. py:currentmodule:: corkus.objects
 
-ClassType
+Character
 =========
-.. autoclass:: ClassType
+.. autoclass:: Character
    :inherited-members:
    :undoc-members:

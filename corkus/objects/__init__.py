@@ -6,7 +6,7 @@ from .base_player import PlayerRank, PlayerTag
 from .playtime import PlayerPlaytime, PlaytimeConvertRatio
 from .player_statistics import PlayerStatistics, ClassStatistics
 from .player_status import PlayerStatus
-from .player_class import PlayerClass, ClassType
+from .player_character import Character, CharacterType
 from .player_gamemodes import PlayerGamemodes, HardcoreType
 from .leaderboard_player import LeaderboardPlayer
 from .player_profession import PlayerProfession

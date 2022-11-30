@@ -2,7 +2,7 @@ from __future__ import annotations
 from .base import CorkusBase
 
 class ClassStatistics(CorkusBase):
-    """General Statistics of a :py:class:`PlayerClass`"""
+    """General Statistics of a :py:class:`Character`"""
     @property
     def blocks_walked(self) -> int:
         """Total blocks walked."""

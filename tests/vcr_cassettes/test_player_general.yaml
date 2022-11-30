@@ -10,7 +10,7 @@ interactions:
     uri: https://api.wynncraft.com/v2/player/MrBartusekXD/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/MrBartusekXD/stats","code":200,"timestamp":1669824235690,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-12-28T18:20:06.071Z","location":{"online":false,"server":null},"playtime":2971,"tag":{"display":true,"value":"VIP"},"veteran":false},"characters":{"97d5d260-d18a-4a54-b228-1ea0bc84f079":{"type":"MAGE","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
+      string: '{"kind":"wynncraft/player/MrBartusekXD/stats","code":200,"timestamp":1669845040301,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-12-28T18:20:06.071Z","location":{"online":false,"server":null},"playtime":2971,"tag":{"display":true,"value":"VIP"},"veteran":false},"characters":{"97d5d260-d18a-4a54-b228-1ea0bc84f079":{"type":"MAGE","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
         Sewers","completed":4},{"name":"Lost Sanctuary","completed":2},{"name":"Underworld
         Crypt","completed":1},{"name":"Ice Barrows","completed":6},{"name":"Sand-Swept
         Tomb","completed":4},{"name":"Undergrowth Ruins","completed":5},{"name":"Galleon''s
@@ -64,15 +64,1354 @@ interactions:
         Farplane","rank":"CHIEF"},"global":{"blocksWalked":17517852,"itemsIdentified":0,"mobsKilled":50721,"totalLevel":{"combat":102,"profession":663,"combined":765},"pvp":{"kills":0,"deaths":0},"logins":611,"deaths":119,"discoveries":537,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
     headers:
       Cache-Control:
-      - max-age=1787
+      - max-age=1670
       RateLimit-Limit:
       - '180'
       RateLimit-Remaining:
-      - '153'
+      - '179'
       RateLimit-Reset:
-      - '52'
+      - '10'
     status:
       code: 200
       message: OK
     url: https://api.wynncraft.com/v2/player/MrBartusekXD/stats
+- request:
+    body: null
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Corkus.py/2.0.0
+    method: GET
+    uri: https://api.wynncraft.com/v2/player/ojomFox/stats
+  response:
+    body:
+      string: '{"kind":"wynncraft/player/ojomFox/stats","code":200,"timestamp":1669845170488,"version":"2.1.0","data":[{"username":"ojomFox","uuid":"33b6a693-db57-4b3f-b6df-d0772876994f","rank":"Player","meta":{"firstJoin":"2014-05-24T01:17:38.401Z","lastJoin":"2022-11-30T05:52:42.105Z","location":{"online":false,"server":null},"playtime":41600,"tag":{"display":true,"value":"CHAMPION"},"veteran":true},"characters":{"7f0332dc-02f6-42e6-9d41-3bd866587057":{"type":"KNIGHT","level":201,"dungeons":{"completed":339,"list":[{"name":"Zombie","completed":9},{"name":"Silverfish","completed":159},{"name":"Animal","completed":6},{"name":"Decrepit
+        Sewers","completed":8},{"name":"Underworld Crypt","completed":1},{"name":"Corrupted
+        Sand-Swept Tomb","completed":108},{"name":"Infested Pit","completed":5},{"name":"Corrupted
+        Undergrowth Ruins","completed":6},{"name":"Eldritch Outlook","completed":7},{"name":"Corrupted
+        Underworld Crypt","completed":13},{"name":"Corrupted Decrepit Sewers","completed":1},{"name":"Corrupted
+        Infested Pit","completed":1},{"name":"Corrupted Lost Sanctuary","completed":1},{"name":"Corrupted
+        Ice Barrows","completed":1},{"name":"Fallen Factory","completed":13}]},"raids":{"completed":124,"list":[{"name":"The
+        Canyon Colossus","completed":80},{"name":"Orphion''s Nexus of Light","completed":31},{"name":"Nest
+        of the Grootslangs","completed":4},{"name":"The Nameless Anomaly","completed":9}]},"quests":{"completed":60,"list":["A
+        Hunter''s Calling","Point of No Return","A Journey Further","A Journey Beyond","Mini-Quest
+        - Slay Conures","Dwarves and Doguns Part I","The Envoy Part II","The Envoy
+        Part I","???","The Qira Hive","Realm of Light V - The Realm of Light","Reincarnation","Murder
+        Mystery","Troubled Tribesmen","Realm of Light IV - Finding the Light","Haven
+        Antiquity","WynnExcavation Site D","Grand Youth","Temple of the Legends","Lost
+        Soles","Lost Royalty","Realm of Light III - A Headless History","Lost in the
+        Jungle","Realm of Light II - Taproot","Beneath the Depths","The Order of the
+        Grook","The Passage","Zhight Island","WynnExcavation Site C","Realm of Light
+        I - The Worm Holes","Jungle Fever","The House of Twain","WynnExcavation Site
+        B","Bob''s Lost Soul","Ice Nations","Tower of Ascension","Canyon Condor","Wrath
+        of the Mummy","WynnExcavation Site A","Meaningful Holiday","A Sandy Scandal","Green
+        Gloop","Craftmas Chaos","The Mercenary","Lost Tower","Recover the Past","The
+        Dark Descent","Cluck Cluck","Pit of the Dead","Macabre Masquerade ''''Hallowynn
+        2014''''","Grave Digger","Maltic''s Well","Arachnids'' Ascent","Stable Story","Mushroom
+        Man","Underwater","The Sewers of Ragni","Cook Assistant","King''s Recruit","Mini-Quest
+        - Gather Copper"]},"itemsIdentified":116,"mobsKilled":208034,"pvp":{"kills":0,"deaths":2},"blocksWalked":1295007136,"logins":7219,"deaths":493,"playtime":23602,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":100,"defence":100,"defense":100,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":105,"xp":24.4},"cooking":{"level":1,"xp":0},"farming":{"level":20,"xp":25.2},"fishing":{"level":56,"xp":28.2},"jeweling":{"level":1,"xp":0},"mining":{"level":11,"xp":15.3},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":70},"woodcutting":{"level":13,"xp":70.7},"woodworking":{"level":1,"xp":0}},"discoveries":573,"eventsWon":0,"preEconomyUpdate":true},"a87df283-799f-4adb-972d-97ca77d29f1b":{"type":"SKYSEER","level":109,"dungeons":{"completed":30,"list":[{"name":"Decrepit
+        Sewers","completed":2},{"name":"Infested Pit","completed":3},{"name":"Corrupted
+        Decrepit Sewers","completed":6},{"name":"Corrupted Infested Pit","completed":8},{"name":"Ice
+        Barrows","completed":2},{"name":"Corrupted Lost Sanctuary","completed":1},{"name":"Corrupted
+        Sand-Swept Tomb","completed":3},{"name":"Corrupted Underworld Crypt","completed":5}]},"raids":{"completed":19,"list":[{"name":"The
+        Canyon Colossus","completed":9},{"name":"Nest of the Grootslangs","completed":10}]},"quests":{"completed":13,"list":["A
+        Journey Beyond","The Qira Hive","The Passage","Realm of Light I - The Worm
+        Holes","Fate of the Fallen","Tower of Ascension","The Mercenary","Creeper
+        Infiltration","Arachnids'' Ascent","Stable Story","The Sewers of Ragni","Cook
+        Assistant","King''s Recruit"]},"itemsIdentified":0,"mobsKilled":51977,"pvp":{"kills":0,"deaths":0},"blocksWalked":582344985,"logins":1006,"deaths":109,"playtime":2138,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":32,"dexterity":28,"intelligence":36,"defence":67,"defense":67,"agility":37},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":2,"xp":28.9},"combat":{"level":105,"xp":1.2},"cooking":{"level":1,"xp":0},"farming":{"level":3,"xp":85.4},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":2,"xp":34.2},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":341,"eventsWon":0,"preEconomyUpdate":false},"92fb26b4-1dda-4ab8-b9a7-bb15c634cf4c":{"type":"ASSASSIN","level":103,"dungeons":{"completed":23,"list":[{"name":"Skeleton","completed":2},{"name":"Silverfish","completed":12},{"name":"Animal","completed":4},{"name":"Spider","completed":1},{"name":"Corrupted
+        Lost Sanctuary","completed":2},{"name":"Corrupted Infested Pit","completed":1},{"name":"Corrupted
+        Decrepit Sewers","completed":1}]},"raids":{"completed":10,"list":[{"name":"Nest
+        of the Grootslangs","completed":10}]},"quests":{"completed":28,"list":["A
+        Journey Beyond","The Qira Hive","Flight in Distress","Reincarnation","Haven
+        Antiquity","Temple of the Legends","Lost Royalty","Beneath the Depths","The
+        Passage","Realm of Light I - The Worm Holes","Jungle Fever","The House of
+        Twain","Bob''s Lost Soul","Ice Nations","Tower of Ascension","Wrath of the
+        Mummy","Green Gloop","The Mercenary","Lost Tower","Cluck Cluck","Macabre Masquerade
+        ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Stable Story","Mushroom
+        Man","Underwater","Cook Assistant","King''s Recruit"]},"itemsIdentified":665,"mobsKilled":152703,"pvp":{"kills":335,"deaths":207},"blocksWalked":1468167978,"logins":3768,"deaths":307,"playtime":10460,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":7,"dexterity":1,"intelligence":38,"defence":62,"defense":62,"agility":92},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":103,"xp":8.3},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":26.6},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":70},"mining":{"level":1,"xp":66.6},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":80},"woodcutting":{"level":1,"xp":36.6},"woodworking":{"level":1,"xp":0}},"discoveries":215,"eventsWon":0,"preEconomyUpdate":false},"3d6c6411-6aa6-45f0-9b30-92df3b1a8462":{"type":"MAGE","level":75,"dungeons":{"completed":4,"list":[{"name":"Skeleton","completed":3},{"name":"Spider","completed":1}]},"raids":{"completed":0,"list":[]},"quests":{"completed":17,"list":["Reincarnation","Haven
+        Antiquity","Temple of the Legends","The Passage","Jungle Fever","The House
+        of Twain","Bob''s Lost Soul","Ice Nations","Wrath of the Mummy","Lost Tower","Cluck
+        Cluck","Grave Digger","Maltic''s Well","Stable Story","Mushroom Man","Underwater","Cook
+        Assistant"]},"itemsIdentified":131,"mobsKilled":31752,"pvp":{"kills":59,"deaths":69},"blocksWalked":45837,"logins":924,"deaths":74,"playtime":1584,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":0,"defence":0,"defense":0,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":75,"xp":0},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":0},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":2,"eventsWon":0,"preEconomyUpdate":false},"35c5267c-a73f-40fe-87f7-d56e771cf665":{"type":"ARCHER","level":71,"dungeons":{"completed":5,"list":[{"name":"Zombie","completed":4},{"name":"Silverfish","completed":1}]},"raids":{"completed":0,"list":[]},"quests":{"completed":16,"list":["Bob''s
+        Lost Soul","Wrath of the Mummy","A Sandy Scandal","Green Gloop","The Mercenary","Lost
+        Tower","Pit of the Dead","Cluck Cluck","Macabre Masquerade ''''Hallowynn 2014''''","Grave
+        Digger","Maltic''s Well","Stable Story","Mushroom Man","Underwater","Cook
+        Assistant","King''s Recruit"]},"itemsIdentified":67,"mobsKilled":4170,"pvp":{"kills":63,"deaths":84},"blocksWalked":530679,"logins":645,"deaths":73,"playtime":926,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":23,"dexterity":32,"intelligence":22,"defence":41,"defense":41,"agility":22},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":71,"xp":89.6},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":0},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":114,"eventsWon":0,"preEconomyUpdate":false},"b55fe8c5-193e-4aaf-9d08-5ee4ac427521":{"type":"NINJA","level":59,"dungeons":{"completed":86,"list":[{"name":"Skeleton","completed":15},{"name":"Spider","completed":22},{"name":"Animal","completed":15},{"name":"Zombie","completed":26},{"name":"Silverfish","completed":8}]},"raids":{"completed":0,"list":[]},"quests":{"completed":3,"list":["Tower
+        of Ascension","Underwater","King''s Recruit"]},"itemsIdentified":19,"mobsKilled":7856,"pvp":{"kills":0,"deaths":0},"blocksWalked":20234,"logins":221,"deaths":28,"playtime":358,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":0,"defence":82,"defense":82,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":59,"xp":49},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":0},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":2,"eventsWon":0,"preEconomyUpdate":false},"a76ad1bd-d96c-4d9b-830d-7cddb13404c5":{"type":"KNIGHT","level":51,"dungeons":{"completed":36,"list":[{"name":"Silverfish","completed":36}]},"raids":{"completed":0,"list":[]},"quests":{"completed":9,"list":["Bob''s
+        Lost Soul","Wrath of the Mummy","Pit of the Dead","Macabre Masquerade ''''Hallowynn
+        2014''''","Maltic''s Well","Stable Story","Mushroom Man","Underwater","Cook
+        Assistant"]},"itemsIdentified":11,"mobsKilled":639,"pvp":{"kills":0,"deaths":0},"blocksWalked":5478,"logins":672,"deaths":18,"playtime":2083,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":6,"dexterity":0,"intelligence":0,"defence":25,"defense":25,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":51,"xp":39.3},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":0},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":1,"eventsWon":0,"preEconomyUpdate":false},"674a896b-9c25-444a-a231-839f0ae1b2b2":{"type":"HUNTER","level":51,"dungeons":{"completed":35,"list":[{"name":"Silverfish","completed":35}]},"raids":{"completed":0,"list":[]},"quests":{"completed":1,"list":["King''s
+        Recruit"]},"itemsIdentified":4,"mobsKilled":201,"pvp":{"kills":0,"deaths":0},"blocksWalked":43235,"logins":212,"deaths":10,"playtime":102,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":20,"intelligence":8,"defence":0,"defense":0,"agility":35},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":50,"xp":8.6},"cooking":{"level":1,"xp":0},"farming":{"level":2,"xp":7.8},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":43.3},"woodworking":{"level":1,"xp":76.6}},"discoveries":17,"eventsWon":0,"preEconomyUpdate":false},"da0e96e7-fb0c-4792-9d78-739ead38492a":{"type":"DARKWIZARD","level":2,"dungeons":{"completed":0,"list":[]},"raids":{"completed":0,"list":[]},"quests":{"completed":0,"list":[]},"itemsIdentified":6,"mobsKilled":0,"pvp":{"kills":3,"deaths":34},"blocksWalked":2469,"logins":136,"deaths":4,"playtime":267,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":0,"defence":0,"defense":0,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":2,"xp":2.6},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":0},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":0},"woodworking":{"level":1,"xp":0}},"discoveries":3,"eventsWon":0,"preEconomyUpdate":false},"aae95400-a8bd-479e-aee9-3bf8bef98c9f":{"type":"HUNTER","level":1,"dungeons":{"completed":0,"list":[]},"raids":{"completed":0,"list":[]},"quests":{"completed":1,"list":["King''s
+        Recruit"]},"itemsIdentified":0,"mobsKilled":17,"pvp":{"kills":0,"deaths":0},"blocksWalked":260476,"logins":58,"deaths":9,"playtime":80,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":0,"defence":0,"defense":0,"agility":0},"professions":{"alchemism":{"level":1,"xp":0},"armouring":{"level":1,"xp":0},"combat":{"level":1,"xp":31.8},"cooking":{"level":1,"xp":0},"farming":{"level":1,"xp":80},"fishing":{"level":1,"xp":0},"jeweling":{"level":1,"xp":0},"mining":{"level":1,"xp":0},"scribing":{"level":1,"xp":0},"tailoring":{"level":1,"xp":0},"weaponsmithing":{"level":1,"xp":0},"woodcutting":{"level":1,"xp":46.6},"woodworking":{"level":1,"xp":63.3}},"discoveries":8,"eventsWon":0,"preEconomyUpdate":false}},"guild":{"name":"The
+        Farplane","rank":"OWNER"},"global":{"blocksWalked":3346428507,"itemsIdentified":1019,"mobsKilled":457349,"totalLevel":{"combat":622,"profession":221,"combined":843},"pvp":{"kills":460,"deaths":396},"logins":14861,"deaths":1125,"discoveries":1276,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
+    headers:
+      Cache-Control:
+      - max-age=1800
+      RateLimit-Limit:
+      - '180'
+      RateLimit-Remaining:
+      - '178'
+      RateLimit-Reset:
+      - '10'
+    status:
+      code: 200
+      message: OK
+    url: https://api.wynncraft.com/v2/player/ojomFox/stats
+- request:
+    body: null
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Corkus.py/2.0.0
+    method: GET
+    uri: https://api.wynncraft.com/v2/player/Maarcus1/stats
+  response:
+    body:
+      string: '{"kind":"wynncraft/player/Maarcus1/stats","code":200,"timestamp":1669844223482,"version":"2.1.0","data":[{"username":"Maarcus1","uuid":"b7454a9d-ea64-4dea-a4ef-c544d6861b7c","rank":"Player","meta":{"firstJoin":"2017-06-12T16:54:46.948Z","lastJoin":"2022-11-30T21:37:02.571Z","location":{"online":true,"server":"WC24"},"playtime":261050,"tag":{"display":true,"value":"CHAMPION"},"veteran":false},"characters":{"2de2046d-ae0f-4da2-aca7-6aae49f9adf8":{"type":"HUNTER","level":1678,"dungeons":{"completed":308,"list":[{"name":"Decrepit
+        Sewers","completed":4},{"name":"Infested Pit","completed":4},{"name":"Undergrowth
+        Ruins","completed":5},{"name":"Corrupted Decrepit Sewers","completed":14},{"name":"Corrupted
+        Infested Pit","completed":8},{"name":"Corrupted Sand-Swept Tomb","completed":214},{"name":"Sand-Swept
+        Tomb","completed":12},{"name":"Corrupted Underworld Crypt","completed":10},{"name":"Underworld
+        Crypt","completed":3},{"name":"Ice Barrows","completed":6},{"name":"Corrupted
+        Ice Barrows","completed":2},{"name":"Eldritch Outlook","completed":4},{"name":"Corrupted
+        Undergrowth Ruins","completed":13},{"name":"Fallen Factory","completed":4},{"name":"Galleon''s
+        Graveyard","completed":5}]},"raids":{"completed":20,"list":[{"name":"Nest
+        of the Grootslangs","completed":1},{"name":"The Nameless Anomaly","completed":7},{"name":"The
+        Canyon Colossus","completed":12}]},"quests":{"completed":244,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","Mini-Quest - Slay Dragonlings","The Hero of Gavel","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Dwarves and Doguns Part III","Mini-Quest
+        - Slay Azers","The Feathers Fly Part II","Dwarves and Doguns Part II","Mini-Quest
+        - Slay Frosted Guards & Cryostone Golems","Dwarves and Doguns Part I","Mini-Quest
+        - Slay Magma Entities","The Feathers Fly Part I","Fantastic Voyage","Mini-Quest
+        - Slay Pernix Monkeys","The Envoy Part II","Enter the Dojo","The Hidden City","Mini-Quest
+        - Slay Ailuropodas","Mixed Feelings","Beyond the Grave","Desperate Metal","Mini-Quest
+        - Slay Robots","The Envoy Part I","Mini-Quest - Slay Jinkos","From the Bottom","???","The
+        Qira Hive","Mini-Quest - Slay Hobgoblins","Fallen Delivery","Realm of Light
+        V - The Realm of Light","Mini-Quest - Slay Felrocs","The Bigger Picture","Flight
+        in Distress","Mini-Quest - Slay Weirds","Aldorei''s Secret Part I","Reincarnation","Acquiring
+        Credentials","Murder Mystery","Troubled Tribesmen","Mini-Quest - Slay Myconids","Forbidden
+        Prison","Lexdale Witch Trials","Realm of Light IV - Finding the Light","WynnExcavation
+        Site D","Haven Antiquity","Mini-Quest - Slay Dead Villagers","Shattered Minds","Grand
+        Youth","Lazarus Pit","Temple of the Legends","Memory Paranoia","From the Mountains","Lost
+        Soles","Lost Royalty","Mini-Quest - Slay Idols","Realm of Light III - A Headless
+        History","Out of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Redbeard''s
+        Booty","Reclaiming the House","Beneath the Depths","Mini-Quest - Slay Wraiths
+        & Phantasms","The Order of the Grook","An Iron Heart Part II","The Passage","WynnExcavation
+        Site C","Zhight Island","Mini-Quest - Slay Lizardmen","The Shadow of the Beast","Realm
+        of Light I - The Worm Holes","Master Piece","Death Whistle","Corrupted Betrayal","Jungle
+        Fever","Crop Failure","The Maiden Tower","A Grave Mistake","Mini-Quest - Slay
+        Slimes","The House of Twain","Rise of the Quartron","An Iron Heart Part I","Frost
+        Bite","WynnExcavation Site B","Bob''s Lost Soul","Mini-Quest - Slay Orcs","Blazing
+        Retribution","Underice","Fate of the Fallen","Star Thief","Heart of Llevigar","Tower
+        of Ascension","Ice Nations","Mini-Quest - Slay Creatures of Nesaak Forest","Clearing
+        the Camps","Pirate''s Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation
+        Site A","Tribal Aggression","Mini-Quest - Slay Coyotes","Kingdom of Sand","Meaningful
+        Holiday","A Sandy Scandal","Green Gloop","Craftmas Chaos","Mini-Quest - Slay
+        Scarabs","The Mercenary","Misadventure on the Sea","Deja Vu","The Corrupted
+        Village","Lost Tower","Recover the Past","Mini-Quest - Slay Skeletons","The
+        Dark Descent","Dwelling Walls","Pit of the Dead","Cluck Cluck","Macabre Masquerade
+        ''''Hallowynn 2014''''","Studying the Corrupt","Grave Digger","Maltic''s Well","Mini-Quest
+        - Slay Mooshrooms","Creeper Infiltration","Arachnids'' Ascent","Stable Story","Potion
+        Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel Trouble","The
+        Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook Assistant","Poisoning
+        the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest - Gather Willow
+        Logs II","Mini-Quest - Gather Millet II","Mini-Quest - Gather Bass III","Mini-Quest
+        - Gather Bass II","Mini-Quest - Gather Bass IV","Mini-Quest - Gather Rice","Mini-Quest
+        - Gather Rice IV","Mini-Quest - Gather Rice III","Mini-Quest - Gather Rice
+        II","Mini-Quest - Gather Sorghum IV","Mini-Quest - Gather Sorghum III","Mini-Quest
+        - Gather Sorghum","Mini-Quest - Gather Sorghum II","Mini-Quest - Gather Molten
+        Eel IV","Mini-Quest - Gather Molten Eel","Mini-Quest - Gather Molten Eel II","Mini-Quest
+        - Gather Molten Eel III","Mini-Quest - Gather Acacia Logs II","Mini-Quest
+        - Gather Icefish","Mini-Quest - Gather Decay Roots II","Mini-Quest - Gather
+        Diamonds IV","Mini-Quest - Gather Avo Logs III","Mini-Quest - Gather Molten
+        Ore IV","Mini-Quest - Gather Molten Ore III","Mini-Quest - Gather Molten Ore","Mini-Quest
+        - Gather Molten Ore II","Mini-Quest - Gather Cobalt III","Mini-Quest - Gather
+        Gudgeon","Mini-Quest - Gather Copper","Mini-Quest - Gather Oak Logs","Mini-Quest
+        - Gather Wheat","Mini-Quest - Gather Birch Logs","Mini-Quest - Gather Trout","Mini-Quest
+        - Gather Granite","Mini-Quest - Gather Barley","Mini-Quest - Gather Willow
+        Logs","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather Gold","Mini-Quest
+        - Gather Oats","Mini-Quest - Gather Salmon","Mini-Quest - Gather Salmon II","Mini-Quest
+        - Gather Oats II","Mini-Quest - Gather Gold II","Mini-Quest - Gather Malt","Mini-Quest
+        - Gather Sandstone","Mini-Quest - Gather Carp","Mini-Quest - Gather Sandstone
+        II","Mini-Quest - Gather Malt II","Mini-Quest - Gather Carp II","Mini-Quest
+        - Gather Iron II","Mini-Quest - Gather Spruce Logs","Mini-Quest - Gather Spruce
+        Logs II","Mini-Quest - Gather Iron","Mini-Quest - Gather Icefish II","Mini-Quest
+        - Gather Hops","Mini-Quest - Gather Hops II","Mini-Quest - Gather Jungle Logs","Mini-Quest
+        - Gather Piranhas II","Mini-Quest - Gather Piranhas","Mini-Quest - Gather
+        Jungle Logs II","Mini-Quest - Gather Silver II","Mini-Quest - Gather Silver","Mini-Quest
+        - Gather Rye II","Mini-Quest - Gather Rye","Mini-Quest - Gather Light Logs
+        III","Mini-Quest - Gather Cobalt","Mini-Quest - Gather Cobalt II","Mini-Quest
+        - Gather Dark Logs","Mini-Quest - Gather Dark Logs II","Mini-Quest - Gather
+        Koi III","Mini-Quest - Gather Millet III","Mini-Quest - Gather Millet","Mini-Quest
+        - Gather Light Logs","Mini-Quest - Gather Light Logs II","Mini-Quest - Gather
+        Decay Roots","Mini-Quest - Gather Kanderstone III","Mini-Quest - Gather Kanderstone","Mini-Quest
+        - Gather Kanderstone II","Mini-Quest - Gather Decay Roots III","Mini-Quest
+        - Gather Gylia Fish","Mini-Quest - Gather Gylia Fish II","Mini-Quest - Gather
+        Gylia Fish III","Mini-Quest - Gather Diamonds","Mini-Quest - Gather Pine Logs","Mini-Quest
+        - Gather Bass","Mini-Quest - Gather Diamonds III","Mini-Quest - Gather Bamboo","Mini-Quest
+        - Gather Pine Logs II","Mini-Quest - Gather Diamonds II","Mini-Quest - Gather
+        Pine Logs III","Mini-Quest - Gather Avo Logs","Mini-Quest - Gather Avo Logs
+        II","Mini-Quest - Gather Avo Logs IV","Mini-Quest - Gather Dark Logs III","Mini-Quest
+        - Gather Koi II","Mini-Quest - Gather Koi"]},"itemsIdentified":0,"mobsKilled":258547,"pvp":{"kills":502,"deaths":67},"blocksWalked":-751799879,"logins":15586,"deaths":985,"playtime":64393,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":50,"dexterity":48,"intelligence":0,"defence":53,"defense":53,"agility":49},"professions":{"alchemism":{"level":132,"xp":null},"armouring":{"level":132,"xp":null},"combat":{"level":106,"xp":2630.2},"cooking":{"level":132,"xp":null},"farming":{"level":132,"xp":null},"fishing":{"level":132,"xp":null},"jeweling":{"level":132,"xp":null},"mining":{"level":132,"xp":null},"scribing":{"level":132,"xp":null},"tailoring":{"level":132,"xp":null},"weaponsmithing":{"level":132,"xp":null},"woodcutting":{"level":132,"xp":null},"woodworking":{"level":132,"xp":null}},"discoveries":417,"eventsWon":0,"preEconomyUpdate":true},"56f49051-1da1-4bd2-8d16-7aea6ace07a2":{"type":"SKYSEER","level":1327,"dungeons":{"completed":91,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":17},{"name":"Corrupted Infested Pit","completed":2},{"name":"Corrupted
+        Underworld Crypt","completed":2},{"name":"Corrupted Lost Sanctuary","completed":2},{"name":"Corrupted
+        Ice Barrows","completed":2},{"name":"Corrupted Undergrowth Ruins","completed":37},{"name":"Eldritch
+        Outlook","completed":22},{"name":"Corrupted Sand-Swept Tomb","completed":3},{"name":"Underworld
+        Crypt","completed":1},{"name":"Ice Barrows","completed":1},{"name":"Undergrowth
+        Ruins","completed":1},{"name":"Decrepit Sewers","completed":1}]},"raids":{"completed":41,"list":[{"name":"The
+        Canyon Colossus","completed":15},{"name":"Nest of the Grootslangs","completed":3},{"name":"Orphion''s
+        Nexus of Light","completed":18},{"name":"The Nameless Anomaly","completed":5}]},"quests":{"completed":244,"list":["A
+        Hunter''s Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","Mini-Quest - Slay Dragonlings","The Hero of Gavel","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Dwarves and Doguns Part III","The
+        Feathers Fly Part II","Mini-Quest - Slay Azers","Dwarves and Doguns Part II","Mini-Quest
+        - Slay Frosted Guards & Cryostone Golems","Dwarves and Doguns Part I","The
+        Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic Voyage","Mini-Quest
+        - Slay Pernix Monkeys","The Envoy Part II","Enter the Dojo","The Hidden City","Mini-Quest
+        - Slay Ailuropodas","Mixed Feelings","Beyond the Grave","Desperate Metal","Mini-Quest
+        - Slay Robots","The Envoy Part I","Mini-Quest - Slay Jinkos","From the Bottom","???","The
+        Qira Hive","Mini-Quest - Slay Hobgoblins","Realm of Light V - The Realm of
+        Light","Fallen Delivery","Mini-Quest - Slay Felrocs","The Bigger Picture","Flight
+        in Distress","Mini-Quest - Slay Weirds","Aldorei''s Secret Part I","Acquiring
+        Credentials","Reincarnation","Murder Mystery","Troubled Tribesmen","Mini-Quest
+        - Slay Myconids","Forbidden Prison","Lexdale Witch Trials","Realm of Light
+        IV - Finding the Light","Shattered Minds","Haven Antiquity","WynnExcavation
+        Site D","Mini-Quest - Slay Dead Villagers","Lazarus Pit","Grand Youth","Temple
+        of the Legends","Memory Paranoia","From the Mountains","Lost Soles","Lost
+        Royalty","Mini-Quest - Slay Idols","Realm of Light III - A Headless History","Out
+        of my Mind","Realm of Light II - Taproot","Lost in the Jungle","Reclaiming
+        the House","Redbeard''s Booty","Beneath the Depths","Mini-Quest - Slay Wraiths
+        & Phantasms","The Order of the Grook","An Iron Heart Part II","The Passage","WynnExcavation
+        Site C","Zhight Island","Mini-Quest - Slay Lizardmen","Realm of Light I -
+        The Worm Holes","The Shadow of the Beast","Master Piece","Death Whistle","Crop
+        Failure","Corrupted Betrayal","Jungle Fever","The Maiden Tower","A Grave Mistake","Mini-Quest
+        - Slay Slimes","Rise of the Quartron","An Iron Heart Part I","The House of
+        Twain","Frost Bite","WynnExcavation Site B","Bob''s Lost Soul","Mini-Quest
+        - Slay Orcs","Blazing Retribution","Underice","Fate of the Fallen","Star Thief","Heart
+        of Llevigar","Mini-Quest - Slay Creatures of Nesaak Forest","Tower of Ascension","Ice
+        Nations","Clearing the Camps","Pirate''s Trove","Canyon Condor","Wrath of
+        the Mummy","Tribal Aggression","WynnExcavation Site A","Mini-Quest - Slay
+        Coyotes","Meaningful Holiday","Kingdom of Sand","A Sandy Scandal","Green Gloop","The
+        Mercenary","Craftmas Chaos","Mini-Quest - Slay Scarabs","Misadventure on the
+        Sea","Deja Vu","Lost Tower","The Corrupted Village","Recover the Past","Mini-Quest
+        - Slay Skeletons","Dwelling Walls","The Dark Descent","Pit of the Dead","Cluck
+        Cluck","Macabre Masquerade ''''Hallowynn 2014''''","Studying the Corrupt","Grave
+        Digger","Maltic''s Well","Mini-Quest - Slay Mooshrooms","Creeper Infiltration","Arachnids''
+        Ascent","Stable Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook
+        Assistant","Poisoning the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest
+        - Gather Rice III","Mini-Quest - Gather Kanderstone III","Mini-Quest - Gather
+        Jungle Logs","Mini-Quest - Gather Icefish II","Mini-Quest - Gather Rice II","Mini-Quest
+        - Gather Rice","Mini-Quest - Gather Rice IV","Mini-Quest - Gather Decay Roots
+        II","Mini-Quest - Gather Decay Roots III","Mini-Quest - Gather Millet III","Mini-Quest
+        - Gather Millet II","Mini-Quest - Gather Millet","Mini-Quest - Gather Decay
+        Roots","Mini-Quest - Gather Hops","Mini-Quest - Gather Hops II","Mini-Quest
+        - Gather Rye II","Mini-Quest - Gather Rye","Mini-Quest - Gather Sorghum IV","Mini-Quest
+        - Gather Sorghum III","Mini-Quest - Gather Sorghum","Mini-Quest - Gather Sorghum
+        II","Mini-Quest - Gather Oats","Mini-Quest - Gather Wheat","Mini-Quest - Gather
+        Barley","Mini-Quest - Gather Oats II","Mini-Quest - Gather Malt II","Mini-Quest
+        - Gather Sandstone","Mini-Quest - Gather Sandstone II","Mini-Quest - Gather
+        Gold II","Mini-Quest - Gather Gold","Mini-Quest - Gather Iron II","Mini-Quest
+        - Gather Cobalt","Mini-Quest - Gather Copper","Mini-Quest - Gather Granite","Mini-Quest
+        - Gather Silver","Mini-Quest - Gather Cobalt II","Mini-Quest - Gather Kanderstone
+        II","Mini-Quest - Gather Kanderstone","Mini-Quest - Gather Diamonds","Mini-Quest
+        - Gather Diamonds IV","Mini-Quest - Gather Diamonds III","Mini-Quest - Gather
+        Diamonds II","Mini-Quest - Gather Molten Ore III","Mini-Quest - Gather Molten
+        Ore IV","Mini-Quest - Gather Molten Ore II","Mini-Quest - Gather Molten Ore","Mini-Quest
+        - Gather Iron","Mini-Quest - Gather Cobalt III","Mini-Quest - Gather Silver
+        II","Mini-Quest - Gather Salmon","Mini-Quest - Gather Salmon II","Mini-Quest
+        - Gather Icefish","Mini-Quest - Gather Piranhas II","Mini-Quest - Gather Piranhas","Mini-Quest
+        - Gather Koi II","Mini-Quest - Gather Koi","Mini-Quest - Gather Trout","Mini-Quest
+        - Gather Gudgeon","Mini-Quest - Gather Carp","Mini-Quest - Gather Carp II","Mini-Quest
+        - Gather Bass IV","Mini-Quest - Gather Bass III","Mini-Quest - Gather Bass
+        II","Mini-Quest - Gather Molten Eel IV","Mini-Quest - Gather Molten Eel III","Mini-Quest
+        - Gather Molten Eel II","Mini-Quest - Gather Molten Eel","Mini-Quest - Gather
+        Bass","Mini-Quest - Gather Gylia Fish","Mini-Quest - Gather Gylia Fish III","Mini-Quest
+        - Gather Gylia Fish II","Mini-Quest - Gather Koi III","Mini-Quest - Gather
+        Dark Logs","Mini-Quest - Gather Dark Logs II","Mini-Quest - Gather Light Logs
+        III","Mini-Quest - Gather Light Logs II","Mini-Quest - Gather Light Logs","Mini-Quest
+        - Gather Pine Logs","Mini-Quest - Gather Pine Logs II","Mini-Quest - Gather
+        Bamboo","Mini-Quest - Gather Pine Logs III","Mini-Quest - Gather Avo Logs
+        II","Mini-Quest - Gather Avo Logs","Mini-Quest - Gather Avo Logs III","Mini-Quest
+        - Gather Avo Logs IV","Mini-Quest - Gather Birch Logs","Mini-Quest - Gather
+        Oak Logs","Mini-Quest - Gather Acacia Logs II","Mini-Quest - Gather Willow
+        Logs","Mini-Quest - Gather Willow Logs II","Mini-Quest - Gather Acacia Logs","Mini-Quest
+        - Gather Spruce Logs","Mini-Quest - Gather Spruce Logs II","Mini-Quest - Gather
+        Jungle Logs II","Mini-Quest - Gather Dark Logs III","Mini-Quest - Gather Malt"]},"itemsIdentified":0,"mobsKilled":10956291,"pvp":{"kills":0,"deaths":0},"blocksWalked":-1763303718,"logins":7359,"deaths":674,"playtime":10952,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":73,"defence":97,"defense":97,"agility":30},"professions":{"alchemism":{"level":103,"xp":21.7},"armouring":{"level":101,"xp":70.5},"combat":{"level":106,"xp":87055.6},"cooking":{"level":112,"xp":19.4},"farming":{"level":101,"xp":13.9},"fishing":{"level":110,"xp":43},"jeweling":{"level":101,"xp":0.1},"mining":{"level":101,"xp":27.7},"scribing":{"level":100,"xp":1.3},"tailoring":{"level":103,"xp":34.2},"weaponsmithing":{"level":100,"xp":2.7},"woodcutting":{"level":101,"xp":21.7},"woodworking":{"level":100,"xp":60.7}},"discoveries":674,"eventsWon":0,"preEconomyUpdate":false},"3a00624e-7a9c-4038-ae31-e7793428081b":{"type":"DARKWIZARD","level":1108,"dungeons":{"completed":168,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":2},{"name":"Corrupted Underworld Crypt","completed":2},{"name":"Corrupted
+        Sand-Swept Tomb","completed":89},{"name":"Corrupted Ice Barrows","completed":8},{"name":"Corrupted
+        Undergrowth Ruins","completed":57},{"name":"Eldritch Outlook","completed":4},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Lost
+        Sanctuary","completed":1},{"name":"Underworld Crypt","completed":1},{"name":"Undergrowth
+        Ruins","completed":1},{"name":"Ice Barrows","completed":1}]},"raids":{"completed":28,"list":[{"name":"Nest
+        of the Grootslangs","completed":1},{"name":"The Canyon Colossus","completed":20},{"name":"Orphion''s
+        Nexus of Light","completed":5},{"name":"The Nameless Anomaly","completed":2}]},"quests":{"completed":244,"list":["A
+        Hunter''s Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Mini-Quest - Slay Dragonlings","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Mini-Quest - Slay Azers","Dwarves
+        and Doguns Part III","The Feathers Fly Part II","Dwarves and Doguns Part II","Mini-Quest
+        - Slay Frosted Guards & Cryostone Golems","Dwarves and Doguns Part I","The
+        Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic Voyage","Mini-Quest
+        - Slay Pernix Monkeys","The Envoy Part II","Enter the Dojo","The Hidden City","Mini-Quest
+        - Slay Ailuropodas","Mixed Feelings","Beyond the Grave","Desperate Metal","Mini-Quest
+        - Slay Robots","The Envoy Part I","Mini-Quest - Slay Jinkos","From the Bottom","???","The
+        Qira Hive","Mini-Quest - Slay Hobgoblins","Fallen Delivery","Realm of Light
+        V - The Realm of Light","Mini-Quest - Slay Felrocs","The Bigger Picture","Flight
+        in Distress","Mini-Quest - Slay Weirds","Aldorei''s Secret Part I","Reincarnation","Acquiring
+        Credentials","Murder Mystery","Troubled Tribesmen","Mini-Quest - Slay Myconids","Forbidden
+        Prison","Lexdale Witch Trials","Realm of Light IV - Finding the Light","Haven
+        Antiquity","WynnExcavation Site D","Shattered Minds","Mini-Quest - Slay Dead
+        Villagers","Grand Youth","Lazarus Pit","Temple of the Legends","Memory Paranoia","From
+        the Mountains","Lost Soles","Lost Royalty","Mini-Quest - Slay Idols","Realm
+        of Light III - A Headless History","Out of my Mind","Lost in the Jungle","Realm
+        of Light II - Taproot","Redbeard''s Booty","Reclaiming the House","Beneath
+        the Depths","Mini-Quest - Slay Wraiths & Phantasms","The Order of the Grook","An
+        Iron Heart Part II","The Passage","WynnExcavation Site C","Zhight Island","Mini-Quest
+        - Slay Lizardmen","The Shadow of the Beast","Realm of Light I - The Worm Holes","Death
+        Whistle","Master Piece","Jungle Fever","Crop Failure","Corrupted Betrayal","The
+        Maiden Tower","Mini-Quest - Slay Slimes","A Grave Mistake","The House of Twain","Rise
+        of the Quartron","An Iron Heart Part I","Frost Bite","WynnExcavation Site
+        B","Bob''s Lost Soul","Mini-Quest - Slay Orcs","Blazing Retribution","Underice","Fate
+        of the Fallen","Star Thief","Heart of Llevigar","Ice Nations","Mini-Quest
+        - Slay Creatures of Nesaak Forest","Tower of Ascension","Clearing the Camps","Pirate''s
+        Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation Site A","Tribal
+        Aggression","Mini-Quest - Slay Coyotes","Meaningful Holiday","Kingdom of Sand","A
+        Sandy Scandal","Green Gloop","Craftmas Chaos","Mini-Quest - Slay Scarabs","The
+        Mercenary","Misadventure on the Sea","Deja Vu","Lost Tower","The Corrupted
+        Village","Recover the Past","Mini-Quest - Slay Skeletons","The Dark Descent","Dwelling
+        Walls","Cluck Cluck","Pit of the Dead","Studying the Corrupt","Macabre Masquerade
+        ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Mini-Quest - Slay
+        Mooshrooms","Creeper Infiltration","Arachnids'' Ascent","Stable Story","Potion
+        Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel Trouble","The
+        Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook Assistant","Poisoning
+        the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest - Gather Piranhas
+        II","Mini-Quest - Gather Gylia Fish III","Mini-Quest - Gather Bass II","Mini-Quest
+        - Gather Bass III","Mini-Quest - Gather Cobalt II","Mini-Quest - Gather Oats
+        II","Mini-Quest - Gather Malt II","Mini-Quest - Gather Barley","Mini-Quest
+        - Gather Wheat","Mini-Quest - Gather Oats","Mini-Quest - Gather Sorghum II","Mini-Quest
+        - Gather Sorghum","Mini-Quest - Gather Sorghum III","Mini-Quest - Gather Sorghum
+        IV","Mini-Quest - Gather Rye","Mini-Quest - Gather Rye II","Mini-Quest - Gather
+        Hops II","Mini-Quest - Gather Hops","Mini-Quest - Gather Millet","Mini-Quest
+        - Gather Millet II","Mini-Quest - Gather Millet III","Mini-Quest - Gather
+        Decay Roots","Mini-Quest - Gather Decay Roots II","Mini-Quest - Gather Decay
+        Roots III","Mini-Quest - Gather Rice IV","Mini-Quest - Gather Rice","Mini-Quest
+        - Gather Rice II","Mini-Quest - Gather Rice III","Mini-Quest - Gather Sandstone
+        II","Mini-Quest - Gather Sandstone","Mini-Quest - Gather Gold II","Mini-Quest
+        - Gather Gold","Mini-Quest - Gather Gudgeon","Mini-Quest - Gather Copper","Mini-Quest
+        - Gather Granite","Mini-Quest - Gather Cobalt","Mini-Quest - Gather Iron II","Mini-Quest
+        - Gather Iron","Mini-Quest - Gather Cobalt III","Mini-Quest - Gather Silver
+        II","Mini-Quest - Gather Silver","Mini-Quest - Gather Kanderstone III","Mini-Quest
+        - Gather Kanderstone II","Mini-Quest - Gather Kanderstone","Mini-Quest - Gather
+        Diamonds","Mini-Quest - Gather Diamonds IV","Mini-Quest - Gather Diamonds
+        III","Mini-Quest - Gather Diamonds II","Mini-Quest - Gather Molten Ore","Mini-Quest
+        - Gather Molten Ore II","Mini-Quest - Gather Molten Ore IV","Mini-Quest -
+        Gather Molten Ore III","Mini-Quest - Gather Molten Eel","Mini-Quest - Gather
+        Molten Eel IV","Mini-Quest - Gather Molten Eel III","Mini-Quest - Gather Molten
+        Eel II","Mini-Quest - Gather Trout","Mini-Quest - Gather Carp","Mini-Quest
+        - Gather Carp II","Mini-Quest - Gather Salmon","Mini-Quest - Gather Salmon
+        II","Mini-Quest - Gather Icefish II","Mini-Quest - Gather Bass","Mini-Quest
+        - Gather Gylia Fish","Mini-Quest - Gather Gylia Fish II","Mini-Quest - Gather
+        Koi III","Mini-Quest - Gather Piranhas","Mini-Quest - Gather Koi II","Mini-Quest
+        - Gather Koi","Mini-Quest - Gather Icefish","Mini-Quest - Gather Bass IV","Mini-Quest
+        - Gather Pine Logs III","Mini-Quest - Gather Avo Logs II","Mini-Quest - Gather
+        Avo Logs","Mini-Quest - Gather Avo Logs III","Mini-Quest - Gather Avo Logs
+        IV","Mini-Quest - Gather Light Logs","Mini-Quest - Gather Light Logs II","Mini-Quest
+        - Gather Light Logs III","Mini-Quest - Gather Dark Logs II","Mini-Quest -
+        Gather Dark Logs","Mini-Quest - Gather Pine Logs","Mini-Quest - Gather Pine
+        Logs II","Mini-Quest - Gather Bamboo","Mini-Quest - Gather Acacia Logs II","Mini-Quest
+        - Gather Birch Logs","Mini-Quest - Gather Oak Logs","Mini-Quest - Gather Spruce
+        Logs II","Mini-Quest - Gather Spruce Logs","Mini-Quest - Gather Jungle Logs","Mini-Quest
+        - Gather Jungle Logs II","Mini-Quest - Gather Willow Logs","Mini-Quest - Gather
+        Willow Logs II","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather Dark
+        Logs III","Mini-Quest - Gather Malt"]},"itemsIdentified":0,"mobsKilled":31927,"pvp":{"kills":0,"deaths":0},"blocksWalked":254617201,"logins":2141,"deaths":101,"playtime":2308,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":63,"dexterity":0,"intelligence":65,"defence":0,"defense":0,"agility":72},"professions":{"alchemism":{"level":80,"xp":4.6},"armouring":{"level":77,"xp":86.1},"combat":{"level":106,"xp":1117.1},"cooking":{"level":76,"xp":65.1},"farming":{"level":99,"xp":47.4},"fishing":{"level":104,"xp":34.7},"jeweling":{"level":80,"xp":3.8},"mining":{"level":99,"xp":47.2},"scribing":{"level":80,"xp":6.5},"tailoring":{"level":70,"xp":12.5},"weaponsmithing":{"level":70,"xp":1.5},"woodcutting":{"level":99,"xp":48},"woodworking":{"level":80,"xp":18.7}},"discoveries":698,"eventsWon":0,"preEconomyUpdate":true},"2105a6eb-6e51-44ba-a6cc-26c82c88ab81":{"type":"KNIGHT","level":984,"dungeons":{"completed":202,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":12},{"name":"Corrupted Sand-Swept Tomb","completed":113},{"name":"Corrupted
+        Undergrowth Ruins","completed":34},{"name":"Eldritch Outlook","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Lost
+        Sanctuary","completed":1},{"name":"Underworld Crypt","completed":1},{"name":"Ice
+        Barrows","completed":1},{"name":"Sand-Swept Tomb","completed":1},{"name":"Undergrowth
+        Ruins","completed":4},{"name":"Galleon''s Graveyard","completed":3},{"name":"Corrupted
+        Ice Barrows","completed":5},{"name":"Corrupted Underworld Crypt","completed":9},{"name":"Corrupted
+        Infested Pit","completed":7},{"name":"Corrupted Lost Sanctuary","completed":5},{"name":"Corrupted
+        Galleon''s Graveyard","completed":3}]},"raids":{"completed":29,"list":[{"name":"Nest
+        of the Grootslangs","completed":1},{"name":"The Canyon Colossus","completed":9},{"name":"Orphion''s
+        Nexus of Light","completed":14},{"name":"The Nameless Anomaly","completed":5}]},"quests":{"completed":244,"list":["A
+        Hunter''s Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Mini-Quest - Slay Dragonlings","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Mini-Quest - Slay Azers","Dwarves
+        and Doguns Part III","The Feathers Fly Part II","Dwarves and Doguns Part II","Mini-Quest
+        - Slay Frosted Guards & Cryostone Golems","Dwarves and Doguns Part I","The
+        Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic Voyage","Mini-Quest
+        - Slay Pernix Monkeys","The Envoy Part II","Enter the Dojo","The Hidden City","Mini-Quest
+        - Slay Ailuropodas","Beyond the Grave","Mixed Feelings","Desperate Metal","Mini-Quest
+        - Slay Robots","The Envoy Part I","Mini-Quest - Slay Jinkos","From the Bottom","???","The
+        Qira Hive","Mini-Quest - Slay Hobgoblins","Realm of Light V - The Realm of
+        Light","Fallen Delivery","Mini-Quest - Slay Felrocs","The Bigger Picture","Flight
+        in Distress","Mini-Quest - Slay Weirds","Aldorei''s Secret Part I","Acquiring
+        Credentials","Reincarnation","Murder Mystery","Troubled Tribesmen","Mini-Quest
+        - Slay Myconids","Forbidden Prison","Lexdale Witch Trials","Realm of Light
+        IV - Finding the Light","Shattered Minds","Haven Antiquity","WynnExcavation
+        Site D","Mini-Quest - Slay Dead Villagers","Lazarus Pit","Grand Youth","Temple
+        of the Legends","Memory Paranoia","From the Mountains","Lost Soles","Lost
+        Royalty","Mini-Quest - Slay Idols","Realm of Light III - A Headless History","Out
+        of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Reclaiming
+        the House","Redbeard''s Booty","Beneath the Depths","Mini-Quest - Slay Wraiths
+        & Phantasms","The Order of the Grook","An Iron Heart Part II","The Passage","Zhight
+        Island","WynnExcavation Site C","Mini-Quest - Slay Lizardmen","Realm of Light
+        I - The Worm Holes","The Shadow of the Beast","Master Piece","Death Whistle","Jungle
+        Fever","Crop Failure","Corrupted Betrayal","The Maiden Tower","A Grave Mistake","Mini-Quest
+        - Slay Slimes","The House of Twain","An Iron Heart Part I","Rise of the Quartron","Frost
+        Bite","WynnExcavation Site B","Bob''s Lost Soul","Mini-Quest - Slay Orcs","Blazing
+        Retribution","Underice","Fate of the Fallen","Star Thief","Heart of Llevigar","Tower
+        of Ascension","Ice Nations","Mini-Quest - Slay Creatures of Nesaak Forest","Clearing
+        the Camps","Pirate''s Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation
+        Site A","Tribal Aggression","Mini-Quest - Slay Coyotes","Meaningful Holiday","Kingdom
+        of Sand","A Sandy Scandal","Green Gloop","The Mercenary","Craftmas Chaos","Mini-Quest
+        - Slay Scarabs","Misadventure on the Sea","Deja Vu","Lost Tower","The Corrupted
+        Village","Recover the Past","Mini-Quest - Slay Skeletons","Dwelling Walls","The
+        Dark Descent","Cluck Cluck","Pit of the Dead","Studying the Corrupt","Macabre
+        Masquerade ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Creeper
+        Infiltration","Mini-Quest - Slay Mooshrooms","Arachnids'' Ascent","Stable
+        Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook
+        Assistant","Poisoning the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest
+        - Gather Decay Roots III","Mini-Quest - Gather Bass II","Mini-Quest - Gather
+        Oats II","Mini-Quest - Gather Malt II","Mini-Quest - Gather Wheat","Mini-Quest
+        - Gather Barley","Mini-Quest - Gather Oats","Mini-Quest - Gather Sorghum II","Mini-Quest
+        - Gather Sorghum","Mini-Quest - Gather Sorghum IV","Mini-Quest - Gather Sorghum
+        III","Mini-Quest - Gather Rye","Mini-Quest - Gather Rye II","Mini-Quest -
+        Gather Hops II","Mini-Quest - Gather Hops","Mini-Quest - Gather Millet","Mini-Quest
+        - Gather Millet II","Mini-Quest - Gather Millet III","Mini-Quest - Gather
+        Decay Roots II","Mini-Quest - Gather Decay Roots","Mini-Quest - Gather Rice
+        IV","Mini-Quest - Gather Rice","Mini-Quest - Gather Rice II","Mini-Quest -
+        Gather Rice III","Mini-Quest - Gather Molten Ore III","Mini-Quest - Gather
+        Molten Ore IV","Mini-Quest - Gather Molten Ore II","Mini-Quest - Gather Molten
+        Ore","Mini-Quest - Gather Iron","Mini-Quest - Gather Cobalt III","Mini-Quest
+        - Gather Silver II","Mini-Quest - Gather Cobalt","Mini-Quest - Gather Iron
+        II","Mini-Quest - Gather Granite","Mini-Quest - Gather Copper","Mini-Quest
+        - Gather Gold","Mini-Quest - Gather Gold II","Mini-Quest - Gather Sandstone","Mini-Quest
+        - Gather Sandstone II","Mini-Quest - Gather Silver","Mini-Quest - Gather Cobalt
+        II","Mini-Quest - Gather Kanderstone II","Mini-Quest - Gather Kanderstone","Mini-Quest
+        - Gather Kanderstone III","Mini-Quest - Gather Diamonds III","Mini-Quest -
+        Gather Diamonds II","Mini-Quest - Gather Diamonds IV","Mini-Quest - Gather
+        Diamonds","Mini-Quest - Gather Molten Eel","Mini-Quest - Gather Molten Eel
+        II","Mini-Quest - Gather Molten Eel III","Mini-Quest - Gather Molten Eel IV","Mini-Quest
+        - Gather Bass IV","Mini-Quest - Gather Bass III","Mini-Quest - Gather Bass","Mini-Quest
+        - Gather Gylia Fish III","Mini-Quest - Gather Gylia Fish","Mini-Quest - Gather
+        Gylia Fish II","Mini-Quest - Gather Koi III","Mini-Quest - Gather Piranhas","Mini-Quest
+        - Gather Piranhas II","Mini-Quest - Gather Koi II","Mini-Quest - Gather Koi","Mini-Quest
+        - Gather Icefish","Mini-Quest - Gather Trout","Mini-Quest - Gather Gudgeon","Mini-Quest
+        - Gather Carp","Mini-Quest - Gather Carp II","Mini-Quest - Gather Salmon","Mini-Quest
+        - Gather Salmon II","Mini-Quest - Gather Icefish II","Mini-Quest - Gather
+        Dark Logs III","Mini-Quest - Gather Pine Logs","Mini-Quest - Gather Pine Logs
+        II","Mini-Quest - Gather Bamboo","Mini-Quest - Gather Light Logs","Mini-Quest
+        - Gather Light Logs II","Mini-Quest - Gather Light Logs III","Mini-Quest -
+        Gather Dark Logs II","Mini-Quest - Gather Dark Logs","Mini-Quest - Gather
+        Pine Logs III","Mini-Quest - Gather Avo Logs II","Mini-Quest - Gather Avo
+        Logs","Mini-Quest - Gather Avo Logs III","Mini-Quest - Gather Avo Logs IV","Mini-Quest
+        - Gather Willow Logs","Mini-Quest - Gather Willow Logs II","Mini-Quest - Gather
+        Acacia Logs","Mini-Quest - Gather Jungle Logs II","Mini-Quest - Gather Jungle
+        Logs","Mini-Quest - Gather Spruce Logs","Mini-Quest - Gather Spruce Logs II","Mini-Quest
+        - Gather Birch Logs","Mini-Quest - Gather Oak Logs","Mini-Quest - Gather Malt","Mini-Quest
+        - Gather Acacia Logs II"]},"itemsIdentified":0,"mobsKilled":25973,"pvp":{"kills":0,"deaths":0},"blocksWalked":225455215,"logins":1685,"deaths":111,"playtime":1630,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":46,"dexterity":32,"intelligence":36,"defence":53,"defense":53,"agility":33},"professions":{"alchemism":{"level":60,"xp":44},"armouring":{"level":71,"xp":11},"combat":{"level":106,"xp":149.3},"cooking":{"level":62,"xp":65.6},"farming":{"level":99,"xp":43.9},"fishing":{"level":99,"xp":41.2},"jeweling":{"level":60,"xp":31.8},"mining":{"level":99,"xp":48.1},"scribing":{"level":60,"xp":15.9},"tailoring":{"level":61,"xp":1.3},"weaponsmithing":{"level":60,"xp":26.4},"woodcutting":{"level":99,"xp":47.3},"woodworking":{"level":60,"xp":32.8}},"discoveries":674,"eventsWon":0,"preEconomyUpdate":true},"375317c7-eb1a-4f93-804e-7b9e450afee8":{"type":"MAGE","level":980,"dungeons":{"completed":522,"list":[{"name":"Decrepit
+        Sewers","completed":7},{"name":"Sand-Swept Tomb","completed":1},{"name":"Infested
+        Pit","completed":2},{"name":"Lost Sanctuary","completed":1},{"name":"Underworld
+        Crypt","completed":1},{"name":"Undergrowth Ruins","completed":2},{"name":"Corrupted
+        Sand-Swept Tomb","completed":377},{"name":"Corrupted Infested Pit","completed":15},{"name":"Corrupted
+        Lost Sanctuary","completed":21},{"name":"Corrupted Decrepit Sewers","completed":19},{"name":"Fallen
+        Factory","completed":5},{"name":"Corrupted Ice Barrows","completed":6},{"name":"Corrupted
+        Undergrowth Ruins","completed":64},{"name":"Eldritch Outlook","completed":1}]},"raids":{"completed":15,"list":[{"name":"The
+        Canyon Colossus","completed":8},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":6}]},"quests":{"completed":244,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Mini-Quest - Slay Dragonlings","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Dwarves and Doguns Part III","The
+        Feathers Fly Part II","Mini-Quest - Slay Azers","Mini-Quest - Slay Frosted
+        Guards & Cryostone Golems","Dwarves and Doguns Part II","Dwarves and Doguns
+        Part I","The Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic
+        Voyage","Mini-Quest - Slay Pernix Monkeys","The Envoy Part II","Enter the
+        Dojo","The Hidden City","Mini-Quest - Slay Ailuropodas","Mixed Feelings","Beyond
+        the Grave","Desperate Metal","Mini-Quest - Slay Robots","The Envoy Part I","Mini-Quest
+        - Slay Jinkos","From the Bottom","The Qira Hive","???","Mini-Quest - Slay
+        Hobgoblins","Fallen Delivery","Realm of Light V - The Realm of Light","Mini-Quest
+        - Slay Felrocs","The Bigger Picture","Flight in Distress","Mini-Quest - Slay
+        Weirds","Aldorei''s Secret Part I","Reincarnation","Acquiring Credentials","Murder
+        Mystery","Troubled Tribesmen","Mini-Quest - Slay Myconids","Forbidden Prison","Lexdale
+        Witch Trials","Realm of Light IV - Finding the Light","WynnExcavation Site
+        D","Haven Antiquity","Shattered Minds","Mini-Quest - Slay Dead Villagers","Grand
+        Youth","Lazarus Pit","Temple of the Legends","Memory Paranoia","From the Mountains","Lost
+        Soles","Lost Royalty","Mini-Quest - Slay Idols","Realm of Light III - A Headless
+        History","Out of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Redbeard''s
+        Booty","Reclaiming the House","Beneath the Depths","Mini-Quest - Slay Wraiths
+        & Phantasms","The Order of the Grook","An Iron Heart Part II","The Passage","WynnExcavation
+        Site C","Zhight Island","Mini-Quest - Slay Lizardmen","The Shadow of the Beast","Realm
+        of Light I - The Worm Holes","Master Piece","Death Whistle","Corrupted Betrayal","Jungle
+        Fever","Crop Failure","The Maiden Tower","A Grave Mistake","Mini-Quest - Slay
+        Slimes","The House of Twain","Rise of the Quartron","An Iron Heart Part I","Frost
+        Bite","WynnExcavation Site B","Bob''s Lost Soul","Mini-Quest - Slay Orcs","Blazing
+        Retribution","Underice","Fate of the Fallen","Star Thief","Heart of Llevigar","Tower
+        of Ascension","Ice Nations","Mini-Quest - Slay Creatures of Nesaak Forest","Clearing
+        the Camps","Pirate''s Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation
+        Site A","Tribal Aggression","Mini-Quest - Slay Coyotes","Meaningful Holiday","Kingdom
+        of Sand","A Sandy Scandal","Green Gloop","Craftmas Chaos","The Mercenary","Mini-Quest
+        - Slay Scarabs","Misadventure on the Sea","Deja Vu","The Corrupted Village","Lost
+        Tower","Recover the Past","Mini-Quest - Slay Skeletons","Dwelling Walls","The
+        Dark Descent","Cluck Cluck","Pit of the Dead","Macabre Masquerade ''''Hallowynn
+        2014''''","Studying the Corrupt","Grave Digger","Maltic''s Well","Mini-Quest
+        - Slay Mooshrooms","Creeper Infiltration","Arachnids'' Ascent","Stable Story","Potion
+        Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel Trouble","The
+        Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook Assistant","Poisoning
+        the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest - Gather Spruce
+        Logs","Mini-Quest - Gather Oats II","Mini-Quest - Gather Malt II","Mini-Quest
+        - Gather Wheat","Mini-Quest - Gather Barley","Mini-Quest - Gather Oats","Mini-Quest
+        - Gather Sorghum II","Mini-Quest - Gather Sorghum","Mini-Quest - Gather Sorghum
+        III","Mini-Quest - Gather Sorghum IV","Mini-Quest - Gather Rye","Mini-Quest
+        - Gather Rye II","Mini-Quest - Gather Hops II","Mini-Quest - Gather Hops","Mini-Quest
+        - Gather Millet","Mini-Quest - Gather Millet II","Mini-Quest - Gather Millet
+        III","Mini-Quest - Gather Decay Roots III","Mini-Quest - Gather Decay Roots
+        II","Mini-Quest - Gather Decay Roots","Mini-Quest - Gather Rice IV","Mini-Quest
+        - Gather Rice","Mini-Quest - Gather Rice II","Mini-Quest - Gather Rice III","Mini-Quest
+        - Gather Molten Ore III","Mini-Quest - Gather Molten Ore IV","Mini-Quest -
+        Gather Molten Ore II","Mini-Quest - Gather Molten Ore","Mini-Quest - Gather
+        Silver","Mini-Quest - Gather Cobalt II","Mini-Quest - Gather Kanderstone II","Mini-Quest
+        - Gather Kanderstone","Mini-Quest - Gather Kanderstone III","Mini-Quest -
+        Gather Diamonds III","Mini-Quest - Gather Diamonds II","Mini-Quest - Gather
+        Diamonds IV","Mini-Quest - Gather Diamonds","Mini-Quest - Gather Cobalt","Mini-Quest
+        - Gather Iron II","Mini-Quest - Gather Granite","Mini-Quest - Gather Copper","Mini-Quest
+        - Gather Gold","Mini-Quest - Gather Gold II","Mini-Quest - Gather Sandstone","Mini-Quest
+        - Gather Sandstone II","Mini-Quest - Gather Iron","Mini-Quest - Gather Cobalt
+        III","Mini-Quest - Gather Silver II","Mini-Quest - Gather Bass IV","Mini-Quest
+        - Gather Bass III","Mini-Quest - Gather Bass II","Mini-Quest - Gather Molten
+        Eel","Mini-Quest - Gather Molten Eel II","Mini-Quest - Gather Molten Eel III","Mini-Quest
+        - Gather Molten Eel IV","Mini-Quest - Gather Salmon II","Mini-Quest - Gather
+        Salmon","Mini-Quest - Gather Icefish II","Mini-Quest - Gather Bass","Mini-Quest
+        - Gather Gylia Fish III","Mini-Quest - Gather Gylia Fish","Mini-Quest - Gather
+        Gylia Fish II","Mini-Quest - Gather Koi III","Mini-Quest - Gather Piranhas","Mini-Quest
+        - Gather Piranhas II","Mini-Quest - Gather Koi II","Mini-Quest - Gather Koi","Mini-Quest
+        - Gather Icefish","Mini-Quest - Gather Trout","Mini-Quest - Gather Gudgeon","Mini-Quest
+        - Gather Carp","Mini-Quest - Gather Carp II","Mini-Quest - Gather Acacia Logs
+        II","Mini-Quest - Gather Pine Logs III","Mini-Quest - Gather Avo Logs II","Mini-Quest
+        - Gather Avo Logs","Mini-Quest - Gather Avo Logs III","Mini-Quest - Gather
+        Avo Logs IV","Mini-Quest - Gather Light Logs","Mini-Quest - Gather Light Logs
+        II","Mini-Quest - Gather Light Logs III","Mini-Quest - Gather Dark Logs II","Mini-Quest
+        - Gather Dark Logs","Mini-Quest - Gather Pine Logs","Mini-Quest - Gather Pine
+        Logs II","Mini-Quest - Gather Bamboo","Mini-Quest - Gather Jungle Logs II","Mini-Quest
+        - Gather Jungle Logs","Mini-Quest - Gather Spruce Logs II","Mini-Quest - Gather
+        Oak Logs","Mini-Quest - Gather Birch Logs","Mini-Quest - Gather Willow Logs","Mini-Quest
+        - Gather Willow Logs II","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather
+        Dark Logs III","Mini-Quest - Gather Malt"]},"itemsIdentified":0,"mobsKilled":156771,"pvp":{"kills":822,"deaths":90},"blocksWalked":159592576,"logins":4697,"deaths":352,"playtime":6806,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":52,"dexterity":49,"intelligence":0,"defence":55,"defense":55,"agility":44},"professions":{"alchemism":{"level":60,"xp":38.4},"armouring":{"level":70,"xp":29.1},"combat":{"level":106,"xp":348.7},"cooking":{"level":60,"xp":30},"farming":{"level":99,"xp":47.6},"fishing":{"level":99,"xp":47.2},"jeweling":{"level":60,"xp":79.9},"mining":{"level":99,"xp":47.2},"scribing":{"level":60,"xp":6.5},"tailoring":{"level":60,"xp":36.3},"weaponsmithing":{"level":60,"xp":18.8},"woodcutting":{"level":99,"xp":47.6},"woodworking":{"level":60,"xp":11.4}},"discoveries":688,"eventsWon":0,"preEconomyUpdate":true},"39c17773-94dd-450f-88c9-9e9f6800fb54":{"type":"ASSASSIN","level":980,"dungeons":{"completed":341,"list":[{"name":"Decrepit
+        Sewers","completed":9},{"name":"Infested Pit","completed":6},{"name":"Underworld
+        Crypt","completed":3},{"name":"Sand-Swept Tomb","completed":10},{"name":"Undergrowth
+        Ruins","completed":8},{"name":"Corrupted Decrepit Sewers","completed":15},{"name":"Ice
+        Barrows","completed":1},{"name":"Corrupted Sand-Swept Tomb","completed":225},{"name":"Corrupted
+        Infested Pit","completed":5},{"name":"Corrupted Undergrowth Ruins","completed":49},{"name":"Eldritch
+        Outlook","completed":2},{"name":"Corrupted Underworld Crypt","completed":6},{"name":"Corrupted
+        Lost Sanctuary","completed":1},{"name":"Corrupted Ice Barrows","completed":1}]},"raids":{"completed":32,"list":[{"name":"The
+        Canyon Colossus","completed":21},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":10}]},"quests":{"completed":244,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Mini-Quest - Slay Dragonlings","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Dwarves and Doguns Part III","The
+        Feathers Fly Part II","Mini-Quest - Slay Azers","Mini-Quest - Slay Frosted
+        Guards & Cryostone Golems","Dwarves and Doguns Part II","Dwarves and Doguns
+        Part I","The Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic
+        Voyage","Mini-Quest - Slay Pernix Monkeys","The Envoy Part II","Enter the
+        Dojo","The Hidden City","Mini-Quest - Slay Ailuropodas","Mixed Feelings","Beyond
+        the Grave","Desperate Metal","Mini-Quest - Slay Robots","The Envoy Part I","Mini-Quest
+        - Slay Jinkos","From the Bottom","???","The Qira Hive","Mini-Quest - Slay
+        Hobgoblins","Fallen Delivery","Realm of Light V - The Realm of Light","Mini-Quest
+        - Slay Felrocs","The Bigger Picture","Flight in Distress","Mini-Quest - Slay
+        Weirds","Aldorei''s Secret Part I","Reincarnation","Acquiring Credentials","Murder
+        Mystery","Troubled Tribesmen","Mini-Quest - Slay Myconids","Forbidden Prison","Lexdale
+        Witch Trials","Realm of Light IV - Finding the Light","WynnExcavation Site
+        D","Haven Antiquity","Shattered Minds","Mini-Quest - Slay Dead Villagers","Grand
+        Youth","Lazarus Pit","Temple of the Legends","Memory Paranoia","From the Mountains","Lost
+        Soles","Lost Royalty","Mini-Quest - Slay Idols","Realm of Light III - A Headless
+        History","Out of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Redbeard''s
+        Booty","Reclaiming the House","Beneath the Depths","Mini-Quest - Slay Wraiths
+        & Phantasms","The Order of the Grook","An Iron Heart Part II","The Passage","Zhight
+        Island","WynnExcavation Site C","Mini-Quest - Slay Lizardmen","The Shadow
+        of the Beast","Realm of Light I - The Worm Holes","Death Whistle","Master
+        Piece","Crop Failure","Jungle Fever","Corrupted Betrayal","The Maiden Tower","A
+        Grave Mistake","Mini-Quest - Slay Slimes","The House of Twain","Rise of the
+        Quartron","An Iron Heart Part I","Frost Bite","WynnExcavation Site B","Bob''s
+        Lost Soul","Mini-Quest - Slay Orcs","Blazing Retribution","Underice","Fate
+        of the Fallen","Star Thief","Heart of Llevigar","Ice Nations","Tower of Ascension","Mini-Quest
+        - Slay Creatures of Nesaak Forest","Clearing the Camps","Pirate''s Trove","Canyon
+        Condor","Wrath of the Mummy","Tribal Aggression","WynnExcavation Site A","Mini-Quest
+        - Slay Coyotes","Meaningful Holiday","Kingdom of Sand","A Sandy Scandal","Green
+        Gloop","Craftmas Chaos","The Mercenary","Mini-Quest - Slay Scarabs","Misadventure
+        on the Sea","Deja Vu","Lost Tower","The Corrupted Village","Recover the Past","Mini-Quest
+        - Slay Skeletons","Dwelling Walls","The Dark Descent","Pit of the Dead","Cluck
+        Cluck","Macabre Masquerade ''''Hallowynn 2014''''","Studying the Corrupt","Grave
+        Digger","Maltic''s Well","Mini-Quest - Slay Mooshrooms","Creeper Infiltration","Arachnids''
+        Ascent","Stable Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook
+        Assistant","Poisoning the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest
+        - Gather Oats II","Mini-Quest - Gather Malt II","Mini-Quest - Gather Barley","Mini-Quest
+        - Gather Wheat","Mini-Quest - Gather Oats","Mini-Quest - Gather Sorghum II","Mini-Quest
+        - Gather Sorghum","Mini-Quest - Gather Sorghum III","Mini-Quest - Gather Sorghum
+        IV","Mini-Quest - Gather Rye","Mini-Quest - Gather Rye II","Mini-Quest - Gather
+        Hops II","Mini-Quest - Gather Hops","Mini-Quest - Gather Millet","Mini-Quest
+        - Gather Millet II","Mini-Quest - Gather Millet III","Mini-Quest - Gather
+        Decay Roots III","Mini-Quest - Gather Decay Roots","Mini-Quest - Gather Decay
+        Roots II","Mini-Quest - Gather Rice IV","Mini-Quest - Gather Rice","Mini-Quest
+        - Gather Rice II","Mini-Quest - Gather Rice III","Mini-Quest - Gather Molten
+        Ore","Mini-Quest - Gather Molten Ore II","Mini-Quest - Gather Molten Ore IV","Mini-Quest
+        - Gather Molten Ore III","Mini-Quest - Gather Granite","Mini-Quest - Gather
+        Copper","Mini-Quest - Gather Gold","Mini-Quest - Gather Gold II","Mini-Quest
+        - Gather Sandstone","Mini-Quest - Gather Sandstone II","Mini-Quest - Gather
+        Cobalt","Mini-Quest - Gather Iron II","Mini-Quest - Gather Iron","Mini-Quest
+        - Gather Cobalt III","Mini-Quest - Gather Silver II","Mini-Quest - Gather
+        Silver","Mini-Quest - Gather Cobalt II","Mini-Quest - Gather Kanderstone II","Mini-Quest
+        - Gather Kanderstone","Mini-Quest - Gather Kanderstone III","Mini-Quest -
+        Gather Diamonds III","Mini-Quest - Gather Diamonds II","Mini-Quest - Gather
+        Diamonds IV","Mini-Quest - Gather Diamonds","Mini-Quest - Gather Gylia Fish
+        III","Mini-Quest - Gather Bass","Mini-Quest - Gather Gylia Fish","Mini-Quest
+        - Gather Gylia Fish II","Mini-Quest - Gather Koi III","Mini-Quest - Gather
+        Icefish II","Mini-Quest - Gather Bass IV","Mini-Quest - Gather Bass III","Mini-Quest
+        - Gather Bass II","Mini-Quest - Gather Molten Eel","Mini-Quest - Gather Molten
+        Eel II","Mini-Quest - Gather Molten Eel III","Mini-Quest - Gather Molten Eel
+        IV","Mini-Quest - Gather Piranhas","Mini-Quest - Gather Piranhas II","Mini-Quest
+        - Gather Koi II","Mini-Quest - Gather Koi","Mini-Quest - Gather Icefish","Mini-Quest
+        - Gather Trout","Mini-Quest - Gather Gudgeon","Mini-Quest - Gather Salmon
+        II","Mini-Quest - Gather Salmon","Mini-Quest - Gather Carp","Mini-Quest -
+        Gather Carp II","Mini-Quest - Gather Acacia Logs II","Mini-Quest - Gather
+        Spruce Logs","Mini-Quest - Gather Spruce Logs II","Mini-Quest - Gather Jungle
+        Logs","Mini-Quest - Gather Jungle Logs II","Mini-Quest - Gather Pine Logs","Mini-Quest
+        - Gather Pine Logs II","Mini-Quest - Gather Bamboo","Mini-Quest - Gather Light
+        Logs","Mini-Quest - Gather Light Logs II","Mini-Quest - Gather Light Logs
+        III","Mini-Quest - Gather Dark Logs II","Mini-Quest - Gather Dark Logs","Mini-Quest
+        - Gather Pine Logs III","Mini-Quest - Gather Avo Logs","Mini-Quest - Gather
+        Avo Logs II","Mini-Quest - Gather Avo Logs III","Mini-Quest - Gather Avo Logs
+        IV","Mini-Quest - Gather Willow Logs","Mini-Quest - Gather Willow Logs II","Mini-Quest
+        - Gather Acacia Logs","Mini-Quest - Gather Dark Logs III","Mini-Quest - Gather
+        Birch Logs","Mini-Quest - Gather Oak Logs","Mini-Quest - Gather Malt"]},"itemsIdentified":0,"mobsKilled":53074,"pvp":{"kills":89,"deaths":54},"blocksWalked":260953593,"logins":3974,"deaths":271,"playtime":6784,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":5,"intelligence":69,"defence":73,"defense":73,"agility":53},"professions":{"alchemism":{"level":60,"xp":29.9},"armouring":{"level":70,"xp":10.1},"combat":{"level":106,"xp":1084.8},"cooking":{"level":60,"xp":33.8},"farming":{"level":99,"xp":48.2},"fishing":{"level":99,"xp":47.7},"jeweling":{"level":60,"xp":21.5},"mining":{"level":99,"xp":48.1},"scribing":{"level":60,"xp":16},"tailoring":{"level":60,"xp":18.8},"weaponsmithing":{"level":60,"xp":43.2},"woodcutting":{"level":99,"xp":47.5},"woodworking":{"level":60,"xp":8.2}},"discoveries":694,"eventsWon":0,"preEconomyUpdate":true},"ffcee619-2d69-42fd-bc12-390d854bdb43":{"type":"WARRIOR","level":980,"dungeons":{"completed":300,"list":[{"name":"Sand-Swept
+        Tomb","completed":4},{"name":"Corrupted Decrepit Sewers","completed":27},{"name":"Corrupted
+        Infested Pit","completed":10},{"name":"Corrupted Sand-Swept Tomb","completed":204},{"name":"Corrupted
+        Underworld Crypt","completed":8},{"name":"Corrupted Lost Sanctuary","completed":8},{"name":"Ice
+        Barrows","completed":3},{"name":"Undergrowth Ruins","completed":3},{"name":"Infested
+        Pit","completed":3},{"name":"Underworld Crypt","completed":3},{"name":"Eldritch
+        Outlook","completed":1},{"name":"Corrupted Undergrowth Ruins","completed":26}]},"raids":{"completed":73,"list":[{"name":"The
+        Canyon Colossus","completed":24},{"name":"Orphion''s Nexus of Light","completed":15},{"name":"Nest
+        of the Grootslangs","completed":12},{"name":"The Nameless Anomaly","completed":22}]},"quests":{"completed":244,"list":["A
+        Hunter''s Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Mini-Quest - Slay Dragonlings","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Dwarves and Doguns Part III","The
+        Feathers Fly Part II","Mini-Quest - Slay Azers","Dwarves and Doguns Part II","Mini-Quest
+        - Slay Frosted Guards & Cryostone Golems","Dwarves and Doguns Part I","Mini-Quest
+        - Slay Magma Entities","The Feathers Fly Part I","Fantastic Voyage","Mini-Quest
+        - Slay Pernix Monkeys","The Envoy Part II","Enter the Dojo","The Hidden City","Mini-Quest
+        - Slay Ailuropodas","Mixed Feelings","Beyond the Grave","Desperate Metal","Mini-Quest
+        - Slay Robots","The Envoy Part I","Mini-Quest - Slay Jinkos","From the Bottom","???","The
+        Qira Hive","Mini-Quest - Slay Hobgoblins","Fallen Delivery","Realm of Light
+        V - The Realm of Light","Mini-Quest - Slay Felrocs","The Bigger Picture","Flight
+        in Distress","Mini-Quest - Slay Weirds","Aldorei''s Secret Part I","Reincarnation","Acquiring
+        Credentials","Murder Mystery","Troubled Tribesmen","Mini-Quest - Slay Myconids","Forbidden
+        Prison","Lexdale Witch Trials","Realm of Light IV - Finding the Light","WynnExcavation
+        Site D","Haven Antiquity","Shattered Minds","Mini-Quest - Slay Dead Villagers","Grand
+        Youth","Lazarus Pit","Temple of the Legends","Memory Paranoia","From the Mountains","Lost
+        Soles","Lost Royalty","Mini-Quest - Slay Idols","Realm of Light III - A Headless
+        History","Out of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Redbeard''s
+        Booty","Reclaiming the House","Beneath the Depths","Mini-Quest - Slay Wraiths
+        & Phantasms","The Order of the Grook","An Iron Heart Part II","The Passage","WynnExcavation
+        Site C","Zhight Island","Mini-Quest - Slay Lizardmen","The Shadow of the Beast","Realm
+        of Light I - The Worm Holes","Master Piece","Death Whistle","Corrupted Betrayal","Jungle
+        Fever","Crop Failure","The Maiden Tower","A Grave Mistake","Mini-Quest - Slay
+        Slimes","The House of Twain","Rise of the Quartron","An Iron Heart Part I","Frost
+        Bite","WynnExcavation Site B","Bob''s Lost Soul","Mini-Quest - Slay Orcs","Blazing
+        Retribution","Underice","Fate of the Fallen","Star Thief","Heart of Llevigar","Tower
+        of Ascension","Ice Nations","Mini-Quest - Slay Creatures of Nesaak Forest","Clearing
+        the Camps","Pirate''s Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation
+        Site A","Tribal Aggression","Mini-Quest - Slay Coyotes","Kingdom of Sand","Meaningful
+        Holiday","A Sandy Scandal","Green Gloop","Craftmas Chaos","The Mercenary","Mini-Quest
+        - Slay Scarabs","Misadventure on the Sea","Deja Vu","The Corrupted Village","Lost
+        Tower","Recover the Past","Mini-Quest - Slay Skeletons","The Dark Descent","Dwelling
+        Walls","Cluck Cluck","Pit of the Dead","Macabre Masquerade ''''Hallowynn 2014''''","Studying
+        the Corrupt","Grave Digger","Maltic''s Well","Creeper Infiltration","Mini-Quest
+        - Slay Mooshrooms","Arachnids'' Ascent","Stable Story","Potion Making","Elemental
+        Exercise","Mushroom Man","Underwater","Tunnel Trouble","The Sewers of Ragni","Infested
+        Plants","Mini-Quest - Slay Spiders","Cook Assistant","Poisoning the Pest","King''s
+        Recruit","Enzan''s Brother","Mini-Quest - Gather Oats II","Mini-Quest - Gather
+        Malt II","Mini-Quest - Gather Barley","Mini-Quest - Gather Wheat","Mini-Quest
+        - Gather Oats","Mini-Quest - Gather Sorghum II","Mini-Quest - Gather Sorghum","Mini-Quest
+        - Gather Sorghum III","Mini-Quest - Gather Sorghum IV","Mini-Quest - Gather
+        Rye","Mini-Quest - Gather Rye II","Mini-Quest - Gather Hops II","Mini-Quest
+        - Gather Hops","Mini-Quest - Gather Millet","Mini-Quest - Gather Millet II","Mini-Quest
+        - Gather Decay Roots","Mini-Quest - Gather Decay Roots II","Mini-Quest - Gather
+        Decay Roots III","Mini-Quest - Gather Millet III","Mini-Quest - Gather Rice
+        IV","Mini-Quest - Gather Rice","Mini-Quest - Gather Rice II","Mini-Quest -
+        Gather Rice III","Mini-Quest - Gather Molten Ore III","Mini-Quest - Gather
+        Molten Ore IV","Mini-Quest - Gather Molten Ore","Mini-Quest - Gather Molten
+        Ore II","Mini-Quest - Gather Iron","Mini-Quest - Gather Cobalt III","Mini-Quest
+        - Gather Silver II","Mini-Quest - Gather Cobalt","Mini-Quest - Gather Iron
+        II","Mini-Quest - Gather Granite","Mini-Quest - Gather Copper","Mini-Quest
+        - Gather Gold","Mini-Quest - Gather Gold II","Mini-Quest - Gather Sandstone","Mini-Quest
+        - Gather Sandstone II","Mini-Quest - Gather Silver","Mini-Quest - Gather Cobalt
+        II","Mini-Quest - Gather Kanderstone II","Mini-Quest - Gather Kanderstone","Mini-Quest
+        - Gather Kanderstone III","Mini-Quest - Gather Diamonds III","Mini-Quest -
+        Gather Diamonds II","Mini-Quest - Gather Diamonds IV","Mini-Quest - Gather
+        Diamonds","Mini-Quest - Gather Molten Eel","Mini-Quest - Gather Molten Eel
+        II","Mini-Quest - Gather Molten Eel III","Mini-Quest - Gather Molten Eel IV","Mini-Quest
+        - Gather Bass","Mini-Quest - Gather Gylia Fish III","Mini-Quest - Gather Gylia
+        Fish","Mini-Quest - Gather Gylia Fish II","Mini-Quest - Gather Koi III","Mini-Quest
+        - Gather Salmon II","Mini-Quest - Gather Salmon","Mini-Quest - Gather Icefish
+        II","Mini-Quest - Gather Bass IV","Mini-Quest - Gather Bass II","Mini-Quest
+        - Gather Bass III","Mini-Quest - Gather Piranhas","Mini-Quest - Gather Piranhas
+        II","Mini-Quest - Gather Koi II","Mini-Quest - Gather Koi","Mini-Quest - Gather
+        Icefish","Mini-Quest - Gather Trout","Mini-Quest - Gather Gudgeon","Mini-Quest
+        - Gather Carp","Mini-Quest - Gather Carp II","Mini-Quest - Gather Acacia Logs
+        II","Mini-Quest - Gather Pine Logs III","Mini-Quest - Gather Avo Logs II","Mini-Quest
+        - Gather Avo Logs","Mini-Quest - Gather Avo Logs III","Mini-Quest - Gather
+        Avo Logs IV","Mini-Quest - Gather Light Logs","Mini-Quest - Gather Light Logs
+        II","Mini-Quest - Gather Light Logs III","Mini-Quest - Gather Dark Logs II","Mini-Quest
+        - Gather Dark Logs","Mini-Quest - Gather Pine Logs","Mini-Quest - Gather Pine
+        Logs II","Mini-Quest - Gather Bamboo","Mini-Quest - Gather Willow Logs","Mini-Quest
+        - Gather Willow Logs II","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather
+        Dark Logs III","Mini-Quest - Gather Spruce Logs","Mini-Quest - Gather Spruce
+        Logs II","Mini-Quest - Gather Jungle Logs","Mini-Quest - Gather Jungle Logs
+        II","Mini-Quest - Gather Birch Logs","Mini-Quest - Gather Oak Logs","Mini-Quest
+        - Gather Malt"]},"itemsIdentified":0,"mobsKilled":163058,"pvp":{"kills":3,"deaths":4},"blocksWalked":57752432,"logins":4029,"deaths":254,"playtime":4923,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":29,"defence":71,"defense":71,"agility":100},"professions":{"alchemism":{"level":60,"xp":54.1},"armouring":{"level":70,"xp":11.7},"combat":{"level":106,"xp":570.2},"cooking":{"level":60,"xp":25.2},"farming":{"level":99,"xp":47.3},"fishing":{"level":99,"xp":49},"jeweling":{"level":60,"xp":16.1},"mining":{"level":99,"xp":47.3},"scribing":{"level":60,"xp":6.2},"tailoring":{"level":60,"xp":1.8},"weaponsmithing":{"level":60,"xp":14.2},"woodcutting":{"level":99,"xp":47.9},"woodworking":{"level":60,"xp":32.7}},"discoveries":690,"eventsWon":0,"preEconomyUpdate":true},"2e2cf2b8-337e-4a08-ab9f-2f29efd2f860":{"type":"NINJA","level":980,"dungeons":{"completed":293,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":19},{"name":"Corrupted Sand-Swept Tomb","completed":203},{"name":"Corrupted
+        Ice Barrows","completed":8},{"name":"Eldritch Outlook","completed":4},{"name":"Corrupted
+        Undergrowth Ruins","completed":38},{"name":"Corrupted Underworld Crypt","completed":3},{"name":"Corrupted
+        Infested Pit","completed":2},{"name":"Corrupted Lost Sanctuary","completed":3},{"name":"Lost
+        Sanctuary","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Underworld Crypt","completed":1},{"name":"Undergrowth
+        Ruins","completed":6},{"name":"Galleon''s Graveyard","completed":3}]},"raids":{"completed":65,"list":[{"name":"The
+        Canyon Colossus","completed":24},{"name":"Nest of the Grootslangs","completed":7},{"name":"Orphion''s
+        Nexus of Light","completed":34}]},"quests":{"completed":244,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Mini-Quest - Slay Dragonlings","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Dwarves and Doguns Part III","The
+        Feathers Fly Part II","Mini-Quest - Slay Azers","Dwarves and Doguns Part II","Mini-Quest
+        - Slay Frosted Guards & Cryostone Golems","Dwarves and Doguns Part I","The
+        Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic Voyage","Mini-Quest
+        - Slay Pernix Monkeys","The Envoy Part II","Enter the Dojo","The Hidden City","Mini-Quest
+        - Slay Ailuropodas","Mixed Feelings","Beyond the Grave","Desperate Metal","Mini-Quest
+        - Slay Robots","The Envoy Part I","Mini-Quest - Slay Jinkos","From the Bottom","???","The
+        Qira Hive","Mini-Quest - Slay Hobgoblins","Realm of Light V - The Realm of
+        Light","Fallen Delivery","Mini-Quest - Slay Felrocs","The Bigger Picture","Flight
+        in Distress","Mini-Quest - Slay Weirds","Aldorei''s Secret Part I","Acquiring
+        Credentials","Reincarnation","Troubled Tribesmen","Murder Mystery","Mini-Quest
+        - Slay Myconids","Forbidden Prison","Lexdale Witch Trials","Realm of Light
+        IV - Finding the Light","Shattered Minds","Haven Antiquity","WynnExcavation
+        Site D","Mini-Quest - Slay Dead Villagers","Lazarus Pit","Grand Youth","Temple
+        of the Legends","Memory Paranoia","From the Mountains","Lost Soles","Lost
+        Royalty","Mini-Quest - Slay Idols","Realm of Light III - A Headless History","Out
+        of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Reclaiming
+        the House","Redbeard''s Booty","Beneath the Depths","Mini-Quest - Slay Wraiths
+        & Phantasms","The Order of the Grook","An Iron Heart Part II","The Passage","WynnExcavation
+        Site C","Zhight Island","Mini-Quest - Slay Lizardmen","Realm of Light I -
+        The Worm Holes","The Shadow of the Beast","Master Piece","Death Whistle","Corrupted
+        Betrayal","Jungle Fever","Crop Failure","The Maiden Tower","A Grave Mistake","Mini-Quest
+        - Slay Slimes","The House of Twain","Rise of the Quartron","An Iron Heart
+        Part I","Frost Bite","WynnExcavation Site B","Bob''s Lost Soul","Mini-Quest
+        - Slay Orcs","Blazing Retribution","Fate of the Fallen","Underice","Star Thief","Heart
+        of Llevigar","Ice Nations","Tower of Ascension","Mini-Quest - Slay Creatures
+        of Nesaak Forest","Clearing the Camps","Pirate''s Trove","Canyon Condor","Wrath
+        of the Mummy","WynnExcavation Site A","Tribal Aggression","Mini-Quest - Slay
+        Coyotes","Meaningful Holiday","Kingdom of Sand","A Sandy Scandal","Green Gloop","Craftmas
+        Chaos","Mini-Quest - Slay Scarabs","The Mercenary","Misadventure on the Sea","Deja
+        Vu","Lost Tower","The Corrupted Village","Recover the Past","Mini-Quest -
+        Slay Skeletons","Dwelling Walls","The Dark Descent","Cluck Cluck","Pit of
+        the Dead","Studying the Corrupt","Macabre Masquerade ''''Hallowynn 2014''''","Grave
+        Digger","Maltic''s Well","Mini-Quest - Slay Mooshrooms","Creeper Infiltration","Arachnids''
+        Ascent","Stable Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook
+        Assistant","Poisoning the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest
+        - Gather Oats II","Mini-Quest - Gather Malt II","Mini-Quest - Gather Barley","Mini-Quest
+        - Gather Wheat","Mini-Quest - Gather Oats","Mini-Quest - Gather Sorghum II","Mini-Quest
+        - Gather Sorghum","Mini-Quest - Gather Sorghum III","Mini-Quest - Gather Sorghum
+        IV","Mini-Quest - Gather Rye","Mini-Quest - Gather Rye II","Mini-Quest - Gather
+        Hops II","Mini-Quest - Gather Hops","Mini-Quest - Gather Millet","Mini-Quest
+        - Gather Millet II","Mini-Quest - Gather Millet III","Mini-Quest - Gather
+        Decay Roots III","Mini-Quest - Gather Decay Roots","Mini-Quest - Gather Decay
+        Roots II","Mini-Quest - Gather Rice IV","Mini-Quest - Gather Rice","Mini-Quest
+        - Gather Rice II","Mini-Quest - Gather Rice III","Mini-Quest - Gather Molten
+        Ore","Mini-Quest - Gather Molten Ore II","Mini-Quest - Gather Molten Ore IV","Mini-Quest
+        - Gather Molten Ore III","Mini-Quest - Gather Iron","Mini-Quest - Gather Cobalt
+        III","Mini-Quest - Gather Silver II","Mini-Quest - Gather Granite","Mini-Quest
+        - Gather Gudgeon","Mini-Quest - Gather Copper","Mini-Quest - Gather Gold","Mini-Quest
+        - Gather Gold II","Mini-Quest - Gather Sandstone","Mini-Quest - Gather Sandstone
+        II","Mini-Quest - Gather Cobalt","Mini-Quest - Gather Iron II","Mini-Quest
+        - Gather Silver","Mini-Quest - Gather Cobalt II","Mini-Quest - Gather Kanderstone
+        II","Mini-Quest - Gather Kanderstone","Mini-Quest - Gather Kanderstone III","Mini-Quest
+        - Gather Diamonds III","Mini-Quest - Gather Diamonds IV","Mini-Quest - Gather
+        Diamonds II","Mini-Quest - Gather Diamonds","Mini-Quest - Gather Molten Eel","Mini-Quest
+        - Gather Molten Eel II","Mini-Quest - Gather Molten Eel III","Mini-Quest -
+        Gather Molten Eel IV","Mini-Quest - Gather Salmon","Mini-Quest - Gather Salmon
+        II","Mini-Quest - Gather Icefish II","Mini-Quest - Gather Bass IV","Mini-Quest
+        - Gather Bass III","Mini-Quest - Gather Bass II","Mini-Quest - Gather Bass","Mini-Quest
+        - Gather Gylia Fish III","Mini-Quest - Gather Gylia Fish","Mini-Quest - Gather
+        Gylia Fish II","Mini-Quest - Gather Koi III","Mini-Quest - Gather Piranhas","Mini-Quest
+        - Gather Piranhas II","Mini-Quest - Gather Koi II","Mini-Quest - Gather Koi","Mini-Quest
+        - Gather Icefish","Mini-Quest - Gather Trout","Mini-Quest - Gather Carp","Mini-Quest
+        - Gather Carp II","Mini-Quest - Gather Acacia Logs II","Mini-Quest - Gather
+        Willow Logs","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather Willow
+        Logs II","Mini-Quest - Gather Dark Logs III","Mini-Quest - Gather Light Logs","Mini-Quest
+        - Gather Light Logs II","Mini-Quest - Gather Light Logs III","Mini-Quest -
+        Gather Dark Logs II","Mini-Quest - Gather Dark Logs","Mini-Quest - Gather
+        Pine Logs","Mini-Quest - Gather Pine Logs II","Mini-Quest - Gather Bamboo","Mini-Quest
+        - Gather Pine Logs III","Mini-Quest - Gather Avo Logs II","Mini-Quest - Gather
+        Avo Logs","Mini-Quest - Gather Avo Logs III","Mini-Quest - Gather Avo Logs
+        IV","Mini-Quest - Gather Jungle Logs II","Mini-Quest - Gather Jungle Logs","Mini-Quest
+        - Gather Spruce Logs","Mini-Quest - Gather Spruce Logs II","Mini-Quest - Gather
+        Birch Logs","Mini-Quest - Gather Oak Logs","Mini-Quest - Gather Malt"]},"itemsIdentified":0,"mobsKilled":32583,"pvp":{"kills":46,"deaths":35},"blocksWalked":81162034,"logins":3746,"deaths":153,"playtime":7336,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":37,"dexterity":0,"intelligence":61,"defence":81,"defense":81,"agility":21},"professions":{"alchemism":{"level":60,"xp":5},"armouring":{"level":70,"xp":15.7},"combat":{"level":106,"xp":85.3},"cooking":{"level":60,"xp":42.2},"farming":{"level":99,"xp":47.7},"fishing":{"level":99,"xp":47.5},"jeweling":{"level":60,"xp":62.8},"mining":{"level":99,"xp":49.4},"scribing":{"level":60,"xp":13.5},"tailoring":{"level":60,"xp":45.4},"weaponsmithing":{"level":60,"xp":19.2},"woodcutting":{"level":99,"xp":47.5},"woodworking":{"level":60,"xp":26.5}},"discoveries":666,"eventsWon":0,"preEconomyUpdate":true},"4bf32f80-8de9-4411-a0a3-13de49c47bd6":{"type":"KNIGHT","level":980,"dungeons":{"completed":1409,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":5},{"name":"Corrupted Underworld Crypt","completed":5},{"name":"Corrupted
+        Sand-Swept Tomb","completed":1109},{"name":"Corrupted Ice Barrows","completed":6},{"name":"Corrupted
+        Undergrowth Ruins","completed":274},{"name":"Eldritch Outlook","completed":4},{"name":"Corrupted
+        Infested Pit","completed":1},{"name":"Corrupted Lost Sanctuary","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Undergrowth
+        Ruins","completed":1},{"name":"Underworld Crypt","completed":1}]},"raids":{"completed":21,"list":[{"name":"The
+        Canyon Colossus","completed":9},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":6},{"name":"The Nameless Anomaly","completed":5}]},"quests":{"completed":244,"list":["A
+        Hunter''s Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Mini-Quest - Slay Dragonlings","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Dwarves and Doguns Part III","The
+        Feathers Fly Part II","Mini-Quest - Slay Azers","Dwarves and Doguns Part II","Mini-Quest
+        - Slay Frosted Guards & Cryostone Golems","Dwarves and Doguns Part I","The
+        Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic Voyage","Mini-Quest
+        - Slay Pernix Monkeys","Enter the Dojo","The Envoy Part II","The Hidden City","Mini-Quest
+        - Slay Ailuropodas","Mixed Feelings","Beyond the Grave","Desperate Metal","Mini-Quest
+        - Slay Robots","The Envoy Part I","Mini-Quest - Slay Jinkos","From the Bottom","???","The
+        Qira Hive","Mini-Quest - Slay Hobgoblins","Realm of Light V - The Realm of
+        Light","Fallen Delivery","Mini-Quest - Slay Felrocs","The Bigger Picture","Flight
+        in Distress","Mini-Quest - Slay Weirds","Aldorei''s Secret Part I","Acquiring
+        Credentials","Reincarnation","Murder Mystery","Troubled Tribesmen","Mini-Quest
+        - Slay Myconids","Forbidden Prison","Lexdale Witch Trials","Realm of Light
+        IV - Finding the Light","WynnExcavation Site D","Shattered Minds","Haven Antiquity","Mini-Quest
+        - Slay Dead Villagers","Grand Youth","Lazarus Pit","Temple of the Legends","Memory
+        Paranoia","From the Mountains","Lost Soles","Lost Royalty","Mini-Quest - Slay
+        Idols","Realm of Light III - A Headless History","Out of my Mind","Realm of
+        Light II - Taproot","Lost in the Jungle","Reclaiming the House","Redbeard''s
+        Booty","Beneath the Depths","Mini-Quest - Slay Wraiths & Phantasms","The Order
+        of the Grook","An Iron Heart Part II","The Passage","WynnExcavation Site C","Zhight
+        Island","Mini-Quest - Slay Lizardmen","Realm of Light I - The Worm Holes","The
+        Shadow of the Beast","Master Piece","Death Whistle","Crop Failure","Corrupted
+        Betrayal","Jungle Fever","The Maiden Tower","A Grave Mistake","Mini-Quest
+        - Slay Slimes","The House of Twain","Rise of the Quartron","An Iron Heart
+        Part I","Frost Bite","WynnExcavation Site B","Bob''s Lost Soul","Mini-Quest
+        - Slay Orcs","Blazing Retribution","Fate of the Fallen","Underice","Star Thief","Heart
+        of Llevigar","Ice Nations","Tower of Ascension","Mini-Quest - Slay Creatures
+        of Nesaak Forest","Clearing the Camps","Pirate''s Trove","Canyon Condor","Wrath
+        of the Mummy","WynnExcavation Site A","Tribal Aggression","Mini-Quest - Slay
+        Coyotes","Meaningful Holiday","Kingdom of Sand","A Sandy Scandal","Green Gloop","The
+        Mercenary","Craftmas Chaos","Mini-Quest - Slay Scarabs","Misadventure on the
+        Sea","Deja Vu","Lost Tower","The Corrupted Village","Recover the Past","Mini-Quest
+        - Slay Skeletons","The Dark Descent","Dwelling Walls","Cluck Cluck","Pit of
+        the Dead","Studying the Corrupt","Macabre Masquerade ''''Hallowynn 2014''''","Grave
+        Digger","Maltic''s Well","Creeper Infiltration","Mini-Quest - Slay Mooshrooms","Arachnids''
+        Ascent","Stable Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook
+        Assistant","Poisoning the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest
+        - Gather Bass II","Mini-Quest - Gather Oats II","Mini-Quest - Gather Malt
+        II","Mini-Quest - Gather Barley","Mini-Quest - Gather Wheat","Mini-Quest -
+        Gather Oats","Mini-Quest - Gather Sorghum II","Mini-Quest - Gather Sorghum","Mini-Quest
+        - Gather Sorghum III","Mini-Quest - Gather Sorghum IV","Mini-Quest - Gather
+        Rye","Mini-Quest - Gather Rye II","Mini-Quest - Gather Hops II","Mini-Quest
+        - Gather Hops","Mini-Quest - Gather Millet","Mini-Quest - Gather Millet II","Mini-Quest
+        - Gather Millet III","Mini-Quest - Gather Decay Roots III","Mini-Quest - Gather
+        Decay Roots","Mini-Quest - Gather Decay Roots II","Mini-Quest - Gather Rice
+        IV","Mini-Quest - Gather Rice","Mini-Quest - Gather Rice II","Mini-Quest -
+        Gather Rice III","Mini-Quest - Gather Molten Ore IV","Mini-Quest - Gather
+        Molten Ore III","Mini-Quest - Gather Molten Ore II","Mini-Quest - Gather Molten
+        Ore","Mini-Quest - Gather Iron","Mini-Quest - Gather Cobalt III","Mini-Quest
+        - Gather Silver II","Mini-Quest - Gather Cobalt","Mini-Quest - Gather Iron
+        II","Mini-Quest - Gather Granite","Mini-Quest - Gather Copper","Mini-Quest
+        - Gather Gold","Mini-Quest - Gather Gold II","Mini-Quest - Gather Sandstone","Mini-Quest
+        - Gather Sandstone II","Mini-Quest - Gather Silver","Mini-Quest - Gather Cobalt
+        II","Mini-Quest - Gather Kanderstone II","Mini-Quest - Gather Kanderstone","Mini-Quest
+        - Gather Kanderstone III","Mini-Quest - Gather Diamonds III","Mini-Quest -
+        Gather Diamonds II","Mini-Quest - Gather Diamonds IV","Mini-Quest - Gather
+        Diamonds","Mini-Quest - Gather Molten Eel","Mini-Quest - Gather Molten Eel
+        II","Mini-Quest - Gather Molten Eel III","Mini-Quest - Gather Molten Eel IV","Mini-Quest
+        - Gather Bass IV","Mini-Quest - Gather Bass III","Mini-Quest - Gather Icefish
+        II","Mini-Quest - Gather Bass","Mini-Quest - Gather Gylia Fish III","Mini-Quest
+        - Gather Gylia Fish","Mini-Quest - Gather Gylia Fish II","Mini-Quest - Gather
+        Koi III","Mini-Quest - Gather Piranhas","Mini-Quest - Gather Piranhas II","Mini-Quest
+        - Gather Koi II","Mini-Quest - Gather Koi","Mini-Quest - Gather Icefish","Mini-Quest
+        - Gather Trout","Mini-Quest - Gather Gudgeon","Mini-Quest - Gather Salmon","Mini-Quest
+        - Gather Salmon II","Mini-Quest - Gather Carp","Mini-Quest - Gather Carp II","Mini-Quest
+        - Gather Acacia Logs II","Mini-Quest - Gather Pine Logs III","Mini-Quest -
+        Gather Avo Logs II","Mini-Quest - Gather Avo Logs","Mini-Quest - Gather Avo
+        Logs III","Mini-Quest - Gather Avo Logs IV","Mini-Quest - Gather Light Logs","Mini-Quest
+        - Gather Light Logs II","Mini-Quest - Gather Light Logs III","Mini-Quest -
+        Gather Dark Logs II","Mini-Quest - Gather Dark Logs","Mini-Quest - Gather
+        Willow Logs","Mini-Quest - Gather Willow Logs II","Mini-Quest - Gather Acacia
+        Logs","Mini-Quest - Gather Dark Logs III","Mini-Quest - Gather Spruce Logs","Mini-Quest
+        - Gather Spruce Logs II","Mini-Quest - Gather Jungle Logs","Mini-Quest - Gather
+        Jungle Logs II","Mini-Quest - Gather Pine Logs","Mini-Quest - Gather Pine
+        Logs II","Mini-Quest - Gather Bamboo","Mini-Quest - Gather Birch Logs","Mini-Quest
+        - Gather Oak Logs","Mini-Quest - Gather Malt"]},"itemsIdentified":0,"mobsKilled":22742,"pvp":{"kills":0,"deaths":0},"blocksWalked":961220549,"logins":9068,"deaths":173,"playtime":131140,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":71,"dexterity":72,"intelligence":0,"defence":0,"defense":0,"agility":57},"professions":{"alchemism":{"level":60,"xp":26.2},"armouring":{"level":70,"xp":40.8},"combat":{"level":106,"xp":617},"cooking":{"level":60,"xp":29.4},"farming":{"level":99,"xp":47.4},"fishing":{"level":99,"xp":47.6},"jeweling":{"level":60,"xp":44.8},"mining":{"level":99,"xp":47.8},"scribing":{"level":60,"xp":10.1},"tailoring":{"level":60,"xp":47.1},"weaponsmithing":{"level":60,"xp":59.4},"woodcutting":{"level":99,"xp":47.6},"woodworking":{"level":60,"xp":21.5}},"discoveries":675,"eventsWon":0,"preEconomyUpdate":true},"afa53088-46d7-4271-9225-4a267edc42e9":{"type":"DARKWIZARD","level":980,"dungeons":{"completed":206,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":5},{"name":"Corrupted Sand-Swept Tomb","completed":128},{"name":"Corrupted
+        Ice Barrows","completed":3},{"name":"Corrupted Undergrowth Ruins","completed":56},{"name":"Corrupted
+        Underworld Crypt","completed":1},{"name":"Fallen Factory","completed":2},{"name":"Eldritch
+        Outlook","completed":1},{"name":"Decrepit Sewers","completed":6},{"name":"Ice
+        Barrows","completed":1},{"name":"Undergrowth Ruins","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Galleon''s Graveyard","completed":1}]},"raids":{"completed":33,"list":[{"name":"Nest
+        of the Grootslangs","completed":1},{"name":"The Canyon Colossus","completed":9},{"name":"Orphion''s
+        Nexus of Light","completed":23}]},"quests":{"completed":244,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","Mini-Quest - Slay Dragonlings","The Hero of Gavel","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Mini-Quest - Slay Azers","Dwarves
+        and Doguns Part III","The Feathers Fly Part II","Dwarves and Doguns Part II","Mini-Quest
+        - Slay Frosted Guards & Cryostone Golems","Dwarves and Doguns Part I","The
+        Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic Voyage","Mini-Quest
+        - Slay Pernix Monkeys","The Envoy Part II","Enter the Dojo","The Hidden City","Mini-Quest
+        - Slay Ailuropodas","Mixed Feelings","Beyond the Grave","Desperate Metal","Mini-Quest
+        - Slay Robots","The Envoy Part I","Mini-Quest - Slay Jinkos","From the Bottom","???","The
+        Qira Hive","Mini-Quest - Slay Hobgoblins","Realm of Light V - The Realm of
+        Light","Fallen Delivery","Mini-Quest - Slay Felrocs","The Bigger Picture","Flight
+        in Distress","Mini-Quest - Slay Weirds","Aldorei''s Secret Part I","Reincarnation","Acquiring
+        Credentials","Murder Mystery","Troubled Tribesmen","Mini-Quest - Slay Myconids","Forbidden
+        Prison","Lexdale Witch Trials","Realm of Light IV - Finding the Light","Shattered
+        Minds","Haven Antiquity","WynnExcavation Site D","Mini-Quest - Slay Dead Villagers","Grand
+        Youth","Lazarus Pit","Temple of the Legends","Memory Paranoia","From the Mountains","Lost
+        Soles","Lost Royalty","Mini-Quest - Slay Idols","Realm of Light III - A Headless
+        History","Out of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Reclaiming
+        the House","Redbeard''s Booty","Beneath the Depths","Mini-Quest - Slay Wraiths
+        & Phantasms","The Order of the Grook","An Iron Heart Part II","The Passage","WynnExcavation
+        Site C","Zhight Island","Mini-Quest - Slay Lizardmen","Realm of Light I -
+        The Worm Holes","The Shadow of the Beast","Master Piece","Death Whistle","Corrupted
+        Betrayal","Jungle Fever","Crop Failure","The Maiden Tower","A Grave Mistake","Mini-Quest
+        - Slay Slimes","The House of Twain","Rise of the Quartron","An Iron Heart
+        Part I","Frost Bite","WynnExcavation Site B","Bob''s Lost Soul","Mini-Quest
+        - Slay Orcs","Blazing Retribution","Underice","Fate of the Fallen","Star Thief","Heart
+        of Llevigar","Tower of Ascension","Ice Nations","Mini-Quest - Slay Creatures
+        of Nesaak Forest","Clearing the Camps","Pirate''s Trove","Canyon Condor","Wrath
+        of the Mummy","Tribal Aggression","WynnExcavation Site A","Mini-Quest - Slay
+        Coyotes","Meaningful Holiday","Kingdom of Sand","A Sandy Scandal","Green Gloop","The
+        Mercenary","Craftmas Chaos","Mini-Quest - Slay Scarabs","Misadventure on the
+        Sea","Deja Vu","Lost Tower","The Corrupted Village","Recover the Past","Mini-Quest
+        - Slay Skeletons","Dwelling Walls","The Dark Descent","Pit of the Dead","Cluck
+        Cluck","Studying the Corrupt","Macabre Masquerade ''''Hallowynn 2014''''","Grave
+        Digger","Maltic''s Well","Mini-Quest - Slay Mooshrooms","Creeper Infiltration","Arachnids''
+        Ascent","Stable Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Mini-Quest - Slay Spiders","Infested Plants","Cook
+        Assistant","Poisoning the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest
+        - Gather Sandstone II","Mini-Quest - Gather Oats II","Mini-Quest - Gather
+        Malt II","Mini-Quest - Gather Wheat","Mini-Quest - Gather Barley","Mini-Quest
+        - Gather Oats","Mini-Quest - Gather Sorghum II","Mini-Quest - Gather Sorghum","Mini-Quest
+        - Gather Sorghum III","Mini-Quest - Gather Sorghum IV","Mini-Quest - Gather
+        Rye","Mini-Quest - Gather Rye II","Mini-Quest - Gather Hops II","Mini-Quest
+        - Gather Hops","Mini-Quest - Gather Millet","Mini-Quest - Gather Millet II","Mini-Quest
+        - Gather Millet III","Mini-Quest - Gather Decay Roots","Mini-Quest - Gather
+        Decay Roots II","Mini-Quest - Gather Decay Roots III","Mini-Quest - Gather
+        Rice IV","Mini-Quest - Gather Rice","Mini-Quest - Gather Rice II","Mini-Quest
+        - Gather Rice III","Mini-Quest - Gather Molten Ore III","Mini-Quest - Gather
+        Molten Ore IV","Mini-Quest - Gather Molten Ore II","Mini-Quest - Gather Molten
+        Ore","Mini-Quest - Gather Iron","Mini-Quest - Gather Cobalt III","Mini-Quest
+        - Gather Silver II","Mini-Quest - Gather Cobalt","Mini-Quest - Gather Iron
+        II","Mini-Quest - Gather Granite","Mini-Quest - Gather Copper","Mini-Quest
+        - Gather Gold","Mini-Quest - Gather Gold II","Mini-Quest - Gather Sandstone","Mini-Quest
+        - Gather Silver","Mini-Quest - Gather Cobalt II","Mini-Quest - Gather Kanderstone
+        II","Mini-Quest - Gather Kanderstone","Mini-Quest - Gather Kanderstone III","Mini-Quest
+        - Gather Diamonds III","Mini-Quest - Gather Diamonds II","Mini-Quest - Gather
+        Diamonds IV","Mini-Quest - Gather Diamonds","Mini-Quest - Gather Molten Eel","Mini-Quest
+        - Gather Molten Eel II","Mini-Quest - Gather Molten Eel III","Mini-Quest -
+        Gather Molten Eel IV","Mini-Quest - Gather Salmon","Mini-Quest - Gather Salmon
+        II","Mini-Quest - Gather Icefish II","Mini-Quest - Gather Bass IV","Mini-Quest
+        - Gather Bass III","Mini-Quest - Gather Bass II","Mini-Quest - Gather Bass","Mini-Quest
+        - Gather Gylia Fish III","Mini-Quest - Gather Gylia Fish","Mini-Quest - Gather
+        Gylia Fish II","Mini-Quest - Gather Koi III","Mini-Quest - Gather Piranhas","Mini-Quest
+        - Gather Piranhas II","Mini-Quest - Gather Koi II","Mini-Quest - Gather Koi","Mini-Quest
+        - Gather Icefish","Mini-Quest - Gather Gudgeon","Mini-Quest - Gather Carp","Mini-Quest
+        - Gather Carp II","Mini-Quest - Gather Acacia Logs II","Mini-Quest - Gather
+        Dark Logs III","Mini-Quest - Gather Pine Logs III","Mini-Quest - Gather Avo
+        Logs II","Mini-Quest - Gather Avo Logs","Mini-Quest - Gather Avo Logs III","Mini-Quest
+        - Gather Avo Logs IV","Mini-Quest - Gather Light Logs","Mini-Quest - Gather
+        Light Logs II","Mini-Quest - Gather Light Logs III","Mini-Quest - Gather Dark
+        Logs II","Mini-Quest - Gather Dark Logs","Mini-Quest - Gather Pine Logs","Mini-Quest
+        - Gather Pine Logs II","Mini-Quest - Gather Bamboo","Mini-Quest - Gather Jungle
+        Logs II","Mini-Quest - Gather Jungle Logs","Mini-Quest - Gather Spruce Logs","Mini-Quest
+        - Gather Spruce Logs II","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather
+        Willow Logs II","Mini-Quest - Gather Willow Logs","Mini-Quest - Gather Birch
+        Logs","Mini-Quest - Gather Oak Logs","Mini-Quest - Gather Trout","Mini-Quest
+        - Gather Malt"]},"itemsIdentified":0,"mobsKilled":63344,"pvp":{"kills":0,"deaths":2},"blocksWalked":255226912,"logins":5308,"deaths":285,"playtime":7423,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":33,"dexterity":0,"intelligence":92,"defence":0,"defense":0,"agility":75},"professions":{"alchemism":{"level":60,"xp":64.8},"armouring":{"level":70,"xp":16},"combat":{"level":106,"xp":74.5},"cooking":{"level":60,"xp":41.1},"farming":{"level":99,"xp":47.9},"fishing":{"level":99,"xp":47.9},"jeweling":{"level":60,"xp":5.9},"mining":{"level":99,"xp":47.8},"scribing":{"level":60,"xp":23.2},"tailoring":{"level":60,"xp":15.5},"weaponsmithing":{"level":60,"xp":38.4},"woodcutting":{"level":99,"xp":47.6},"woodworking":{"level":60,"xp":17.4}},"discoveries":666,"eventsWon":0,"preEconomyUpdate":true},"d806deda-7c74-43c2-a427-c8684a1046dc":{"type":"DARKWIZARD","level":980,"dungeons":{"completed":277,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":3},{"name":"Corrupted Underworld Crypt","completed":1},{"name":"Corrupted
+        Infested Pit","completed":1},{"name":"Corrupted Sand-Swept Tomb","completed":196},{"name":"Corrupted
+        Ice Barrows","completed":6},{"name":"Corrupted Undergrowth Ruins","completed":59},{"name":"Eldritch
+        Outlook","completed":1},{"name":"Corrupted Lost Sanctuary","completed":6},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Underworld
+        Crypt","completed":1},{"name":"Undergrowth Ruins","completed":1}]},"raids":{"completed":64,"list":[{"name":"The
+        Canyon Colossus","completed":47},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":15},{"name":"The Nameless Anomaly","completed":1}]},"quests":{"completed":244,"list":["A
+        Hunter''s Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Mini-Quest - Slay Dragonlings","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Dwarves and Doguns Part III","The
+        Feathers Fly Part II","Mini-Quest - Slay Azers","Dwarves and Doguns Part II","Mini-Quest
+        - Slay Frosted Guards & Cryostone Golems","Dwarves and Doguns Part I","The
+        Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic Voyage","Mini-Quest
+        - Slay Pernix Monkeys","Enter the Dojo","The Envoy Part II","The Hidden City","Mini-Quest
+        - Slay Ailuropodas","Beyond the Grave","Mixed Feelings","Desperate Metal","Mini-Quest
+        - Slay Robots","The Envoy Part I","Mini-Quest - Slay Jinkos","From the Bottom","???","The
+        Qira Hive","Mini-Quest - Slay Hobgoblins","Fallen Delivery","Realm of Light
+        V - The Realm of Light","Mini-Quest - Slay Felrocs","The Bigger Picture","Flight
+        in Distress","Mini-Quest - Slay Weirds","Aldorei''s Secret Part I","Acquiring
+        Credentials","Reincarnation","Murder Mystery","Troubled Tribesmen","Mini-Quest
+        - Slay Myconids","Forbidden Prison","Lexdale Witch Trials","Realm of Light
+        IV - Finding the Light","WynnExcavation Site D","Haven Antiquity","Shattered
+        Minds","Mini-Quest - Slay Dead Villagers","Grand Youth","Lazarus Pit","Temple
+        of the Legends","Memory Paranoia","From the Mountains","Lost Soles","Lost
+        Royalty","Mini-Quest - Slay Idols","Realm of Light III - A Headless History","Out
+        of my Mind","Lost in the Jungle","Realm of Light II - Taproot","Reclaiming
+        the House","Redbeard''s Booty","Beneath the Depths","Mini-Quest - Slay Wraiths
+        & Phantasms","The Order of the Grook","An Iron Heart Part II","The Passage","WynnExcavation
+        Site C","Zhight Island","Mini-Quest - Slay Lizardmen","Realm of Light I -
+        The Worm Holes","The Shadow of the Beast","Master Piece","Death Whistle","Jungle
+        Fever","Corrupted Betrayal","Crop Failure","The Maiden Tower","A Grave Mistake","Mini-Quest
+        - Slay Slimes","The House of Twain","An Iron Heart Part I","Rise of the Quartron","Frost
+        Bite","WynnExcavation Site B","Bob''s Lost Soul","Mini-Quest - Slay Orcs","Blazing
+        Retribution","Underice","Fate of the Fallen","Star Thief","Heart of Llevigar","Tower
+        of Ascension","Ice Nations","Mini-Quest - Slay Creatures of Nesaak Forest","Clearing
+        the Camps","Pirate''s Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation
+        Site A","Tribal Aggression","Mini-Quest - Slay Coyotes","Meaningful Holiday","Kingdom
+        of Sand","A Sandy Scandal","Green Gloop","Craftmas Chaos","The Mercenary","Mini-Quest
+        - Slay Scarabs","Misadventure on the Sea","Deja Vu","Lost Tower","The Corrupted
+        Village","Recover the Past","Mini-Quest - Slay Skeletons","Dwelling Walls","The
+        Dark Descent","Pit of the Dead","Cluck Cluck","Studying the Corrupt","Macabre
+        Masquerade ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Creeper
+        Infiltration","Mini-Quest - Slay Mooshrooms","Arachnids'' Ascent","Stable
+        Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook
+        Assistant","Poisoning the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest
+        - Gather Oats II","Mini-Quest - Gather Malt II","Mini-Quest - Gather Wheat","Mini-Quest
+        - Gather Barley","Mini-Quest - Gather Oats","Mini-Quest - Gather Sorghum II","Mini-Quest
+        - Gather Sorghum","Mini-Quest - Gather Sorghum III","Mini-Quest - Gather Sorghum
+        IV","Mini-Quest - Gather Rye","Mini-Quest - Gather Rye II","Mini-Quest - Gather
+        Hops II","Mini-Quest - Gather Hops","Mini-Quest - Gather Millet","Mini-Quest
+        - Gather Millet II","Mini-Quest - Gather Millet III","Mini-Quest - Gather
+        Decay Roots III","Mini-Quest - Gather Decay Roots II","Mini-Quest - Gather
+        Decay Roots","Mini-Quest - Gather Rice IV","Mini-Quest - Gather Rice","Mini-Quest
+        - Gather Rice II","Mini-Quest - Gather Rice III","Mini-Quest - Gather Molten
+        Ore III","Mini-Quest - Gather Molten Ore IV","Mini-Quest - Gather Molten Ore","Mini-Quest
+        - Gather Molten Ore II","Mini-Quest - Gather Granite","Mini-Quest - Gather
+        Copper","Mini-Quest - Gather Gold","Mini-Quest - Gather Gold II","Mini-Quest
+        - Gather Sandstone","Mini-Quest - Gather Sandstone II","Mini-Quest - Gather
+        Cobalt","Mini-Quest - Gather Iron II","Mini-Quest - Gather Iron","Mini-Quest
+        - Gather Cobalt III","Mini-Quest - Gather Silver II","Mini-Quest - Gather
+        Silver","Mini-Quest - Gather Cobalt II","Mini-Quest - Gather Kanderstone II","Mini-Quest
+        - Gather Kanderstone","Mini-Quest - Gather Kanderstone III","Mini-Quest -
+        Gather Diamonds III","Mini-Quest - Gather Diamonds II","Mini-Quest - Gather
+        Diamonds IV","Mini-Quest - Gather Diamonds","Mini-Quest - Gather Molten Eel","Mini-Quest
+        - Gather Molten Eel II","Mini-Quest - Gather Molten Eel III","Mini-Quest -
+        Gather Molten Eel IV","Mini-Quest - Gather Salmon","Mini-Quest - Gather Salmon
+        II","Mini-Quest - Gather Icefish II","Mini-Quest - Gather Bass IV","Mini-Quest
+        - Gather Bass III","Mini-Quest - Gather Bass II","Mini-Quest - Gather Bass","Mini-Quest
+        - Gather Gylia Fish III","Mini-Quest - Gather Gylia Fish","Mini-Quest - Gather
+        Gylia Fish II","Mini-Quest - Gather Koi III","Mini-Quest - Gather Piranhas","Mini-Quest
+        - Gather Piranhas II","Mini-Quest - Gather Koi II","Mini-Quest - Gather Koi","Mini-Quest
+        - Gather Icefish","Mini-Quest - Gather Trout","Mini-Quest - Gather Gudgeon","Mini-Quest
+        - Gather Carp","Mini-Quest - Gather Carp II","Mini-Quest - Gather Acacia Logs
+        II","Mini-Quest - Gather Pine Logs III","Mini-Quest - Gather Avo Logs II","Mini-Quest
+        - Gather Avo Logs","Mini-Quest - Gather Avo Logs III","Mini-Quest - Gather
+        Avo Logs IV","Mini-Quest - Gather Light Logs","Mini-Quest - Gather Light Logs
+        II","Mini-Quest - Gather Light Logs III","Mini-Quest - Gather Dark Logs II","Mini-Quest
+        - Gather Dark Logs","Mini-Quest - Gather Pine Logs","Mini-Quest - Gather Pine
+        Logs II","Mini-Quest - Gather Bamboo","Mini-Quest - Gather Willow Logs","Mini-Quest
+        - Gather Willow Logs II","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather
+        Dark Logs III","Mini-Quest - Gather Jungle Logs II","Mini-Quest - Gather Jungle
+        Logs","Mini-Quest - Gather Spruce Logs","Mini-Quest - Gather Spruce Logs II","Mini-Quest
+        - Gather Birch Logs","Mini-Quest - Gather Oak Logs","Mini-Quest - Gather Malt"]},"itemsIdentified":0,"mobsKilled":21501,"pvp":{"kills":0,"deaths":0},"blocksWalked":102934131,"logins":3146,"deaths":76,"playtime":3334,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":10,"dexterity":80,"intelligence":35,"defence":35,"defense":35,"agility":40},"professions":{"alchemism":{"level":60,"xp":30.4},"armouring":{"level":70,"xp":0.9},"combat":{"level":106,"xp":58.5},"cooking":{"level":60,"xp":21.5},"farming":{"level":99,"xp":47.8},"fishing":{"level":99,"xp":47.2},"jeweling":{"level":60,"xp":2.2},"mining":{"level":99,"xp":47.4},"scribing":{"level":60,"xp":0.4},"tailoring":{"level":60,"xp":20.4},"weaponsmithing":{"level":60,"xp":4.1},"woodcutting":{"level":99,"xp":47.6},"woodworking":{"level":60,"xp":39.6}},"discoveries":688,"eventsWon":0,"preEconomyUpdate":true},"16409c45-f6c8-4a76-9d4e-a4be0315a1af":{"type":"DARKWIZARD","level":980,"dungeons":{"completed":162,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":5},{"name":"Corrupted Sand-Swept Tomb","completed":103},{"name":"Corrupted
+        Lost Sanctuary","completed":1},{"name":"Corrupted Ice Barrows","completed":5},{"name":"Corrupted
+        Undergrowth Ruins","completed":41},{"name":"Eldritch Outlook","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Lost
+        Sanctuary","completed":1},{"name":"Underworld Crypt","completed":1},{"name":"Galleon''s
+        Graveyard","completed":1},{"name":"Undergrowth Ruins","completed":1}]},"raids":{"completed":21,"list":[{"name":"The
+        Canyon Colossus","completed":7},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":13}]},"quests":{"completed":244,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Mini-Quest - Slay Dragonlings","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","The Feathers Fly Part II","Dwarves
+        and Doguns Part III","Mini-Quest - Slay Azers","Dwarves and Doguns Part II","Mini-Quest
+        - Slay Frosted Guards & Cryostone Golems","Dwarves and Doguns Part I","The
+        Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic Voyage","Mini-Quest
+        - Slay Pernix Monkeys","The Envoy Part II","Enter the Dojo","The Hidden City","Mini-Quest
+        - Slay Ailuropodas","Mixed Feelings","Beyond the Grave","Desperate Metal","Mini-Quest
+        - Slay Robots","The Envoy Part I","Mini-Quest - Slay Jinkos","From the Bottom","The
+        Qira Hive","???","Mini-Quest - Slay Hobgoblins","Fallen Delivery","Realm of
+        Light V - The Realm of Light","Mini-Quest - Slay Felrocs","The Bigger Picture","Flight
+        in Distress","Mini-Quest - Slay Weirds","Aldorei''s Secret Part I","Reincarnation","Acquiring
+        Credentials","Troubled Tribesmen","Murder Mystery","Mini-Quest - Slay Myconids","Forbidden
+        Prison","Lexdale Witch Trials","Realm of Light IV - Finding the Light","Haven
+        Antiquity","Shattered Minds","WynnExcavation Site D","Mini-Quest - Slay Dead
+        Villagers","Grand Youth","Lazarus Pit","Temple of the Legends","From the Mountains","Memory
+        Paranoia","Lost Soles","Lost Royalty","Mini-Quest - Slay Idols","Realm of
+        Light III - A Headless History","Out of my Mind","Lost in the Jungle","Realm
+        of Light II - Taproot","Redbeard''s Booty","Reclaiming the House","Beneath
+        the Depths","Mini-Quest - Slay Wraiths & Phantasms","The Order of the Grook","An
+        Iron Heart Part II","The Passage","Zhight Island","WynnExcavation Site C","Mini-Quest
+        - Slay Lizardmen","The Shadow of the Beast","Realm of Light I - The Worm Holes","Master
+        Piece","Death Whistle","Corrupted Betrayal","Jungle Fever","Crop Failure","The
+        Maiden Tower","A Grave Mistake","Mini-Quest - Slay Slimes","The House of Twain","Rise
+        of the Quartron","An Iron Heart Part I","Frost Bite","WynnExcavation Site
+        B","Bob''s Lost Soul","Mini-Quest - Slay Orcs","Blazing Retribution","Underice","Fate
+        of the Fallen","Star Thief","Heart of Llevigar","Tower of Ascension","Ice
+        Nations","Mini-Quest - Slay Creatures of Nesaak Forest","Clearing the Camps","Pirate''s
+        Trove","Canyon Condor","Wrath of the Mummy","Tribal Aggression","WynnExcavation
+        Site A","Mini-Quest - Slay Coyotes","Meaningful Holiday","Kingdom of Sand","A
+        Sandy Scandal","Green Gloop","The Mercenary","Craftmas Chaos","Mini-Quest
+        - Slay Scarabs","Misadventure on the Sea","Deja Vu","Lost Tower","The Corrupted
+        Village","Recover the Past","Mini-Quest - Slay Skeletons","The Dark Descent","Dwelling
+        Walls","Pit of the Dead","Cluck Cluck","Macabre Masquerade ''''Hallowynn 2014''''","Studying
+        the Corrupt","Grave Digger","Maltic''s Well","Creeper Infiltration","Mini-Quest
+        - Slay Mooshrooms","Arachnids'' Ascent","Stable Story","Potion Making","Elemental
+        Exercise","Mushroom Man","Underwater","Tunnel Trouble","The Sewers of Ragni","Infested
+        Plants","Mini-Quest - Slay Spiders","Cook Assistant","Poisoning the Pest","King''s
+        Recruit","Enzan''s Brother","Mini-Quest - Gather Oats II","Mini-Quest - Gather
+        Malt II","Mini-Quest - Gather Wheat","Mini-Quest - Gather Barley","Mini-Quest
+        - Gather Oats","Mini-Quest - Gather Sorghum II","Mini-Quest - Gather Sorghum","Mini-Quest
+        - Gather Sorghum III","Mini-Quest - Gather Sorghum IV","Mini-Quest - Gather
+        Rye","Mini-Quest - Gather Rye II","Mini-Quest - Gather Hops II","Mini-Quest
+        - Gather Hops","Mini-Quest - Gather Millet","Mini-Quest - Gather Millet II","Mini-Quest
+        - Gather Millet III","Mini-Quest - Gather Decay Roots III","Mini-Quest - Gather
+        Decay Roots","Mini-Quest - Gather Decay Roots II","Mini-Quest - Gather Rice
+        IV","Mini-Quest - Gather Rice","Mini-Quest - Gather Rice II","Mini-Quest -
+        Gather Rice III","Mini-Quest - Gather Molten Ore IV","Mini-Quest - Gather
+        Molten Ore III","Mini-Quest - Gather Molten Ore II","Mini-Quest - Gather Molten
+        Ore","Mini-Quest - Gather Cobalt","Mini-Quest - Gather Iron II","Mini-Quest
+        - Gather Granite","Mini-Quest - Gather Copper","Mini-Quest - Gather Gold","Mini-Quest
+        - Gather Gold II","Mini-Quest - Gather Sandstone","Mini-Quest - Gather Sandstone
+        II","Mini-Quest - Gather Iron","Mini-Quest - Gather Cobalt III","Mini-Quest
+        - Gather Silver II","Mini-Quest - Gather Silver","Mini-Quest - Gather Cobalt
+        II","Mini-Quest - Gather Kanderstone II","Mini-Quest - Gather Kanderstone","Mini-Quest
+        - Gather Kanderstone III","Mini-Quest - Gather Diamonds III","Mini-Quest -
+        Gather Diamonds II","Mini-Quest - Gather Diamonds IV","Mini-Quest - Gather
+        Diamonds","Mini-Quest - Gather Molten Eel","Mini-Quest - Gather Molten Eel
+        II","Mini-Quest - Gather Molten Eel III","Mini-Quest - Gather Molten Eel IV","Mini-Quest
+        - Gather Bass IV","Mini-Quest - Gather Bass III","Mini-Quest - Gather Bass
+        II","Mini-Quest - Gather Bass","Mini-Quest - Gather Gylia Fish III","Mini-Quest
+        - Gather Gylia Fish","Mini-Quest - Gather Gylia Fish II","Mini-Quest - Gather
+        Koi III","Mini-Quest - Gather Salmon II","Mini-Quest - Gather Salmon","Mini-Quest
+        - Gather Icefish II","Mini-Quest - Gather Piranhas","Mini-Quest - Gather Piranhas
+        II","Mini-Quest - Gather Koi II","Mini-Quest - Gather Koi","Mini-Quest - Gather
+        Spruce Logs","Mini-Quest - Gather Icefish","Mini-Quest - Gather Trout","Mini-Quest
+        - Gather Gudgeon","Mini-Quest - Gather Carp","Mini-Quest - Gather Carp II","Mini-Quest
+        - Gather Acacia Logs II","Mini-Quest - Gather Light Logs","Mini-Quest - Gather
+        Light Logs II","Mini-Quest - Gather Light Logs III","Mini-Quest - Gather Dark
+        Logs II","Mini-Quest - Gather Dark Logs","Mini-Quest - Gather Pine Logs","Mini-Quest
+        - Gather Pine Logs II","Mini-Quest - Gather Bamboo","Mini-Quest - Gather Pine
+        Logs III","Mini-Quest - Gather Avo Logs II","Mini-Quest - Gather Avo Logs","Mini-Quest
+        - Gather Avo Logs III","Mini-Quest - Gather Avo Logs IV","Mini-Quest - Gather
+        Jungle Logs II","Mini-Quest - Gather Jungle Logs","Mini-Quest - Gather Spruce
+        Logs II","Mini-Quest - Gather Willow Logs","Mini-Quest - Gather Willow Logs
+        II","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather Dark Logs III","Mini-Quest
+        - Gather Birch Logs","Mini-Quest - Gather Oak Logs","Mini-Quest - Gather Malt"]},"itemsIdentified":0,"mobsKilled":15220,"pvp":{"kills":0,"deaths":1},"blocksWalked":656882341,"logins":1735,"deaths":80,"playtime":2049,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":100,"defence":0,"defense":0,"agility":100},"professions":{"alchemism":{"level":60,"xp":26},"armouring":{"level":70,"xp":22.1},"combat":{"level":106,"xp":27.8},"cooking":{"level":60,"xp":10.1},"farming":{"level":99,"xp":48.1},"fishing":{"level":99,"xp":48.2},"jeweling":{"level":60,"xp":18.6},"mining":{"level":99,"xp":47.2},"scribing":{"level":60,"xp":33.1},"tailoring":{"level":60,"xp":50.9},"weaponsmithing":{"level":60,"xp":48.1},"woodcutting":{"level":99,"xp":47.5},"woodworking":{"level":60,"xp":26.1}},"discoveries":657,"eventsWon":0,"preEconomyUpdate":true},"e858beef-766b-430a-9528-ad708f6a5233":{"type":"DARKWIZARD","level":980,"dungeons":{"completed":244,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":2},{"name":"Corrupted Underworld Crypt","completed":1},{"name":"Corrupted
+        Sand-Swept Tomb","completed":163},{"name":"Corrupted Ice Barrows","completed":10},{"name":"Corrupted
+        Undergrowth Ruins","completed":59},{"name":"Decrepit Sewers","completed":1},{"name":"Infested
+        Pit","completed":1},{"name":"Lost Sanctuary","completed":1},{"name":"Undergrowth
+        Ruins","completed":1},{"name":"Corrupted Infested Pit","completed":1},{"name":"Corrupted
+        Lost Sanctuary","completed":1},{"name":"Eldritch Outlook","completed":1},{"name":"Galleon''s
+        Graveyard","completed":2}]},"raids":{"completed":57,"list":[{"name":"The Canyon
+        Colossus","completed":52},{"name":"Nest of the Grootslangs","completed":1},{"name":"Orphion''s
+        Nexus of Light","completed":4}]},"quests":{"completed":244,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Mini-Quest - Slay Dragonlings","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Dwarves and Doguns Part III","The
+        Feathers Fly Part II","Mini-Quest - Slay Azers","Dwarves and Doguns Part II","Mini-Quest
+        - Slay Frosted Guards & Cryostone Golems","Dwarves and Doguns Part I","The
+        Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic Voyage","Mini-Quest
+        - Slay Pernix Monkeys","The Envoy Part II","Enter the Dojo","The Hidden City","Mini-Quest
+        - Slay Ailuropodas","Mixed Feelings","Beyond the Grave","Desperate Metal","Mini-Quest
+        - Slay Robots","The Envoy Part I","Mini-Quest - Slay Jinkos","From the Bottom","???","The
+        Qira Hive","Mini-Quest - Slay Hobgoblins","Realm of Light V - The Realm of
+        Light","Fallen Delivery","Mini-Quest - Slay Felrocs","The Bigger Picture","Flight
+        in Distress","Mini-Quest - Slay Weirds","Aldorei''s Secret Part I","Reincarnation","Acquiring
+        Credentials","Troubled Tribesmen","Murder Mystery","Mini-Quest - Slay Myconids","Forbidden
+        Prison","Lexdale Witch Trials","Realm of Light IV - Finding the Light","Haven
+        Antiquity","Shattered Minds","WynnExcavation Site D","Mini-Quest - Slay Dead
+        Villagers","Lazarus Pit","Grand Youth","Temple of the Legends","From the Mountains","Memory
+        Paranoia","Lost Soles","Lost Royalty","Mini-Quest - Slay Idols","Realm of
+        Light III - A Headless History","Out of my Mind","Realm of Light II - Taproot","Lost
+        in the Jungle","Redbeard''s Booty","Reclaiming the House","Beneath the Depths","Mini-Quest
+        - Slay Wraiths & Phantasms","The Order of the Grook","An Iron Heart Part II","The
+        Passage","Zhight Island","WynnExcavation Site C","Mini-Quest - Slay Lizardmen","Realm
+        of Light I - The Worm Holes","The Shadow of the Beast","Death Whistle","Master
+        Piece","Corrupted Betrayal","Crop Failure","Jungle Fever","The Maiden Tower","A
+        Grave Mistake","Mini-Quest - Slay Slimes","The House of Twain","Rise of the
+        Quartron","An Iron Heart Part I","Frost Bite","WynnExcavation Site B","Bob''s
+        Lost Soul","Mini-Quest - Slay Orcs","Blazing Retribution","Underice","Fate
+        of the Fallen","Star Thief","Heart of Llevigar","Mini-Quest - Slay Creatures
+        of Nesaak Forest","Tower of Ascension","Ice Nations","Clearing the Camps","Pirate''s
+        Trove","Canyon Condor","Wrath of the Mummy","Tribal Aggression","WynnExcavation
+        Site A","Mini-Quest - Slay Coyotes","Meaningful Holiday","Kingdom of Sand","A
+        Sandy Scandal","Green Gloop","The Mercenary","Craftmas Chaos","Mini-Quest
+        - Slay Scarabs","Misadventure on the Sea","Deja Vu","Lost Tower","The Corrupted
+        Village","Recover the Past","Mini-Quest - Slay Skeletons","Dwelling Walls","The
+        Dark Descent","Pit of the Dead","Cluck Cluck","Studying the Corrupt","Macabre
+        Masquerade ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Creeper
+        Infiltration","Mini-Quest - Slay Mooshrooms","Arachnids'' Ascent","Stable
+        Story","Potion Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel
+        Trouble","The Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook
+        Assistant","Poisoning the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest
+        - Gather Oats II","Mini-Quest - Gather Malt II","Mini-Quest - Gather Wheat","Mini-Quest
+        - Gather Barley","Mini-Quest - Gather Oats","Mini-Quest - Gather Sorghum II","Mini-Quest
+        - Gather Sorghum","Mini-Quest - Gather Sorghum III","Mini-Quest - Gather Sorghum
+        IV","Mini-Quest - Gather Rye","Mini-Quest - Gather Rye II","Mini-Quest - Gather
+        Hops II","Mini-Quest - Gather Hops","Mini-Quest - Gather Millet","Mini-Quest
+        - Gather Millet II","Mini-Quest - Gather Millet III","Mini-Quest - Gather
+        Decay Roots III","Mini-Quest - Gather Decay Roots II","Mini-Quest - Gather
+        Decay Roots","Mini-Quest - Gather Rice IV","Mini-Quest - Gather Rice","Mini-Quest
+        - Gather Rice II","Mini-Quest - Gather Rice III","Mini-Quest - Gather Molten
+        Ore III","Mini-Quest - Gather Molten Ore IV","Mini-Quest - Gather Molten Ore","Mini-Quest
+        - Gather Molten Ore II","Mini-Quest - Gather Silver","Mini-Quest - Gather
+        Cobalt II","Mini-Quest - Gather Kanderstone II","Mini-Quest - Gather Kanderstone","Mini-Quest
+        - Gather Kanderstone III","Mini-Quest - Gather Diamonds III","Mini-Quest -
+        Gather Diamonds II","Mini-Quest - Gather Diamonds IV","Mini-Quest - Gather
+        Diamonds","Mini-Quest - Gather Iron","Mini-Quest - Gather Cobalt III","Mini-Quest
+        - Gather Silver II","Mini-Quest - Gather Granite","Mini-Quest - Gather Copper","Mini-Quest
+        - Gather Gold","Mini-Quest - Gather Gold II","Mini-Quest - Gather Sandstone","Mini-Quest
+        - Gather Sandstone II","Mini-Quest - Gather Cobalt","Mini-Quest - Gather Iron
+        II","Mini-Quest - Gather Molten Eel","Mini-Quest - Gather Molten Eel II","Mini-Quest
+        - Gather Molten Eel III","Mini-Quest - Gather Molten Eel IV","Mini-Quest -
+        Gather Bass IV","Mini-Quest - Gather Bass III","Mini-Quest - Gather Bass II","Mini-Quest
+        - Gather Salmon II","Mini-Quest - Gather Salmon","Mini-Quest - Gather Icefish
+        II","Mini-Quest - Gather Bass","Mini-Quest - Gather Gylia Fish III","Mini-Quest
+        - Gather Gylia Fish","Mini-Quest - Gather Gylia Fish II","Mini-Quest - Gather
+        Koi III","Mini-Quest - Gather Piranhas","Mini-Quest - Gather Piranhas II","Mini-Quest
+        - Gather Koi II","Mini-Quest - Gather Koi","Mini-Quest - Gather Icefish","Mini-Quest
+        - Gather Trout","Mini-Quest - Gather Gudgeon","Mini-Quest - Gather Carp","Mini-Quest
+        - Gather Carp II","Mini-Quest - Gather Acacia Logs II","Mini-Quest - Gather
+        Pine Logs","Mini-Quest - Gather Pine Logs II","Mini-Quest - Gather Bamboo","Mini-Quest
+        - Gather Light Logs","Mini-Quest - Gather Light Logs II","Mini-Quest - Gather
+        Light Logs III","Mini-Quest - Gather Dark Logs II","Mini-Quest - Gather Dark
+        Logs","Mini-Quest - Gather Pine Logs III","Mini-Quest - Gather Avo Logs II","Mini-Quest
+        - Gather Avo Logs","Mini-Quest - Gather Avo Logs III","Mini-Quest - Gather
+        Avo Logs IV","Mini-Quest - Gather Willow Logs","Mini-Quest - Gather Willow
+        Logs II","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather Dark Logs
+        III","Mini-Quest - Gather Jungle Logs II","Mini-Quest - Gather Jungle Logs","Mini-Quest
+        - Gather Spruce Logs","Mini-Quest - Gather Spruce Logs II","Mini-Quest - Gather
+        Birch Logs","Mini-Quest - Gather Oak Logs","Mini-Quest - Gather Malt"]},"itemsIdentified":0,"mobsKilled":14848,"pvp":{"kills":0,"deaths":0},"blocksWalked":71220733,"logins":1604,"deaths":80,"playtime":1715,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":36,"dexterity":37,"intelligence":35,"defence":60,"defense":60,"agility":32},"professions":{"alchemism":{"level":60,"xp":30.8},"armouring":{"level":70,"xp":9.7},"combat":{"level":106,"xp":92.7},"cooking":{"level":60,"xp":3.9},"farming":{"level":99,"xp":47.9},"fishing":{"level":99,"xp":49.5},"jeweling":{"level":60,"xp":39.1},"mining":{"level":99,"xp":47.8},"scribing":{"level":60,"xp":3},"tailoring":{"level":60,"xp":35.9},"weaponsmithing":{"level":60,"xp":25.5},"woodcutting":{"level":99,"xp":47.5},"woodworking":{"level":60,"xp":41.1}},"discoveries":635,"eventsWon":0,"preEconomyUpdate":true},"19e2e0c5-c998-4f78-a91d-0e63d26dab31":{"type":"DARKWIZARD","level":980,"dungeons":{"completed":182,"list":[{"name":"Corrupted
+        Decrepit Sewers","completed":3},{"name":"Corrupted Sand-Swept Tomb","completed":91},{"name":"Corrupted
+        Ice Barrows","completed":8},{"name":"Corrupted Undergrowth Ruins","completed":62},{"name":"Eldritch
+        Outlook","completed":5},{"name":"Corrupted Underworld Crypt","completed":2},{"name":"Corrupted
+        Lost Sanctuary","completed":5},{"name":"Fallen Factory","completed":2},{"name":"Infested
+        Pit","completed":1},{"name":"Decrepit Sewers","completed":1},{"name":"Lost
+        Sanctuary","completed":1},{"name":"Underworld Crypt","completed":1}]},"raids":{"completed":33,"list":[{"name":"Nest
+        of the Grootslangs","completed":1},{"name":"The Canyon Colossus","completed":15},{"name":"Orphion''s
+        Nexus of Light","completed":17}]},"quests":{"completed":244,"list":["A Hunter''s
+        Calling","Point of No Return","A Journey Further","A Journey Beyond","The
+        Olmic Rune","The Hero of Gavel","Mini-Quest - Slay Dragonlings","Mini-Quest
+        - Slay Angels","Mini-Quest - Slay Conures","Mini-Quest - Slay Creatures of
+        the Void","One Thousand Meters Under","Mini-Quest - Slay Astrochelys Manis","Dwarves
+        and Doguns Part IV","Mini-Quest - Slay Ifrits","Dwarves and Doguns Part III","The
+        Feathers Fly Part II","Mini-Quest - Slay Azers","Mini-Quest - Slay Frosted
+        Guards & Cryostone Golems","Dwarves and Doguns Part II","Dwarves and Doguns
+        Part I","The Feathers Fly Part I","Mini-Quest - Slay Magma Entities","Fantastic
+        Voyage","Mini-Quest - Slay Pernix Monkeys","Enter the Dojo","The Envoy Part
+        II","The Hidden City","Mini-Quest - Slay Ailuropodas","Beyond the Grave","Mixed
+        Feelings","Desperate Metal","Mini-Quest - Slay Robots","The Envoy Part I","Mini-Quest
+        - Slay Jinkos","From the Bottom","???","The Qira Hive","Mini-Quest - Slay
+        Hobgoblins","Fallen Delivery","Realm of Light V - The Realm of Light","Mini-Quest
+        - Slay Felrocs","The Bigger Picture","Flight in Distress","Mini-Quest - Slay
+        Weirds","Aldorei''s Secret Part I","Reincarnation","Acquiring Credentials","Troubled
+        Tribesmen","Murder Mystery","Mini-Quest - Slay Myconids","Forbidden Prison","Lexdale
+        Witch Trials","Realm of Light IV - Finding the Light","Haven Antiquity","WynnExcavation
+        Site D","Shattered Minds","Mini-Quest - Slay Dead Villagers","Grand Youth","Lazarus
+        Pit","Temple of the Legends","Memory Paranoia","From the Mountains","Lost
+        Soles","Lost Royalty","Mini-Quest - Slay Idols","Realm of Light III - A Headless
+        History","Out of my Mind","Realm of Light II - Taproot","Lost in the Jungle","Reclaiming
+        the House","Redbeard''s Booty","Beneath the Depths","Mini-Quest - Slay Wraiths
+        & Phantasms","The Order of the Grook","An Iron Heart Part II","The Passage","Zhight
+        Island","WynnExcavation Site C","Mini-Quest - Slay Lizardmen","Realm of Light
+        I - The Worm Holes","The Shadow of the Beast","Master Piece","Death Whistle","Crop
+        Failure","Corrupted Betrayal","Jungle Fever","The Maiden Tower","A Grave Mistake","Mini-Quest
+        - Slay Slimes","The House of Twain","An Iron Heart Part I","Rise of the Quartron","Frost
+        Bite","WynnExcavation Site B","Bob''s Lost Soul","Mini-Quest - Slay Orcs","Blazing
+        Retribution","Underice","Fate of the Fallen","Star Thief","Heart of Llevigar","Tower
+        of Ascension","Ice Nations","Mini-Quest - Slay Creatures of Nesaak Forest","Clearing
+        the Camps","Pirate''s Trove","Canyon Condor","Wrath of the Mummy","WynnExcavation
+        Site A","Tribal Aggression","Mini-Quest - Slay Coyotes","Meaningful Holiday","Kingdom
+        of Sand","A Sandy Scandal","Green Gloop","The Mercenary","Craftmas Chaos","Mini-Quest
+        - Slay Scarabs","Misadventure on the Sea","Deja Vu","Lost Tower","The Corrupted
+        Village","Recover the Past","Mini-Quest - Slay Skeletons","The Dark Descent","Dwelling
+        Walls","Pit of the Dead","Cluck Cluck","Studying the Corrupt","Macabre Masquerade
+        ''''Hallowynn 2014''''","Grave Digger","Maltic''s Well","Mini-Quest - Slay
+        Mooshrooms","Creeper Infiltration","Arachnids'' Ascent","Stable Story","Potion
+        Making","Elemental Exercise","Mushroom Man","Underwater","Tunnel Trouble","The
+        Sewers of Ragni","Infested Plants","Mini-Quest - Slay Spiders","Cook Assistant","Poisoning
+        the Pest","King''s Recruit","Enzan''s Brother","Mini-Quest - Gather Koi","Mini-Quest
+        - Gather Oats II","Mini-Quest - Gather Malt II","Mini-Quest - Gather Barley","Mini-Quest
+        - Gather Wheat","Mini-Quest - Gather Oats","Mini-Quest - Gather Sorghum II","Mini-Quest
+        - Gather Sorghum","Mini-Quest - Gather Sorghum IV","Mini-Quest - Gather Sorghum
+        III","Mini-Quest - Gather Rye","Mini-Quest - Gather Rye II","Mini-Quest -
+        Gather Hops II","Mini-Quest - Gather Hops","Mini-Quest - Gather Millet","Mini-Quest
+        - Gather Millet II","Mini-Quest - Gather Millet III","Mini-Quest - Gather
+        Decay Roots III","Mini-Quest - Gather Decay Roots II","Mini-Quest - Gather
+        Decay Roots","Mini-Quest - Gather Rice IV","Mini-Quest - Gather Rice","Mini-Quest
+        - Gather Rice II","Mini-Quest - Gather Rice III","Mini-Quest - Gather Molten
+        Ore IV","Mini-Quest - Gather Molten Ore III","Mini-Quest - Gather Molten Ore","Mini-Quest
+        - Gather Molten Ore II","Mini-Quest - Gather Iron","Mini-Quest - Gather Cobalt
+        III","Mini-Quest - Gather Silver II","Mini-Quest - Gather Silver","Mini-Quest
+        - Gather Cobalt II","Mini-Quest - Gather Kanderstone III","Mini-Quest - Gather
+        Kanderstone II","Mini-Quest - Gather Kanderstone","Mini-Quest - Gather Diamonds","Mini-Quest
+        - Gather Diamonds IV","Mini-Quest - Gather Diamonds II","Mini-Quest - Gather
+        Diamonds III","Mini-Quest - Gather Copper","Mini-Quest - Gather Granite","Mini-Quest
+        - Gather Gold","Mini-Quest - Gather Gold II","Mini-Quest - Gather Sandstone","Mini-Quest
+        - Gather Sandstone II","Mini-Quest - Gather Cobalt","Mini-Quest - Gather Iron
+        II","Mini-Quest - Gather Piranhas II","Mini-Quest - Gather Piranhas","Mini-Quest
+        - Gather Koi II","Mini-Quest - Gather Icefish","Mini-Quest - Gather Trout","Mini-Quest
+        - Gather Gudgeon","Mini-Quest - Gather Carp","Mini-Quest - Gather Carp II","Mini-Quest
+        - Gather Salmon","Mini-Quest - Gather Salmon II","Mini-Quest - Gather Icefish
+        II","Mini-Quest - Gather Bass IV","Mini-Quest - Gather Bass III","Mini-Quest
+        - Gather Bass II","Mini-Quest - Gather Molten Eel","Mini-Quest - Gather Molten
+        Eel II","Mini-Quest - Gather Molten Eel III","Mini-Quest - Gather Molten Eel
+        IV","Mini-Quest - Gather Bass","Mini-Quest - Gather Gylia Fish III","Mini-Quest
+        - Gather Gylia Fish","Mini-Quest - Gather Gylia Fish II","Mini-Quest - Gather
+        Koi III","Mini-Quest - Gather Dark Logs","Mini-Quest - Gather Dark Logs II","Mini-Quest
+        - Gather Light Logs III","Mini-Quest - Gather Light Logs II","Mini-Quest -
+        Gather Light Logs","Mini-Quest - Gather Willow Logs","Mini-Quest - Gather
+        Willow Logs II","Mini-Quest - Gather Acacia Logs","Mini-Quest - Gather Dark
+        Logs III","Mini-Quest - Gather Birch Logs","Mini-Quest - Gather Oak Logs","Mini-Quest
+        - Gather Acacia Logs II","Mini-Quest - Gather Spruce Logs","Mini-Quest - Gather
+        Spruce Logs II","Mini-Quest - Gather Jungle Logs","Mini-Quest - Gather Jungle
+        Logs II","Mini-Quest - Gather Pine Logs","Mini-Quest - Gather Pine Logs II","Mini-Quest
+        - Gather Bamboo","Mini-Quest - Gather Pine Logs III","Mini-Quest - Gather
+        Avo Logs II","Mini-Quest - Gather Avo Logs","Mini-Quest - Gather Avo Logs
+        III","Mini-Quest - Gather Avo Logs IV","Mini-Quest - Gather Malt"]},"itemsIdentified":0,"mobsKilled":33203,"pvp":{"kills":0,"deaths":0},"blocksWalked":-1771630843,"logins":3880,"deaths":69,"playtime":10257,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":0,"dexterity":0,"intelligence":87,"defence":92,"defense":92,"agility":21},"professions":{"alchemism":{"level":60,"xp":39.3},"armouring":{"level":70,"xp":3.3},"combat":{"level":106,"xp":1101.1},"cooking":{"level":60,"xp":46.9},"farming":{"level":99,"xp":62.4},"fishing":{"level":99,"xp":47},"jeweling":{"level":60,"xp":25.9},"mining":{"level":99,"xp":47.5},"scribing":{"level":60,"xp":29.2},"tailoring":{"level":60,"xp":27.1},"weaponsmithing":{"level":60,"xp":1.5},"woodcutting":{"level":99,"xp":47.3},"woodworking":{"level":60,"xp":60.6}},"discoveries":655,"eventsWon":0,"preEconomyUpdate":true}},"guild":{"name":"Empire
+        of Sindria","rank":"RECRUITER"},"global":{"blocksWalked":-1199716723,"itemsIdentified":0,"mobsKilled":11849082,"totalLevel":{"combat":1484,"profession":13581,"combined":15065},"pvp":{"kills":1462,"deaths":253},"logins":67958,"deaths":3664,"discoveries":9177,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
+    headers:
+      Cache-Control:
+      - max-age=853
+      RateLimit-Limit:
+      - '180'
+      RateLimit-Remaining:
+      - '177'
+      RateLimit-Reset:
+      - '10'
+    status:
+      code: 200
+      message: OK
+    url: https://api.wynncraft.com/v2/player/Maarcus1/stats
 version: 1

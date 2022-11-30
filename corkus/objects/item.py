@@ -9,7 +9,7 @@ import math
 from .base import CorkusBase
 from corkus.utils import CorkusEnum
 from .enums import ItemType, ItemCategory
-from .player_class import ClassType
+from .player_character import CharacterType
 from .color import Color
 from .quest import Quest
 from .weapon_damage import WeaponDamage
@@ -136,25 +136,25 @@ class Item(CorkusBase):
     def required_level(self) -> int:
         """Minimum combat level
         (:py:attr:`PlayerProfession.level <corkus.objects.PlayerProfession.level>` from
-        :py:attr:`PlayerClass.combat <corkus.objects.PlayerClass.combat>`) required to use this item."""
+        :py:attr:`Character.combat <corkus.objects.Character.combat>`) required to use this item."""
         return self._attributes.get("level", 1)
 
     @property
-    def required_class(self) -> Union[ClassType, None]:
+    def required_class(self) -> Union[CharacterType, None]:
         """The class that is required for this item to be used.
         ``None`` if item can be used by all classes."""
         if self._attributes.get("classRequirement") is not None:
-            return ClassType(self._attributes.get("classRequirement").upper())
+            return CharacterType(self._attributes.get("classRequirement").upper())
         elif self.type == ItemType.BOW:
-            return ClassType.ARCHER
+            return CharacterType.ARCHER
         elif self.type == ItemType.SPEAR:
-            return ClassType.WARRIOR
+            return CharacterType.WARRIOR
         elif self.type == ItemType.WAND:
-            return ClassType.MAGE
+            return CharacterType.MAGE
         elif self.type == ItemType.DAGGER:
-            return ClassType.ASSASSIN
+            return CharacterType.ASSASSIN
         elif self.type == ItemType.RELIK:
-            return ClassType.SKYSEER
+            return CharacterType.SKYSEER
         else:
             return None
 

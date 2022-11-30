@@ -9,7 +9,7 @@ from corkus.objects import (
     PartialPlayer,
     PlayerTag,
     HardcoreType,
-    ClassType,
+    CharacterType,
     PartialServer,
     ServerType,
     ProfessionType,
@@ -93,55 +93,54 @@ class TestPlayer(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(player.statistics.discoveries, 0)
         self.assertEqual(player.statistics.items_identified, 0)
 
-        # Classes
-        player_class = player.classes[0]
-        self.assertEqual(player.best_class.name, player_class.name)
-        self.assertFalse(player_class.gamemode.craftsman)
-        self.assertFalse(player_class.gamemode.hunted)
-        self.assertFalse(player_class.gamemode.ironman)
-        self.assertEqual(player_class.gamemode.hardcore, HardcoreType.DISABLED)
-        self.assertTrue(player_class.approximate_create[0] <= player.join_date <= (player_class.approximate_create[1]))
-        self.assertGreater(player_class.playtime.raw, 0)
-        self.assertGreater(player_class.combined_level, 0)
+        # Characters
+        character = player.characters[0]
+        self.assertEqual(character.uuid, CorkusUUID("97d5d260-d18a-4a54-b228-1ea0bc84f079"))
+        self.assertFalse(character.gamemode.craftsman)
+        self.assertFalse(character.gamemode.hunted)
+        self.assertFalse(character.gamemode.ironman)
+        self.assertEqual(character.gamemode.hardcore, HardcoreType.DISABLED)
+        self.assertTrue(character.approximate_create[0] <= player.join_date <= (character.approximate_create[1]))
+        self.assertGreater(character.playtime.raw, 0)
+        self.assertGreater(character.combined_level, 0)
 
-        # Classes - Statistics
-        self.assertGreater(player_class.statistics.deaths, 0)
-        self.assertGreater(player_class.statistics.discoveries, 0)
-        self.assertGreater(player_class.statistics.logins, 0)
+        # Characters - Statistics
+        self.assertGreater(character.statistics.deaths, 0)
+        self.assertGreater(character.statistics.discoveries, 0)
+        self.assertGreater(character.statistics.logins, 0)
 
-        # Classes - Quests
-        self.assertTrue(any(q.name == "King's Recruit" for q in player_class.quests))
-        self.assertTrue(any(q.wiki_url == "https://wynncraft.fandom.com/wiki/King's_Recruit" for q in player_class.quests))
-        self.assertTrue(any(q.wiki_url == "https://wynncraft.fandom.com/wiki/Quests#Mini-Quests" for q in player_class.quests))
+        # Characters - Quests
+        self.assertTrue(any(q.name == "King's Recruit" for q in character.quests))
+        self.assertTrue(any(q.wiki_url == "https://wynncraft.fandom.com/wiki/King's_Recruit" for q in character.quests))
+        self.assertTrue(any(q.wiki_url == "https://wynncraft.fandom.com/wiki/Quests#Mini-Quests" for q in character.quests))
 
-        # Classes - Type
-        self.assertEqual(player_class.type, ClassType.MAGE)
-        self.assertEqual(player_class.kind, ClassType.MAGE)
-        self.assertEqual(player_class.name, "mage")
-        self.assertEqual(player_class.display_name, "Mage")
+        # Characters - Type
+        self.assertEqual(character.type, CharacterType.MAGE)
+        self.assertEqual(character.kind, CharacterType.MAGE)
+        self.assertEqual(character.display_name, "Mage")
 
-        # Classes - Dungeons
-        self.assertTrue(all(d.completed > 0 for d in player_class.dungeons))
-        self.assertEqual(player_class.dungeons[0].name, "Decrepit Sewers")
-        self.assertEqual(player_class.dungeons[0].type, DungeonType.STANDARD)
+        # Characters - Dungeons
+        self.assertTrue(all(d.completed > 0 for d in character.dungeons))
+        self.assertEqual(character.dungeons[0].name, "Decrepit Sewers")
+        self.assertEqual(character.dungeons[0].type, DungeonType.STANDARD)
 
-        # Classes - Professions
-        self.assertEqual(len(player_class.professions), 13)
-        self.assertTrue(all(p.level > 10 for p in player_class.professions))
-        self.assertEqual(player_class.combat.type, ProfessionType.COMBAT)
-        self.assertEqual(player_class.combat.name, "Combat")
-        self.assertEqual(player_class.get_profession(ProfessionType.ALCHEMISM).type, ProfessionType.ALCHEMISM)
-        self.assertGreater(player_class.combat.level_progress, 0)
+        # Characters - Professions
+        self.assertEqual(len(character.professions), 13)
+        self.assertTrue(all(p.level > 10 for p in character.professions))
+        self.assertEqual(character.combat.type, ProfessionType.COMBAT)
+        self.assertEqual(character.combat.name, "Combat")
+        self.assertEqual(character.get_profession(ProfessionType.ALCHEMISM).type, ProfessionType.ALCHEMISM)
+        self.assertGreater(character.combat.level_progress, 0)
 
         # Alternative players
         player = await self.corkus.player.get("ojomFox")
-        player_class = player.classes[0]
-        self.assertTrue(all(r.completed > 0 for r in player_class.raids))
+        character = player.characters[0]
+        self.assertTrue(all(r.completed > 0 for r in character.raids))
         self.assertEqual(player.raids[0].name, "The Canyon Colossus")
-        self.assertEqual(player_class.raids[0].name, "The Canyon Colossus")
-        self.assertTrue(any(d.type == DungeonType.STANDARD for d in player_class.dungeons))
-        self.assertTrue(any(d.type == DungeonType.CORRUPTED for d in player_class.dungeons))
-        self.assertTrue(any(d.type == DungeonType.REMOVED for d in player_class.dungeons))
+        self.assertEqual(character.raids[0].name, "The Canyon Colossus")
+        self.assertTrue(any(d.type == DungeonType.STANDARD for d in character.dungeons))
+        self.assertTrue(any(d.type == DungeonType.CORRUPTED for d in character.dungeons))
+        self.assertTrue(any(d.type == DungeonType.REMOVED for d in character.dungeons))
 
         # Broken
         # https://github.com/Wynncraft/WynncraftAPI/issues/66

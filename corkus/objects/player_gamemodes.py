@@ -13,7 +13,7 @@ class HardcoreType(Enum):
     FAILED = "FAILED"
 
 class PlayerGamemodes(CorkusBase):
-    """Challenge gamemodes that are enabled on a :py:class:`PlayerClass`."""
+    """Challenge gamemodes that are enabled on a :py:class:`Character`."""
     def __init__(self, corkus: Corkus, attributes: dict, deaths: int):
         super().__init__(corkus, attributes)
         self._deaths = deaths

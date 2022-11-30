@@ -7,7 +7,7 @@ from corkus import Corkus
 from corkus.objects import (
     ItemType,
     ItemTier,
-    ClassType,
+    CharacterType,
     ItemRestrictions,
     ArmourType,
     ItemCategory,
@@ -27,11 +27,11 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(all(len(i.name) > 0 for i in items))
         self.assertTrue(any(i.name != i.display_name for i in items))
         self.assertTrue(all(i.set is None or i.set == "Leaf" for i in items))
-        self.assertTrue(any(i.required_class == ClassType.ARCHER for i in items))
-        self.assertTrue(any(i.required_class == ClassType.WARRIOR for i in items))
-        self.assertTrue(any(i.required_class == ClassType.MAGE for i in items))
-        self.assertTrue(any(i.required_class == ClassType.ASSASSIN for i in items))
-        self.assertTrue(any(i.required_class == ClassType.SKYSEER for i in items))
+        self.assertTrue(any(i.required_class == CharacterType.ARCHER for i in items))
+        self.assertTrue(any(i.required_class == CharacterType.WARRIOR for i in items))
+        self.assertTrue(any(i.required_class == CharacterType.MAGE for i in items))
+        self.assertTrue(any(i.required_class == CharacterType.ASSASSIN for i in items))
+        self.assertTrue(any(i.required_class == CharacterType.SKYSEER for i in items))
         self.assertTrue(any(i.restrictions == ItemRestrictions.QUEST_ITEM for i in items))
         self.assertTrue(any(i.restrictions ==  ItemRestrictions.UNTRADABLE for i in items))
 
@@ -73,7 +73,7 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertIsNone(wand.armour_type)
         self.assertIsNone(wand.armour_color)
         self.assertEqual(wand.required_level, 75)
-        self.assertEqual(wand.required_class, ClassType.MAGE)
+        self.assertEqual(wand.required_class, CharacterType.MAGE)
         self.assertEqual(wand.required_quest, "Reincarnation")
         self.assertIsNone(wand.lore)
         self.assertIsNone(wand.restrictions)

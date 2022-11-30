@@ -6,10 +6,18 @@ Corkus.py follows `semantic versioning <http://semver.org/>`_.
 .. py:currentmodule:: corkus.objects
 
 
-Upcoming changes
-----------------
+3.0.0 (In development) 
+----------------------
+
+- :bdg-danger-line:`BREAKING` Due to recent API changes ``Character.name`` (formerly: ``PlayerClass.name``) was removed.
+- :bdg-warning-line:`Deprecated` :py:attr:`Player.classes` is now deprecated, use :py:attr:`Player.characters` instead.
+- :bdg-warning-line:`Deprecated` :py:attr:`Player.best_class` is now deprecated, use :py:attr:`Player.best_character` instead.
+- ``PlayerClass`` was renamed to :py:class:`Character` to match new API schema.
+- ``ClassType`` was renamed to :py:class:`CharacterType` to match new API schema.
+- Add :py:attr:`uuid <Character.uuid>` property to :py:class:`Character` (formerly: ``PlayerClass``).
+- Project now uses ``characters`` instead of ``classes`` in documentation.
 - Add support for `Python 3.11 <https://docs.python.org/3/whatsnew/3.11.html>`_
-- Update decencies. You can now use ``aiohttp 3.8.x``
+- Update dependencies. You can now use ``aiohttp 3.8.x`` and ``iso8601 1.x``
 
 2.0.0 (2022/06/07)
 ------------------

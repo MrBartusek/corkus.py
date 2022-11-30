@@ -15,8 +15,9 @@ Working with Corkus Objects
    objects/attack_speed
    objects/banner_color
    objects/banner_pattern
+   objects/character
+   objects/character_type
    objects/class_statistics
-   objects/class_type
    objects/color
    objects/corkus_uuid
    objects/dungeon
@@ -58,7 +59,6 @@ Working with Corkus Objects
    objects/partial_server
    objects/partial_teritories
    objects/player
-   objects/player_class
    objects/player_gamemodes
    objects/player_overall_ranking
    objects/player_playtime

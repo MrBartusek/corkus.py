@@ -3,6 +3,9 @@ from corkus.objects.base_player import PlayerTag
 from datetime import datetime, timezone
 from enum import Enum
 from typing import TYPE_CHECKING, List, Tuple
+from deprecated import deprecated
+
+from corkus.objects.uuid import CorkusUUID
 
 from .base import CorkusBase
 from .player_profession import PlayerProfession
@@ -19,8 +22,8 @@ if TYPE_CHECKING:
     from corkus import Corkus
     from .player import Player
 
-class ClassType(Enum):
-    """Type of :py:class:`PlayerClass`."""
+class CharacterType(Enum):
+    """Type of :py:class:`Character`."""
     ARCHER = "ARCHER"
     WARRIOR = "WARRIOR"
     MAGE = "MAGE"
@@ -29,26 +32,28 @@ class ClassType(Enum):
 
     HUNTER = "HUNTER"
     KNIGHT = "KNIGHT"
-    DARK_WIZARD = "DARK_WIZARD"
+    DARK_WIZARD = "DARKWIZARD"
     NINJA = "NINJA"
     SKYSEER = "SKYSEER"
 
-class PlayerClass(CorkusBase):
-    """Represents one of the `player classes <https://wynncraft.fandom.com/wiki/Classes>`_
-    that a :py:class:`Player` have currently active."""
-    def __init__(self, corkus: Corkus, player: Player, attributes: dict):
+class Character(CorkusBase):
+    """Represents one of the player's characters that a :py:class:`Player` have currently active."""
+    def __init__(self, corkus: Corkus, player: Player, uuid: str, attributes: dict):
         self._player = player
+        self._uuid = uuid
         super().__init__(corkus, attributes)
 
     @property
-    def name(self) -> str:
-        """The official name of the class for example: ``mage``, ``knight1`` or ``darkwizard3``."""
-        return self._attributes.get("name", "")
+    def uuid(self) -> CorkusUUID:
+        """Unique identifier for this character."""
+        return CorkusUUID(self._uuid)
 
     @property
     def display_name(self) -> str:
         """Pretty name to display to end-user like ``Archer``, ``Mage`` or ``Dark Wizard``."""
-        return self.type.value.replace("_"," ").title()
+        if self.type == CharacterType.DARK_WIZARD:
+            return "Dark Wizard"
+        return self.type.value.title()
 
     @property
     def approximate_create(self) -> Tuple[datetime, datetime]:
@@ -69,7 +74,7 @@ class PlayerClass(CorkusBase):
         start = self._player.join_date
         end = self._player.last_online
 
-        if self.kind == ClassType.SHAMAN:
+        if self.kind == CharacterType.SHAMAN:
             start = max(SE_UPDATE, start)
 
         if self.reskinned and self._player.tag not in (PlayerTag.HERO, PlayerTag.CHAMPION):
@@ -96,19 +101,19 @@ class PlayerClass(CorkusBase):
         return (start, end)
 
     @property
-    def kind(self) -> ClassType:
-        """Class type ignoring re-skinned variants. :py:attr:`ClassType.DARK_WIZARD` is converted to :py:attr:`ClassType.MAGE` etc."""
+    def kind(self) -> CharacterType:
+        """Class type ignoring re-skinned variants. :py:attr:`CharacterType.DARK_WIZARD` is converted to :py:attr:`CharacterType.MAGE` etc."""
         class_type = self.type
-        if class_type == ClassType.HUNTER:
-            return ClassType.ARCHER
-        elif class_type == ClassType.KNIGHT:
-            return ClassType.WARRIOR
-        elif class_type == ClassType.DARK_WIZARD:
-            return ClassType.MAGE
-        elif class_type == ClassType.NINJA:
-            return ClassType.ASSASSIN
-        elif class_type == ClassType.SKYSEER:
-            return ClassType.SHAMAN
+        if class_type == CharacterType.HUNTER:
+            return CharacterType.ARCHER
+        elif class_type == CharacterType.KNIGHT:
+            return CharacterType.WARRIOR
+        elif class_type == CharacterType.DARK_WIZARD:
+            return CharacterType.MAGE
+        elif class_type == CharacterType.NINJA:
+            return CharacterType.ASSASSIN
+        elif class_type == CharacterType.SKYSEER:
+            return CharacterType.SHAMAN
         else:
             return class_type
 
@@ -118,13 +123,9 @@ class PlayerClass(CorkusBase):
         return self.type != self.kind
 
     @property
-    def type(self) -> ClassType:
+    def type(self) -> CharacterType:
         """Class type including re-skinned variants."""
-        name = "".join([i for i in self.name if not i.isdigit()])
-        if name == "darkwizard":
-            name = "dark wizard"
-        name = name.upper().replace(" ", "_")
-        return ClassType(name)
+        return CharacterType(self._attributes.get("type", ""))
 
     @property
     def quests(self) -> List[Quest]:
@@ -199,4 +200,4 @@ class PlayerClass(CorkusBase):
         return next((p for p in self.professions if p.type == profession), None)
 
     def __repr__(self) -> str:
-        return f"<PlayerClass type={self.display_name!r} combat={self.combat.level}>"
+        return f"<Character type={self.display_name!r} combat={self.combat.level}>"

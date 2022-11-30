@@ -3,6 +3,7 @@ from corkus.objects.playtime import PlayerPlaytime
 from typing import List, Union
 import iso8601
 import datetime
+from deprecated.sphinx import deprecated
 
 from .base_player import BasePlayer
 from .partial_member import PartialMember
@@ -10,7 +11,7 @@ from .partial_guild import PartialGuild
 from .member import GuildRank
 from .player_status import PlayerStatus
 from .player_statistics import PlayerStatistics
-from .player_class import PlayerClass
+from .player_character import Character
 from .dungeon import Dungeon
 from .raid import Raid
 from .quest import Quest
@@ -53,21 +54,34 @@ class Player(BasePlayer):
 
     @property
     def combined_level(self) -> int:
-        """Combined level of all professions across all classes including combat."""
-        return sum(c.combined_level for c in self.classes)
+        """Combined level of all professions across all characters including combat."""
+        return sum(c.combined_level for c in self.characters)
 
     @property
-    def classes(self) -> List[PlayerClass]:
+    def characters(self) -> List[Character]:
+        """All of the player's characters."""
+        return [Character(self._corkus, self, uuid, char) for uuid, char in self._attributes.get("characters", {}).items()]
+    
+    @property
+    @deprecated(version="3.0", reason="Use :py:attr:`characters` instead")
+    def classes(self) -> List[Character]:
         """All of the player's classes."""
-        return [PlayerClass(self._corkus, self, c) for c in self._attributes.get("classes", {})]
+        return self.characters
 
     @property
-    def best_class(self) -> Union[PlayerClass, None]:
-        """Player's best class. This is determined by sorting by :py:attr:`PlayerClass.combat` level and
-        :py:attr:`PlayerClass.combined_level`."""
-        classes = self.classes.copy()
-        classes.sort(key = lambda x: (x.combat.level, x.combined_level), reverse = True)
-        return classes[0] if len(classes) > 0 else None
+    def best_character(self) -> Union[Character, None]:
+        """Player's best character. This is determined by sorting by :py:attr:`Character.combat` level and
+        :py:attr:`Character.combined_level`."""
+        characters = self.characters.copy()
+        characters.sort(key = lambda x: (x.combat.level, x.combined_level), reverse = True)
+        return characters[0] if len(characters) > 0 else None
+
+    @property
+    @deprecated(version="3.0", reason="Use :py:attr:`best_character` instead")
+    def best_class(self) -> Union[Character, None]:
+        """Player's best class. This is determined by sorting by :py:attr:`Character.combat` level and
+        :py:attr:`Character.combined_level`."""
+        return self.best_character
 
     @property
     def member(self) -> Union[PartialMember, None]:
@@ -93,32 +107,32 @@ class Player(BasePlayer):
 
     @property
     def statistics(self) -> PlayerStatistics:
-        """General statistics across all classes."""
+        """General statistics across all characters."""
         return PlayerStatistics(self._corkus, self._attributes.get("global", {}))
 
     @property
     def quests(self) -> List[Quest]:
-        """List of all quests completed by player, combined across all classes."""
+        """List of all quests completed by player, combined across all characters."""
         result = []
-        for quest in [q for c in self.classes for q in c.quests]:
+        for quest in [q for c in self.characters for q in c.quests]:
             if any(q.name == quest for q in result): continue
             result.append(quest)
         return result
 
     @property
     def dungeons(self) -> List[Dungeon]:
-        """List of dungeons completed by this player, combined across all classes."""
+        """List of dungeons completed by this player, combined across all characters."""
         result = []
-        for dungeon in [d for c in self.classes for d in c.dungeons]:
+        for dungeon in [d for c in self.characters for d in c.dungeons]:
             if any(q.name == dungeon for q in result): continue
             result.append(dungeon)
         return result
 
     @property
     def raids(self) -> List[Raid]:
-        """List of raids completed by this player, combined across all classes."""
+        """List of raids completed by this player, combined across all characters."""
         result = []
-        for raid in [r for c in self.classes for r in c.raids]:
+        for raid in [r for c in self.characters for r in c.raids]:
             if any(q.name == raid for q in result): continue
             result.append(raid)
         return result
