@@ -2,8 +2,7 @@ name: build
 
 on:
   push:
-    branches:
-    - main
+    branches: [ 'main' ]
   pull_request:
 
 jobs:
@@ -12,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📥 Checkout the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2s
 
       - name: 🛠️ Set up Python 3
         uses: actions/setup-python@v2
@@ -26,7 +25,7 @@ jobs:
           python3 -m pip --disable-pip-version-check install -r requirements-dev.txt
 
       - name: 🧹 Lint with Pylint
-        run: pylint --fail-under=10 corkus tests
+        run: pylint --fail-under=100 corkus tests
 
   test:
     name: Test with Python ${{ matrix.python-version }} on ${{ matrix.os }}
