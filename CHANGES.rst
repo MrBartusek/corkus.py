@@ -6,6 +6,11 @@ Corkus.py follows `semantic versioning <http://semver.org/>`_.
 .. py:currentmodule:: corkus.objects
 
 
+Upcoming changes
+----------------
+- Add support for `Python 3.11 <https://docs.python.org/3/whatsnew/3.11.html>`_
+- Update decencies. You can now use ``aiohttp 3.8.x``
+
 2.0.0 (2022/06/07)
 ------------------
 

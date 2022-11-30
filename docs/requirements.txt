@@ -1,7 +1,7 @@
 -r ../requirements.txt
-Sphinx==4.1.2
-furo==2021.08.31
-sphinx-autodoc-typehints==1.11.1
-sphinxext-opengraph==0.4.2
-sphinx-copybutton==0.4.0
-sphinx_design==0.1.0
+Sphinx==5.3.0
+furo==2022.9.29
+sphinx-autodoc-typehints==1.19.5
+sphinxext-opengraph==0.7.3
+sphinx-copybutton==0.5.1
+sphinx_design==0.3.0
