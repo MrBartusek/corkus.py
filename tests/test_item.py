@@ -141,7 +141,7 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
 
     @vcr.use_cassette
     async def test_item_search_head(self):
-        result = await self.corkus.item.search_by_name("Gert Mask")
+        result = await self.corkus.item.search_by_name("Happy Gert Mask")
         self.assertEqual(len(result), 1)
         mask = result[0]
         self.assertGreater(mask.health, 0)
@@ -150,7 +150,7 @@ class TestItem(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(mask.required_level, 0)
         self.assertEqual(mask.item_id, "397:3")
         self.assertIsNone(mask.armour_type)
-        self.assertEqual(mask.skin.username, "bmanrules")
+        self.assertEqual(mask.skin.username, "catsinspacee")
         self.assertGreater(mask.skin.requested.timestamp(), 1000)
         self.assertIsNotNone(mask.skin.uuid)
         self.assertTrue(mask.skin.url.startswith("http://textures.minecraft.net/texture/"))
