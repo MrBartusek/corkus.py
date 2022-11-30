@@ -44,11 +44,11 @@ class CorkusRequest:
             self._session = ClientSession(headers = headers)
 
     async def get(self, version: Optional[APIVersion], parameters: str, timeout: Optional[int]) -> dict:
-        if(version is not None):
+        if version is not None:
             url = version.value + parameters
         else:
             url = parameters
-    
+
         if timeout is None:
             timeout = self.timeout
 

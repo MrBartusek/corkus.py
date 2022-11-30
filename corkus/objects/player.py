@@ -61,7 +61,7 @@ class Player(BasePlayer):
     def characters(self) -> List[Character]:
         """All of the player's characters."""
         return [Character(self._corkus, self, uuid, char) for uuid, char in self._attributes.get("characters", {}).items()]
-    
+
     @property
     @deprecated(version="3.0", reason="Use :py:attr:`characters` instead")
     def classes(self) -> List[Character]:
