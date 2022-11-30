@@ -25,7 +25,7 @@ jobs:
           python3 -m pip --disable-pip-version-check install -r requirements-dev.txt
 
       - name: 🧹 Lint with Pylint
-        run: pylint --fail-under=100 corkus tests
+        run: pylint --fail-under=10 corkus tests
 
   test:
     name: Test with Python ${{ matrix.python-version }} on ${{ matrix.os }}
