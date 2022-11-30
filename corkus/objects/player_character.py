@@ -1,8 +1,9 @@
 from __future__ import annotations
-from corkus.objects import PlayerTag, CorkusUUID
 from datetime import datetime, timezone
 from enum import Enum
 from typing import TYPE_CHECKING, List, Tuple
+from corkus.objects.base_player import PlayerTag
+from corkus.objects.uuid import CorkusUUID
 
 from .base import CorkusBase
 from .player_profession import PlayerProfession
