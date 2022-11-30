@@ -12,6 +12,7 @@ class TestRequest(unittest.IsolatedAsyncioTestCase):
     @vcr.use_cassette
     async def test_timeout(self):
         with self.assertRaises(CorkusTimeoutError) as context:
+            # pylint: disable=protected-access
             request = self.corkus._request
             await request.get(None, "https://httpstat.us/200?sleep=5000", 1)
         exception = context.exception
