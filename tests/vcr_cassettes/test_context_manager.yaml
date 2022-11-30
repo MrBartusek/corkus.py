@@ -5,12 +5,12 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.2.1
+      - Corkus.py/2.0.0
     method: GET
     uri: https://api.wynncraft.com/v2/player/MrBartusekXD/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/MrBartusekXD/stats","code":200,"timestamp":1654609084210,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-12-28T18:20:06.071Z","location":{"online":false,"server":null},"playtime":2971,"tag":{"display":true,"value":"VIP"},"veteran":false},"classes":[{"name":"mage","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
+      string: '{"kind":"wynncraft/player/MrBartusekXD/stats","code":200,"timestamp":1669824235690,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-12-28T18:20:06.071Z","location":{"online":false,"server":null},"playtime":2971,"tag":{"display":true,"value":"VIP"},"veteran":false},"characters":{"97d5d260-d18a-4a54-b228-1ea0bc84f079":{"type":"MAGE","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
         Sewers","completed":4},{"name":"Lost Sanctuary","completed":2},{"name":"Underworld
         Crypt","completed":1},{"name":"Ice Barrows","completed":6},{"name":"Sand-Swept
         Tomb","completed":4},{"name":"Undergrowth Ruins","completed":5},{"name":"Galleon''s
@@ -60,17 +60,17 @@ interactions:
         - Gather Sandstone","Mini-Quest - Gather Carp","Mini-Quest - Gather Acacia
         Logs II","Mini-Quest - Gather Malt II","Mini-Quest - Gather Sandstone II","Mini-Quest
         - Gather Spruce Logs","Mini-Quest - Gather Spruce Logs II","Mini-Quest - Gather
-        Iron II","Mini-Quest - Gather Koi II"]},"itemsIdentified":0,"mobsKilled":50721,"pvp":{"kills":0,"deaths":0},"blocksWalked":17517852,"logins":611,"deaths":119,"playtime":2971,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":35,"dexterity":33,"intelligence":41,"defence":50,"defense":50,"agility":41},"professions":{"alchemism":{"level":66,"xp":46.5},"armouring":{"level":27,"xp":97.4},"combat":{"level":102,"xp":81.3},"cooking":{"level":70,"xp":5.1},"farming":{"level":72,"xp":37.2},"fishing":{"level":71,"xp":69.1},"jeweling":{"level":71,"xp":53.2},"mining":{"level":70,"xp":54.7},"scribing":{"level":54,"xp":66.3},"tailoring":{"level":73,"xp":31.9},"weaponsmithing":{"level":19,"xp":4.4},"woodcutting":{"level":52,"xp":97},"woodworking":{"level":18,"xp":14.5}},"discoveries":537,"eventsWon":0,"preEconomyUpdate":false}],"guild":{"name":"The
+        Iron II","Mini-Quest - Gather Koi II"]},"itemsIdentified":0,"mobsKilled":50721,"pvp":{"kills":0,"deaths":0},"blocksWalked":17517852,"logins":611,"deaths":119,"playtime":2971,"gamemode":{"craftsman":false,"hardcore":false,"ironman":false,"hunted":false},"skills":{"strength":35,"dexterity":33,"intelligence":41,"defence":50,"defense":50,"agility":41},"professions":{"alchemism":{"level":66,"xp":46.5},"armouring":{"level":27,"xp":97.4},"combat":{"level":102,"xp":81.3},"cooking":{"level":70,"xp":5.1},"farming":{"level":72,"xp":37.2},"fishing":{"level":71,"xp":69.1},"jeweling":{"level":71,"xp":53.2},"mining":{"level":70,"xp":54.7},"scribing":{"level":54,"xp":66.3},"tailoring":{"level":73,"xp":31.9},"weaponsmithing":{"level":19,"xp":4.4},"woodcutting":{"level":52,"xp":97},"woodworking":{"level":18,"xp":14.5}},"discoveries":537,"eventsWon":0,"preEconomyUpdate":false}},"guild":{"name":"The
         Farplane","rank":"CHIEF"},"global":{"blocksWalked":17517852,"itemsIdentified":0,"mobsKilled":50721,"totalLevel":{"combat":102,"profession":663,"combined":765},"pvp":{"kills":0,"deaths":0},"logins":611,"deaths":119,"discoveries":537,"eventsWon":0},"ranking":{"guild":null,"player":{"solo":{"combat":null,"woodcutting":null,"mining":null,"fishing":null,"farming":null,"alchemism":null,"armouring":null,"cooking":null,"jeweling":null,"scribing":null,"tailoring":null,"weaponsmithing":null,"woodworking":null,"profession":null,"overall":null},"overall":{"all":null,"combat":null,"profession":null}},"pvp":null}}]}'
     headers:
+      Cache-Control:
+      - max-age=1800
       RateLimit-Limit:
       - '180'
       RateLimit-Remaining:
-      - '92'
+      - '178'
       RateLimit-Reset:
-      - '15'
-      cache-control:
-      - max-age=1759
+      - '5'
     status:
       code: 200
       message: OK

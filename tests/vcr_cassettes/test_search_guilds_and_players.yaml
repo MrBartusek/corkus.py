@@ -5,21 +5,21 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.2.1
+      - Corkus.py/2.0.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=statsSearch&search=MrBartusekXD
   response:
     body:
-      string: '{"guilds":[],"players":["MrBartusekXD"],"search":"mrbartusekxd","request":{"timestamp":1654609144,"version":1}}'
+      string: '{"guilds":[],"players":["MrBartusekXD"],"search":"mrbartusekxd","request":{"timestamp":1669824256,"version":1}}'
     headers:
+      Cache-Control:
+      - max-age=30
       RateLimit-Limit:
       - '180'
       RateLimit-Remaining:
-      - '155'
+      - '120'
       RateLimit-Reset:
-      - '56'
-      cache-control:
-      - max-age=30
+      - '44'
     status:
       code: 200
       message: OK
@@ -30,21 +30,21 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/1.2.1
+      - Corkus.py/2.0.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=statsSearch&search=farplane
   response:
     body:
-      string: '{"guilds":["The Farplane"],"players":[],"search":"farplane","request":{"timestamp":1654609145,"version":1}}'
+      string: '{"guilds":["The Farplane"],"players":[],"search":"farplane","request":{"timestamp":1669824256,"version":1}}'
     headers:
+      Cache-Control:
+      - max-age=30
       RateLimit-Limit:
       - '180'
       RateLimit-Remaining:
-      - '154'
+      - '119'
       RateLimit-Reset:
-      - '55'
-      cache-control:
-      - max-age=30
+      - '44'
     status:
       code: 200
       message: OK
