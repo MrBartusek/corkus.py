@@ -7,7 +7,6 @@ disable=
     multiple-statements,
     no-else-return,
     broad-except,
-    no-self-use,
     logging-fstring-interpolation,
     invalid-name,
     no-else-raise,

@@ -30,6 +30,7 @@ class Color:
     @property
     def hex(self) -> str:
         """Return hex representation of color like ``#4e80f7``."""
+        # pylint: disable=consider-using-f-string
         return '#%02x%02x%02x' % self._value
 
     def __str__(self) -> str:

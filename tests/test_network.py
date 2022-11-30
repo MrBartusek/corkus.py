@@ -18,7 +18,7 @@ class TestNetwork(unittest.IsolatedAsyncioTestCase):
     @vcr.use_cassette
     async def test_network_servers_list(self):
         response = await self.corkus.network.online_players()
-        self.assertGreater(sum([s.total_players for s in response.servers]), 0)
+        self.assertGreater(sum(s.total_players for s in response.servers), 0)
         self.assertTrue(any(s.name.startswith("WC") for s in response.servers))
         self.assertTrue(any(s.type == ServerType.REGULAR for s in response.servers))
         self.assertTrue(any(s.type == ServerType.MEDIA for s in response.servers))

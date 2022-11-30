@@ -15,7 +15,7 @@ class TestGuild(unittest.IsolatedAsyncioTestCase):
         guild = await self.corkus.guild.get("The Farplane")
         self.assertEqual(guild.name, "The Farplane")
         self.assertEqual(guild.tag, "Yin")
-        self.assertGreater(sum([m.contributed_xp for m in guild.members]), 0)
+        self.assertGreater(sum(m.contributed_xp for m in guild.members), 0)
         self.assertTrue(all(m.join_date > m.guild.created for m in guild.members))
         self.assertEqual(guild.created.year, 2019)
         self.assertTrue(any(m.username == "MrBartusekXD" for m in guild.members))
