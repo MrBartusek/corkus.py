@@ -12,17 +12,12 @@ Prerequisites
     Corkus supports `Python 3.8+`_.
 :Wynncraft Knowledge: A basic understanding of how Wynncraft works is a must. In the event you
     are not already familiar with Wynncraft start at `Wynncraft Help`_.
-:Optional `AIOHTTP`_ Knowledge: AIOHTTP is a library that drives Corkus.py and thus understanding how to handle
-    ClientSession would be beneficial.
 
 .. _python 3.8+: https://docs.python.org/3/tutorial/index.html
 
 .. _asyncio: https://docs.python.org/3/library/asyncio.html
 
 .. _wynncraft help: https://wynncraft.com/help
-
-.. _aiohttp: https://docs.aiohttp.org
-
 
 With these prerequisites satisfied, you are ready to learn how to do some of the most
 common tasks with Corkus.
