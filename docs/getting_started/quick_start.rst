@@ -27,14 +27,13 @@ Prerequisites
 With these prerequisites satisfied, you are ready to learn how to do some of the most
 common tasks with Corkus.
 
-Common Tasks
-------------
+Example usage
+--------------------
 
-Obtain a :class:`.Corkus` Instance
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This guide gives a brief introduction to the Corkus.py. It assumes you have the library installed.
+If you don’t, check the :ref:`install`.
 
-You need an instance of the :class:`.Corkus` class to do anything with Corkus.py. This is a class
-from which you will make all of the request.
+This is a simple application for fetching player statistics:
 
 .. code-block:: python
 
@@ -43,14 +42,30 @@ from which you will make all of the request.
 
     async def main():
         async with Corkus() as corkus:
-            # Do your API stuff here
-            pass
+
+            player = await corkus.player.get("MrBartusekXD")
+            print(f"username: {player.username}")
+            character = player.best_character
+            print(f"best character: {character.display_name} ({character.combat.level}lv)")
+
+            if player.guild:
+                guild = await player.guild.fetch()
+                print(f"guild: {player.guild.name} {guild.level}lv ({len(guild.members)} members)")
 
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main())
 
+This will print something like that:
+
+.. code-block::
+
+    username: MrBartusekXD
+    best character: Mage (102lv)
+    guild: The Farplane 63lv (60 members)
+
 If you are not familiar with `asyncio`_ that snippet may seam a bit scarry. Don't worry!
-Thats a minimal requirement to run asynchronous python code! All code inside ``main()`` is now asynchronous.
+Thats a minimal requirement to run asynchronous Python code! All code inside ``main()`` is
+now asynchronous.
 
 You probably see that this snippet also uses a `Context Manager`_ in order to simplify the code. 
 You don't need to use it, this code works exactly the same:
@@ -63,7 +78,14 @@ You don't need to use it, this code works exactly the same:
     async def main():
         corkus = Corkus()
 
-        # Do your API stuff here
+        player = await corkus.player.get("MrBartusekXD")
+        print(f"username: {player.username}")
+        character = player.best_character
+        print(f"best character: {character.display_name} ({character.combat.level}lv)")
+
+        if player.guild:
+            guild = await player.guild.fetch()
+            print(f"guild: {player.guild.name} {guild.level}lv ({len(guild.members)} members)")
 
         await corkus.close()
 
@@ -72,35 +94,12 @@ You don't need to use it, this code works exactly the same:
 
 .. _context manager: https://book.pythontips.com/en/latest/context_managers.html
 
-In this example you need to call :py:func:`Corkus.close() <corkus.Corkus.close>`. Be sure to always close corkus client before
-closing your application.
+In this example you need to call :py:func:`Corkus.start() <corkus.Corkus.start>` and
+:py:func:`Corkus.close() <corkus.Corkus.close>`. These are two lifecycle function that needs
+to always be called at the start and end of your application.
 
 .. note::
 
     You should use `Context Manager`_ when dealing with smaller scripts and directly
     create and close :class:`.Corkus` instance when dealing with bots or other
     bigger applications.
-
-Obtain a :class:`.Player`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-To obtain a :class:`.Player` instance, you must first obtain
-:class:`.PlayerEndpoint` instance. To access any
-endpoint in corkus you need to use properties of :class:`.Corkus` instance.
-:class:`.PlayerEndpoint` is available under
-:attr:`.Corkus.player`
-
-.. code-block:: python
-
-    # assume you have a corkus instance bound to variable "corkus"
-
-    player = await corkus.player.get("Salted")
-    print(f"username: {player.username}")
-    print(f"logins: {player.statistics.logins}")
-
-Output:
-
-.. code-block::
-
-    username: Salted
-    logins: 1022

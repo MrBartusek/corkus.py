@@ -34,8 +34,9 @@ Corkus documentation is organized into the following sections:
     :maxdepth: 1
     :caption: Getting Started
 
-    getting_started/quick_start
     getting_started/installation
+    getting_started/quick_start
+    getting_started/discord
     getting_started/api_keys
     getting_started/configuration
     getting_started/ratelimit

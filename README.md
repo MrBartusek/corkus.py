@@ -45,9 +45,10 @@ from corkus import Corkus
 
 async def player_stats():
     async with Corkus() as corkus:
-        player = await corkus.player.get("Salted")
+        player = await corkus.player.get("MrBartusekXD")
+        character = player.best_character
         print(f"username: {player.username}")
-        print(f"logins: {player.statistics.logins}")
+        print(f"best character: {character.display_name} ({character.combat.level}lv)")
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(player_stats())
@@ -61,10 +62,12 @@ from corkus import Corkus
 
 async def player_stats():
     corkus = Corkus()
+    await corkus.start()
 
-    player = await corkus.player.get("Salted")
+    player = await corkus.player.get("MrBartusekXD")
+    character = player.best_character
     print(f"username: {player.username}")
-    print(f"logins: {player.statistics.logins}")
+    print(f"best character: {character.display_name} ({character.combat.level}lv)")
 
     await corkus.close()
 
@@ -74,8 +77,8 @@ loop.run_until_complete(player_stats())
 
 Output:
 ```
-username: Salted
-logins: 1022
+username: MrBartusek
+best character: Mage (102lv)
 ```
 
 ## Contributing
