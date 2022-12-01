@@ -9,6 +9,7 @@ from corkus.errors import BadRequest
 class TestGuild(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
+        await self.corkus.start()
 
     @vcr.use_cassette
     async def test_guild_get(self):

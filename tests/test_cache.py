@@ -8,6 +8,7 @@ from corkus import Corkus
 class TestCache(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
+        await self.corkus.start()
 
     @vcr.use_cassette
     async def test_cache(self):

@@ -11,31 +11,29 @@ same name. For example:
 
     corkus = Corkus(
         timeout = 10,
-        cache_enable = False
+        disable_cache = False
     )
 
 Configuration Options
 ~~~~~~~~~~~~~~~~~~~~~
 
-api_key
-    Your key for Wynncraft API. :ref:`How to obtain API keys <keys>`.
-
-session
-    If you want to use a custom `ClientSession <https://docs.aiohttp.org/en/latest/client_reference.html#aiohttp.ClientSession>`_,
-    you can pass it in the following argument.
-
 timeout
-    Default: ``30``
+    Default: ``60``
 
-    Number of seconds after API requests will raise :py:exc:`corkus.errors.CorkusTimeoutError`. It can be
+    Number of seconds after which API requests will raise :py:exc:`corkus.errors.CorkusTimeoutError`. It can be
     overridden by timeout argument in each API call function.
 
-cache_enable
-    Default: ``True``
+disable_cache
+    Default: ``False``
 
-    Should :ref:`cache` be enabled.
+    Disable :ref:`cache` module. No request will be saved on disc, this may slow down the client.
 
-ratelimit_enable
-    Default: ``True``
+disable_ratelimit
+    Default: ``False``
 
-    Should :ref:`ratelimit` be enabled. **It's highly recommended to keep this option enabled!**
+    Disable :ref:`ratelimit` module. Request won't be slowed down while approaching the rate limit. This may cause
+    :py:exc:`corkus.errors.RatelimitExceeded` errors. 
+
+    .. danger::
+
+        IPs that repeatedly exceed the rate limit could be blacklisted.

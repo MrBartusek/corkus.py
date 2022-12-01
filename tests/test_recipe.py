@@ -8,6 +8,7 @@ from corkus.objects import ItemType, ProfessionType, ItemCategory, LogicSymbol
 class TestRecipe(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
+        await self.corkus.start()
 
     @vcr.use_cassette
     async def test_recipe_get_by_id(self):

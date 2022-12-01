@@ -79,8 +79,7 @@ for obj in corkus_objects:
             f.write("\n")
         f.write(".. autoclass:: " + obj + "\n")
         f.write("   :inherited-members:" + "\n")
-        if obj != "CorkusUUID":
-            f.write("   :undoc-members:" + "\n")
+        f.write("   :undoc-members:" + "\n")
 
 with open("code_overview/corkus_objects.rst", "w") as f:
     f.write(".." + "\n")

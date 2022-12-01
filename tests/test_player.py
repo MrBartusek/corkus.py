@@ -22,6 +22,7 @@ from corkus.errors import BadRequest
 class TestPlayer(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
+        await self.corkus.start()
 
     @vcr.use_cassette
     async def test_player_get_uuid(self):

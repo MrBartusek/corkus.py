@@ -8,6 +8,7 @@ from corkus.errors import CorkusTimeoutError
 class TestRequest(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
+        await self.corkus.start()
 
     @vcr.use_cassette
     async def test_timeout(self):

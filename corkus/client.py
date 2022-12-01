@@ -1,5 +1,6 @@
 from __future__ import annotations
 from typing import Optional, TYPE_CHECKING
+from corkus.errors import CorkusException
 from corkus.utils.request import CorkusRequest
 
 from corkus.endpoints import (
@@ -17,8 +18,107 @@ from corkus.endpoints import (
 if TYPE_CHECKING:
     from aiohttp import ClientSession
 
+class Corkus:
+    """Represents a API client used for accessing wynncraft resources.
+
+    A number of options can be passed to the :py:class:`Corkus`.
+    For full lust of configuration options see: :ref:`configuration`."""
+
+    def __init__(self, *,
+        timeout: Optional[int] = 60,
+        disable_ratelimit: Optional[bool] = False,
+        disable_cache: Optional[bool] = False,
+    ) -> None:
+        self._request = CorkusRequest(timeout, disable_ratelimit, disable_cache)
+        self._initialized = False
+
+    async def start(self, api_key: Optional[str] = None) -> None:
+        """Initialize this Corkus instance. Client needs to be initialized to make any API calls."""
+        await self._request.start(api_key)
+        self._initialized = True
+
+    async def __aenter__(self) -> "Corkus":
+        """Async enter."""
+        await self.start()
+        return self
+
+    async def __aexit__(self, *exc_info) -> None:
+        """Async exit."""
+        await self.close()
+
+    @property
+    def player(self) -> PlayerEndpoint:
+        """General statistics of wynncraft players."""
+        self._checkInitialized()
+        return PlayerEndpoint(self, self._request)
+
+    @property
+    def guild(self) -> GuildEndpoint:
+        """Information about server guilds."""
+        self._checkInitialized()
+        return GuildEndpoint(self, self._request)
+
+    @property
+    def network(self) -> NetworkEndpoint:
+        """Wynncraft Network specific routes like list of all players."""
+        self._checkInitialized()
+        return NetworkEndpoint(self, self._request)
+
+    @property
+    def territory(self) -> TerritoryEndpoint:
+        """Information about teritories."""
+        self._checkInitialized()
+        return TerritoryEndpoint(self, self._request)
+
+    @property
+    def search(self) -> SearchEndpoint:
+        """Search for guild and players."""
+        self._checkInitialized()
+        return SearchEndpoint(self, self._request)
+
+    @property
+    def item(self) -> ItemEndpoint:
+        """Regular (not crafted) items database."""
+        self._checkInitialized()
+        return ItemEndpoint(self, self._request)
+
+    @property
+    def recipe(self) -> RecipeEndpoint:
+        """Crafted items statistics and recipes."""
+        self._checkInitialized()
+        return RecipeEndpoint(self, self._request)
+
+    @property
+    def ingredient(self) -> IngredientEndpoint:
+        """Information about ingredients."""
+        self._checkInitialized()
+        return IngredientEndpoint(self, self._request)
+
+    @property
+    def leaderboard(self) -> LeaderboardEndpoint:
+        """Leaderboards of best players and guilds."""
+        self._checkInitialized()
+        return LeaderboardEndpoint(self, self._request)
+
+    def _checkInitialized(self):
+        if not self._initialized:
+            raise CorkusException("Corkus is not initialized. Use corkus.start() before making any requests.")
+
+    @property
+    def rate_limit(self) -> RateLimit:
+        """Current ratelimit information for this Corkus instance."""
+        return RateLimit(
+            total = self._request.ratelimit.total,
+            remaining = self._request.ratelimit.remaining,
+            reset = self._request.ratelimit.reset
+        )
+
+    async def close(self) -> None:
+        """End the corkus client when it's not needed anymore."""
+        return await self._request.close()
+
 class RateLimit:
-    """Current ratelimit information for a Corkus instance. You should considier
+    """Current ratelimit information for a Corkus instance. You should consider
     these values as a information rather than use them in regulating your requests
     since, Corkus have a ratelimit system in place.
     """
@@ -47,84 +147,3 @@ class RateLimit:
 
     def __repr__(self) -> str:
         return f"<RateLimit total={self.total} remaining={self.remaining} reset={self.reset}>"
-
-class Corkus:
-    """First-class interface for accessing Wynncraft API.
-
-    For configuration options see: :ref:`configuration`."""
-
-    def __init__(self, *,
-        api_key: Optional[str] = None,
-        timeout: Optional[int] = 30,
-        session: Optional[ClientSession] = None,
-        ratelimit_enable: Optional[bool] = True,
-        cache_enable: Optional[bool] = True,
-    ) -> None:
-        self._api_key = api_key
-        self._request = CorkusRequest(timeout, api_key, session, ratelimit_enable, cache_enable)
-
-    async def __aenter__(self) -> "Corkus":
-        """Async enter."""
-        return self
-
-    async def __aexit__(self, *exc_info) -> None:
-        """Async exit."""
-        await self.close()
-
-    @property
-    def player(self) -> PlayerEndpoint:
-        """General statistics of wynncraft players."""
-        return PlayerEndpoint(self, self._request)
-
-    @property
-    def guild(self) -> GuildEndpoint:
-        """Information about server guilds."""
-        return GuildEndpoint(self, self._request)
-
-    @property
-    def network(self) -> NetworkEndpoint:
-        """Wynncraft Network specific routes like list of all players."""
-        return NetworkEndpoint(self, self._request)
-
-    @property
-    def territory(self) -> TerritoryEndpoint:
-        """Information about teritories."""
-        return TerritoryEndpoint(self, self._request)
-
-    @property
-    def search(self) -> SearchEndpoint:
-        """Search for guild and players."""
-        return SearchEndpoint(self, self._request)
-
-    @property
-    def item(self) -> ItemEndpoint:
-        """Regular (not crafted) items database."""
-        return ItemEndpoint(self, self._request)
-
-    @property
-    def recipe(self) -> RecipeEndpoint:
-        """Crafted items statistics and recipes."""
-        return RecipeEndpoint(self, self._request)
-
-    @property
-    def ingredient(self) -> IngredientEndpoint:
-        """Information about ingredients."""
-        return IngredientEndpoint(self, self._request)
-
-    @property
-    def leaderboard(self) -> LeaderboardEndpoint:
-        """Leaderboards of best players and guilds."""
-        return LeaderboardEndpoint(self, self._request)
-
-    @property
-    def rate_limit(self) -> RateLimit:
-        """Current ratelimit information for this Corkus instance."""
-        return RateLimit(
-            total = self._request.ratelimit.total,
-            remaining = self._request.ratelimit.remaining,
-            reset = self._request.ratelimit.reset
-        )
-
-    async def close(self) -> None:
-        """End the corkus client when it's not needed anymore."""
-        return await self._request.close()

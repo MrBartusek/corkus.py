@@ -9,6 +9,7 @@ from tests import vcr
 class TestLeaderboard(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
+        await self.corkus.start()
 
     @vcr.use_cassette
     async def test_leaderboard_guild(self):

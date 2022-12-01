@@ -9,6 +9,7 @@ from corkus.objects import ServerType
 class TestNetwork(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
+        await self.corkus.start()
 
     @vcr.use_cassette
     async def test_network_player_sum(self):

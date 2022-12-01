@@ -7,6 +7,7 @@ from tests import vcr
 class TestSearch(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.corkus = Corkus()
+        await self.corkus.start()
 
     @vcr.use_cassette
     async def test_search_guilds_and_players(self):

@@ -7,3 +7,4 @@ CorkusUUID
 ==========
 .. autoclass:: CorkusUUID
    :inherited-members:
+   :undoc-members:

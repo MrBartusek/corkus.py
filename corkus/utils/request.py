@@ -22,26 +22,25 @@ class CorkusRequest:
 
     def __init__(self,
         timeout: Optional[int] = 0,
-        api_key: Optional[str] = None,
-        session: Optional[ClientSession] = None,
-        ratelimit_enable: Optional[bool] = True,
-        cache_enable: Optional[bool] = True,
+        disable_ratelimit: Optional[bool] = False,
+        disable_cache: Optional[bool] = False,
     ) -> None:
         self.ratelimit = RateLimiter()
         self.cache = CorkusCache()
-        self.ratelimit_enable = ratelimit_enable
-        self.cache_enable = cache_enable
-
-        self._session = session
+        self.disable_ratelimit = disable_ratelimit
+        self.disable_cache = disable_cache
         self.timeout = timeout
-        if session is None:
-            headers = {
-                "User-Agent": f"Corkus.py/{__version__}",
-                "Content-Type": "application/json"
-            }
-            if api_key is not None:
-                headers["apikey"] = api_key
-            self._session = ClientSession(headers = headers)
+        self._session: Optional[ClientSession] = None
+
+    async def start(self, api_key: Optional[str]):
+        headers = {
+            "User-Agent": f"Corkus.py/{__version__}",
+            "Content-Type": "application/json"
+        }
+        if api_key is not None:
+            headers["apikey"] = api_key
+        self._session = ClientSession(headers = headers)
+
 
     async def get(self, version: Optional[APIVersion], parameters: str, timeout: Optional[int]) -> dict:
         if version is not None:
@@ -52,12 +51,12 @@ class CorkusRequest:
         if timeout is None:
             timeout = self.timeout
 
-        if self.cache_enable:
+        if not self.disable_cache:
             cache_element = self.cache.get(url)
             if cache_element:
                 return copy.copy(cache_element.content)
 
-        if self.ratelimit_enable:
+        if not self.disable_ratelimit:
             await self.ratelimit.limit()
 
         try:

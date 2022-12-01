@@ -36,6 +36,12 @@ Fill this application out, send a private message to ``@colin350`` on the
 Using the API key
 ~~~~~~~~~~~~~~~~~
 
-When you have obtained API key you can provide as the ``api_key`` argument.
+.. py:currentmodule:: corkus
 
-See More: :ref:`configuration`
+When you have obtained API key you can provide it as an argument to the :py:func:`Corkus.start() <Corkus.start>` function
+like so:
+
+.. code-block:: python
+
+    await corkus.start("API_KEY")
+
