@@ -1,7 +1,32 @@
 Corkus.py - Wynncraft API Wrapper
 ==================================
 
-Asynchronous, feature-rich and easy to use Python wrapper for `Public Wynncraft API <https://docs.wynncraft.com>`_.
+.. image:: https://i.imgur.com/8FjYte1.gif
+
+Corkus.py is a asynchronous, feature-rich and easy to use Python wrapper for `Public Wynncraft API <https://docs.wynncraft.com>`_.
+
+.. py:currentmodule:: corkus.objects
+
+Key Features
+------------
+
+- Modern asynchronous API using ``async/await`` syntax
+- Easy to use with an object oriented design using fetch and helper functions
+- 100% coverage of the Wynncraft API
+- Proper rate limit handling that prevents 429s
+- Responses caching to improve speed
+
+Installation
+------------
+
+.. card:: Start using Corkus.py
+    :link: install
+    :link-type: ref
+
+    Navigate to the installation guide.
+
+Documentation
+-------------
 
 Corkus documentation is organized into the following sections:
 
