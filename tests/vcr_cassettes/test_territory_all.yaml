@@ -5,7 +5,7 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/2.0.0
+      - Corkus.py/3.0.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=territoryList
   response:
@@ -30,47 +30,47 @@ interactions:
         12:17:22","attacker":null,"location":{"startX":-898,"startY":-1298,"endX":-678,"endY":-1221}},"Time
         Valley":{"territory":"Time Valley","guild":"KongoBoys","acquired":"2022-11-28
         07:42:33","attacker":null,"location":{"startX":-563,"startY":-1261,"endX":-406,"endY":-1006}},"Sanctuary
-        Bridge":{"territory":"Sanctuary Bridge","guild":"TerraLune","acquired":"2022-11-28
-        00:21:09","attacker":null,"location":{"startX":-324,"startY":-1130,"endX":-192,"endY":-993}},"Elkurn
+        Bridge":{"territory":"Sanctuary Bridge","guild":"TerraLune","acquired":"2022-12-01
+        13:05:31","attacker":null,"location":{"startX":-324,"startY":-1130,"endX":-192,"endY":-993}},"Elkurn
         Fields":{"territory":"Elkurn Fields","guild":"KongoBoys","acquired":"2022-11-29
         09:14:19","attacker":null,"location":{"startX":-357,"startY":-1325,"endX":-99,"endY":-1141}},"Nivla
         Woods":{"territory":"Nivla Woods","guild":"KongoBoys","acquired":"2022-11-23
         19:15:26","attacker":null,"location":{"startX":-325,"startY":-1624,"endX":-196,"endY":-1460}},"South
         Nivla Woods":{"territory":"South Nivla Woods","guild":"KongoBoys","acquired":"2022-11-29
-        09:17:02","attacker":null,"location":{"startX":-350,"startY":-1440,"endX":-99,"endY":-1330}},"Elkurn":{"territory":"Elkurn","guild":"TerraLune","acquired":"2022-11-28
-        06:20:23","attacker":null,"location":{"startX":-98,"startY":-1250,"endX":62,"endY":-1080}},"Corrupted
-        Road":{"territory":"Corrupted Road","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:50:16","attacker":null,"location":{"startX":22,"startY":-1479,"endX":96,"endY":-1261}},"Detlas
-        Far Suburbs":{"territory":"Detlas Far Suburbs","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:00:26","attacker":null,"location":{"startX":29,"startY":-1657,"endX":188,"endY":-1500}},"Detlas
-        Close Suburbs":{"territory":"Detlas Close Suburbs","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:01:26","attacker":null,"location":{"startX":300,"startY":-1657,"endX":389,"endY":-1500}},"South
+        09:17:02","attacker":null,"location":{"startX":-350,"startY":-1440,"endX":-99,"endY":-1330}},"Elkurn":{"territory":"Elkurn","guild":"TerraLune","acquired":"2022-12-01
+        12:59:39","attacker":null,"location":{"startX":-98,"startY":-1250,"endX":62,"endY":-1080}},"Corrupted
+        Road":{"territory":"Corrupted Road","guild":"Sins of Seedia","acquired":"2022-12-01
+        08:37:16","attacker":null,"location":{"startX":22,"startY":-1479,"endX":96,"endY":-1261}},"Detlas
+        Far Suburbs":{"territory":"Detlas Far Suburbs","guild":"Sins of Seedia","acquired":"2022-12-01
+        18:14:09","attacker":null,"location":{"startX":29,"startY":-1657,"endX":188,"endY":-1500}},"Detlas
+        Close Suburbs":{"territory":"Detlas Close Suburbs","guild":"Sins of Seedia","acquired":"2022-12-01
+        17:52:10","attacker":null,"location":{"startX":300,"startY":-1657,"endX":389,"endY":-1500}},"South
         Farmers Valley":{"territory":"South Farmers Valley","guild":"KongoBoys","acquired":"2022-11-21
         13:31:16","attacker":null,"location":{"startX":-472,"startY":-1944,"endX":-255,"endY":-1887}},"Arachnid
         Route":{"territory":"Arachnid Route","guild":"KongoBoys","acquired":"2022-11-23
         19:35:24","attacker":null,"location":{"startX":-261,"startY":-1881,"endX":-109,"endY":-1808}},"Tower
-        of Ascension":{"territory":"Tower of Ascension","guild":"TerraLune","acquired":"2022-11-30
-        15:59:11","attacker":null,"location":{"startX":-400,"startY":-450,"endX":-315,"endY":-330}},"Mage
+        of Ascension":{"territory":"Tower of Ascension","guild":"TerraLune","acquired":"2022-12-01
+        13:48:37","attacker":null,"location":{"startX":-400,"startY":-450,"endX":-315,"endY":-330}},"Mage
         Island":{"territory":"Mage Island","guild":"Titans Valor","acquired":"2022-11-22
         01:37:10","attacker":null,"location":{"startX":805,"startY":-2960,"endX":983,"endY":-2787}},"Twain
-        Mansion":{"territory":"Twain Mansion","guild":"TerraLune","acquired":"2022-11-28
-        06:02:42","attacker":null,"location":{"startX":95,"startY":-407,"endX":140,"endY":-310}},"Nesaak
-        Plains South East":{"territory":"Nesaak Plains South East","guild":"TerraLune","acquired":"2022-11-28
-        06:08:10","attacker":null,"location":{"startX":76,"startY":-757,"endX":230,"endY":-660}},"Nesaak
-        Plains North East":{"territory":"Nesaak Plains North East","guild":"TerraLune","acquired":"2022-11-28
-        06:13:41","attacker":null,"location":{"startX":110,"startY":-873,"endX":240,"endY":-1035}},"Nesaak
-        Plains Upper North West":{"territory":"Nesaak Plains Upper North West","guild":"TerraLune","acquired":"2022-11-28
-        03:30:07","attacker":null,"location":{"startX":70,"startY":-950,"endX":-140,"endY":-1060}},"Nesaak
-        Bridge Transition":{"territory":"Nesaak Bridge Transition","guild":"TerraLune","acquired":"2022-11-30
-        15:26:50","attacker":null,"location":{"startX":-115,"startY":-630,"endX":-240,"endY":-780}},"Great
-        Bridge Nesaak":{"territory":"Great Bridge Nesaak","guild":"TerraLune","acquired":"2022-11-28
-        04:59:57","attacker":null,"location":{"startX":-275,"startY":-620,"endX":-390,"endY":-790}},"Jungle
-        Lower":{"territory":"Jungle Lower","guild":"TerraLune","acquired":"2022-11-30
-        15:45:29","attacker":null,"location":{"startX":-515,"startY":-610,"endX":-600,"endY":-790}},"Jungle
-        Upper":{"territory":"Jungle Upper","guild":"TerraLune","acquired":"2022-11-30
-        15:58:03","attacker":null,"location":{"startX":-671,"startY":-779,"endX":-810,"endY":-630}},"Temple
-        of Legends":{"territory":"Temple of Legends","guild":"KongoBoys","acquired":"2022-11-22
-        23:08:40","attacker":null,"location":{"startX":-631,"startY":-973,"endX":-745,"endY":-1093}},"Rymek
+        Mansion":{"territory":"Twain Mansion","guild":"TerraLune","acquired":"2022-12-01
+        12:42:29","attacker":null,"location":{"startX":95,"startY":-407,"endX":140,"endY":-310}},"Nesaak
+        Plains South East":{"territory":"Nesaak Plains South East","guild":"TerraLune","acquired":"2022-12-01
+        13:24:20","attacker":null,"location":{"startX":76,"startY":-757,"endX":230,"endY":-660}},"Nesaak
+        Plains North East":{"territory":"Nesaak Plains North East","guild":"TerraLune","acquired":"2022-12-01
+        12:20:19","attacker":null,"location":{"startX":110,"startY":-873,"endX":240,"endY":-1035}},"Nesaak
+        Plains Upper North West":{"territory":"Nesaak Plains Upper North West","guild":"TerraLune","acquired":"2022-12-01
+        12:19:13","attacker":null,"location":{"startX":70,"startY":-950,"endX":-140,"endY":-1060}},"Nesaak
+        Bridge Transition":{"territory":"Nesaak Bridge Transition","guild":"TerraLune","acquired":"2022-12-01
+        13:41:44","attacker":null,"location":{"startX":-115,"startY":-630,"endX":-240,"endY":-780}},"Great
+        Bridge Nesaak":{"territory":"Great Bridge Nesaak","guild":"TerraLune","acquired":"2022-12-01
+        12:49:46","attacker":null,"location":{"startX":-275,"startY":-620,"endX":-390,"endY":-790}},"Jungle
+        Lower":{"territory":"Jungle Lower","guild":"Revival","acquired":"2022-12-01
+        17:21:24","attacker":null,"location":{"startX":-515,"startY":-610,"endX":-600,"endY":-790}},"Jungle
+        Upper":{"territory":"Jungle Upper","guild":"Revival","acquired":"2022-12-01
+        16:30:21","attacker":null,"location":{"startX":-671,"startY":-779,"endX":-810,"endY":-630}},"Temple
+        of Legends":{"territory":"Temple of Legends","guild":"KongoBoys","acquired":"2022-12-01
+        10:17:51","attacker":null,"location":{"startX":-631,"startY":-973,"endX":-745,"endY":-1093}},"Rymek
         East Lower":{"territory":"Rymek East Lower","guild":"The Simple Ones","acquired":"2022-11-28
         14:24:28","attacker":null,"location":{"startX":1210,"startY":-1270,"endX":1400,"endY":-1390}},"Rymek
         East Upper":{"territory":"Rymek East Upper","guild":"The Simple Ones","acquired":"2022-11-30
@@ -91,18 +91,18 @@ interactions:
         08:47:54","attacker":null,"location":{"startX":1040,"startY":-1681,"endX":900,"endY":-1870}},"Savannah
         East Upper":{"territory":"Savannah East Upper","guild":"The Simple Ones","acquired":"2022-11-30
         07:37:14","attacker":null,"location":{"startX":750,"startY":-2060,"endX":820,"endY":-1895}},"Savannah
-        West Upper":{"territory":"Savannah West Upper","guild":"Nefarious Ravens","acquired":"2022-11-30
-        09:00:57","attacker":null,"location":{"startX":750,"startY":-2060,"endX":570,"endY":-1870}},"Lion
-        Lair":{"territory":"Lion Lair","guild":"Nefarious Ravens","acquired":"2022-11-30
-        09:05:32","attacker":null,"location":{"startX":890,"startY":-2140,"endX":790,"endY":-2320}},"Plains
+        West Upper":{"territory":"Savannah West Upper","guild":"The Simple Ones","acquired":"2022-12-01
+        16:52:50","attacker":null,"location":{"startX":750,"startY":-2060,"endX":570,"endY":-1870}},"Lion
+        Lair":{"territory":"Lion Lair","guild":"The Simple Ones","acquired":"2022-12-01
+        08:48:25","attacker":null,"location":{"startX":890,"startY":-2140,"endX":790,"endY":-2320}},"Plains
         Coast":{"territory":"Plains Coast","guild":"KongoBoys","acquired":"2022-11-21
         13:38:27","attacker":null,"location":{"startX":5,"startY":-2270,"endX":-320,"endY":-2090}},"Nemract
         Plains West":{"territory":"Nemract Plains West","guild":"KongoBoys","acquired":"2022-11-23
         19:37:30","attacker":null,"location":{"startX":5,"startY":-1960,"endX":-100,"endY":-1810}},"Ancient
-        Nemract":{"territory":"Ancient Nemract","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:53:48","attacker":null,"location":{"startX":152,"startY":-1832,"endX":290,"endY":-1999}},"Cathedral
-        Harbour":{"territory":"Cathedral Harbour","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:58:38","attacker":null,"location":{"startX":385,"startY":-2180,"endX":570,"endY":-1950}},"Rooster
+        Nemract":{"territory":"Ancient Nemract","guild":"Sins of Seedia","acquired":"2022-12-01
+        18:00:05","attacker":null,"location":{"startX":152,"startY":-1832,"endX":290,"endY":-1999}},"Cathedral
+        Harbour":{"territory":"Cathedral Harbour","guild":"Sins of Seedia","acquired":"2022-12-01
+        18:02:51","attacker":null,"location":{"startX":385,"startY":-2180,"endX":570,"endY":-1950}},"Rooster
         Island":{"territory":"Rooster Island","guild":"Titans Valor","acquired":"2022-11-16
         09:38:06","attacker":null,"location":{"startX":-128,"startY":-2448,"endX":-30,"endY":-2538}},"Selchar":{"territory":"Selchar","guild":"Titans
         Valor","acquired":"2022-11-16 09:50:23","attacker":null,"location":{"startX":-100,"startY":-3070,"endX":210,"endY":-3270}},"Durum
@@ -122,25 +122,25 @@ interactions:
         15:17:25","attacker":null,"location":{"startX":-929,"startY":-3831,"endX":-722,"endY":-3530}},"Tree
         Island":{"territory":"Tree Island","guild":"Titans Valor","acquired":"2022-11-06
         15:03:14","attacker":null,"location":{"startX":-454,"startY":-3905,"endX":-323,"endY":-3766}},"Ternaves
-        Plains Upper":{"territory":"Ternaves Plains Upper","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:46:38","attacker":null,"location":{"startX":770,"startY":-1675,"endX":655,"endY":-1430}},"Mining
-        Base Upper":{"territory":"Mining Base Upper","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:35:05","attacker":null,"location":{"startX":880,"startY":-1330,"endX":670,"endY":-1225}},"Nesaak
-        Transition":{"territory":"Nesaak Transition","guild":"TerraLune","acquired":"2022-11-28
-        06:27:52","attacker":null,"location":{"startX":330,"startY":-1040,"endX":75,"endY":-1145}},"Nether
-        Plains Lower":{"territory":"Nether Plains Lower","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:43:15","attacker":null,"location":{"startX":75,"startY":-1145,"endX":325,"endY":-1210}},"Mine
-        Base Plains":{"territory":"Mine Base Plains","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:30:24","attacker":null,"location":{"startX":550,"startY":-1190,"endX":650,"endY":-1430}},"Nether
-        Plains Upper":{"territory":"Nether Plains Upper","guild":"Nefarious Ravens","acquired":"2022-11-30
-        07:57:46","attacker":null,"location":{"startX":115,"startY":-1360,"endX":390,"endY":-1495}},"Detlas
-        Trail West Plains":{"territory":"Detlas Trail West Plains","guild":"Nefarious
-        Ravens","acquired":"2022-11-30 08:08:12","attacker":null,"location":{"startX":25,"startY":-1660,"endX":200,"endY":-1800}},"Llevigar
+        Plains Upper":{"territory":"Ternaves Plains Upper","guild":"Sins of Seedia","acquired":"2022-12-01
+        08:47:53","attacker":null,"location":{"startX":770,"startY":-1675,"endX":655,"endY":-1430}},"Mining
+        Base Upper":{"territory":"Mining Base Upper","guild":"Sins of Seedia","acquired":"2022-12-01
+        18:14:07","attacker":null,"location":{"startX":880,"startY":-1330,"endX":670,"endY":-1225}},"Nesaak
+        Transition":{"territory":"Nesaak Transition","guild":"TerraLune","acquired":"2022-12-01
+        12:12:43","attacker":null,"location":{"startX":330,"startY":-1040,"endX":75,"endY":-1145}},"Nether
+        Plains Lower":{"territory":"Nether Plains Lower","guild":"TerraLune","acquired":"2022-12-01
+        12:14:11","attacker":null,"location":{"startX":75,"startY":-1145,"endX":325,"endY":-1210}},"Mine
+        Base Plains":{"territory":"Mine Base Plains","guild":"Sins of Seedia","acquired":"2022-12-01
+        08:48:22","attacker":null,"location":{"startX":550,"startY":-1190,"endX":650,"endY":-1430}},"Nether
+        Plains Upper":{"territory":"Nether Plains Upper","guild":"Sins of Seedia","acquired":"2022-12-01
+        18:13:31","attacker":null,"location":{"startX":115,"startY":-1360,"endX":390,"endY":-1495}},"Detlas
+        Trail West Plains":{"territory":"Detlas Trail West Plains","guild":"Sins of
+        Seedia","acquired":"2022-12-01 17:51:02","attacker":null,"location":{"startX":25,"startY":-1660,"endX":200,"endY":-1800}},"Llevigar
         Gate East":{"territory":"Llevigar Gate East","guild":"Avicia","acquired":"2022-11-27
         20:25:49","attacker":null,"location":{"startX":-1932,"startY":-4648,"endX":-2059,"endY":-4746}},"Llevigar
         Farm Plains East":{"territory":"Llevigar Farm Plains East","guild":"Avicia","acquired":"2022-11-27
-        19:55:32","attacker":null,"location":{"startX":-2059,"startY":-4747,"endX":-1931,"endY":-4828}},"Hive":{"territory":"Hive","guild":"Sins
-        of Seedia","acquired":"2022-11-20 08:28:28","attacker":null,"location":{"startX":381,"startY":-5413,"endX":286,"endY":-5593}},"Llevigar
+        19:55:32","attacker":null,"location":{"startX":-2059,"startY":-4747,"endX":-1931,"endY":-4828}},"Hive":{"territory":"Hive","guild":"Nefarious
+        Ravens","acquired":"2022-12-01 08:49:35","attacker":null,"location":{"startX":381,"startY":-5413,"endX":286,"endY":-5593}},"Llevigar
         Plains East Lower":{"territory":"Llevigar Plains East Lower","guild":"Avicia","acquired":"2022-11-21
         05:58:16","attacker":null,"location":{"startX":-2059,"startY":-4831,"endX":-1937,"endY":-4909}},"Llevigar
         Plains West Upper":{"territory":"Llevigar Plains West Upper","guild":"Avicia","acquired":"2022-11-27
@@ -187,20 +187,20 @@ interactions:
         16:30:20","attacker":null,"location":{"startX":-1014,"startY":-4944,"endX":-949,"endY":-5079}},"Light
         Forest North Entrance":{"territory":"Light Forest North Entrance","guild":"Avicia","acquired":"2022-11-28
         04:56:03","attacker":null,"location":{"startX":-1134,"startY":-4708,"endX":-1030,"endY":-4845}},"Light
-        Forest South Entrance":{"territory":"Light Forest South Entrance","guild":"Avicia","acquired":"2022-11-23
-        09:12:56","attacker":null,"location":{"startX":-1134,"startY":-4548,"endX":-1038,"endY":-4426}},"Light
-        Forest South Exit":{"territory":"Light Forest South Exit","guild":"Avicia","acquired":"2022-11-30
-        15:58:49","attacker":null,"location":{"startX":-646,"startY":-4699,"endX":-733,"endY":-4559}},"Light
+        Forest South Entrance":{"territory":"Light Forest South Entrance","guild":"Avicia","acquired":"2022-12-01
+        05:37:45","attacker":null,"location":{"startX":-1134,"startY":-4548,"endX":-1038,"endY":-4426}},"Light
+        Forest South Exit":{"territory":"Light Forest South Exit","guild":"The Aquarium","acquired":"2022-12-01
+        19:42:41","attacker":null,"location":{"startX":-646,"startY":-4699,"endX":-733,"endY":-4559}},"Light
         Forest West Lower":{"territory":"Light Forest West Lower","guild":"Titans
         Valor","acquired":"2022-11-21 20:22:37","attacker":null,"location":{"startX":-1014,"startY":-4428,"endX":-929,"endY":-4549}},"Light
-        Forest West Upper":{"territory":"Light Forest West Upper","guild":"Avicia","acquired":"2022-11-28
-        05:34:40","attacker":null,"location":{"startX":-1014,"startY":-4708,"endX":-935,"endY":-4845}},"Light
-        Forest East Mid":{"territory":"Light Forest East Mid","guild":"Avicia","acquired":"2022-11-28
-        05:46:45","attacker":null,"location":{"startX":-834,"startY":-4839,"endX":-926,"endY":-4708}},"Hobbit
+        Forest West Upper":{"territory":"Light Forest West Upper","guild":"Avicia","acquired":"2022-12-01
+        05:34:46","attacker":null,"location":{"startX":-1014,"startY":-4708,"endX":-935,"endY":-4845}},"Light
+        Forest East Mid":{"territory":"Light Forest East Mid","guild":"Avicia","acquired":"2022-12-01
+        05:35:42","attacker":null,"location":{"startX":-834,"startY":-4839,"endX":-926,"endY":-4708}},"Hobbit
         River":{"territory":"Hobbit River","guild":"Titans Valor","acquired":"2022-11-21
         20:39:51","attacker":null,"location":{"startX":-926,"startY":-4550,"endX":-806,"endY":-4428}},"Light
-        Forest Canyon":{"territory":"Light Forest Canyon","guild":"Avicia","acquired":"2022-11-30
-        16:00:32","attacker":null,"location":{"startX":-738,"startY":-4708,"endX":-818,"endY":-4840}},"Lone
+        Forest Canyon":{"territory":"Light Forest Canyon","guild":"The Aquarium","acquired":"2022-12-01
+        19:41:23","attacker":null,"location":{"startX":-738,"startY":-4708,"endX":-818,"endY":-4840}},"Lone
         Farmstead":{"territory":"Lone Farmstead","guild":"The Aquarium","acquired":"2022-11-25
         02:05:45","attacker":null,"location":{"startX":-942,"startY":-5227,"endX":-1050,"endY":-5116}},"Gelibord
         Corrupted Farm":{"territory":"Gelibord Corrupted Farm","guild":"Aequitas","acquired":"2022-11-27
@@ -230,10 +230,10 @@ interactions:
         02:15:17","attacker":null,"location":{"startX":-288,"startY":-5409,"endX":-392,"endY":-5294}},"Guild
         Hall":{"territory":"Guild Hall","guild":"The Aquarium","acquired":"2022-11-27
         16:53:54","attacker":null,"location":{"startX":-349,"startY":-5093,"endX":-137,"endY":-4814}},"Cinfras''s
-        Small Farm":{"territory":"Cinfras''s Small Farm","guild":"Discoverers","acquired":"2022-11-30
-        15:23:21","attacker":null,"location":{"startX":-224,"startY":-4793,"endX":-130,"endY":-4643}},"Cinfras
-        County Mid-Lower":{"territory":"Cinfras County Mid-Lower","guild":"Avicia","acquired":"2022-11-30
-        15:30:13","attacker":null,"location":{"startX":-127,"startY":-4761,"endX":3,"endY":-4895}},"Cinfras
+        Small Farm":{"territory":"Cinfras''s Small Farm","guild":"Nefarious Ravens","acquired":"2022-12-01
+        19:22:34","attacker":null,"location":{"startX":-224,"startY":-4793,"endX":-130,"endY":-4643}},"Cinfras
+        County Mid-Lower":{"territory":"Cinfras County Mid-Lower","guild":"The Aquarium","acquired":"2022-12-01
+        19:30:56","attacker":null,"location":{"startX":-127,"startY":-4761,"endX":3,"endY":-4895}},"Cinfras
         County Upper":{"territory":"Cinfras County Upper","guild":"Paladins United","acquired":"2022-11-30
         12:20:04","attacker":null,"location":{"startX":-127,"startY":-5155,"endX":3,"endY":-5051}},"Gylia
         Lake South West":{"territory":"Gylia Lake South West","guild":"The Aquarium","acquired":"2022-11-25
@@ -246,24 +246,24 @@ interactions:
         02:33:38","attacker":null,"location":{"startX":-322,"startY":-4499,"endX":-557,"endY":-4395}},"Aldorei''s
         River":{"territory":"Aldorei''s River","guild":"The Aquarium","acquired":"2022-11-25
         02:25:45","attacker":null,"location":{"startX":-437,"startY":-4656,"endX":-338,"endY":-4756}},"Aldorei''s
-        North Exit":{"territory":"Aldorei''s North Exit","guild":"Avicia","acquired":"2022-11-30
-        15:25:57","attacker":null,"location":{"startX":-127,"startY":-4639,"endX":3,"endY":-4509}},"Path
-        To The Arch":{"territory":"Path To The Arch","guild":"Avicia","acquired":"2022-11-30
-        15:39:17","attacker":null,"location":{"startX":35,"startY":-4521,"endX":107,"endY":-4641}},"Burning
-        Farm":{"territory":"Burning Farm","guild":"Avicia","acquired":"2022-11-30
-        15:36:44","attacker":null,"location":{"startX":107,"startY":-4755,"endX":35,"endY":-4857}},"Cinfras
+        North Exit":{"territory":"Aldorei''s North Exit","guild":"The Aquarium","acquired":"2022-12-01
+        19:13:00","attacker":null,"location":{"startX":-127,"startY":-4639,"endX":3,"endY":-4509}},"Path
+        To The Arch":{"territory":"Path To The Arch","guild":"The Aquarium","acquired":"2022-12-01
+        19:15:14","attacker":null,"location":{"startX":35,"startY":-4521,"endX":107,"endY":-4641}},"Burning
+        Farm":{"territory":"Burning Farm","guild":"The Aquarium","acquired":"2022-12-01
+        19:19:35","attacker":null,"location":{"startX":107,"startY":-4755,"endX":35,"endY":-4857}},"Cinfras
         Thanos Transition":{"territory":"Cinfras Thanos Transition","guild":"Paladins
-        United","acquired":"2022-11-30 14:07:05","attacker":null,"location":{"startX":98,"startY":-4957,"endX":35,"endY":-5046}},"Path
+        United","acquired":"2022-12-01 04:36:14","attacker":null,"location":{"startX":98,"startY":-4957,"endX":35,"endY":-5046}},"Path
         To Thanos":{"territory":"Path To Thanos","guild":"Paladins United","acquired":"2022-11-30
         12:15:47","attacker":null,"location":{"startX":98,"startY":-5049,"endX":35,"endY":-5149}},"Military
         Base":{"territory":"Military Base","guild":"Paladins United","acquired":"2022-11-30
         12:21:33","attacker":null,"location":{"startX":104,"startY":-5393,"endX":166,"endY":-5518}},"Military
         Base Lower":{"territory":"Military Base Lower","guild":"Paladins United","acquired":"2022-11-30
         12:14:41","attacker":null,"location":{"startX":244,"startY":-5407,"endX":168,"endY":-5315}},"Path
-        To Ozoth''s Spire Mid":{"territory":"Path To Ozoth''s Spire Mid","guild":"Sins
-        of Seedia","acquired":"2022-11-20 09:04:49","attacker":null,"location":{"startX":199,"startY":-5164,"endX":260,"endY":-5042}},"Bandit
-        Cave Lower":{"territory":"Bandit Cave Lower","guild":"Sins of Seedia","acquired":"2022-11-26
-        05:14:18","attacker":null,"location":{"startX":111,"startY":-5043,"endX":194,"endY":-4958}},"Canyon
+        To Ozoth''s Spire Mid":{"territory":"Path To Ozoth''s Spire Mid","guild":"Nefarious
+        Ravens","acquired":"2022-12-01 09:38:16","attacker":null,"location":{"startX":199,"startY":-5164,"endX":260,"endY":-5042}},"Bandit
+        Cave Lower":{"territory":"Bandit Cave Lower","guild":"Nefarious Ravens","acquired":"2022-12-01
+        12:40:15","attacker":null,"location":{"startX":111,"startY":-5043,"endX":194,"endY":-4958}},"Canyon
         Entrance Waterfall":{"territory":"Canyon Entrance Waterfall","guild":"Idiot
         Co","acquired":"2022-11-29 01:00:35","attacker":null,"location":{"startX":110,"startY":-4869,"endX":194,"endY":-4741}},"Canyon
         Path South East":{"territory":"Canyon Path South East","guild":"Idiot Co","acquired":"2022-11-29
@@ -272,45 +272,45 @@ interactions:
         00:11:21","attacker":null,"location":{"startX":200,"startY":-4380,"endX":265,"endY":-4518}},"Canyon
         Path South West":{"territory":"Canyon Path South West","guild":"Idiot Co","acquired":"2022-11-29
         01:05:12","attacker":null,"location":{"startX":265,"startY":-4652,"endX":200,"endY":-4741}},"Bandit
-        Camp Exit":{"territory":"Bandit Camp Exit","guild":"Sins of Seedia","acquired":"2022-11-25
-        18:04:20","attacker":null,"location":{"startX":264,"startY":-4877,"endX":203,"endY":-4971}},"Thanos
+        Camp Exit":{"territory":"Bandit Camp Exit","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:56:22","attacker":null,"location":{"startX":264,"startY":-4877,"endX":203,"endY":-4971}},"Thanos
         Valley West":{"territory":"Thanos Valley West","guild":"Paladins United","acquired":"2022-11-30
         12:16:45","attacker":null,"location":{"startX":250,"startY":-5401,"endX":311,"endY":-5315}},"Canyon
-        Walk Way":{"territory":"Canyon Walk Way","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:43:17","attacker":null,"location":{"startX":271,"startY":-5165,"endX":338,"endY":-5041}},"Canyon
-        Mountain South":{"territory":"Canyon Mountain South","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:57:30","attacker":null,"location":{"startX":271,"startY":-4946,"endX":337,"endY":-4857}},"Canyon
+        Walk Way":{"territory":"Canyon Walk Way","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:36:49","attacker":null,"location":{"startX":271,"startY":-5165,"endX":338,"endY":-5041}},"Canyon
+        Mountain South":{"territory":"Canyon Mountain South","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:54:55","attacker":null,"location":{"startX":271,"startY":-4946,"endX":337,"endY":-4857}},"Canyon
         Fortress":{"territory":"Canyon Fortress","guild":"Idiot Co","acquired":"2022-11-25
         17:47:14","attacker":null,"location":{"startX":271,"startY":-4739,"endX":338,"endY":-4630}},"Canyon
         Dropoff":{"territory":"Canyon Dropoff","guild":"Idiot Co","acquired":"2022-11-28
         00:06:48","attacker":null,"location":{"startX":334,"startY":-4518,"endX":269,"endY":-4395}},"Bandits
-        Toll":{"territory":"Bandits Toll","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:41:21","attacker":null,"location":{"startX":439,"startY":-5038,"endX":345,"endY":-5181}},"Mountain
+        Toll":{"territory":"Bandits Toll","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:11:16","attacker":null,"location":{"startX":439,"startY":-5038,"endX":345,"endY":-5181}},"Mountain
         Path":{"territory":"Mountain Path","guild":"Idiot Co","acquired":"2022-11-29
         00:15:35","attacker":null,"location":{"startX":334,"startY":-4393,"endX":276,"endY":-4314}},"Cliff
         Side of the Lost":{"territory":"Cliff Side of the Lost","guild":"Idiot Co","acquired":"2022-11-25
         17:45:43","attacker":null,"location":{"startX":340,"startY":-4395,"endX":437,"endY":-4508}},"Temple
         of the Lost East":{"territory":"Temple of the Lost East","guild":"Idiot Co","acquired":"2022-11-29
         00:41:13","attacker":null,"location":{"startX":440,"startY":-4672,"endX":341,"endY":-4838}},"Hive
-        South":{"territory":"Hive South","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:24:21","attacker":null,"location":{"startX":440,"startY":-5315,"endX":560,"endY":-5449}},"Cliffside
-        Waterfall":{"territory":"Cliffside Waterfall","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:36:00","attacker":null,"location":{"startX":440,"startY":-5183,"endX":563,"endY":-5080}},"Air
-        Temple Lower":{"territory":"Air Temple Lower","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:54:45","attacker":null,"location":{"startX":445,"startY":-4972,"endX":563,"endY":-4835}},"Cliffside
+        South":{"territory":"Hive South","guild":"Nefarious Ravens","acquired":"2022-12-01
+        08:38:36","attacker":null,"location":{"startX":440,"startY":-5315,"endX":560,"endY":-5449}},"Cliffside
+        Waterfall":{"territory":"Cliffside Waterfall","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:38:32","attacker":null,"location":{"startX":440,"startY":-5183,"endX":563,"endY":-5080}},"Air
+        Temple Lower":{"territory":"Air Temple Lower","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:28:53","attacker":null,"location":{"startX":445,"startY":-4972,"endX":563,"endY":-4835}},"Cliffside
         Lake":{"territory":"Cliffside Lake","guild":"Idiot Co","acquired":"2022-11-25
         17:47:07","attacker":null,"location":{"startX":445,"startY":-4689,"endX":570,"endY":-4568}},"Kandon-Beda":{"territory":"Kandon-Beda","guild":"Idiot
         Co","acquired":"2022-11-25 17:49:26","attacker":null,"location":{"startX":607,"startY":-4579,"endX":760,"endY":-4372}},"Cliffside
         Passage":{"territory":"Cliffside Passage","guild":"Idiot Co","acquired":"2022-11-29
         00:31:00","attacker":null,"location":{"startX":699,"startY":-4817,"endX":572,"endY":-4691}},"Entrance
-        to Thesead North":{"territory":"Entrance to Thesead North","guild":"Sins of
-        Seedia","acquired":"2022-11-20 08:46:38","attacker":null,"location":{"startX":572,"startY":-4935,"endX":700,"endY":-5028}},"Chained
-        House":{"territory":"Chained House","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:19:56","attacker":null,"location":{"startX":574,"startY":-5375,"endX":699,"endY":-5242}},"Ranol''s
-        Farm":{"territory":"Ranol''s Farm","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:45:21","attacker":null,"location":{"startX":810,"startY":-5551,"endX":701,"endY":-5377}},"Thesead":{"territory":"Thesead","guild":"Sins
-        of Seedia","acquired":"2022-11-20 08:35:28","attacker":null,"location":{"startX":747,"startY":-5104,"endX":872,"endY":-4964}},"Eltom":{"territory":"Eltom","guild":"Sins
-        of Seedia","acquired":"2022-11-20 21:45:17","attacker":null,"location":{"startX":1029,"startY":-5581,"endX":828,"endY":-5376}},"Lava
+        to Thesead North":{"territory":"Entrance to Thesead North","guild":"Nefarious
+        Ravens","acquired":"2022-12-01 09:33:55","attacker":null,"location":{"startX":572,"startY":-4935,"endX":700,"endY":-5028}},"Chained
+        House":{"territory":"Chained House","guild":"Nefarious Ravens","acquired":"2022-12-01
+        08:55:54","attacker":null,"location":{"startX":574,"startY":-5375,"endX":699,"endY":-5242}},"Ranol''s
+        Farm":{"territory":"Ranol''s Farm","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:23:46","attacker":null,"location":{"startX":810,"startY":-5551,"endX":701,"endY":-5377}},"Thesead":{"territory":"Thesead","guild":"Nefarious
+        Ravens","acquired":"2022-12-01 09:05:45","attacker":null,"location":{"startX":747,"startY":-5104,"endX":872,"endY":-4964}},"Eltom":{"territory":"Eltom","guild":"Nefarious
+        Ravens","acquired":"2022-12-01 09:25:08","attacker":null,"location":{"startX":1029,"startY":-5581,"endX":828,"endY":-5376}},"Lava
         Lake":{"territory":"Lava Lake","guild":"Empire of Sindria","acquired":"2022-11-27
         19:21:29","attacker":null,"location":{"startX":1531,"startY":-5553,"endX":1387,"endY":-5369}},"Crater
         Descent":{"territory":"Crater Descent","guild":"Empire of Sindria","acquired":"2022-11-27
@@ -319,10 +319,10 @@ interactions:
         19:25:03","attacker":null,"location":{"startX":1531,"startY":-5637,"endX":1221,"endY":-5555}},"Temple
         Island":{"territory":"Temple Island","guild":"Empire of Sindria","acquired":"2022-11-27
         07:18:53","attacker":null,"location":{"startX":991,"startY":-4643,"endX":1124,"endY":-4750}},"Dernel
-        Jungle Lower":{"territory":"Dernel Jungle Lower","guild":"TerraLune","acquired":"2022-11-30
-        15:43:48","attacker":null,"location":{"startX":-737,"startY":-317,"endX":-502,"endY":-530}},"Dernel
-        Jungle Upper":{"territory":"Dernel Jungle Upper","guild":"TerraLune","acquired":"2022-11-30
-        15:59:12","attacker":null,"location":{"startX":-970,"startY":-795,"endX":-900,"endY":-547}},"Corkus
+        Jungle Lower":{"territory":"Dernel Jungle Lower","guild":"Revival","acquired":"2022-12-01
+        16:36:46","attacker":null,"location":{"startX":-737,"startY":-317,"endX":-502,"endY":-530}},"Dernel
+        Jungle Upper":{"territory":"Dernel Jungle Upper","guild":"Revival","acquired":"2022-12-01
+        16:35:41","attacker":null,"location":{"startX":-970,"startY":-795,"endX":-900,"endY":-547}},"Corkus
         Castle":{"territory":"Corkus Castle","guild":"The Clowns","acquired":"2022-11-25
         17:47:45","attacker":null,"location":{"startX":-1555,"startY":-2968,"endX":-1452,"endY":-2835}},"Fallen
         Factory":{"territory":"Fallen Factory","guild":"The Clowns","acquired":"2022-11-26
@@ -362,31 +362,31 @@ interactions:
         Base Lower":{"territory":"Raider''s Base Lower","guild":"Empire of Sindria","acquired":"2022-11-27
         18:11:38","attacker":null,"location":{"startX":1558,"startY":-4316,"endX":1305,"endY":-4253}},"Jofash
         Docks":{"territory":"Jofash Docks","guild":"Titans Valor","acquired":"2022-11-06
-        15:08:35","attacker":null,"location":{"startX":1178,"startY":-4175,"endX":1445,"endY":-4012}},"Lusuco":{"territory":"Lusuco","guild":"TerraLune","acquired":"2022-11-30
-        15:46:45","attacker":null,"location":{"startX":-267,"startY":-348,"endX":-91,"endY":-250}},"Phinas
+        15:08:35","attacker":null,"location":{"startX":1178,"startY":-4175,"endX":1445,"endY":-4012}},"Lusuco":{"territory":"Lusuco","guild":"TerraLune","acquired":"2022-12-01
+        13:46:08","attacker":null,"location":{"startX":-267,"startY":-348,"endX":-91,"endY":-250}},"Phinas
         Farm":{"territory":"Phinas Farm","guild":"The Clowns","acquired":"2022-11-26
         20:52:28","attacker":null,"location":{"startX":-1633,"startY":-2162,"endX":-1842,"endY":-2058}},"Cinfras
         Outskirts":{"territory":"Cinfras Outskirts","guild":"The Aquarium","acquired":"2022-11-25
         01:47:47","attacker":null,"location":{"startX":-392,"startY":-5116,"endX":-534,"endY":-5278}},"Llevigar":{"territory":"Llevigar","guild":"Avicia","acquired":"2022-11-27
         20:03:44","attacker":null,"location":{"startX":-1800,"startY":-4643,"endX":-2171,"endY":-4405}},"Herb
-        Cave":{"territory":"Herb Cave","guild":"KingWorld","acquired":"2022-11-30
-        15:53:59","attacker":null,"location":{"startX":-448,"startY":-813,"endX":-557,"endY":-876}},"Icy
+        Cave":{"territory":"Herb Cave","guild":"TerraLune","acquired":"2022-12-01
+        13:03:04","attacker":null,"location":{"startX":-448,"startY":-813,"endX":-557,"endY":-876}},"Icy
         Island":{"territory":"Icy Island","guild":"Titans Valor","acquired":"2022-11-22
         01:50:10","attacker":null,"location":{"startX":1001,"startY":-3274,"endX":1172,"endY":-3430}},"Fleris
         Trail":{"territory":"Fleris Trail","guild":"Avicia","acquired":"2022-11-17
         09:35:45","attacker":null,"location":{"startX":-1390,"startY":-4594,"endX":-1254,"endY":-4351}},"Abandoned
-        Pass":{"territory":"Abandoned Pass","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:46:20","attacker":null,"location":{"startX":881,"startY":-1225,"endX":1019,"endY":-1380}},"Southern
+        Pass":{"territory":"Abandoned Pass","guild":"Sins of Seedia","acquired":"2022-12-01
+        08:44:11","attacker":null,"location":{"startX":881,"startY":-1225,"endX":1019,"endY":-1380}},"Southern
         Outpost":{"territory":"Southern Outpost","guild":"The Clowns","acquired":"2022-11-26
         20:44:40","attacker":null,"location":{"startX":-1258,"startY":-2204,"endX":-1444,"endY":-2306}},"Corkus
         Sea Cove":{"territory":"Corkus Sea Cove","guild":"The Clowns","acquired":"2022-11-26
         20:57:13","attacker":null,"location":{"startX":-1578,"startY":-2662,"endX":-1330,"endY":-2513}},"The
-        Broken Road":{"territory":"The Broken Road","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:43:47","attacker":null,"location":{"startX":686,"startY":-923,"endX":493,"endY":-783}},"Grey
-        Ruins":{"territory":"Grey Ruins","guild":"Profession Heaven","acquired":"2022-11-30
-        07:54:04","attacker":null,"location":{"startX":683,"startY":-619,"endX":462,"endY":-515}},"Forest
-        of Eyes":{"territory":"Forest of Eyes","guild":"KongoBoys","acquired":"2022-11-30
-        15:09:27","attacker":null,"location":{"startX":813,"startY":-333,"endX":1043,"endY":-504}},"Lutho":{"territory":"Lutho","guild":"Profession
+        Broken Road":{"territory":"The Broken Road","guild":"Sins of Seedia","acquired":"2022-12-01
+        08:43:40","attacker":null,"location":{"startX":686,"startY":-923,"endX":493,"endY":-783}},"Grey
+        Ruins":{"territory":"Grey Ruins","guild":"Profession Heaven","acquired":"2022-12-01
+        16:38:32","attacker":null,"location":{"startX":683,"startY":-619,"endX":462,"endY":-515}},"Forest
+        of Eyes":{"territory":"Forest of Eyes","guild":"Profession Heaven","acquired":"2022-11-30
+        16:54:32","attacker":null,"location":{"startX":813,"startY":-333,"endX":1043,"endY":-504}},"Lutho":{"territory":"Lutho","guild":"Profession
         Heaven","acquired":"2022-11-30 07:40:48","attacker":null,"location":{"startX":936,"startY":-654,"endX":1027,"endY":-754}},"Toxic
         Drip":{"territory":"Toxic Drip","guild":"Profession Heaven","acquired":"2022-11-30
         09:21:39","attacker":null,"location":{"startX":893,"startY":-876,"endX":1086,"endY":-992}},"Gateway
@@ -396,415 +396,415 @@ interactions:
         08:01:26","attacker":null,"location":{"startX":1388,"startY":-869,"endX":1254,"endY":-932}},"The
         Gate":{"territory":"The Gate","guild":"Profession Heaven","acquired":"2022-11-30
         08:04:21","attacker":null,"location":{"startX":1350,"startY":-520,"endX":1265,"endY":-410}},"Luminous
-        Plateau":{"territory":"Luminous Plateau","guild":"Revival","acquired":"2022-11-30
-        15:09:10","attacker":null,"location":{"startX":-894,"startY":-5957,"endX":-962,"endY":-6066}},"Azure
-        Frontier":{"territory":"Azure Frontier","guild":"Revival","acquired":"2022-11-30
-        11:29:24","attacker":null,"location":{"startX":-894,"startY":-6164,"endX":-684,"endY":-6313}},"Path
-        to Light":{"territory":"Path to Light","guild":"Revival","acquired":"2022-11-30
-        15:15:51","attacker":null,"location":{"startX":-775,"startY":-6164,"endX":-827,"endY":-6010}},"Light
+        Plateau":{"territory":"Luminous Plateau","guild":"The Broken Gasmask","acquired":"2022-12-01
+        19:39:40","attacker":null,"location":{"startX":-894,"startY":-5957,"endX":-962,"endY":-6066}},"Azure
+        Frontier":{"territory":"Azure Frontier","guild":"The Broken Gasmask","acquired":"2022-12-01
+        17:11:15","attacker":null,"location":{"startX":-894,"startY":-6164,"endX":-684,"endY":-6313}},"Path
+        to Light":{"territory":"Path to Light","guild":"The Broken Gasmask","acquired":"2022-12-01
+        19:30:09","attacker":null,"location":{"startX":-775,"startY":-6164,"endX":-827,"endY":-6010}},"Light
         Peninsula":{"territory":"Light Peninsula","guild":"Titans Valor","acquired":"2022-11-06
-        15:12:10","attacker":null,"location":{"startX":-951,"startY":-4421,"endX":-802,"endY":-4108}},"Nivla
-        Woods Entrance":{"territory":"Nivla Woods Entrance","guild":"KongoBoys","acquired":"2022-11-23
-        19:24:14","attacker":null,"location":{"startX":-435,"startY":-1530,"endX":-372,"endY":-1652}},"Ragni
-        East Suburbs":{"territory":"Ragni East Suburbs","guild":"KongoBoys","acquired":"2022-11-21
-        12:58:22","attacker":null,"location":{"startX":-747,"startY":-1653,"endX":-616,"endY":-1776}},"Maltic":{"territory":"Maltic","guild":"KongoBoys","acquired":"2022-11-21
-        13:04:55","attacker":null,"location":{"startX":-604,"startY":-1945,"endX":-475,"endY":-1884}},"Pigmen
-        Ravines":{"territory":"Pigmen Ravines","guild":"KongoBoys","acquired":"2022-11-23
-        18:03:12","attacker":null,"location":{"startX":-784,"startY":-1398,"endX":-617,"endY":-1317}},"Abandoned
-        Farm":{"territory":"Abandoned Farm","guild":"KongoBoys","acquired":"2022-11-23
-        17:59:04","attacker":null,"location":{"startX":-577,"startY":-1395,"endX":-478,"endY":-1335}},"Nemract
-        Quarry":{"territory":"Nemract Quarry","guild":"KongoBoys","acquired":"2022-11-21
-        13:39:55","attacker":null,"location":{"startX":-105,"startY":-2069,"endX":20,"endY":-1960}},"North
-        Nivla Woods":{"territory":"North Nivla Woods","guild":"KongoBoys","acquired":"2022-11-29
-        09:22:01","attacker":null,"location":{"startX":-194,"startY":-1632,"endX":-86,"endY":-1800}},"Nether
-        Gate":{"territory":"Nether Gate","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:48:15","attacker":null,"location":{"startX":106,"startY":-1341,"endX":342,"endY":-1222}},"Detlas":{"territory":"Detlas","guild":"Nefarious
-        Ravens","acquired":"2022-11-30 08:05:45","attacker":null,"location":{"startX":402,"startY":-1657,"endX":536,"endY":-1518}},"Nivla
-        Woods Edge":{"territory":"Nivla Woods Edge","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:12:48","attacker":null,"location":{"startX":-74,"startY":-1777,"endX":-3,"endY":-1485}},"Twain
-        Lake":{"territory":"Twain Lake","guild":"TerraLune","acquired":"2022-11-28
-        06:16:32","attacker":null,"location":{"startX":0,"startY":-330,"endX":80,"endY":-530}},"Nesaak
-        Plains South West":{"territory":"Nesaak Plains South West","guild":"TerraLune","acquired":"2022-11-19
-        18:18:01","attacker":null,"location":{"startX":70,"startY":-820,"endX":-110,"endY":-625}},"Nesaak
-        Village":{"territory":"Nesaak Village","guild":"TerraLune","acquired":"2022-11-28
-        06:06:30","attacker":null,"location":{"startX":75,"startY":-850,"endX":160,"endY":-760}},"Great
-        Bridge Jungle":{"territory":"Great Bridge Jungle","guild":"KingWorld","acquired":"2022-11-30
-        15:58:56","attacker":null,"location":{"startX":-395,"startY":-790,"endX":-515,"endY":-610}},"Jungle
-        Lake":{"territory":"Jungle Lake","guild":"KongoBoys","acquired":"2022-11-24
-        07:48:59","attacker":null,"location":{"startX":-601,"startY":-791,"endX":-680,"endY":-940}},"Rymek
-        East Mid":{"territory":"Rymek East Mid","guild":"The Simple Ones","acquired":"2022-11-30
-        07:55:20","attacker":null,"location":{"startX":1211,"startY":-1410,"endX":1480,"endY":-1578}},"Rymek
-        West Upper":{"territory":"Rymek West Upper","guild":"The Simple Ones","acquired":"2022-11-30
-        07:48:38","attacker":null,"location":{"startX":1190,"startY":-1665,"endX":975,"endY":-1540}},"Desert
-        Upper":{"territory":"Desert Upper","guild":"The Simple Ones","acquired":"2022-11-30
-        08:58:03","attacker":null,"location":{"startX":990,"startY":-2270,"endX":1195,"endY":-2120}},"Almuj
-        City":{"territory":"Almuj City","guild":"The Simple Ones","acquired":"2022-11-30
-        08:38:39","attacker":null,"location":{"startX":1050,"startY":-1900,"endX":840,"endY":-2060}},"Savannah
-        East Lower":{"territory":"Savannah East Lower","guild":"The Simple Ones","acquired":"2022-11-30
-        07:32:55","attacker":null,"location":{"startX":775,"startY":-1675,"endX":890,"endY":-1860}},"Bremminglar":{"territory":"Bremminglar","guild":"Nefarious
-        Ravens","acquired":"2022-11-30 09:04:00","attacker":null,"location":{"startX":760,"startY":-2070,"endX":615,"endY":-2120}},"Nemract
-        Road":{"territory":"Nemract Road","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:24:25","attacker":null,"location":{"startX":20,"startY":-2065,"endX":151,"endY":-1871}},"Nemract
-        Cathedral":{"territory":"Nemract Cathedral","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:55:48","attacker":null,"location":{"startX":385,"startY":-2180,"endX":270,"endY":-2030}},"Zhight
-        Island":{"territory":"Zhight Island","guild":"Titans Valor","acquired":"2022-11-16
-        09:44:32","attacker":null,"location":{"startX":-727,"startY":-2846,"endX":-440,"endY":-2629}},"Durum
-        Isles East":{"territory":"Durum Isles East","guild":"Titans Valor","acquired":"2022-11-16
-        08:58:06","attacker":null,"location":{"startX":482,"startY":-2841,"endX":548,"endY":-2785}},"Dujgon
-        Nation":{"territory":"Dujgon Nation","guild":"Titans Valor","acquired":"2022-11-22
-        01:51:12","attacker":null,"location":{"startX":1000,"startY":-3550,"endX":925,"endY":-3380}},"Dead
-        Island North West":{"territory":"Dead Island North West","guild":"Titans Valor","acquired":"2022-11-06
-        15:16:03","attacker":null,"location":{"startX":870,"startY":-3920,"endX":745,"endY":-4040}},"Volcano
-        Lower":{"territory":"Volcano Lower","guild":"The Clowns","acquired":"2022-11-25
-        17:48:20","attacker":null,"location":{"startX":-1164,"startY":-3831,"endX":-930,"endY":-3530}},"Ternaves
-        Plains Lower":{"territory":"Ternaves Plains Lower","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:33:34","attacker":null,"location":{"startX":655,"startY":-1430,"endX":880,"endY":-1330}},"Desolate
-        Valley":{"territory":"Desolate Valley","guild":"Nefarious Ravens","acquired":"2022-11-30
-        09:05:18","attacker":null,"location":{"startX":330,"startY":-1040,"endX":450,"endY":-1170}},"Detlas
-        Savannah Transition":{"territory":"Detlas Savannah Transition","guild":"Nefarious
-        Ravens","acquired":"2022-11-30 08:16:26","attacker":null,"location":{"startX":545,"startY":-1520,"endX":650,"endY":-1670}},"Llevigar
-        Entrance":{"territory":"Llevigar Entrance","guild":"The Clowns","acquired":"2022-11-25
-        17:46:57","attacker":null,"location":{"startX":-2048,"startY":-4250,"endX":-1932,"endY":-4403}},"Llevigar
-        Farm Plains West":{"territory":"Llevigar Farm Plains West","guild":"Avicia","acquired":"2022-11-21
-        07:25:52","attacker":null,"location":{"startX":-2060,"startY":-4746,"endX":-2171,"endY":-4828}},"Llevigar
-        Plains West Lower":{"territory":"Llevigar Plains West Lower","guild":"Avicia","acquired":"2022-11-27
-        15:54:55","attacker":null,"location":{"startX":-2060,"startY":-4831,"endX":-2171,"endY":-4909}},"Swamp
-        East Lower":{"territory":"Swamp East Lower","guild":"Avicia","acquired":"2022-11-27
-        15:34:23","attacker":null,"location":{"startX":-2059,"startY":-5003,"endX":-1956,"endY":-5074}},"Swamp
-        East Mid-Upper":{"territory":"Swamp East Mid-Upper","guild":"Aequitas","acquired":"2022-11-23
-        21:23:29","attacker":null,"location":{"startX":-2059,"startY":-5188,"endX":-1955,"endY":-5309}},"Swamp
-        Dark Forest Transition Mid":{"territory":"Swamp Dark Forest Transition Mid","guild":"Aequitas","acquired":"2022-11-16
-        23:59:14","attacker":null,"location":{"startX":-1519,"startY":-5291,"endX":-1626,"endY":-5492}},"Olux":{"territory":"Olux","guild":"Aequitas","acquired":"2022-11-17
-        00:17:30","attacker":null,"location":{"startX":-1810,"startY":-5397,"endX":-1668,"endY":-5597}},"Swamp
-        Mountain Transition Mid":{"territory":"Swamp Mountain Transition Mid","guild":"Aequitas","acquired":"2022-11-23
-        21:22:58","attacker":null,"location":{"startX":-2127,"startY":-5466,"endX":-2066,"endY":-5603}},"Quartz
-        Mines South East":{"territory":"Quartz Mines South East","guild":"Avicia","acquired":"2022-11-27
-        19:58:41","attacker":null,"location":{"startX":-1391,"startY":-4352,"endX":-1607,"endY":-4524}},"Orc
-        Lake":{"territory":"Orc Lake","guild":"Avicia","acquired":"2022-11-21 08:24:16","attacker":null,"location":{"startX":-1933,"startY":-4962,"endX":-1816,"endY":-4854}},"Loamsprout
-        Camp":{"territory":"Loamsprout Camp","guild":"Avicia","acquired":"2022-11-18
-        04:58:58","attacker":null,"location":{"startX":-1800,"startY":-4852,"endX":-1670,"endY":-4684}},"Forgotten
-        Path":{"territory":"Forgotten Path","guild":"Aequitas","acquired":"2022-11-27
-        13:12:19","attacker":null,"location":{"startX":-1603,"startY":-4969,"endX":-1529,"endY":-5100}},"Road
-        To Light Forest":{"territory":"Road To Light Forest","guild":"Avicia","acquired":"2022-11-21
-        06:29:02","attacker":null,"location":{"startX":-1387,"startY":-4595,"endX":-1252,"endY":-4713}},"Efilim
-        South East Plains":{"territory":"Efilim South East Plains","guild":"Aequitas","acquired":"2022-11-27
-        16:28:26","attacker":null,"location":{"startX":-949,"startY":-4942,"endX":-1014,"endY":-4847}},"Aldorei
-        Valley West Entrance":{"territory":"Aldorei Valley West Entrance","guild":"Avicia","acquired":"2022-11-30
-        15:54:55","attacker":null,"location":{"startX":-736,"startY":-4428,"endX":-802,"endY":-4553}},"Light
-        Forest West Mid":{"territory":"Light Forest West Mid","guild":"Avicia","acquired":"2022-11-30
-        15:49:38","attacker":null,"location":{"startX":-929,"startY":-4552,"endX":-1014,"endY":-4706}},"Light
-        Forest East Lower":{"territory":"Light Forest East Lower","guild":"The Clowns","acquired":"2022-11-30
-        15:50:34","attacker":null,"location":{"startX":-926,"startY":-4700,"endX":-805,"endY":-4552}},"Path
-        to Cinfras":{"territory":"Path to Cinfras","guild":"The Aquarium","acquired":"2022-11-27
-        19:27:56","attacker":null,"location":{"startX":-734,"startY":-4842,"endX":-818,"endY":-4953}},"Gelibord
-        Castle":{"territory":"Gelibord Castle","guild":"Aequitas","acquired":"2022-11-27
-        15:51:24","attacker":null,"location":{"startX":-1027,"startY":-5470,"endX":-1180,"endY":-5600}},"Mansion
-        of Insanity":{"territory":"Mansion of Insanity","guild":"Aequitas","acquired":"2022-11-27
-        16:08:29","attacker":null,"location":{"startX":-1237,"startY":-5116,"endX":-1144,"endY":-5268}},"Entrance
-        to Kander":{"territory":"Entrance to Kander","guild":"The Aquarium","acquired":"2022-11-25
-        01:58:56","attacker":null,"location":{"startX":-896,"startY":-5408,"endX":-792,"endY":-5233}},"Path
-        to Talor":{"territory":"Path to Talor","guild":"The Aquarium","acquired":"2022-11-25
-        01:59:01","attacker":null,"location":{"startX":-653,"startY":-5231,"endX":-785,"endY":-5401}},"Old
-        Crossroads North":{"territory":"Old Crossroads North","guild":"The Aquarium","acquired":"2022-11-25
-        01:54:49","attacker":null,"location":{"startX":-648,"startY":-5314,"endX":-567,"endY":-5400}},"Heart
-        of Decay":{"territory":"Heart of Decay","guild":"The Aquarium","acquired":"2022-11-25
-        02:20:01","attacker":null,"location":{"startX":-598,"startY":-5580,"endX":-454,"endY":-5518}},"Dark
-        Forest Cinfras Transition":{"territory":"Dark Forest Cinfras Transition","guild":"The
-        Aquarium","acquired":"2022-11-25 01:51:14","attacker":null,"location":{"startX":-290,"startY":-5292,"endX":-392,"endY":-5116}},"Cinfras
-        County Lower":{"territory":"Cinfras County Lower","guild":"Discoverers","acquired":"2022-11-30
-        15:28:36","attacker":null,"location":{"startX":3,"startY":-4760,"endX":-127,"endY":-4640}},"Gylia
-        Lake South East":{"territory":"Gylia Lake South East","guild":"Paladins United","acquired":"2022-11-30
-        12:07:20","attacker":null,"location":{"startX":30,"startY":-5157,"endX":-127,"endY":-5271}},"Gert
-        Camp":{"territory":"Gert Camp","guild":"Paladins United","acquired":"2022-11-30
-        12:25:52","attacker":null,"location":{"startX":30,"startY":-5447,"endX":-83,"endY":-5605}},"Aldorei
-        Valley Upper":{"territory":"Aldorei Valley Upper","guild":"The Aquarium","acquired":"2022-11-25
-        02:31:18","attacker":null,"location":{"startX":-557,"startY":-4501,"endX":-322,"endY":-4656}},"Aldorei''s
-        Arch":{"territory":"Aldorei''s Arch","guild":"Avicia","acquired":"2022-11-30
-        15:41:17","attacker":null,"location":{"startX":33,"startY":-4367,"endX":107,"endY":-4519}},"Burning
-        Airship":{"territory":"Burning Airship","guild":"Avicia","acquired":"2022-11-30
-        15:33:18","attacker":null,"location":{"startX":35,"startY":-4859,"endX":107,"endY":-4955}},"Path
-        To Military Base":{"territory":"Path To Military Base","guild":"Paladins United","acquired":"2022-11-30
-        12:05:59","attacker":null,"location":{"startX":51,"startY":-5297,"endX":166,"endY":-5391}},"Path
-        To Ozoth''s Spire Lower":{"territory":"Path To Ozoth''s Spire Lower","guild":"Paladins
-        United","acquired":"2022-11-30 12:13:14","attacker":null,"location":{"startX":260,"startY":-5298,"endX":199,"endY":-5169}},"Bandit
-        Cave Upper":{"territory":"Bandit Cave Upper","guild":"Titans Valor","acquired":"2022-11-30
-        14:53:22","attacker":null,"location":{"startX":194,"startY":-4956,"endX":111,"endY":-4872}},"Canyon
-        Waterfall North":{"territory":"Canyon Waterfall North","guild":"Idiot Co","acquired":"2022-11-30
-        00:05:21","attacker":null,"location":{"startX":115,"startY":-4380,"endX":194,"endY":-4518}},"Canyon
-        Path North Mid":{"territory":"Canyon Path North Mid","guild":"Idiot Co","acquired":"2022-11-29
-        00:56:15","attacker":null,"location":{"startX":200,"startY":-4743,"endX":264,"endY":-4875}},"Thanos
-        Exit":{"territory":"Thanos Exit","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:47:43","attacker":null,"location":{"startX":338,"startY":-5310,"endX":262,"endY":-5168}},"Canyon
-        Waterfall Mid North":{"territory":"Canyon Waterfall Mid North","guild":"Idiot
-        Co","acquired":"2022-11-29 00:53:23","attacker":null,"location":{"startX":337,"startY":-4855,"endX":271,"endY":-4741}},"Thanos
-        Exit Upper":{"territory":"Thanos Exit Upper","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:37:14","attacker":null,"location":{"startX":347,"startY":-5313,"endX":438,"endY":-5183}},"Mountain
-        Edge":{"territory":"Mountain Edge","guild":"Idiot Co","acquired":"2022-11-27
-        23:42:42","attacker":null,"location":{"startX":437,"startY":-4314,"endX":336,"endY":-4392}},"Krolton''s
-        Cave":{"territory":"Krolton''s Cave","guild":"Sins of Seedia","acquired":"2022-11-21
-        22:58:33","attacker":null,"location":{"startX":341,"startY":-4841,"endX":438,"endY":-4962}},"Cliffside
-        Valley":{"territory":"Cliffside Valley","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:43:27","attacker":null,"location":{"startX":563,"startY":-5079,"endX":440,"endY":-4975}},"Canyon
-        Of The Lost":{"territory":"Canyon Of The Lost","guild":"Idiot Co","acquired":"2022-11-25
-        17:46:02","attacker":null,"location":{"startX":443,"startY":-4566,"endX":570,"endY":-4392}},"Cliffside
-        Passage North":{"territory":"Cliffside Passage North","guild":"Idiot Co","acquired":"2022-11-29
-        00:35:07","attacker":null,"location":{"startX":572,"startY":-4818,"endX":700,"endY":-4933}},"Cherry
-        Blossom Forest":{"territory":"Cherry Blossom Forest","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:42:27","attacker":null,"location":{"startX":699,"startY":-5378,"endX":575,"endY":-5551}},"Entrance
-        to Rodoroc":{"territory":"Entrance to Rodoroc","guild":"Empire of Sindria","acquired":"2022-11-27
-        19:28:00","attacker":null,"location":{"startX":854,"startY":-5257,"endX":1113,"endY":-5367}},"Lava
-        Lake Bridge":{"territory":"Lava Lake Bridge","guild":"Empire of Sindria","acquired":"2022-11-27
-        19:09:24","attacker":null,"location":{"startX":1230,"startY":-5240,"endX":1379,"endY":-5366}},"Ahmsord":{"territory":"Ahmsord","guild":"Empire
-        of Sindria","acquired":"2022-11-27 07:10:39","attacker":null,"location":{"startX":1163,"startY":-4462,"endX":942,"endY":-4604}},"Dernel
-        Jungle Mid":{"territory":"Dernel Jungle Mid","guild":"KingWorld","acquired":"2022-11-30
-        04:57:05","attacker":null,"location":{"startX":-744,"startY":-528,"endX":-965,"endY":-264}},"Corkus
-        City South":{"territory":"Corkus City South","guild":"The Clowns","acquired":"2022-11-25
-        17:46:24","attacker":null,"location":{"startX":-1559,"startY":-2662,"endX":-1679,"endY":-2833}},"Legendary
-        Island":{"territory":"Legendary Island","guild":"The Clowns","acquired":"2022-11-25
-        17:46:48","attacker":null,"location":{"startX":-1212,"startY":-2576,"endX":-1001,"endY":-2342}},"Corkus
-        Mountain":{"territory":"Corkus Mountain","guild":"The Clowns","acquired":"2022-11-25
-        17:46:35","attacker":null,"location":{"startX":-1888,"startY":-2997,"endX":-1683,"endY":-3175}},"Corkus
-        Sea Port":{"territory":"Corkus Sea Port","guild":"The Clowns","acquired":"2022-11-26
-        20:32:58","attacker":null,"location":{"startX":-1680,"startY":-2512,"endX":-1437,"endY":-2307}},"Bloody
-        Beach":{"territory":"Bloody Beach","guild":"The Clowns","acquired":"2022-11-25
-        17:46:41","attacker":null,"location":{"startX":-1376,"startY":-3225,"endX":-1097,"endY":-3426}},"Path
-        to Ahmsord Lower":{"territory":"Path to Ahmsord Lower","guild":"Empire of
-        Sindria","acquired":"2022-11-27 07:15:03","attacker":null,"location":{"startX":779,"startY":-4480,"endX":885,"endY":-4570}},"Dragonling
-        Nests":{"territory":"Dragonling Nests","guild":"Empire of Sindria","acquired":"2022-11-27
-        07:43:02","attacker":null,"location":{"startX":925,"startY":-4916,"endX":1101,"endY":-5016}},"Swamp
-        Island":{"territory":"Swamp Island","guild":"Empire of Sindria","acquired":"2022-11-27
-        07:42:38","attacker":null,"location":{"startX":1178,"startY":-4754,"endX":1101,"endY":-4915}},"Sky
-        Island Ascent":{"territory":"Sky Island Ascent","guild":"Empire of Sindria","acquired":"2022-11-27
-        07:12:08","attacker":null,"location":{"startX":1180,"startY":-4524,"endX":1379,"endY":-4355}},"Jofash
-        Tunnel":{"territory":"Jofash Tunnel","guild":"Titans Valor","acquired":"2022-11-06
-        15:09:48","attacker":null,"location":{"startX":1304,"startY":-4354,"endX":1126,"endY":-4176}},"Icy
-        Descent":{"territory":"Icy Descent","guild":"TerraLune","acquired":"2022-11-30
-        15:31:57","attacker":null,"location":{"startX":-311,"startY":-358,"endX":-104,"endY":-496}},"Rodoroc":{"territory":"Rodoroc","guild":"Empire
-        of Sindria","acquired":"2022-11-27 19:11:37","attacker":null,"location":{"startX":1200,"startY":-5067,"endX":965,"endY":-5238}},"Twisted
-        Ridge":{"territory":"Twisted Ridge","guild":"The Aquarium","acquired":"2022-11-25
-        02:04:20","attacker":null,"location":{"startX":-1020,"startY":-5603,"endX":-910,"endY":-5343}},"Orc
-        Battlegrounds":{"territory":"Orc Battlegrounds","guild":"Avicia","acquired":"2022-11-21
-        09:15:03","attacker":null,"location":{"startX":-1460,"startY":-5024,"endX":-1282,"endY":-4870}},"Lighthouse
-        Plateau":{"territory":"Lighthouse Plateau","guild":"The Clowns","acquired":"2022-11-26
-        20:41:50","attacker":null,"location":{"startX":-1633,"startY":-2162,"endX":-1445,"endY":-2306}},"Worm
-        Tunnel":{"territory":"Worm Tunnel","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:45:19","attacker":null,"location":{"startX":641,"startY":-767,"endX":543,"endY":-640}},"Sinister
-        Forest":{"territory":"Sinister Forest","guild":"Profession Heaven","acquired":"2022-11-30
-        07:31:49","attacker":null,"location":{"startX":815,"startY":-506,"endX":1059,"endY":-629}},"Toxic
-        Caves":{"territory":"Toxic Caves","guild":"Profession Heaven","acquired":"2022-11-30
-        07:46:39","attacker":null,"location":{"startX":1017,"startY":-1146,"endX":844,"endY":-993}},"Bizarre
-        Passage":{"territory":"Bizarre Passage","guild":"Profession Heaven","acquired":"2022-11-30
-        08:02:52","attacker":null,"location":{"startX":1187,"startY":-680,"endX":1388,"endY":-530}},"Primal
-        Fen":{"territory":"Primal Fen","guild":"Revival","acquired":"2022-11-30 15:11:59","attacker":null,"location":{"startX":-894,"startY":-6244,"endX":-1026,"endY":-6066}},"Nexus
-        of Light":{"territory":"Nexus of Light","guild":"Revival","acquired":"2022-11-30
-        14:29:08","attacker":null,"location":{"startX":-645,"startY":-6384,"endX":-855,"endY":-6561}},"Ragni
+        15:12:10","attacker":null,"location":{"startX":-951,"startY":-4421,"endX":-802,"endY":-4108}},"Ragni
         Main Entrance":{"territory":"Ragni Main Entrance","guild":"KongoBoys","acquired":"2022-11-21
-        12:55:28","attacker":null,"location":{"startX":-747,"startY":-1530,"endX":-616,"endY":-1652}},"Coastal
+        12:55:28","attacker":null,"location":{"startX":-747,"startY":-1530,"endX":-616,"endY":-1652}},"Katoa
+        Ranch":{"territory":"Katoa Ranch","guild":"KongoBoys","acquired":"2022-11-28
+        08:07:03","attacker":null,"location":{"startX":-914,"startY":-1860,"endX":-748,"endY":-1955}},"Coastal
         Trail":{"territory":"Coastal Trail","guild":"KongoBoys","acquired":"2022-11-21
-        13:19:22","attacker":null,"location":{"startX":-747,"startY":-1946,"endX":-565,"endY":-2059}},"Little
+        13:19:22","attacker":null,"location":{"startX":-747,"startY":-1946,"endX":-565,"endY":-2059}},"Plains":{"territory":"Plains","guild":"KongoBoys","acquired":"2022-11-21
+        13:44:34","attacker":null,"location":{"startX":-435,"startY":-1883,"endX":-270,"endY":-1653}},"Little
         Wood":{"territory":"Little Wood","guild":"KongoBoys","acquired":"2022-11-28
-        07:54:14","attacker":null,"location":{"startX":-812,"startY":-1177,"endX":-636,"endY":-1094}},"Nivla
+        07:54:14","attacker":null,"location":{"startX":-812,"startY":-1177,"endX":-636,"endY":-1094}},"Road
+        to Time Valley":{"territory":"Road to Time Valley","guild":"KongoBoys","acquired":"2022-11-23
+        19:10:24","attacker":null,"location":{"startX":-461,"startY":-1525,"endX":-359,"endY":-1412}},"Nivla
         Woods Exit":{"territory":"Nivla Woods Exit","guild":"KongoBoys","acquired":"2022-11-24
-        05:42:00","attacker":null,"location":{"startX":-175,"startY":-1630,"endX":-105,"endY":-1514}},"Detlas
-        Suburbs":{"territory":"Detlas Suburbs","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:02:14","attacker":null,"location":{"startX":188,"startY":-1657,"endX":300,"endY":-1500}},"Half
+        05:42:00","attacker":null,"location":{"startX":-175,"startY":-1630,"endX":-105,"endY":-1514}},"Road
+        to Elkurn":{"territory":"Road to Elkurn","guild":"KongoBoys","acquired":"2022-12-01
+        10:35:00","attacker":null,"location":{"startX":-89,"startY":-1481,"endX":2,"endY":-1267}},"Detlas
+        Suburbs":{"territory":"Detlas Suburbs","guild":"Sins of Seedia","acquired":"2022-12-01
+        17:26:31","attacker":null,"location":{"startX":188,"startY":-1657,"endX":300,"endY":-1500}},"North
+        Farmers Valley":{"territory":"North Farmers Valley","guild":"KongoBoys","acquired":"2022-11-21
+        13:36:40","attacker":null,"location":{"startX":-348,"startY":-2060,"endX":-254,"endY":-1954}},"Half
         Moon Island":{"territory":"Half Moon Island","guild":"Titans Valor","acquired":"2022-11-06
-        14:50:50","attacker":null,"location":{"startX":900,"startY":-2660,"endX":1100,"endY":-2480}},"Nesaak
-        Plains Lower North West":{"territory":"Nesaak Plains Lower North West","guild":"TerraLune","acquired":"2022-11-28
-        06:11:19","attacker":null,"location":{"startX":70,"startY":-834,"endX":-120,"endY":-910}},"Jungle
-        Mid":{"territory":"Jungle Mid","guild":"TerraLune","acquired":"2022-11-30
-        15:53:46","attacker":null,"location":{"startX":-600,"startY":-610,"endX":-670,"endY":-780}},"Rymek
+        14:50:50","attacker":null,"location":{"startX":900,"startY":-2660,"endX":1100,"endY":-2480}},"Bob''s
+        Tomb":{"territory":"Bob''s Tomb","guild":"TerraLune","acquired":"2022-12-01
+        12:56:28","attacker":null,"location":{"startX":246,"startY":-747,"endX":380,"endY":-867}},"Nesaak
+        Plains Lower North West":{"territory":"Nesaak Plains Lower North West","guild":"TerraLune","acquired":"2022-12-01
+        14:00:27","attacker":null,"location":{"startX":70,"startY":-834,"endX":-120,"endY":-910}},"Nesaak
+        Plains Mid North West":{"territory":"Nesaak Plains Mid North West","guild":"TerraLune","acquired":"2022-12-01
+        12:35:52","attacker":null,"location":{"startX":-140,"startY":-860,"endX":-180,"endY":-980}},"Jungle
+        Mid":{"territory":"Jungle Mid","guild":"Revival","acquired":"2022-12-01 16:28:34","attacker":null,"location":{"startX":-600,"startY":-610,"endX":-670,"endY":-780}},"City
+        of Troms":{"territory":"City of Troms","guild":"KongoBoys","acquired":"2022-11-22
+        23:15:15","attacker":null,"location":{"startX":-726,"startY":-970,"endX":-899,"endY":-826}},"Rymek
         West Lower":{"territory":"Rymek West Lower","guild":"The Simple Ones","acquired":"2022-11-30
         08:08:09","attacker":null,"location":{"startX":1209,"startY":-1269,"endX":1020,"endY":-1380}},"Desert
+        East Mid":{"territory":"Desert East Mid","guild":"The Simple Ones","acquired":"2022-11-30
+        08:13:00","attacker":null,"location":{"startX":1260,"startY":-2170,"endX":1450,"endY":-2020}},"Desert
         Mid-Lower":{"territory":"Desert Mid-Lower","guild":"The Simple Ones","acquired":"2022-11-30
-        08:34:49","attacker":null,"location":{"startX":1060,"startY":-1935,"endX":1210,"endY":-1810}},"Savannah
-        West Lower":{"territory":"Savannah West Lower","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:57:43","attacker":null,"location":{"startX":775,"startY":-1675,"endX":630,"endY":-1830}},"Nemract
-        Plains East":{"territory":"Nemract Plains East","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:10:35","attacker":null,"location":{"startX":151,"startY":-1870,"endX":20,"endY":-1810}},"Durum
+        08:34:49","attacker":null,"location":{"startX":1060,"startY":-1935,"endX":1210,"endY":-1810}},"Desert
+        West Upper":{"territory":"Desert West Upper","guild":"The Simple Ones","acquired":"2022-11-30
+        08:52:19","attacker":null,"location":{"startX":990,"startY":-2270,"endX":895,"endY":-2140}},"Savannah
+        West Lower":{"territory":"Savannah West Lower","guild":"Sins of Seedia","acquired":"2022-12-01
+        08:44:23","attacker":null,"location":{"startX":775,"startY":-1675,"endX":630,"endY":-1830}},"Nemract
+        Town":{"territory":"Nemract Town","guild":"Sins of Seedia","acquired":"2022-12-01
+        08:47:02","attacker":null,"location":{"startX":10,"startY":-2070,"endX":210,"endY":-2270}},"Nemract
+        Plains East":{"territory":"Nemract Plains East","guild":"Sins of Seedia","acquired":"2022-12-01
+        16:44:55","attacker":null,"location":{"startX":151,"startY":-1870,"endX":20,"endY":-1810}},"The
+        Bear Zoo":{"territory":"The Bear Zoo","guild":"Titans Valor","acquired":"2022-11-16
+        09:41:04","attacker":null,"location":{"startX":-409,"startY":-2539,"endX":-283,"endY":-2414}},"Durum
         Isles Center":{"territory":"Durum Isles Center","guild":"Titans Valor","acquired":"2022-11-16
-        10:04:24","attacker":null,"location":{"startX":405,"startY":-2846,"endX":504,"endY":-2972}},"Dead
+        10:04:24","attacker":null,"location":{"startX":405,"startY":-2846,"endX":504,"endY":-2972}},"Pirate
+        Town":{"territory":"Pirate Town","guild":"Titans Valor","acquired":"2022-11-16
+        09:53:12","attacker":null,"location":{"startX":-750,"startY":-3251,"endX":-580,"endY":-3006}},"Dead
         Island North East":{"territory":"Dead Island North East","guild":"Titans Valor","acquired":"2022-11-06
-        15:03:58","attacker":null,"location":{"startX":870,"startY":-3920,"endX":1000,"endY":-4040}},"Ternaves":{"territory":"Ternaves","guild":"Nefarious
-        Ravens","acquired":"2022-11-30 08:55:31","attacker":null,"location":{"startX":770,"startY":-1675,"endX":880,"endY":-1540}},"Plains
-        Lake":{"territory":"Plains Lake","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:30:14","attacker":null,"location":{"startX":395,"startY":-1365,"endX":550,"endY":-1190}},"Llevigar
+        15:03:58","attacker":null,"location":{"startX":870,"startY":-3920,"endX":1000,"endY":-4040}},"Maro
+        Peaks":{"territory":"Maro Peaks","guild":"Titans Valor","acquired":"2022-11-16
+        09:22:13","attacker":null,"location":{"startX":-41,"startY":-4174,"endX":453,"endY":-3793}},"Ternaves":{"territory":"Ternaves","guild":"Sins
+        of Seedia","acquired":"2022-12-01 08:43:17","attacker":null,"location":{"startX":770,"startY":-1675,"endX":880,"endY":-1540}},"Mining
+        Base Lower":{"territory":"Mining Base Lower","guild":"Sins of Seedia","acquired":"2022-12-01
+        18:13:10","attacker":null,"location":{"startX":870,"startY":-1130,"endX":670,"endY":-1225}},"Plains
+        Lake":{"territory":"Plains Lake","guild":"Sins of Seedia","acquired":"2022-12-01
+        18:17:00","attacker":null,"location":{"startX":395,"startY":-1365,"endX":550,"endY":-1190}},"Detlas
+        Trail East Plains":{"territory":"Detlas Trail East Plains","guild":"Sins of
+        Seedia","acquired":"2022-12-01 18:08:50","attacker":null,"location":{"startX":200,"startY":-1820,"endX":510,"endY":-1675}},"Llevigar
         Gate West":{"territory":"Llevigar Gate West","guild":"Avicia","acquired":"2022-11-27
-        19:46:38","attacker":null,"location":{"startX":-2060,"startY":-4746,"endX":-2171,"endY":-4644}},"Llevigar
+        19:46:38","attacker":null,"location":{"startX":-2060,"startY":-4746,"endX":-2171,"endY":-4644}},"Cinfras":{"territory":"Cinfras","guild":"The
+        Aquarium","acquired":"2022-11-25 01:42:58","attacker":null,"location":{"startX":-534,"startY":-4807,"endX":-375,"endY":-5088}},"Llevigar
         Plains East Upper":{"territory":"Llevigar Plains East Upper","guild":"Avicia","acquired":"2022-11-21
         06:03:27","attacker":null,"location":{"startX":-2059,"startY":-4912,"endX":-1940,"endY":-5000}},"Swamp
+        West Mid":{"territory":"Swamp West Mid","guild":"Avicia","acquired":"2022-11-27
+        15:48:02","attacker":null,"location":{"startX":-2060,"startY":-5082,"endX":-2171,"endY":-5186}},"Swamp
         East Upper":{"territory":"Swamp East Upper","guild":"Aequitas","acquired":"2022-11-23
         21:35:44","attacker":null,"location":{"startX":-1955,"startY":-5311,"endX":-2059,"endY":-5419}},"Swamp
+        Lower":{"territory":"Swamp Lower","guild":"Aequitas","acquired":"2022-11-17
+        00:00:34","attacker":null,"location":{"startX":-1649,"startY":-5134,"endX":-1763,"endY":-5241}},"Swamp
         Plains Basin":{"territory":"Swamp Plains Basin","guild":"Aequitas","acquired":"2022-11-23
-        21:30:22","attacker":null,"location":{"startX":-1776,"startY":-5246,"endX":-1898,"endY":-5396}},"Quartz
+        21:30:22","attacker":null,"location":{"startX":-1776,"startY":-5246,"endX":-1898,"endY":-5396}},"Swamp
+        Mountain Transition Upper":{"territory":"Swamp Mountain Transition Upper","guild":"Aequitas","acquired":"2022-11-26
+        21:26:23","attacker":null,"location":{"startX":-1981,"startY":-5466,"endX":-1889,"endY":-5603}},"Quartz
         Mines North East":{"territory":"Quartz Mines North East","guild":"Avicia","acquired":"2022-11-21
-        07:43:50","attacker":null,"location":{"startX":-1391,"startY":-4664,"endX":-1607,"endY":-4526}},"Goblin
+        07:43:50","attacker":null,"location":{"startX":-1391,"startY":-4664,"endX":-1607,"endY":-4526}},"Meteor
+        Crater":{"territory":"Meteor Crater","guild":"Avicia","acquired":"2022-11-21
+        08:18:17","attacker":null,"location":{"startX":-1800,"startY":-5099,"endX":-1690,"endY":-4969}},"Goblin
         Plains West":{"territory":"Goblin Plains West","guild":"Avicia","acquired":"2022-11-18
-        04:48:55","attacker":null,"location":{"startX":-1688,"startY":-4962,"endX":-1611,"endY":-4854}},"Efilim
+        04:48:55","attacker":null,"location":{"startX":-1688,"startY":-4962,"endX":-1611,"endY":-4854}},"Pre-Light
+        Forest Transition":{"territory":"Pre-Light Forest Transition","guild":"Avicia","acquired":"2022-11-21
+        07:52:40","attacker":null,"location":{"startX":-1553,"startY":-4850,"endX":-1476,"endY":-4719}},"Efilim
         South Plains":{"territory":"Efilim South Plains","guild":"Aequitas","acquired":"2022-11-27
         16:24:29","attacker":null,"location":{"startX":-1030,"startY":-4940,"endX":-1134,"endY":-4847}},"Light
-        Forest North Exit":{"territory":"Light Forest North Exit","guild":"The Clowns","acquired":"2022-11-30
-        15:41:24","attacker":null,"location":{"startX":-733,"startY":-4707,"endX":-654,"endY":-4848}},"Mantis
-        Nest":{"territory":"Mantis Nest","guild":"Avicia","acquired":"2022-11-30 15:52:27","attacker":null,"location":{"startX":-736,"startY":-4559,"endX":-802,"endY":-4698}},"Fortress
+        Forest Entrance":{"territory":"Light Forest Entrance","guild":"Avicia","acquired":"2022-12-01
+        05:54:18","attacker":null,"location":{"startX":-1040,"startY":-4706,"endX":-1134,"endY":-4552}},"Light
+        Forest North Exit":{"territory":"Light Forest North Exit","guild":"The Aquarium","acquired":"2022-12-01
+        19:40:10","attacker":null,"location":{"startX":-733,"startY":-4707,"endX":-654,"endY":-4848}},"Light
+        Forest East Upper":{"territory":"Light Forest East Upper","guild":"The Aquarium","acquired":"2022-11-28
+        05:16:57","attacker":null,"location":{"startX":-926,"startY":-4842,"endX":-831,"endY":-4945}},"Mantis
+        Nest":{"territory":"Mantis Nest","guild":"Avicia","acquired":"2022-12-01 19:25:10","attacker":null,"location":{"startX":-736,"startY":-4559,"endX":-802,"endY":-4698}},"Gelibord":{"territory":"Gelibord","guild":"The
+        Aquarium","acquired":"2022-11-27 15:40:58","attacker":null,"location":{"startX":-1050,"startY":-5244,"endX":-958,"endY":-5342}},"Fortress
         North":{"territory":"Fortress North","guild":"Aequitas","acquired":"2022-11-27
-        15:19:17","attacker":null,"location":{"startX":-1452,"startY":-5211,"endX":-1272,"endY":-5395}},"Mesquis
+        15:19:17","attacker":null,"location":{"startX":-1452,"startY":-5211,"endX":-1272,"endY":-5395}},"Lexdales
+        Prison":{"territory":"Lexdales Prison","guild":"The Aquarium","acquired":"2022-11-25
+        02:05:10","attacker":null,"location":{"startX":-873,"startY":-5518,"endX":-772,"endY":-5585}},"Mesquis
         Tower":{"territory":"Mesquis Tower","guild":"The Aquarium","acquired":"2022-11-27
-        16:42:43","attacker":null,"location":{"startX":-834,"startY":-5078,"endX":-727,"endY":-4999}},"Fungal
+        16:42:43","attacker":null,"location":{"startX":-834,"startY":-5078,"endX":-727,"endY":-4999}},"Dark
+        Forest Village":{"territory":"Dark Forest Village","guild":"The Aquarium","acquired":"2022-11-25
+        01:56:39","attacker":null,"location":{"startX":-723,"startY":-5229,"endX":-574,"endY":-5147}},"Fungal
         Grove":{"territory":"Fungal Grove","guild":"The Aquarium","acquired":"2022-11-25
-        02:12:48","attacker":null,"location":{"startX":-489,"startY":-5279,"endX":-549,"endY":-5398}},"Aldorei
-        Valley South Entrance":{"territory":"Aldorei Valley South Entrance","guild":"Avicia","acquired":"2022-11-30
-        15:24:20","attacker":null,"location":{"startX":-130,"startY":-4641,"endX":-222,"endY":-4509}},"Gylia
+        02:12:48","attacker":null,"location":{"startX":-489,"startY":-5279,"endX":-549,"endY":-5398}},"Mushroom
+        Hill":{"territory":"Mushroom Hill","guild":"The Aquarium","acquired":"2022-11-25
+        02:16:32","attacker":null,"location":{"startX":-288,"startY":-5411,"endX":-392,"endY":-5601}},"Aldorei
+        Valley South Entrance":{"territory":"Aldorei Valley South Entrance","guild":"Refugium","acquired":"2022-12-01
+        19:25:04","attacker":null,"location":{"startX":-130,"startY":-4641,"endX":-222,"endY":-4509}},"Cinfras
+        County Mid-Upper":{"territory":"Cinfras County Mid-Upper","guild":"Refugium","acquired":"2022-12-01
+        19:17:23","attacker":null,"location":{"startX":-127,"startY":-4896,"endX":3,"endY":-5050}},"Gylia
         Lake North West":{"territory":"Gylia Lake North West","guild":"The Aquarium","acquired":"2022-11-25
-        02:26:59","attacker":null,"location":{"startX":-218,"startY":-5427,"endX":-130,"endY":-5273}},"Aldorei''s
-        Waterfall":{"territory":"Aldorei''s Waterfall","guild":"The Aquarium","acquired":"2022-11-25
-        02:35:17","attacker":null,"location":{"startX":-237,"startY":-4514,"endX":-321,"endY":-4648}},"Thanos":{"territory":"Thanos","guild":"Paladins
-        United","acquired":"2022-11-30 11:59:14","attacker":null,"location":{"startX":51,"startY":-5189,"endX":194,"endY":-5295}},"Path
+        02:26:59","attacker":null,"location":{"startX":-218,"startY":-5427,"endX":-130,"endY":-5273}},"Aldorei
+        Valley Lower":{"territory":"Aldorei Valley Lower","guild":"Avicia","acquired":"2022-12-01
+        19:29:37","attacker":null,"location":{"startX":-714,"startY":-4395,"endX":-559,"endY":-4499}},"Aldorei''s
+        Waterfall":{"territory":"Aldorei''s Waterfall","guild":"The Aquarium","acquired":"2022-12-01
+        06:11:51","attacker":null,"location":{"startX":-237,"startY":-4514,"endX":-321,"endY":-4648}},"Ghostly
+        Path":{"territory":"Ghostly Path","guild":"Nefarious Ravens","acquired":"2022-12-01
+        19:17:26","attacker":null,"location":{"startX":35,"startY":-4643,"endX":107,"endY":-4753}},"Thanos":{"territory":"Thanos","guild":"Paladins
+        United","acquired":"2022-11-30 11:59:14","attacker":null,"location":{"startX":51,"startY":-5189,"endX":194,"endY":-5295}},"Military
+        Base Upper":{"territory":"Military Base Upper","guild":"Paladins United","acquired":"2022-11-30
+        12:27:06","attacker":null,"location":{"startX":168,"startY":-5408,"endX":250,"endY":-5518}},"Path
         To Ozoth''s Spire Upper":{"territory":"Path To Ozoth''s Spire Upper","guild":"Paladins
         United","acquired":"2022-11-30 12:11:44","attacker":null,"location":{"startX":194,"startY":-5165,"endX":111,"endY":-5045}},"Canyon
-        Lower South East":{"territory":"Canyon Lower South East","guild":"Idiot Co","acquired":"2022-11-30
-        10:30:30","attacker":null,"location":{"startX":265,"startY":-4521,"endX":199,"endY":-4649}},"Canyon
-        Mountain East":{"territory":"Canyon Mountain East","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:55:16","attacker":null,"location":{"startX":271,"startY":-5039,"endX":337,"endY":-4948}},"Wizard
-        Tower North":{"territory":"Wizard Tower North","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:49:29","attacker":null,"location":{"startX":438,"startY":-5037,"endX":345,"endY":-4966}},"Canyon
-        High Path":{"territory":"Canyon High Path","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:34:32","attacker":null,"location":{"startX":562,"startY":-5313,"endX":440,"endY":-5191}},"Kandon
-        Farm":{"territory":"Kandon Farm","guild":"Empire of Sindria","acquired":"2022-11-27
-        07:43:11","attacker":null,"location":{"startX":710,"startY":-4587,"endX":614,"endY":-4682}},"Thesead
-        Suburbs":{"territory":"Thesead Suburbs","guild":"Sins of Seedia","acquired":"2022-11-20
-        21:52:07","attacker":null,"location":{"startX":703,"startY":-5374,"endX":810,"endY":-5216}},"Active
-        Volcano":{"territory":"Active Volcano","guild":"Empire of Sindria","acquired":"2022-11-27
-        19:20:05","attacker":null,"location":{"startX":1233,"startY":-5553,"endX":1379,"endY":-5369}},"Corkus
-        City":{"territory":"Corkus City","guild":"The Clowns","acquired":"2022-11-25
-        17:45:26","attacker":null,"location":{"startX":-1557,"startY":-2835,"endX":-1680,"endY":-3010}},"Corkus
-        Forest South":{"territory":"Corkus Forest South","guild":"The Clowns","acquired":"2022-11-25
-        17:48:14","attacker":null,"location":{"startX":-1681,"startY":-2732,"endX":-1883,"endY":-2861}},"Corkus
-        Statue":{"territory":"Corkus Statue","guild":"The Clowns","acquired":"2022-11-26
-        20:42:02","attacker":null,"location":{"startX":-1322,"startY":-2917,"endX":-1393,"endY":-2836}},"Kandon
-        Ridge":{"territory":"Kandon Ridge","guild":"Empire of Sindria","acquired":"2022-11-27
-        07:33:35","attacker":null,"location":{"startX":885,"startY":-4640,"endX":719,"endY":-4777}},"Wybel
-        Island":{"territory":"Wybel Island","guild":"Empire of Sindria","acquired":"2022-11-27
-        07:04:22","attacker":null,"location":{"startX":1355,"startY":-4700,"endX":1253,"endY":-4595}},"Santa''s
-        Hideout":{"territory":"Santa''s Hideout","guild":"Titans Valor","acquired":"2022-11-22
-        01:46:29","attacker":null,"location":{"startX":1057,"startY":-3077,"endX":1221,"endY":-3209}},"Regular
-        Island":{"territory":"Regular Island","guild":"Titans Valor","acquired":"2022-11-06
-        14:39:24","attacker":null,"location":{"startX":1202,"startY":-3764,"endX":1458,"endY":-3597}},"Lost
-        Atoll":{"territory":"Lost Atoll","guild":"Titans Valor","acquired":"2022-11-15
-        13:09:44","attacker":null,"location":{"startX":-472,"startY":-3590,"endX":-688,"endY":-3385}},"Forgotten
-        Town":{"territory":"Forgotten Town","guild":"Profession Heaven","acquired":"2022-11-30
-        07:52:35","attacker":null,"location":{"startX":480,"startY":-493,"endX":734,"endY":-355}},"Void
-        Valley":{"territory":"Void Valley","guild":"Profession Heaven","acquired":"2022-11-30
-        07:57:34","attacker":null,"location":{"startX":1082,"startY":-1161,"endX":1250,"endY":-1078}},"Otherwordly
-        Monolith":{"territory":"Otherwordly Monolith","guild":"Revival","acquired":"2022-11-30
-        14:22:21","attacker":null,"location":{"startX":-775,"startY":-6164,"endX":-662,"endY":-6003}},"Katoa
-        Ranch":{"territory":"Katoa Ranch","guild":"KongoBoys","acquired":"2022-11-28
-        08:07:03","attacker":null,"location":{"startX":-914,"startY":-1860,"endX":-748,"endY":-1955}},"Road
-        to Time Valley":{"territory":"Road to Time Valley","guild":"KongoBoys","acquired":"2022-11-23
-        19:10:24","attacker":null,"location":{"startX":-461,"startY":-1525,"endX":-359,"endY":-1412}},"North
-        Farmers Valley":{"territory":"North Farmers Valley","guild":"KongoBoys","acquired":"2022-11-21
-        13:36:40","attacker":null,"location":{"startX":-348,"startY":-2060,"endX":-254,"endY":-1954}},"Nesaak
-        Plains Mid North West":{"territory":"Nesaak Plains Mid North West","guild":"TerraLune","acquired":"2022-11-27
-        23:31:07","attacker":null,"location":{"startX":-140,"startY":-860,"endX":-180,"endY":-980}},"Desert
-        East Mid":{"territory":"Desert East Mid","guild":"The Simple Ones","acquired":"2022-11-30
-        08:13:00","attacker":null,"location":{"startX":1260,"startY":-2170,"endX":1450,"endY":-2020}},"Nemract
-        Town":{"territory":"Nemract Town","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:56:26","attacker":null,"location":{"startX":10,"startY":-2070,"endX":210,"endY":-2270}},"Pirate
-        Town":{"territory":"Pirate Town","guild":"Titans Valor","acquired":"2022-11-16
-        09:53:12","attacker":null,"location":{"startX":-750,"startY":-3251,"endX":-580,"endY":-3006}},"Mining
-        Base Lower":{"territory":"Mining Base Lower","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:38:29","attacker":null,"location":{"startX":870,"startY":-1130,"endX":670,"endY":-1225}},"Cinfras":{"territory":"Cinfras","guild":"The
-        Aquarium","acquired":"2022-11-25 01:42:58","attacker":null,"location":{"startX":-534,"startY":-4807,"endX":-375,"endY":-5088}},"Swamp
-        Lower":{"territory":"Swamp Lower","guild":"Aequitas","acquired":"2022-11-17
-        00:00:34","attacker":null,"location":{"startX":-1649,"startY":-5134,"endX":-1763,"endY":-5241}},"Meteor
-        Crater":{"territory":"Meteor Crater","guild":"Avicia","acquired":"2022-11-21
-        08:18:17","attacker":null,"location":{"startX":-1800,"startY":-5099,"endX":-1690,"endY":-4969}},"Light
-        Forest Entrance":{"territory":"Light Forest Entrance","guild":"Avicia","acquired":"2022-11-28
-        05:09:56","attacker":null,"location":{"startX":-1040,"startY":-4706,"endX":-1134,"endY":-4552}},"Gelibord":{"territory":"Gelibord","guild":"The
-        Aquarium","acquired":"2022-11-27 15:40:58","attacker":null,"location":{"startX":-1050,"startY":-5244,"endX":-958,"endY":-5342}},"Dark
-        Forest Village":{"territory":"Dark Forest Village","guild":"The Aquarium","acquired":"2022-11-25
-        01:56:39","attacker":null,"location":{"startX":-723,"startY":-5229,"endX":-574,"endY":-5147}},"Cinfras
-        County Mid-Upper":{"territory":"Cinfras County Mid-Upper","guild":"Avicia","acquired":"2022-11-30
-        15:31:46","attacker":null,"location":{"startX":-127,"startY":-4896,"endX":3,"endY":-5050}},"Ghostly
-        Path":{"territory":"Ghostly Path","guild":"Avicia","acquired":"2022-11-30
-        15:38:02","attacker":null,"location":{"startX":35,"startY":-4643,"endX":107,"endY":-4753}},"Canyon
         Path North West":{"territory":"Canyon Path North West","guild":"Idiot Co","acquired":"2022-11-28
         00:50:15","attacker":null,"location":{"startX":110,"startY":-4736,"endX":194,"endY":-4651}},"Canyon
+        Lower South East":{"territory":"Canyon Lower South East","guild":"Idiot Co","acquired":"2022-11-30
+        10:30:30","attacker":null,"location":{"startX":265,"startY":-4521,"endX":199,"endY":-4649}},"Canyon
+        Valley South":{"territory":"Canyon Valley South","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:46:28","attacker":null,"location":{"startX":263,"startY":-4973,"endX":199,"endY":-5035}},"Canyon
+        Mountain East":{"territory":"Canyon Mountain East","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:47:59","attacker":null,"location":{"startX":271,"startY":-5039,"endX":337,"endY":-4948}},"Canyon
         Survivor":{"territory":"Canyon Survivor","guild":"Idiot Co","acquired":"2022-11-28
-        00:30:33","attacker":null,"location":{"startX":338,"startY":-4628,"endX":269,"endY":-4522}},"Air
-        Temple Upper":{"territory":"Air Temple Upper","guild":"Sins of Seedia","acquired":"2022-11-20
-        08:52:05","attacker":null,"location":{"startX":570,"startY":-4833,"endX":445,"endY":-4692}},"Molten
-        Heights Portal":{"territory":"Molten Heights Portal","guild":"Empire of Sindria","acquired":"2022-11-27
-        19:13:20","attacker":null,"location":{"startX":1535,"startY":-5067,"endX":1387,"endY":-5366}},"Road
-        To Mine":{"territory":"Road To Mine","guild":"The Clowns","acquired":"2022-11-26
-        20:35:31","attacker":null,"location":{"startX":-1467,"startY":-2834,"endX":-1557,"endY":-2691}},"Frozen
-        Fort":{"territory":"Frozen Fort","guild":"Empire of Sindria","acquired":"2022-11-27
-        07:25:35","attacker":null,"location":{"startX":1501,"startY":-4513,"endX":1586,"endY":-4789}},"Raider''s
-        Base Upper":{"territory":"Raider''s Base Upper","guild":"Empire of Sindria","acquired":"2022-11-27
-        07:42:25","attacker":null,"location":{"startX":1380,"startY":-4457,"endX":1551,"endY":-4316}},"Royal
-        Gate":{"territory":"Royal Gate","guild":"The Clowns","acquired":"2022-11-26
-        20:55:18","attacker":null,"location":{"startX":-1822,"startY":-1995,"endX":-2015,"endY":-1725}},"Paths
-        of Sludge":{"territory":"Paths of Sludge","guild":"Profession Heaven","acquired":"2022-11-30
-        09:35:04","attacker":null,"location":{"startX":1040,"startY":-767,"endX":892,"endY":-870}},"Field
-        of Life":{"territory":"Field of Life","guild":"Revival","acquired":"2022-11-30
-        11:40:21","attacker":null,"location":{"startX":-894,"startY":-6010,"endX":-827,"endY":-6164}},"Road
-        to Elkurn":{"territory":"Road to Elkurn","guild":"Nefarious Ravens","acquired":"2022-11-30
-        09:07:54","attacker":null,"location":{"startX":-89,"startY":-1481,"endX":2,"endY":-1267}},"City
-        of Troms":{"territory":"City of Troms","guild":"KongoBoys","acquired":"2022-11-22
-        23:15:15","attacker":null,"location":{"startX":-726,"startY":-970,"endX":-899,"endY":-826}},"The
-        Bear Zoo":{"territory":"The Bear Zoo","guild":"Titans Valor","acquired":"2022-11-16
-        09:41:04","attacker":null,"location":{"startX":-409,"startY":-2539,"endX":-283,"endY":-2414}},"Detlas
-        Trail East Plains":{"territory":"Detlas Trail East Plains","guild":"Nefarious
-        Ravens","acquired":"2022-11-30 08:52:17","attacker":null,"location":{"startX":200,"startY":-1820,"endX":510,"endY":-1675}},"Swamp
-        Mountain Transition Upper":{"territory":"Swamp Mountain Transition Upper","guild":"Aequitas","acquired":"2022-11-26
-        21:26:23","attacker":null,"location":{"startX":-1981,"startY":-5466,"endX":-1889,"endY":-5603}},"Light
-        Forest East Upper":{"territory":"Light Forest East Upper","guild":"The Aquarium","acquired":"2022-11-28
-        05:16:57","attacker":null,"location":{"startX":-926,"startY":-4842,"endX":-831,"endY":-4945}},"Mushroom
-        Hill":{"territory":"Mushroom Hill","guild":"The Aquarium","acquired":"2022-11-25
-        02:16:32","attacker":null,"location":{"startX":-288,"startY":-5411,"endX":-392,"endY":-5601}},"Military
-        Base Upper":{"territory":"Military Base Upper","guild":"Paladins United","acquired":"2022-11-30
-        12:27:06","attacker":null,"location":{"startX":168,"startY":-5408,"endX":250,"endY":-5518}},"Valley
+        00:30:33","attacker":null,"location":{"startX":338,"startY":-4628,"endX":269,"endY":-4522}},"Wizard
+        Tower North":{"territory":"Wizard Tower North","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:12:52","attacker":null,"location":{"startX":438,"startY":-5037,"endX":345,"endY":-4966}},"Valley
         of the Lost":{"territory":"Valley of the Lost","guild":"Idiot Co","acquired":"2022-11-28
-        00:24:51","attacker":null,"location":{"startX":435,"startY":-4511,"endX":341,"endY":-4670}},"Snail
+        00:24:51","attacker":null,"location":{"startX":435,"startY":-4511,"endX":341,"endY":-4670}},"Canyon
+        High Path":{"territory":"Canyon High Path","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:11:17","attacker":null,"location":{"startX":562,"startY":-5313,"endX":440,"endY":-5191}},"Air
+        Temple Upper":{"territory":"Air Temple Upper","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:37:52","attacker":null,"location":{"startX":570,"startY":-4833,"endX":445,"endY":-4692}},"Kandon
+        Farm":{"territory":"Kandon Farm","guild":"Empire of Sindria","acquired":"2022-11-27
+        07:43:11","attacker":null,"location":{"startX":710,"startY":-4587,"endX":614,"endY":-4682}},"Entrance
+        to Thesead South":{"territory":"Entrance to Thesead South","guild":"Nefarious
+        Ravens","acquired":"2022-12-01 09:00:44","attacker":null,"location":{"startX":700,"startY":-5030,"endX":574,"endY":-5181}},"Thesead
+        Suburbs":{"territory":"Thesead Suburbs","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:30:26","attacker":null,"location":{"startX":703,"startY":-5374,"endX":810,"endY":-5216}},"Molten
+        Heights Portal":{"territory":"Molten Heights Portal","guild":"Empire of Sindria","acquired":"2022-11-27
+        19:13:20","attacker":null,"location":{"startX":1535,"startY":-5067,"endX":1387,"endY":-5366}},"Active
+        Volcano":{"territory":"Active Volcano","guild":"Empire of Sindria","acquired":"2022-11-27
+        19:20:05","attacker":null,"location":{"startX":1233,"startY":-5553,"endX":1379,"endY":-5369}},"Snail
         Island":{"territory":"Snail Island","guild":"Empire of Sindria","acquired":"2022-11-27
-        07:37:51","attacker":null,"location":{"startX":949,"startY":-4885,"endX":1057,"endY":-4804}},"Molten
-        Reach":{"territory":"Molten Reach","guild":"Empire of Sindria","acquired":"2022-11-27
-        18:57:16","attacker":null,"location":{"startX":1251,"startY":-4894,"endX":1500,"endY":-4964}},"The
-        Silent Road":{"territory":"The Silent Road","guild":"Nefarious Ravens","acquired":"2022-11-30
-        08:41:52","attacker":null,"location":{"startX":540,"startY":-1088,"endX":704,"endY":-961}},"Bob''s
-        Tomb":{"territory":"Bob''s Tomb","guild":"TerraLune","acquired":"2022-11-28
-        06:29:12","attacker":null,"location":{"startX":246,"startY":-747,"endX":380,"endY":-867}},"Maro
-        Peaks":{"territory":"Maro Peaks","guild":"Titans Valor","acquired":"2022-11-16
-        09:22:13","attacker":null,"location":{"startX":-41,"startY":-4174,"endX":453,"endY":-3793}},"Pre-Light
-        Forest Transition":{"territory":"Pre-Light Forest Transition","guild":"Avicia","acquired":"2022-11-21
-        07:52:40","attacker":null,"location":{"startX":-1553,"startY":-4850,"endX":-1476,"endY":-4719}},"Aldorei
-        Valley Lower":{"territory":"Aldorei Valley Lower","guild":"Avicia","acquired":"2022-11-30
-        15:56:49","attacker":null,"location":{"startX":-714,"startY":-4395,"endX":-559,"endY":-4499}},"Entrance
-        to Thesead South":{"territory":"Entrance to Thesead South","guild":"Sins of
-        Seedia","acquired":"2022-11-20 08:38:43","attacker":null,"location":{"startX":700,"startY":-5030,"endX":574,"endY":-5181}},"Aldorei
-        Lowlands":{"territory":"Aldorei Lowlands","guild":"The Aquarium","acquired":"2022-11-25
-        02:27:32","attacker":null,"location":{"startX":-337,"startY":-4756,"endX":-225,"endY":-4657}},"Plains":{"territory":"Plains","guild":"KongoBoys","acquired":"2022-11-21
-        13:44:34","attacker":null,"location":{"startX":-435,"startY":-1883,"endX":-270,"endY":-1653}},"Swamp
-        West Mid":{"territory":"Swamp West Mid","guild":"Avicia","acquired":"2022-11-27
-        15:48:02","attacker":null,"location":{"startX":-2060,"startY":-5082,"endX":-2171,"endY":-5186}},"Canyon
-        Valley South":{"territory":"Canyon Valley South","guild":"Sins of Seedia","acquired":"2022-11-20
-        09:03:22","attacker":null,"location":{"startX":263,"startY":-4973,"endX":199,"endY":-5035}},"Heavenly
-        Ingress":{"territory":"Heavenly Ingress","guild":"Revival","acquired":"2022-11-30
-        15:07:54","attacker":null,"location":{"startX":-814,"startY":-6015,"endX":-894,"endY":-5928}},"Desert
-        West Upper":{"territory":"Desert West Upper","guild":"The Simple Ones","acquired":"2022-11-30
-        08:52:19","attacker":null,"location":{"startX":990,"startY":-2270,"endX":895,"endY":-2140}},"Corkus
+        07:37:51","attacker":null,"location":{"startX":949,"startY":-4885,"endX":1057,"endY":-4804}},"Corkus
+        City":{"territory":"Corkus City","guild":"The Clowns","acquired":"2022-11-25
+        17:45:26","attacker":null,"location":{"startX":-1557,"startY":-2835,"endX":-1680,"endY":-3010}},"Road
+        To Mine":{"territory":"Road To Mine","guild":"The Clowns","acquired":"2022-11-26
+        20:35:31","attacker":null,"location":{"startX":-1467,"startY":-2834,"endX":-1557,"endY":-2691}},"Corkus
+        Forest South":{"territory":"Corkus Forest South","guild":"The Clowns","acquired":"2022-11-25
+        17:48:14","attacker":null,"location":{"startX":-1681,"startY":-2732,"endX":-1883,"endY":-2861}},"Corkus
         Docks":{"territory":"Corkus Docks","guild":"The Clowns","acquired":"2022-11-25
-        17:48:25","attacker":null,"location":{"startX":-1891,"startY":-2997,"endX":-2022,"endY":-3274}},"Lexdales
-        Prison":{"territory":"Lexdales Prison","guild":"The Aquarium","acquired":"2022-11-25
-        02:05:10","attacker":null,"location":{"startX":-873,"startY":-5518,"endX":-772,"endY":-5585}}},"request":{"timestamp":1669824228,"version":1}}'
+        17:48:25","attacker":null,"location":{"startX":-1891,"startY":-2997,"endX":-2022,"endY":-3274}},"Corkus
+        Statue":{"territory":"Corkus Statue","guild":"The Clowns","acquired":"2022-11-26
+        20:42:02","attacker":null,"location":{"startX":-1322,"startY":-2917,"endX":-1393,"endY":-2836}},"Frozen
+        Fort":{"territory":"Frozen Fort","guild":"Empire of Sindria","acquired":"2022-11-27
+        07:25:35","attacker":null,"location":{"startX":1501,"startY":-4513,"endX":1586,"endY":-4789}},"Kandon
+        Ridge":{"territory":"Kandon Ridge","guild":"Empire of Sindria","acquired":"2022-11-27
+        07:33:35","attacker":null,"location":{"startX":885,"startY":-4640,"endX":719,"endY":-4777}},"Molten
+        Reach":{"territory":"Molten Reach","guild":"Empire of Sindria","acquired":"2022-11-27
+        18:57:16","attacker":null,"location":{"startX":1251,"startY":-4894,"endX":1500,"endY":-4964}},"Wybel
+        Island":{"territory":"Wybel Island","guild":"Empire of Sindria","acquired":"2022-11-27
+        07:04:22","attacker":null,"location":{"startX":1355,"startY":-4700,"endX":1253,"endY":-4595}},"Raider''s
+        Base Upper":{"territory":"Raider''s Base Upper","guild":"Empire of Sindria","acquired":"2022-11-27
+        07:42:25","attacker":null,"location":{"startX":1380,"startY":-4457,"endX":1551,"endY":-4316}},"Santa''s
+        Hideout":{"territory":"Santa''s Hideout","guild":"Titans Valor","acquired":"2022-11-22
+        01:46:29","attacker":null,"location":{"startX":1057,"startY":-3077,"endX":1221,"endY":-3209}},"Aldorei
+        Lowlands":{"territory":"Aldorei Lowlands","guild":"The Aquarium","acquired":"2022-12-01
+        06:12:08","attacker":null,"location":{"startX":-337,"startY":-4756,"endX":-225,"endY":-4657}},"Regular
+        Island":{"territory":"Regular Island","guild":"Titans Valor","acquired":"2022-11-06
+        14:39:24","attacker":null,"location":{"startX":1202,"startY":-3764,"endX":1458,"endY":-3597}},"Royal
+        Gate":{"territory":"Royal Gate","guild":"The Clowns","acquired":"2022-11-26
+        20:55:18","attacker":null,"location":{"startX":-1822,"startY":-1995,"endX":-2015,"endY":-1725}},"Lost
+        Atoll":{"territory":"Lost Atoll","guild":"Titans Valor","acquired":"2022-11-15
+        13:09:44","attacker":null,"location":{"startX":-472,"startY":-3590,"endX":-688,"endY":-3385}},"The
+        Silent Road":{"territory":"The Silent Road","guild":"Sins of Seedia","acquired":"2022-12-01
+        18:23:18","attacker":null,"location":{"startX":540,"startY":-1088,"endX":704,"endY":-961}},"Forgotten
+        Town":{"territory":"Forgotten Town","guild":"Profession Heaven","acquired":"2022-11-30
+        07:52:35","attacker":null,"location":{"startX":480,"startY":-493,"endX":734,"endY":-355}},"Paths
+        of Sludge":{"territory":"Paths of Sludge","guild":"Profession Heaven","acquired":"2022-11-30
+        09:35:04","attacker":null,"location":{"startX":1040,"startY":-767,"endX":892,"endY":-870}},"Void
+        Valley":{"territory":"Void Valley","guild":"Profession Heaven","acquired":"2022-12-01
+        16:12:08","attacker":null,"location":{"startX":1082,"startY":-1161,"endX":1250,"endY":-1078}},"Heavenly
+        Ingress":{"territory":"Heavenly Ingress","guild":"The Broken Gasmask","acquired":"2022-12-01
+        19:09:35","attacker":null,"location":{"startX":-814,"startY":-6015,"endX":-894,"endY":-5928}},"Otherwordly
+        Monolith":{"territory":"Otherwordly Monolith","guild":"The Broken Gasmask","acquired":"2022-12-01
+        19:04:37","attacker":null,"location":{"startX":-775,"startY":-6164,"endX":-662,"endY":-6003}},"Field
+        of Life":{"territory":"Field of Life","guild":"The Broken Gasmask","acquired":"2022-12-01
+        19:12:44","attacker":null,"location":{"startX":-894,"startY":-6010,"endX":-827,"endY":-6164}},"Nivla
+        Woods Entrance":{"territory":"Nivla Woods Entrance","guild":"KongoBoys","acquired":"2022-11-23
+        19:24:14","attacker":null,"location":{"startX":-435,"startY":-1530,"endX":-372,"endY":-1652}},"Maltic":{"territory":"Maltic","guild":"KongoBoys","acquired":"2022-11-21
+        13:04:55","attacker":null,"location":{"startX":-604,"startY":-1945,"endX":-475,"endY":-1884}},"Abandoned
+        Farm":{"territory":"Abandoned Farm","guild":"KongoBoys","acquired":"2022-11-23
+        17:59:04","attacker":null,"location":{"startX":-577,"startY":-1395,"endX":-478,"endY":-1335}},"North
+        Nivla Woods":{"territory":"North Nivla Woods","guild":"KongoBoys","acquired":"2022-11-29
+        09:22:01","attacker":null,"location":{"startX":-194,"startY":-1632,"endX":-86,"endY":-1800}},"Detlas":{"territory":"Detlas","guild":"Sins
+        of Seedia","acquired":"2022-12-01 18:30:00","attacker":null,"location":{"startX":402,"startY":-1657,"endX":536,"endY":-1518}},"Twain
+        Lake":{"territory":"Twain Lake","guild":"TerraLune","acquired":"2022-12-01
+        13:30:13","attacker":null,"location":{"startX":0,"startY":-330,"endX":80,"endY":-530}},"Nesaak
+        Village":{"territory":"Nesaak Village","guild":"TerraLune","acquired":"2022-12-01
+        13:38:00","attacker":null,"location":{"startX":75,"startY":-850,"endX":160,"endY":-760}},"Jungle
+        Lake":{"territory":"Jungle Lake","guild":"Revival","acquired":"2022-12-01
+        17:27:46","attacker":null,"location":{"startX":-601,"startY":-791,"endX":-680,"endY":-940}},"Rymek
+        West Upper":{"territory":"Rymek West Upper","guild":"The Simple Ones","acquired":"2022-11-30
+        07:48:38","attacker":null,"location":{"startX":1190,"startY":-1665,"endX":975,"endY":-1540}},"Almuj
+        City":{"territory":"Almuj City","guild":"The Simple Ones","acquired":"2022-11-30
+        08:38:39","attacker":null,"location":{"startX":1050,"startY":-1900,"endX":840,"endY":-2060}},"Bremminglar":{"territory":"Bremminglar","guild":"The
+        Simple Ones","acquired":"2022-12-01 08:47:01","attacker":null,"location":{"startX":760,"startY":-2070,"endX":615,"endY":-2120}},"Nemract
+        Cathedral":{"territory":"Nemract Cathedral","guild":"Sins of Seedia","acquired":"2022-12-01
+        17:31:22","attacker":null,"location":{"startX":385,"startY":-2180,"endX":270,"endY":-2030}},"Durum
+        Isles East":{"territory":"Durum Isles East","guild":"Titans Valor","acquired":"2022-11-16
+        08:58:06","attacker":null,"location":{"startX":482,"startY":-2841,"endX":548,"endY":-2785}},"Dead
+        Island North West":{"territory":"Dead Island North West","guild":"Titans Valor","acquired":"2022-11-06
+        15:16:03","attacker":null,"location":{"startX":870,"startY":-3920,"endX":745,"endY":-4040}},"Ternaves
+        Plains Lower":{"territory":"Ternaves Plains Lower","guild":"Sins of Seedia","acquired":"2022-12-01
+        18:22:47","attacker":null,"location":{"startX":655,"startY":-1430,"endX":880,"endY":-1330}},"Detlas
+        Savannah Transition":{"territory":"Detlas Savannah Transition","guild":"Sins
+        of Seedia","acquired":"2022-12-01 18:33:52","attacker":null,"location":{"startX":545,"startY":-1520,"endX":650,"endY":-1670}},"Llevigar
+        Farm Plains West":{"territory":"Llevigar Farm Plains West","guild":"Avicia","acquired":"2022-11-21
+        07:25:52","attacker":null,"location":{"startX":-2060,"startY":-4746,"endX":-2171,"endY":-4828}},"Swamp
+        East Lower":{"territory":"Swamp East Lower","guild":"Avicia","acquired":"2022-11-27
+        15:34:23","attacker":null,"location":{"startX":-2059,"startY":-5003,"endX":-1956,"endY":-5074}},"Swamp
+        Dark Forest Transition Mid":{"territory":"Swamp Dark Forest Transition Mid","guild":"Aequitas","acquired":"2022-11-16
+        23:59:14","attacker":null,"location":{"startX":-1519,"startY":-5291,"endX":-1626,"endY":-5492}},"Swamp
+        Mountain Transition Mid":{"territory":"Swamp Mountain Transition Mid","guild":"Aequitas","acquired":"2022-11-23
+        21:22:58","attacker":null,"location":{"startX":-2127,"startY":-5466,"endX":-2066,"endY":-5603}},"Orc
+        Lake":{"territory":"Orc Lake","guild":"Avicia","acquired":"2022-11-21 08:24:16","attacker":null,"location":{"startX":-1933,"startY":-4962,"endX":-1816,"endY":-4854}},"Forgotten
+        Path":{"territory":"Forgotten Path","guild":"Aequitas","acquired":"2022-11-27
+        13:12:19","attacker":null,"location":{"startX":-1603,"startY":-4969,"endX":-1529,"endY":-5100}},"Efilim
+        South East Plains":{"territory":"Efilim South East Plains","guild":"Aequitas","acquired":"2022-11-27
+        16:28:26","attacker":null,"location":{"startX":-949,"startY":-4942,"endX":-1014,"endY":-4847}},"Light
+        Forest West Mid":{"territory":"Light Forest West Mid","guild":"Avicia","acquired":"2022-12-01
+        19:12:09","attacker":null,"location":{"startX":-929,"startY":-4552,"endX":-1014,"endY":-4706}},"Path
+        to Cinfras":{"territory":"Path to Cinfras","guild":"The Aquarium","acquired":"2022-11-27
+        19:27:56","attacker":null,"location":{"startX":-734,"startY":-4842,"endX":-818,"endY":-4953}},"Mansion
+        of Insanity":{"territory":"Mansion of Insanity","guild":"Aequitas","acquired":"2022-11-27
+        16:08:29","attacker":null,"location":{"startX":-1237,"startY":-5116,"endX":-1144,"endY":-5268}},"Path
+        to Talor":{"territory":"Path to Talor","guild":"The Aquarium","acquired":"2022-11-25
+        01:59:01","attacker":null,"location":{"startX":-653,"startY":-5231,"endX":-785,"endY":-5401}},"Heart
+        of Decay":{"territory":"Heart of Decay","guild":"The Aquarium","acquired":"2022-11-25
+        02:20:01","attacker":null,"location":{"startX":-598,"startY":-5580,"endX":-454,"endY":-5518}},"Cinfras
+        County Lower":{"territory":"Cinfras County Lower","guild":"Refugium","acquired":"2022-12-01
+        19:21:40","attacker":null,"location":{"startX":3,"startY":-4760,"endX":-127,"endY":-4640}},"Gert
+        Camp":{"territory":"Gert Camp","guild":"Paladins United","acquired":"2022-11-30
+        12:25:52","attacker":null,"location":{"startX":30,"startY":-5447,"endX":-83,"endY":-5605}},"Aldorei''s
+        Arch":{"territory":"Aldorei''s Arch","guild":"Nefarious Ravens","acquired":"2022-12-01
+        19:14:26","attacker":null,"location":{"startX":33,"startY":-4367,"endX":107,"endY":-4519}},"Path
+        To Military Base":{"territory":"Path To Military Base","guild":"Paladins United","acquired":"2022-11-30
+        12:05:59","attacker":null,"location":{"startX":51,"startY":-5297,"endX":166,"endY":-5391}},"Bandit
+        Cave Upper":{"territory":"Bandit Cave Upper","guild":"The Aquarium","acquired":"2022-12-01
+        19:22:48","attacker":null,"location":{"startX":194,"startY":-4956,"endX":111,"endY":-4872}},"Canyon
+        Path North Mid":{"territory":"Canyon Path North Mid","guild":"Idiot Co","acquired":"2022-11-29
+        00:56:15","attacker":null,"location":{"startX":200,"startY":-4743,"endX":264,"endY":-4875}},"Canyon
+        Waterfall Mid North":{"territory":"Canyon Waterfall Mid North","guild":"Idiot
+        Co","acquired":"2022-11-29 00:53:23","attacker":null,"location":{"startX":337,"startY":-4855,"endX":271,"endY":-4741}},"Mountain
+        Edge":{"territory":"Mountain Edge","guild":"Idiot Co","acquired":"2022-11-27
+        23:42:42","attacker":null,"location":{"startX":437,"startY":-4314,"endX":336,"endY":-4392}},"Cliffside
+        Valley":{"territory":"Cliffside Valley","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:22:55","attacker":null,"location":{"startX":563,"startY":-5079,"endX":440,"endY":-4975}},"Cliffside
+        Passage North":{"territory":"Cliffside Passage North","guild":"Idiot Co","acquired":"2022-11-29
+        00:35:07","attacker":null,"location":{"startX":572,"startY":-4818,"endX":700,"endY":-4933}},"Entrance
+        to Rodoroc":{"territory":"Entrance to Rodoroc","guild":"Empire of Sindria","acquired":"2022-11-27
+        19:28:00","attacker":null,"location":{"startX":854,"startY":-5257,"endX":1113,"endY":-5367}},"Ahmsord":{"territory":"Ahmsord","guild":"Empire
+        of Sindria","acquired":"2022-11-27 07:10:39","attacker":null,"location":{"startX":1163,"startY":-4462,"endX":942,"endY":-4604}},"Corkus
+        City South":{"territory":"Corkus City South","guild":"The Clowns","acquired":"2022-11-25
+        17:46:24","attacker":null,"location":{"startX":-1559,"startY":-2662,"endX":-1679,"endY":-2833}},"Corkus
+        Mountain":{"territory":"Corkus Mountain","guild":"The Clowns","acquired":"2022-11-25
+        17:46:35","attacker":null,"location":{"startX":-1888,"startY":-2997,"endX":-1683,"endY":-3175}},"Bloody
+        Beach":{"territory":"Bloody Beach","guild":"The Clowns","acquired":"2022-11-25
+        17:46:41","attacker":null,"location":{"startX":-1376,"startY":-3225,"endX":-1097,"endY":-3426}},"Dragonling
+        Nests":{"territory":"Dragonling Nests","guild":"Empire of Sindria","acquired":"2022-11-27
+        07:43:02","attacker":null,"location":{"startX":925,"startY":-4916,"endX":1101,"endY":-5016}},"Sky
+        Island Ascent":{"territory":"Sky Island Ascent","guild":"Empire of Sindria","acquired":"2022-11-27
+        07:12:08","attacker":null,"location":{"startX":1180,"startY":-4524,"endX":1379,"endY":-4355}},"Icy
+        Descent":{"territory":"Icy Descent","guild":"TerraLune","acquired":"2022-12-01
+        13:33:36","attacker":null,"location":{"startX":-311,"startY":-358,"endX":-104,"endY":-496}},"Twisted
+        Ridge":{"territory":"Twisted Ridge","guild":"The Aquarium","acquired":"2022-11-25
+        02:04:20","attacker":null,"location":{"startX":-1020,"startY":-5603,"endX":-910,"endY":-5343}},"Lighthouse
+        Plateau":{"territory":"Lighthouse Plateau","guild":"The Clowns","acquired":"2022-11-26
+        20:41:50","attacker":null,"location":{"startX":-1633,"startY":-2162,"endX":-1445,"endY":-2306}},"Sinister
+        Forest":{"territory":"Sinister Forest","guild":"Profession Heaven","acquired":"2022-11-30
+        07:31:49","attacker":null,"location":{"startX":815,"startY":-506,"endX":1059,"endY":-629}},"Bizarre
+        Passage":{"territory":"Bizarre Passage","guild":"Profession Heaven","acquired":"2022-11-30
+        08:02:52","attacker":null,"location":{"startX":1187,"startY":-680,"endX":1388,"endY":-530}},"Nexus
+        of Light":{"territory":"Nexus of Light","guild":"The Broken Gasmask","acquired":"2022-12-01
+        19:24:29","attacker":null,"location":{"startX":-645,"startY":-6384,"endX":-855,"endY":-6561}},"Ragni
+        East Suburbs":{"territory":"Ragni East Suburbs","guild":"KongoBoys","acquired":"2022-11-21
+        12:58:22","attacker":null,"location":{"startX":-747,"startY":-1653,"endX":-616,"endY":-1776}},"Nemract
+        Quarry":{"territory":"Nemract Quarry","guild":"KongoBoys","acquired":"2022-11-21
+        13:39:55","attacker":null,"location":{"startX":-105,"startY":-2069,"endX":20,"endY":-1960}},"Nivla
+        Woods Edge":{"territory":"Nivla Woods Edge","guild":"Sins of Seedia","acquired":"2022-12-01
+        09:04:49","attacker":null,"location":{"startX":-74,"startY":-1777,"endX":-3,"endY":-1485}},"Great
+        Bridge Jungle":{"territory":"Great Bridge Jungle","guild":"TerraLune","acquired":"2022-12-01
+        12:56:18","attacker":null,"location":{"startX":-395,"startY":-790,"endX":-515,"endY":-610}},"Desert
+        Upper":{"territory":"Desert Upper","guild":"The Simple Ones","acquired":"2022-11-30
+        08:58:03","attacker":null,"location":{"startX":990,"startY":-2270,"endX":1195,"endY":-2120}},"Nemract
+        Road":{"territory":"Nemract Road","guild":"Sins of Seedia","acquired":"2022-12-01
+        08:42:07","attacker":null,"location":{"startX":20,"startY":-2065,"endX":151,"endY":-1871}},"Dujgon
+        Nation":{"territory":"Dujgon Nation","guild":"Titans Valor","acquired":"2022-11-22
+        01:51:12","attacker":null,"location":{"startX":1000,"startY":-3550,"endX":925,"endY":-3380}},"Desolate
+        Valley":{"territory":"Desolate Valley","guild":"TerraLune","acquired":"2022-12-01
+        12:09:28","attacker":null,"location":{"startX":330,"startY":-1040,"endX":450,"endY":-1170}},"Llevigar
+        Plains West Lower":{"territory":"Llevigar Plains West Lower","guild":"Avicia","acquired":"2022-11-27
+        15:54:55","attacker":null,"location":{"startX":-2060,"startY":-4831,"endX":-2171,"endY":-4909}},"Olux":{"territory":"Olux","guild":"Aequitas","acquired":"2022-11-17
+        00:17:30","attacker":null,"location":{"startX":-1810,"startY":-5397,"endX":-1668,"endY":-5597}},"Loamsprout
+        Camp":{"territory":"Loamsprout Camp","guild":"Avicia","acquired":"2022-11-18
+        04:58:58","attacker":null,"location":{"startX":-1800,"startY":-4852,"endX":-1670,"endY":-4684}},"Aldorei
+        Valley West Entrance":{"territory":"Aldorei Valley West Entrance","guild":"Avicia","acquired":"2022-12-01
+        19:27:15","attacker":null,"location":{"startX":-736,"startY":-4428,"endX":-802,"endY":-4553}},"Gelibord
+        Castle":{"territory":"Gelibord Castle","guild":"Aequitas","acquired":"2022-11-27
+        15:51:24","attacker":null,"location":{"startX":-1027,"startY":-5470,"endX":-1180,"endY":-5600}},"Old
+        Crossroads North":{"territory":"Old Crossroads North","guild":"The Aquarium","acquired":"2022-11-25
+        01:54:49","attacker":null,"location":{"startX":-648,"startY":-5314,"endX":-567,"endY":-5400}},"Gylia
+        Lake South East":{"territory":"Gylia Lake South East","guild":"Paladins United","acquired":"2022-11-30
+        12:07:20","attacker":null,"location":{"startX":30,"startY":-5157,"endX":-127,"endY":-5271}},"Burning
+        Airship":{"territory":"Burning Airship","guild":"The Aquarium","acquired":"2022-12-01
+        19:21:17","attacker":null,"location":{"startX":35,"startY":-4859,"endX":107,"endY":-4955}},"Canyon
+        Waterfall North":{"territory":"Canyon Waterfall North","guild":"Idiot Co","acquired":"2022-11-30
+        00:05:21","attacker":null,"location":{"startX":115,"startY":-4380,"endX":194,"endY":-4518}},"Thanos
+        Exit Upper":{"territory":"Thanos Exit Upper","guild":"Nefarious Ravens","acquired":"2022-12-01
+        08:07:41","attacker":null,"location":{"startX":347,"startY":-5313,"endX":438,"endY":-5183}},"Canyon
+        Of The Lost":{"territory":"Canyon Of The Lost","guild":"Idiot Co","acquired":"2022-11-25
+        17:46:02","attacker":null,"location":{"startX":443,"startY":-4566,"endX":570,"endY":-4392}},"Lava
+        Lake Bridge":{"territory":"Lava Lake Bridge","guild":"Empire of Sindria","acquired":"2022-11-27
+        19:09:24","attacker":null,"location":{"startX":1230,"startY":-5240,"endX":1379,"endY":-5366}},"Legendary
+        Island":{"territory":"Legendary Island","guild":"The Clowns","acquired":"2022-11-25
+        17:46:48","attacker":null,"location":{"startX":-1212,"startY":-2576,"endX":-1001,"endY":-2342}},"Path
+        to Ahmsord Lower":{"territory":"Path to Ahmsord Lower","guild":"Empire of
+        Sindria","acquired":"2022-11-27 07:15:03","attacker":null,"location":{"startX":779,"startY":-4480,"endX":885,"endY":-4570}},"Jofash
+        Tunnel":{"territory":"Jofash Tunnel","guild":"Titans Valor","acquired":"2022-11-06
+        15:09:48","attacker":null,"location":{"startX":1304,"startY":-4354,"endX":1126,"endY":-4176}},"Orc
+        Battlegrounds":{"territory":"Orc Battlegrounds","guild":"Avicia","acquired":"2022-11-21
+        09:15:03","attacker":null,"location":{"startX":-1460,"startY":-5024,"endX":-1282,"endY":-4870}},"Toxic
+        Caves":{"territory":"Toxic Caves","guild":"Profession Heaven","acquired":"2022-11-30
+        07:46:39","attacker":null,"location":{"startX":1017,"startY":-1146,"endX":844,"endY":-993}},"Pigmen
+        Ravines":{"territory":"Pigmen Ravines","guild":"KongoBoys","acquired":"2022-11-23
+        18:03:12","attacker":null,"location":{"startX":-784,"startY":-1398,"endX":-617,"endY":-1317}},"Nesaak
+        Plains South West":{"territory":"Nesaak Plains South West","guild":"TerraLune","acquired":"2022-12-01
+        12:45:10","attacker":null,"location":{"startX":70,"startY":-820,"endX":-110,"endY":-625}},"Savannah
+        East Lower":{"territory":"Savannah East Lower","guild":"The Simple Ones","acquired":"2022-12-01
+        16:34:09","attacker":null,"location":{"startX":775,"startY":-1675,"endX":890,"endY":-1860}},"Volcano
+        Lower":{"territory":"Volcano Lower","guild":"The Clowns","acquired":"2022-11-25
+        17:48:20","attacker":null,"location":{"startX":-1164,"startY":-3831,"endX":-930,"endY":-3530}},"Swamp
+        East Mid-Upper":{"territory":"Swamp East Mid-Upper","guild":"Aequitas","acquired":"2022-11-23
+        21:23:29","attacker":null,"location":{"startX":-2059,"startY":-5188,"endX":-1955,"endY":-5309}},"Road
+        To Light Forest":{"territory":"Road To Light Forest","guild":"Avicia","acquired":"2022-11-21
+        06:29:02","attacker":null,"location":{"startX":-1387,"startY":-4595,"endX":-1252,"endY":-4713}},"Entrance
+        to Kander":{"territory":"Entrance to Kander","guild":"The Aquarium","acquired":"2022-11-25
+        01:58:56","attacker":null,"location":{"startX":-896,"startY":-5408,"endX":-792,"endY":-5233}},"Aldorei
+        Valley Upper":{"territory":"Aldorei Valley Upper","guild":"The Aquarium","acquired":"2022-12-01
+        06:20:49","attacker":null,"location":{"startX":-557,"startY":-4501,"endX":-322,"endY":-4656}},"Thanos
+        Exit":{"territory":"Thanos Exit","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:34:54","attacker":null,"location":{"startX":338,"startY":-5310,"endX":262,"endY":-5168}},"Cherry
+        Blossom Forest":{"territory":"Cherry Blossom Forest","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:18:20","attacker":null,"location":{"startX":699,"startY":-5378,"endX":575,"endY":-5551}},"Corkus
+        Sea Port":{"territory":"Corkus Sea Port","guild":"The Clowns","acquired":"2022-11-26
+        20:32:58","attacker":null,"location":{"startX":-1680,"startY":-2512,"endX":-1437,"endY":-2307}},"Rodoroc":{"territory":"Rodoroc","guild":"Empire
+        of Sindria","acquired":"2022-11-27 19:11:37","attacker":null,"location":{"startX":1200,"startY":-5067,"endX":965,"endY":-5238}},"Primal
+        Fen":{"territory":"Primal Fen","guild":"The Broken Gasmask","acquired":"2022-12-01
+        18:59:11","attacker":null,"location":{"startX":-894,"startY":-6244,"endX":-1026,"endY":-6066}},"Nether
+        Gate":{"territory":"Nether Gate","guild":"Sins of Seedia","acquired":"2022-12-01
+        08:36:56","attacker":null,"location":{"startX":106,"startY":-1341,"endX":342,"endY":-1222}},"Zhight
+        Island":{"territory":"Zhight Island","guild":"Titans Valor","acquired":"2022-11-16
+        09:44:32","attacker":null,"location":{"startX":-727,"startY":-2846,"endX":-440,"endY":-2629}},"Quartz
+        Mines South East":{"territory":"Quartz Mines South East","guild":"Avicia","acquired":"2022-11-27
+        19:58:41","attacker":null,"location":{"startX":-1391,"startY":-4352,"endX":-1607,"endY":-4524}},"Dark
+        Forest Cinfras Transition":{"territory":"Dark Forest Cinfras Transition","guild":"The
+        Aquarium","acquired":"2022-11-25 01:51:14","attacker":null,"location":{"startX":-290,"startY":-5292,"endX":-392,"endY":-5116}},"Krolton''s
+        Cave":{"territory":"Krolton''s Cave","guild":"Nefarious Ravens","acquired":"2022-12-01
+        09:15:31","attacker":null,"location":{"startX":341,"startY":-4841,"endX":438,"endY":-4962}},"Swamp
+        Island":{"territory":"Swamp Island","guild":"Empire of Sindria","acquired":"2022-11-27
+        07:42:38","attacker":null,"location":{"startX":1178,"startY":-4754,"endX":1101,"endY":-4915}},"Rymek
+        East Mid":{"territory":"Rymek East Mid","guild":"The Simple Ones","acquired":"2022-11-30
+        07:55:20","attacker":null,"location":{"startX":1211,"startY":-1410,"endX":1480,"endY":-1578}},"Light
+        Forest East Lower":{"territory":"Light Forest East Lower","guild":"Avicia","acquired":"2022-12-01
+        19:13:45","attacker":null,"location":{"startX":-926,"startY":-4700,"endX":-805,"endY":-4552}},"Dernel
+        Jungle Mid":{"territory":"Dernel Jungle Mid","guild":"Revival","acquired":"2022-12-01
+        16:34:55","attacker":null,"location":{"startX":-744,"startY":-528,"endX":-965,"endY":-264}},"Llevigar
+        Entrance":{"territory":"Llevigar Entrance","guild":"The Clowns","acquired":"2022-11-25
+        17:46:57","attacker":null,"location":{"startX":-2048,"startY":-4250,"endX":-1932,"endY":-4403}},"Worm
+        Tunnel":{"territory":"Worm Tunnel","guild":"Sins of Seedia","acquired":"2022-12-01
+        08:46:09","attacker":null,"location":{"startX":641,"startY":-767,"endX":543,"endY":-640}},"Path
+        To Ozoth''s Spire Lower":{"territory":"Path To Ozoth''s Spire Lower","guild":"Paladins
+        United","acquired":"2022-11-30 12:13:14","attacker":null,"location":{"startX":260,"startY":-5298,"endX":199,"endY":-5169}}},"request":{"timestamp":1669923777,"version":1}}'
     headers:
       Cache-Control:
-      - max-age=3
+      - max-age=27
       RateLimit-Limit:
       - '180'
       RateLimit-Remaining:
-      - '117'
+      - '175'
       RateLimit-Reset:
-      - '43'
+      - '59'
     status:
       code: 200
       message: OK

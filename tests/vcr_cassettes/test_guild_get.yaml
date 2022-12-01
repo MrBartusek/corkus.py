@@ -5,7 +5,7 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/2.0.0
+      - Corkus.py/3.0.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=guildStats&command=The+Farplane
   response:
@@ -21,7 +21,7 @@ interactions:
         23rd 2020"},{"name":"imrix123","uuid":"2af9e14f-cbc2-4dd8-8eef-8dd9e67cccfa","rank":"CAPTAIN","contributed":154193,"joined":"2020-07-26T20:33:00.243Z","joinedFriendly":"Jul
         26th 2020"},{"name":"PiSquared","uuid":"fc86c444-93ca-452c-8d0f-11be4a7cf00c","rank":"CAPTAIN","contributed":14115004,"joined":"2020-08-04T01:48:54.157Z","joinedFriendly":"Aug
         4th 2020"},{"name":"Slynnder","uuid":"029457dd-bbc3-489c-8af9-f303b7818c05","rank":"CAPTAIN","contributed":18212721,"joined":"2020-08-06T04:16:14.954Z","joinedFriendly":"Aug
-        6th 2020"},{"name":"_Dl3G0_","uuid":"d0b2822a-d968-4958-af73-5ec1342a9c80","rank":"CAPTAIN","contributed":51811665,"joined":"2020-09-07T06:57:52.521Z","joinedFriendly":"Sep
+        6th 2020"},{"name":"_Dl3G0_","uuid":"d0b2822a-d968-4958-af73-5ec1342a9c80","rank":"CAPTAIN","contributed":57866169,"joined":"2020-09-07T06:57:52.521Z","joinedFriendly":"Sep
         7th 2020"},{"name":"_ClaudzHero4","uuid":"25b07811-479b-44e1-b88c-a9f527bbcbe4","rank":"CAPTAIN","contributed":176627,"joined":"2020-11-08T17:46:12.237Z","joinedFriendly":"Nov
         8th 2020"},{"name":"FreddyThatGuy","uuid":"cccb2e50-c714-4e21-86c4-cba01d9da4cb","rank":"CAPTAIN","contributed":4845379,"joined":"2020-12-26T19:02:31.317Z","joinedFriendly":"Dec
         26th 2020"},{"name":"ShawarmaOnTop","uuid":"c75c9c45-4a36-4fc8-a4d0-fce922997494","rank":"CHIEF","contributed":12463943,"joined":"2020-07-20T22:51:40.973Z","joinedFriendly":"Jul
@@ -69,18 +69,18 @@ interactions:
         15th 2022"},{"name":"wqffy","uuid":"c7eb9263-36c0-48fc-b7e4-cd3da3ad231e","rank":"RECRUIT","contributed":0,"joined":"2022-06-09T08:02:48.852Z","joinedFriendly":"Jun
         9th 2022"},{"name":"Kru_X","uuid":"58ea5767-2e25-49cd-91ef-27258661c811","rank":"RECRUIT","contributed":0,"joined":"2022-07-23T23:25:33.867Z","joinedFriendly":"Jul
         23rd 2022"},{"name":"Poppy2712","uuid":"18e66c93-0304-424e-9dcc-5d6969e1f182","rank":"CAPTAIN","contributed":2516691,"joined":"2022-09-05T05:13:45.233Z","joinedFriendly":"Sep
-        5th 2022"},{"name":"Squiddius","uuid":"2e3d40a1-1792-48c3-8068-444821ee8135","rank":"RECRUIT","contributed":72788422,"joined":"2022-10-03T06:14:10.981Z","joinedFriendly":"Oct
+        5th 2022"},{"name":"Squiddius","uuid":"2e3d40a1-1792-48c3-8068-444821ee8135","rank":"RECRUIT","contributed":72855918,"joined":"2022-10-03T06:14:10.981Z","joinedFriendly":"Oct
         3rd 2022"}],"xp":95,"level":63,"created":"2019-05-13T00:01:24.280Z","createdFriendly":"May
-        13th 2019","territories":0,"banner":{"base":"BLUE","tier":4,"structure":"tier4","layers":[{"colour":"WHITE","pattern":"GRADIENT"},{"colour":"BLUE","pattern":"SKULL"},{"colour":"BLUE","pattern":"BORDER"}]},"request":{"timestamp":1669824237,"version":1}}'
+        13th 2019","territories":0,"banner":{"base":"BLUE","tier":4,"structure":"tier4","layers":[{"colour":"WHITE","pattern":"GRADIENT"},{"colour":"BLUE","pattern":"SKULL"},{"colour":"BLUE","pattern":"BORDER"}]},"request":{"timestamp":1669923760,"version":1}}'
     headers:
       Cache-Control:
-      - max-age=30
+      - max-age=29
       RateLimit-Limit:
       - '180'
       RateLimit-Remaining:
       - '174'
       RateLimit-Reset:
-      - '3'
+      - '20'
     status:
       code: 200
       message: OK
@@ -91,12 +91,12 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/2.0.0
+      - Corkus.py/3.0.0
     method: GET
     uri: https://api.wynncraft.com/v2/player/5be48ae3-82f4-4f4f-baf1-c26fcbe1788a/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/5be48ae3-82f4-4f4f-baf1-c26fcbe1788a/stats","code":200,"timestamp":1669824237921,"version":"2.1.0","data":[{"username":"renderme65","uuid":"5be48ae3-82f4-4f4f-baf1-c26fcbe1788a","rank":"Player","meta":{"firstJoin":"2015-08-08T12:38:13.856Z","lastJoin":"2020-05-27T17:31:42.669Z","location":{"online":false,"server":null},"playtime":4046,"tag":{"display":true,"value":"VIP+"},"veteran":false},"characters":{"bdd85696-96c9-4dc8-ab61-862d7dc73a45":{"type":"WARRIOR","level":105,"dungeons":{"completed":96,"list":[{"name":"Skeleton","completed":6},{"name":"Spider","completed":4},{"name":"Animal","completed":6},{"name":"Zombie","completed":5},{"name":"Silverfish","completed":5},{"name":"Corrupted
+      string: '{"kind":"wynncraft/player/5be48ae3-82f4-4f4f-baf1-c26fcbe1788a/stats","code":200,"timestamp":1669923761096,"version":"2.1.0","data":[{"username":"renderme65","uuid":"5be48ae3-82f4-4f4f-baf1-c26fcbe1788a","rank":"Player","meta":{"firstJoin":"2015-08-08T12:38:13.856Z","lastJoin":"2020-05-27T17:31:42.669Z","location":{"online":false,"server":null},"playtime":4046,"tag":{"display":true,"value":"VIP+"},"veteran":false},"characters":{"bdd85696-96c9-4dc8-ab61-862d7dc73a45":{"type":"WARRIOR","level":105,"dungeons":{"completed":96,"list":[{"name":"Skeleton","completed":6},{"name":"Spider","completed":4},{"name":"Animal","completed":6},{"name":"Zombie","completed":5},{"name":"Silverfish","completed":5},{"name":"Corrupted
         Sand-Swept Tomb","completed":60},{"name":"Corrupted Infested Pit","completed":1},{"name":"Corrupted
         Underworld Crypt","completed":2},{"name":"Fallen Factory","completed":7}]},"raids":{"completed":0,"list":[]},"quests":{"completed":84,"list":["The
         Envoy Part II","The Envoy Part I","The Belly of the Beast","The Thanos Vaults","The
@@ -167,7 +167,7 @@ interactions:
       RateLimit-Remaining:
       - '173'
       RateLimit-Reset:
-      - '3'
+      - '19'
     status:
       code: 200
       message: OK

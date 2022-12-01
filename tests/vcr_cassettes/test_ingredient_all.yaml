@@ -5,116 +5,116 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/2.0.0
+      - Corkus.py/3.0.0
     method: GET
     uri: https://api.wynncraft.com/v2/ingredient/list
   response:
     body:
-      string: "{\"kind\":\"wynncraft/ingredient/list\",\"code\":200,\"timestamp\":1669824239006,\"version\":\"2.1.0\",\"data\":[\"7-Yottabyte
-        Storage Component\",\"Acid Magma\",\"Accursed Effigy\",\"Acidic Blood\",\"Acidic
-        Solution\",\"Acidic Remains\",\"Active Fireball\",\"Adamastor's Faceplate\",\"Adaptive
-        Tissue\",\"Adventurer's Diary\",\"Aged Tome\",\"Agullo Beak\",\"Alga\",\"Algae
-        Mat\",\"Alnamar Meat\",\"Altered Ash\",\"Ancient Coins\",\"Ancient Currency\",\"Ancient
-        Metal\",\"Ancient Heart\",\"Ancient Panel\",\"Ancient Moss\",\"Antique Metal\",\"Angelic
-        Gem\",\"Apple\",\"Aqua Vitae\",\"Aquatic Beauty\",\"Arcane Anomaly\",\"Archaic
+      string: "{\"kind\":\"wynncraft/ingredient/list\",\"code\":200,\"timestamp\":1669923762229,\"version\":\"2.1.0\",\"data\":[\"7-Yottabyte
+        Storage Component\",\"Accursed Effigy\",\"Acid Magma\",\"Acidic Blood\",\"Acidic
+        Remains\",\"Acidic Solution\",\"Active Fireball\",\"Adamastor's Faceplate\",\"Adaptive
+        Tissue\",\"Aged Tome\",\"Adventurer's Diary\",\"Agullo Beak\",\"Alga\",\"Algae
+        Mat\",\"Alnamar Meat\",\"Ancient Coins\",\"Altered Ash\",\"Ancient Currency\",\"Ancient
+        Heart\",\"Ancient Metal\",\"Ancient Moss\",\"Ancient Panel\",\"Angelic Gem\",\"Antique
+        Metal\",\"Apple\",\"Aqua Vitae\",\"Aquatic Beauty\",\"Arcane Anomaly\",\"Archaic
         Medallion\",\"Ashen Hide\",\"Aspect of the Void\",\"Atmospheric Aspect\",\"Azure
         Blossom\",\"Ball of Slime\",\"Bamboo\",\"Bandit Rations\",\"Bat Ear\",\"Bat
         Heart\",\"Beak of the Nivlan Beauty\",\"Beastial Viscera\",\"Beef Tongue\",\"Big
         Jawbreaker\",\"Black Hole\",\"Black Steel\",\"Black Sulphur\",\"Blaze Powder\",\"Blazing
-        Fireball\",\"Blessed Heart\",\"Blazing Stimulants\",\"Blighted Brain\",\"Blighted
-        Skull\",\"Bloated Artery\",\"Blood of the Nivlan Beauty\",\"Bloodstained Remains\",\"Bloodweb\",\"Boar
-        Meat\",\"Bone Ash\",\"Bone Meal\",\"Bob's Tear\",\"Borange Fluff\",\"Bottled
-        Decay\",\"Bottled Fairy\",\"Braveheart\",\"Bright Petal\",\"Broken Antic Bead\",\"Broken
-        Dagger\",\"Broken Helmet\",\"Broken Pick\",\"Broken Ram Horn\",\"Broken Steel
-        Blade\",\"Brown Mushroom\",\"Broken Steel Hook\",\"Bug Parts\",\"Burial Talisman\",\"Burning
-        Soul\",\"Burnt Skull\",\"Calcified Ligament\",\"Calmed Thunder\",\"Candy Button\",\"Captain's
-        Glass\",\"Carapace Fragment\",\"Cat Food\",\"Cat Tail\",\"Cataratite\",\"Chain
-        Loop\",\"Chaotic Embers\",\"Charred Bone\",\"Charred Carapace\",\"Cherry Sapling\",\"Chipped
-        Quartz\",\"Chitin Plate\",\"Climber's Padding\",\"Chromatic Bloom\",\"Coagulated
-        Clot\",\"Coagulated Soulmass\",\"Coalescence\",\"Coastal Sand\",\"Cocoa Caps\",\"Coastal
-        Shell\",\"Colossus' Shard\",\"Compressed Aspect\",\"Condensed Darkness\",\"Condor
-        Feather\",\"Congealed Slime\",\"Conscription Letter\",\"Consecrated Ivory\",\"Contorted
-        Stone\",\"Contraband Absinthe\",\"Contraband Hibiscus\",\"Contraband Miracle
-        Berry\",\"Corn Husk\",\"Corroded Chunk\",\"Corrupted Beef\",\"Corbys Innards\",\"Corrupted
-        Fragment\",\"Corrupted Ichor\",\"Corruption Shard\",\"Cortrich Eggs\",\"Coyote
-        Fang\",\"Cracked Geode\",\"Crawler Eye\",\"Cracked Skin\",\"Crawler Sludge\",\"Crumbling
-        Skull\",\"Crumbly Rock\",\"Crawler Web\",\"Crystalline Growth\",\"Crystal
-        Dust\",\"Crystallized Organ\",\"Curse Gland\",\"Cursed Ashes\",\"Cursed Venom
-        Sac\",\"Cursed Wings\",\"Cyclone Blue Leaves\",\"Cyclops Eye\",\"Dark Iris\",\"Dark
-        Matter\",\"Dead Bee\",\"Dead Naval Shard\",\"Death Whistle Leaf\",\"Decaying
-        Arteries\",\"Decaying Heart\",\"Decaying Skin\",\"Defender's Stone\",\"Deep
-        Ice Core\",\"Defiled Luxroot\",\"Defishious\",\"Demonic Ashes\",\"Demonic
-        Blood\",\"Dense Void Hole Chunk\",\"Depreciating Flesh\",\"Depth's Gem\",\"Desert
-        Fossil\",\"Devourer's Maw\",\"Diseased Fluids\",\"Disturbed Aspect\",\"Dominant
-        Force\",\"Doom Stone\",\"Draconic Bone Marrow\",\"Dragonling Egg\",\"Dragon
-        Aura\",\"Dragonling Scale\",\"Drained Bone\",\"Dried Gill\",\"Dried Kelp\",\"Dry
-        Bone\",\"Dry Seeds\",\"Durable Skin\",\"Earthly Aura\",\"Earthly Pebble\",\"Egg\",\"Electroplasm\",\"Elemental
-        Crystal\",\"Elephant Toenail\",\"Elephelk Trunk\",\"Empty Casings\",\"Enchanted
-        Chain Link\",\"Energetic Aura\",\"Engored Oculus\",\"Engraved Tablet\",\"Enhanced
-        Behaviour Microchip\",\"Enhanced Dynamics Microchip\",\"Enhanced Pathfinding
-        Microchip\",\"Enhanced Physics Microchip\",\"Enhanced Post-Processing Microchip\",\"Enhanced
-        Potential Microchip\",\"Enraged Soul\",\"Erratic Aspect\",\"Essence Of Dusk\",\"Eternal
-        Flame\",\"Evaporated Aspect\",\"Expelled Shrapnel\",\"Eye of The Beast\",\"Faebloom
-        Petal\",\"Fairy Dust\",\"Fairy Powder\",\"Farcor's Trust\",\"Feather of Grace\",\"Fancy
-        Pelt\",\"Feline Claws\",\"Festering Face\",\"Fiberglass Frame\",\"Fiery Aura\",\"Fiery
-        Essence\",\"Fighting Stick\",\"Firefly Dust\",\"Fish Scales\",\"Fish Tail\",\"Flameheart\",\"Flesh-forged
-        Circuit\",\"Flow of Fate\",\"Fluffy Fur\",\"Flugsvamp Cap\",\"Forest Web\",\"Forgotten
-        Axe\",\"Forgotten Pickaxe\",\"Foul Fairy Dust\",\"Foul Fluid\",\"Fragmentation\",\"Fresh
-        Game\",\"Fresh Bone\",\"Fresh Water\",\"Frostbitten Flesh\",\"Frozen Ghostly
-        Essence\",\"Fuming Lava Rock\",\"Fungi Spores\",\"Galvanic Stone\",\"Gelatinous
-        Slime Chunk\",\"Generator Chip\",\"Gert Skin\",\"Ghostly Essence\",\"Ghostly
-        Membrane\",\"Ghostly Plume\",\"Gilded Bark\",\"Glacial Anomaly\",\"Glimmering
-        Beak\",\"Glimmering Coin\",\"Glittering Silt\",\"Gloomy Orb\",\"Glow Bulb
-        Seeds\",\"Glowing Scales\",\"Goblin Tooth\",\"Gold\",\"Gold Bar\",\"Gold Nugget\",\"Gold
-        Tooth\",\"Golden Avia Feather\",\"Golden Coin\",\"Gollier Iron\",\"Gravitation
-        Crystal\",\"Green Opal\",\"Green Foot\",\"Green Scale\",\"Grey Cloud\",\"Gritty
-        Rocks\",\"Grook Feather\",\"Gunkfueled Core\",\"Gunpowder\",\"Gylia Essence\",\"Haleva
-        Plant\",\"Hardened Magma\",\"Hardened Mandible\",\"Haros' Broken Badge\",\"Harpy
-        Bone\",\"Harpy Wing\",\"Hatchling Remnant\",\"Hellish Cinders\",\"Herbstzeitlose\",\"Holy
-        Powder\",\"Horse Mane\",\"Hunter's Disguise\",\"Hybrid Skin\",\"Hydrofluoric
-        Acid\",\"Ibjub Fruit\",\"Ice Cream Sandwich\",\"Ice Fishing Bait\",\"Ice Fishing
-        Hook\",\"Ice Fishing Net\",\"Ice Fishing Twine\",\"Ice Fragment\",\"Ice Sliver\",\"Iceberries\",\"Icy
-        Crampons\",\"Icy Shard\",\"Igneous Aspect\",\"Ignited Faebloom\",\"Illicit
-        Hemlock\",\"Illicit Quince\",\"Illicit Tingflower\",\"Illicit Whitethorn\",\"Illicit
-        Yarrow\",\"Illuminated Spirit\",\"Incremental Mapping Module\",\"Infected
-        Mass\",\"Infernal Flesh\",\"Infused Gold\",\"Insanity Star\",\"Intermittenstirrups\",\"Iridescent
-        Elytra\",\"Ironwood Chips\",\"Ivory Tusk\",\"Jolting Geode\",\"Kaian Scroll\",\"Karl
-        Johan Cap\",\"Kerasot Sporehead\",\"Larbonic Sheddings\",\"Large Lapis\",\"Large
-        Titanium Chunk\",\"Laryngeal Flesh\",\"Lashing Hellfire\",\"Lava Blisters\",\"Larvae
-        Cluster\",\"Leafy Stalk\",\"Leather\",\"Leg Eater Tooth\",\"Leopard Blood\",\"Letvus
-        Delight\",\"Licorice Ropes\",\"Lively Apple\",\"Limestone Core\",\"Linear
-        Accelerator\",\"Lion Fang\",\"Lion Heart\",\"Lithoflesh\",\"Lizard Scale\",\"Lizard
-        Tail\",\"Lockpicking Kit\",\"Looted Alloy\",\"Lost Spirit\",\"Lost Talisman\",\"Lotus
-        Seedpod\",\"Lucky Rabbit's Foot\",\"Lucky Spider Egg\",\"Luminescent Ink\",\"Lunar
-        Charm\",\"Lunar Chunk\",\"Lunar Shard\",\"Lunar Dust\",\"Luu Luu Vertebrae\",\"Luxic
-        Plasma\",\"Luxroot Cuttings\",\"Luxurious Silk\",\"Magic Feather\",\"Magmatic
-        Skin\",\"Mahogany Heartwood\",\"Major's Badge\",\"Mangled Soul\",\"Manis Carapace\",\"Maroferrous\",\"Maromagnetite\",\"Marsufosa
-        Pelt\",\"Marrow Dust\",\"Aged Medallion\",\"Mashed Insect\",\"Mega Fern\",\"Melted
-        Steel\",\"Metal Scraps\",\"Mineral Cinder\",\"Mixed Jewel Deposit\",\"Mixed
-        Seeds\",\"Mooshroom Ear\",\"Mixed Mineral Deposit\",\"More-Pearlescent Jewel\",\"Munched
-        Grass\",\"Muscle\",\"Myconid Spores\",\"Myocardial Leg\",\"Mythical Hoof\",\"Naga
-        Tail\",\"Nasty Residue\",\"Native Jadeite\",\"Natural Nitrates\",\"Naval Shard\",\"Naval
-        Stone\",\"Nightmare Fuel\",\"Nivlan Honey\",\"Nivlan Honeycomb\",\"Nose Ring\",\"Obelisk
-        Core\",\"Ocea Steel\",\"Oceanic Sand\",\"Oceanic Silt\",\"Ocelot Pelt\",\"Ocelot
-        Tail\",\"Old Bone\",\"Old Explosives\",\"Ominous Pearl\",\"Optic Fiber\",\"Optic
-        Lens\",\"Orc Eye\",\"Orc Skin\",\"Orc Teeth\",\"Organic Explosive\",\"Overgrown
-        Bones\",\"Overheated Processor\",\"Overload Aspect\",\"Owl Feather\",\"Panda
-        King\u2019s Crown\",\"Panda King's Crown\",\"Paralyzing Spores\",\"Parasitic
-        Abscission\",\"Pearlescent Jewel\",\"Pegasus Feather\",\"Penguin Egg\",\"Perkish
-        Potato\",\"Phrumkin Seeds\",\"Piercing Talons\",\"Pigman Ivory\",\"Pigman
-        Meat\",\"Pig's Blood\",\"Pig's Remains\",\"Pig's Skull\",\"Pilfered Silver\",\"Pillaged
-        Fragment\",\"Pink Pelulite\",\"Pink Pelute\",\"Pink Wool\",\"Piquant Pork
-        Fillet\",\"Piranha Jaw\",\"Pirate Beard\",\"Plane of Nonexistence\",\"Plasteel
-        Plating\",\"Plucked Feather\",\"Plutonium Waste\",\"Poison Sac\",\"Poisonous
-        Spider Eye\",\"Poorly-Made Pouch\",\"Popped Pustule\",\"Portal Emanation\",\"Portal
-        Rift\",\"Potato\",\"Powdery Bone\",\"Prickly Grass\",\"Pride of the Heights\",\"Primeval
-        Skin\",\"Primitive Delicacy\",\"Primordial Soul\",\"Pristine Claw\",\"Prized
-        Pelt\",\"Protective Fabric\",\"Pure Quartz\",\"Pure Rain Stone\",\"Purest
+        Fireball\",\"Blazing Stimulants\",\"Blessed Heart\",\"Blighted Brain\",\"Blighted
+        Skull\",\"Bloated Artery\",\"Bloodstained Remains\",\"Blood of the Nivlan
+        Beauty\",\"Bloodweb\",\"Boar Meat\",\"Bob's Tear\",\"Bone Ash\",\"Bone Meal\",\"Borange
+        Fluff\",\"Bottled Decay\",\"Bottled Fairy\",\"Braveheart\",\"Bright Petal\",\"Broken
+        Antic Bead\",\"Broken Dagger\",\"Broken Helmet\",\"Broken Pick\",\"Broken
+        Ram Horn\",\"Broken Steel Blade\",\"Broken Steel Hook\",\"Brown Mushroom\",\"Bug
+        Parts\",\"Burial Talisman\",\"Burning Soul\",\"Burnt Skull\",\"Calcified Ligament\",\"Calmed
+        Thunder\",\"Candy Button\",\"Captain's Glass\",\"Carapace Fragment\",\"Cat
+        Food\",\"Cat Tail\",\"Cataratite\",\"Chain Loop\",\"Chaotic Embers\",\"Charred
+        Carapace\",\"Charred Bone\",\"Cherry Sapling\",\"Chipped Quartz\",\"Chitin
+        Plate\",\"Chromatic Bloom\",\"Climber's Padding\",\"Coagulated Soulmass\",\"Coagulated
+        Clot\",\"Coalescence\",\"Coastal Sand\",\"Coastal Shell\",\"Cocoa Caps\",\"Colossus'
+        Shard\",\"Condensed Darkness\",\"Compressed Aspect\",\"Congealed Slime\",\"Condor
+        Feather\",\"Conscription Letter\",\"Consecrated Ivory\",\"Contorted Stone\",\"Contraband
+        Absinthe\",\"Contraband Miracle Berry\",\"Contraband Hibiscus\",\"Corbys Innards\",\"Corn
+        Husk\",\"Corroded Chunk\",\"Corrupted Beef\",\"Corrupted Fragment\",\"Corrupted
+        Ichor\",\"Corruption Shard\",\"Cortrich Eggs\",\"Coyote Fang\",\"Cracked Geode\",\"Cracked
+        Skin\",\"Crawler Eye\",\"Crawler Sludge\",\"Crawler Web\",\"Crumbling Skull\",\"Crumbly
+        Rock\",\"Crystal Dust\",\"Crystalline Growth\",\"Cursed Ashes\",\"Crystallized
+        Organ\",\"Curse Gland\",\"Cursed Venom Sac\",\"Cursed Wings\",\"Cyclone Blue
+        Leaves\",\"Dark Iris\",\"Cyclops Eye\",\"Dark Matter\",\"Dead Bee\",\"Dead
+        Naval Shard\",\"Death Whistle Leaf\",\"Decaying Arteries\",\"Decaying Heart\",\"Deep
+        Ice Core\",\"Decaying Skin\",\"Defender's Stone\",\"Defiled Luxroot\",\"Defishious\",\"Demonic
+        Ashes\",\"Demonic Blood\",\"Dense Void Hole Chunk\",\"Depreciating Flesh\",\"Depth's
+        Gem\",\"Desert Fossil\",\"Devourer's Maw\",\"Diseased Fluids\",\"Disturbed
+        Aspect\",\"Dominant Force\",\"Doom Stone\",\"Draconic Bone Marrow\",\"Dragon
+        Aura\",\"Dragonling Egg\",\"Dragonling Scale\",\"Drained Bone\",\"Dried Gill\",\"Dried
+        Kelp\",\"Dry Bone\",\"Dry Seeds\",\"Durable Skin\",\"Earthly Pebble\",\"Earthly
+        Aura\",\"Egg\",\"Electroplasm\",\"Elemental Crystal\",\"Elephant Toenail\",\"Elephelk
+        Trunk\",\"Empty Casings\",\"Enchanted Chain Link\",\"Energetic Aura\",\"Engraved
+        Tablet\",\"Engored Oculus\",\"Enhanced Behaviour Microchip\",\"Enhanced Dynamics
+        Microchip\",\"Enhanced Pathfinding Microchip\",\"Enhanced Physics Microchip\",\"Enhanced
+        Post-Processing Microchip\",\"Enhanced Potential Microchip\",\"Enraged Soul\",\"Erratic
+        Aspect\",\"Essence Of Dusk\",\"Eternal Flame\",\"Evaporated Aspect\",\"Expelled
+        Shrapnel\",\"Eye of The Beast\",\"Faebloom Petal\",\"Fairy Dust\",\"Fairy
+        Powder\",\"Fancy Pelt\",\"Farcor's Trust\",\"Feather of Grace\",\"Feline Claws\",\"Festering
+        Face\",\"Fiberglass Frame\",\"Fiery Aura\",\"Fiery Essence\",\"Fighting Stick\",\"Firefly
+        Dust\",\"Fish Scales\",\"Fish Tail\",\"Flameheart\",\"Flesh-forged Circuit\",\"Flow
+        of Fate\",\"Fluffy Fur\",\"Flugsvamp Cap\",\"Forest Web\",\"Forgotten Axe\",\"Forgotten
+        Pickaxe\",\"Foul Fairy Dust\",\"Fragmentation\",\"Foul Fluid\",\"Fresh Game\",\"Fresh
+        Bone\",\"Fresh Water\",\"Frostbitten Flesh\",\"Frozen Ghostly Essence\",\"Fungi
+        Spores\",\"Fuming Lava Rock\",\"Galvanic Stone\",\"Gelatinous Slime Chunk\",\"Generator
+        Chip\",\"Gert Skin\",\"Ghostly Essence\",\"Ghostly Membrane\",\"Ghostly Plume\",\"Gilded
+        Bark\",\"Glacial Anomaly\",\"Glimmering Beak\",\"Glimmering Coin\",\"Glittering
+        Silt\",\"Gloomy Orb\",\"Glow Bulb Seeds\",\"Glowing Scales\",\"Goblin Tooth\",\"Gold\",\"Gold
+        Bar\",\"Gold Nugget\",\"Gold Tooth\",\"Golden Avia Feather\",\"Golden Coin\",\"Gollier
+        Iron\",\"Gravitation Crystal\",\"Green Foot\",\"Green Opal\",\"Green Scale\",\"Grey
+        Cloud\",\"Gritty Rocks\",\"Grook Feather\",\"Gunkfueled Core\",\"Gunpowder\",\"Gylia
+        Essence\",\"Haleva Plant\",\"Hardened Magma\",\"Hardened Mandible\",\"Haros'
+        Broken Badge\",\"Harpy Bone\",\"Harpy Wing\",\"Hatchling Remnant\",\"Hellish
+        Cinders\",\"Herbstzeitlose\",\"Holy Powder\",\"Horse Mane\",\"Hunter's Disguise\",\"Hybrid
+        Skin\",\"Hydrofluoric Acid\",\"Ibjub Fruit\",\"Ice Cream Sandwich\",\"Ice
+        Fishing Bait\",\"Ice Fishing Hook\",\"Ice Fishing Net\",\"Ice Fishing Twine\",\"Ice
+        Fragment\",\"Ice Sliver\",\"Iceberries\",\"Icy Crampons\",\"Icy Shard\",\"Igneous
+        Aspect\",\"Ignited Faebloom\",\"Illicit Hemlock\",\"Illicit Quince\",\"Illicit
+        Tingflower\",\"Illicit Whitethorn\",\"Illicit Yarrow\",\"Illuminated Spirit\",\"Incremental
+        Mapping Module\",\"Infected Mass\",\"Infernal Flesh\",\"Infused Gold\",\"Insanity
+        Star\",\"Intermittenstirrups\",\"Iridescent Elytra\",\"Ironwood Chips\",\"Ivory
+        Tusk\",\"Jolting Geode\",\"Kaian Scroll\",\"Karl Johan Cap\",\"Kerasot Sporehead\",\"Larbonic
+        Sheddings\",\"Large Lapis\",\"Large Titanium Chunk\",\"Larvae Cluster\",\"Laryngeal
+        Flesh\",\"Lashing Hellfire\",\"Lava Blisters\",\"Leafy Stalk\",\"Leather\",\"Leg
+        Eater Tooth\",\"Leopard Blood\",\"Letvus Delight\",\"Licorice Ropes\",\"Lively
+        Apple\",\"Limestone Core\",\"Linear Accelerator\",\"Lion Fang\",\"Lion Heart\",\"Lithoflesh\",\"Lizard
+        Scale\",\"Lizard Tail\",\"Lockpicking Kit\",\"Looted Alloy\",\"Lost Spirit\",\"Lost
+        Talisman\",\"Lotus Seedpod\",\"Lucky Rabbit's Foot\",\"Lucky Spider Egg\",\"Luminescent
+        Ink\",\"Lunar Charm\",\"Lunar Chunk\",\"Lunar Dust\",\"Lunar Shard\",\"Luu
+        Luu Vertebrae\",\"Luxic Plasma\",\"Luxurious Silk\",\"Luxroot Cuttings\",\"Magic
+        Feather\",\"Magmatic Skin\",\"Mahogany Heartwood\",\"Major's Badge\",\"Mangled
+        Soul\",\"Manis Carapace\",\"Maroferrous\",\"Maromagnetite\",\"Marrow Dust\",\"Mashed
+        Insect\",\"Marsufosa Pelt\",\"Aged Medallion\",\"Mega Fern\",\"Melted Steel\",\"Metal
+        Scraps\",\"Mixed Jewel Deposit\",\"Mineral Cinder\",\"Mixed Mineral Deposit\",\"Mooshroom
+        Ear\",\"Mixed Seeds\",\"More-Pearlescent Jewel\",\"Munched Grass\",\"Muscle\",\"Myconid
+        Spores\",\"Myocardial Leg\",\"Mythical Hoof\",\"Naga Tail\",\"Nasty Residue\",\"Native
+        Jadeite\",\"Natural Nitrates\",\"Naval Shard\",\"Naval Stone\",\"Nightmare
+        Fuel\",\"Nivlan Honey\",\"Nivlan Honeycomb\",\"Nose Ring\",\"Obelisk Core\",\"Ocea
+        Steel\",\"Oceanic Sand\",\"Oceanic Silt\",\"Ocelot Pelt\",\"Ocelot Tail\",\"Old
+        Bone\",\"Old Explosives\",\"Ominous Pearl\",\"Optic Fiber\",\"Optic Lens\",\"Orc
+        Eye\",\"Orc Skin\",\"Orc Teeth\",\"Organic Explosive\",\"Overgrown Bones\",\"Overheated
+        Processor\",\"Overload Aspect\",\"Owl Feather\",\"Panda King\u2019s Crown\",\"Panda
+        King's Crown\",\"Paralyzing Spores\",\"Pearlescent Jewel\",\"Parasitic Abscission\",\"Pegasus
+        Feather\",\"Penguin Egg\",\"Perkish Potato\",\"Phrumkin Seeds\",\"Piercing
+        Talons\",\"Pigman Ivory\",\"Pigman Meat\",\"Pig's Blood\",\"Pig's Remains\",\"Pig's
+        Skull\",\"Pilfered Silver\",\"Pillaged Fragment\",\"Pink Pelulite\",\"Pink
+        Pelute\",\"Pink Wool\",\"Piquant Pork Fillet\",\"Piranha Jaw\",\"Pirate Beard\",\"Plane
+        of Nonexistence\",\"Plasteel Plating\",\"Plucked Feather\",\"Plutonium Waste\",\"Poison
+        Sac\",\"Poorly-Made Pouch\",\"Poisonous Spider Eye\",\"Popped Pustule\",\"Portal
+        Emanation\",\"Portal Rift\",\"Potato\",\"Powdery Bone\",\"Prickly Grass\",\"Pride
+        of the Heights\",\"Primeval Skin\",\"Primitive Delicacy\",\"Primordial Soul\",\"Pristine
+        Claw\",\"Prized Pelt\",\"Pure Quartz\",\"Protective Fabric\",\"Pure Rain Stone\",\"Purest
         Tear\",\"Putrid Gunk\",\"Putrid Spores\",\"Pykrete\",\"Cleaned Saccharum\",\"Familiar
-        Essence\",\"Old Treasure\",\"Royal Cake Slice\",\"Shattered Memory Shard\",\"Therck's
-        Chain\",\"Vibrant Augment\",\"Weakening Catalyst\",\"Altitude Shard\",\"Ashstained
-        Basalt\",\"Astral Alloy\",\"Autonomous Core\",\"Bionic Fiber\",\"Canyon Parsley\",\"Defective
-        Circuits\",\"Creepvine Cluster\",\"Dernic Parasite\",\"Digestible Fungi\",\"Etheric
+        Essence\",\"Old Treasure\",\"Royal Cake Slice\",\"Therck's Chain\",\"Shattered
+        Memory Shard\",\"Weakening Catalyst\",\"Vibrant Augment\",\"Altitude Shard\",\"Ashstained
+        Basalt\",\"Astral Alloy\",\"Autonomous Core\",\"Bionic Fiber\",\"Canyon Parsley\",\"Creepvine
+        Cluster\",\"Defective Circuits\",\"Dernic Parasite\",\"Digestible Fungi\",\"Etheric
         Fern\",\"Evolving Spores\",\"Flashfrost\",\"Flytrap Fangs\",\"Gaze of Darkness\",\"Glowing
         Tree Sap\",\"Goblin Trinket\",\"Herbal Extract\",\"Highland Basil\",\"Illusory
         Idol\",\"Insulated Wiring\",\"Ironwood Scale\",\"Ivy Sprout\",\"Kaolin Clay\",\"Lost
@@ -125,8 +125,8 @@ interactions:
         Shard\",\"Salted Salmon\",\"Savannah Stone\",\"Sentient Slimeball\",\"Serafite\",\"Shadow
         of Ruin\",\"Sharpening Stone\",\"Shattered Dawnlight\",\"Skybound Remnant\",\"Soul
         Amalgamate\",\"Soul Stone\",\"Soulfire Matterweave\",\"Spectral Spike\",\"Spirograph
-        Tablet\",\"Spreading Fireweed\",\"Sun-Stained Skin\",\"Suspicious Shrubs\",\"Tangy
-        Nectar\",\"Tropical Honeysuckle\",\"Ursine Claw\",\"Void Particulates\",\"Waterfall
+        Tablet\",\"Spreading Fireweed\",\"Sun-Stained Skin\",\"Tangy Nectar\",\"Suspicious
+        Shrubs\",\"Tropical Honeysuckle\",\"Ursine Claw\",\"Void Particulates\",\"Waterfall
         Thyme\",\"Webbed Offshoot\",\"Zombie Brain\",\"Rabbit Carcass\",\"Rancid Flesh\",\"Rare
         Potato\",\"Rat Hair\",\"Razor-Sharp Tooth\",\"Recluse Venom Sac\",\"Red Crystal
         Dust\",\"Red Mercury\",\"Red Mushroom\",\"Regenerative Pins\",\"Reinforced
@@ -137,8 +137,8 @@ interactions:
         Bone\",\"Rotten Flesh\",\"Rotten Log\",\"Rotten Teeth\",\"Rotting Bone\",\"Router's
         Shield\",\"Royal Bug\u2019s Blood\",\"Runner's Bandages\",\"Rusty Axe Head\",\"Rusty
         Spurs\",\"Salt\",\"Salt Water\",\"Sanctified Sheep Soul\",\"Sandy Bonemeal\",\"Scalding
-        Sand\",\"Scarab Husk\",\"Scarred Leather\",\"Scopaesthesia\",\"Scuttling Syenite\",\"Seabird
-        Egg\",\"Sea Salt\",\"Seabird Feather\",\"Seagrass\",\"Sealed Blaze\",\"Sentient
+        Sand\",\"Scarab Husk\",\"Scarred Leather\",\"Scopaesthesia\",\"Scuttling Syenite\",\"Sea
+        Salt\",\"Seabird Egg\",\"Seabird Feather\",\"Seagrass\",\"Sealed Blaze\",\"Sentient
         Shadow\",\"Sentient Water\",\"Serpent Tongue\",\"Serpent's Fang\",\"Severed
         Heart\",\"Severed Leg\",\"Sharp Claw\",\"Sharp Edge\",\"Shattered Aspect\",\"Shattered
         Blade\",\"Sheep Hoof\",\"Shimmering Jewel\",\"Shinesting Scorpion Tail\",\"Shining
@@ -150,10 +150,10 @@ interactions:
         Red Wool\",\"Soft Sand\",\"Soft Silk\",\"Soft White Wool\",\"Soft Yellow Wool\",\"Soggy
         Stone\",\"Solcrystal Horn\",\"Sought-After Ore\",\"Soul Essence\",\"Soulbound
         Cinders\",\"Spark of the Oasis\",\"Spellbound Ash\",\"Spider Eggs\",\"Spider
-        Fang\",\"Spider Leg\",\"Spike Residue\",\"Spiked Capsule\",\"Squid\",\"Split
-        Essence\",\"Squid Beak\",\"Squid Brain\",\"Squid Ink\",\"Stack of Coins\",\"Sticky
-        Mudball\",\"Sticky Fern\",\"Stolen Goods\",\"Stolen Harvest\",\"Stolen Pearls\",\"Stolen
-        Seeds\",\"Stone Plating\",\"Stonewalker Core\",\"Storm Horn\",\"Strange Geode\",\"Strange
+        Fang\",\"Spider Leg\",\"Spike Residue\",\"Spiked Capsule\",\"Split Essence\",\"Squid\",\"Squid
+        Beak\",\"Squid Brain\",\"Squid Ink\",\"Stack of Coins\",\"Sticky Mudball\",\"Sticky
+        Fern\",\"Stolen Goods\",\"Stolen Harvest\",\"Stolen Pearls\",\"Stolen Seeds\",\"Stone
+        Plating\",\"Stonewalker Core\",\"Strange Geode\",\"Storm Horn\",\"Strange
         Trinket\",\"Stretched Rawhide\",\"Strong Flesh\",\"Sturdy Flesh\",\"Subsuming
         Darkness\",\"Succulent Crab Meat\",\"Sugar Stick\",\"Swooper Wing\",\"Sylphid
         Tears\",\"Tanned Flesh\",\"Tarnished Gold Foil\",\"Tempered Core\",\"Tender
@@ -164,9 +164,9 @@ interactions:
         Lumps\",\"Toxic Spores\",\"Toxxulous Ripper\u2019s Legs\",\"Transformativity\",\"Troll
         Hair\",\"Truffle\",\"Tungsten Chunk\",\"Turtle Shell\",\"Twisted Organ\",\"Undead
         Heart\",\"Unholy Spirit\",\"Unicorn Horn\",\"Unmeltable Ice\",\"Unsettling
-        Soul\",\"Urdar's Stone\",\"Used Fireball\",\"Victim's Skull\",\"Viking Stone\",\"Vile
-        Stone\",\"Vim Veins\",\"Viral Tentacle\",\"Viscous Slime\",\"Void Essence\",\"Volatile
-        Light\",\"Voidstone Sample\",\"Volatile Matter\",\"Vortex Expulsion\",\"Vortexian
+        Soul\",\"Urdar's Stone\",\"Used Fireball\",\"Victim's Skull\",\"Vile Stone\",\"Viking
+        Stone\",\"Vim Veins\",\"Viral Tentacle\",\"Viscous Slime\",\"Void Essence\",\"Voidstone
+        Sample\",\"Volatile Light\",\"Volatile Matter\",\"Vortex Expulsion\",\"Vortexian
         Event Horizon\",\"Warped Skin\",\"Waterlogged Branch\",\"Watery Aura\",\"Weathered
         Idol\",\"Wendigo Bone\",\"Werewolf Tail\",\"Wind Ornament\",\"Windswept Roots\",\"Windy
         Aura\",\"Wintery Aspect\",\"Wolf Fang\",\"Wood Scrap\",\"Wood Shavings\",\"Wood
@@ -180,7 +180,7 @@ interactions:
       RateLimit-Remaining:
       - '170'
       RateLimit-Reset:
-      - '1'
+      - '18'
     status:
       code: 200
       message: OK

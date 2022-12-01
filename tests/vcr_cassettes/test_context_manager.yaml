@@ -5,12 +5,12 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/2.0.0
+      - Corkus.py/3.0.0
     method: GET
     uri: https://api.wynncraft.com/v2/player/MrBartusekXD/stats
   response:
     body:
-      string: '{"kind":"wynncraft/player/MrBartusekXD/stats","code":200,"timestamp":1669824235690,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-12-28T18:20:06.071Z","location":{"online":false,"server":null},"playtime":2971,"tag":{"display":true,"value":"VIP"},"veteran":false},"characters":{"97d5d260-d18a-4a54-b228-1ea0bc84f079":{"type":"MAGE","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
+      string: '{"kind":"wynncraft/player/MrBartusekXD/stats","code":200,"timestamp":1669923759095,"version":"2.1.0","data":[{"username":"MrBartusekXD","uuid":"0edc3eb6-74d8-49b6-8b2a-3c0782183e3a","rank":"Player","meta":{"firstJoin":"2020-01-11T17:24:29.427Z","lastJoin":"2021-12-28T18:20:06.071Z","location":{"online":false,"server":null},"playtime":2971,"tag":{"display":true,"value":"VIP"},"veteran":false},"characters":{"97d5d260-d18a-4a54-b228-1ea0bc84f079":{"type":"MAGE","level":753,"dungeons":{"completed":56,"list":[{"name":"Decrepit
         Sewers","completed":4},{"name":"Lost Sanctuary","completed":2},{"name":"Underworld
         Crypt","completed":1},{"name":"Ice Barrows","completed":6},{"name":"Sand-Swept
         Tomb","completed":4},{"name":"Undergrowth Ruins","completed":5},{"name":"Galleon''s
@@ -70,7 +70,7 @@ interactions:
       RateLimit-Remaining:
       - '178'
       RateLimit-Reset:
-      - '5'
+      - '21'
     status:
       code: 200
       message: OK

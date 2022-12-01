@@ -5,7 +5,7 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Corkus.py/2.0.0
+      - Corkus.py/3.0.0
     method: GET
     uri: https://api.wynncraft.com/public_api.php?action=guildList
   response:
@@ -1566,7 +1566,7 @@ interactions:
         Wolves","DiamondFire","VASCO DA GAMA","Gilded Sentinels","Cloudy","Consortio","MeAndTheBoys","Bax
         Genesis","WinterRaid","Mercenary","Mystique Dynamic","Night Raids","Shadowlings","Regnnn
         Nation","Naki Rofi","LoomBands","Maximizers","Crimson Rose","Rodoroc","ShadowAbyss","Chair
-        Nation","dewit","Osmium","The Yggdrasil","Narcos","OneHitKill","Heabys","BlackCat","PurgaWynn","Veliria","War
+        Nation","dewit","The Yggdrasil","Narcos","OneHitKill","Heabys","BlackCat","PurgaWynn","Veliria","War
         Criminals","Bread","Kawoo","OrderOfTheGrog","Narnia","Trips","Runeterra","FuzeTea","Cold
         Warriors","Shadow Oath","The Pasta","Mystery Cookies","The Elementals","TheBoys","Duka
         Team","Children of Fruma","blackhole","Walao","Warriors of Hope","Rising Tsunami","GridGang","Tasmanian
@@ -1969,7 +1969,8 @@ interactions:
         fan club","Order of the Blue Moon","CringeConglomeratePact","Cornwood","dwads","Sleep","Teeology","Earthbounders","Laed
         Eaters","Thoringuard","Spatulation","iBlyat","aeternam","Fruit","Followers
         of Capybara","The Kitten Empire","Elden Ring Players","Seaskipper Fanclub","Full
-        Armour Gingers"],"request":{"timestamp":1669824237,"version":1}}'
+        Armour Gingers","Bells Army","Mythic Warriors","HolyRagni","not deehops","The
+        United Wynn Alliance"],"request":{"timestamp":1669923760,"version":1}}'
     headers:
       Cache-Control:
       - max-age=30
@@ -1978,7 +1979,7 @@ interactions:
       RateLimit-Remaining:
       - '175'
       RateLimit-Reset:
-      - '3'
+      - '20'
     status:
       code: 200
       message: OK
