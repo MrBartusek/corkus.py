@@ -5,7 +5,7 @@ Corkus.py follows `semantic versioning <http://semver.org/>`_.
 
 .. py:currentmodule:: corkus
 
-3.0.0 (In development) 
+3.0.0 (2022/12/01) 
 ----------------------
 
 We are making changes due to the `2.0.1 API update <https://forums.wynncraft.com/threads/2-0-1-full-changelog.304461/>`_
