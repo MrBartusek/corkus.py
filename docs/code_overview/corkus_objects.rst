@@ -7,7 +7,7 @@ Working with Corkus Objects
 .. include:: corkus_objects_info.rst
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Objects
 
    objects/armour_defence

@@ -91,7 +91,7 @@ with open("code_overview/corkus_objects.rst", "w") as f:
     f.write(".. include:: corkus_objects_info.rst" + "\n")
     f.write("\n")
     f.write(".. toctree::" + "\n")
-    f.write("   :maxdepth: 2" + "\n")
+    f.write("   :maxdepth: 1" + "\n")
     f.write("   :caption: Objects" + "\n")
     f.write("\n")
     for obj in corkus_objects:
