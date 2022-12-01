@@ -9,9 +9,13 @@ Corkus.py follows `semantic versioning <http://semver.org/>`_.
 3.0.0 (In development) 
 ----------------------
 
+Due to the `2.0.1 API changes <https://forums.wynncraft.com/threads/2-0-1-full-changelog.304461/>`_ is introducing some
+breaking changes around player classes.
+
 - :bdg-danger-line:`BREAKING` Due to recent API changes ``Character.name`` (formerly: ``PlayerClass.name``) was removed.
-- :bdg-warning-line:`Deprecated` :py:attr:`Player.classes` is now deprecated, use :py:attr:`Player.characters` instead.
-- :bdg-warning-line:`Deprecated` :py:attr:`Player.best_class` is now deprecated, use :py:attr:`Player.best_character` instead.
+- :bdg-warning-line:`Deprecated` ``Player.classes`` and ``Player.best_class`` have been deprecated,
+  use :py:attr:`Player.characters` and :py:attr:`Player.best_character` instead. These will now return instancies
+  of :py:class:`Character` which are identical to ``PlayerClass`` excluding the ``name`` property.
 - ``PlayerClass`` was renamed to :py:class:`Character` to match new API schema.
 - ``ClassType`` was renamed to :py:class:`CharacterType` to match new API schema.
 - Add :py:attr:`uuid <Character.uuid>` property to :py:class:`Character` (formerly: ``PlayerClass``).
@@ -41,7 +45,7 @@ Corkus.py follows `semantic versioning <http://semver.org/>`_.
 
 - Add :py:func:`get_member() <Guild.get_member>` function to :py:class:`Guild`.
 - Add :py:attr:`rank <Member.rank>` property to :py:class:`Member`.
-- Add :py:attr:`best_class <Player.best_class>` property to :py:class:`Player`.
+- Add ``best_class <Player.best_class>`` property to :py:class:`Player`.
 - :py:func:`OnlinePlayers.get_player_server` and :py:func:`OnlinePlayers.is_player_online` now accept :py:class:`Member` as argument.
 - Support `Python 3.10 <https://docs.python.org/3/whatsnew/3.10.html>`_
 
