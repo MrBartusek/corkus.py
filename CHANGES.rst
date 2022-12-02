@@ -50,6 +50,8 @@ function to initialize the client.
 
 - Project now uses ``characters`` instead of ``classes`` in documentation.
 
+- Default request timeout was changed to ``60`` seconds.
+
 - Add support for `Python 3.11 <https://docs.python.org/3/whatsnew/3.11.html>`_.
 
 - Update dependencies. You can now use ``aiohttp 3.8.x`` and ``iso8601 1.x``.
