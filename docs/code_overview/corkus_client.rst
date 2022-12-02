@@ -1,4 +1,4 @@
-The Corkus Instance
+The Corkus Client
 ===================
 
 .. py:currentmodule:: corkus

@@ -19,11 +19,22 @@ Key Features
 Installation
 ------------
 
-.. card:: Start using Corkus.py
+.. card:: Install Corkus.py
     :link: install
     :link-type: ref
 
-    Navigate to the installation guide.
+    Navigate to the installation guide. You will learn how to
+    install the newest version of Corkus.py
+
+Quickstart
+------------
+
+.. card:: Start using Corkus.py
+    :link: quickstart
+    :link-type: ref
+
+    Navigate to the quickstart guide. You will make your first application
+    using Corkus.py
 
 Documentation
 -------------
@@ -48,7 +59,7 @@ Corkus documentation is organized into the following sections:
     :maxdepth: 1
     :caption: Code Overview
 
-    code_overview/corkus_instance
+    code_overview/corkus_client
     code_overview/endpoints
     code_overview/corkus_objects
     code_overview/errors

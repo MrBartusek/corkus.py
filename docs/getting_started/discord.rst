@@ -1,5 +1,7 @@
-Creating Discord bot
-====================
+.. _discord:
+
+Creating a Discord Bot
+======================
 
 .. py:currentmodule:: corkus
 
@@ -22,10 +24,10 @@ We' have wrapped whole application intro ``DiscordBot`` class. That will simplif
             super().__init__(intents=intents)
 
         async def on_ready(self):
-            print(f'We have logged in as {client.user}')
+            print(f'We have logged in as {self.user}')
 
         async def on_message(self, message):
-            if message.author == client.user:
+            if message.author == self.user:
                 return
 
             if message.content.startswith('$hello'):
@@ -38,7 +40,7 @@ Now you need to add Corkus constructor and :py:func:`Corkus.start() <Corkus.star
 make any requests using Corkus.
 
 .. code-block:: python
-    :emphasize-lines: 2,9,11,12
+    :emphasize-lines: 2,9,14,15,16,17,18,20,21,22,23,24
 
     import discord
     from corkus import Corkus
@@ -50,14 +52,23 @@ make any requests using Corkus.
             super().__init__(intents=intents)
             self.corkus = Corkus()
 
-        async def setup_hook(self):
-           await self.corkus.start()
-
         async def on_ready(self):
-            print(f'We have logged in as {client.user}')
+            print(f'We have logged in as {self.user}')
+
+        async def setup_hook(self):
+            # setup_hook is a new function added in discord.py 2.0.0. It is used to perform
+            # asynchronous setup after the bot is logged in but before it has connected to
+            # the websocket.
+            await self.corkus.start()
+        
+        async def close(self):
+            # close is called before gracefully shutting down the bot. It will make sure
+            # that any internal processes of the corkus.py will be closed gracefully.
+            await self.corkus.close()
+            await super().close()
 
         async def on_message(self, message):
-            if message.author == client.user:
+            if message.author == self.user:
                 return
 
             if message.content.startswith('$hello'):
@@ -71,7 +82,7 @@ client initialization. Discord.py waits for this function before login to gatewa
 even inside ``on_ready`` function. Now, let's add an command to display Wynncraft players count.
 
 .. code-block:: python
-    :emphasize-lines: 21,22,23
+    :emphasize-lines: 30,31,32
 
     import discord
     from corkus import Corkus
@@ -83,14 +94,23 @@ even inside ``on_ready`` function. Now, let's add an command to display Wynncraf
             super().__init__(intents=intents)
             self.corkus = Corkus()
 
-        async def setup_hook(self):
-           await self.corkus.start()
-
         async def on_ready(self):
-            print(f'We have logged in as {client.user}')
+            print(f'We have logged in as {self.user}')
+
+        async def setup_hook(self):
+            # setup_hook is a new function added in discord.py 2.0.0. It is used to perform
+            # asynchronous setup after the bot is logged in but before it has connected to
+            # the websocket.
+            await self.corkus.start()
+        
+        async def close(self):
+            # close is called before gracefully shutting down the bot. It will make sure
+            # that any internal processes of the corkus.py will be closed gracefully.
+            await self.corkus.close()
+            await super().close()
 
         async def on_message(self, message):
-            if message.author == client.user:
+            if message.author == self.user:
                 return
 
             if message.content.startswith('$online'):
@@ -101,3 +121,17 @@ even inside ``on_ready`` function. Now, let's add an command to display Wynncraf
         client.run('your token here')
 
 Congratulations! You can now use ``$online`` command to display sum of online players!
+
+.. image:: https://i.imgur.com/N454Dl8.png
+
+Next steps
+----------
+
+Next up, you can continue the guide and learn more about :py:class:`The Corkus Client <Corkus>`.
+
+Or you can check out the following resources:
+
+- :ref:`keys`
+- :ref:`ratelimit`
+- :ref:`cache`
+- `GitHub Repository <https://github.com/MrBartusek/corkus.py>`_

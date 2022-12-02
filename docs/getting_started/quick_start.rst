@@ -1,3 +1,5 @@
+.. _quickstart:
+
 Quick Start
 ===========
 
@@ -72,6 +74,7 @@ You don't need to use it, this code works exactly the same:
 
     async def main():
         corkus = Corkus()
+        await corkus.start()
 
         player = await corkus.player.get("MrBartusekXD")
         print(f"username: {player.username}")
@@ -98,3 +101,16 @@ to always be called at the start and end of your application.
     You should use `Context Manager`_ when dealing with smaller scripts and directly
     create and close :class:`.Corkus` instance when dealing with bots or other
     bigger applications.
+
+Next steps
+----------
+
+Next up, you can continue the guide and learn more about :py:class:`The Corkus Client <corkus.Corkus>`.
+
+Or you can check out the following resources:
+
+- :ref:`discord`
+- :ref:`keys`
+- :ref:`ratelimit`
+- :ref:`cache`
+- `GitHub Repository <https://github.com/MrBartusek/corkus.py>`_
