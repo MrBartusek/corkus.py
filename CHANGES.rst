@@ -34,7 +34,7 @@ function to initialize the client.
 - :bdg-danger-line:`BREAKING` Ability to pass custom ``ClientSession`` to :py:class:`Corkus` was removed.
 
 - :bdg-danger-line:`BREAKING` :py:class:`Corkus` configuration option ``ratelimit_enable`` and ``cache_enable``
-  was renamed to ``disable_ratelimit`` and ``disable_cache`` respectively. Their function were reversed and
+  were renamed to ``disable_ratelimit`` and ``disable_cache`` respectively. Their function were reversed and
   are both now respectively disabled by default.
 
 - :bdg-warning-line:`Deprecated` ``Player.classes`` and ``Player.best_class`` were deprecated,
