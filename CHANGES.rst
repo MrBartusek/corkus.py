@@ -1,9 +1,17 @@
 Change Log
 ==========
 
-Corkus.py follows `semantic versioning <http://semver.org/>`_.
+Corkus.py follows `semantic versioning <http://semver.org/>`_. Due to ever changing nature of Wynncraft API only the
+newest version is supported. Please ensure that you are always using the newest version.
 
 .. py:currentmodule:: corkus
+
+3.0.1 (2022/12/02) 
+----------------------
+
+- Update documentation front page.
+- Update documentation guides - :ref:`discord`, :ref:`quickstart`
+- Other minor documentation fixes.
 
 3.0.0 (2022/12/01) 
 ----------------------
