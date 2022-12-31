@@ -1,7 +1,7 @@
 ![corkus banner](https://i.imgur.com/8FjYte1.gif)
 
 [![pypi](https://img.shields.io/pypi/v/corkus.py)](https://pypi.org/project/corkus.py/)
-[![build](https://img.shields.io/github/workflow/status/MrBartusek/corkus.py/build)](https://github.com/MrBartusek/corkus.py/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/MrBartusek/corkus.py/main.yml)](https://github.com/MrBartusek/corkus.py/actions)
 [![docs build](https://img.shields.io/readthedocs/corkuspy)](https://corkuspy.readthedocs.io/en/stable)
 [![Codecov](https://img.shields.io/codecov/c/github/MrBartusek/corkus.py)](https://app.codecov.io/gh/MrBartusek/corkus.py)
 [![python version](https://img.shields.io/pypi/pyversions/corkus.py)](https://pypi.org/project/corkus.py/)
