@@ -11,7 +11,7 @@ same name. For example:
 
     corkus = Corkus(
         timeout = 10,
-        disable_cache = False
+        disable_cache = True
     )
 
 Configuration Options
