@@ -300,9 +300,9 @@ class Item(CorkusBase):
         """Minecraft `block`_/`item`_ ID + optional `data value`_,
         pre-flattening. Format: ``ID:DV``
 
-        .. _block: https://minecraft.fandom.com/wiki/Java_Edition_data_values/Pre-flattening/Block_IDs
-        .. _item: https://minecraft.fandom.com/wiki/Java_Edition_data_values/Pre-flattening/Item_IDs
-        .. _data value: https://minecraft.fandom.com/wiki/Java_Edition_data_values/Pre-flattening"""
+        .. _block: https://minecraft.wiki/w/Java_Edition_data_values/Pre-flattening/Block_IDs
+        .. _item: https://minecraft.wiki/w/Java_Edition_data_values/Pre-flattening/Item_IDs
+        .. _data value: https://minecraft.wiki/w/Java_Edition_data_values/Pre-flattening"""
         if self.skin is not None:
             return "397:3"
 
