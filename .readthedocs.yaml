@@ -12,6 +12,6 @@ sphinx:
   builder: html
 
 python:
-   version: "3.8"
+   version: "3.12"
    install:
    - requirements: docs/requirements.txt
