@@ -9,6 +9,16 @@
 
 # Corkus.py ⚙️
 
+> [!CAUTION]
+> **Corkus.py is no longer maintained**
+>
+> Due to recent changes in the Wynncraft API, Corkus.py is no longer working and will not receive further updates or support. Some endpoints based on the v2 API may still be operational, but those relying on the now-removed v1 API and new v3 API are no longer functioning. Additionally, more features may become broken in the future.
+>
+> I'm unable to recommend any other Python-based wrapper for the Wynncraft API - I don't see any good alternatives. It is strongly advised to not use this project anymore due to its outdated and non-functional state.
+>
+> Thank you to all users and contributors for your support and feedback throughout the lifespan of this project.
+
+
 Asynchronous, feature-rich and easy to use Python wrapper for [Public Wynncraft API](https://docs.wynncraft.com).
 
 ## Key Features
