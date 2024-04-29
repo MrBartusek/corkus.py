@@ -6,6 +6,14 @@ newest version is supported. Please ensure that you are always using the newest 
 
 .. py:currentmodule:: corkus
 
+3.0.3 (2024/04/29) 
+----------------------
+
+Corkus.py is no longer maintained. For more information please see: `README <https://github.com/MrBartusek/corkus.py#readme>`_.
+
+- Add ``DeprecationWarning`` to module ``__init__``
+- Add deprecation notices to ``README.MD`` and ``docs/index.rst``
+
 3.0.1 (2022/12/02) 
 ----------------------
 
