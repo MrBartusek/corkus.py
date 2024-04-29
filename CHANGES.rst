@@ -6,7 +6,7 @@ newest version is supported. Please ensure that you are always using the newest 
 
 .. py:currentmodule:: corkus
 
-3.0.3 (2024/04/29) 
+3.1.0 (2024/04/29) 
 ----------------------
 
 Corkus.py is no longer maintained. For more information please see: `README <https://github.com/MrBartusek/corkus.py#readme>`_.
